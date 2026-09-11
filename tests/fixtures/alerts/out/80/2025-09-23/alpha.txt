@@ -1,0 +1,13 @@
+---
+session: 80
+slug: alpha
+country: Alpha
+speaker: Alice
+title: President
+date: 2025-09-23
+source: pdf_en
+source_url: https://example/alpha_en.pdf
+language: en
+---
+
+Madam President, we must protect women and girls. Gender equality and parity remain our compass. The Security Council must act. Article 99 is clear. We support UN reform and multilateralism. UN80 must deliver.

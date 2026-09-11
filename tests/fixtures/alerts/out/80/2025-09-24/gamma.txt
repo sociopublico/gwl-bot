@@ -1,0 +1,13 @@
+---
+session: 80
+slug: gamma
+country: Gamma
+speaker: Carla
+title: President
+date: 2025-09-24
+source: pdf_en
+source_url: https://example/gamma_en.pdf
+language: en
+---
+
+We mention women once. Nothing else matching lands here besides that single word women at the start.

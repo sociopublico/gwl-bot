@@ -1,0 +1,3 @@
+faster-whisper==1.2.1
+yt-dlp[default]
+numpy>=1.26,<3

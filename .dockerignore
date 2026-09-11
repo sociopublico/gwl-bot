@@ -1,0 +1,16 @@
+.git
+.gitignore
+.env
+.env.example
+README.md
+__pycache__
+*.pyc
+*.pyo
+.venv
+.pytest_cache
+.mypy_cache
+.ruff_cache
+*.md
+pipeline/out
+pipeline/cache
+pipeline/.venv

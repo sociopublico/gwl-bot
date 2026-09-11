@@ -1,0 +1,3 @@
+# Fichas /en/81/{slug} — sesión 81 (2026)
+# Vacío hasta que gadebate publique el archive. Después:
+#   python -m pipeline list --session 81 --refresh

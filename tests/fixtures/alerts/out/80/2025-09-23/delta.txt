@@ -1,0 +1,13 @@
+---
+session: 80
+slug: delta
+country: Delta
+speaker: Diego
+title: President
+date: 2025-09-23
+source: pdf_other
+source_url: https://example/delta_es.pdf
+language: es
+---
+
+Las mujeres y el multilateralismo necesitan reforma. Security Council no aplica acá en español.

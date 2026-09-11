@@ -1,0 +1,32 @@
+id = 81
+year = 2026
+name = "81st session"
+ordinal = "81st"
+
+gadebate_base = "https://gadebate.un.org"
+slug_file = "data/unga81-slugs.txt"
+# Todavía no hay índice: la primera corrida contra fichas reales lo puede generar
+date_index = "data/unga81-dates.json"
+
+debate_dates = [
+  "2026-09-22",
+  "2026-09-23",
+  "2026-09-24",
+  "2026-09-25",
+  "2026-09-26",
+  "2026-09-28",
+]
+
+# Orden UN Journal del día: data/unga81/YYYY-MM-DD.txt
+journal_dir = "data/unga81"
+
+# Cascada: PDF EN → audio EN → PDF original → video Kaltura (último recurso)
+sources = ["pdf_en", "audio_en", "pdf_other", "video"]
+min_pdf_chars = 200
+min_audio_chars = 200
+whisper_model = "base"
+whisper_device = "cpu"
+whisper_compute_type = "int8"
+whisper_beam_size = 1
+whisper_vad = true
+user_agent = "Mozilla/5.0 (compatible; gwl-pipeline/0.1; research)"

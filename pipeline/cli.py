@@ -1,0 +1,244 @@
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from dataclasses import replace
+from pathlib import Path
+
+from pipeline.alerts import DEFAULT_KEYWORDS_PATH, print_alert_report
+from pipeline.config import load_session, load_slugs, write_slugs
+from pipeline.gadebate import refresh_slugs_from_archive
+from pipeline.run import fetch_speeches, select_slugs
+
+
+def _parser() -> argparse.ArgumentParser:
+    common = argparse.ArgumentParser(add_help=False)
+    common.add_argument(
+        "--session",
+        default="80",
+        help="80, 81, unga80, unga81, o ruta a un .toml",
+    )
+    common.add_argument(
+        "--out",
+        default="",
+        help="Directorio de salida (default: pipeline/out)",
+    )
+    parser = argparse.ArgumentParser(
+        prog="pipeline",
+        description="Discursos UNGA: scrape y extracción. Sesión 80 o 81 por config.",
+        parents=[common],
+    )
+    sub = parser.add_subparsers(dest="cmd", required=True)
+
+    sub.add_parser("list", help="Listar slugs de la sesión", parents=[common])
+    refresh = sub.add_parser(
+        "refresh-slugs",
+        help="Intentar rellenar el slug_file desde gadebate sessions-archive",
+        parents=[common],
+    )
+    refresh.add_argument("--write", action="store_true", help="Sobrescribir el slug_file")
+
+    fetch_p = sub.add_parser(
+        "fetch",
+        help="Bajar fichas y extraer texto (pdf_en → audio_en → pdf_other → video)",
+        parents=[common],
+    )
+    fetch_p.add_argument("--day", default="", help="YYYY-MM-DD (día del discurso / UN Journal)")
+    fetch_p.add_argument("--slug", default="", help="Una sola ficha, p.ej. brazil")
+    fetch_p.add_argument("--limit", type=int, default=0, help="Máximo de oradores")
+    fetch_p.add_argument(
+        "--metadata-only",
+        action="store_true",
+        help="Solo scrape de la ficha, no baja PDFs",
+    )
+    fetch_p.add_argument(
+        "--sources",
+        default="",
+        help="Cascada, p.ej. pdf_en,audio_en,pdf_other (default: la del TOML; video es último recurso)",
+    )
+    fetch_p.add_argument(
+        "--skip-existing",
+        action="store_true",
+        help="No re-extraer slugs que ya tienen .txt",
+    )
+
+    alerts_p = sub.add_parser(
+        "alerts",
+        help="Simular cuántos mails de alerta saldrían por día sobre discursos extraídos",
+        parents=[common],
+    )
+    alerts_p.add_argument(
+        "--keywords",
+        default="",
+        help=f"TOML de keywords (default: {DEFAULT_KEYWORDS_PATH})",
+    )
+    alerts_p.add_argument(
+        "--all-languages",
+        action="store_true",
+        help="Incluir discursos que no están en inglés",
+    )
+    alerts_p.add_argument("--json", action="store_true", help="Salida JSON")
+
+    pub = sub.add_parser(
+        "publish",
+        help="Versionar txt en GitHub y/o append a Google Sheets (Metadata)",
+        parents=[common],
+    )
+    pub.add_argument("--day", default="", help="YYYY-MM-DD")
+    pub.add_argument("--slug", default="", help="Una sola ficha")
+    pub.add_argument(
+        "--github",
+        action="store_true",
+        help="git add + commit + push de los .txt del día",
+    )
+    pub.add_argument(
+        "--sheet",
+        action="store_true",
+        help="Append idempotente a la pestaña Metadata (service account)",
+    )
+    pub.add_argument(
+        "--no-csv",
+        action="store_true",
+        help="No escribir metadata.csv local",
+    )
+    return parser
+
+
+def main(argv: list[str] | None = None) -> int:
+    args = _parser().parse_args(argv)
+    config = load_session(args.session)
+    dest = Path(args.out) if args.out else None
+
+    if args.cmd == "list":
+        slugs = load_slugs(config)
+        print(
+            f"{config.name} id={config.id} slugs={len(slugs)} "
+            f"fechas={', '.join(config.debate_dates) or '—'}",
+            file=sys.stderr,
+        )
+        for slug in slugs:
+            print(slug)
+        if not slugs:
+            print(
+                "Sin slugs. Para 81: esperá el archive o corre refresh-slugs.",
+                file=sys.stderr,
+            )
+        return 0
+
+    if args.cmd == "refresh-slugs":
+        try:
+            slugs = refresh_slugs_from_archive(config)
+        except Exception as exc:
+            print(f"error: {exc}", file=sys.stderr)
+            return 1
+        print(f"{len(slugs)} fichas en el archive de la sesión {config.id}")
+        if args.write:
+            write_slugs(config, slugs)
+            print(f"escrito {config.slug_file}")
+        else:
+            for slug in slugs:
+                print(slug)
+        return 0
+
+    if args.cmd == "alerts":
+        keywords = Path(args.keywords) if args.keywords else DEFAULT_KEYWORDS_PATH
+        print_alert_report(
+            config,
+            keywords_path=keywords,
+            dest=dest,
+            english_only=not args.all_languages,
+            as_json=args.json,
+        )
+        return 0
+
+    if args.cmd == "fetch":
+        if args.sources:
+            sources = tuple(part.strip() for part in args.sources.split(",") if part.strip())
+            unknown = [s for s in sources if s not in {"pdf_en", "audio_en", "pdf_other", "video"}]
+            if unknown:
+                print(f"error: sources desconocidos: {unknown}", file=sys.stderr)
+                return 1
+            config = replace(config, sources=sources)
+        limit = args.limit or None
+        day = args.day or None
+        slug = args.slug or None
+        planned = select_slugs(config, day=day, slug=slug, limit=limit)
+        print(
+            f"sesión {config.id} ({config.name}) a extraer: {len(planned)}",
+            file=sys.stderr,
+        )
+        results = fetch_speeches(
+            config,
+            day=day,
+            slug=slug,
+            limit=limit,
+            dest=dest,
+            metadata_only=args.metadata_only,
+            skip_existing=args.skip_existing,
+        )
+        ok = 0
+        skipped = 0
+        errors = 0
+        for item in results:
+            page = item.page
+            if page.error:
+                errors += 1
+                print(f"FAIL {page.slug} {page.error}", file=sys.stderr)
+                continue
+            if item.skip == "already extracted":
+                skipped += 1
+                print(f"SKIP {page.slug} {item.skip}", file=sys.stderr)
+                continue
+            assets = []
+            if page.pdf_en:
+                assets.append("pdf_en")
+            if page.audio_en:
+                assets.append("audio_en")
+            if page.pdf_other:
+                assets.append("pdf_other")
+            if page.video_entry_id:
+                assets.append("video")
+            print(
+                f"FICHA {page.slug} date={page.speech_date or '?'} "
+                f"{page.country} | {page.name} | {','.join(assets) or 'sin archivos'}",
+                file=sys.stderr,
+            )
+            if item.speech:
+                ok += 1
+                print(
+                    f"OK   {page.slug} source={item.speech.source} chars={len(item.speech.text)}",
+                    file=sys.stderr,
+                )
+            elif item.skip and not args.metadata_only:
+                skipped += 1
+                print(f"SKIP {page.slug} {item.skip}", file=sys.stderr)
+        print(
+            json.dumps({"fetched": len(results), "ok": ok, "skipped": skipped, "errors": errors}),
+            file=sys.stderr,
+        )
+        return 0 if errors == 0 else 2
+
+    if args.cmd == "publish":
+        from pipeline.publish import publish_day
+
+        day = args.day or None
+        slug = args.slug or None
+        if not day and not slug:
+            print("error: publish requiere --day o --slug", file=sys.stderr)
+            return 1
+        return publish_day(
+            config,
+            day=day,
+            slug=slug,
+            dest=dest,
+            do_github=args.github,
+            do_sheet=args.sheet,
+            write_csv=not args.no_csv,
+        )
+
+    return 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

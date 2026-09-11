@@ -1,0 +1,17 @@
+services:
+  monitor:
+    build: .
+    env_file:
+      - .env
+    environment:
+      OMP_NUM_THREADS: ${CPU_THREADS:-4}
+    restart: unless-stopped
+    init: true
+    stop_grace_period: 20s
+    volumes:
+      - whisper-models:/root/.cache/huggingface
+      # Lista de oradores (un nombre por línea):
+      - ./speakers.txt:/speakers.txt:ro
+
+volumes:
+  whisper-models:

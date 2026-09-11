@@ -1,0 +1,13 @@
+---
+session: 80
+slug: beta
+country: Beta
+speaker: Bob
+title: President
+date: 2025-09-23
+source: pdf_en
+source_url: https://example/beta_en.pdf
+language: en
+---
+
+Excellencies, climate reform cannot wait. Women lead that work. The United Nations Charter and the Security Council need courage. Multilateral solutions first.

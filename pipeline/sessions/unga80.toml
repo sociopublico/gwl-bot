@@ -1,0 +1,38 @@
+id = 80
+year = 2025
+name = "80th session"
+ordinal = "80th"
+
+gadebate_base = "https://gadebate.un.org"
+# Las fichas viven en {gadebate_base}/en/{id}/{slug}
+slug_file = "data/unga80-slugs.txt"
+# Índice opcional slug → YYYY-MM-DD para no bajar las 195 fichas si --day
+date_index = "data/unga80-dates.json"
+
+debate_dates = [
+  "2025-09-23",
+  "2025-09-24",
+  "2025-09-25",
+  "2025-09-26",
+  "2025-09-27",
+  "2025-09-29",
+]
+
+# Orden UN Journal del día: data/unga80/YYYY-MM-DD.txt
+journal_dir = "data/unga80"
+
+# Cascada: PDF EN → audio EN → PDF original → video Kaltura (último recurso)
+sources = ["pdf_en", "audio_en", "pdf_other", "video"]
+
+# PDF escaneado o casi vacío: no cuenta como texto usable
+min_pdf_chars = 200
+min_audio_chars = 200
+
+# Mismos defaults que el bot en vivo; WHISPER_* en .env los pisa
+whisper_model = "base"
+whisper_device = "cpu"
+whisper_compute_type = "int8"
+whisper_beam_size = 1
+whisper_vad = true
+
+user_agent = "Mozilla/5.0 (compatible; gwl-pipeline/0.1; research)"

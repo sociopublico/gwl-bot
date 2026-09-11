@@ -1,0 +1,17 @@
+cooldown_seconds = 120
+chunk_seconds = 20
+chunk_overlap_seconds = 0
+words_per_minute = 120
+speech_gap_seconds = 0
+
+[[group]]
+name = "gender"
+keywords = ["women", "girls", "gender", "parity"]
+
+[[group]]
+name = "reform"
+keywords = ["un reform", "reform"]
+
+[[group]]
+name = "security_council"
+keywords = ["security council", "article 99"]
