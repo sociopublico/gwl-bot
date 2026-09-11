@@ -5,9 +5,24 @@ from pathlib import Path
 
 from pipeline.config import PIPELINE_ROOT
 
+# El .env del repo pisa estas claves: si no, un export viejo de bashrc
+# (otro JSON de service account) hace que publish --sheet no vea las credenciales.
+_OVERRIDE_FROM_DOTENV = {
+    "GOOGLE_SHEETS_SPREADSHEET_ID",
+    "GOOGLE_SHEETS_METADATA_TAB",
+    "GOOGLE_SHEETS_COUNTRY_TAB",
+    "GOOGLE_SHEETS_COUNTRY_CSV",
+    "GOOGLE_APPLICATION_CREDENTIALS",
+    "GITHUB_REPO",
+    "GITHUB_BRANCH",
+    "GITHUB_TOKEN",
+    "GH_TOKEN",
+    "GITHUB_TRANSCRIPT_STYLE",
+}
+
 
 def load_dotenv(path: Path | None = None) -> None:
-    """Carga claves de .env que todavía no están en el entorno."""
+    """Carga claves de .env. Las de Sheets pisan el entorno; el resto no."""
     env_path = path or (PIPELINE_ROOT.parent / ".env")
     if not env_path.is_file():
         return
@@ -17,6 +32,14 @@ def load_dotenv(path: Path | None = None) -> None:
             continue
         key, _, value = line.partition("=")
         key = key.strip()
-        if not key or key in os.environ:
+        if not key:
             continue
-        os.environ[key] = value.strip().strip('"').strip("'")
+        parsed = value.strip().strip('"').strip("'")
+        if key not in _OVERRIDE_FROM_DOTENV and key in os.environ:
+            continue
+        if key == "GOOGLE_APPLICATION_CREDENTIALS":
+            incoming = Path(parsed)
+            current = os.environ.get(key, "")
+            if not incoming.is_file() and current and Path(current).is_file():
+                continue
+        os.environ[key] = parsed

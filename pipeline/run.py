@@ -1,19 +1,27 @@
 from __future__ import annotations
 
 import re
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 
 from pipeline.cascade import SourceUnavailable
 from pipeline.config import SessionConfig, load_date_index, load_slugs
 from pipeline.extract_audio import transcribe_audio_file
+from pipeline.extract_ocr import ocr_pdf_text, tesseract_lang_for
 from pipeline.extract_pdf import extract_pdf_text
 from pipeline.gadebate import scrape_speaker
 from pipeline.http import fetch
 from pipeline.journal import load_journal_slugs
 from pipeline.metadata import transformation_for
 from pipeline.models import ExtractedSpeech, FileRef, SpeakerPage
-from pipeline.store import append_manifest, find_existing_speech, out_dir, write_speech
+from pipeline.store import (
+    append_manifest,
+    find_existing_speech,
+    is_english_transcript,
+    out_dir,
+    write_speech,
+)
 
 _LANG_IN_NAME = re.compile(r"_([a-z]{2})(?:\.pdf|\.mp3)$", re.I)
 
@@ -50,6 +58,7 @@ def _speech(
     source_url: str,
     language: str,
     text: str,
+    transformation: str | None = None,
 ) -> ExtractedSpeech:
     original = original_language_for(page)
     return ExtractedSpeech(
@@ -65,7 +74,7 @@ def _speech(
         text=text,
         speaker_title=page.speaker_title,
         original_language=original,
-        transformation=transformation_for(source),
+        transformation=transformation or transformation_for(source),
     )
 
 
@@ -101,6 +110,19 @@ def select_slugs(
     return slugs
 
 
+def _asset_labels(page: SpeakerPage) -> str:
+    assets: list[str] = []
+    if page.pdf_en:
+        assets.append("pdf_en")
+    if page.audio_en:
+        assets.append("audio_en")
+    if page.pdf_other:
+        assets.append("pdf_other")
+    if page.video_entry_id:
+        assets.append("video")
+    return ",".join(assets) or "sin archivos"
+
+
 def _cache_path(config: SessionConfig, filename: str) -> Path:
     path = config.root / "cache" / str(config.id) / filename
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -125,6 +147,11 @@ def extract_from_page(
             return speech
         except SourceUnavailable as exc:
             errors.append(str(exc))
+            print(
+                f"  {source} no usable: {exc}",
+                file=sys.stderr,
+                flush=True,
+            )
             continue
     raise SourceUnavailable("; ".join(errors) or "ningún origen de la cascada está disponible")
 
@@ -168,11 +195,50 @@ def _extract_source(
             )
     else:
         text = extract_pdf_text(blob)
+        used_ocr = False
         if len(text) < config.min_pdf_chars:
-            raise SourceUnavailable(
-                f"{source} tiene solo {len(text)} caracteres "
-                f"(mínimo {config.min_pdf_chars}); probable PDF escaneado"
+            iso = language_for(source, ref)
+            tess_lang = "eng" if source == "pdf_en" else tesseract_lang_for(iso)
+            ocr_cache = cache.with_name(f"{cache.stem}.ocr.txt")
+            text = ocr_pdf_text(
+                blob,
+                lang=tess_lang,
+                cache_path=ocr_cache,
+                label=ref.filename,
             )
+            used_ocr = True
+        if len(text) < config.min_pdf_chars:
+            if not text.strip():
+                raise SourceUnavailable(
+                    f"{source} ({ref.filename}): sin texto extraíble "
+                    "(pypdf/OCR vacíos); sigo la cascada"
+                )
+            raise SourceUnavailable(
+                f"{source} ({ref.filename}) tiene solo {len(text)} caracteres "
+                f"(mínimo {config.min_pdf_chars}); probable PDF ilegible"
+            )
+        if source == "pdf_other":
+            from pipeline.translate import translate_to_english
+
+            text = translate_to_english(text, source_lang=language_for(source, ref))
+            return _speech(
+                config,
+                page,
+                source=source,
+                source_url=ref.url,
+                language="en",
+                text=text,
+                transformation="translate",
+            )
+        return _speech(
+            config,
+            page,
+            source=source,
+            source_url=ref.url,
+            language=language_for(source, ref),
+            text=text,
+            transformation="ocr" if used_ocr else None,
+        )
     return _speech(
         config,
         page,
@@ -208,13 +274,22 @@ def _extract_video(config: SessionConfig, page: SpeakerPage) -> ExtractedSpeech:
             f"video tiene solo {len(text)} caracteres "
             f"(mínimo {config.min_audio_chars})"
         )
+    xf = "whisper"
+    lang = original if original != "und" else "und"
+    if original not in {"", "und", "en"}:
+        from pipeline.translate import translate_to_english
+
+        text = translate_to_english(text, source_lang=original)
+        xf = "translate"
+        lang = "en"
     return _speech(
         config,
         page,
         source="video",
         source_url=kaltura_play_url(page.video_entry_id, page.video_partner_id),
-        language=original if original != "und" else "und",
+        language=lang,
         text=text,
+        transformation=xf,
     )
 
 
@@ -231,7 +306,8 @@ def fetch_speeches(
     slugs = select_slugs(config, day=day, slug=slug, limit=limit)
     items: list[FetchItem] = []
     for item in slugs:
-        if skip_existing and find_existing_speech(config, item, dest=dest):
+        existing = find_existing_speech(config, item, dest=dest)
+        if skip_existing and existing and is_english_transcript(existing):
             items.append(
                 FetchItem(
                     page=SpeakerPage(
@@ -250,6 +326,12 @@ def fetch_speeches(
         page = scrape_speaker(config, item)
         if day and page.speech_date and page.speech_date != day:
             continue
+        print(
+            f"FICHA {page.slug} date={page.speech_date or '?'} "
+            f"{page.country} | {page.name} | {_asset_labels(page)}",
+            file=sys.stderr,
+            flush=True,
+        )
         if metadata_only or page.error:
             items.append(FetchItem(page=page, skip=page.error))
             continue

@@ -16,7 +16,13 @@ from pipeline.metadata import (
     next_speech_id,
 )
 from pipeline.models import ExtractedSpeech
-from pipeline.publish import _parse_github_remote, transcript_url_for, write_metadata_csv
+from pipeline.publish import (
+    _git_push_cmd,
+    _parse_github_remote,
+    _redact_secret,
+    transcript_url_for,
+    write_metadata_csv,
+)
 from pipeline.sheets import existing_keys
 from pipeline.store import parse_speech_txt, speech_to_txt
 
@@ -162,20 +168,67 @@ class MetadataRowTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             dest = Path(tmp)
             write_speech(speech, out_dir(config, speech.speech_date, dest=dest))
-            code = publish_day(
-                config,
-                day="2025-09-24",
-                dest=dest,
-                do_github=False,
-                do_sheet=True,
-                write_csv=True,
-            )
+            with patch("pipeline.sheets.can_write_sheets", return_value=False):
+                with patch(
+                    "pipeline.sheets.sheets_unavailable_reason",
+                    return_value="test sin sheet",
+                ):
+                    code = publish_day(
+                        config,
+                        day="2025-09-24",
+                        dest=dest,
+                        do_github=False,
+                        do_sheet=True,
+                        write_csv=True,
+                    )
             self.assertEqual(code, 0)
             csv_path = dest / "80" / "2025-09-24" / "metadata.csv"
             self.assertTrue(csv_path.is_file())
             body = csv_path.read_text(encoding="utf-8")
             self.assertIn("M_1", body)
             self.assertIn("KEN", body)
+
+
+class DotenvSheetsTest(unittest.TestCase):
+    def test_env_overrides_stale_google_credentials(self) -> None:
+        from pipeline.env import load_dotenv
+
+        with tempfile.TemporaryDirectory() as tmp:
+            json_path = Path(tmp) / "sa.json"
+            json_path.write_text("{}", encoding="utf-8")
+            env_path = Path(tmp) / ".env"
+            env_path.write_text(
+                f"GOOGLE_APPLICATION_CREDENTIALS={json_path}\n"
+                "GOOGLE_SHEETS_SPREADSHEET_ID=abc123\n",
+                encoding="utf-8",
+            )
+            stale = {
+                "GOOGLE_APPLICATION_CREDENTIALS": "/no/existe.json",
+                "GOOGLE_SHEETS_SPREADSHEET_ID": "old",
+            }
+            with patch.dict(os.environ, stale, clear=False):
+                load_dotenv(env_path)
+                self.assertEqual(os.environ["GOOGLE_APPLICATION_CREDENTIALS"], str(json_path))
+                self.assertEqual(os.environ["GOOGLE_SHEETS_SPREADSHEET_ID"], "abc123")
+
+    def test_keeps_container_credentials_if_dotenv_path_missing(self) -> None:
+        from pipeline.env import load_dotenv
+
+        with tempfile.TemporaryDirectory() as tmp:
+            real_json = Path(tmp) / "container.json"
+            real_json.write_text("{}", encoding="utf-8")
+            env_path = Path(tmp) / ".env"
+            env_path.write_text(
+                "GOOGLE_APPLICATION_CREDENTIALS=/home/agus/host-only.json\n",
+                encoding="utf-8",
+            )
+            with patch.dict(
+                os.environ,
+                {"GOOGLE_APPLICATION_CREDENTIALS": str(real_json)},
+                clear=False,
+            ):
+                load_dotenv(env_path)
+                self.assertEqual(os.environ["GOOGLE_APPLICATION_CREDENTIALS"], str(real_json))
 
 
 class GithubUrlTest(unittest.TestCase):
@@ -195,13 +248,29 @@ class GithubUrlTest(unittest.TestCase):
             url,
             "https://github.com/org/gwl-bot/blob/main/pipeline/out/81/2026-09-22/kenya.txt",
         )
-        with patch.dict(os.environ, {"GITHUB_TRANSCRIPT_STYLE": "raw"}):
-            raw = transcript_url_for(
-                "pipeline/out/81/2026-09-22/kenya.txt",
-                repo="org/gwl-bot",
-                branch="main",
-            )
+        with patch("pipeline.publish.load_dotenv"):
+            with patch.dict(os.environ, {"GITHUB_TRANSCRIPT_STYLE": "raw"}):
+                raw = transcript_url_for(
+                    "pipeline/out/81/2026-09-22/kenya.txt",
+                    repo="org/gwl-bot",
+                    branch="main",
+                )
         self.assertTrue(raw.startswith("https://raw.githubusercontent.com/"))
+
+    def test_push_uses_token_without_leaking_it(self) -> None:
+        with patch.dict(
+            os.environ,
+            {"GITHUB_TOKEN": "secret-token", "GITHUB_REPO": "org/gwl-bot"},
+            clear=False,
+        ):
+            cmd = _git_push_cmd(Path("."))
+        self.assertEqual(cmd[0:2], ["git", "push"])
+        self.assertIn("secret-token", cmd[2])
+        self.assertIn("github.com/org/gwl-bot.git", cmd[2])
+        self.assertEqual(
+            _redact_secret("fatal: secret-token rejected", "secret-token"),
+            "fatal: *** rejected",
+        )
 
 
 class KalturaUrlTest(unittest.TestCase):

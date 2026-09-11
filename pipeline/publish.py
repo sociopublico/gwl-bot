@@ -74,6 +74,45 @@ def transcript_url_for(relpath: str, *, repo: str = "", branch: str = "") -> str
     return f"https://github.com/{repo}/blob/{branch}/{rel}"
 
 
+def _git_identity() -> tuple[str, str]:
+    name = (
+        os.environ.get("GIT_AUTHOR_NAME")
+        or os.environ.get("GIT_COMMITTER_NAME")
+        or "gwl-pipeline"
+    )
+    email = (
+        os.environ.get("GIT_AUTHOR_EMAIL")
+        or os.environ.get("GIT_COMMITTER_EMAIL")
+        or "gwl-bot@users.noreply.github.com"
+    )
+    return name, email
+
+
+def _github_token() -> str:
+    return (os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN") or "").strip()
+
+
+def _redact_secret(text: str, secret: str) -> str:
+    if not secret:
+        return text
+    return text.replace(secret, "***")
+
+
+def _git_push_cmd(cwd: Path) -> list[str]:
+    token = _github_token()
+    repo = os.environ.get("GITHUB_REPO", "").strip()
+    if not repo:
+        repo, _ = github_repo_and_branch(cwd)
+    if token and repo:
+        return [
+            "git",
+            "push",
+            f"https://x-access-token:{token}@github.com/{repo}.git",
+            "HEAD",
+        ]
+    return ["git", "push"]
+
+
 def publish_github(paths: list[Path], *, message: str, root: Path | None = None) -> bool:
     """git add + commit + push de los .txt del día. True si hubo commit."""
     cwd = root or PIPELINE_ROOT.parent
@@ -103,10 +142,24 @@ def publish_github(paths: list[Path], *, message: str, root: Path | None = None)
         check=False,
     )
     if not (status.stdout or "").strip():
-        print("github: nada nuevo para commitear", file=sys.stderr)
+        print(
+            f"github: {len(rels)} txt ya están en el repo, sin cambios "
+            "(no hay commit nuevo; eso es esperado si fetch no reescribió archivos)",
+            file=sys.stderr,
+        )
         return False
+    name, email = _git_identity()
     commit = subprocess.run(
-        ["git", "commit", "-m", message],
+        [
+            "git",
+            "-c",
+            f"user.name={name}",
+            "-c",
+            f"user.email={email}",
+            "commit",
+            "-m",
+            message,
+        ],
         cwd=cwd,
         capture_output=True,
         text=True,
@@ -114,10 +167,12 @@ def publish_github(paths: list[Path], *, message: str, root: Path | None = None)
     if commit.returncode != 0:
         print(f"github commit falló: {commit.stderr.strip() or commit.stdout}", file=sys.stderr)
         return False
-    push = subprocess.run(["git", "push"], cwd=cwd, capture_output=True, text=True)
+    push_cmd = _git_push_cmd(cwd)
+    push = subprocess.run(push_cmd, cwd=cwd, capture_output=True, text=True)
     if push.returncode != 0:
+        err = _redact_secret(push.stderr.strip() or push.stdout, _github_token())
         print(
-            f"github push falló (el commit local está hecho): {push.stderr.strip() or push.stdout}",
+            f"github push falló (el commit local está hecho): {err}",
             file=sys.stderr,
         )
         return True
@@ -250,9 +305,10 @@ def publish_day(
         print("publish: no hay .txt extraídos para esos filtros", file=sys.stderr)
         return 1
     txts = [path for _, path in items]
+    github_committed = False
     if do_github:
         label = day or slug or "speeches"
-        publish_github(
+        github_committed = publish_github(
             txts,
             message=f"Add UNGA {config.id} transcripts for {label}",
         )
@@ -278,9 +334,10 @@ def publish_day(
                 print(f"sheet: no pude leer Metadata ({exc})", file=sys.stderr)
                 do_sheet = False
         else:
+            from pipeline.sheets import sheets_unavailable_reason
+
             print(
-                "sheet: sin GOOGLE_SHEETS_SPREADSHEET_ID o JSON de service account; "
-                "escribo CSV local. El link 2PACX solo sirve para leer, no para append.",
+                f"sheet: {sheets_unavailable_reason(settings)}; escribo CSV local.",
                 file=sys.stderr,
             )
             do_sheet = False
@@ -311,8 +368,12 @@ def publish_day(
         except SheetsError as exc:
             print(f"sheet: {exc}", file=sys.stderr)
             return 2
+    if do_github:
+        github_label = "commit+push" if github_committed else "sin cambios"
+    else:
+        github_label = "no"
     print(
-        f"publish filas={len(rows)} github={'sí' if do_github else 'no'} "
+        f"publish filas={len(rows)} github={github_label} "
         f"sheet={'sí' if do_sheet else 'no'}",
         file=sys.stderr,
     )

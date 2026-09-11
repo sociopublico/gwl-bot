@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import logging
 import re
+import unicodedata
 from io import BytesIO
 
 _PAGE_CHROME = re.compile(
@@ -29,7 +31,7 @@ _LETTERHEAD = re.compile(
         | the\ secretary-general$
         | permanent\ mission\b
         | fuente:.*
-        | source:.*
+        | updated\s+\d{4}
         | publicado\ em\b
         | atualizado\ em\b
         | https?://
@@ -43,6 +45,15 @@ _LETTERHEAD = re.compile(
     re.I | re.X,
 )
 _SPACED_LETTERHEAD = re.compile(r"^(?:[A-Z]\s+){4,}[A-Z].*$")
+_PRINT_CHROME = re.compile(
+    r"""
+    ^(?:
+        \d{1,2}/\d{1,2}/\d{2,4},?\s+\d{1,2}:\d{2}\s*(?:[ap]m)?\b
+        | news$
+    )
+    """,
+    re.I | re.X,
+)
 _CID_NOISE = re.compile(r"/\d+")
 _GREETING = re.compile(
     r"""
@@ -66,6 +77,7 @@ _SPEECH_START = re.compile(
     ^(?:
         -?\s*madam(?:e)?(?:\s+la)?(?:\s+pr[eé]sident[ae]?|\s+first)?
         | -?\s*mr\.?\s+(?:president|secretary)
+        | -?\s*mister\s+president
         | -?\s*ms\.?\s+president
         | -?\s*the\s+president\s+of\s+the
         | -?\s*president\s+of\s+the\s+\d+
@@ -96,6 +108,9 @@ _FINISHED = re.compile(r"""[.!?…؟۔]["'”’»)]*$""")
 _NEW_BLOCK = re.compile(r"^(?:\d+\.\s|-+\s)")
 
 
+_CID_TOKEN = re.compile(r"/i?\d+")
+
+
 def extract_pdf_text(blob: bytes) -> str:
     try:
         from pypdf import PdfReader
@@ -103,6 +118,7 @@ def extract_pdf_text(blob: bytes) -> str:
         raise RuntimeError(
             "Falta pypdf. Instalalo con: pip install -r pipeline/requirements.txt"
         ) from exc
+    logging.getLogger("pypdf").setLevel(logging.ERROR)
     reader = PdfReader(BytesIO(blob))
     parts: list[str] = []
     for page in reader.pages:
@@ -112,7 +128,21 @@ def extract_pdf_text(blob: bytes) -> str:
     # Una sola secuencia de líneas: el salto de página no es un párrafo.
     text = "\n".join(parts)
     text = "\n".join(line.rstrip() for line in text.splitlines())
+    if is_cid_garbage(text):
+        return ""
     return clean_pdf_text(text)
+
+
+def is_cid_garbage(text: str) -> bool:
+    """True si el PDF tiene capa de texto pero fuentes CID sin Unicode (pypdf saca /0/1/2)."""
+    raw = (text or "").strip()
+    if not raw:
+        return False
+    tokens = _CID_TOKEN.findall(raw)
+    if len(tokens) < 20:
+        return False
+    letters = sum(1 for c in raw if c.isalpha() and c not in "iI")
+    return letters < max(20, len(tokens) // 5)
 
 
 # PGA en el podio (audio EN): "The Assembly will hear an address by His/Her Excellency…"
@@ -175,6 +205,7 @@ def clean_pdf_text(text: str) -> str:
 
 
 def _normalize_line(line: str) -> str:
+    line = unicodedata.normalize("NFKC", line)
     line = line.replace("\xa0", " ").replace("\u2009", " ").replace("\u202f", " ")
     line = line.replace("\u00ad", "")  # soft hyphen
     return re.sub(r"[ \t]+", " ", line).strip()
@@ -202,6 +233,8 @@ def _is_drop_line(line: str) -> bool:
     if _PAGE_CHROME.match(line):
         return True
     if _SPACED_LETTERHEAD.match(line):
+        return True
+    if _PRINT_CHROME.match(line):
         return True
     if _LETTERHEAD.match(line):
         return True

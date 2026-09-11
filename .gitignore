@@ -9,6 +9,8 @@ __pycache__/
 .idea/
 .vscode/
 pipeline/cache/
+pipeline/tools/
+pipeline/data/protocol/*.pdf
 pipeline/.venv/
 # Versionar solo los .txt de discursos; manifests y CSV locales no
 pipeline/out/**
@@ -16,4 +18,5 @@ pipeline/out/**
 !pipeline/out/**/*.txt
 # Google service account JSON (nunca commitear)
 gwl-bot-*.json
+secrets/*.json
 

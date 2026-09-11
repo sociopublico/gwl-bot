@@ -379,6 +379,18 @@ Recomendaciones para el Droplet:
 - No hace falta GPU ni nginx para este POC.
 - Para actualizar yt-dlp tras un cambio de YouTube: rebuild de la imagen.
 
+## 13. Pipeline UNGA (otro servidor)
+
+El scrape de discursos **no** usa el compose del monitor. Imagen aparte:
+
+Ver [`pipeline/README.md`](pipeline/README.md).
+
+```bash
+docker compose -f docker-compose.pipeline.yml build
+docker compose -f docker-compose.pipeline.yml run --rm pipeline fetch --session 81 --day 2026-09-22
+docker compose -f docker-compose.pipeline.yml run --rm pipeline publish --session 81 --day 2026-09-22 --github --sheet
+```
+
 Cookies opcionales:
 
 ```yaml

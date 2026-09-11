@@ -39,9 +39,20 @@ def _parser() -> argparse.ArgumentParser:
     )
     refresh.add_argument("--write", action="store_true", help="Sobrescribir el slug_file")
 
+    proto = sub.add_parser(
+        "refresh-protocol",
+        help="Bajar el PDF de Protocolo UN (HS/HG/MFA) y actualizar speaker_level/género",
+        parents=[common],
+    )
+    proto.add_argument(
+        "--pdf",
+        default="",
+        help="PDF local (default: baja hspmfmlist_0.pdf de un.org)",
+    )
+
     fetch_p = sub.add_parser(
         "fetch",
-        help="Bajar fichas y extraer texto (pdf_en → audio_en → pdf_other → video)",
+        help="Bajar fichas y extraer texto (pdf_en → audio_en → pdf_other traducido → video)",
         parents=[common],
     )
     fetch_p.add_argument("--day", default="", help="YYYY-MM-DD (día del discurso / UN Journal)")
@@ -60,7 +71,7 @@ def _parser() -> argparse.ArgumentParser:
     fetch_p.add_argument(
         "--skip-existing",
         action="store_true",
-        help="No re-extraer slugs que ya tienen .txt",
+        help="No re-extraer slugs que ya tienen .txt en inglés",
     )
 
     alerts_p = sub.add_parser(
@@ -141,6 +152,22 @@ def main(argv: list[str] | None = None) -> int:
                 print(slug)
         return 0
 
+    if args.cmd == "refresh-protocol":
+        from pipeline.protocol import layout_from_pdf, parse_protocol_layout, refresh_protocol, write_protocol_index
+
+        try:
+            if args.pdf:
+                countries = parse_protocol_layout(layout_from_pdf(Path(args.pdf)))
+                path = write_protocol_index(countries)
+                n = len(countries)
+            else:
+                path, n = refresh_protocol(user_agent=config.user_agent)
+        except Exception as exc:
+            print(f"error: {exc}", file=sys.stderr)
+            return 1
+        print(f"{n} países en {path}")
+        return 0
+
     if args.cmd == "alerts":
         keywords = Path(args.keywords) if args.keywords else DEFAULT_KEYWORDS_PATH
         print_alert_report(
@@ -190,20 +217,6 @@ def main(argv: list[str] | None = None) -> int:
                 skipped += 1
                 print(f"SKIP {page.slug} {item.skip}", file=sys.stderr)
                 continue
-            assets = []
-            if page.pdf_en:
-                assets.append("pdf_en")
-            if page.audio_en:
-                assets.append("audio_en")
-            if page.pdf_other:
-                assets.append("pdf_other")
-            if page.video_entry_id:
-                assets.append("video")
-            print(
-                f"FICHA {page.slug} date={page.speech_date or '?'} "
-                f"{page.country} | {page.name} | {','.join(assets) or 'sin archivos'}",
-                file=sys.stderr,
-            )
             if item.speech:
                 ok += 1
                 print(

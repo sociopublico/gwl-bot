@@ -8,7 +8,8 @@ from unittest.mock import patch
 from pipeline.cascade import SourceUnavailable, choose_source
 from pipeline.config import load_session, load_slugs
 from pipeline.extract_audio import _join_segments
-from pipeline.extract_pdf import clean_pdf_text, strip_assembly_protocol
+from pipeline.extract_ocr import ocr_pdf_text, tesseract_lang_for
+from pipeline.extract_pdf import clean_pdf_text, is_cid_garbage, strip_assembly_protocol
 from pipeline.gadebate import parse_speaker_page, slugs_from_archive_html
 from pipeline.models import FileRef, SpeakerPage
 from pipeline.run import extract_from_page, language_for, select_slugs
@@ -125,6 +126,43 @@ class ParsePageTest(unittest.TestCase):
         self.assertIn("source: pdf_en", text)
         self.assertTrue(text.strip().endswith("We commit to 1.5."))
 
+    def test_non_english_txt_is_not_skipped(self) -> None:
+        from pipeline.store import is_english_transcript, write_speech
+
+        spanish = ExtractedSpeech(
+            session_id=80,
+            slug="chile",
+            country="Chile",
+            name="Gabriel Boric Font",
+            rank="President",
+            speech_date="2025-09-23",
+            source="pdf_other",
+            source_url="https://x/cl_es.pdf",
+            language="es",
+            text="Estimada presidenta",
+            original_language="es",
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "chile.txt"
+            path.write_text(speech_to_txt(spanish), encoding="utf-8")
+            self.assertFalse(is_english_transcript(path))
+            english = write_speech(
+                ExtractedSpeech(
+                    session_id=80,
+                    slug="kenya",
+                    country="Kenya",
+                    name="William Ruto",
+                    rank="President",
+                    speech_date="2025-09-24",
+                    source="pdf_en",
+                    source_url="https://x/ke.pdf",
+                    language="en",
+                    text="Excellencies",
+                ),
+                Path(tmp),
+            )
+            self.assertTrue(is_english_transcript(english))
+
     def test_language_for_other_pdf(self) -> None:
         ref = FileRef("Statement in French", "https://x/fr_fr.pdf", "fr_fr.pdf")
         self.assertEqual(language_for("pdf_other", ref), "fr")
@@ -202,6 +240,68 @@ class ParsePageTest(unittest.TestCase):
         self.assertEqual(speech.language, "en")
         self.assertEqual(speech.original_language, "pt")
         self.assertEqual(speech.transformation, "whisper")
+
+    def test_pdf_other_is_translated_to_english(self) -> None:
+        config = load_session("80")
+        page = SpeakerPage(
+            slug="brazil",
+            url="https://gadebate.un.org/en/80/brazil",
+            country="Brazil",
+            name="Lula",
+            rank="President",
+            speaker_title="His Excellency",
+            speech_date="2025-09-23",
+            pdf_other=FileRef("as delivered", "https://x/br_pt.pdf", "br_pt.pdf"),
+        )
+        portuguese = ("Senhoras e senhores, o Brasil fala hoje. " * 12).strip()
+        english = ("Ladies and gentlemen, Brazil speaks today. " * 12).strip()
+        with tempfile.TemporaryDirectory() as tmp:
+            with patch("pipeline.run.fetch", return_value=(200, {}, b"%PDF-fake")):
+                with patch("pipeline.run.extract_pdf_text", return_value=portuguese):
+                    with patch(
+                        "pipeline.translate.translate_to_english",
+                        return_value=english,
+                    ) as mocked:
+                        speech = extract_from_page(config, page, dest=Path(tmp))
+        mocked.assert_called_once()
+        self.assertEqual(mocked.call_args.kwargs.get("source_lang"), "pt")
+        self.assertEqual(speech.source, "pdf_other")
+        self.assertEqual(speech.language, "en")
+        self.assertEqual(speech.original_language, "pt")
+        self.assertEqual(speech.transformation, "translate")
+        self.assertIn("Brazil speaks today", speech.text)
+
+    def test_non_english_video_is_translated(self) -> None:
+        from dataclasses import replace
+
+        config = replace(load_session("80"), sources=("video",))
+        page = SpeakerPage(
+            slug="brazil",
+            url="https://gadebate.un.org/en/80/brazil",
+            country="Brazil",
+            name="Lula",
+            rank="President",
+            speaker_title="His Excellency",
+            speech_date="2025-09-23",
+            pdf_other=FileRef("as delivered", "https://x/br_pt.pdf", "br_pt.pdf"),
+            video_entry_id="1_br",
+        )
+        english = ("Ladies and gentlemen, Brazil speaks today. " * 12).strip()
+        with tempfile.TemporaryDirectory() as tmp:
+            with patch(
+                "pipeline.extract_video.transcribe_kaltura",
+                return_value="Senhoras e senhores, " * 20,
+            ):
+                with patch(
+                    "pipeline.translate.translate_to_english",
+                    return_value=english,
+                ) as mocked:
+                    speech = extract_from_page(config, page, dest=Path(tmp))
+        mocked.assert_called_once()
+        self.assertEqual(speech.source, "video")
+        self.assertEqual(speech.language, "en")
+        self.assertEqual(speech.original_language, "pt")
+        self.assertEqual(speech.transformation, "translate")
 
     def test_video_last_resort(self) -> None:
         config = load_session("80")
@@ -358,6 +458,97 @@ community came together in hope.
         self.assertIn("Ms Annalena Baerbock", text)
         self.assertNotIn("\nAnnalena", text)
         self.assertIn("\n\n2. Ladies and gentlemen", text)
+
+    def test_cid_font_layer_is_garbage(self) -> None:
+        raw = (
+            "/0/1/2/3\n/4/5/5/6/7/8/8/i255/10/11/i255/12/13/14/15/16/15/8/i255/"
+            "17/15/18/8/19/5/20/21/i255/22/23/24/25/26"
+        )
+        self.assertTrue(is_cid_garbage(raw))
+        self.assertFalse(is_cid_garbage("Madam President, distinguished delegates."))
+
+    def test_drops_browser_print_header(self) -> None:
+        raw = """
+Mister President,
+
+9/24/25, 11:14 PM Address by Gitanas Nausėda, President of the Republic of Lithuania | Permanent Mission
+
+News
+
+Excellencies, we gather here today to defend the Charter.
+"""
+        text = clean_pdf_text(raw)
+        self.assertTrue(text.startswith("Mister President"))
+        self.assertNotIn("11:14 PM", text)
+        self.assertNotIn("News", text)
+        self.assertIn("defend the Charter", text)
+
+    def test_unreadable_pdf_en_uses_ocr(self) -> None:
+        config = load_session("80")
+        page = SpeakerPage(
+            slug="lithuania",
+            url="https://gadebate.un.org/en/80/lithuania",
+            country="Lithuania",
+            name="Gitanas Nausėda",
+            rank="President",
+            speaker_title="His Excellency",
+            speech_date="2025-09-23",
+            pdf_en=FileRef("Statement in English", "https://x/lt_en.pdf", "lt_en.pdf"),
+            audio_en=FileRef("english", "https://x/80_LT_EN.mp3", "80_LT_EN.mp3", "en"),
+        )
+        ocr_text = "Madam President, distinguished delegates. " * 12
+        with tempfile.TemporaryDirectory() as tmp:
+            with patch("pipeline.run.fetch", return_value=(200, {}, b"%PDF-fake")):
+                with patch("pipeline.run.extract_pdf_text", return_value=""):
+                    with patch("pipeline.run.ocr_pdf_text", return_value=ocr_text) as mocked:
+                        speech = extract_from_page(config, page, dest=Path(tmp))
+        mocked.assert_called_once()
+        self.assertEqual(mocked.call_args.kwargs.get("lang"), "eng")
+        self.assertEqual(speech.source, "pdf_en")
+        self.assertEqual(speech.transformation, "ocr")
+        self.assertIn("Madam President", speech.text)
+
+    def test_ocr_failure_falls_back_to_audio(self) -> None:
+        config = load_session("80")
+        page = SpeakerPage(
+            slug="lithuania",
+            url="https://gadebate.un.org/en/80/lithuania",
+            country="Lithuania",
+            name="Gitanas Nausėda",
+            rank="President",
+            speaker_title="His Excellency",
+            speech_date="2025-09-23",
+            pdf_en=FileRef("Statement in English", "https://x/lt_en.pdf", "lt_en.pdf"),
+            audio_en=FileRef("english", "https://x/80_LT_EN.mp3", "80_LT_EN.mp3", "en"),
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            with patch("pipeline.run.fetch", return_value=(200, {}, b"%PDF-fake")):
+                with patch("pipeline.run.extract_pdf_text", return_value=""):
+                    with patch(
+                        "pipeline.run.ocr_pdf_text",
+                        side_effect=SourceUnavailable("ocr: falta tesseract"),
+                    ):
+                        with patch(
+                            "pipeline.run.transcribe_audio_file",
+                            return_value="Madam President, " * 20,
+                        ):
+                            speech = extract_from_page(config, page, dest=Path(tmp))
+        self.assertEqual(speech.source, "audio_en")
+        self.assertEqual(speech.transformation, "whisper")
+
+
+class OcrTest(unittest.TestCase):
+    def test_iso_to_tesseract(self) -> None:
+        self.assertEqual(tesseract_lang_for("en"), "eng")
+        self.assertEqual(tesseract_lang_for("es"), "spa")
+        self.assertEqual(tesseract_lang_for("und"), "eng")
+
+    def test_ocr_reads_cache_without_tesseract(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            cache = Path(tmp) / "lt_en.ocr.txt"
+            cache.write_text("Madam President, Lithuania speaks.\n", encoding="utf-8")
+            text = ocr_pdf_text(b"", cache_path=cache, label="lt_en.pdf")
+        self.assertIn("Lithuania speaks", text)
 
 
 if __name__ == "__main__":

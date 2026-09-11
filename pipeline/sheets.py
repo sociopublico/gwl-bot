@@ -51,6 +51,23 @@ def can_write_sheets(settings: SheetsSettings | None = None) -> bool:
     return bool(cfg.spreadsheet_id and cfg.credentials_path and Path(cfg.credentials_path).is_file())
 
 
+def sheets_unavailable_reason(settings: SheetsSettings | None = None) -> str:
+    cfg = settings or sheets_settings()
+    if not cfg.spreadsheet_id:
+        return (
+            "falta GOOGLE_SHEETS_SPREADSHEET_ID en .env "
+            "(el ID de /d/{ID}/edit, no el link 2PACX)"
+        )
+    if not cfg.credentials_path:
+        return "falta GOOGLE_APPLICATION_CREDENTIALS en .env (path al JSON de la service account)"
+    if not Path(cfg.credentials_path).is_file():
+        return (
+            f"no encuentro el JSON en {cfg.credentials_path} "
+            "(GOOGLE_APPLICATION_CREDENTIALS)"
+        )
+    return ""
+
+
 def _client(settings: SheetsSettings):
     try:
         import gspread

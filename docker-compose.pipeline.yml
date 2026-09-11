@@ -1,0 +1,30 @@
+# Pipeline UNGA (fetch / publish). No levanta el monitor de YouTube.
+# Uso: docker compose -f docker-compose.pipeline.yml run --rm pipeline fetch --session 81 --day 2026-09-22
+
+name: gwl-pipeline
+
+services:
+  pipeline:
+    build:
+      context: .
+      dockerfile: pipeline/Dockerfile
+    env_file:
+      - .env
+    environment:
+      PYTHONPATH: /app
+      OMP_NUM_THREADS: ${CPU_THREADS:-4}
+      GOOGLE_APPLICATION_CREDENTIALS: /secrets/google-sa.json
+      GIT_AUTHOR_NAME: ${GIT_AUTHOR_NAME:-gwl-pipeline}
+      GIT_AUTHOR_EMAIL: ${GIT_AUTHOR_EMAIL:-gwl-bot@users.noreply.github.com}
+      GIT_COMMITTER_NAME: ${GIT_AUTHOR_NAME:-gwl-pipeline}
+      GIT_COMMITTER_EMAIL: ${GIT_AUTHOR_EMAIL:-gwl-bot@users.noreply.github.com}
+    init: true
+    working_dir: /app
+    volumes:
+      # Repo completo: journals, txt, y git para publish --github
+      - .:/app
+      - whisper-models:/root/.cache/huggingface
+      - ${GOOGLE_SA_FILE:-./secrets/google-sa.json}:/secrets/google-sa.json:ro
+
+volumes:
+  whisper-models:

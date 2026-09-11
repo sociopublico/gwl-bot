@@ -2,3 +2,5 @@ pypdf>=5.0
 faster-whisper==1.2.1
 gspread>=6.0
 google-auth>=2.0
+deep-translator>=1.11
+translators>=5.9

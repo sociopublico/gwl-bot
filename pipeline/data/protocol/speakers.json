@@ -1,0 +1,4822 @@
+[
+  {
+    "country": "ALBANIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Bajram Begaj",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Edi Rama",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Ferit Hoxha",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "ALGERIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Abdelmadjid Tebboune",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Sifi Ghrieb",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Ahmed Attaf",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "ANDORRA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Joan Enric Vives Sicília",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HS",
+        "name": "Emmanuel Macron",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Xavier Espot Zamora",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Imma Tor Faus",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "ANGOLA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "João Manuel Gonçalves Lourenço",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "João Manuel Gonçalves Lourenço",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Téte António",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "ANTIGUA AND BARBUDA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Charles III",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HS",
+        "name": "Rodney Williams",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Gaston Alphonso Browne",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Everly Paul Chet Greene",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "ARGENTINA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Javier Gerardo Milei",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "CD",
+        "name": "Pablo Quirno Magrane",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      }
+    ]
+  },
+  {
+    "country": "ARMENIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Vahagn Khachaturyan",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Nikol Pashinyan",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Ararat Mirzoyan",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "AUSTRALIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Charles III",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HS",
+        "name": "Sam Mostyn",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Anthony Albanese",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Penny Wong",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "AUSTRIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Alexander Van der Bellen",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Christian Stocker",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Beate Meinl-Reisinger",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "AZERBAIJAN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Ilham Heydar oglu Aliyev",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Ali Hidayat oglu Asadov",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Jeyhun Aziz oglu Bayramov",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "BAHAMAS",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Charles III",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HS",
+        "name": "Cynthia A. Pratt",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Philip Edward Davis",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Frederick Audley Mitchell",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "BAHRAIN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Hamad bin Isa Al Khalifa",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HG",
+        "name": "His Royal Highness Prince Salman bin Hamad Al Khalifa",
+        "gender": "",
+        "pronouns": "",
+        "honorific": "His Royal"
+      },
+      {
+        "level": "CD",
+        "name": "Abdullatif bin Rashid Al Zayani",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "BANGLADESH",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Mirza Fakhrul Islam Alamgir",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Tarique Rahman",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Khalilur Rahman",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "BARBADOS",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Sandra Mason",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Mia Amor Mottley",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Kerrie D. Symmonds",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "BELARUS",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Aleksandr Lukashenko",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Aleksandr Turchin",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Maxim Ryzhenkov",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "BELGIUM",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Sa Majesté le Roi Philippe",
+        "gender": "",
+        "pronouns": "",
+        "honorific": "Sa Majesté"
+      },
+      {
+        "level": "HG",
+        "name": "Bart de Wever",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Maxime Prévot",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "BELIZE",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Charles III",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HS",
+        "name": "Froyla Tzalam",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "John Briceño",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Francis Fonseca",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "BENIN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Romuald Wadagni",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Romuald Wadagni",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Corinne Amori Brunet",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "BHUTAN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Jigme Khesar Namgyel Wangchuck",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HG",
+        "name": "Tshering Tobgay",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Dina Nath Dhungyel",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "BOLIVIA (PLURINATIONAL STATE OF)",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Rodrigo Paz Pereira",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "CD",
+        "name": "Fernando Hugo Aramayo Carrasco",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      }
+    ]
+  },
+  {
+    "country": "BOSNIA AND HERZEGOVINA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Denis Bećirović",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Borjana Krišto",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Elmedin Konaković",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "BOTSWANA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Duma Gideon Boko",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Phenyo Butale",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "BRAZIL",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Luiz Inácio Lula da Silva",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Mauro Luiz Iecker Vieira",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "BRUNEI DARUSSALAM",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Sultan Haji Hassanal Bolkiah Mu'izzaddin Waddaulah",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HG",
+        "name": "Sultan Haji Hassanal Bolkiah Mu'izzaddin Waddaulah",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "CD",
+        "name": "Dato Seri Setia Awang Haji Erywan bin Pehin Datu Pekerma Jaya Haji Mohd Yusof",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "BULGARIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Iliana Iotova",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Rumen Radev",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Velislava Petrova-Chamova",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "BURKINA FASO",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Capitaine Ibrahim Traoré",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Rimtalba Jean Emmanuel Ouedraogo",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Karamoko Jean Marie Traoré",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "BURUNDI",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Evariste Ndayishimiye",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Ntahontuye Ntahontuye",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Edouard Bizimana",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "CABO VERDE",
+    "people": [
+      {
+        "level": "HS",
+        "name": "José Maria Pereira Neves",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Francisco Avelina Vieira de Carvalho",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Manuel Augusto Lima Amante da Rosa",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "CAMBODIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Preah Bat Samdech Preah Boromneath Norodom Sihamoni",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HG",
+        "name": "Samdech Moha Borvor Thipadei Manet Hun",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Sokhonn Prak",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "CAMEROON",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Paul Biya",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Joseph Dion Ngute",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Lejeune Mbella Mbella",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "CANADA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Charles III",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HS",
+        "name": "Louise Arbour , C.C., C.M.M., C.O.M., G.O.Q., C.D.",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Mark Carney",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Anita Anand",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "CENTRAL AFRICAN REPUBLIC",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Faustin Archange Touadera",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Félix Moloua",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Sylvie Valérie Notefei Ndoute née Baïpo-Témon",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "CHAD",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Maréchal Mahamat Idriss Déby Itno",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Allah-Maye Halina",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Abdoulaye Sabre Fadoul",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "CHILE",
+    "people": [
+      {
+        "level": "HS",
+        "name": "José Antonio Kast",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "CD",
+        "name": "Francisco Pérez Mackenna",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      }
+    ]
+  },
+  {
+    "country": "CHINA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Xi Jinping",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Li Qiang",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Wang Yi",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "COLOMBIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Abelardo Gabriel De La Espriella Otero",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "CD",
+        "name": "Omar Bula Escobar",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      }
+    ]
+  },
+  {
+    "country": "COMOROS",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Azali Assoumani",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Mbae Mohamed",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "CONGO",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Denis Sassou Nguesso",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Anatole Collinet Makosso",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Constant Serges Bounda",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "COSTA RICA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Laura Fernández Delgado",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Excelentísima Señora"
+      },
+      {
+        "level": "CD",
+        "name": "Manuel Alejandro Tovar Rivera",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      }
+    ]
+  },
+  {
+    "country": "CÔTE D'IVOIRE",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Alassane Ouattara",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Robert Beugré Mambé",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Nialé Kaba",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "CROATIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Zoran Milanović",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Andrej Plenković",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Gordan Grlić-Radman",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "CUBA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Miguel Díaz-Canel Bermúdez",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "HG",
+        "name": "Manuel Marrero Cruz",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "CD",
+        "name": "Bruno Eduardo Rodríguez Parrilla",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      }
+    ]
+  },
+  {
+    "country": "CYPRUS",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Nikos Christodoulides",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Constantinos Kombos",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "CZECHIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Petr Pavel",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Andrej Babiš",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Petr Macinka",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Kim Jong Un",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Pak Thae Song",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Choe Son Hui",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "DEMOCRATIC REPUBLIC OF THE CONGO",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Félix-Antoine Tshisekedi Tshilombo",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Judith Suminwa Tuluka",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Thérèse Kayikwamba Wagner",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "DENMARK",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Frederik X",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HG",
+        "name": "Mette Frederiksen",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Lars Løkke Rasmussen",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "DJIBOUTI",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Ismaël Omar Guelleh",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Abdoulkader Kamil Mohamed",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Abdoulkader Houssein Omar",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "DOMINICA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Sylvanie Burton",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Roosevelt Skerrit",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Vince Henderson",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "DOMINICAN REPUBLIC",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Luis Rodolfo Abinader Corona",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "CD",
+        "name": "Victor O. Bisonó Haza",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      }
+    ]
+  },
+  {
+    "country": "ECUADOR",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Daniel Roy-Gilchrist Noboa Azin",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "CD",
+        "name": "Roberto Kury Pesantes",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      }
+    ]
+  },
+  {
+    "country": "EGYPT",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Abdel Fattah Al Sisi",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Moustafa Kamal Madbouly",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Badr Ahmed Mohamed Abdelatty",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "EL SALVADOR",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Nayib Armando Bukele",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "CD",
+        "name": "Alexandra Hill Tinoco",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Excelentísima Señora"
+      }
+    ]
+  },
+  {
+    "country": "EQUATORIAL GUINEA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Teodoro Obiang Nguema Mbasogo",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "HG",
+        "name": "Manuel Osa Nsue Nsuga",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "CD",
+        "name": "Simeón Oyono Esono Angue",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      }
+    ]
+  },
+  {
+    "country": "ERITREA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Isaias Afwerki",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Osman Saleh Mohammed",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "ESTONIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Alar Karis",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Kristen Michal",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Margus Tsahkna",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "ESWATINI",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Mswati III",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HG",
+        "name": "Russell Mmiso Dlamini",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Pholile Shakantu",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "ETHIOPIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Taye Atskeselassie Amde",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Abiy Ahmed",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Gedion Timothewos Hessebon",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "FIJI",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Ratu Naiqama Tawakecolati Lalabalavu",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Sitiveni Ligamamada Rabuka",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Sakiasi Ditoka",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "FINLAND",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Alexander Stubb",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Petteri Orpo",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Elina Valtonen",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "FRANCE",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Emmanuel Macron",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Sébastien Lecornu",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Jean-Noël Barrot",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "GABON",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Brice Clotaire Oligui Nguema",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Raymond Ndong Sima",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Marie-Edith Tassyla-Ye- Doumbeneny",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "GAMBIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Adama Barrow",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Sering Modou Njie",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "GEORGIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Mikheil Kavelashvili",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Irakli Kobakhidze",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Maka Botchorishvili",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Frank-Walter Steinmeier",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Friedrich Merz",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Johann Wadephul",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "GHANA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "John Dramani Mahama",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Samuel Okudzeto Ablakwa",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "GREECE",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Konstantinos An. Tasoulas",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Kyriakos Mitsotakis",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Georgios Gerapetritis",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "GRENADA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Charles III",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HS",
+        "name": "Cécile La Grenade",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Dickon Mitchell",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Joseph Andall",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "GUATEMALA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "César Bernardo Arévalo de León",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "CD",
+        "name": "Carlos Ramiro Martínez Alvarado",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      }
+    ]
+  },
+  {
+    "country": "GUINEA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Mamadi Doumbouya",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Amadou Oury Bah",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Morissanda Kouyaté",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "GUINEA-BISSAU",
+    "people": [
+      {
+        "level": "HS",
+        "name": "le Général d'Armée Horta Inta-a",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Ilídio Vieira Té",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Fatumata Jau",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "GUYANA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Mohamed Irfaan Ali",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Brigadier (Ret'd) Mark Phillips",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Hugh Hilton Todd",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "HAITI",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Anthony Franck Laurent Saint Cyr",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Alix Didier Fils-Aimé",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Raïna Forbin",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "HONDURAS",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Nasry Juan Asfura Zablah",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "CD",
+        "name": "Mireya Agüero de Corrales",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Excelentísima Señora"
+      }
+    ]
+  },
+  {
+    "country": "HUNGARY",
+    "people": [
+      {
+        "level": "HS",
+        "name": "András Bálint Baka",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Péter Magyar",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Anita Orbán",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "ICELAND",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Halla Tómasdóttir",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Kristrún Frostadóttir",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Thorgerdur Katrín Gunnarsdóttir",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "INDIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Droupadi Murmu",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Narendra Modi",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Subrahmanyam Jaishankar",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "INDONESIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Prabowo Subianto",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Sugiono",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "IRAN (ISLAMIC REPUBLIC OF)",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Dr. Masoud Pezeshkian",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Seyed Abbas Araghchi",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "IRAQ",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Nazar Amedi",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Ali Falih Al-Zaidi",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Fuad Mohammad Hussein",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "IRELAND",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Catherine Connolly",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Micheál Martin T.D.",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Helen McEntee T.D.",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "ISRAEL",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Isaac Herzog",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Benjamin Netanyahu",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Gideon Saar",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "ITALY",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Sergio Mattarella",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Giorgia Meloni",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Antonio Tajani",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "JAMAICA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Charles III",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HS",
+        "name": "Patrick Allen",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Andrew Holness",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Kamina Johnson Smith",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "JAPAN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "The Emperor of Japan",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HG",
+        "name": "Takaichi Sanae",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Motegi Toshimitsu",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "JORDAN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Abdullah II ibn Al Hussein",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HG",
+        "name": "Jafar Hassan",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Ayman Safadi",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "KAZAKHSTAN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Kassym-Jomart Tokayev",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Olzhas Bektenov",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Mukhtar Tileuberdi",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "KENYA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "William Samoei Ruto",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "William Samoei Ruto",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Musalia Mudavadi",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "KIRIBATI",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Taneti Maamau",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Taneti Maamau",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Taneti Maamau",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "KUWAIT",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Sheikh Meshal Al-Ahmad Al-Jaber Al-Sabah",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Highness"
+      },
+      {
+        "level": "HG",
+        "name": "Sheikh Ahmad Abdullah Al-Ahmad Sheikh Jarrah Jaber Al-Ahmad Al- Al-Sabah",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Highness"
+      },
+      {
+        "level": "CD",
+        "name": "Sabah",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "KYRGYZSTAN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Sadyr Zhaparov",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Adylbek Kasymaliev",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Zheenbek Kulubaev",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "LAO PEOPLE'S DEMOCRATIC REPUBLIC",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Thongloun Sisoulith",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Sonexay Siphandone",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Thongsavanh Phomvihane",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "LATVIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Edgars Rinkēvičs",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Andris Kulbergs",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Baiba Braže",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "LEBANON",
+    "people": [
+      {
+        "level": "HS",
+        "name": "General Joseph Aoun",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Nawaf Salam",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Youssef Raggi",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "LESOTHO",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Letsie III",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HG",
+        "name": "Samuel Ntsokoane Matekane",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Limpho Tau",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "LIBERIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Joseph Nyuma Boakai , Sr.",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Sara Beysolow Nyanti",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "LIBYA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Mohamed Younis A Menfi",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Abdulhamid M A Al Dabiba",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Abdulhamid M A Al Dabiba",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "LIECHTENSTEIN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "His Serene Highness Prince Hans-Adam II von und zu Liechtenstein",
+        "gender": "",
+        "pronouns": "",
+        "honorific": "His Serene"
+      },
+      {
+        "level": "HG",
+        "name": "Brigitte Haas",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Sabine Monauni",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "LITHUANIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Gitanas Nausėda",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Inga Ruginienè",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Kęstutis Budrys",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "LUXEMBOURG",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Son Altesse Royale Le Grand-Duc Guillaume de Luxembourg",
+        "gender": "",
+        "pronouns": "",
+        "honorific": "Son Altesse"
+      },
+      {
+        "level": "HG",
+        "name": "Luc Frieden",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Xavier Bettel",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "MADAGASCAR",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Colonel Michaël Randrianirina",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Mamitiana Rajaonarison",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Alice N’Diaye",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "MALAWI",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Arthur Peter Mutharika",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "George Chapatula Chaponda , M.P.",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "MALAYSIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Sultan Ibrahim",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HG",
+        "name": "Anwar Ibrahim",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Mohamad Haji Hasan",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "MALDIVES",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Mohamed Muizzu",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Iruthisham Adam",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "MALI",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Le Général d'Armée Assimi Goïta",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Le Général de Division Abdoulaye Maïga",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Abdoulaye Diop",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "MALTA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Myriam Spiteri Debono",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Robert Abela",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Chris Fearne",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "MARSHALL ISLANDS",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Hilda Heine",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Kalani Kaneko",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "MAURITANIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Mohamed Ould Cheikh El Ghazouani",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Moktar Ould Djay",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Mohamed Salem Merzoug",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "MAURITIUS",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Dharambeer Gokhool , GCSK",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Dr. Navinchandra Ramgoolam , G.C.S.K., F.R.C.P.",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Dhananjay Ramful",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "MEXICO",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Claudia Sheinbaum Pardo",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Excelentísima Señora"
+      },
+      {
+        "level": "CD",
+        "name": "Roberto Velasco Álvarez",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      }
+    ]
+  },
+  {
+    "country": "MICRONESIA (FEDERATED STATES OF)",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Wesley W. Simina",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Wesley W. Simina",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Ricky F. Cantero",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "MONACO",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Son Altesse Sérénissime Le Prince Albert II",
+        "gender": "",
+        "pronouns": "",
+        "honorific": "Son Altesse"
+      },
+      {
+        "level": "HG",
+        "name": "Christophe Mirmand",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Isabelle Berro-Amadeï",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "MONGOLIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Khurelsukh Ukhnaa",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Uchral Nyam-Osor",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Battsetseg Batmunkh",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "MONTENEGRO",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Jakov Milatović",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Milojko Spajić",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Ervin Ibrahimović",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "MOROCCO",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Sa Majesté Mohammed VI",
+        "gender": "",
+        "pronouns": "",
+        "honorific": "Sa Majesté"
+      },
+      {
+        "level": "HG",
+        "name": "Aziz Akhannouch",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Nasser Bourita",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "MOZAMBIQUE",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Daniel Francisco Chapo",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Maria Benvinda Delfina Levi",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Maria Manuela Dos Santos Lucas",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "MYANMAR",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Win Myint",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Aung San Suu Kyi",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "NAMIBIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Netumbo Nandi-Ndaitwah",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Elijah Ngurare",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Selma Ashipala-Musavyi",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "NAOERO",
+    "people": [
+      {
+        "level": "HS",
+        "name": "David Ranibok Adeang , M.P.",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Lionel Rouwen Aingimea , M.P.",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "NEPAL",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Ramchandra Paudel",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Balendra Shah",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Shi sir Khanal",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "NETHERLANDS (KINGDOM OF THE)",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Willem-Alexander",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HG",
+        "name": "Rob Jetten",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Tom Berendsen",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "NEW ZEALAND",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Charles III",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HS",
+        "name": "Cindy Kiro",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Christopher Luxon",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Winston Peters",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "NICARAGUA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Daniel Ortega Saavedra",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "HS",
+        "name": "Rosario Murillo Zambrana",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Excelentísima Señora"
+      },
+      {
+        "level": "CD",
+        "name": "Valdrack Ludwing Jaentschke Whitaker y Denis Ronaldo Moncada Colindres",
+        "gender": "",
+        "pronouns": "",
+        "honorific": "Excelentísimos Señor"
+      }
+    ]
+  },
+  {
+    "country": "NIGER",
+    "people": [
+      {
+        "level": "HS",
+        "name": "le Général d'Armée Abdourahamane Tiani",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Lamine Zeine Ali Mahaman",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Bakary Yaou Sangaré",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "NIGERIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Bola Ahmed Tinubu , GCFR",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Bianca Odinaka Odumegu- Ojukwu",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "NORTH MACEDONIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Gordana Siljanovska- Davkova",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Hristijan Mickoski",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Timcho Mucunski",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "NORWAY",
+    "people": [
+      {
+        "level": "HG",
+        "name": "Jonas Gahr Støre",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Espen Barth Eide",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "OMAN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Sultan Haitham Bin Tarik",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HG",
+        "name": "Sultan Haitham Bin Tarik",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "CD",
+        "name": "Sayyid Badr bin Hamad bin Hamood Albusaidi",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "PAKISTAN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Asif Ali Zardari",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Muhammad Shehbaz Sharif",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Mohammad Ishaq Dar",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "PALAU",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Surangel S. Whipps Jr.",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Gustav N. Aitaro",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "PANAMA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "José Raúl Mulino Quintero",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "CD",
+        "name": "Javier Martínez Acha Vásquez",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      }
+    ]
+  },
+  {
+    "country": "PAPUA NEW GUINEA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Charles III",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HS",
+        "name": "Bob Dadae",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "James Marape",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Justin W. Tkatchenko , CBE, BEM, OL",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "PARAGUAY",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Santiago Peña Palacios",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "CD",
+        "name": "Rubén Darío Ramírez Lezcano",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      }
+    ]
+  },
+  {
+    "country": "PERU",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Keiko Sofia Fujimori Higuchi",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Excelentísima Señora"
+      },
+      {
+        "level": "HG",
+        "name": "Luis Fernando Galarreta Velarde",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "CD",
+        "name": "Alfonso Carlos Espá y Garcés- Alvear",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      }
+    ]
+  },
+  {
+    "country": "PHILIPPINES",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Ferdinand Romualdez Marcos Jr.",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Ma. Theresa Lazaro",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "POLAND",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Karol Nawrocki",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Donald Tusk",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Radosław Sikorski",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "PORTUGAL",
+    "people": [
+      {
+        "level": "HS",
+        "name": "António José Martins Seguro",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Luís Montenegro",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Paulo Rangel",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "QATAR",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Sheikh Tamim bin Hamad Al Thani Sheikh Mohammed bin",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Highness"
+      },
+      {
+        "level": "HG",
+        "name": "Abdulrahman bin Jassim Al-Thani",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Abdulrahman bin Jassim Al-Thani",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "REPUBLIC OF KOREA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Lee Jae Myung",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Han Seong-sook",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Cho Hyun",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "REPUBLIC OF MOLDOVA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Maia Sandu",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Vasile Tofan",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Mihai Popşoi",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Nicuşor-Daniel Dan",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Ilie-Gavril Bolojan",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Oana-Silvia Ţoiu",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "RUSSIAN FEDERATION",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Vladimir V. Putin",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Mikhail Mishustin",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Sergey V. Lavrov",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "RWANDA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Paul Kagame",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Justin Nsengiyumva",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Olivier Nduhungirehe",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SAINT KITTS AND NEVIS",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Charles III",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HS",
+        "name": "Marcella Liburd",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Terrance Micheal Drew",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Denzil Douglas",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SAINT LUCIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Charles III",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HS",
+        "name": "Felix Finisterre , CMG",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Philip J. Pierre",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Alva R. Baptiste",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SAINT VINCENT AND THE GRENADINES",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Charles III",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HS",
+        "name": "Stanley Kendrick John",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Godwin Friday",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Fitzgerald Bramble",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SAMOA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Tuimalealiifano Vaaletoa Sualauvi II",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Highness"
+      },
+      {
+        "level": "HG",
+        "name": "Laaulialemalietoa Leuatea Polataivao Fosi Schmidt",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Laaulialemalietoa Leuatea Polataivao Fosi Schmidt",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SAN MARINO",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Alice Mina",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HS",
+        "name": "Vladimiro Selva",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Luca Beccari",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SAO TOME AND PRINCIPE",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Carlos Manuel Vila Nova",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Américo d'Oliveira dos Ramos",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Ilza Maria dos Santos Amado Vaz",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "SAUDI ARABIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "The Custodian of the Two Holy Mosques King Salman Bin Abdulaziz Al Saud Abdulaziz Al Saud",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": ""
+      },
+      {
+        "level": "HG",
+        "name": "His Royal Highness Prince Mohammed bin Salman bin Prince Faisal bin Farhan Al Saud",
+        "gender": "",
+        "pronouns": "",
+        "honorific": "His Royal"
+      }
+    ]
+  },
+  {
+    "country": "SENEGAL",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Bassirou Diomaye Diakhar Faye",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Ahmadou Al Amine Mohamed Lo",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Cheikh Niang",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "SERBIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Aleksandar Vučić",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Đuro Macut",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Marko Đurić",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SEYCHELLES",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Dr. Mathew Antonio Patrick Herminie",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Barry Jude Jean Faure",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SIERRA LEONE",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Julius Maada Bio",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Musa Timothy Kabba",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SINGAPORE",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Tharman Shanmugaratnam",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Lawrence Wong",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Dr. Vivian Balakrishnan",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SLOVAKIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Peter Pellegrini",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Robert Fico",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Juraj Blanár",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SLOVENIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Nataša Pirc Musar",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Janez Janša",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Tone Kajzer",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SOLOMON ISLANDS",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Charles III",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HS",
+        "name": "David Tiva Kapu",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Mathew Cooper Wale",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Rick Hou",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SOMALIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Hassan Sheikh Mohamud",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Hamza Abdi Barre",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Abdisalan Abdi Ali",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SOUTH AFRICA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Cyril Matamela Ramaphosa",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Ronald Ozzy Lamola",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SOUTH SUDAN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Salva Kiir Mayardit",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Monday Semaya Kumba",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Felipe VI",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Su Majestad"
+      },
+      {
+        "level": "HG",
+        "name": "Pedro Sánchez Pérez-Castejón",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "CD",
+        "name": "José Manuel Albares Bueno",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      }
+    ]
+  },
+  {
+    "country": "SRI LANKA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Anura Kumara Dissanayake",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Harini Amarasuriya",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Vijitha Herath",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SUDAN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "First Lt. General Abdel-Fattah Al- Burhan Abdelrahman Al-Burhan",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Kamil El-Tayeb Idris",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Mohieldin Salim Ahmed Ibrahim",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SURINAME",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Jennifer Geerlings-Simons",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Melvin W. J. Bouva",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SWEDEN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Carl XVI Gustaf",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HG",
+        "name": "Ulf Kristersson",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Maria Malmer Stenergard",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "SWITZERLAND",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Guy Parmelin",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Ignazio Cassis",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "SYRIAN ARAB REPUBLIC",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Ahmad Al-Sharaa",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Asaad Al-Shaibani",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "TAJIKISTAN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Emomali Rahmon",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Kohir Rasulzoda",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Sirodjiddin Muhriddin",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "THAILAND",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Maha Vajiralongkorn Phra Vajiraklaochaoyuhua",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HG",
+        "name": "Anutin Charnvirakul",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Sihasak Phuangketkeow",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "TIMOR-LESTE",
+    "people": [
+      {
+        "level": "HS",
+        "name": "José Ramos-Horta",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Kay Rala Xanana Gusmão",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Bendito dos Santos Freitas",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "TOGO",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Jean-Lucien Savi de Tove",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Faure Essozimna Gnassingbé",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Robert Komlan Edo Dussey",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "TONGA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Tupou VI",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HG",
+        "name": "Lord Fakafanua",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "His Royal Highness Crown Prince Tupouto'a 'Ulukalala",
+        "gender": "",
+        "pronouns": "",
+        "honorific": "His Royal"
+      }
+    ]
+  },
+  {
+    "country": "TRINIDAD AND TOBAGO",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Christine Carla Kangaloo , O.R.T.T.",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Kamla Persad-Bissessar , S.C.",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Sean Sobers",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "TUNISIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Kaïs Saïed",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "HG",
+        "name": "Sarra Zaafrani Zenzri",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Son Excellence"
+      },
+      {
+        "level": "CD",
+        "name": "Mohamed Ali Nafti",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Son Excellence"
+      }
+    ]
+  },
+  {
+    "country": "TÜRKİYE",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Recep Tayyip Erdoğan",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Hakan Fidan",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "TURKMENISTAN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Serdar Berdimuhamedov",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Serdar Berdimuhamedov",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Rashid Meredov",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "TUVALU",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Charles III",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HS",
+        "name": "Tofiga Falani",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Feleti Teo , OBE",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Paulson Panapa",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "UGANDA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Yoweri Kaguta Museveni",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Robinah Nabbanja",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Adonia Ayebare",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "UKRAINE",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Volodymyr Zelenskyy",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Sergii Koretskyi",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Andrii Sybiha",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "UNITED ARAB EMIRATES",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Sheikh Mohamed bin Zayed Al Nahyan",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Highness"
+      },
+      {
+        "level": "HG",
+        "name": "Sheikh Mohammed bin Rashid Al Maktoum",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Highness"
+      },
+      {
+        "level": "CD",
+        "name": "Sheikh Abdullah bin Zayed Al Nahyan",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Highness"
+      }
+    ]
+  },
+  {
+    "country": "UNITED KINGDOM",
+    "people": [
+      {
+        "level": "HS",
+        "name": "King Charles III",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Majesty"
+      },
+      {
+        "level": "HG",
+        "name": "Andrew Burnham",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Ed Miliband",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "UNITED REPUBLIC OF TANZANIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Samia Suluhu Hassan",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Mwigulu Lameck Nchemba",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Mahmoud Thabit Kombo",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "UNITED STATES OF AMERICA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Donald J. Trump",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Marco A. Rubio",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "URUGUAY",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Yamandú Orsi",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "CD",
+        "name": "Mario Lubetkin",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      }
+    ]
+  },
+  {
+    "country": "UZBEKISTAN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Shavkat Mirziyoyev",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Abdulla Aripov",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Bakhtiyor Saidov",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "VANUATU",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Nikenike Vurobaravu",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Jotham Napat",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Marc Ati",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "VENEZUELA (BOLIVARIAN REPUBLIC OF)",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Nicolás Maduro Moros",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      },
+      {
+        "level": "CD",
+        "name": "Félix Plasencia González",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "Excelentísimo Señor"
+      }
+    ]
+  },
+  {
+    "country": "VIET NAM",
+    "people": [
+      {
+        "level": "HS",
+        "name": "To Lam",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Le Minh Hung",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Le Hoai Trung",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "YEMEN",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Rashad Mohammed Al-Alimi",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Shaya Mohsen Al-Zindani",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Afrah Abdulaziz Saleh Alzouba",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  },
+  {
+    "country": "ZAMBIA",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Hakainde Hichilema",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "ZIMBABWE",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Emmerson Dambudzo Mnangagwa",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Amon Murwira",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "HOLY SEE",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Pope Leo XIV",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Holiness"
+      },
+      {
+        "level": "HG",
+        "name": "Cardinal Pietro Parolin",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Eminence"
+      },
+      {
+        "level": "CD",
+        "name": "Archbishop Paul Richard Gallagher",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      }
+    ]
+  },
+  {
+    "country": "STATE OF PALESTINE",
+    "people": [
+      {
+        "level": "HS",
+        "name": "Mahmoud Abbas",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "HG",
+        "name": "Mohammad Mustafa",
+        "gender": "male",
+        "pronouns": "he/him",
+        "honorific": "His Excellency"
+      },
+      {
+        "level": "CD",
+        "name": "Aghabekian Varsen",
+        "gender": "female",
+        "pronouns": "she/her",
+        "honorific": "Her Excellency"
+      }
+    ]
+  }
+]

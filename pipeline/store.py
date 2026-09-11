@@ -16,6 +16,14 @@ def out_dir(config: SessionConfig, speech_date: str, *, dest: Path | None = None
     return path
 
 
+def is_english_transcript(path: Path) -> bool:
+    try:
+        lang = (parse_speech_txt(path).language or "").strip().lower()
+    except (OSError, ValueError):
+        return False
+    return lang in {"en", "english"}
+
+
 def find_existing_speech(
     config: SessionConfig,
     slug: str,

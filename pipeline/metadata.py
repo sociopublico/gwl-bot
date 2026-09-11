@@ -5,6 +5,7 @@ from dataclasses import dataclass
 
 from pipeline.countries import CountryIndex, CountryMatch
 from pipeline.models import ExtractedSpeech
+from pipeline.protocol import ProtocolIndex, load_protocol_index
 
 METADATA_COLUMNS = [
     "id_speech",
@@ -100,7 +101,8 @@ LANGUAGE_NAMES = {
 }
 
 _HS = re.compile(
-    r"\b(president|king|queen|amir|emir|pope|emperor|sultan|grand duke|head of state)\b",
+    r"\b(president|king|queen|amir|emir|pope|emperor|sultan|grand duke|"
+    r"head of state|governor-?general)\b",
     re.I,
 )
 _HG = re.compile(r"\b(prime minister|chancellor|head of government)\b", re.I)
@@ -123,8 +125,12 @@ def language_label(code: str) -> str:
     return lowered
 
 
-def transformation_for(source: str) -> str:
-    return "whisper" if source in {"audio_en", "video"} else "none"
+def transformation_for(source: str, *, translated: bool = False) -> str:
+    if translated or source == "pdf_other":
+        return "translate"
+    if source in {"audio_en", "video"}:
+        return "whisper"
+    return "none"
 
 
 def infer_speaker_level(rank: str) -> str:
@@ -149,6 +155,43 @@ def infer_pronouns_gender(title: str) -> tuple[str, str]:
     if stripped.startswith("his "):
         return "he/him", "male"
     return "", ""
+
+
+_PROTOCOL_INDEX: ProtocolIndex | None = None
+
+
+def protocol_index() -> ProtocolIndex:
+    global _PROTOCOL_INDEX
+    if _PROTOCOL_INDEX is None:
+        _PROTOCOL_INDEX = load_protocol_index()
+    return _PROTOCOL_INDEX
+
+
+def clear_protocol_index() -> None:
+    global _PROTOCOL_INDEX
+    _PROTOCOL_INDEX = None
+
+
+def apply_protocol(
+    speech: ExtractedSpeech,
+    *,
+    level: str,
+    pronouns: str,
+    gender: str,
+) -> tuple[str, str, str]:
+    person = protocol_index().match_speaker(
+        slug=speech.slug,
+        country=speech.country,
+        name=speech.name,
+        rank=speech.rank,
+    )
+    if not person:
+        return level, pronouns, gender
+    return (
+        person.level or level,
+        person.pronouns or pronouns,
+        person.gender or gender,
+    )
 
 
 def format_date_time(iso_date: str) -> str:
@@ -243,6 +286,10 @@ def build_metadata_row(
 ) -> tuple[MetadataRow, str]:
     found = match or countries.lookup(speech.slug, speech.country)
     pronouns, gender = infer_pronouns_gender(speech.speaker_title)
+    level = infer_speaker_level(speech.rank)
+    level, pronouns, gender = apply_protocol(
+        speech, level=level, pronouns=pronouns, gender=gender
+    )
     country_name = found.row.country if found.row else speech.country
     row = MetadataRow(
         num_of_appearance=str(appearance),
@@ -256,7 +303,7 @@ def build_metadata_row(
         ),
         g20_member=found.row.g20_member if found.row else "",
         speaker_name=speaker_name_cell(speech),
-        speaker_level=infer_speaker_level(speech.rank),
+        speaker_level=level,
         speaker_pronouns=pronouns,
         speaker_gender=gender,
         ficha_url=ficha_url,
