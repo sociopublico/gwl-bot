@@ -4,10 +4,13 @@ slug: lebanon
 country: Lebanon
 speaker: His ExcellencyJoseph Aoun
 title: President
+speaker_title: His Excellency
 date: 2025-09-23
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/lb_en_0.pdf
 language: en
+original_language: und
+transformation: none
 ---
 
 Madam President,
@@ -44,9 +47,7 @@ The reasons for this might be numerous. One can attribute them to human nature, 
 
 But something else has stirred this tragedy, at least in the last 30 years and more specifically since we have started from this very tribune talking about a new world order. This root cause centers on the challenge of plurality within societies, manifesting as a crisis of identities and ethnicities, especially in the era of globalization. On one hand, people express a genuine need for cooperation and integration. On the other, this very impulse generates a fear that such openness might undermine one’s national identity. Tragically, this duality has driven humanity back toward conflict.
 
-Let us acknowledge here that religion is a primary factor in defining the identities of human groups. In the name of religion thousands have died, in its name many borders between countries have ignited into conflict and in its name still many countries have collapsed from within. Furthermore, religion continues to shape the world in profound ways, while Islamophobia and the fear of difference grow in the
-
-West. The East is still haunted by the memory of colonization and the remnants of religious wars. Despite remarkable scientific advances, the world finds itself trapped in a bygone era.
+Let us acknowledge here that religion is a primary factor in defining the identities of human groups. In the name of religion thousands have died, in its name many borders between countries have ignited into conflict and in its name still many countries have collapsed from within. Furthermore, religion continues to shape the world in profound ways, while Islamophobia and the fear of difference grow in the West. The East is still haunted by the memory of colonization and the remnants of religious wars. Despite remarkable scientific advances, the world finds itself trapped in a bygone era.
 
 Madam President,
 
@@ -56,15 +57,11 @@ Colleagues,
 
 At the heart of this dilemma, is Lebanon’s unique role and significance on the world stage.
 
-Amidst the international clash of identities, Lebanon stands out as a nation where
-
-Christians and Muslims coexist under a Constitution that guarantees equitable representation to both communities, supported for by a framework of full citizenship for all individuals. This model, while subject to critique, offers a unique evolving approach. As the late Pope John Paul II observed, “Lebanon is more than a country, it is a message of freedom and plurality” and I reiterate this saying myself; Lebanon is a message of freedom and plurality to both East and West”.”
+Amidst the international clash of identities, Lebanon stands out as a nation where Christians and Muslims coexist under a Constitution that guarantees equitable representation to both communities, supported for by a framework of full citizenship for all individuals. This model, while subject to critique, offers a unique evolving approach. As the late Pope John Paul II observed, “Lebanon is more than a country, it is a message of freedom and plurality” and I reiterate this saying myself; Lebanon is a message of freedom and plurality to both East and West”.”
 
 In a region where people kill and get killed over their religious belief, or even for displaying a symbol of faith, Lebanon stands out as a unique and irreplaceable model. In a weary world torn between those who want to impose religious attire and others intent on banning it, Lebanon offers an uplifting model essential to its region and to the world at large.
 
-A model which made it possible for me, an Arab Lebanese to serve as the only
-
-Christian head of state from East Asia to the coasts of Europe.
+A model which made it possible for me, an Arab Lebanese to serve as the only Christian head of state from East Asia to the coasts of Europe.
 
 My country, Lebanon, land of both human secularity and profound faith, existing without any coercive contract, ban or imposition of any kind, is indeed a model to be safeguarded by all those who believe in a better future for mankind. This prompts two essential questions: why should the international community be concerned with preserving Lebanon, and how can this be achieved?
 
@@ -84,21 +81,13 @@ This model is today a vibrant, steadfast and energetic country determined to liv
 
 What it takes to save it, is simply a clear and firm stand, in words and in actions aimed at liberating all the Lebanese territory and securing the exclusive sovereignty of the Lebanese state, enforced solely by its legitimate and legal armed forces over its land.
 
-This is the unanimous will of the Lebanese people since the declaration of November
+This is the unanimous will of the Lebanese people since the declaration of November 27, 2024, which was adopted with the support of the United States and France and this very organization, as a mechanism to enforce the UN Security Council decision 1701.
 
-27, 2024, which was adopted with the support of the United States and France and this very organization, as a mechanism to enforce the UN Security Council decision
-
-1701.
-
-I reaffirmed this commitment in my inaugural address following my election as president in January 2024, and it was also approved by the government in its ministerial statement of February 2024. Throughout our negotiations with President
-
-Trump’s envoy, Mr. Tom Barrack, we worked on drafting a paper to guarantee full stability on our land, to which we are still bound and still await commitment to it by the concerned parties on our borders as well.
+I reaffirmed this commitment in my inaugural address following my election as president in January 2024, and it was also approved by the government in its ministerial statement of February 2024. Throughout our negotiations with President Trump’s envoy, Mr. Tom Barrack, we worked on drafting a paper to guarantee full stability on our land, to which we are still bound and still await commitment to it by the concerned parties on our borders as well.
 
 Lebanon seeks only what is just and necessary for its preservation. Allow me to highlight, with a sense of national pride, the exceptional character of our country and its people. The Lebanese diaspora, whose members visit home each year in an amount equivalent to a third of the country’s residents, underlines the unwavering connection between the Lebanese people and their homeland. This enduring bond serves as a testament that the Lebanese will never abandon their country.
 
-There is hardly a major project in our region that does not bear the signature of a
-
-Lebanese, nor a cultural or artistic event that lacks a Lebanese imprint. In fact, it is almost certain that Lebanese contributions can be found in every significant endeavor.
+There is hardly a major project in our region that does not bear the signature of a Lebanese, nor a cultural or artistic event that lacks a Lebanese imprint. In fact, it is almost certain that Lebanese contributions can be found in every significant endeavor.
 
 Moreover, among the member states of this distinguished assembly, one could scarcely find a nation that does not have within its borders a member of the Lebanese diaspora who is engaged, productive, and creative. These individuals integrate harmoniously with their host societies, respecting their laws and customs, while remaining loyal to both their adopted countries and their homeland. The Lebanese presence around the world stands as an enduring symbol of creativity, loyalty, and constructive engagement.
 
@@ -106,9 +95,7 @@ We, ladies and gentlemen, are a country capable of embracing modernization, and 
 
 Simultaneously we have launched legislative and institutional reforms consecrating the independence of the regulatory bodies of the state’s productive sectors and enhanced the independence of the judiciary and aligned international standards in the fight against money laundering and terrorism financing.
 
-Our government has also recently joined the United Nation’s Convention on
-
-Biological Diversity complying with a lifelong history of commitment to the principles of international legitimacy.
+Our government has also recently joined the United Nation’s Convention on Biological Diversity complying with a lifelong history of commitment to the principles of international legitimacy.
 
 We are also set on advancing public freedom, fighting against hate speech and empowering men and women in decision making.
 
@@ -116,33 +103,21 @@ Ladies and gentlemen,
 
 Our country is dedicated to investing in quality education and is expanding this investment to encompass knowledge economy. Lebanon, strong with an invaluable human capital stands as an essential crossroads for global trade corridors.
 
-While advancing on all these fronts, our country simultaneously shoulders numerous burdens. Most pressing among them are the persistent instabilities along our southern border. In response, we call for the immediate cessation of Israeli aggression, the full withdrawal of its occupying forces from all Lebanese territory, and the release of our hostages, that we shall not forget nor leave behind, and insist on the comprehensive implementation of United Nations Security Council ’s
+While advancing on all these fronts, our country simultaneously shoulders numerous burdens. Most pressing among them are the persistent instabilities along our southern border. In response, we call for the immediate cessation of Israeli aggression, the full withdrawal of its occupying forces from all Lebanese territory, and the release of our hostages, that we shall not forget nor leave behind, and insist on the comprehensive implementation of United Nations Security Council ’s Resolution 1701.
 
-Resolution 1701.
+This will be achieved with the help of the mandate given to United Nations Interim Force in Lebanon (UNIFIL) working in coordination with the Lebanese Army, over a transitional period, to impose peace and stability. In this context, allow me to extend my gratitude to the members of the Security Council who adopted the decision to renew the UNIFIL’s mandate, to help us achieve lasting peace and stability.
 
-This will be achieved with the help of the mandate given to United Nations Interim
+However, the deep underlying causes of our crisis extend beyond our immediate borders. This is why our moral, human and political obligation is to put an immediate end to the devastation taking place in Gaza. We also urge the revival of a new political track, aimed at finding a just and permanent solution to the Palestinian issue, based on the decisions of the international community and the principle of a two-state solution, ensuring the right of both states to a secure and dignified existence, as voted by your General Assembly with a majority of 142 states out of 164 states, in the New Y ork Declaration.
 
-Force in Lebanon (UNIFIL) working in coordination with the Lebanese Army, over a transitional period, to impose peace and stability. In this context, allow me to extend my gratitude to the members of the Security Council who adopted the decision to renew the UNIFIL’s mandate, to help us achieve lasting peace and stability.
+The second major burden Lebanon is carrying now is the unprecedented displacement situation taking place on its soil, which measured by capita stands as the largest in history. Lebanon looks to the United Nations and its specialized agencies as well as to the Syrian authorities to address this critical issue. Through direct negotiations and with the support of the Kingdom of Saudi Arabia, we aim to reach comprehensive understandings and agreements across different aspects of our bilateral relations. The goal being the dignified and safe return of the displaced Syrian citizens, as well as the restoration of the special relations between Lebanon and Syria in good neighborliness and close cooperation in various fields, overcoming the misunderstandings of the past.
 
-However, the deep underlying causes of our crisis extend beyond our immediate borders. This is why our moral, human and political obligation is to put an immediate end to the devastation taking place in Gaza. We also urge the revival of a new political track, aimed at finding a just and permanent solution to the Palestinian issue, based on the decisions of the international community and the principle of a two-state solution, ensuring the right of both states to a secure and dignified existence, as voted by your General Assembly with a majority of 142 states out of
-
-164 states, in the New Y ork Declaration.
-
-The second major burden Lebanon is carrying now is the unprecedented displacement situation taking place on its soil, which measured by capita stands as the largest in history. Lebanon looks to the United Nations and its specialized agencies as well as to the Syrian authorities to address this critical issue. Through direct negotiations and with the support of the Kingdom of Saudi Arabia, we aim to reach comprehensive understandings and agreements across different aspects of our bilateral relations. The goal being the dignified and safe return of the displaced
-
-Syrian citizens, as well as the restoration of the special relations between Lebanon and Syria in good neighborliness and close cooperation in various fields, overcoming the misunderstandings of the past.
-
-The third burden crippling us today is the reconstruction of Lebanon following the
-
-Israeli aggression on our soil, especially with respect to the infrastructure necessary for the return of the Lebanese authority to the Lebanese border towns and to the rebuilding of homes and villages bulldozed and demolished by the aggression, for there will be no stability if it is not rebuilt and its beauty restored.
+The third burden crippling us today is the reconstruction of Lebanon following the Israeli aggression on our soil, especially with respect to the infrastructure necessary for the return of the Lebanese authority to the Lebanese border towns and to the rebuilding of homes and villages bulldozed and demolished by the aggression, for there will be no stability if it is not rebuilt and its beauty restored.
 
 Furthermore, there is the issue of providing the necessary means to our legal armed forces so that they may take on task in defending and safekeeping our national integrity. We remain hopeful about the public initiatives to organize international conferences dedicated to that purpose.
 
 Ladies and gentlemen,
 
-Lebanon does not seek special privileges or favors. Instead, it calls upon the international community to act with responsibility, fairness, and equality, thereby enabling Lebanon to reclaim its role as a land of freedom and plurality. This very spirit underpinned the distinguished Assembly’s decision, on August 16, 2019 to grant Lebanon’s request to establish the Human Academy for Dialogue and
-
-Convergence within its borders, a decision that was, for a time, overshadowed by the many crises Lebanon has faced in recent years.
+Lebanon does not seek special privileges or favors. Instead, it calls upon the international community to act with responsibility, fairness, and equality, thereby enabling Lebanon to reclaim its role as a land of freedom and plurality. This very spirit underpinned the distinguished Assembly’s decision, on August 16, 2019 to grant Lebanon’s request to establish the Human Academy for Dialogue and Convergence within its borders, a decision that was, for a time, overshadowed by the many crises Lebanon has faced in recent years.
 
 Today, Lebanon is intent on reviving this vital initiative. Our intention is both to reassure ourselves and to send a message to the world: Lebanon is returning to its rightful place, both within the international community and among the nations gathered at the United Nations, a true platform for human values and the advancement of humanity.
 

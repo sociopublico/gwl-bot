@@ -4,10 +4,13 @@ slug: south-africa
 country: South Africa
 speaker: Cyril Matamela Ramaphosa
 title: President
+speaker_title: His Excellency
 date: 2025-09-23
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/za_en.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 President of the 80th Session of the UN General Assembly, Ms Annalena Baerbock,
@@ -34,19 +37,13 @@ Our foreign policy is guided not only by the needs of our people, but also those
 
 Inspired by our own history, South Africa strives to maintain world peace and the settlement of all international disputes through negotiation and dialogue, not war.
 
-We therefore welcome the strong partnership between the African Union and the United
-
-Nations in promoting peace, security and stability on the African continent.
+We therefore welcome the strong partnership between the African Union and the United Nations in promoting peace, security and stability on the African continent.
 
 This year, South Africa is honoured to preside over the G20.
 
-This is the first time that the G20 Leaders’ Summit will be held on the African Continent, the
+This is the first time that the G20 Leaders’ Summit will be held on the African Continent, the Cradle of Humankind.
 
-Cradle of Humankind.
-
-South Africa’s G20 Presidency is guided by the theme of Solidarity, Equality and
-
-Sustainability.
+South Africa’s G20 Presidency is guided by the theme of Solidarity, Equality and Sustainability.
 
 As Member States of the United Nations, we adopted the Sustainable Development Goals.
 
@@ -60,9 +57,7 @@ Yet through global solidarity, by having fairer lending rules especially for sev
 
 Through the G20 process we are working towards consensus on how this problem can be tackled, including the reform of international financial institutions, particularly multilateral development banks, to better tackle global challenges.
 
-The multilateral trading system needs to be reformed as we re-confirm that the World Trade
-
-Organisation remains the only multilateral body capable of managing differences and coordinating positions in global trade.
+The multilateral trading system needs to be reformed as we re-confirm that the World Trade Organisation remains the only multilateral body capable of managing differences and coordinating positions in global trade.
 
 Trade is one of the most important instruments to mobilise domestic resources for development.
 
@@ -106,15 +101,11 @@ There is an increasing reliance on unilateral military action in contravention o
 
 The United Nations Security Council has proven to be ineffective in its current form and composition in carrying out its Charter mandate to maintain international peace and security.
 
-South Africa remains deeply concerned by the erosion of the credibility of the Security
-
-Council and its failure to ensure accountability and uphold international law.
+South Africa remains deeply concerned by the erosion of the credibility of the Security Council and its failure to ensure accountability and uphold international law.
 
 As the security and humanitarian situations in the Democratic Republic of the Congo, Sudan,
 
-Gaza and elsewhere deteriorate, it is a matter of grave concern that there are countries that continue to violate international law and defy UN resolutions and rulings from bodies like the
-
-International Court of Justice.
+Gaza and elsewhere deteriorate, it is a matter of grave concern that there are countries that continue to violate international law and defy UN resolutions and rulings from bodies like the International Court of Justice.
 
 The establishment of the Hague Group and the Madrid Group aim to reaffirm the primacy of international law, promoting accountability and ensuring support for a just peace.
 
@@ -128,13 +119,9 @@ Just last week, the UN Independent International Commission of Inquiry found tha
 
 As Palestinians continue to face genocide and famine, we have a duty to act.
 
-We welcome the historic High-Level Meeting held yesterday on the Two-State Solution yesterday in this chamber. This reflects the determination of the global majority that
+We welcome the historic High-Level Meeting held yesterday on the Two-State Solution yesterday in this chamber. This reflects the determination of the global majority that Palestinians deserve a peaceful state alongside a peaceful Israel.
 
-Palestinians deserve a peaceful state alongside a peaceful Israel.
-
-The long overdue announcement by an increasing number of countries to recognise the
-
-State of Palestine is testament to this determination.
+The long overdue announcement by an increasing number of countries to recognise the State of Palestine is testament to this determination.
 
 We have a responsibility as the Member States of the United Nations to reaffirm the right of self-determination of the people of Western Sahara.
 
@@ -144,15 +131,11 @@ The resolution was passed shortly after the catastrophic use of atomic bombs on 
 
 Decades later, we have not made significant progress in the fulfilment of the commitment to nuclear disarmament.
 
-In 2026, South Africa will be presiding over the first review conference of the Treaty on the
-
-Prohibition of Nuclear Weapons.
+In 2026, South Africa will be presiding over the first review conference of the Treaty on the Prohibition of Nuclear Weapons.
 
 This Treaty reaffirms that there is no greater assurance of non-proliferation than the complete prohibition of nuclear weapons.
 
-This year, we celebrate the 30th Anniversary of the Beijing Declaration and Platform for
-
-Action as a roadmap for the achievement of gender equality.
+This year, we celebrate the 30th Anniversary of the Beijing Declaration and Platform for Action as a roadmap for the achievement of gender equality.
 
 South Africa reaffirms its unwavering commitment to the empowerment of women and their full, equal and meaningful participation in all spheres of life.
 
@@ -166,9 +149,7 @@ As we celebrate 80 years of the United Nations, we must seize the opportunity to
 
 What is needed now is a stronger and more capable United Nations, based on a renewed commitment to its founding principles.
 
-We must invigorate the negotiations on Security Council reform at the Inter-Governmental
-
-Negotiations in the General Assembly, including by initiating text-based negotiations.
+We must invigorate the negotiations on Security Council reform at the Inter-Governmental Negotiations in the General Assembly, including by initiating text-based negotiations.
 
 The Security Council must be more accountable, representative, democratic and effective in executing its mandate.
 
@@ -176,9 +157,7 @@ We look forward to working with the Secretary-General on the UN80 Initiative to 
 
 Mandates given by Member States must be implemented and the necessary structural changes and programme realignment must be implemented across the UN system.
 
-In the face of the decrease in funding to the United Nations to fulfil its mandate, the UN80
-
-Initiative is important to maintain the integrity of the multilateral system and to uphold international law.
+In the face of the decrease in funding to the United Nations to fulfil its mandate, the UN80 Initiative is important to maintain the integrity of the multilateral system and to uphold international law.
 
 Lastly, I am reminded that our collective membership of the United Nations is our shared humanity in action.
 
@@ -192,6 +171,4 @@ We must reaffirm the equal dignity and worth of every person and must therefore 
 
 I thank you.
 
-Issued by: The Presidency
-
-Pretoria
+Issued by: The Presidency Pretoria

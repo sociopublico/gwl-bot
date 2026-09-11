@@ -4,15 +4,16 @@ slug: suriname
 country: Suriname
 speaker: Jennifer Geerlings-Simons
 title: President
+speaker_title: Her Excellency
 date: 2025-09-23
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/sr_en.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
-Your Excellency Annalena Baerbock, President of the 80th
-
-Session of the United Nations General Assembly,
+Your Excellency Annalena Baerbock, President of the 80th Session of the United Nations General Assembly,
 
 Your Excellency António Guterres, Secretary General of the United Nations,
 
@@ -22,9 +23,7 @@ Ladies and Gentlemen,
 
 It is an honor to present my first statement to this dignified body today.
 
-Introduction
-
-Madam President,
+Introduction Madam President,
 
 I extend to you, my sincere congratulations on your election to preside over this esteemed gathering.
 
@@ -34,23 +33,17 @@ In the same vein, I acknowledge, His Excellency,
 
 Philemon Yang for his skillful leadership of the previous session and wish him well in his future endeavors.
 
-Equally we salute and applaud Secretary General
-
-Guterres, for his leadership of our organization, especially during this tumultuous time, when the United Nations and the world are confronted with so many challenges.
+Equally we salute and applaud Secretary General Guterres, for his leadership of our organization, especially during this tumultuous time, when the United Nations and the world are confronted with so many challenges.
 
 Madam President,
 
 We are here to commemorate a special moment in history, as we celebrate the United Nations 80 th anniversary.
 
-On behalf of the Government and the People of the
-
-Republic of Suriname, I express sincere congratulations to the international community on this occasion.
+On behalf of the Government and the People of the Republic of Suriname, I express sincere congratulations to the international community on this occasion.
 
 This 80th session of the General Assembly coincides with the 50th anniversary of the i ndependence of the Republic of Suriname and our membership of this Organization.
 
-Peace /80 Years of United Nations (UN@80)
-
-Madam President,
+Peace /80 Years of United Nations (UN@80) Madam President,
 
 The United Nations played, in some instances, an important role in ending colonial rule, advancing human rights, and providing hope and a future to the most vulnerable in our global community.
 
@@ -76,17 +69,11 @@ In several other countries and regions for instance in the Middle – East we ha
 
 Also, Madam President, within our own Region we have not been spared of rising tensions.
 
-It is with heightened concern that we noted the Secretary
-
-General’s recent briefing of the Security Council Meeting, on the situation in Haiti, mentioning that “the Haitians are enduring a perfect storm of suffering”.
+It is with heightened concern that we noted the Secretary General’s recent briefing of the Security Council Meeting, on the situation in Haiti, mentioning that “the Haitians are enduring a perfect storm of suffering”.
 
 Suriname strongly reiterates its position that conflict s should primarily be resolved through dialogue.
 
-We remind the international community that Latin
-
-America and the Caribbean are proclaimed as a Zone of
-
-Peace.
+We remind the international community that Latin America and the Caribbean are proclaimed as a Zone of Peace.
 
 Madam President, we should reflect and ponder on the role and effectiveness of the Organization for the next 80 years. What do we have to change, what needs to be done differently?
 
@@ -102,9 +89,7 @@ The task ahead, therefore, is that we in the first place, go back to the table a
 
 This implies that all nations should adhere to the rules and regulations agreed upon in order to attain a peaceful world order, in which all people from all regions, should have opportunities for a dignified life.
 
-Furthermore, the UN should adjust to the world we currently live in. This means that for example, the Security
-
-Council should be expanded to include all nations who exert major influence in the world.
+Furthermore, the UN should adjust to the world we currently live in. This means that for example, the Security Council should be expanded to include all nations who exert major influence in the world.
 
 Exclusion of these players will only increase the risk of conflict and obstruct the beneficial cooperation, necessary for humanity to develop and prosper.
 
@@ -112,13 +97,9 @@ It is of great importance that all economically and otherwise strong countries, 
 
 On the other hand, these countries need to work together to guarantee the global peace, so crucial for the existence and growth of developing states.
 
-In this context, Suriname endorses the inclusion of, amongst others, Brazil, India, and a representation of the
+In this context, Suriname endorses the inclusion of, amongst others, Brazil, India, and a representation of the African Continent, for equal membership of the Council.
 
-African Continent, for equal membership of the Council.
-
-Equally we support the CARICOM position for a non permanent rotating seat for the Small Island Developing
-
-States and Low-lying coastal countries.
+Equally we support the CARICOM position for a non permanent rotating seat for the Small Island Developing States and Low-lying coastal countries.
 
 I would like to remind member states that my country has presented its candidacy as a non -permanent member of the Council for the period 2043 -2044.
 
@@ -130,13 +111,9 @@ Suriname stands firmly for global peace, for the rule of law, and for the equal 
 
 Considering this, Suriname once again, calls for the lifting of the longstanding embargo against Cuba and its people.
 
-Suriname within the United Nations
+Suriname within the United Nations Madam President,
 
-Madam President,
-
-Our rich history, and extraordinary cultural diversity of
-
-Suriname’s people, including Indigenous, Maroon,
+Our rich history, and extraordinary cultural diversity of Suriname’s people, including Indigenous, Maroon,
 
 Javanese, Hindustani, Creole, Chinese, European and more. All living together in a mosaic of cultures and faiths.
 
@@ -152,9 +129,7 @@ Together we strive to build a more resilient and diverse economy, by developing 
 
 Suriname has a vast tourism potential with it s green and lustrous hinterland, many waterfalls, rapids and great rivers for relaxation as well as unforgettable adventures, rich biodiversity, cultural treasures and the UNESCO acknowledged historical City of Paramaribo.
 
-Through cooperation in the agriculture sector with our neighbors we aim at improving f ood security within
-
-Suriname and the Caribbean Community (CARICOM).
+Through cooperation in the agriculture sector with our neighbors we aim at improving f ood security within Suriname and the Caribbean Community (CARICOM).
 
 My government views energy security as a strategic priority for national development, regional stability, and economic resilience.
 
@@ -170,9 +145,7 @@ Madam President, I firmly believe that education is the foundation upon which ev
 
 We are committed, to invest in our education system, our teachers, our children and youth. The future of my country depends on the talents and skills of its people.
 
-My government also, strongly reaffirms, its commitment to upholding the rights of Indigenous and
-
-Tribal communities, ensuring that their livelihoods, traditions, knowledge systems are respected and preserved, and the acknowledgement of their collective land rights.
+My government also, strongly reaffirms, its commitment to upholding the rights of Indigenous and Tribal communities, ensuring that their livelihoods, traditions, knowledge systems are respected and preserved, and the acknowledgement of their collective land rights.
 
 Strengthening our institutions is high on our agenda.
 
@@ -182,27 +155,17 @@ Suriname has worked tirelessly on the prevention of diseases and despite the cha
 
 As of June 30, 2025, Suriname has officially been declared malaria-free by the World Health Organization after 30 years of continuous fight against this disease. The first in the Amazon Region to receive such a recognition.
 
-We are aware of the responsibility to remain vigilant, as
+We are aware of the responsibility to remain vigilant, as Government as well as a community to ensure that these gains are sustained. Suriname’s example showcases that we too can surely make a valuable contribution in combatting infectious diseases.
 
-Government as well as a community to ensure that these gains are sustained. Suriname’s example showcases that we too can surely make a valuable contribution in combatting infectious diseases.
-
-CARICOM
-
-Madam President,
+CARICOM Madam President,
 
 The Caribbean Community ( CARICOM) is expanding its outreach and, in this light, Suriname also welcomes the recently concluded 2nd Africa–CARICOM Summit, held in the Republic of Ethiopia.
 
-This, Madam President honors the historic, cultural, and human bonds between our regions. Suriname also acknowledges the CARICOM Ten Point Plan for Reparatory
+This, Madam President honors the historic, cultural, and human bonds between our regions. Suriname also acknowledges the CARICOM Ten Point Plan for Reparatory Justice, which has our full and strong endorsement.
 
-Justice, which has our full and strong endorsement.
+We will, furthermore, continue to contribute within CARICOM, aiming at enhancing the organization’s geopolitical influence.
 
-We will, furthermore, continue to contribute within
-
-CARICOM, aiming at enhancing the organization’s geopolitical influence.
-
-Climate
-
-Madam President,
+Climate Madam President,
 
 Despite our commitment to the Paris Agreement 10 years ago, the climate crisis is worse than we feared.
 
@@ -214,9 +177,7 @@ Our forest stands strong. More than 90 percent of our land is covered by rainfor
 
 Since 1992, our forest has absorbed nearly 290 million tons of carbon, and each year we capture more than we emit, and we want to keep it that way.
 
-The protection and conservation of our forest has been a priority. We have been logging sustainably for decades and did so with the Sustainable Tropical Rainforest
-
-Management System developed in Suriname. An ecological approach to forestry.
+The protection and conservation of our forest has been a priority. We have been logging sustainably for decades and did so with the Sustainable Tropical Rainforest Management System developed in Suriname. An ecological approach to forestry.
 
 Also, the Indigenous and Tribal communities protect the forest by their continued stewardship.
 
@@ -232,9 +193,7 @@ The time has come for the world’s largest emitters to share in this responsibi
 
 Suriname strongly calls for global action: predictable climate finance for high-forested, low-deforestation countries; fair recognition of real carbon removals; and direct support for the communities who live in and protect these forests.
 
-Suriname, Madam President therefore endorses the initiative of the COP 30 Presidency to launch the Tropical
-
-Forest Forever Facility (TFFF ) and calls upon the international community to contribute to its success.
+Suriname, Madam President therefore endorses the initiative of the COP 30 Presidency to launch the Tropical Forest Forever Facility (TFFF ) and calls upon the international community to contribute to its success.
 
 Madam President,
 

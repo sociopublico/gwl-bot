@@ -4,12 +4,12 @@ slug: uruguay
 country: Uruguay
 speaker: Yamandú Orsi
 title: President
-speaker_title: 
+speaker_title: His Excellency
 date: 2025-09-23
 source: audio_en
 source_url: https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_UY_EN.mp3
 language: en
-original_language: 
+original_language: es
 transformation: whisper
 ---
 

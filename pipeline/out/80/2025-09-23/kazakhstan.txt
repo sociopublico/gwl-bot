@@ -4,10 +4,13 @@ slug: kazakhstan
 country: Kazakhstan
 speaker: Kassym-Jomart Tokayev
 title: President
+speaker_title: His Excellency
 date: 2025-09-23
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/kz_en_0.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 Madam President,
@@ -40,19 +43,11 @@ In this regard, comprehensive reform of the United Nations is a strategic necess
 
 We need to establish a new group of truly dedicated people who will highly professionally and without any hesitations make concrete proposals for reforming the UN to make it better suited to the challenges of today and objectives of tomorrow.
 
-A central pillar of this bold effort to renew the UN should be a reform of the Security
+A central pillar of this bold effort to renew the UN should be a reform of the Security Council.
 
-Council.
+Major powers of Asia, Africa, and Latin America should be repr esented in the Security Council on the rotational basis.
 
-Major powers of Asia, Africa, and Latin
-
-America should be repr esented in the
-
-Security Council on the rotational basis.
-
-In addition, Kazakhstan strongly believes that the voices of responsible Middle
-
-Powers also need to be seriously amplified in the Security Council.
+In addition, Kazakhstan strongly believes that the voices of responsible Middle Powers also need to be seriously amplified in the Security Council.
 
 In fact, they have already started to play a larger positive role in international relations, bringing balance and building trust.
 
@@ -64,15 +59,11 @@ Otherwise, the UN is doomed to forever mitigate consequences while root causes f
 
 We can begin this process already today by reaffirming our steadfast commitment to the Charter of the United Nations.
 
-The founding principles of sovereignty, territorial integrity, and peaceful resolution of disputes must be upheld without exception. Selective application of the
-
-Charter undermines its credibility.
+The founding principles of sovereignty, territorial integrity, and peaceful resolution of disputes must be upheld without exception. Selective application of the Charter undermines its credibility.
 
 The world needs a new consensus based on trust, inclusiveness and shared responsibility.
 
-For example, the “enemy state” clauses of the Charter, historical remnants o f the
-
-Second World War, have already been recognized by the overwhelming majority of the international community as obsolete.
+For example, the “enemy state” clauses of the Charter, historical remnants o f the Second World War, have already been recognized by the overwhelming majority of the international community as obsolete.
 
 For all these reasons, it is time to have a serious conversation about Charter review.
 
@@ -88,13 +79,9 @@ More widely, we must begin the hard work of getting rid of the militant mindset.
 
 Kazakhstan is ready to host a new dialogue on nuclear disarmament and non-proliferation. We can focus on informal inclusive exchanges that reinforce the NPT and support progress toward the CTBT.
 
-We also call to advance our proposal to establish International Agency for
+We also call to advance our proposal to establish International Agency for Biological Safety and Security.
 
-Biological Safety and Security.
-
-Kazakhstan remains concerned by the
-
-Ukrainian Crisis, which continues to seriously harm civilians, damage global trust, and undermine international security.
+Kazakhstan remains concerned by the Ukrainian Crisis, which continues to seriously harm civilians, damage global trust, and undermine international security.
 
 Nonetheless, bilateral and international diplomatic efforts on this conflict should continue along with political flexibility to meet the long-term interests of both states.
 
@@ -110,17 +97,11 @@ Kazakhstan calls for full protection of all civilians, and unhindered humanitari
 
 We reaffirm our support of the two-state solution with the UN playing a central role.
 
-Kazakhstan acknowledges diplomatic initiatives aimed at regional reconciliation in the Middle East, including the Arab Peace
-
-Initiative, the New York D eclaration, the
-
-Abraham Accords, and others.
+Kazakhstan acknowledges diplomatic initiatives aimed at regional reconciliation in the Middle East, including the Arab Peace Initiative, the New York D eclaration, the Abraham Accords, and others.
 
 They demonstrate that leadership and political will can turn division into cooperation and shared benefit.
 
-We also welcome the normalization of relations between Azerbaijan and Armenia under the mediation of the United States’
-
-President.
+We also welcome the normalization of relations between Azerbaijan and Armenia under the mediation of the United States’ President.
 
 It shows that even entrenched conflicts can be settled through diplomacy and common sense.
 
@@ -156,33 +137,21 @@ Located in the very center of Eurasia,
 
 Kazakhstan is poised to play a crucial role as a logistics hub, handling 80% of all overland transit between Asia and Europe.
 
-We are investing tens of billions of dollars in our transport and transit infrastructure, including the Belt and Road Initiative, the
-
-North-South and the Trans-Caspian transit corridors.
+We are investing tens of billions of dollars in our transport and transit infrastructure, including the Belt and Road Initiative, the North-South and the Trans-Caspian transit corridors.
 
 Kazakhstan will continue to develop regional supply chains that are the heart of the emerging global transport network.
 
 By 2029, we plan to build 5 thousand kilometers of new railway lines.
 
-Kazakhstan has made the Sustainable
+Kazakhstan has made the Sustainable Development Goals a core pillar of its national agenda, integrating their targets into state planning and budgeting.
 
-Development Goals a core pillar of its national agenda, integrating their targets into state planning and budgeting.
-
-With the support of the UN Secretary -
-
-General and partner-states, Kazakhstan now hosts the new United Nations Regional
-
-Centre for SDGs for Central Asia and
-
-Afghanistan in Almaty.
+With the support of the UN Secretary General and partner-states, Kazakhstan now hosts the new United Nations Regional Centre for SDGs for Central Asia and Afghanistan in Almaty.
 
 Today, Central Asia is demonstrating a renewed sense of unity and mutual trust. It is emerging as a proactive contributor to international peace and progress.
 
 The “Central Asian Five ” are strengthening cooperation, proving that regional solidarity can be a powerful force for development and security.
 
-This has enabled our region to engage key global partners in the unique “Central
-
-Asia Plus” dialogue format.
+This has enabled our region to engage key global partners in the unique “Central Asia Plus” dialogue format.
 
 Kazakhstan believes that inclusive development in Afghanistan is a basis for long-term regional peace and stability.
 
@@ -196,43 +165,27 @@ The melting of glaciers in the Alatau mountains is accelerating, multiplying thr
 
 Kazakhstan has drawn profound lessons from the tragedy of the Aral Sea. Thanks to our consistent efforts, including at the international level, we succeeded in preserving the northern part of the sea.
 
-As the current chair of the International
-
-Fund for Saving the Aral Sea, Kazakhstan will continue to play a proactive role in this common priority.
+As the current chair of the International Fund for Saving the Aral Sea, Kazakhstan will continue to play a proactive role in this common priority.
 
 Meanwhile, the Caspian Sea is rapidly shrinking. It is n o longer just a regional concern, it is a global warning signal.
 
 Therefore, we call for urgent steps to preserve the Caspian water resources with our partners across the region and the wider international community.
 
-Last year, Kazakhstan co-organized the
-
-One Water Summit with France, Saudi
-
-Arabia and the World Bank.
+Last year, Kazakhstan co-organized the One Water Summit with France, Saudi Arabia and the World Bank.
 
 Looking forward, stronger coordination, investments, and sustainable solutions are urgently needed to prevent future water crises.
 
-T o help advance this agenda, Kazakhstan will host a Regional Ecological Summit in
-
-Astana in April next year, to be convened in partnership with the United Nations and other international organizations.
+T o help advance this agenda, Kazakhstan will host a Regional Ecological Summit in Astana in April next year, to be convened in partnership with the United Nations and other international organizations.
 
 As part of our broader environmental commitment, Kazakhstan is implementing a nationwide “Clean Kazakhstan” campaign.
 
 This national movement mobilizes millions of volunteers in clean-up actions, waste reduction, and eco-education.
 
-At the initiative of Kazakhstan, the UN declared 2026 the International Year of
-
-Volunteers for Sustainable Development.
+At the initiative of Kazakhstan, the UN declared 2026 the International Year of Volunteers for Sustainable Development.
 
 We invite all Member States to collaborate on this important endeavor.
 
-In this spirit, I propose that the General
-
-Assembly adopt a resolution proclaiming
-
-April 22 as the International Day of
-
-Greening the Planet.
+In this spirit, I propose that the General Assembly adopt a resolution proclaiming April 22 as the International Day of Greening the Planet.
 
 Dear friends,
 
@@ -254,13 +207,9 @@ In Kazakhstan, artificial Intelligence will be integrated across all sectors of 
 
 The basic infrastructure to deliver this plan is being built, and our bright young people are getting ready to turn this vision into reality.
 
-Our strategic goal is to transform
+Our strategic goal is to transform Kazakhstan into a fully digital power within the next three years.
 
-Kazakhstan into a fully digital power within the next three years.
-
-Large-scale digitalization and widespread use of AI have become a national priority in
-
-Kazakhstan.
+Large-scale digitalization and widespread use of AI have become a national priority in Kazakhstan.
 
 E-government is an important pillar of our national development strategy.
 
@@ -284,9 +233,7 @@ Through a national referendum, we introduced a single seven-year presidential te
 
 We remain committed to the formula of strong President, influential Parliament, and accountable Government.
 
-Guided by strong wish to modernize
-
-Kazakhstan, I have proposed a singlechamber Parliament for a national referendum to consider.
+Guided by strong wish to modernize Kazakhstan, I have proposed a singlechamber Parliament for a national referendum to consider.
 
 Our objective is to continuously embrace the political system to make it more transparent, effective and reflective of people’s aspirations.
 

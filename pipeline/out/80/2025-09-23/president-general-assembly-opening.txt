@@ -4,10 +4,13 @@ slug: president-general-assembly-opening
 country: President of the General Assembly (opening)
 speaker: Annalena Baerbock
 title: President of the General Assembly
+speaker_title: Her Excellency
 date: 2025-09-23
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/pgaopening_en.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 Eighty years.
@@ -22,11 +25,11 @@ Just look at the state of our world, as the Secretary General described.
 
 • Thousands of orphans in Gaza are wandering around the rubble eating sand, drinking contaminated water.
 
-• Ninety-year-old women in Ukraine are hiding from drones, trapped in their homes instead of living their ﬁnal years in peace.
+• Ninety-year-old women in Ukraine are hiding from drones, trapped in their homes instead of living their final years in peace.
 
 • Children in Haiti, too afraid to walk to school, afraid they might be gunned down by gangs, like their friends.
 
-And for every conﬂict and tragedy that seizes the headlines, there are so many more that are forgotten.
+And for every conflict and tragedy that seizes the headlines, there are so many more that are forgotten.
 
 Lost to the news cycle.
 
@@ -100,13 +103,13 @@ If we stopped doing the right thing, evil would prevail.
 
 This 80th session is not about big celebrations.
 
-It’s about ﬁnding the resolve not to give up.
+It’s about finding the resolve not to give up.
 
 The resolve to be Better Together.
 
 Just as our predecessors did eight decades ago.
 
-This institution was born in a world on ﬁre and desperate for reprieve.
+This institution was born in a world on fire and desperate for reprieve.
 
 750 million – nearly a third of humanity back then– still under colonial rule.
 
@@ -146,7 +149,7 @@ Not to hear our own voices.
 
 We gather to prove that this institution matters.
 
-And through it, every nation represented here, no matter how big or how small, can summon again the strength and unity ﬁrst shown in San Francisco, 80 years ago.
+And through it, every nation represented here, no matter how big or how small, can summon again the strength and unity first shown in San Francisco, 80 years ago.
 
 The courage and resolve of leaders who, even while some called them naïve, believed they could build a better world from the wreckage of the old.
 
@@ -160,7 +163,7 @@ True leadership is about lifting others up.
 
 Not only out of altruism,
 
-But for our mutual beneﬁt.
+But for our mutual benefit.
 
 And even out of our self-interest.
 
@@ -174,9 +177,9 @@ We were only able to solve it at the end with the support of the World Health Or
 
 The climate crisis does not stop at borders.
 
-CO₂ emissions anywhere affect people everywhere.
+CO2 emissions anywhere affect people everywhere.
 
-Even the wealthiest cities in the world cannot shield themselves from wildﬁres.
+Even the wealthiest cities in the world cannot shield themselves from wildfires.
 
 And imagine, coming here by plane how safe would you feel to step into the next aeroplane if there were no International Civil Aviation Organization, which is responsible for setting safety regulations for 5 billion passengers each year?
 
@@ -210,17 +213,15 @@ That is why the UN80 initiative—and the wider reform process—are not luxurie
 
 We are literally now at a crossroads.
 
-A make it or break it moment. Politically, ﬁnancially.
+A make it or break it moment. Politically, financially.
 
-We have to deliver a United Nations that is agile, cost-effective, and ﬁt for purpose.
+We have to deliver a United Nations that is agile, cost-effective, and fit for purpose.
 
 Member States have to give the Secretary-General, and this process their full support, because reform cannot stop in New York.
 
 It must carry through to every capital.
 
-That includes delivering the Pact for the Future and accelerating progress on the
-
-Sustainable Development Goals.
+That includes delivering the Pact for the Future and accelerating progress on the Sustainable Development Goals.
 
 Again, this is not about charity.
 
@@ -244,11 +245,9 @@ Put simply – without the SDGs, there cannot be lasting peace.
 
 Excellencies,
 
-Our future as an institution will also be shaped by the selection of the next Secretary-
+Our future as an institution will also be shaped by the selection of the next SecretaryGeneral.
 
-General.
-
-And here we must pause and reﬂect.
+And here we must pause and reflect.
 
 In nearly eighty years, this Organisation has never chosen a woman for that role.
 

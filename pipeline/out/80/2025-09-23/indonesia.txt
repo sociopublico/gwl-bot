@@ -4,10 +4,13 @@ slug: indonesia
 country: Indonesia
 speaker: Prabowo Subianto
 title: President
+speaker_title: His Excellency
 date: 2025-09-23
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/id_en.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 Madam President, distinguished delegates, excellencies,
@@ -64,7 +67,7 @@ We must reject this doctrine. The UN exists to reject this doctrine.
 
 Indonesia is today one of the largest contributors to UN peacekeeping forces. We will continue to serve where peace needs guardians — not with just words, but with boots on the ground.
 
-If and when the Security Council and this Assembly decide, we are ready to deploy 20,000 or even more of our sons and daughters to help secure peace in Gaza or elsewhere in Palestine as part of a united multilateral force — so that the two‑state solution, so that peace in both Palestine and Israel, can become real, not just envisioned.
+If and when the Security Council and this Assembly decide, we are ready to deploy 20,000 or even more of our sons and daughters to help secure peace in Gaza or elsewhere in Palestine as part of a united multilateral force — so that the two‐state solution, so that peace in both Palestine and Israel, can become real, not just envisioned.
 
 Madam President, excellencies,
 
@@ -76,9 +79,9 @@ We choose to answer these challenges directly at home and to help abroad wheneve
 
 This year, we recorded the highest rice production and grain reserves in our history.
 
-We are now self‑sufficient in rice and we have exported rice to other nations in need, including providing rice to Palestine.
+We are now self‐sufficient in rice and we have exported rice to other nations in need, including providing rice to Palestine.
 
-We are building resilient food supply chains, strengthening farmer productivity, and investing in climate‑smart agriculture to ensure food security for our children and our neighbors.
+We are building resilient food supply chains, strengthening farmer productivity, and investing in climate‐smart agriculture to ensure food security for our children and our neighbors.
 
 As the world’s largest island state, we are already experiencing the direct consequences of climate change, particularly the threat of rising sea levels. This reality compels us to act with urgency, and with determination.
 

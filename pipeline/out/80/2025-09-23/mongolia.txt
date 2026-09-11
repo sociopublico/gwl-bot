@@ -4,10 +4,13 @@ slug: mongolia
 country: Mongolia
 speaker: Khurelsukh Ukhnaa
 title: President
+speaker_title: His Excellency
 date: 2025-09-23
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/mn_en.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 Madam President,
@@ -30,11 +33,7 @@ Then eight decades ago, when the dust and ashes of the war had not cleared yet a
 
 Since its establishment, the United Nations has illuminated the path of humanity, serving as a steadfast beacon of hope and trust for nations to maintain peaceful co-existence and share prosperous future.
 
-In today’s volatile and challenging international environment, we welcome “Better
-
-Together: 80 years and more for peace, development and human rights” as the theme for the
-
-80th session of the General Assembly and the General Debate.
+In today’s volatile and challenging international environment, we welcome “Better Together: 80 years and more for peace, development and human rights” as the theme for the 80th session of the General Assembly and the General Debate.
 
 Indeed, this theme calls upon us to assess, and reflect upon, the United Nations’ achievements and challenges over the past 80 years, to further strengthen its work in accordance with the UN Charter and the principles of international law, and to combine our collective voices and efforts in pursuit of concrete and tangible outcomes.
 
@@ -48,47 +47,29 @@ Demonstrating its enduring commitments to disarmament and non-proliferation and 
 
 Furthermore, Mongolia has actively cooperated with the United Nations at all levels, including establishing a dialogue mechanism in Northeast Asia, participat ing in the UN peacekeeping operations and putting forward various proposals and initiatives in the areas of socio-economic development, environment and climate change to advance the implementation of development goals.
 
-During his visit to Mongolia in 2022, United Nations Secretary -General Mr. António
+During his visit to Mongolia in 2022, United Nations Secretary -General Mr. António Guterres described our nation as a “symbol of peace in a troubled world”. It is a profound recognition of Mongolia’s humble contributions and dedication to the work of the United Nations and its enduring commitment to the cause of peace.
 
-Guterres described our nation as a “symbol of peace in a troubled world”. It is a profound recognition of Mongolia’s humble contributions and dedication to the work of the United Nations and its enduring commitment to the cause of peace.
+Over the past 23 years, Mongolia has continuously deployed personnel from its Armed Forces to United Nations peacekeeping operations, making a meaningful contribution to global and regional peace and security.
 
-Over the past 23 years, Mongolia has continuously deployed personnel from its Armed
+During this period, Mongolia has deployed more than 23,000 peacekeepers to 16 United Nations peacekeeping missions and consistently ranked among the top 20 troop - and policecontributing countries out of more than 120 Member States.
 
-Forces to United Nations peacekeeping operations, making a meaningful contribution to global and regional peace and security.
-
-During this period, Mongolia has deployed more than 23,000 peacekeepers to 16 United
-
-Nations peacekeeping missions and consistently ranked among the top 20 troop - and policecontributing countries out of more than 120 Member States.
-
-As we mark the 25 th anniversary of United Nations Security Council resolution 1325 on
-
-“Women, Peace and Security”, it is a pleasure to announce that, through the steady increase in the deployment of female military personnel, the proportion of women peacekeepers from
-
-Mongolia has reached 14 percent in 2025.
+As we mark the 25 th anniversary of United Nations Security Council resolution 1325 on “Women, Peace and Security”, it is a pleasure to announce that, through the steady increase in the deployment of female military personnel, the proportion of women peacekeepers from Mongolia has reached 14 percent in 2025.
 
 Mongolia will continue to extend its unwavering support to the United Nations in its efforts to maintain international peace and security, and remains committed to contributing to peacekeeping operations.
 
 Distinguished delegates,
 
-At this cr itical juncture, with only five years remaining until the 2030 Agenda deadline, global progress toward achieving the Sustainable Development Goals (SDGs) stands at a mere
-
-17 percent.
+At this cr itical juncture, with only five years remaining until the 2030 Agenda deadline, global progress toward achieving the Sustainable Development Goals (SDGs) stands at a mere 17 percent.
 
 According to the Sustainable Development Report 2025, Mongolia's implementation of the SDGs has reached 66.7 percent, ranking it 14th in the UN Multilateralism Index (UN-MI), a testament to our decades-long efforts, and a worthy achievement.
 
 I would like to acknowledge the tremendous efforts of the international community and all Member States in advancing the implementation of the SDGs.
 
-We welcome the outcomes of the Fourth International Conference on Financing for
+We welcome the outcomes of the Fourth International Conference on Financing for Development, held recently in Seville, Spain, where a broad consensus was reached on the crucial role of financing in achieving the SDGs. We also appreciate that the conference agreed to increase engagement of developing countries and to take comprehensive actions aimed at reforming the current international financial architecture.
 
-Development, held recently in Seville, Spain, where a broad consensus was reached on the crucial role of financing in achieving the SDGs. We also appreciate that the conference agreed to increase engagement of developing countries and to take comprehensive actions aimed at reforming the current international financial architecture.
+Within the framework of implement ing the “Seville Commitment” adopted at the Conference, it is essential to direct international development cooperation to ward supporting the most vulnerable groups and addressing their challenges.
 
-Within the framework of implement ing the “Seville Commitment” adopted at the
-
-Conference, it is essential to direct international development cooperation to ward supporting the most vulnerable groups and addressing their challenges.
-
-It is my pleasure to note that Mongolia has been playing an active role within the United
-
-Nations in advocating the interests of landlocked developing countries (LLDCs), in r aising awareness of their special needs and unique circumstances, closely collaborating with them to ensure their voices heard at global stage.
+It is my pleasure to note that Mongolia has been playing an active role within the United Nations in advocating the interests of landlocked developing countries (LLDCs), in r aising awareness of their special needs and unique circumstances, closely collaborating with them to ensure their voices heard at global stage.
 
 The Third United Nations Conference on LLDCs was held in August in Turkmenistan, and adopted the Awaza Programme of Action for 2024-2034.
 
@@ -102,9 +83,7 @@ Distinguished delegates,
 
 Mother Earth is our one and only home.
 
-However, as a result of humanity’s careless behavior towards the environment, Mother
-
-Earth - with her very existence under threat - is sending a distress call, like a patient in critical condition.
+However, as a result of humanity’s careless behavior towards the environment, Mother Earth - with her very existence under threat - is sending a distress call, like a patient in critical condition.
 
 If we do not take a resolute action to preserve our Mother Earth now, she will inevitably find her own way to survive with or without us.
 
@@ -112,19 +91,13 @@ Since ancient times, we Mongolians have believed that all beneath the sky is ali
 
 Two millennia ago, the Great Khaan Modun of the Hun s - Mongols’ ancestors proclaimed that the very foundation of the state is the land.” Thus, this time-honored tradition of revering nature was recognized by UNESCO through the inscription of the “Mongolian traditional ritual of worshipping sacred sites” on the List of the Intangible Cultural Heritage in need of Urgent Safeguarding.
 
-We, Mongolians, are people blessed with the beautiful tradition of living in harmony with
+We, Mongolians, are people blessed with the beautiful tradition of living in harmony with Mother Nature, preserving her pristine purity, and nurturing our children from early age with the mindset and spirit to protect her.
 
-Mother Nature, preserving her pristine purity, and nurturing our children from early age with the mindset and spirit to protect her.
-
-Accordingly, the UN General Assembly resolution entitled “ Eight Hundred Years of
-
-Mongolian Statehood”, adopted in 2005, highly appreciated the contribution of Mongols to the history of mankind and recognized that “the ever-increasing significance and relevance of a culture of living in harmony with nature, which is inherent in nomadic civilization, in today’s world.”
+Accordingly, the UN General Assembly resolution entitled “ Eight Hundred Years of Mongolian Statehood”, adopted in 2005, highly appreciated the contribution of Mongols to the history of mankind and recognized that “the ever-increasing significance and relevance of a culture of living in harmony with nature, which is inherent in nomadic civilization, in today’s world.”
 
 Today, we are committed to shar ing our cultural heritage and traditional knowledge rooted in a profound respect for living in harmony with nature - with the international community, as a valuable contribution to building resilience and enhancing adaptation to climate change.
 
-In 2026, Mongolia will host the 17 th session of the Conference of the Parties to the UN
-
-Convention to Combat Desertification, as well as observe the International Year of Rangelands and Pastoralists. In this spirit, our country, in partnership with the United Nations, is spearheading the international 10-year “Rangeland Flagship Initiative.” We warmly invite you to join us in supporting and collaborating on this important endeavor.
+In 2026, Mongolia will host the 17 th session of the Conference of the Parties to the UN Convention to Combat Desertification, as well as observe the International Year of Rangelands and Pastoralists. In this spirit, our country, in partnership with the United Nations, is spearheading the international 10-year “Rangeland Flagship Initiative.” We warmly invite you to join us in supporting and collaborating on this important endeavor.
 
 Our people say, “Water is the source of life and tree is the source of water.”
 
@@ -132,39 +105,25 @@ Access to safe drinking water is declining worldwide, with 3.6 billion people cu
 
 Therefore, it is imperative for countries to implement integrated management of land and water resources in a coordinated manner and to place special emphasis on preventing water scarcity.
 
-I cordially invite you all to participate, at the highest level and with broad representation, in the 17 th session of the Conference of the Parties to the UN Convention to Combat
-
-Desertification, scheduled on 17 -28 August 2026 in Ulaanbaatar. This conference seeks comprehensive solutions to adapt to climate change, protect and enhanc e water resources, and combat desertification and land degradation.
+I cordially invite you all to participate, at the highest level and with broad representation, in the 17 th session of the Conference of the Parties to the UN Convention to Combat Desertification, scheduled on 17 -28 August 2026 in Ulaanbaatar. This conference seeks comprehensive solutions to adapt to climate change, protect and enhanc e water resources, and combat desertification and land degradation.
 
 Distinguished delegates,
 
 From the moment of birth, we Mongols have grown up on horseback, carrying our glory across the world on noble steeds and contributing to the writing of humanity’s proud and enduring history.
 
-We, Mongolians, are a nation stepped in a unique cultural heritage. We honor our noble horse in our State Emblem, craft our State Flag with the mane and tail hair of our swift steeds, and souls of people around the world are spellbound by the haunting melody of morin khuur
-
-(horse-headed fiddle).
+We, Mongolians, are a nation stepped in a unique cultural heritage. We honor our noble horse in our State Emblem, craft our State Flag with the mane and tail hair of our swift steeds, and souls of people around the world are spellbound by the haunting melody of morin khuur (horse-headed fiddle).
 
 Horses have been integral to human livelihoods, culture, and civilization since time immemorial.
 
-With the goal of preserving and safeguarding cultural heritage and traditions associated with horses, and highlighting their enduring role in livelihoods of humankind, Mongolia proposed a resolution to designate 11 July as World Horse Day. This resolution was adopted during the
+With the goal of preserving and safeguarding cultural heritage and traditions associated with horses, and highlighting their enduring role in livelihoods of humankind, Mongolia proposed a resolution to designate 11 July as World Horse Day. This resolution was adopted during the Plenary Meeting of the 79th Session of the United Nations General Assembly on 3 June 2025.
 
-Plenary Meeting of the 79th Session of the United Nations General Assembly on 3 June 2025.
-
-On this occasion, I would like to extend my deepest gratitude, on behalf of the horse loving people of Mongolia, to all UN Member States for their support in adopting this resolution to designate and observe “World Horse Day” on the day of Mongolia’s National Naadam
-
-Festival, which is also inscribed on UNESCO’s Representative List of the Intangible Cultural
-
-Heritage of Humanity.
+On this occasion, I would like to extend my deepest gratitude, on behalf of the horse loving people of Mongolia, to all UN Member States for their support in adopting this resolution to designate and observe “World Horse Day” on the day of Mongolia’s National Naadam Festival, which is also inscribed on UNESCO’s Representative List of the Intangible Cultural Heritage of Humanity.
 
 Distinguished delegates,
 
-This year, countries around the world are assessing the progress made over the past 30 years since the adoption of the Copenhagen Declaration on Social Development and the Beijing
+This year, countries around the world are assessing the progress made over the past 30 years since the adoption of the Copenhagen Declaration on Social Development and the Beijing Declaration and Platform for Action.
 
-Declaration and Platform for Action.
-
-Mongolia has undertaken a broad range of policies and activities to advance the social development goals outlined in these milestone documents, related legal frameworks and the
-
-2030 Agenda for Sustainable Development. These efforts have been focusing on poverty reduction, promoting social equality and inclusion, supporting families, children and youth, and protecting the rights of the elderly and persons with disabilities.
+Mongolia has undertaken a broad range of policies and activities to advance the social development goals outlined in these milestone documents, related legal frameworks and the 2030 Agenda for Sustainable Development. These efforts have been focusing on poverty reduction, promoting social equality and inclusion, supporting families, children and youth, and protecting the rights of the elderly and persons with disabilities.
 
 Among these efforts, the state policy on gender equality aims to ensure equal rights, opportunities and treatment for both women and men, while actively preventing and eliminating gender-based discrimination.
 
@@ -172,11 +131,7 @@ Notably, Mongolia has prioritized advancing gender equality and increasing women
 
 We are pleased to underscore that, according to the Global Gender Gap Report 2025 by the World Economic Forum, Mongolia ranked 65th globally, improving by 20 places from the previous year and securing 5th place in the Asia-Pacific region.
 
-In recent years, Mongolia has regularly hosted international events dedicated to women and gender equality, including the International Conference on “Strengthening the Role of
-
-Women in Peacekeeping” in 2022, the Female Foreign Ministers ’ Meeting in 2023, and the
-
-World Women’s Forum in 2024, in cooperation with the United Nations.
+In recent years, Mongolia has regularly hosted international events dedicated to women and gender equality, including the International Conference on “Strengthening the Role of Women in Peacekeeping” in 2022, the Female Foreign Ministers ’ Meeting in 2023, and the World Women’s Forum in 2024, in cooperation with the United Nations.
 
 Last month, we successfully hosted the World Women Entrepreneurs’ Forum under the theme “Inspire, Impact, Invest” in Ulaanbaatar.
 
@@ -190,17 +145,11 @@ The ancient Greek philosopher Heraclitus once said, “The only constant in life
 
 Supported by its Member States, successive UN leaderships have consistently pursued reforms to refine the organization’s structure and operations across all aspects.
 
-In this context, Mongolia welcomes and supports the “UN80” initiative presented by UN
+In this context, Mongolia welcomes and supports the “UN80” initiative presented by UN Secretary-General António Guterres.
 
-Secretary-General António Guterres.
+We are confident that ensuring gender equality in senior leadership positions within the United Nations will undoubtedly ha ve a positive impact on fostering more transparent, balanced, and inclusive decision-making processes.
 
-We are confident that ensuring gender equality in senior leadership positions within the
-
-United Nations will undoubtedly ha ve a positive impact on fostering more transparent, balanced, and inclusive decision-making processes.
-
-Therefore, we support initiatives to nominate women candidates for the position of UN
-
-Secretary-General and Rotation for Equality Initiative, which calls for gender rotation in the position of the President of the UN General Assembly.
+Therefore, we support initiatives to nominate women candidates for the position of UN Secretary-General and Rotation for Equality Initiative, which calls for gender rotation in the position of the President of the UN General Assembly.
 
 Furthermore, Mongolia upholds and implements the principles of the UN Charter and universally recognized norms of international law, actively contributing to the strengthening of the UN -centered multilateral system. Mongolia reaffirms its commitment to the UN reform, particularly of the Security Council, to ensure it reflects current realities and embodies equitable and fair representation, inclusivity, transparency, effectiveness, democracy, and accountability.
 
@@ -210,13 +159,9 @@ The United Nations was established 80 years ago with the noble goals of saving h
 
 The United Nations, serv ing as the cornerstone for the peaceful and harmonious coexistence among nations, must be reinforced and empowered through strong, multi-pillar principles that ensure equal rights and balanced influence.
 
-Therefore, let us reflect with solemn care on whether the mission entrusted to the United
+Therefore, let us reflect with solemn care on whether the mission entrusted to the United Nations eight decades ago has been fully realized. And let, all Member States join hands in a shared commitment to revitalize the Organization into a powerful institution strong enough to usher in Pax Globalica - a lasting World Peace – by embodying ideals of the “Pax Mongolica”, which laid the foundation for peaceful coexistence among nations and human progress eight centuries ago.
 
-Nations eight decades ago has been fully realized. And let, all Member States join hands in a shared commitment to revitalize the Organization into a powerful institution strong enough to usher in Pax Globalica - a lasting World Peace – by embodying ideals of the “Pax Mongolica”, which laid the foundation for peaceful coexistence among nations and human progress eight centuries ago.
-
-At this pivotal moment, as we commemorate the historic 80th anniversary of the United
-
-Nations, I would like to emphasize the growing importance of its role in fostering mutual understanding, trust and respect among nations, as well as in advancing peace, stability, development and the vision of a world free from war.
+At this pivotal moment, as we commemorate the historic 80th anniversary of the United Nations, I would like to emphasize the growing importance of its role in fostering mutual understanding, trust and respect among nations, as well as in advancing peace, stability, development and the vision of a world free from war.
 
 Mongolia has consistently pursued a peace -loving, multi -pillar foreign policy, made tangible contributions to international peace and sustainable development, and remains committed to fulfilling this responsibility with honor.
 

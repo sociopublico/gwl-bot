@@ -4,10 +4,13 @@ slug: angola
 country: Angola
 speaker: João Manuel Gonçalves Lourenço
 title: President
+speaker_title: His Excellency
 date: 2025-09-23
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/ao_en.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 - His Excellency Mr. António Guterres, Secretary-General of the United Nations,
