@@ -8,7 +8,7 @@ from unittest.mock import patch
 from pipeline.cascade import SourceUnavailable, choose_source
 from pipeline.config import load_session, load_slugs
 from pipeline.extract_audio import _join_segments
-from pipeline.extract_pdf import clean_pdf_text
+from pipeline.extract_pdf import clean_pdf_text, strip_assembly_protocol
 from pipeline.gadebate import parse_speaker_page, slugs_from_archive_html
 from pipeline.models import FileRef, SpeakerPage
 from pipeline.run import extract_from_page, language_for, select_slugs
@@ -300,6 +300,41 @@ challenges  and uncertainties.
         russian = [p for p in text.split("\n\n") if "French Revolution" in p][0]
         self.assertIn("the Russian Revolution, the Chinese Revolution", russian)
         self.assertNotIn("\n", russian)
+
+    def test_strips_pga_protocol_from_whisper(self) -> None:
+        raw = (
+            "The Assembly will hear and address by his excellency, Louis Nassio Lula da Silva, "
+            "President of the Federal Radio, Republic of Brazil. I request the protocol to escort "
+            "his excellency and invite him to address the Assembly. Madam President of the General "
+            "Assembly, Anadina Berbuki, Mr. Secretary General. This should be a time to celebrate. "
+            "May God bless us all. And thank you very much. On behalf of the Assembly, I wish to "
+            "thank the President of the Federative Republic of Brazil."
+        )
+        text = strip_assembly_protocol(raw)
+        self.assertTrue(text.startswith("Madam President"))
+        self.assertNotIn("The Assembly will hear", text)
+        self.assertNotIn("request the protocol", text)
+        self.assertTrue(text.endswith("And thank you very much."))
+        self.assertNotIn("On behalf of the Assembly", text)
+
+        poland = (
+            "Assembly will now hear an address by his Excellency, Carl, president of Poland.\n\n"
+            "I request protocol to escort his Excellency and invite him to address the Assembly. "
+            "Ladies and gentlemen, I am standing here."
+        )
+        text = strip_assembly_protocol(poland)
+        self.assertTrue(text.startswith("Ladies and gentlemen"))
+        self.assertNotIn("Assembly will now hear", text)
+
+        us = (
+            "The Assembly will hear an address by his excellency Donald Trump, "
+            "President of the United States of America. I request Protocol to his Court his "
+            "excellency and invite him to address the assembly. Thank you very much."
+        )
+        self.assertTrue(strip_assembly_protocol(us).startswith("Thank you very much."))
+
+        speech = "Madam President, distinguished delegates, we gather as one."
+        self.assertEqual(strip_assembly_protocol(speech), speech)
 
     def test_kenya_page_markers(self) -> None:
         raw = """

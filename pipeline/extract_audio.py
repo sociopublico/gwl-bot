@@ -80,7 +80,9 @@ def transcribe_audio_file(
         condition_on_previous_text=False,
         without_timestamps=False,
     )
-    text = _join_segments(raw_segments)
+    from pipeline.extract_pdf import strip_assembly_protocol
+
+    text = strip_assembly_protocol(_join_segments(raw_segments))
     if not text:
         raise SourceUnavailable(f"audio_en: Whisper no devolvió texto ({path.name})")
     return text

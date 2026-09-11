@@ -115,6 +115,53 @@ def extract_pdf_text(blob: bytes) -> str:
     return clean_pdf_text(text)
 
 
+# PGA en el podio (audio EN): "The Assembly will hear an address by His/Her Excellency…"
+_ASSEMBLY_INTRO = re.compile(
+    r"""
+    ^\s*
+    (?:the\s+)?assembly\s+will\s+(?:now\s+)?hear\s+
+    (?:an\s+|and\s+)?(?:address|statement)\s+by\b
+    [\s\S]{10,500}?
+    i\s+request\s+(?:the\s+)?protocol\s+to\s+
+    (?:escort|his\s+court|her\s+court)
+    [\s\S]{0,220}?
+    (?:address\s+the\s+assembly|to\s+the\s+rostrum)
+    \.?\s*
+    """,
+    re.I | re.X,
+)
+_ASSEMBLY_ESCORT = re.compile(
+    r"""
+    ^\s*i\s+request\s+(?:the\s+)?protocol\s+to\s+
+    (?:escort|his\s+court|her\s+court)
+    [\s\S]{10,220}?
+    (?:address\s+the\s+assembly|to\s+the\s+rostrum)
+    \.?\s*
+    """,
+    re.I | re.X,
+)
+_ASSEMBLY_OUTRO = re.compile(
+    r"""
+    (?:(?<=[.!?])\s+|(?<=\n)|^)
+    on\s+behalf\s+of\s+(?:the\s+)?(?:general\s+)?assembly,?\s+
+    i\s+wish\s+to\s+thank\b
+    [\s\S]*$
+    """,
+    re.I | re.X,
+)
+
+
+def strip_assembly_protocol(text: str) -> str:
+    """Saca la presentación y el agradecimiento del PGA que Whisper pega al discurso."""
+    cleaned = (text or "").strip()
+    if not cleaned:
+        return cleaned
+    cleaned = _ASSEMBLY_INTRO.sub("", cleaned, count=1).strip()
+    cleaned = _ASSEMBLY_ESCORT.sub("", cleaned, count=1).strip()
+    cleaned = _ASSEMBLY_OUTRO.sub("", cleaned).strip()
+    return cleaned
+
+
 def clean_pdf_text(text: str) -> str:
     lines = [_normalize_line(line) for line in text.splitlines()]
     kept: list[str] = []
@@ -124,7 +171,7 @@ def clean_pdf_text(text: str) -> str:
         kept.append(line)
     body = _drop_intro(kept)
     paragraphs = _reflow(body)
-    return "\n\n".join(paragraphs).strip()
+    return strip_assembly_protocol("\n\n".join(paragraphs).strip())
 
 
 def _normalize_line(line: str) -> str:
