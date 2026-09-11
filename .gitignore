@@ -9,6 +9,7 @@ __pycache__/
 .idea/
 .vscode/
 pipeline/cache/
+pipeline/log/
 pipeline/tools/
 pipeline/data/protocol/*.pdf
 pipeline/.venv/
