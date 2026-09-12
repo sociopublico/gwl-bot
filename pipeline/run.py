@@ -328,6 +328,7 @@ def fetch_speeches(
             continue
         print(
             f"FICHA {page.slug} date={page.speech_date or '?'} "
+            f"http={page.http_status or '?'} "
             f"{page.country} | {page.name} | {_asset_labels(page)}",
             file=sys.stderr,
             flush=True,

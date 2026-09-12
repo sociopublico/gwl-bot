@@ -230,6 +230,31 @@ class DotenvSheetsTest(unittest.TestCase):
                 load_dotenv(env_path)
                 self.assertEqual(os.environ["GOOGLE_APPLICATION_CREDENTIALS"], str(real_json))
 
+    def test_keeps_docker_secrets_path_if_host_json_missing(self) -> None:
+        from pipeline.env import load_dotenv
+
+        with tempfile.TemporaryDirectory() as tmp:
+            env_path = Path(tmp) / ".env"
+            env_path.write_text(
+                "GOOGLE_APPLICATION_CREDENTIALS=/home/agus/host-only.json\n",
+                encoding="utf-8",
+            )
+            with patch.dict(
+                os.environ,
+                {"GOOGLE_APPLICATION_CREDENTIALS": "/secrets/google-sa.json"},
+                clear=False,
+            ):
+                load_dotenv(env_path)
+                creds = os.environ["GOOGLE_APPLICATION_CREDENTIALS"]
+                self.assertNotIn("host-only.json", creds)
+
+    def test_host_absolute_path_maps_to_repo_filename(self) -> None:
+        from pipeline.env import _credential_candidates
+
+        paths = _credential_candidates("/root/traefik/gwl-bot/gwl-bot-ab31f985cd4c.json")
+        names = [p.name for p in paths]
+        self.assertIn("gwl-bot-ab31f985cd4c.json", names)
+
 
 class GithubUrlTest(unittest.TestCase):
     def test_parse_remote_and_blob_url(self) -> None:

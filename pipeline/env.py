@@ -21,25 +21,64 @@ _OVERRIDE_FROM_DOTENV = {
 }
 
 
+def _credential_candidates(raw: str) -> list[Path]:
+    paths: list[Path] = []
+    root = PIPELINE_ROOT.parent
+    if raw:
+        incoming = Path(raw).expanduser()
+        paths.append(incoming if incoming.is_absolute() else (root / incoming))
+        # .env del host: /root/traefik/gwl-bot/foo.json → en Docker es /app/foo.json
+        paths.append(root / incoming.name)
+    paths.extend(
+        [
+            Path("/secrets/google-sa.json"),
+            root / "secrets" / "google-sa.json",
+        ]
+    )
+    paths.extend(sorted(root.glob("gwl-bot-*.json")))
+    seen: set[Path] = set()
+    unique: list[Path] = []
+    for path in paths:
+        resolved = path.expanduser()
+        if resolved in seen:
+            continue
+        seen.add(resolved)
+        unique.append(resolved)
+    return unique
+
+
+def resolve_google_credentials() -> None:
+    """En Docker el .env suele traer un path del laptop: no pisar el mount /secrets."""
+    raw = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "").strip()
+    for path in _credential_candidates(raw):
+        if path.is_file():
+            os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = str(path)
+            return
+
+
 def load_dotenv(path: Path | None = None) -> None:
     """Carga claves de .env. Las de Sheets pisan el entorno; el resto no."""
     env_path = path or (PIPELINE_ROOT.parent / ".env")
-    if not env_path.is_file():
-        return
-    for raw in env_path.read_text(encoding="utf-8").splitlines():
-        line = raw.strip()
-        if not line or line.startswith("#") or "=" not in line:
-            continue
-        key, _, value = line.partition("=")
-        key = key.strip()
-        if not key:
-            continue
-        parsed = value.strip().strip('"').strip("'")
-        if key not in _OVERRIDE_FROM_DOTENV and key in os.environ:
-            continue
-        if key == "GOOGLE_APPLICATION_CREDENTIALS":
-            incoming = Path(parsed)
-            current = os.environ.get(key, "")
-            if not incoming.is_file() and current and Path(current).is_file():
+    if env_path.is_file():
+        for raw in env_path.read_text(encoding="utf-8").splitlines():
+            line = raw.strip()
+            if not line or line.startswith("#") or "=" not in line:
                 continue
-        os.environ[key] = parsed
+            key, _, value = line.partition("=")
+            key = key.strip()
+            if not key:
+                continue
+            parsed = value.strip().strip('"').strip("'")
+            if key not in _OVERRIDE_FROM_DOTENV and key in os.environ:
+                continue
+            if key == "GOOGLE_APPLICATION_CREDENTIALS":
+                incoming = Path(parsed).expanduser()
+                if not incoming.is_absolute():
+                    incoming = PIPELINE_ROOT.parent / incoming
+                current = os.environ.get(key, "").strip()
+                if not incoming.is_file() and current:
+                    # Path del host en .env no existe acá: dejar el de Compose (/secrets/...).
+                    continue
+            os.environ[key] = parsed
+    resolve_google_credentials()
+

@@ -18,13 +18,22 @@ services:
       GIT_AUTHOR_EMAIL: ${GIT_AUTHOR_EMAIL:-gwl-bot@users.noreply.github.com}
       GIT_COMMITTER_NAME: ${GIT_AUTHOR_NAME:-gwl-pipeline}
       GIT_COMMITTER_EMAIL: ${GIT_AUTHOR_EMAIL:-gwl-bot@users.noreply.github.com}
+      # El .env de Traefik a veces trae HTTP_PROXY; urllib lo usaría y gadebate da 202 vacío.
+      HTTP_PROXY: ""
+      HTTPS_PROXY: ""
+      ALL_PROXY: ""
+      http_proxy: ""
+      https_proxy: ""
+      all_proxy: ""
+      NO_PROXY: "*"
+      no_proxy: "*"
     init: true
     working_dir: /app
     volumes:
       # Repo completo: journals, txt, y git para publish --github
       - .:/app
       - whisper-models:/root/.cache/huggingface
-      - ${GOOGLE_SA_FILE:-./secrets/google-sa.json}:/secrets/google-sa.json:ro
+      - ${PIPELINE_SA_FILE:-./secrets/google-sa.json}:/secrets/google-sa.json:ro
 
 volumes:
   whisper-models:

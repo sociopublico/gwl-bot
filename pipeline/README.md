@@ -15,11 +15,13 @@ No es el monitor de YouTube Live. Esa imagen sigue en `Dockerfile` + `docker-com
    GITHUB_TOKEN=ghp_...   # para publish --github (scope repo)
    ```
 
-4. JSON de la service account de Google en `secrets/google-sa.json` (el Sheet tiene que estar compartido con el email de esa cuenta como Editor). Si el archivo está en otra ruta:
+4. JSON de la service account en `secrets/google-sa.json` (el Sheet compartido con el email de esa cuenta como Editor). En Docker Compose eso se monta en `/secrets/google-sa.json`. Si el archivo está en otra ruta del **server**:
 
    ```
-   export GOOGLE_SA_FILE=/ruta/en/el/host/sa.json
+   export PIPELINE_SA_FILE=/ruta/en/el/server/sa.json
    ```
+
+   No uses un path de tu laptop (`/home/agus/...`) en el `.env` del server.
 
 5. Build:
 

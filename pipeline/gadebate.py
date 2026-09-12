@@ -192,8 +192,18 @@ def scrape_speaker(config: SessionConfig, slug: str) -> SpeakerPage:
     url = config.speaker_url(slug)
     try:
         status, _, body = fetch(url, user_agent=config.user_agent)
-        page = parse_speaker_page(config, url, body.decode("utf-8", "replace"))
+        html = body.decode("utf-8", "replace")
+        page = parse_speaker_page(config, url, html)
         page.http_status = status
+        if _ficha_sin_contenido(page):
+            title = ""
+            t = re.search(r"<title>([^<]+)</title>", html, re.I)
+            if t:
+                title = strip_tags(t.group(1))[:80]
+            page.error = (
+                f"ficha vacía HTTP {status} {len(body)} bytes "
+                f"title={title!r}"
+            )
         return page
     except HttpError as exc:
         return SpeakerPage(
@@ -207,6 +217,18 @@ def scrape_speaker(config: SessionConfig, slug: str) -> SpeakerPage:
             error=str(exc),
             http_status=exc.status,
         )
+
+
+def _ficha_sin_contenido(page: SpeakerPage) -> bool:
+    return not (
+        page.pdfs
+        or page.audios
+        or page.video_entry_id
+        or page.speech_date
+        or page.pdf_en
+        or page.pdf_other
+        or page.audio_en
+    )
 
 
 def slugs_from_archive_html(config: SessionConfig, html: str) -> list[str]:

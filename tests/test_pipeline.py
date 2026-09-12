@@ -10,7 +10,7 @@ from pipeline.config import load_session, load_slugs
 from pipeline.extract_audio import _join_segments
 from pipeline.extract_ocr import ocr_pdf_text, tesseract_lang_for
 from pipeline.extract_pdf import clean_pdf_text, is_cid_garbage, strip_assembly_protocol
-from pipeline.gadebate import parse_speaker_page, slugs_from_archive_html
+from pipeline.gadebate import parse_speaker_page, scrape_speaker, slugs_from_archive_html
 from pipeline.models import FileRef, SpeakerPage
 from pipeline.run import extract_from_page, language_for, select_slugs
 from pipeline.store import speech_to_txt
@@ -106,6 +106,17 @@ class ParsePageTest(unittest.TestCase):
         <a href="/en/80/france">France</a>
         """
         self.assertEqual(slugs_from_archive_html(config, html), ["brazil", "france"])
+
+    def test_empty_html_is_marked_unusable(self) -> None:
+        config = load_session("80")
+        with patch(
+            "pipeline.gadebate.fetch",
+            return_value=(200, {}, b"<html><title>Access Denied</title></html>"),
+        ):
+            page = scrape_speaker(config, "brazil")
+        self.assertIsNotNone(page.error)
+        self.assertIn("ficha vacía HTTP 200", page.error or "")
+        self.assertIn("Access Denied", page.error or "")
 
     def test_txt_header(self) -> None:
         text = speech_to_txt(
