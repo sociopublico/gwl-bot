@@ -202,7 +202,7 @@ def scrape_speaker(config: SessionConfig, slug: str) -> SpeakerPage:
                 title = strip_tags(t.group(1))[:80]
             page.error = (
                 f"ficha vacía HTTP {status} {len(body)} bytes "
-                f"title={title!r}"
+                f"title={title!r} body={html[:200]!r}"
             )
         return page
     except HttpError as exc:

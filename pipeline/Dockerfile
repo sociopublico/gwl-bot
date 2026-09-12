@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         ca-certificates \
         ffmpeg \
         git \
+        curl \
         libgomp1 \
         poppler-utils \
         tesseract-ocr \
