@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import re
 import sys
+import time
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -83,6 +84,8 @@ class FetchItem:
     page: SpeakerPage
     speech: ExtractedSpeech | None = None
     skip: str | None = None
+    via: str = ""
+    elapsed_s: float = 0.0
 
 
 def select_slugs(
@@ -135,16 +138,28 @@ def extract_from_page(
     *,
     dest: Path | None = None,
 ) -> ExtractedSpeech:
+    speech, _, _ = extract_from_page_timed(config, page, dest=dest)
+    return speech
+
+
+def extract_from_page_timed(
+    config: SessionConfig,
+    page: SpeakerPage,
+    *,
+    dest: Path | None = None,
+) -> tuple[ExtractedSpeech, str, float]:
     if page.error:
         raise SourceUnavailable(page.error)
     errors: list[str] = []
+    started = time.perf_counter()
+    via = ""
     for source in config.sources:
         try:
-            speech = _extract_source(config, page, source)
+            speech, via = _extract_source(config, page, source)
             directory = out_dir(config, page.speech_date, dest=dest)
             txt_path = write_speech(speech, directory)
             append_manifest(directory, speech, txt_path)
-            return speech
+            return speech, via, time.perf_counter() - started
         except SourceUnavailable as exc:
             errors.append(str(exc))
             print(
@@ -160,7 +175,7 @@ def _extract_source(
     config: SessionConfig,
     page: SpeakerPage,
     source: str,
-) -> ExtractedSpeech:
+) -> tuple[ExtractedSpeech, str]:
     mapping = {
         "pdf_en": page.pdf_en,
         "audio_en": page.audio_en,
@@ -193,43 +208,6 @@ def _extract_source(
                 f"{source} tiene solo {len(text)} caracteres "
                 f"(mínimo {config.min_audio_chars})"
             )
-    else:
-        text = extract_pdf_text(blob)
-        used_ocr = False
-        if len(text) < config.min_pdf_chars:
-            iso = language_for(source, ref)
-            tess_lang = "eng" if source == "pdf_en" else tesseract_lang_for(iso)
-            ocr_cache = cache.with_name(f"{cache.stem}.ocr.txt")
-            text = ocr_pdf_text(
-                blob,
-                lang=tess_lang,
-                cache_path=ocr_cache,
-                label=ref.filename,
-            )
-            used_ocr = True
-        if len(text) < config.min_pdf_chars:
-            if not text.strip():
-                raise SourceUnavailable(
-                    f"{source} ({ref.filename}): sin texto extraíble "
-                    "(pypdf/OCR vacíos); sigo la cascada"
-                )
-            raise SourceUnavailable(
-                f"{source} ({ref.filename}) tiene solo {len(text)} caracteres "
-                f"(mínimo {config.min_pdf_chars}); probable PDF ilegible"
-            )
-        if source == "pdf_other":
-            from pipeline.translate import translate_to_english
-
-            text = translate_to_english(text, source_lang=language_for(source, ref))
-            return _speech(
-                config,
-                page,
-                source=source,
-                source_url=ref.url,
-                language="en",
-                text=text,
-                transformation="translate",
-            )
         return _speech(
             config,
             page,
@@ -237,8 +215,43 @@ def _extract_source(
             source_url=ref.url,
             language=language_for(source, ref),
             text=text,
-            transformation="ocr" if used_ocr else None,
+        ), "whisper"
+    text = extract_pdf_text(blob)
+    used_ocr = False
+    if len(text) < config.min_pdf_chars:
+        iso = language_for(source, ref)
+        tess_lang = "eng" if source == "pdf_en" else tesseract_lang_for(iso)
+        ocr_cache = cache.with_name(f"{cache.stem}.ocr.txt")
+        text = ocr_pdf_text(
+            blob,
+            lang=tess_lang,
+            cache_path=ocr_cache,
+            label=ref.filename,
         )
+        used_ocr = True
+    if len(text) < config.min_pdf_chars:
+        if not text.strip():
+            raise SourceUnavailable(
+                f"{source} ({ref.filename}): sin texto extraíble "
+                "(pypdf/OCR vacíos); sigo la cascada"
+            )
+        raise SourceUnavailable(
+            f"{source} ({ref.filename}) tiene solo {len(text)} caracteres "
+            f"(mínimo {config.min_pdf_chars}); probable PDF ilegible"
+        )
+    if source == "pdf_other":
+        from pipeline.translate import translate_to_english
+
+        text = translate_to_english(text, source_lang=language_for(source, ref))
+        return _speech(
+            config,
+            page,
+            source=source,
+            source_url=ref.url,
+            language="en",
+            text=text,
+            transformation="translate",
+        ), "translate"
     return _speech(
         config,
         page,
@@ -246,10 +259,11 @@ def _extract_source(
         source_url=ref.url,
         language=language_for(source, ref),
         text=text,
-    )
+        transformation="ocr" if used_ocr else None,
+    ), ("ocr" if used_ocr else "pypdf")
 
 
-def _extract_video(config: SessionConfig, page: SpeakerPage) -> ExtractedSpeech:
+def _extract_video(config: SessionConfig, page: SpeakerPage) -> tuple[ExtractedSpeech, str]:
     from pipeline.extract_video import kaltura_play_url, transcribe_kaltura
 
     if not page.video_entry_id:
@@ -290,7 +304,7 @@ def _extract_video(config: SessionConfig, page: SpeakerPage) -> ExtractedSpeech:
         language=lang,
         text=text,
         transformation=xf,
-    )
+    ), ("translate" if xf == "translate" else "whisper")
 
 
 def fetch_speeches(
@@ -302,8 +316,36 @@ def fetch_speeches(
     dest: Path | None = None,
     metadata_only: bool = False,
     skip_existing: bool = False,
+    require_roster: bool = False,
 ) -> list[FetchItem]:
-    slugs = select_slugs(config, day=day, slug=slug, limit=limit)
+    from pipeline.roster import load_roster, page_from_entry, roster_path
+
+    roster = load_roster(config, day) if day else None
+    if require_roster and day and roster is None:
+        raise FileNotFoundError(
+            f"no hay roster {roster_path(config, day)}; "
+            "corre `python -m pipeline roster --session ... --day ...` en la laptop y subilo a git"
+        )
+    pages_by_slug: dict[str, SpeakerPage] = {}
+    if roster:
+        print(
+            f"roster {roster_path(config, day)} "
+            f"({len(roster.get('speakers') or [])} fichas); no scrape de gadebate",
+            file=sys.stderr,
+            flush=True,
+        )
+        for entry in roster.get("speakers") or []:
+            page = page_from_entry(entry)
+            if page.slug:
+                pages_by_slug[page.slug] = page
+        if slug:
+            slugs = [slug]
+        else:
+            slugs = list(pages_by_slug)
+            if limit is not None:
+                slugs = slugs[:limit]
+    else:
+        slugs = select_slugs(config, day=day, slug=slug, limit=limit)
     items: list[FetchItem] = []
     for item in slugs:
         existing = find_existing_speech(config, item, dest=dest)
@@ -323,7 +365,28 @@ def fetch_speeches(
                 )
             )
             continue
-        page = scrape_speaker(config, item)
+        if item in pages_by_slug:
+            page = pages_by_slug[item]
+        elif require_roster:
+            missing = f"no está en el roster de {day}"
+            items.append(
+                FetchItem(
+                    page=SpeakerPage(
+                        slug=item,
+                        url=config.speaker_url(item),
+                        country="",
+                        name="",
+                        rank="",
+                        speaker_title="",
+                        speech_date=day or "",
+                        error=missing,
+                    ),
+                    skip=missing,
+                )
+            )
+            continue
+        else:
+            page = scrape_speaker(config, item)
         if day and page.speech_date and page.speech_date != day:
             continue
         print(
@@ -337,8 +400,10 @@ def fetch_speeches(
             items.append(FetchItem(page=page, skip=page.error))
             continue
         try:
-            speech = extract_from_page(config, page, dest=dest)
-            items.append(FetchItem(page=page, speech=speech))
+            speech, via, elapsed = extract_from_page_timed(config, page, dest=dest)
+            items.append(
+                FetchItem(page=page, speech=speech, via=via, elapsed_s=elapsed)
+            )
         except SourceUnavailable as exc:
             items.append(FetchItem(page=page, skip=str(exc)))
     return items

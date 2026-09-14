@@ -6,7 +6,7 @@ Setup (una vez):
 2. GCP: habilitar Google Sheets API, crear service account, bajar JSON.
 3. Compartir el spreadsheet con el email de la SA como Editor.
 4. Variables: GOOGLE_SHEETS_SPREADSHEET_ID, GOOGLE_APPLICATION_CREDENTIALS,
-   pestañas Metadata y country_list.
+   pestañas Metadata, Analysis y country_list.
 """
 
 from __future__ import annotations
@@ -19,11 +19,25 @@ from pathlib import Path
 from pipeline.env import load_dotenv
 from pipeline.metadata import METADATA_COLUMNS, MetadataRow, row_values
 
+ANALYSIS_IDENTITY = (
+    "slug",
+    "date_time",
+    "country",
+    "speaker_name",
+    "ficha_url",
+)
+ANALYSIS_COLUMNS = [
+    *ANALYSIS_IDENTITY,
+    "summary",
+    "notes",
+]
+
 
 @dataclass(frozen=True)
 class SheetsSettings:
     spreadsheet_id: str
     metadata_tab: str
+    analysis_tab: str
     country_tab: str
     credentials_path: str
     country_csv: str
@@ -39,6 +53,8 @@ def sheets_settings() -> SheetsSettings:
         spreadsheet_id=os.environ.get("GOOGLE_SHEETS_SPREADSHEET_ID", "").strip(),
         metadata_tab=os.environ.get("GOOGLE_SHEETS_METADATA_TAB", "Metadata").strip()
         or "Metadata",
+        analysis_tab=os.environ.get("GOOGLE_SHEETS_ANALYSIS_TAB", "Analysis").strip()
+        or "Analysis",
         country_tab=os.environ.get("GOOGLE_SHEETS_COUNTRY_TAB", "country_list").strip()
         or "country_list",
         credentials_path=os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "").strip(),
@@ -183,3 +199,104 @@ def append_metadata_rows(
     if payload:
         ws.append_rows(payload, value_input_option="USER_ENTERED")
     return written
+
+
+def _open_or_create_worksheet(settings: SheetsSettings, tab: str, headers: list[str]):
+    gc = _client(settings)
+    try:
+        sh = gc.open_by_key(settings.spreadsheet_id)
+    except Exception as exc:  # noqa: BLE001
+        raise SheetsError(
+            f"no pude abrir el spreadsheet {settings.spreadsheet_id}: {exc}"
+        ) from exc
+    try:
+        return sh.worksheet(tab)
+    except Exception:
+        cols = max(len(headers), 10)
+        ws = sh.add_worksheet(title=tab, rows=2000, cols=cols)
+        if headers:
+            ws.update("A1", [headers])
+        print(f"sheet: creé la pestaña {tab!r}", file=sys.stderr)
+        return ws
+
+
+def _records_from_values(values: list[list]) -> tuple[list[str], list[dict]]:
+    if not values:
+        return [], []
+    headers = [str(h).strip() for h in values[0]]
+    records: list[dict] = []
+    for row in values[1:]:
+        record = {
+            headers[i]: (row[i] if i < len(row) else "")
+            for i in range(len(headers))
+        }
+        if any(str(v).strip() for v in record.values()):
+            records.append(record)
+    return headers, records
+
+
+def read_analysis_records(
+    settings: SheetsSettings | None = None,
+) -> tuple[list[str], list[dict]]:
+    cfg = settings or sheets_settings()
+    ws = _open_or_create_worksheet(cfg, cfg.analysis_tab, list(ANALYSIS_COLUMNS))
+    headers, records = _records_from_values(ws.get_all_values())
+    if not headers:
+        headers = list(ANALYSIS_COLUMNS)
+        ws.update("A1", [headers])
+    return headers, records
+
+
+def analysis_headers(settings: SheetsSettings | None = None) -> list[str]:
+    headers, _ = read_analysis_records(settings)
+    return headers or list(ANALYSIS_COLUMNS)
+
+
+def existing_analysis_keys(records: list[dict]) -> set[str]:
+    keys: set[str] = set()
+    for record in records:
+        slug = str(record.get("slug") or "").strip()
+        date_time = str(record.get("date_time") or "").strip()
+        ficha = str(record.get("ficha_url") or "").strip()
+        if slug and date_time:
+            keys.add(f"{slug}|{date_time}")
+        if ficha:
+            tail = ficha.rstrip("/").rsplit("/", 1)[-1]
+            if tail and date_time:
+                keys.add(f"{tail}|{date_time}")
+    return keys
+
+
+def append_analysis_rows(
+    rows: list[dict],
+    *,
+    settings: SheetsSettings | None = None,
+    existing: list[dict] | None = None,
+    headers: list[str] | None = None,
+) -> list[dict]:
+    """Append idempotente por slug|date. Devuelve las filas nuevas."""
+    cfg = settings or sheets_settings()
+    ws = _open_or_create_worksheet(cfg, cfg.analysis_tab, list(headers or ANALYSIS_COLUMNS))
+    if headers is None or existing is None:
+        sheet_headers, existing = read_analysis_records(cfg)
+        headers = headers or sheet_headers
+    if not headers:
+        headers = list(ANALYSIS_COLUMNS)
+        ws.update("A1", [headers])
+    seen = existing_analysis_keys(existing or [])
+    written: list[dict] = []
+    payload: list[list[str]] = []
+    for row in rows:
+        slug = str(row.get("slug") or "").strip()
+        date_time = str(row.get("date_time") or "").strip()
+        key = f"{slug}|{date_time}"
+        if key in seen:
+            print(f"SHEET skip duplicado {key}", file=sys.stderr)
+            continue
+        payload.append([str(row.get(col, "") or "") for col in headers])
+        written.append(row)
+        seen.add(key)
+    if payload:
+        ws.append_rows(payload, value_input_option="USER_ENTERED")
+    return written
+

@@ -1,6 +1,8 @@
-Pipeline UNGA (batch): scrape de discursos, traducción a inglés, txt a GitHub y filas a Google Sheets.
+Pipeline UNGA (batch): roster en la laptop, extract/publish en el server, análisis Claude opcional.
 
 No es el monitor de YouTube Live. Esa imagen sigue en `Dockerfile` + `docker-compose.yml`.
+
+El WAF de CloudFront (`x-amzn-waf-action: challenge`) bloquea el scrape de [gadebate.un.org](https://gadebate.un.org) desde el VPS. Las fichas HTML se bajan **en la laptop**. PDFs, audio, video y Whisper siguen en el server.
 
 ## En otro servidor
 
@@ -18,7 +20,7 @@ No es el monitor de YouTube Live. Esa imagen sigue en `Dockerfile` + `docker-com
 4. JSON de la service account en `secrets/google-sa.json` (el Sheet compartido con el email de esa cuenta como Editor). En Docker Compose eso se monta en `/secrets/google-sa.json`. Si el archivo está en otra ruta del **server**:
 
    ```
-   export PIPELINE_SA_FILE=/ruta/en/el/server/sa.json
+   export PIPELINE_SA_FILE=/ruta/en/el-server/sa.json
    ```
 
    No uses un path de tu laptop (`/home/agus/...`) en el `.env` del server.
@@ -29,19 +31,68 @@ No es el monitor de YouTube Live. Esa imagen sigue en `Dockerfile` + `docker-com
    docker compose -f docker-compose.pipeline.yml build
    ```
 
+## Flujo diario (cuatro pasos)
+
+### 1. Roster (laptop)
+
+Scrape de fichas HTML. Escribe un JSON versionable, sin bajar PDF ni correr Whisper.
+
+```bash
+pipeline/.venv/bin/python -m pipeline roster --session 80 --day 2025-09-23
+git add pipeline/data/roster/80/2025-09-23.json && git commit && git push
+```
+
+Cada orador trae `slug`, URLs de `pdf_en` / `audio_en` / `pdf_other` / `video`, y `chosen` (primer origen de la cascada que exista).
+
+### 2. Extract (server)
+
+`git pull` y extract **sin** scrape de gadebate. Lee el roster y corre la cascada (PDF → audio → PDF otro idioma → video).
+
+```bash
+docker compose -f docker-compose.pipeline.yml run --rm pipeline \
+  extract --session 80 --day 2025-09-23 --skip-existing
+```
+
+Log por discurso:
+
+```text
+OK lithuania source=pdf_en via=ocr chars=9847 elapsed=12.4s
+OK brazil source=audio_en via=whisper chars=... elapsed=841s
+```
+
+`via` = `pypdf` | `ocr` | `whisper` | `translate`.
+
+`fetch` sigue existiendo (scrape + extract). En el server usá `extract`.
+
+### 3. Publish
+
+Sin rediseño: txt a GitHub + filas a la pestaña Metadata.
+
+```bash
+docker compose -f docker-compose.pipeline.yml run --rm pipeline \
+  publish --session 80 --day 2025-09-23 --github --sheet
+```
+
+El cron del server (`pipeline/scripts/daily.sh`) hace `git pull` → `extract --skip-existing` → `publish --github --sheet`.
+
+### 4. Analyze (Claude → pestaña Analysis)
+
+Cuando haya prompt real en `pipeline/data/analyze-prompt.md` y columnas en la pestaña `Analysis`:
+
+```bash
+# .env: ANTHROPIC_API_KEY, ANTHROPIC_MODEL=claude-haiku-4-5 (default),
+#       GOOGLE_SHEETS_ANALYSIS_TAB=Analysis
+docker compose -f docker-compose.pipeline.yml run --rm pipeline \
+  analyze --session 80 --day 2025-09-23
+```
+
+Idempotente por `slug|date`. Si el prompt sigue siendo un stub, el comando sale sin llamar a la API (`--dry-run` lista qué se haría).
+
 ## Comandos
 
 Sustituí sesión y fecha. El default del CLI es `80`; para UNGA 81 usá `--session 81`.
 
 ```bash
-# Discursos del día (Journal → PDF EN → audio EN → PDF original traducido → video)
-docker compose -f docker-compose.pipeline.yml run --rm pipeline \
-  fetch --session 81 --day 2026-09-22
-
-# Txt a GitHub + filas a la pestaña Metadata
-docker compose -f docker-compose.pipeline.yml run --rm pipeline \
-  publish --session 81 --day 2026-09-22 --github --sheet
-
 docker compose -f docker-compose.pipeline.yml run --rm pipeline list --session 81
 docker compose -f docker-compose.pipeline.yml run --rm pipeline refresh-slugs --session 81 --write
 docker compose -f docker-compose.pipeline.yml run --rm pipeline refresh-protocol
@@ -55,6 +106,6 @@ PDF EN sin texto extraíble (escaneado o fuentes CID) pasa por OCR (`pdftoppm` +
 
 - RAM: 2 GB mínimo; **4 GB** si Whisper transcribe audio/video.
 - Disco: el volumen `whisper-models` guarda el modelo HF.
-- Red: HTTPS a gadebate.un.org, GitHub, Google (Sheets + traducción) y, si hay video, Kaltura.
+- Red: en el server, HTTPS a S3/Kaltura, GitHub, Google y Anthropic. **No** a gadebate.un.org (eso es el roster en la laptop).
 
-El repo se monta en `/app`: journals, cache y txt quedan en el host.
+El repo se monta en `/app`: journals, cache, rosters y txt quedan en el host.

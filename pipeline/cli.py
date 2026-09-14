@@ -9,7 +9,57 @@ from pathlib import Path
 from pipeline.alerts import DEFAULT_KEYWORDS_PATH, print_alert_report
 from pipeline.config import load_session, load_slugs, write_slugs
 from pipeline.gadebate import refresh_slugs_from_archive
-from pipeline.run import fetch_speeches, select_slugs
+from pipeline.run import FetchItem, fetch_speeches, select_slugs
+
+_KNOWN_SOURCES = {"pdf_en", "audio_en", "pdf_other", "video"}
+
+
+def _apply_sources(config, raw: str):
+    sources = tuple(part.strip() for part in raw.split(",") if part.strip())
+    unknown = [s for s in sources if s not in _KNOWN_SOURCES]
+    if unknown:
+        raise ValueError(f"sources desconocidos: {unknown}")
+    return replace(config, sources=sources)
+
+
+def _print_extract_item(item: FetchItem, *, metadata_only: bool = False) -> str:
+    page = item.page
+    if page.error:
+        print(f"FAIL {page.slug} {page.error}", file=sys.stderr)
+        return "error"
+    if item.skip == "already extracted":
+        print(f"SKIP {page.slug} {item.skip}", file=sys.stderr)
+        return "skipped"
+    if item.speech:
+        print(
+            f"OK {page.slug} source={item.speech.source} via={item.via or '?'} "
+            f"chars={len(item.speech.text)} elapsed={item.elapsed_s:.1f}s",
+            file=sys.stderr,
+        )
+        return "ok"
+    if item.skip and not metadata_only:
+        print(f"SKIP {page.slug} {item.skip}", file=sys.stderr)
+        return "skipped"
+    return "other"
+
+
+def _summarize_extract(results: list[FetchItem], *, metadata_only: bool = False) -> int:
+    ok = skipped = errors = 0
+    for item in results:
+        kind = _print_extract_item(item, metadata_only=metadata_only)
+        if kind == "ok":
+            ok += 1
+        elif kind == "skipped":
+            skipped += 1
+        elif kind == "error":
+            errors += 1
+    print(
+        json.dumps(
+            {"fetched": len(results), "ok": ok, "skipped": skipped, "errors": errors}
+        ),
+        file=sys.stderr,
+    )
+    return 0 if errors == 0 else 2
 
 
 def _parser() -> argparse.ArgumentParser:
@@ -48,6 +98,52 @@ def _parser() -> argparse.ArgumentParser:
         "--pdf",
         default="",
         help="PDF local (default: baja hspmfmlist_0.pdf de un.org)",
+    )
+
+    roster_p = sub.add_parser(
+        "roster",
+        help="Scrape fichas del día (laptop) y escribir JSON con URLs de pdf/audio/video",
+        parents=[common],
+    )
+    roster_p.add_argument("--day", required=True, help="YYYY-MM-DD")
+    roster_p.add_argument("--slug", default="", help="Una sola ficha")
+    roster_p.add_argument("--limit", type=int, default=0, help="Máximo de oradores")
+
+    extract_p = sub.add_parser(
+        "extract",
+        help="Bajar y transcribir desde un roster JSON (sin scrape de gadebate)",
+        parents=[common],
+    )
+    extract_p.add_argument("--day", required=True, help="YYYY-MM-DD")
+    extract_p.add_argument("--slug", default="", help="Una sola ficha")
+    extract_p.add_argument("--limit", type=int, default=0)
+    extract_p.add_argument(
+        "--sources",
+        default="",
+        help="Cascada, p.ej. pdf_en,audio_en,pdf_other",
+    )
+    extract_p.add_argument(
+        "--skip-existing",
+        action="store_true",
+        help="No re-extraer slugs que ya tienen .txt en inglés",
+    )
+
+    analyze_p = sub.add_parser(
+        "analyze",
+        help="Mandar discursos a Claude y append filas a la pestaña Analysis",
+        parents=[common],
+    )
+    analyze_p.add_argument("--day", required=True, help="YYYY-MM-DD")
+    analyze_p.add_argument("--slug", default="", help="Una sola ficha")
+    analyze_p.add_argument(
+        "--prompt",
+        default="",
+        help="Markdown del prompt (default: pipeline/data/analyze-prompt.md)",
+    )
+    analyze_p.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="No llamar a Claude ni escribir Sheets; mostrar qué se haría",
     )
 
     fetch_p = sub.add_parser(
@@ -168,6 +264,88 @@ def main(argv: list[str] | None = None) -> int:
         print(f"{n} países en {path}")
         return 0
 
+    if args.cmd == "roster":
+        from pipeline.roster import (
+            build_roster,
+            load_roster,
+            merge_speakers,
+            roster_path,
+            write_roster,
+        )
+
+        day = args.day
+        payload = build_roster(
+            config,
+            day=day,
+            slug=args.slug or None,
+            limit=args.limit or None,
+        )
+        path = roster_path(config, day)
+        if args.slug:
+            payload = merge_speakers(load_roster(config, day), payload)
+        write_roster(payload, path)
+        speakers = payload.get("speakers") or []
+        errors = 0
+        for speaker in speakers:
+            slug = speaker.get("slug") or "?"
+            if speaker.get("error"):
+                errors += 1
+                print(f"FAIL {slug} {speaker['error']}", file=sys.stderr)
+            else:
+                print(
+                    f"OK {slug} chosen={speaker.get('chosen') or '—'} "
+                    f"{speaker.get('country') or ''}".rstrip(),
+                    file=sys.stderr,
+                )
+        print(
+            json.dumps(
+                {
+                    "speakers": len(speakers),
+                    "errors": errors,
+                    "path": str(path),
+                }
+            ),
+            file=sys.stderr,
+        )
+        return 0 if errors == 0 else 2
+
+    if args.cmd == "extract":
+        try:
+            if args.sources:
+                config = _apply_sources(config, args.sources)
+        except ValueError as exc:
+            print(f"error: {exc}", file=sys.stderr)
+            return 1
+        day = args.day
+        slug = args.slug or None
+        limit = args.limit or None
+        try:
+            results = fetch_speeches(
+                config,
+                day=day,
+                slug=slug,
+                limit=limit,
+                dest=dest,
+                skip_existing=args.skip_existing,
+                require_roster=True,
+            )
+        except FileNotFoundError as exc:
+            print(f"error: {exc}", file=sys.stderr)
+            return 1
+        return _summarize_extract(results)
+
+    if args.cmd == "analyze":
+        from pipeline.analyze import analyze_day
+
+        return analyze_day(
+            config,
+            day=args.day,
+            slug=args.slug or None,
+            dest=dest,
+            prompt_path=Path(args.prompt) if args.prompt else None,
+            dry_run=args.dry_run,
+        )
+
     if args.cmd == "alerts":
         keywords = Path(args.keywords) if args.keywords else DEFAULT_KEYWORDS_PATH
         print_alert_report(
@@ -180,13 +358,12 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     if args.cmd == "fetch":
-        if args.sources:
-            sources = tuple(part.strip() for part in args.sources.split(",") if part.strip())
-            unknown = [s for s in sources if s not in {"pdf_en", "audio_en", "pdf_other", "video"}]
-            if unknown:
-                print(f"error: sources desconocidos: {unknown}", file=sys.stderr)
-                return 1
-            config = replace(config, sources=sources)
+        try:
+            if args.sources:
+                config = _apply_sources(config, args.sources)
+        except ValueError as exc:
+            print(f"error: {exc}", file=sys.stderr)
+            return 1
         limit = args.limit or None
         day = args.day or None
         slug = args.slug or None
@@ -204,33 +381,7 @@ def main(argv: list[str] | None = None) -> int:
             metadata_only=args.metadata_only,
             skip_existing=args.skip_existing,
         )
-        ok = 0
-        skipped = 0
-        errors = 0
-        for item in results:
-            page = item.page
-            if page.error:
-                errors += 1
-                print(f"FAIL {page.slug} {page.error}", file=sys.stderr)
-                continue
-            if item.skip == "already extracted":
-                skipped += 1
-                print(f"SKIP {page.slug} {item.skip}", file=sys.stderr)
-                continue
-            if item.speech:
-                ok += 1
-                print(
-                    f"OK   {page.slug} source={item.speech.source} chars={len(item.speech.text)}",
-                    file=sys.stderr,
-                )
-            elif item.skip and not args.metadata_only:
-                skipped += 1
-                print(f"SKIP {page.slug} {item.skip}", file=sys.stderr)
-        print(
-            json.dumps({"fetched": len(results), "ok": ok, "skipped": skipped, "errors": errors}),
-            file=sys.stderr,
-        )
-        return 0 if errors == 0 else 2
+        return _summarize_extract(results, metadata_only=args.metadata_only)
 
     if args.cmd == "publish":
         from pipeline.publish import publish_day

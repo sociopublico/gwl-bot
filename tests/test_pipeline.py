@@ -12,7 +12,7 @@ from pipeline.extract_ocr import ocr_pdf_text, tesseract_lang_for
 from pipeline.extract_pdf import clean_pdf_text, is_cid_garbage, strip_assembly_protocol
 from pipeline.gadebate import parse_speaker_page, scrape_speaker, slugs_from_archive_html
 from pipeline.models import FileRef, SpeakerPage
-from pipeline.run import extract_from_page, language_for, select_slugs
+from pipeline.run import extract_from_page, extract_from_page_timed, fetch_speeches, language_for, select_slugs
 from pipeline.store import speech_to_txt
 from pipeline.models import ExtractedSpeech
 
@@ -518,6 +518,103 @@ Excellencies, we gather here today to defend the Charter.
         self.assertEqual(speech.source, "pdf_en")
         self.assertEqual(speech.transformation, "ocr")
         self.assertIn("Madam President", speech.text)
+
+    def test_extract_from_page_timed_reports_via_and_elapsed(self) -> None:
+        config = load_session("80")
+        page = SpeakerPage(
+            slug="lithuania",
+            url="https://gadebate.un.org/en/80/lithuania",
+            country="Lithuania",
+            name="Gitanas Nausėda",
+            rank="President",
+            speaker_title="His Excellency",
+            speech_date="2025-09-23",
+            pdf_en=FileRef("Statement in English", "https://x/lt_en.pdf", "lt_en.pdf"),
+            audio_en=FileRef("english", "https://x/80_LT_EN.mp3", "80_LT_EN.mp3", "en"),
+        )
+        ocr_text = "Madam President, distinguished delegates. " * 12
+        with tempfile.TemporaryDirectory() as tmp:
+            with patch("pipeline.run.fetch", return_value=(200, {}, b"%PDF-fake")):
+                with patch("pipeline.run.extract_pdf_text", return_value=""):
+                    with patch("pipeline.run.ocr_pdf_text", return_value=ocr_text):
+                        speech, via, elapsed = extract_from_page_timed(
+                            config, page, dest=Path(tmp)
+                        )
+        self.assertEqual(speech.source, "pdf_en")
+        self.assertEqual(via, "ocr")
+        self.assertGreaterEqual(elapsed, 0.0)
+
+    def test_fetch_uses_roster_without_scrape(self) -> None:
+        from pipeline.roster import speaker_entry_from_page
+
+        config = load_session("80")
+        html = FIXTURE.read_text(encoding="utf-8")
+        page = parse_speaker_page(
+            config, "https://gadebate.un.org/en/80/brazil", html
+        )
+        roster = {
+            "session": 80,
+            "day": "2025-09-23",
+            "speakers": [speaker_entry_from_page(page, config.sources)],
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            with patch("pipeline.roster.load_roster", return_value=roster):
+                with patch("pipeline.run.scrape_speaker") as scrape:
+                    with patch("pipeline.run.fetch", return_value=(200, {}, b"fake-mp3")):
+                        with patch(
+                            "pipeline.run.transcribe_audio_file",
+                            return_value="Madam President, " * 20,
+                        ):
+                            results = fetch_speeches(
+                                config,
+                                day="2025-09-23",
+                                slug="brazil",
+                                dest=Path(tmp),
+                                require_roster=True,
+                            )
+        scrape.assert_not_called()
+        self.assertEqual(len(results), 1)
+        self.assertIsNotNone(results[0].speech)
+        self.assertEqual(results[0].speech.source, "audio_en")
+        self.assertEqual(results[0].via, "whisper")
+        self.assertGreaterEqual(results[0].elapsed_s, 0.0)
+
+    def test_extract_require_roster_missing_file(self) -> None:
+        config = load_session("80")
+        with patch("pipeline.roster.load_roster", return_value=None):
+            with self.assertRaises(FileNotFoundError):
+                fetch_speeches(
+                    config,
+                    day="2025-09-23",
+                    require_roster=True,
+                )
+
+    def test_extract_require_roster_unknown_slug(self) -> None:
+        from pipeline.roster import speaker_entry_from_page
+
+        config = load_session("80")
+        html = FIXTURE.read_text(encoding="utf-8")
+        page = parse_speaker_page(
+            config, "https://gadebate.un.org/en/80/brazil", html
+        )
+        roster = {
+            "session": 80,
+            "day": "2025-09-23",
+            "speakers": [speaker_entry_from_page(page, config.sources)],
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            with patch("pipeline.roster.load_roster", return_value=roster):
+                with patch("pipeline.run.scrape_speaker") as scrape:
+                    results = fetch_speeches(
+                        config,
+                        day="2025-09-23",
+                        slug="kenya",
+                        dest=Path(tmp),
+                        require_roster=True,
+                    )
+        scrape.assert_not_called()
+        self.assertEqual(results[0].page.slug, "kenya")
+        self.assertIn("roster", results[0].page.error or "")
 
     def test_ocr_failure_falls_back_to_audio(self) -> None:
         config = load_session("80")

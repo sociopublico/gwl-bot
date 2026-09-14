@@ -10,7 +10,8 @@ Ejemplo (2026-09-22.txt):
 # brazil
 # kenya
 
-Después:
+Después (laptop → git, server extract):
 
-  python -m pipeline fetch --session 81 --day 2026-09-22
+  python -m pipeline roster --session 81 --day 2026-09-22
+  python -m pipeline extract --session 81 --day 2026-09-22
   python -m pipeline publish --session 81 --day 2026-09-22 --github --sheet

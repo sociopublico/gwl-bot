@@ -1,5 +1,6 @@
-# Pipeline UNGA (fetch / publish). No levanta el monitor de YouTube.
-# Uso: docker compose -f docker-compose.pipeline.yml run --rm pipeline fetch --session 81 --day 2026-09-22
+# Pipeline UNGA (extract / publish). No levanta el monitor de YouTube.
+# Roster (scrape) en la laptop; acá: extract --session 80 --day 2025-09-23
+# Uso: docker compose -f docker-compose.pipeline.yml run --rm pipeline extract --session 81 --day 2026-09-22
 
 name: gwl-pipeline
 

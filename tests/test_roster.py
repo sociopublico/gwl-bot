@@ -4,59 +4,96 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from app.roster import load_roster_file, match_roster, parse_roster, roster_score
-
-
-ROSTER = (
-    "Luiz Inacio Lula da Silva",
-    "Emmanuel Macron",
-    "Donald Trump",
-    "Yoon Suk Yeol",
+from pipeline.config import load_session
+from pipeline.gadebate import parse_speaker_page
+from pipeline.roster import (
+    chosen_source,
+    merge_speakers,
+    page_from_entry,
+    speaker_entry_from_page,
+    write_roster,
 )
 
 
-class RosterMatchTest(unittest.TestCase):
-    def test_maps_whisper_lula_variants(self) -> None:
-        for asr in (
-            "Louis Narsier-Loula Dar Silva",
-            "Lewis Nasier-Loula Dare Silva",
-            "Luis Narsio Lula da Silva",
-        ):
-            matched = match_roster(asr, ROSTER, threshold=0.62)
-            assert matched is not None
-            self.assertEqual(matched[0], "Luiz Inacio Lula da Silva")
+FIXTURE = Path(__file__).parent / "fixtures" / "gadebate_brazil.html"
+LITHUANIA = Path(__file__).parent / "fixtures" / "gadebate_lithuania.html"
 
-    def test_does_not_map_macron_to_lula(self) -> None:
-        matched = match_roster("Emmanuel Macron", ROSTER, threshold=0.62)
-        assert matched is not None
-        self.assertEqual(matched[0], "Emmanuel Macron")
 
-    def test_unknown_name_below_threshold(self) -> None:
-        self.assertIsNone(match_roster("Angela Merkel", ROSTER, threshold=0.62))
-
-    def test_lula_beats_unrelated_silva(self) -> None:
-        lula = roster_score("Louis Narsier-Loula Dar Silva", "Luiz Inacio Lula da Silva")
-        other = roster_score("Louis Narsier-Loula Dar Silva", "Emmanuel Macron")
-        self.assertGreater(lula, other)
-        self.assertGreater(lula, 0.62)
-
-    def test_erdogan_whisper_commas_against_full_roster(self) -> None:
-        asr = "red-chap tie-jip Erdogan"
-        roster = parse_roster(
-            (Path(__file__).resolve().parents[1] / "speakers.txt").read_text(encoding="utf-8")
+class RosterTest(unittest.TestCase):
+    def test_brazil_fixture_has_pdf_other_audio_and_video(self) -> None:
+        config = load_session("80")
+        html = FIXTURE.read_text(encoding="utf-8")
+        page = parse_speaker_page(
+            config, "https://gadebate.un.org/en/80/brazil", html
         )
-        matched = match_roster(asr, roster, threshold=0.62)
-        assert matched is not None
-        self.assertEqual(matched[0], "Recep Tayyip Erdoğan")
+        entry = speaker_entry_from_page(page, config.sources)
+        self.assertEqual(entry["slug"], "brazil")
+        self.assertEqual(entry["country"], "Brazil")
+        self.assertEqual(entry["speech_date"], "2025-09-23")
+        self.assertEqual(entry["chosen"], "audio_en")
+        self.assertIsNone(entry["sources"]["pdf_en"])
+        self.assertEqual(entry["sources"]["pdf_other"]["filename"], "br_pt.pdf")
+        self.assertEqual(entry["sources"]["audio_en"]["filename"], "80_BR_EN.mp3")
+        self.assertEqual(entry["sources"]["video"]["entry_id"], "1_abc")
+        restored = page_from_entry(entry)
+        self.assertEqual(restored.audio_en.filename, "80_BR_EN.mp3")
+        self.assertEqual(restored.pdf_other.filename, "br_pt.pdf")
+        self.assertEqual(restored.video_entry_id, "1_abc")
+        self.assertEqual(chosen_source(restored, config.sources), "audio_en")
 
-    def test_parse_and_file(self) -> None:
-        parsed = parse_roster("Luiz Inacio Lula da Silva;Emmanuel Macron\n# comment\nDonald Trump")
-        self.assertEqual(parsed, ROSTER[:3])
+    def test_lithuania_fixture_has_pdf_en_and_audio(self) -> None:
+        config = load_session("80")
+        html = LITHUANIA.read_text(encoding="utf-8")
+        page = parse_speaker_page(
+            config, "https://gadebate.un.org/en/80/lithuania", html
+        )
+        entry = speaker_entry_from_page(page, config.sources)
+        self.assertEqual(entry["slug"], "lithuania")
+        self.assertEqual(entry["chosen"], "pdf_en")
+        self.assertEqual(entry["sources"]["pdf_en"]["filename"], "lt_en.pdf")
+        self.assertEqual(entry["sources"]["audio_en"]["filename"], "80_LT_EN.mp3")
+        self.assertIsNone(entry["sources"]["pdf_other"])
+
+    def test_merge_speakers_replaces_by_slug(self) -> None:
+        existing = {
+            "session": 80,
+            "day": "2025-09-23",
+            "speakers": [
+                {"slug": "brazil", "chosen": "audio_en"},
+                {"slug": "kenya", "chosen": "pdf_en"},
+            ],
+        }
+        incoming = {
+            "session": 80,
+            "day": "2025-09-23",
+            "scraped_at": "now",
+            "speakers": [{"slug": "lithuania", "chosen": "pdf_en"}],
+        }
+        merged = merge_speakers(existing, incoming)
+        slugs = [s["slug"] for s in merged["speakers"]]
+        self.assertEqual(slugs, ["brazil", "kenya", "lithuania"])
+        replaced = merge_speakers(
+            existing,
+            {
+                "session": 80,
+                "day": "2025-09-23",
+                "speakers": [{"slug": "brazil", "chosen": "pdf_other"}],
+            },
+        )
+        self.assertEqual(replaced["speakers"][0]["chosen"], "pdf_other")
+        self.assertEqual(len(replaced["speakers"]), 2)
+
+    def test_write_roster_roundtrip(self) -> None:
+        payload = {
+            "session": 80,
+            "day": "2025-09-23",
+            "speakers": [{"slug": "brazil", "chosen": "audio_en"}],
+        }
         with tempfile.TemporaryDirectory() as tmp:
-            path = Path(tmp) / "speakers.txt"
-            path.write_text("Yoon Suk Yeol\n", encoding="utf-8")
-            self.assertEqual(load_roster_file(str(path)), ("Yoon Suk Yeol",))
-            self.assertEqual(load_roster_file(str(Path(tmp) / "missing.txt")), ())
+            path = write_roster(payload, Path(tmp) / "2025-09-23.json")
+            text = path.read_text(encoding="utf-8")
+        self.assertIn('"brazil"', text)
+        self.assertIn("audio_en", text)
 
 
 if __name__ == "__main__":

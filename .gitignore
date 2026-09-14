@@ -20,4 +20,4 @@ pipeline/out/**
 # Google service account JSON (nunca commitear)
 gwl-bot-*.json
 secrets/*.json
-
+secrets/

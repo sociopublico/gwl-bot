@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
-# Fetch + publish del día UNGA (hora de Nueva York).
+# Extract + publish del día UNGA (hora de Nueva York).
+#
+# El scrape de gadebate (comando `roster`) corre en la laptop: el WAF de
+# CloudFront bloquea el VPS. El cron acá asume que el JSON del día ya está
+# en git (pipeline/data/roster/{sesión}/{día}.json).
 #
 # En el server, desde el clone (una vez):
 #   chmod +x pipeline/scripts/daily.sh
@@ -44,26 +48,37 @@ run_pipeline() {
   "${COMPOSE[@]}" run --rm pipeline "$@"
 }
 
-FETCH_ARGS=(fetch --session "$SESSION" --day "$DAY")
+if [[ -d "$ROOT/.git" ]]; then
+  log "git pull --ff-only"
+  git -C "$ROOT" pull --ff-only
+fi
+
+ROSTER="$ROOT/pipeline/data/roster/${SESSION}/${DAY}.json"
+if [[ ! -f "$ROSTER" ]]; then
+  log "error: no está $ROSTER — en la laptop: python -m pipeline roster --session $SESSION --day $DAY && git add $ROSTER && git commit && git push"
+  exit 1
+fi
+
+EXTRACT_ARGS=(extract --session "$SESSION" --day "$DAY")
 if [[ "$SKIP_EXISTING" != "0" ]]; then
-  FETCH_ARGS+=(--skip-existing)
+  EXTRACT_ARGS+=(--skip-existing)
 fi
 
 JOURNAL="$ROOT/pipeline/data/unga${SESSION}/${DAY}.txt"
 if [[ ! -f "$JOURNAL" ]]; then
-  log "aviso: no está $JOURNAL (orden del UN Journal). Fetch igual, pero sin journal ni date index puede recorrer toda la sesión."
+  log "aviso: no está $JOURNAL (orden del UN Journal). Extract usa el roster."
 fi
 
-log "inicio session=$SESSION day=$DAY skip_existing=$SKIP_EXISTING"
+log "inicio session=$SESSION day=$DAY skip_existing=$SKIP_EXISTING roster=$ROSTER"
 set +e
-run_pipeline "${FETCH_ARGS[@]}" 2>&1 | tee -a "$LOG"
-fetch_rc=${PIPESTATUS[0]}
+run_pipeline "${EXTRACT_ARGS[@]}" 2>&1 | tee -a "$LOG"
+extract_rc=${PIPESTATUS[0]}
 run_pipeline publish --session "$SESSION" --day "$DAY" --github --sheet 2>&1 | tee -a "$LOG"
 publish_rc=${PIPESTATUS[0]}
 set -e
 
-log "fin fetch=$fetch_rc publish=$publish_rc"
-if [[ "$fetch_rc" -ne 0 || "$publish_rc" -ne 0 ]]; then
+log "fin extract=$extract_rc publish=$publish_rc"
+if [[ "$extract_rc" -ne 0 || "$publish_rc" -ne 0 ]]; then
   exit 1
 fi
 exit 0
