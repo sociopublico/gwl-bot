@@ -62,6 +62,8 @@ OK brazil source=audio_en via=whisper chars=... elapsed=841s
 
 `via` = `pypdf` | `ocr` | `whisper` | `translate`.
 
+Los PDF en `gadebate.un.org/sites/...` suelen devolver HTTP 202 (WAF) desde el VPS. Extract no aborta: marca ese origen como no usable y sigue a `audio_en` (S3) o video (Kaltura).
+
 `fetch` sigue existiendo (scrape + extract). En el server usá `extract`.
 
 ### 3. Publish

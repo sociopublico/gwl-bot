@@ -42,6 +42,17 @@ def _looks_like_speaker_html(body: bytes) -> bool:
     )
 
 
+def is_waf_challenge(body: bytes) -> bool:
+    """CloudFront/AWS WAF interstitial (el VPS lo recibe en gadebate.un.org)."""
+    text = body[:20_000].decode("utf-8", "replace").lower()
+    return (
+        "awswafcookiedomainlist" in text
+        or "gokuprops" in text
+        or "captcha.awswaf.com" in text
+        or "x-amzn-waf-action" in text
+    )
+
+
 def _preview(body: bytes, limit: int = 280) -> str:
     text = body.decode("utf-8", "replace").replace("\n", " ").strip()
     text = " ".join(text.split())
@@ -51,6 +62,8 @@ def _preview(body: bytes, limit: int = 280) -> str:
 
 
 def _unusable_get(status: int, body: bytes) -> bool:
+    if is_waf_challenge(body):
+        return True
     if status == 200 and not body:
         return True
     if status == 202 and not _looks_like_speaker_html(body):
@@ -152,6 +165,12 @@ def fetch(
                         retries=max(1, retries - 1),
                         extra_headers=extra_headers,
                     )
+                if method != "HEAD" and is_waf_challenge(body):
+                    raise HttpError(
+                        url,
+                        status,
+                        f"WAF challenge HTTP {status} ({len(body)} bytes)",
+                    )
                 if method != "HEAD" and _unusable_get(status, body):
                     last_err = HttpError(
                         url,
@@ -161,6 +180,8 @@ def fetch(
                     time.sleep(1.1 * (attempt + 1))
                     continue
                 return status, dict(resp.headers), body
+        except HttpError:
+            raise
         except HTTPError as exc:
             last_err = exc
             last_status = exc.code

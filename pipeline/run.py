@@ -12,7 +12,7 @@ from pipeline.extract_audio import transcribe_audio_file
 from pipeline.extract_ocr import ocr_pdf_text, tesseract_lang_for
 from pipeline.extract_pdf import extract_pdf_text
 from pipeline.gadebate import scrape_speaker
-from pipeline.http import fetch
+from pipeline.http import HttpError, fetch, is_waf_challenge
 from pipeline.journal import load_journal_slugs
 from pipeline.metadata import transformation_for
 from pipeline.models import ExtractedSpeech, FileRef, SpeakerPage
@@ -132,6 +132,27 @@ def _cache_path(config: SessionConfig, filename: str) -> Path:
     return path
 
 
+def _unusable_asset(blob: bytes, source: str) -> bool:
+    if is_waf_challenge(blob):
+        return True
+    if source.startswith("pdf"):
+        stripped = blob.lstrip()
+        if stripped.startswith(b"%PDF"):
+            return False
+        head = stripped[:32].lower()
+        return head.startswith(b"<!doctype") or head.startswith(b"<html")
+    return False
+
+
+def _download_error(source: str, filename: str, exc: HttpError) -> str:
+    if exc.status == 202 or "WAF" in str(exc):
+        return (
+            f"{source} ({filename}): WAF HTTP {exc.status or 202} en gadebate; "
+            "sigo la cascada"
+        )
+    return f"{source} ({filename}): HTTP {exc.status or '?'} {exc}"
+
+
 def extract_from_page(
     config: SessionConfig,
     page: SpeakerPage,
@@ -160,7 +181,7 @@ def extract_from_page_timed(
             txt_path = write_speech(speech, directory)
             append_manifest(directory, speech, txt_path)
             return speech, via, time.perf_counter() - started
-        except SourceUnavailable as exc:
+        except (SourceUnavailable, HttpError) as exc:
             errors.append(str(exc))
             print(
                 f"  {source} no usable: {exc}",
@@ -187,11 +208,25 @@ def _extract_source(
     if ref is None:
         raise SourceUnavailable(f"{source}: no está en la ficha")
     cache = _cache_path(config, ref.filename)
-    if cache.is_file() and cache.stat().st_size > 0:
-        blob = cache.read_bytes()
+    cached = (
+        cache.read_bytes()
+        if cache.is_file() and cache.stat().st_size > 0
+        else b""
+    )
+    if cached and not _unusable_asset(cached, source):
+        blob = cached
     else:
+        if cached:
+            cache.unlink(missing_ok=True)
         timeout = 180.0 if source == "audio_en" else 40.0
-        _, _, blob = fetch(ref.url, user_agent=config.user_agent, timeout=timeout)
+        try:
+            _, _, blob = fetch(ref.url, user_agent=config.user_agent, timeout=timeout)
+        except HttpError as exc:
+            raise SourceUnavailable(_download_error(source, ref.filename, exc)) from exc
+        if _unusable_asset(blob, source):
+            raise SourceUnavailable(
+                f"{source} ({ref.filename}): HTML/WAF en vez del archivo; sigo la cascada"
+            )
         cache.write_bytes(blob)
     if source == "audio_en":
         text = transcribe_audio_file(

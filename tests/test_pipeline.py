@@ -644,6 +644,91 @@ Excellencies, we gather here today to defend the Charter.
         self.assertEqual(speech.source, "audio_en")
         self.assertEqual(speech.transformation, "whisper")
 
+    def test_waf_pdf_falls_back_to_audio(self) -> None:
+        from dataclasses import replace
+
+        from pipeline.http import HttpError
+
+        page = SpeakerPage(
+            slug="angola",
+            url="https://gadebate.un.org/en/80/angola",
+            country="Angola",
+            name="João Manuel Gonçalves Lourenço",
+            rank="President",
+            speaker_title="His Excellency",
+            speech_date="2025-09-23",
+            pdf_en=FileRef(
+                "Statement in English",
+                "https://gadebate.un.org/sites/default/files/gastatements/80/ao_en.pdf",
+                "ao_en.pdf",
+            ),
+            audio_en=FileRef(
+                "english",
+                "https://s3.amazonaws.com/example/80_AO_EN.mp3",
+                "80_AO_EN.mp3",
+                "en",
+            ),
+        )
+
+        def fake_fetch(url: str, **_kwargs):
+            if url.endswith(".pdf"):
+                raise HttpError(url, 202, "WAF challenge HTTP 202 (2451 bytes)")
+            return (200, {}, b"fake-mp3")
+
+        with tempfile.TemporaryDirectory() as tmp:
+            config = replace(load_session("80"), root=Path(tmp))
+            with patch("pipeline.run.fetch", side_effect=fake_fetch):
+                with patch(
+                    "pipeline.run.transcribe_audio_file",
+                    return_value="Madam President, " * 20,
+                ):
+                    speech, via, _elapsed = extract_from_page_timed(
+                        config, page, dest=Path(tmp) / "out"
+                    )
+        self.assertEqual(speech.source, "audio_en")
+        self.assertEqual(speech.transformation, "whisper")
+        self.assertEqual(via, "whisper")
+
+    def test_waf_html_cached_as_pdf_is_ignored(self) -> None:
+        from dataclasses import replace
+
+        from pipeline.http import HttpError
+        from pipeline.run import _cache_path
+
+        config = load_session("80")
+        page = SpeakerPage(
+            slug="angola",
+            url="https://gadebate.un.org/en/80/angola",
+            country="Angola",
+            name="João Manuel Gonçalves Lourenço",
+            rank="President",
+            speaker_title="His Excellency",
+            speech_date="2025-09-23",
+            pdf_en=FileRef("en", "https://gadebate.un.org/ao_en.pdf", "ao_en.pdf"),
+            audio_en=FileRef("english", "https://s3.example/80_AO_EN.mp3", "80_AO_EN.mp3", "en"),
+        )
+        waf = (
+            b"<!DOCTYPE html><html><script>window.awsWafCookieDomainList=[];"
+            b"window.gokuProps={};</script></html>"
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            config = replace(config, root=Path(tmp))
+            poisoned = _cache_path(config, "ao_en.pdf")
+            poisoned.write_bytes(waf)
+
+            def fake_fetch(url: str, **_kwargs):
+                if url.endswith(".pdf"):
+                    raise HttpError(url, 202, "WAF challenge HTTP 202")
+                return (200, {}, b"fake-mp3")
+
+            with patch("pipeline.run.fetch", side_effect=fake_fetch):
+                with patch(
+                    "pipeline.run.transcribe_audio_file",
+                    return_value="Madam President, " * 20,
+                ):
+                    speech = extract_from_page(config, page, dest=Path(tmp) / "out")
+        self.assertEqual(speech.source, "audio_en")
+
 
 class OcrTest(unittest.TestCase):
     def test_iso_to_tesseract(self) -> None:

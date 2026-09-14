@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import unittest
 
-from pipeline.http import _looks_like_speaker_html, _unusable_get
+from pipeline.http import _looks_like_speaker_html, _unusable_get, is_waf_challenge
 
 
 class HttpResponseTest(unittest.TestCase):
@@ -17,6 +17,17 @@ class HttpResponseTest(unittest.TestCase):
         html = b"<h3>Full statement</h3><a href='/sites/default/files/gastatements/80/br_pt.pdf'>"
         self.assertTrue(_looks_like_speaker_html(html))
         self.assertFalse(_unusable_get(202, html))
+
+    def test_waf_challenge_is_unusable_even_if_url_leaks_into_html(self) -> None:
+        body = (
+            b"<!DOCTYPE html><html><script>window.awsWafCookieDomainList=[];"
+            b"window.gokuProps={};</script>"
+            b"https://gadebate.un.org/sites/default/files/gastatements/80/ao_en.pdf"
+            b"</html>"
+        )
+        self.assertTrue(is_waf_challenge(body))
+        self.assertTrue(_unusable_get(202, body))
+        self.assertTrue(_looks_like_speaker_html(body))
 
 
 if __name__ == "__main__":
