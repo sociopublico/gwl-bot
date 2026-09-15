@@ -48,3 +48,4 @@ class ExtractedSpeech:
     speaker_title: str = ""
     original_language: str = ""
     transformation: str = "none"
+    id_speech: str = ""

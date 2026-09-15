@@ -101,6 +101,7 @@ class MetadataRowTest(unittest.TestCase):
 
     def test_speech_id_and_sheet_keys(self) -> None:
         self.assertEqual(next_speech_id(["M_1", "M_12", "x"]), 13)
+        self.assertEqual(next_speech_id([]), 1)
         keys = existing_keys(
             [
                 {
@@ -187,6 +188,146 @@ class MetadataRowTest(unittest.TestCase):
             body = csv_path.read_text(encoding="utf-8")
             self.assertIn("M_1", body)
             self.assertIn("KEN", body)
+            renamed = dest / "80" / "2025-09-24" / "M_1.txt"
+            self.assertTrue(renamed.is_file())
+            self.assertFalse((dest / "80" / "2025-09-24" / "kenya.txt").exists())
+            parsed = parse_speech_txt(renamed)
+            self.assertEqual(parsed.slug, "kenya")
+            self.assertEqual(parsed.id_speech, "M_1")
+
+    def test_publish_continues_ids_across_days(self) -> None:
+        from pipeline.publish import publish_day
+        from pipeline.store import out_dir, write_speech
+
+        config = load_session("80")
+        kenya = ExtractedSpeech(
+            session_id=80,
+            slug="kenya",
+            country="Kenya",
+            name="William Ruto",
+            rank="President",
+            speech_date="2025-09-24",
+            source="pdf_en",
+            source_url="https://example/ke_en.pdf",
+            language="en",
+            text="Excellencies",
+        )
+        finland = ExtractedSpeech(
+            session_id=80,
+            slug="finland",
+            country="Finland",
+            name="Alexander Stubb",
+            rank="President",
+            speech_date="2025-09-24",
+            source="pdf_en",
+            source_url="https://example/fi_en.pdf",
+            language="en",
+            text="Madam President",
+        )
+        finland.speech_date = "2025-09-25"
+        with tempfile.TemporaryDirectory() as tmp:
+            dest = Path(tmp)
+            write_speech(kenya, out_dir(config, kenya.speech_date, dest=dest))
+            with patch("pipeline.sheets.can_write_sheets", return_value=False):
+                self.assertEqual(
+                    publish_day(
+                        config,
+                        day="2025-09-24",
+                        dest=dest,
+                        do_github=False,
+                        do_sheet=False,
+                    ),
+                    0,
+                )
+            write_speech(finland, out_dir(config, finland.speech_date, dest=dest))
+            with patch("pipeline.sheets.can_write_sheets", return_value=False):
+                self.assertEqual(
+                    publish_day(
+                        config,
+                        day="2025-09-25",
+                        dest=dest,
+                        do_github=False,
+                        do_sheet=False,
+                    ),
+                    0,
+                )
+            self.assertTrue((dest / "80" / "2025-09-24" / "M_1.txt").is_file())
+            self.assertTrue((dest / "80" / "2025-09-25" / "M_2.txt").is_file())
+            self.assertIn("M_2", (dest / "80" / "2025-09-25" / "metadata.csv").read_text())
+
+    def test_publish_reuses_existing_file_id(self) -> None:
+        from pipeline.publish import publish_day
+        from pipeline.store import out_dir, write_speech
+
+        config = load_session("80")
+        speech = ExtractedSpeech(
+            session_id=80,
+            slug="kenya",
+            country="Kenya",
+            name="William Ruto",
+            rank="President",
+            speech_date="2025-09-24",
+            source="pdf_en",
+            source_url="https://example/ke_en.pdf",
+            language="en",
+            text="Excellencies",
+            id_speech="M_12",
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            dest = Path(tmp)
+            write_speech(speech, out_dir(config, speech.speech_date, dest=dest))
+            with patch("pipeline.sheets.can_write_sheets", return_value=False):
+                code = publish_day(
+                    config,
+                    day="2025-09-24",
+                    dest=dest,
+                    do_github=False,
+                    do_sheet=False,
+                )
+            self.assertEqual(code, 0)
+            self.assertTrue((dest / "80" / "2025-09-24" / "M_12.txt").is_file())
+            self.assertFalse((dest / "80" / "2025-09-24" / "M_1.txt").exists())
+            self.assertIn("M_12", (dest / "80" / "2025-09-24" / "metadata.csv").read_text())
+
+    def test_publish_continues_ids_from_sheet(self) -> None:
+        from pipeline.publish import publish_day
+        from pipeline.store import out_dir, write_speech
+
+        config = load_session("80")
+        speech = ExtractedSpeech(
+            session_id=80,
+            slug="kenya",
+            country="Kenya",
+            name="William Ruto",
+            rank="President",
+            speech_date="2025-09-24",
+            source="pdf_en",
+            source_url="https://example/ke_en.pdf",
+            language="en",
+            text="Excellencies",
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            dest = Path(tmp)
+            write_speech(speech, out_dir(config, speech.speech_date, dest=dest))
+            with patch("pipeline.sheets.can_write_sheets", return_value=True):
+                with patch(
+                    "pipeline.sheets.read_metadata_records",
+                    return_value=(
+                        ["id_speech", "ficha_url"],
+                        [{"id_speech": "M_40", "ficha_url": "https://other"}],
+                    ),
+                ):
+                    with patch("pipeline.sheets.append_metadata_rows", return_value=[]):
+                        code = publish_day(
+                            config,
+                            day="2025-09-24",
+                            dest=dest,
+                            do_github=False,
+                            do_sheet=True,
+                        )
+            self.assertEqual(code, 0)
+            self.assertTrue((dest / "80" / "2025-09-24" / "M_41.txt").is_file())
+            self.assertIn("M_41", (dest / "80" / "2025-09-24" / "metadata.csv").read_text())
 
 
 class DotenvSheetsTest(unittest.TestCase):

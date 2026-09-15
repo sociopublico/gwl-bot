@@ -607,16 +607,19 @@ def print_alert_report(
         dest=dest,
         english_only=english_only,
     )
-    without_reform = run_alert_simulation(
-        session,
-        keywords_path=keywords_path,
-        dest=dest,
-        english_only=english_only,
-        exclude=("reform",),
-    )
+    without_reform = None
+    if any(k.casefold() == "reform" for k in report.config.keywords):
+        without_reform = run_alert_simulation(
+            session,
+            keywords_path=keywords_path,
+            dest=dest,
+            english_only=english_only,
+            exclude=("reform",),
+        )
     if as_json:
         payload = report_to_json(report)
-        payload["without_standalone_reform"] = report_to_json(without_reform)
+        if without_reform is not None:
+            payload["without_standalone_reform"] = report_to_json(without_reform)
         print(json.dumps(payload, ensure_ascii=False, indent=2))
     else:
         print(format_report(report, without_reform=without_reform), end="")

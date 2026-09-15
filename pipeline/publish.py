@@ -14,11 +14,19 @@ from pipeline.metadata import (
     METADATA_COLUMNS,
     MetadataRow,
     build_metadata_row,
+    format_speech_id,
     next_speech_id,
+    parse_speech_id,
     row_values,
 )
 from pipeline.models import ExtractedSpeech
-from pipeline.store import list_speech_txts, parse_speech_txt, speech_relpath
+from pipeline.store import (
+    existing_speech_id_labels,
+    list_speech_txts,
+    parse_speech_txt,
+    speech_relpath,
+    write_speech,
+)
 
 
 def github_repo_and_branch(root: Path | None = None) -> tuple[str, str]:
@@ -117,11 +125,20 @@ def publish_github(paths: list[Path], *, message: str, root: Path | None = None)
     """git add + commit + push de los .txt del día. True si hubo commit."""
     cwd = root or PIPELINE_ROOT.parent
     rels = []
+    seen: set[str] = set()
     for path in paths:
-        try:
-            rels.append(str(path.resolve().relative_to(cwd.resolve())))
-        except ValueError:
-            rels.append(str(path))
+        candidates = [path]
+        if path.parent != cwd:
+            candidates.append(path.parent)
+        for candidate in candidates:
+            try:
+                rel = str(candidate.resolve().relative_to(cwd.resolve()))
+            except ValueError:
+                rel = str(candidate)
+            if rel in seen:
+                continue
+            seen.add(rel)
+            rels.append(rel)
     if not rels:
         print("github: no hay .txt para versionar", file=sys.stderr)
         return False
@@ -247,6 +264,45 @@ def _countries_for_publish(config: SessionConfig) -> CountryIndex:
     )
 
 
+def assign_speech_ids(
+    config: SessionConfig,
+    items: list[tuple[ExtractedSpeech, Path]],
+    *,
+    start_id: int,
+    sheet_records: list[dict] | None = None,
+) -> list[tuple[ExtractedSpeech, Path]]:
+    """Asigna M_N correlativos, escribe el id en el YAML y renombra el .txt."""
+    ficha_ids: dict[str, int] = {}
+    for record in sheet_records or []:
+        num = parse_speech_id(str(record.get("id_speech") or ""))
+        ficha = str(record.get("ficha_url") or "").strip()
+        if num and ficha:
+            ficha_ids[ficha] = num
+
+    used: set[int] = set()
+    planned: list[tuple[ExtractedSpeech, Path, int | None]] = []
+    for speech, path in items:
+        num = parse_speech_id(speech.id_speech) or parse_speech_id(path.stem)
+        if num is None:
+            num = ficha_ids.get(config.speaker_url(speech.slug))
+        planned.append((speech, path, num))
+        if num is not None:
+            used.add(num)
+
+    current = start_id
+    out: list[tuple[ExtractedSpeech, Path]] = []
+    for speech, path, num in planned:
+        if num is None:
+            while current in used:
+                current += 1
+            num = current
+            used.add(num)
+            current += 1
+        speech.id_speech = format_speech_id(num)
+        out.append((speech, write_speech(speech, path.parent)))
+    return out
+
+
 def build_day_rows(
     config: SessionConfig,
     *,
@@ -281,12 +337,40 @@ def build_day_rows(
             transcript_url=url,
             ficha_url=ficha,
         )
-        row.id_speech = f"M_{next_id}"
-        next_id += 1
+        if speech.id_speech:
+            row.id_speech = speech.id_speech
+        else:
+            row.id_speech = format_speech_id(next_id)
+            next_id += 1
         rows.append(row)
         if warning:
             print(warning, file=sys.stderr)
     return rows
+
+
+def _load_sheet_records(do_sheet: bool) -> tuple[list[str] | None, list[dict] | None, bool]:
+    from pipeline.sheets import (
+        SheetsError,
+        can_write_sheets,
+        read_metadata_records,
+        sheets_settings,
+        sheets_unavailable_reason,
+    )
+
+    settings = sheets_settings()
+    if not can_write_sheets(settings):
+        if do_sheet:
+            print(
+                f"sheet: {sheets_unavailable_reason(settings)}; escribo CSV local.",
+                file=sys.stderr,
+            )
+        return None, None, False
+    try:
+        headers, records = read_metadata_records(settings)
+        return headers, records, do_sheet
+    except SheetsError as exc:
+        print(f"sheet: no pude leer Metadata ({exc})", file=sys.stderr)
+        return None, None, False
 
 
 def publish_day(
@@ -300,47 +384,35 @@ def publish_day(
     write_csv: bool = True,
 ) -> int:
     load_dotenv()
-    items = _load_speeches(config, day=day, slug=slug, dest=dest)
+    items = _order_speeches(
+        config, _load_speeches(config, day=day, slug=slug, dest=dest), day
+    )
     if not items:
         print("publish: no hay .txt extraídos para esos filtros", file=sys.stderr)
         return 1
-    txts = [path for _, path in items]
+    existing_headers, existing_records, do_sheet = _load_sheet_records(do_sheet)
+    file_ids = existing_speech_id_labels(config, dest=dest)
+    sheet_ids = [str(r.get("id_speech") or "") for r in existing_records or []]
+    start_id = next_speech_id(file_ids + sheet_ids)
+    items = assign_speech_ids(
+        config,
+        items,
+        start_id=start_id,
+        sheet_records=existing_records,
+    )
+    ids = [speech.id_speech for speech, _ in items]
+    if ids:
+        print(
+            f"publish ids={ids[0]}..{ids[-1]} archivos={len(ids)}",
+            file=sys.stderr,
+        )
     github_committed = False
     if do_github:
         label = day or slug or "speeches"
         github_committed = publish_github(
-            txts,
+            [path for _, path in items],
             message=f"Add UNGA {config.id} transcripts for {label}",
         )
-    start_id = 1
-    existing_headers: list[str] | None = None
-    existing_records: list[dict] | None = None
-    if do_sheet:
-        from pipeline.sheets import (
-            SheetsError,
-            can_write_sheets,
-            read_metadata_records,
-            sheets_settings,
-        )
-
-        settings = sheets_settings()
-        if can_write_sheets(settings):
-            try:
-                existing_headers, existing_records = read_metadata_records(settings)
-                start_id = next_speech_id(
-                    [str(r.get("id_speech") or "") for r in existing_records]
-                )
-            except SheetsError as exc:
-                print(f"sheet: no pude leer Metadata ({exc})", file=sys.stderr)
-                do_sheet = False
-        else:
-            from pipeline.sheets import sheets_unavailable_reason
-
-            print(
-                f"sheet: {sheets_unavailable_reason(settings)}; escribo CSV local.",
-                file=sys.stderr,
-            )
-            do_sheet = False
     rows = build_day_rows(
         config,
         day=day,

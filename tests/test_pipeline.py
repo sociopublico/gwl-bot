@@ -174,6 +174,49 @@ class ParsePageTest(unittest.TestCase):
             )
             self.assertTrue(is_english_transcript(english))
 
+    def test_write_speech_keeps_id_filename_on_overwrite(self) -> None:
+        from pipeline.store import parse_speech_txt, write_speech
+
+        with tempfile.TemporaryDirectory() as tmp:
+            directory = Path(tmp)
+            first = write_speech(
+                ExtractedSpeech(
+                    session_id=80,
+                    slug="kenya",
+                    country="Kenya",
+                    name="William Ruto",
+                    rank="President",
+                    speech_date="2025-09-24",
+                    source="pdf_en",
+                    source_url="https://x/ke.pdf",
+                    language="en",
+                    text="Excellencies",
+                    id_speech="M_4",
+                ),
+                directory,
+            )
+            self.assertEqual(first.name, "M_4.txt")
+            again = write_speech(
+                ExtractedSpeech(
+                    session_id=80,
+                    slug="kenya",
+                    country="Kenya",
+                    name="William Ruto",
+                    rank="President",
+                    speech_date="2025-09-24",
+                    source="pdf_en",
+                    source_url="https://x/ke.pdf",
+                    language="en",
+                    text="Updated",
+                ),
+                directory,
+            )
+            self.assertEqual(again.name, "M_4.txt")
+            self.assertFalse((directory / "kenya.txt").exists())
+            parsed = parse_speech_txt(again)
+            self.assertEqual(parsed.id_speech, "M_4")
+            self.assertEqual(parsed.text, "Updated")
+
     def test_language_for_other_pdf(self) -> None:
         ref = FileRef("Statement in French", "https://x/fr_fr.pdf", "fr_fr.pdf")
         self.assertEqual(language_for("pdf_other", ref), "fr")

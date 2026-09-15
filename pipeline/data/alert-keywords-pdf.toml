@@ -1,0 +1,35 @@
+# Las 7 del PDF GWL Keywords (14/09/2026).
+# Apostrofe ASCII y tipográfico: los PDF de GA80 mezclan ambos.
+# "female candidates" no está en el PDF como keyword, pero es el ejemplo de Dinamarca.
+
+cooldown_seconds = 120
+chunk_seconds = 20
+chunk_overlap_seconds = 4
+words_per_minute = 140
+speech_gap_seconds = 90
+
+[[group]]
+name = "gender"
+keywords = [
+  "women's participation",
+  "women’s participation",
+  "women's representation",
+  "women’s representation",
+  "women's leadership",
+  "women’s leadership",
+]
+
+[[group]]
+name = "secretary_general"
+keywords = [
+  "new secretary general",
+  "female candidate",
+  "female candidates",
+]
+
+[[group]]
+name = "multilateral_order"
+keywords = [
+  "new multilateralism",
+  "ecosystem of cooperation",
+]

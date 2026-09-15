@@ -28,11 +28,11 @@ class AlertKeywordsTest(unittest.TestCase):
 
     def test_default_repo_keywords_load(self) -> None:
         config = load_alert_config()
-        self.assertIn("women", config.keywords)
-        self.assertIn("security council", config.keywords)
+        self.assertIn("gender equality", config.keywords)
+        self.assertIn("multilateralism", config.keywords)
         self.assertIn("female candidates", config.keywords)
-        self.assertEqual(config.group_for("un80"), "reform")
-        self.assertEqual(config.group_for("geopolitics"), "multilateral_order")
+        self.assertEqual(config.group_for("un80"), "multilateral_order")
+        self.assertEqual(config.group_for("geopolitical"), "multilateral_order")
 
     def test_exclude_drops_standalone_reform(self) -> None:
         config = with_excluded_keywords(load_alert_config(KEYWORDS), ("reform",))
@@ -172,6 +172,34 @@ class FindExistingSpeechTest(unittest.TestCase):
                         source_url="https://example/ke_en.pdf",
                         language="en",
                         text="Hello.",
+                    )
+                ),
+                encoding="utf-8",
+            )
+            found = find_existing_speech(config, "kenya", dest=dest)
+            self.assertEqual(found, path)
+
+    def test_finds_txt_renamed_to_speech_id(self) -> None:
+        config = load_session("80")
+        with tempfile.TemporaryDirectory() as tmp:
+            dest = Path(tmp)
+            day = dest / "80" / "2025-09-24"
+            day.mkdir(parents=True)
+            path = day / "M_12.txt"
+            path.write_text(
+                speech_to_txt(
+                    ExtractedSpeech(
+                        session_id=80,
+                        slug="kenya",
+                        country="Kenya",
+                        name="William Ruto",
+                        rank="President",
+                        speech_date="2025-09-24",
+                        source="pdf_en",
+                        source_url="https://example/ke_en.pdf",
+                        language="en",
+                        text="Hello.",
+                        id_speech="M_12",
                     )
                 ),
                 encoding="utf-8",

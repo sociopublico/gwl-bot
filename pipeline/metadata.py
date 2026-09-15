@@ -221,6 +221,15 @@ def parse_speech_id(raw: str) -> int | None:
     return int(match.group(1)) if match else None
 
 
+def format_speech_id(n: int) -> str:
+    return f"M_{n}"
+
+
+def normalize_speech_id(raw: str) -> str:
+    num = parse_speech_id(raw)
+    return format_speech_id(num) if num else ""
+
+
 @dataclass
 class MetadataRow:
     id_speech: str = ""

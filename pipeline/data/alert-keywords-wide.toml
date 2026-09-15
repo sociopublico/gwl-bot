@@ -1,0 +1,57 @@
+# Lista ancha (primera simulación): muchas palabras sueltas.
+# Matching: case-insensitive, word boundaries (app/detector.py).
+
+cooldown_seconds = 120
+chunk_seconds = 20
+chunk_overlap_seconds = 4
+words_per_minute = 140
+speech_gap_seconds = 90
+
+[[group]]
+name = "gender"
+keywords = [
+  "gender",
+  "equality",
+  "female",
+  "women",
+  "woman",
+  "parity",
+  "girls",
+]
+
+[[group]]
+name = "secretary_general"
+keywords = [
+  "new secretary general",
+  "female candidate",
+  "female candidates",
+]
+
+[[group]]
+name = "reform"
+keywords = [
+  "reform",
+  "un80",
+  "un 80",
+  "un-80",
+  "security council",
+]
+
+[[group]]
+name = "multilateral_order"
+keywords = [
+  "multilateralism",
+  "international organisation",
+  "international organization",
+  "international relations",
+  "international law",
+  "international system",
+  "cooperation",
+  "geopolitic",
+  "geopolitics",
+  "geopolitical",
+  "un system",
+  "un charter",
+  "article 99",
+  "multipolarity",
+]

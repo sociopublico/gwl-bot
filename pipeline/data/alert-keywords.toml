@@ -1,6 +1,5 @@
-# Palabras que disparan alerta en el monitor en vivo.
-# Matching: case-insensitive, por palabra/frase (igual que app/detector.py).
-# Editar este archivo y volver a correr: python -m pipeline alerts --session 80
+# Punto medio: 8 keywords (más alias de matching).
+# Objetivo: ~60 mails/día, menos de 100.
 
 cooldown_seconds = 120
 chunk_seconds = 20
@@ -11,50 +10,25 @@ speech_gap_seconds = 90
 [[group]]
 name = "gender"
 keywords = [
-  "gender",
-  "equality",
-  "female",
-  "women",
-  "woman",
-  "parity",
-  "girls",
+  "gender equality",
+  "women and girls",
+  "women's leadership",
+  "women’s leadership",
 ]
 
 [[group]]
 name = "secretary_general"
-# "female candidates" (plural) es lo que aparece en los discursos; el singular no lo cubre.
 keywords = [
   "new secretary general",
-  "female candidate",
   "female candidates",
 ]
 
 [[group]]
-name = "reform"
+name = "multilateral_order"
 keywords = [
-  "reform",
+  "multilateralism",
   "un80",
   "un 80",
   "un-80",
-  "security council",
-]
-
-[[group]]
-name = "multilateral_order"
-# "geopolitic" no aparece en GA80; geopolitics/geopolitical sí.
-keywords = [
-  "multilateralism",
-  "international organisation",
-  "international organization",
-  "international relations",
-  "international law",
-  "international system",
-  "cooperation",
-  "geopolitic",
-  "geopolitics",
   "geopolitical",
-  "un system",
-  "un charter",
-  "article 99",
-  "multipolarity",
 ]
