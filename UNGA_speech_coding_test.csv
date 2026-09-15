@@ -1,0 +1,109 @@
+id_speech,num_of_appearance,date_time,iso_country,country,region,subregion,security_council_member,g20_member,speaker_name,speaker_level,speaker_pronouns,speaker_gender,ficha_url,statement_web_url,transcript_url,source,original language,transformation
+M_1,1,23/09/2025,AGO,Angola,Africa,Middle Africa,Not member,Not member,"His Excellency
+João Manuel Gonçalves Lourenço
+President",HS,he/him,male,https://gadebate.un.org/en/80/angola,https://gadebate.un.org/sites/default/files/gastatements/80/ao_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_1.txt,pdf_en,english,none
+M_2,2,23/09/2025,BRA,Brazil,Latin America and the Caribbean,South America,Not member,Member,"His Excellency
+Luiz Inácio Lula da Silva
+President",HS,he/him,male,https://gadebate.un.org/en/80/brazil,https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_BR_EN.mp3,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_2.txt,audio_en,portuguese,whisper
+M_3,3,23/09/2025,CHL,Chile,Latin America and the Caribbean,South America,Not member,Not member,"His Excellency
+Gabriel Boric Font
+President",HS,he/him,male,https://gadebate.un.org/en/80/chile,https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_CL_EN.mp3,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_3.txt,audio_en,spanish,whisper
+M_4,4,23/09/2025,COL,Colombia,Latin America and the Caribbean,South America,Non-permanent member,Not member,"His Excellency
+Gustavo Petro Urrego
+President",HS,he/him,male,https://gadebate.un.org/en/80/colombia,https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_CO_EN.mp3,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_4.txt,audio_en,spanish,whisper
+M_5,5,23/09/2025,COD,Democratic Republic of the Congo,Africa,Middle Africa,Non-permanent member,Not member,"His Excellency
+Félix-Antoine Tshisekedi Tshilombo
+President",HS,he/him,male,https://gadebate.un.org/en/80/democratic-republic-congo,https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_CD_EN.mp3,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_5.txt,audio_en,french,whisper
+M_6,6,23/09/2025,FRA,France,Europe,Western Europe,Permanent member,Member,"His Excellency
+Emmanuel Macron
+President",HS,he/him,male,https://gadebate.un.org/en/80/france,https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_FR_EN.mp3,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_6.txt,audio_en,french,whisper
+M_7,7,23/09/2025,IDN,Indonesia,Asia,South-eastern Asia,Not member,Member,"His Excellency
+Prabowo Subianto
+President",HS,he/him,male,https://gadebate.un.org/en/80/indonesia,https://gadebate.un.org/sites/default/files/gastatements/80/id_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_7.txt,pdf_en,english,none
+M_8,8,23/09/2025,IRQ,Iraq,Asia,Western Asia,Not member,Not member,"His Excellency
+Abdullatif Jamal Rashid
+President",HS,he/him,male,https://gadebate.un.org/en/80/iraq,https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_IQ_EN.mp3,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_8.txt,audio_en,arabic,whisper
+M_9,9,23/09/2025,JPN,Japan,Asia,Eastern Asia,Not member,Member,"His Excellency
+Shigeru Ishiba
+Prime Minister",HG,she/her,female,https://gadebate.un.org/en/80/japan,https://gadebate.un.org/sites/default/files/gastatements/80/jp_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_9.txt,pdf_en,jp,ocr
+M_10,10,23/09/2025,JOR,Jordan,Asia,Western Asia,Not member,Not member,"His Majesty
+His MajestyKing Abdullah II ibn Al Hussein
+King",HS,he/him,male,https://gadebate.un.org/en/80/jordan,https://gadebate.un.org/sites/default/files/gastatements/80/jo_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_10.txt,pdf_en,arabic,none
+M_11,11,23/09/2025,KAZ,Kazakhstan,Asia,Central Asia,Not member,Not member,"His Excellency
+Kassym-Jomart Tokayev
+President",HS,he/him,male,https://gadebate.un.org/en/80/kazakhstan,https://gadebate.un.org/sites/default/files/gastatements/80/kz_en_0.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_11.txt,pdf_en,english,none
+M_12,12,23/09/2025,KGZ,Kyrgyzstan,Asia,Central Asia,Not member,Not member,"His Excellency
+Sadyr Zhaparov
+President",HS,he/him,male,https://gadebate.un.org/en/80/kyrgyzstan,https://gadebate.un.org/sites/default/files/gastatements/80/kg_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_12.txt,pdf_en,,none
+M_13,13,23/09/2025,LBN,Lebanon,Asia,Western Asia,Not member,Not member,"His Excellency
+His ExcellencyJoseph Aoun
+President",HS,he/him,male,https://gadebate.un.org/en/80/lebanon,https://gadebate.un.org/sites/default/files/gastatements/80/lb_en_0.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_13.txt,pdf_en,,none
+M_14,14,23/09/2025,LBR,Liberia,Africa,Southern Africa,Non-permanent member,Not member,"His Excellency
+Joseph Nyuma Boakai
+President",HS,he/him,male,https://gadebate.un.org/en/80/liberia,https://gadebate.un.org/sites/default/files/gastatements/80/lr_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_14.txt,pdf_en,english,none
+M_15,15,23/09/2025,LTU,Lithuania,Europe,Northern Europe,Not member,Not member,"His Excellency
+Gitanas Nausėda
+President",HS,he/him,male,https://gadebate.un.org/en/80/lithuania,https://gadebate.un.org/sites/default/files/gastatements/80/lt_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_15.txt,pdf_en,lithuanian,ocr
+M_16,16,23/09/2025,MNG,Mongolia,Asia,Eastern Asia,Not member,Not member,"His Excellency
+Khurelsukh Ukhnaa
+President",HS,he/him,male,https://gadebate.un.org/en/80/mongolia,https://gadebate.un.org/sites/default/files/gastatements/80/mn_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_16.txt,pdf_en,english,none
+M_17,17,23/09/2025,MAR,Morocco,Africa,Northern Africa,Not member,Not member,"His Excellency
+Aziz Akhannouch
+Head of Government",HG,he/him,male,https://gadebate.un.org/en/80/morocco,https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_MA_EN.mp3,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_17.txt,audio_en,english,whisper
+M_18,18,23/09/2025,MOZ,Mozambique,Africa,Eastern Africa,Not member,Not member,"His Excellency
+Daniel Francisco Chapo
+President",HS,he/him,male,https://gadebate.un.org/en/80/mozambique,https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_MZ_EN.mp3,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_18.txt,audio_en,portuguese,whisper
+M_19,19,23/09/2025,NRU,Naoero,Oceania,Micronesia,Not member,Not member,"His Excellency
+David Ranibok Adeang
+President",HS,he/him,male,https://gadebate.un.org/en/80/nauru,https://gadebate.un.org/sites/default/files/gastatements/80/nr_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_19.txt,pdf_en,english,none
+M_20,20,23/09/2025,PER,Peru,Latin America and the Caribbean,South America,Not member,Not member,"Her Excellency
+Dina Ercilia Boluarte Zegarra
+President",HS,she/her,female,https://gadebate.un.org/en/80/peru,https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_PE_EN.mp3,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_20.txt,audio_en,spanish,whisper
+M_21,21,23/09/2025,POL,Poland,Europe,Eastern Europe,Not member,Member,"His Excellency
+Karol Nawrocki
+President",HS,he/him,male,https://gadebate.un.org/en/80/poland,https://gadebate.un.org/sites/default/files/gastatements/80/pl_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_21.txt,pdf_en,english,ocr
+M_22,22,23/09/2025,PRT,Portugal,Europe,Southern Europe,Not member,Not member,"His Excellency
+Marcelo Rebelo de Sousa
+President",HS,he/him,male,https://gadebate.un.org/en/80/portugal,https://gadebate.un.org/sites/default/files/gastatements/80/pt_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_22.txt,pdf_en,portuguese,none
+M_23,23,23/09/2025,,President of the General Assembly (opening),,,,,"Her Excellency
+Annalena Baerbock
+President of the General Assembly",HS,she/her,female,https://gadebate.un.org/en/80/president-general-assembly-opening,https://gadebate.un.org/sites/default/files/gastatements/80/pgaopening_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_23.txt,pdf_en,english,none
+M_24,24,23/09/2025,QAT,Qatar,Asia,Western Asia,Not member,Not member,"His Highness
+His Highness Sheikh Tamim bin Hamad Al Thani
+Amir",HS,he/him,male,https://gadebate.un.org/en/80/qatar,https://gadebate.un.org/sites/default/files/gastatements/80/qa_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_24.txt,pdf_en,english,ocr
+M_25,25,23/09/2025,KOR,Republic of Korea,Asia,Eastern Asia,Not member,Not member,"His Excellency
+Jae Myung Lee
+President",HS,he/him,male,https://gadebate.un.org/en/80/republic-korea,https://gadebate.un.org/sites/default/files/gastatements/80/kr_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_25.txt,pdf_en,english,none
+M_26,26,23/09/2025,,Secretary-General of the United Nations,,,,,"His Excellency
+António Guterres
+Secretary-General",,he/him,male,https://gadebate.un.org/en/80/secretary-general-united-nations,https://gadebate.un.org/sites/default/files/gastatements/80/unsg_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_26.txt,pdf_en,,none
+M_27,27,23/09/2025,SVN,Slovenia,Europe,Southern Europe,Not member,Not member,"Her Excellency
+Nataša Pirc Musar
+President",HS,she/her,female,https://gadebate.un.org/en/80/slovenia,https://gadebate.un.org/sites/default/files/gastatements/80/si_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_27.txt,pdf_en,english,none
+M_28,28,23/09/2025,ZAF,South Africa,Africa,Southern Africa,Not member,Not member,"His Excellency
+Cyril Matamela Ramaphosa
+President",HS,he/him,male,https://gadebate.un.org/en/80/south-africa,https://gadebate.un.org/sites/default/files/gastatements/80/za_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_28.txt,pdf_en,english,none
+M_29,29,23/09/2025,SUR,Suriname,Latin America and the Caribbean,South America,Not member,Not member,"Her Excellency
+Jennifer Geerlings-Simons
+President",HS,she/her,female,https://gadebate.un.org/en/80/suriname,https://gadebate.un.org/sites/default/files/gastatements/80/sr_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_29.txt,pdf_en,english,none
+M_30,30,23/09/2025,TJK,Tajikistan,Asia,Central Asia,Not member,Not member,"His Excellency
+Emomali Rahmon
+President",HS,he/him,male,https://gadebate.un.org/en/80/tajikistan,https://gadebate.un.org/sites/default/files/gastatements/80/tj_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_30.txt,pdf_en,tj,none
+M_31,31,23/09/2025,TUR,Türkiye,Asia,Western Asia,Not member,Member,"His Excellency
+Recep Tayyip Erdoğan
+President",HS,he/him,male,https://gadebate.un.org/en/80/turkiye,https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_TR_EN.mp3,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_31.txt,audio_en,english,whisper
+M_32,32,23/09/2025,TKM,Turkmenistan,Asia,Central Asia,Not member,Not member,"His Excellency
+Serdar Berdimuhamedov
+President",HS,he/him,male,https://gadebate.un.org/en/80/turkmenistan,https://gadebate.un.org/sites/default/files/gastatements/80/tm_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_32.txt,pdf_en,russian,ocr
+M_33,33,23/09/2025,USA,United States of America,Latin America and the Caribbean,Northern America,Permanent member,Member,"His Excellency
+Donald Trump
+President",HS,he/him,male,https://gadebate.un.org/en/80/united-states-america,https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_US_EN.mp3,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_33.txt,audio_en,english,whisper
+M_34,34,23/09/2025,URY,Uruguay,Latin America and the Caribbean,South America,Not member,Not member,"His Excellency
+Yamandú Orsi
+President",HS,he/him,male,https://gadebate.un.org/en/80/uruguay,https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_UY_EN.mp3,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_34.txt,audio_en,spanish,whisper
+M_35,35,23/09/2025,UZB,Uzbekistan,Asia,Central Asia,Not member,Member,"His Excellency
+Shavkat Mirziyoyev
+President",HS,he/him,male,https://gadebate.un.org/en/80/uzbekistan,https://gadebate.un.org/sites/default/files/gastatements/80/uz_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_35.txt,pdf_en,russian,none
+M_36,36,23/09/2025,VNM,Viet Nam,Asia,South-eastern Asia,Not member,Not member,"His Excellency
+Luong Cuong
+State President",HS,he/him,male,https://gadebate.un.org/en/80/viet-nam,https://gadebate.un.org/sites/default/files/gastatements/80/vn_en.pdf,https://github.com/sociopublico/gwl-bot/blob/main/pipeline/out/80/2025-09-23/M_36.txt,pdf_en,english,none
