@@ -106,8 +106,10 @@ docker compose -f docker-compose.pipeline.yml run --rm pipeline refresh-protocol
 
 PDF EN sin texto extraíble (escaneado o fuentes CID) pasa por OCR (`pdftoppm` + Tesseract) **dentro de la imagen**, antes de Whisper. No hace falta instalar Tesseract en el host. Si cambiás el `Dockerfile`, hay que `build` de nuevo.
 
-- RAM: 2 GB mínimo; **4 GB** si Whisper transcribe audio/video.
+- RAM: 2 GB mínimo; **4 GB libres** si Whisper transcribe audio/video. Exit **137** = SIGKILL (casi siempre OOM), no un restart. El cron entonces arranca **otro** contenedor para publish.
+- En el VPS el pipeline usa `PIPELINE_WHISPER_MODEL=tiny` y 1 thread por default (el `.env` del bot YouTube suele traer `WHISPER_MODEL=base` y `CPU_THREADS=4`, demasiado para un droplet chico).
 - Disco: el volumen `whisper-models` guarda el modelo HF.
 - Red: en el server, HTTPS a S3/Kaltura, GitHub, Google y Anthropic. **No** a gadebate.un.org (eso es el roster en la laptop).
+- Un discurso de ~12 MB de audio en CPU tarda varios minutos. El log tiene que mostrar `whisper 15s`, `whisper 30s`, …; si se corta al segundo de `transcribiendo`, fue un kill.
 
 El repo se monta en `/app`: journals, cache, rosters y txt quedan en el host.

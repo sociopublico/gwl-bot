@@ -45,7 +45,15 @@ fi
 log() { echo "$(date -Is) $*" | tee -a "$LOG"; }
 
 run_pipeline() {
-  "${COMPOSE[@]}" run --rm pipeline "$@"
+  # -T: cron no tiene TTY; sin esto compose a veces se comporta mal.
+  "${COMPOSE[@]}" run --rm -T pipeline "$@"
+}
+
+explain_rc() {
+  local name="$1" rc="$2"
+  if [[ "$rc" -eq 137 ]]; then
+    log "$name salió 137 (SIGKILL). No es un restart del contenedor: el kernel lo mató, casi siempre por falta de RAM (OOM) al cargar Whisper. El contenedor que aparece después es publish, otro proceso. Probá PIPELINE_WHISPER_MODEL=tiny y ~4 GB libres."
+  fi
 }
 
 if [[ -d "$ROOT/.git" ]]; then
@@ -73,8 +81,10 @@ log "inicio session=$SESSION day=$DAY skip_existing=$SKIP_EXISTING roster=$ROSTE
 set +e
 run_pipeline "${EXTRACT_ARGS[@]}" 2>&1 | tee -a "$LOG"
 extract_rc=${PIPESTATUS[0]}
+explain_rc extract "$extract_rc"
 run_pipeline publish --session "$SESSION" --day "$DAY" --github --sheet 2>&1 | tee -a "$LOG"
 publish_rc=${PIPESTATUS[0]}
+explain_rc publish "$publish_rc"
 set -e
 
 log "fin extract=$extract_rc publish=$publish_rc"
