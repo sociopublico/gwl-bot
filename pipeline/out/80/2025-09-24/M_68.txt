@@ -1,13 +1,17 @@
 ---
 session: 80
 slug: sierra-leone
+id_speech: M_68
 country: Sierra Leone
 speaker: Julius Maada Bio
 title: President
+speaker_title: His Excellency
 date: 2025-09-24
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/sl_en_0.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 1. I congratulate Her Excellency Annalena Baerbock on her election as President of the General Assembly to lead this historic 80th Session of the Assembly.

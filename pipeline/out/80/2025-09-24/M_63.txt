@@ -1,13 +1,17 @@
 ---
 session: 80
 slug: nigeria
+id_speech: M_63
 country: Nigeria
 speaker: Kashim Shetima
 title: Vice-President
+speaker_title: His Excellency
 date: 2025-09-24
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/ng_en.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 Madam President,

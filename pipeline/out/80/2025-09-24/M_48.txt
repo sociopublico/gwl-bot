@@ -1,13 +1,17 @@
 ---
 session: 80
 slug: estonia
+id_speech: M_48
 country: Estonia
 speaker: Alar Karis
 title: President
+speaker_title: His Excellency
 date: 2025-09-24
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/ee_en.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 Ms President,
@@ -34,7 +38,7 @@ Multilateral world order based on international law and the principles of the UN
 
 Ladies and Gentlemen,
 
-Russia’s war of aggression against Ukraine constitutes one of the gravest breaches of international law and the UN Charter since its adoption 80 years ago. Despite repeated calls by the General Assembly to stop the aggression and set the course towards pea ce, Russia continues its savage assault on the Ukrainian state and nation. Russia´s war and its war crimes are undermining the reputation and credibility both of the Security Council and the entire United Nations. This blatant assault on the principles of the Charter is undermining the multilateralism, global peace and security.
+Russia’s war of aggression against Ukraine constitutes one of the gravest breaches of international law and the UN Charter since its adoption 80 years ago. Despite repeated calls by the General Assembly to stop the aggression and set the course towards pea ce, Russia continues its savage assault on the Ukrainian state and nation. Russia ́s war and its war crimes are undermining the reputation and credibility both of the Security Council and the entire United Nations. This blatant assault on the principles of the Charter is undermining the multilateralism, global peace and security.
 
 Regrettably, as we speak, Russia is targeting Ukrainian kindergartens, schools, hospitals, nurseries with missiles, drones, gliding bombs, mines, shells and bullets. The same Permanent member has been systematically abducting and deporting Ukrainian children, erasing their identity and forcing them into indoctrination. A human suffering in Ukraine has reached unprecedented levels. Only the UN Human Rights Monitoring Mission in Ukraine has documented the death of at least 14000 civilians, including almost 10 00 children and for about 35 000 civilians injured including more than 2000 children. The death toll increases with every year, month, week and day.
 
@@ -44,7 +48,7 @@ Russia has significantly intensified its campaign of terror with a barrage of dr
 
 It is evident that Russia has no intention of agreeing to a ceasefire, let alone a lasting peace. In response to recent peace efforts, Russia has instead intensified its campaign of terror with a barrage of drone and missile strikes on civilian targets.
 
-Russia’s objectives have not changed: they remain the subjugation of all of Ukraine and the reshaping of Europe’s security order to satisfy Russia´s own neocolonial and imperial ambitions. The increasing violations of neighbouring countries’ airspace by Russ ian drones and missiles are yet another escalation and a stark reminder that Russia’s aggression threatens not only Ukraine but the security of the entire region.
+Russia’s objectives have not changed: they remain the subjugation of all of Ukraine and the reshaping of Europe’s security order to satisfy Russia ́s own neocolonial and imperial ambitions. The increasing violations of neighbouring countries’ airspace by Russ ian drones and missiles are yet another escalation and a stark reminder that Russia’s aggression threatens not only Ukraine but the security of the entire region.
 
 Hereby I have to regrettably tell you that just weekdays ago, three Russian fighter planes violated Estonian airspace, a hostile act that is part of a pattern of similar recent incidents happening on the European Union’s eastern border. Therefore, the only viable way forward towards a ceasefire and just and lasting peace is to increase collective international pressure on Russia to force them to peace in Ukraine and to act in a way that is expected from a Permanent Member of the Security Council.
 

@@ -1,13 +1,17 @@
 ---
 session: 80
 slug: kenya
+id_speech: M_55
 country: Kenya
 speaker: William Samoei Ruto
 title: President
+speaker_title: His Excellency
 date: 2025-09-24
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/ke_en.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 The President of the 80th Session of the UN General Assembly, Ms Annalena Baerbock,
@@ -38,7 +42,9 @@ Institutions rarely fail because they lack vision or ideals; more often, they dr
 
 7. Eight decades ago, the founders of the UN sought to correct the failures of the League by creating a stronger, more inclusive organisation, anchored in the principle of “We the peoples of the United Nations, determined to save succeeding generations from the scourge of war”.
 
-8. Today, as we gather for the UN@80, the question is unavoidable: Is the United Nations relevant to the demands of our time? Can it continue to serve humanity in the face of current realities? Or has it become a relic of a bygone era?
+8. Today, as we gather for the UN@80, the question is unavoidable:
+
+Is the United Nations relevant to the demands of our time? Can it continue to serve humanity in the face of current realities? Or has it become a relic of a bygone era?
 
 9. Madam President, Excellencies, we meet against a grim global backdrop. Conflict rages in Eastern Europe, the Middle East, the Sahel, the Horn of Africa, and beyond. Climate disasters grow fiercer by the year.
 
@@ -122,7 +128,9 @@ The mismatch between shareholders and stakeholders has become starkly visible. F
 
 42. It is imperative to transform these institutions into genuinely independent, apolitical global bodies so that their operations are aligned with their global mandate. Such a shift would democratise decision making, restore credibility, and allow the IMF and the World Bank to serve all countries fairly, rather than reinforcing old hierarchies.
 
-43. But Africa is not merely waiting for external prescriptions. We are taking bold and deliberate steps to strengthen our financial independence, safeguard our stability, and accelerate our development. Kenya for instance fully endorsed the establishment of the Alliance of African Multilateral Financial Institutions, launched with the African Union in February 2024. This Alliance brings together our homegrown banks: Afreximbank, the Africa Finance Corporation, the Trade and Development Bank, Shelter Afriqu e, Africa Re, African Trade and Investment Development Insurance and ZEP -RE; institutions that embody Africa’s determination to mobilise resources, finance trade, and build resilience on our own terms.
+43. But Africa is not merely waiting for external prescriptions. We are taking bold and deliberate steps to strengthen our financial independence, safeguard our stability, and accelerate our development. Kenya for instance fully endorsed the establishment of the Alliance of African Multilateral Financial Institutions, launched with the African Union in February 2024. This Alliance brings together our homegrown banks:
+
+Afreximbank, the Africa Finance Corporation, the Trade and Development Bank, Shelter Afriqu e, Africa Re, African Trade and Investment Development Insurance and ZEP -RE; institutions that embody Africa’s determination to mobilise resources, finance trade, and build resilience on our own terms.
 
 44. At the same time, the Africa n Union is championing three transformative institutions: the African Central Bank, which will issue a single currency and free our trade from dependence on foreign money; the African Monetary Fund, positioned to stabilise our economies and give us true financial sovereignty; and the African Investment Bank, designed to mobilise resources for the infrastructure, industrialisation, and integration that Africa needs to rise.
 

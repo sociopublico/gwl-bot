@@ -1,13 +1,17 @@
 ---
 session: 80
 slug: syrian-arab-republic
+id_speech: M_73
 country: Syrian Arab Republic
 speaker: Ahmad Al-Sharaa
 title: President
+speaker_title: His Excellency
 date: 2025-09-24
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/sy_en.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 Madam President of the General Assembly, Mr. Secretary General,
@@ -34,7 +38,7 @@ Ladies and gentlemen,
 
 Our unprotected people were targeted with chemical weapons in more than 200 documented attacks.
 
-Yes… our children, our women, and our youth inhaled poisonous gases.
+Yes... our children, our women, and our youth inhaled poisonous gases.
 
 The regime did all this to silence the voice of truth. It rejected every political settlement offered to it and left no path to peaceful resolution.
 
@@ -46,7 +50,7 @@ A military campaign that caused no displacement and killed no civilians, crowned
 
 In it, the people regained their rights and triumphed over injustice.
 
-Yes… we triumphed for the oppressed, the tortured, and the forcibly displaced.
+Yes... we triumphed for the oppressed, the tortured, and the forcibly displaced.
 
 We triumphed for the mothers of martyrs and the families of the missing.
 

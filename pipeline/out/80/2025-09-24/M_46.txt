@@ -1,13 +1,17 @@
 ---
 session: 80
 slug: czechia
+id_speech: M_46
 country: Czechia
 speaker: Petr Pavel
 title: President
+speaker_title: His Excellency
 date: 2025-09-24
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/cz_en.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 Madame President, Excellencies, ladies and gentlemen,

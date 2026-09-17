@@ -1,13 +1,17 @@
 ---
 session: 80
 slug: guyana
+id_speech: M_51
 country: Guyana
 speaker: Mohamed Irfaan Ali
 title: President
+speaker_title: His Excellency
 date: 2025-09-24
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/gy_en.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 Madam President,

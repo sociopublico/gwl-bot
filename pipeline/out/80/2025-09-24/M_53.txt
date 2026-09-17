@@ -1,13 +1,17 @@
 ---
 session: 80
 slug: iran-islamic-republic
+id_speech: M_53
 country: Iran (Islamic Republic of)
 speaker: Masoud Pezeshkian
 title: President
+speaker_title: His Excellency
 date: 2025-09-24
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/ir_en.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 His Excellency Mr. Masoud Pezeshkian President of the Islamic Republic of Iran At the General Debate of the 80th Session of the General Assembly Mr. Secretary-General; Madam President; Honorable Representatives; Ladies and Gentlemen; This year's slogan, "Eighty Years and More for Peace, Development, and Human Rights," is indeed a call for solidarity and a shared vision for a brighter future. Our religious beliefs and the invitation of all prophets are based on the equality of rights for all human beings. What makes a person more worthy is piety, which means honesty, wisdom, purity, and altruism.

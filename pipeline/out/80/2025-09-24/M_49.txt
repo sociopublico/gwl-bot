@@ -1,13 +1,17 @@
 ---
 session: 80
 slug: finland
+id_speech: M_49
 country: Finland
 speaker: Alexander Stubb
 title: President
+speaker_title: His Excellency
 date: 2025-09-24
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/fi_en.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 Madam President, Mr Secretary-General, Excellencies, Ladies and Gentlemen,

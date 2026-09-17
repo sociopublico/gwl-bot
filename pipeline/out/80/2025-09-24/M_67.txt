@@ -1,13 +1,17 @@
 ---
 session: 80
 slug: serbia
+id_speech: M_67
 country: Serbia
 speaker: Aleksandar Vučić
 title: President
+speaker_title: His Excellency
 date: 2025-09-24
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/rs_en.pdf
 language: en
+original_language: und
+transformation: none
 ---
 
 Excellencies,

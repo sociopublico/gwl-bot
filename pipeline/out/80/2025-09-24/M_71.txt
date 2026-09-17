@@ -1,13 +1,17 @@
 ---
 session: 80
 slug: sri-lanka
+id_speech: M_71
 country: Sri Lanka
 speaker: Anura Kumara Dissanayake
 title: President
+speaker_title: His Excellency
 date: 2025-09-24
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/lk_en.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 Madam President, Mr General Secretary, honoured invitees, distinguished delegates,

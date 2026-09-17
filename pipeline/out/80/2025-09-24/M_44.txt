@@ -1,13 +1,17 @@
 ---
 session: 80
 slug: croatia
+id_speech: M_44
 country: Croatia
 speaker: Zoran Milanović
 title: President
+speaker_title: His Excellency
 date: 2025-09-24
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/hr_en.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 Madame President,

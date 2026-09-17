@@ -1,13 +1,17 @@
 ---
 session: 80
 slug: kiribati
+id_speech: M_56
 country: Kiribati
 speaker: Taneti Maamau
 title: President
+speaker_title: His Excellency
 date: 2025-09-24
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/ki_en.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 Head of States and Governments Secretary General of the United Nations,

@@ -1,13 +1,17 @@
 ---
 session: 80
 slug: slovakia
+id_speech: M_69
 country: Slovakia
 speaker: Peter Pellegrini
 title: President
+speaker_title: His Excellency
 date: 2025-09-24
 source: pdf_en
 source_url: https://gadebate.un.org/sites/default/files/gastatements/80/sk_en_0.pdf
 language: en
+original_language: en
+transformation: none
 ---
 
 Madam President,
