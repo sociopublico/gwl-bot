@@ -50,9 +50,15 @@ def _speech(**kwargs) -> ExtractedSpeech:
 
 
 class AnalyzeHelpersTest(unittest.TestCase):
-    def test_stub_prompt_on_disk(self) -> None:
+    def test_prompt_on_disk_is_not_stub(self) -> None:
         text = load_prompt(PIPELINE_ROOT / "data" / "analyze-prompt.md")
-        self.assertTrue(prompt_is_stub(text))
+        self.assertFalse(prompt_is_stub(text))
+        self.assertIn("summary", text)
+
+    def test_prompt_is_stub_detects_markers(self) -> None:
+        self.assertTrue(prompt_is_stub("# TODO: pegar el prompt de análisis\n"))
+        self.assertTrue(prompt_is_stub("PEGAR_PROMPT here"))
+        self.assertFalse(prompt_is_stub("summary — un párrafo en inglés"))
 
     def test_parse_json_object_strips_fences(self) -> None:
         raw = 'Here:\n```json\n{"summary": "hi", "notes": ""}\n```\n'
@@ -182,7 +188,10 @@ class AnalyzeHelpersTest(unittest.TestCase):
         from pipeline.analyze import analyze_day
 
         config = load_session("80")
-        with patch("pipeline.analyze.allow_stub", return_value=False):
+        with (
+            patch("pipeline.analyze.load_prompt", return_value="# TODO: pegar el prompt"),
+            patch("pipeline.analyze.allow_stub", return_value=False),
+        ):
             rc = analyze_day(config, day="2025-09-23", dry_run=False)
         self.assertEqual(rc, 1)
 

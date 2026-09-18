@@ -6,7 +6,7 @@ Setup (una vez):
 2. GCP: habilitar Google Sheets API, crear service account, bajar JSON.
 3. Compartir el spreadsheet con el email de la SA como Editor.
 4. Variables: GOOGLE_SHEETS_SPREADSHEET_ID, GOOGLE_APPLICATION_CREDENTIALS,
-   pestañas Metadata, Analysis y country_list.
+   pestañas Metadata, Analysis, Indicators, Emerging_Priorities y country_list.
 """
 
 from __future__ import annotations
@@ -36,6 +36,26 @@ ANALYSIS_COLUMNS = [
     *ANALYSIS_IDENTITY,
     "summary",
     "notes",
+]
+
+CODING_EXTRA_COLUMNS = ("date", "country")
+
+INDICATORS_SHEET_COLUMNS = [
+    "id_speech",
+    "extract_id",
+    "cluster",
+    "indicator_name",
+    "code",
+    "option",
+    "textual_extract",
+    "coder_notes",
+    "date_coded",
+]
+EMERGING_SHEET_COLUMNS = [
+    "id_speech",
+    "id_extract",
+    "emerging_topic",
+    "textual_extract",
 ]
 
 
@@ -87,6 +107,8 @@ class SheetsSettings:
     metadata_tab: str
     analysis_tab: str
     country_tab: str
+    indicators_tab: str
+    emerging_tab: str
     credentials_path: str
     country_csv: str
 
@@ -105,6 +127,10 @@ def sheets_settings() -> SheetsSettings:
         or "Analysis",
         country_tab=os.environ.get("GOOGLE_SHEETS_COUNTRY_TAB", "country_list").strip()
         or "country_list",
+        indicators_tab=os.environ.get("GOOGLE_SHEETS_INDICATORS_TAB", "Indicators").strip()
+        or "Indicators",
+        emerging_tab=os.environ.get("GOOGLE_SHEETS_EMERGING_TAB", "Emerging_Priorities").strip()
+        or "Emerging_Priorities",
         credentials_path=os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "").strip(),
         country_csv=os.environ.get("GOOGLE_SHEETS_COUNTRY_CSV", "").strip(),
     )
@@ -359,4 +385,77 @@ def append_analysis_rows(
     if payload:
         ws.append_rows(payload, value_input_option="USER_ENTERED")
     return written
+
+
+def ensure_header_columns(headers: list[str], extra: tuple[str, ...] | list[str]) -> list[str]:
+    """Agrega columnas al final del encabezado si faltan. No reordena ni pisa las existentes."""
+    out = list(headers)
+    existing = {col for col in out if col}
+    for col in extra:
+        if col and col not in existing:
+            out.append(col)
+            existing.add(col)
+    return out
+
+
+def existing_coding_keys(records: list[dict], key_column: str) -> set[str]:
+    keys: set[str] = set()
+    for record in records:
+        value = str(record.get(key_column) or "").strip()
+        # Indicators del sheet a veces no tiene extract_id: sintetizar.
+        if not value and key_column == "extract_id":
+            sid = str(record.get("id_speech") or "").strip()
+            name = str(record.get("indicator_name") or "").strip()
+            if sid and name:
+                value = f"{sid}_{name}"
+        if value:
+            keys.add(value)
+    return keys
+
+
+def append_coding_rows(
+    rows: list[dict[str, str]],
+    *,
+    tab: str,
+    key_column: str,
+    extra_columns: tuple[str, ...] = CODING_EXTRA_COLUMNS,
+    default_headers: list[str] | None = None,
+    settings: SheetsSettings | None = None,
+    ws=None,
+    dry_run: bool = False,
+) -> tuple[list[dict[str, str]], list[dict[str, str]]]:
+    """Append idempotente por key_column. Extiende el header con extra_columns.
+
+    Alinea cada fila al encabezado de la hoja. Devuelve (escritas, salteadas).
+    """
+    if ws is not None:
+        worksheet = ws
+    else:
+        cfg = settings or sheets_settings()
+        worksheet = _open_or_create_worksheet(cfg, tab, list(default_headers or []))
+    headers, records = _records_from_values(worksheet.get_all_values())
+    original_headers = list(headers)
+    if not any(h.strip() for h in headers):
+        headers = list(default_headers or [])
+    headers = ensure_header_columns(headers, extra_columns)
+    if not headers:
+        raise SheetsError(f"pestaña {tab!r} sin encabezado")
+    if not dry_run and headers != original_headers:
+        worksheet.update("A1", [headers], value_input_option="USER_ENTERED")
+    seen = existing_coding_keys(records, key_column)
+    written: list[dict[str, str]] = []
+    skipped: list[dict[str, str]] = []
+    payload: list[list[str]] = []
+    for row in rows:
+        key = str(row.get(key_column) or "").strip()
+        if not key or key in seen:
+            print(f"SHEET skip {tab} {key or '(sin clave)'}", file=sys.stderr)
+            skipped.append(row)
+            continue
+        payload.append([str(row.get(col, "") or "") for col in headers])
+        written.append(row)
+        seen.add(key)
+    if payload and not dry_run:
+        worksheet.append_rows(payload, value_input_option="USER_ENTERED")
+    return written, skipped
 

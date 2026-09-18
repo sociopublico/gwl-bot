@@ -1,18 +1,18 @@
 {
   "session": 80,
   "name": "80th session",
-  "generated_at": "2026-09-18T20:08:01Z",
+  "generated_at": "2026-09-18T20:59:27Z",
   "days": [
     {
       "day": "2025-09-24",
       "session": 80,
       "scraped_at": "2026-09-17T15:36:58Z",
       "roster_path": "/home/agus/dev/sociopublico/gwl-bot/pipeline/data/roster/80/2025-09-24.json",
-      "status": "en_progreso",
+      "status": "completo",
       "counts": {
         "speakers": 38,
         "speech_ok": 38,
-        "analysis_ok": 0
+        "analysis_ok": 38
       },
       "speakers": [
         {
@@ -70,12 +70,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_37.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "2",
+                "option": "Mixed / Ambiguous",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Albania remains firmly committed to the UN Charter and will continue to contribute to peacekeeping, missions, humanitarian efforts."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "Climate change is the defining challenge of our century, and Albania is committed to the transition to clean energy and environmental protection."
+              },
+              {
+                "emerging_topic": "AI / digital transformation",
+                "textual_extract": "For Albania, digital transformation is a national priority... digitize public services, increase transparency, and fight corruption."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "The prosperity and well-being of its citizens are closely linked to tangible progress in achieving the sustainable development goals."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "We have worked tirelessly to promote the universality of human rights and the indivisibility of all freedoms."
+              }
+            ]
           }
         },
         {
@@ -133,12 +213,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_38.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Migration",
+                "textual_extract": "On the country to what we don't see there is immigration, we see invasion."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "The country now has an unparalleled debt crisis."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "The poor results of Agenda 2030 bear witness to whatever outlined above."
+              },
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "We reiterate our demand for the immediate release of the hostages, which remain captive in Gaza."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "This is a forced disappearance. We demand that the Venezuelan government release him immediately."
+              }
+            ]
           }
         },
         {
@@ -196,12 +356,96 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_39.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 6 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "Nations for whom climate change is more than an environmental challenge, it is an existential threat."
+              },
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Australia is calling for a ceasefire, the immediate release of the hostages, for aid to flow to those in desperate need."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "We stand against discrimination and prejudice everywhere."
+              },
+              {
+                "emerging_topic": "AI / digital transformation",
+                "textual_extract": "deploying new technology to undermine our trust in democracy, institutions and each other."
+              },
+              {
+                "emerging_topic": "Global health",
+                "textual_extract": "By providing vaccines that spare families from disease, by bringing clean water to a community on the brink."
+              },
+              {
+                "emerging_topic": "Migration",
+                "textual_extract": "We want to see aid workers delivering food, water, and medicine to conflict zones protected."
+              }
+            ]
           }
         },
         {
@@ -259,12 +503,96 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_40.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 6 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "The Central African Republic proposes the strengthening of the United Nations' mechanisms for preventive diplomacy through the creation of a global conflict prevention fund."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "We call for an integrated African mechanism for food and climate security, supported by the United Nations."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "The 2030 Agenda for Sustainable Development remains our roadmap."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "It's time for us to speak the truth. Each one should bear the burden based on their historic responsibilities."
+              },
+              {
+                "emerging_topic": "AI / digital transformation",
+                "textual_extract": "We propose also the establishment of a global charter for digital governance and ethical, artificial intelligence."
+              },
+              {
+                "emerging_topic": "Inequality",
+                "textual_extract": "It is unacceptable that poverty is worsening in Africa while wealth is accumulating in the northern countries."
+              }
+            ]
           }
         },
         {
@@ -322,12 +650,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_41.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "2",
+                "option": "Mixed / Ambiguous",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "The Palestinian tragedy is perhaps the most shocking demonstration of this...rightly qualified as a genocide by many experts."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "Rising seas, coastal erosion and the increased frequency of cyclones are posing a threat to our villages, our ecosystems and our lives."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "We advocate for reform of the international financial architecture...the increasing debt of developing countries."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "I strongly condemn and denounce any project to install a military base in Mayotte, a Comorian island which unfortunately is still under French administration."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "The Sustainable Development Goals were supposed to eradicate poverty, protect the planet and provide everyone with peace and prosperity."
+              }
+            ]
           }
         },
         {
@@ -385,12 +793,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_42.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Global military spending today has reached record levels...disarmament treaties have been called into question."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "The climate is a very, very big challenge today...it is exacerbating conflicts, destroying cultures that have been around for millennia."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "We must honor our commitments for the financing of the Sustainable Development goals."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "Put an end to the machinery that strangles vulnerable economies, such as unsustainable debt or unfair trade rules."
+              },
+              {
+                "emerging_topic": "AI / digital transformation",
+                "textual_extract": "We need to invest massively in education, in health, agriculture, infrastructure, new technologies, artificial intelligence."
+              }
+            ]
           }
         },
         {
@@ -448,12 +936,96 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_43.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 6 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "the risk of nuclear conflict is the highest it has been in decades"
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "we could have prevented the repeated and systematic violations of human rights"
+              },
+              {
+                "emerging_topic": "Migration",
+                "textual_extract": "criminal networks transform migration routes into illicit corridors"
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "The triple planetary crisis is another of the greatest existential threats of our time"
+              },
+              {
+                "emerging_topic": "AI / digital transformation",
+                "textual_extract": "Artificial intelligence also poses risks to international peace and security"
+              },
+              {
+                "emerging_topic": "Food security",
+                "textual_extract": "A temperature increase of only 1.1 degrees Celsius already puts food security, health and peace at risk"
+              }
+            ]
           }
         },
         {
@@ -511,12 +1083,96 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_44.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 6 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Armed conflicts are more numerous than at any time since the Second World War"
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "strict respect for international humanitarian law must remain the moral core of multilateralism"
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "COP30 in Belem must raise ambition, advance fossil fuel transition, and scale up climate finance"
+              },
+              {
+                "emerging_topic": "Global health",
+                "textual_extract": "Croatia endorses the One Health approach... We welcome adoption of the Pandemic Agreement"
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "As we mark the 10th anniversary of the General Assembly's resolution on the 2030 Agenda, Croatia reaffirms its commitment to the SDGs"
+              },
+              {
+                "emerging_topic": "Technology / digital divide",
+                "textual_extract": "Emerging technologies are reshaping every aspect of society... Artificial intelligence, cyber capabilities, space technologies, robotics"
+              }
+            ]
           }
         },
         {
@@ -574,12 +1230,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_45.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "5",
+                "option": "Preservation / Strengthening",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "the rise of use of force against sovereign states that constantly escalate and expand, threatening regional security and stability"
+              },
+              {
+                "emerging_topic": "AI / digital transformation",
+                "textual_extract": "the uncontrolled expansion of technology and AI, threatening our security and the well-being of our children"
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "climate change is looming, threatening livelihoods, economies, creating new migration routes"
+              },
+              {
+                "emerging_topic": "Migration",
+                "textual_extract": "climate change... creating new migration routes, and inequalities are becoming embedded"
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "we condemn the use of force against the sovereign nation, the killing of civilians, the forced disappearance of children"
+              }
+            ]
           }
         },
         {
@@ -637,12 +1373,84 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_46.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 3 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Russia's invasion of Ukraine has significantly transformed the global security landscape."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "from security threats and climate change to the rapid evolution of new technologies."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "much work still lies ahead if we are to achieve the Sustainable Development Goals 2030."
+              }
+            ]
           }
         },
         {
@@ -700,12 +1508,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_47.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "the multi-dimensional crisis in Haiti represents a serious threat to peace and security."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "We need to see genuine transformation, a new international financial compact with access to concessional finance, debt relief."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "the triple planetary crisis, that is climate change, biodiversity loss and environmental pollution is an existential threat."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "we stand barely five years from 2030, and yet the sustainable development goals remain behind schedule."
+              },
+              {
+                "emerging_topic": "Migration",
+                "textual_extract": "the Dominican Republic will continue to protect its territorial integrity and to enforce its national migration regime."
+              }
+            ]
           }
         },
         {
@@ -763,12 +1651,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_48.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Russia's war of aggression against Ukraine constitutes one of the gravest breaches of international law and the UN Charter."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "human rights and fundamental freedoms are increasingly under pressure worldwide."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "We must work together to triple renewable energy production by 2030."
+              },
+              {
+                "emerging_topic": "AI / digital transformation",
+                "textual_extract": "Estonia is making a new Leap – the Artificial Intelligence Leap."
+              },
+              {
+                "emerging_topic": "Technology / digital divide",
+                "textual_extract": "safeguarding digital rights and reducing the digital divide."
+              }
+            ]
           }
         },
         {
@@ -826,12 +1794,88 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_49.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 4 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Russia has no right to continue its aggression against Ukraine. Israel has no right to violate international law in Palestine."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "An immediate ceasefire is needed in Gaza. Humanitarian aid must be granted safe and unhindered access."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": ""
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "the measures to deal with climate change and sustainable development are lagging behind."
+              }
+            ]
           }
         },
         {
@@ -889,12 +1933,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_50.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Migration",
+                "textual_extract": "We are strengthening our capacity to be able to address the needs of the thousands of migrants who transit our territory."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "climate change is the greatest existential threat facing humanity."
+              },
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "We must put an end to the invasion of Ukraine and end to the war in Sudan, a total end to the suffering and death of the civilians in Gaza."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "we have reopened our doors to the monitoring mechanisms of the United Nations human rights protection system."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "As President Macron acknowledged, making Haiti pay for its independence was unjust."
+              }
+            ]
           }
         },
         {
@@ -952,12 +2076,100 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_51.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 7 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Genocide in Palestine, annexation of Ukrainian territory... humanitarian catastrophe in Sudan, brutal gang violence in Haiti."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "Peace, stability, and sustainable development cannot exist in isolation from the urgent need to address climate change."
+              },
+              {
+                "emerging_topic": "AI / digital transformation",
+                "textual_extract": "We recognize the indispensable nature of AI in our collective future... Regulations, ethical standards and governance mechanisms are urgently needed."
+              },
+              {
+                "emerging_topic": "Food security",
+                "textual_extract": "Guyana is actively leading efforts to advance the CARICOM Agri-food Systems Agenda through Vision 2030."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "Guyana calls for renewed global commitment to financing for development, including fulfilling Official Development Assistance pledges... and addressing the crippling debt burdens."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "This year marks the 10th anniversary of the Sustainable Development Goals. Yet the slow pace of implementation and regression in many areas sound a stark warning."
+              },
+              {
+                "emerging_topic": "Migration",
+                "textual_extract": "We support efforts by the international community in addressing these crimes that are destroying the lives of our people, especially young people (drug/human trafficking, illegal migration)."
+              }
+            ]
           }
         },
         {
@@ -1015,12 +2227,84 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_52.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 3 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "2",
+                "option": "Mixed / Ambiguous",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "2",
+                "option": "Mixed / Ambiguous",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Hungary has been living for more than three and a half years now in the neighborhood of the war in Ukraine."
+              },
+              {
+                "emerging_topic": "Migration",
+                "textual_extract": "We have closed our border. We have built a fence, not a wall, but a fence."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "5% of GDP we spend on supporting the families, which is far number one in the OECD area."
+              }
+            ]
           }
         },
         {
@@ -1078,12 +2362,84 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_53.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 3 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "2",
+                "option": "Mixed / Ambiguous",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "The genocide in Gaza, the destruction of homes and repeated violations of sovereignty and territorial integrity in Lebanon."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "Systematic targeting of journalists and media personnel, and killing individuals who are labeled as 'military targets' solely due to their knowledge and expertise."
+              },
+              {
+                "emerging_topic": "Food security",
+                "textual_extract": "The forced starvation of frail children in their mothers' arms."
+              }
+            ]
           }
         },
         {
@@ -1141,12 +2497,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_54.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "There are currently 56 armed conflicts ongoing in the world, the highest number since the Second World War."
+              },
+              {
+                "emerging_topic": "Migration",
+                "textual_extract": "I am thinking, for example, of conventions regulating migration and asylum... conventions that are no longer current."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "Italy plans to convert over the next 10 years the entire amount of debt for the economically least developed nations."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "This is not, of course, about denying climate change, but about affirming reason, which, above all, means technological neutrality and gradual reforms instead of ideological extremism."
+              },
+              {
+                "emerging_topic": "AI / digital transformation",
+                "textual_extract": "The opening of the AI hub for sustainable development, involving hundreds of African startups in the development of artificial intelligence."
+              }
+            ]
           }
         },
         {
@@ -1204,12 +2640,96 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_55.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 6 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Conflict rages in Eastern Europe, the Middle East, the Sahel, the Horn of Africa, and beyond."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "Kenya is gravely concerned by the humanitarian catastrophe in Gaza."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "Current Nationally Determined Contributions are steering us towards temperature rises far beyond any safe threshold."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "The current global financial architecture punishes poor countries while rewarding the rich."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "The UN’s Sustainable Development Goals remain a shared blueprint for human progress."
+              },
+              {
+                "emerging_topic": "Global health",
+                "textual_extract": "It coordinated global responses to HIV/Aids, Ebola, and Covid19, and continues to champion universal vaccination."
+              }
+            ]
           }
         },
         {
@@ -1267,12 +2787,96 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_56.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 6 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "We urge global action to limit warming to 1.5°C and support frontline states through the Loss and Damage Fund."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "Kiribati is committed to the SDGs, emphasizing SIDS' unique circumstances."
+              },
+              {
+                "emerging_topic": "Food security",
+                "textual_extract": "Kiribati's ocean is vital for its identity, economy, and food security."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "Equitable and predictable development financing is vital for Kiribati’s future."
+              },
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Kiribati fully supports the United Nations’ push for a world free of nuclear weapons."
+              },
+              {
+                "emerging_topic": "Technology / digital divide",
+                "textual_extract": "We aim for resilient prosperity through technological and digital solutions."
+              }
+            ]
           }
         },
         {
@@ -1330,12 +2934,88 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_57.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 4 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "The brutal Israeli aggression against Qatar... an attack against a mediator working faithfully for the sake of peace."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "The collective punishment and killing of tens of thousands of Palestinians... only an unfolding of genocide before our eyes."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "We work to achieve the sustainable development goals... to leave no one behind."
+              },
+              {
+                "emerging_topic": "Migration",
+                "textual_extract": "Kuwait reiterates its firm commitment to support UNRWA because of its critical role in securing the basic needs of millions of Palestinian refugees."
+              }
+            ]
           }
         },
         {
@@ -1393,12 +3073,88 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_58.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 4 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "2",
+                "option": "Mixed / Ambiguous",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Ukraine is fighting back, bravely... for the rules based international order."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "We will be advocates for Ukrainian children abducted by Russia. They must be returned."
+              },
+              {
+                "emerging_topic": "AI / digital transformation",
+                "textual_extract": "We share the United Nations' view that we need to develop artificial intelligence responsibly."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "Emerging threats like climate change, cyber attacks, hybrid attacks... are testing us on a daily basis."
+              }
+            ]
           }
         },
         {
@@ -1456,12 +3212,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_59.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "5",
+                "option": "",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "5",
+                "option": "Preservation / Strengthening",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "Cyclones have become increasingly frequent, coming one after another and they're more and more devastating."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "Developing our country through the promotion of industrialization, producing and processing locally everything that our people need."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "So a Goa, that's not only a simple trade law. It is faces, lives, entire communities that are fighting every day for their dignity."
+              },
+              {
+                "emerging_topic": "Food security",
+                "textual_extract": "Our goal is to double or even triple agricultural yields... so as to achieve food sufficiency."
+              },
+              {
+                "emerging_topic": "Global health",
+                "textual_extract": "There are also wars against pandemics, like against COVID-19, which we faced together."
+              }
+            ]
           }
         },
         {
@@ -1519,12 +3355,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_60.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "My low-lying atoll nation bears witness to the sharpest edge of climate change."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "We must close the trillion dollar climate finance gap, particularly for adaptation."
+              },
+              {
+                "emerging_topic": "Global health",
+                "textual_extract": "We face one of the world's highest burdens of non-communicable disease."
+              },
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Russian aggression in Ukraine has lacked any basis in international law, and has pushed the world deeper into global tension."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "Our communities seek justice, a clean environment and safe return to their homes."
+              }
+            ]
           }
         },
         {
@@ -1582,12 +3498,88 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_61.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 4 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "The fight against climate change is a responsibility, a historic responsibility, acceleration of extreme events, requires credible, immediate, financed responses."
+              },
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Monaco firmly condemns the war of aggression targeting Ukraine and the suffering this has inflicted upon civilian populations."
+              },
+              {
+                "emerging_topic": "Global health",
+                "textual_extract": "Noncommunicable diseases are the main cause of premature deaths and there's a need for cross-sectoral mobilization to address this challenge."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "The alarming setbacks in human rights, freedom, the repression of freedom, civil society, excessive use of force."
+              }
+            ]
           }
         },
         {
@@ -1645,12 +3637,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_62.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "Namibia's bid to host the African Regional Hub of the Green Climate Fund; severe droughts, floods, and other calamities brought about by climate change."
+              },
+              {
+                "emerging_topic": "AI / digital transformation",
+                "textual_extract": "Artificial Intelligence must not be a substitute for human judgment or responsibility; we call for global standards that ensure AI usage remains transparent and fair."
+              },
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "SADC committed to promoting peace, security and stability in the Eastern DRC; UN Commission of Inquiry finds genocide against Palestinian people."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "A global liquidity crisis threatens to plunge millions of people into poverty and insecurity."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "Unilateral coercive measures... violate the Charter; call for an end to illegal embargo on Cuba and sanctions on Zimbabwe and Venezuela."
+              }
+            ]
           }
         },
         {
@@ -1708,12 +3780,96 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_63.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 6 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Nigeria's soldiers and civilians have participated in 51 out of 60 UN peacekeeping operations since independence."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "We need urgent action to promote sovereign debt relief and access to trade and financing; calling for a new binding mechanism to manage sovereign debt."
+              },
+              {
+                "emerging_topic": "Inequality",
+                "textual_extract": "Countries that host minerals must benefit from those minerals; when we export raw materials, tension, inequality and instability fester."
+              },
+              {
+                "emerging_topic": "Technology / digital divide",
+                "textual_extract": "The digital divide must close. As the Secretary General has said: 'A.I.' must stand for 'Africa Included'."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "Climate change is about national, regional, and international security... it is about irregular migration."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "We remain fully committed to the achievement of SDGs – and are convinced this can be best delivered by focusing principally on our primary mission of growth and prosperity."
+              }
+            ]
           }
         },
         {
@@ -1771,12 +3927,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_64.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Neutrality is the best formula to safeguard the security of our canal, a global public good."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "Panama has put forward its Nature Pledge which is our Pact with Nature... pledging to curb its emissions by 2035."
+              },
+              {
+                "emerging_topic": "Migration",
+                "textual_extract": "For years millions of people have been passing through our Darien region... in just one year in office we reduced the flow of migrants heading north to zero."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "The United Nations is also facing a challenge of promoting urgent action to achieve the sustainable development goals."
+              },
+              {
+                "emerging_topic": "Other",
+                "textual_extract": "Today it poses a threat to human lives and a grave risk of instability throughout the entire region due to the different cartels operating there."
+              }
+            ]
           }
         },
         {
@@ -1834,12 +4070,96 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_65.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 6 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "more than 120 armed conflicts show just how serious the failure of our institutions can be."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "Systematic violations of human rights and fundamental freedoms are being compounded by actions that are contrary to international law and the persecution of political leaders."
+              },
+              {
+                "emerging_topic": "Migration",
+                "textual_extract": "Seven million Venezuelans have left their homeland. This is the largest migratory crisis in the history of the Western Hemisphere."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "in July last year Paraguay achieved investment grade for the first time in its history."
+              },
+              {
+                "emerging_topic": "Inequality",
+                "textual_extract": "118,000 people emerged from poverty in a single year. Extreme poverty fell to 4.1%, which is the lowest level in our modern history."
+              },
+              {
+                "emerging_topic": "Other",
+                "textual_extract": "Taiwan deserves a place in this forum... Its exclusion from the UN system is an affront which undermines the legitimacy of our institutions."
+              }
+            ]
           }
         },
         {
@@ -1897,12 +4217,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_66.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Africa remains confronted with armed conflict, terrorism particularly in the Sahel, and cross border crime and political instability."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "progress has also been made in the codification of universal norms for the protection of human rights and to create a safer and more peaceful international order."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "Global heating also deserves our attention. It's not simply a threat but it is an existential question."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "an equitable global fiscal framework so that taxes are paid in the place where wealth is produced. Access to credit on sustainable terms so that debt burdens don't hinder development efforts."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "the effective implementation of the civil commitment, the pact for the future and the sustainable development goals to ensure better access to healthcare, water, food, education, energy and the digital technologies."
+              }
+            ]
           }
         },
         {
@@ -1960,12 +4360,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_67.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "The world is facing its deadliest surge in violence since World War II. In 2024, 61 armed conflicts erupted across 36 countries."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "Climate change is not just a statistic for Serbia and the Balkans – it is a lived reality, marked by droughts, floods and energy insecurity."
+              },
+              {
+                "emerging_topic": "Technology / digital divide",
+                "textual_extract": "The proliferation of misinformation, particularly via digital platforms, has fuelled distrust between countries."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "Progress on global challenges is uneven: financing is dwindling, the UN budget is constrained."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "Day in and day out, they are denied basic human rights: the right to life, freedom of movement, the right to education and health protection."
+              }
+            ]
           }
         },
         {
@@ -2023,12 +4503,96 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_68.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 6 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Ceasefire now in Gaza! Ceasefire now in Sudan! Ceasefire now in Ukraine!"
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "Climate change is an existential threat to Sierra Leone. Our Greenhouse Gas emissions are negligible, yet our people and our wide coast bear the costs."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "Our Medium-Term National Development Plan, aligned with the SDGs and the African Union's Agenda 2063, prioritises people-centred growth."
+              },
+              {
+                "emerging_topic": "Food security",
+                "textual_extract": "We are transforming our agricultural sector to ensure food security."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "Developed nations must honour their commitments: $100 billion per year in climate finance, technology transfer, and capacity building."
+              },
+              {
+                "emerging_topic": "Global health",
+                "textual_extract": "deepening investments in human capital development through Free Quality Education, and in healthcare, particularly maternal and child health."
+              }
+            ]
           }
         },
         {
@@ -2086,12 +4650,84 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_69.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 3 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "The war in Ukraine reminds us daily how fragile peace is when the UN Charter is disregarded and international law is ignored."
+              },
+              {
+                "emerging_topic": "AI / digital transformation",
+                "textual_extract": "Slovakia has been an active voice in both global climate debates and discussions on the artificial intelligence... hosting all the actors at the Summit on Education and AI in our capital, Bratislava."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "The triple planetary crisis and quick progress in artificial intelligence are moving far faster than we are able to react."
+              }
+            ]
           }
         },
         {
@@ -2149,12 +4785,100 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_70.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 7 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "We see this in Europe, in Ukraine, where war has been unleashed by Russia's unprovoked and unjustifiable aggression."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "We cannot remain silent or look away from the devastation, the bombings, including of hospitals, schools, and places of refuge in Gaza."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "The current funding shortfall for sustainable development exceeds $4 trillion per year."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "Spain calls for consensus and ambition ahead of COP30, which will be held in Brazil this November."
+              },
+              {
+                "emerging_topic": "AI / digital transformation",
+                "textual_extract": "Managing the impact of the transformative revolution known as artificial intelligence."
+              },
+              {
+                "emerging_topic": "Global health",
+                "textual_extract": "We welcome here the consensus reached on the pandemic agreement, strengthening the World Health Organization."
+              },
+              {
+                "emerging_topic": "Migration",
+                "textual_extract": "We fully support the implementation of the global compact on migration and the global compact on refugees."
+              }
+            ]
           }
         },
         {
@@ -2212,12 +4936,104 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_71.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 8 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "2",
+                "option": "Mixed / Ambiguous",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "This Assembly must pay special attention to eradicate extreme poverty."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "Low income countries allocate twice as much towards debt servicing, than on education or healthcare."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "Extremist and racist ideas are as deadly as epidemics; we must awaken our conscience to oppose racism and religious extremism."
+              },
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "We are deeply distressed by the ongoing catastrophe in Gaza, which has been turned into an open-air prison."
+              },
+              {
+                "emerging_topic": "AI / digital transformation",
+                "textual_extract": "I present to this Assembly a proposal to set up a neutral sovereign 'Artificial Intelligence Zone' in Sri Lanka."
+              },
+              {
+                "emerging_topic": "Technology / digital divide",
+                "textual_extract": "The digital divide between States is stark. An even greater gap is being created in relation to artificial intelligence."
+              },
+              {
+                "emerging_topic": "Other",
+                "textual_extract": "Drugs, and organised crimes linked to drugs have become a serious concern to the world."
+              },
+              {
+                "emerging_topic": "Inequality",
+                "textual_extract": "I propose to you that the time has come for us to accept inequality and poverty as a global catastrophe."
+              }
+            ]
           }
         },
         {
@@ -2275,12 +5091,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_72.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "6",
+                "option": "Transformation",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "A just lasting peace in the Middle East and Ukraine still seems beyond reach."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "As finance minister, I would also add for global financial stability."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "Last year, we together adopted the PACT for the Future, essential pillar of the 2030 Agenda for Sustainable Development."
+              },
+              {
+                "emerging_topic": "Migration",
+                "textual_extract": "The United Nations, international organizations essential for resolution of challenges, including migration, climate change, the digital transition."
+              },
+              {
+                "emerging_topic": "Climate change",
+                "textual_extract": "Challenges, including migration, climate change, the digital transition."
+              }
+            ]
           }
         },
         {
@@ -2338,12 +5234,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_73.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "1",
+                "option": "Positive / Supportive",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "Israeli threats against our country have not ceased since December 8 until today."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "Our unprotected people were targeted with chemical weapons in more than 200 documented attacks."
+              },
+              {
+                "emerging_topic": "Financing / debt",
+                "textual_extract": "We call now for the complete lifting of these sanctions, so they no longer shackle the Syrian people."
+              },
+              {
+                "emerging_topic": "Migration",
+                "textual_extract": "We paved the way for the return of refugees to their homes."
+              },
+              {
+                "emerging_topic": "Development / SDGs",
+                "textual_extract": "major regional and international companies have already begun entering the Syrian market, contributing through investment and reconstruction."
+              }
+            ]
           }
         },
         {
@@ -2401,12 +5377,92 @@
             "transcript_rel": "pipeline/out/80/2025-09-24/M_74.txt"
           },
           "analisis": {
-            "status": "pending",
-            "analyzed_at": "",
-            "model": "",
-            "summary": "",
+            "status": "ok",
+            "analyzed_at": "2026-09-18",
+            "model": "claude-sonnet-5",
+            "summary": "8 indicators · 5 emerging",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [
+              {
+                "indicator_name": "gender_equality_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "women_multilateral_leadership_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "sg_selection_position_gender",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "un_reform_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "current_multilateralism_position",
+                "code": "3",
+                "option": "Negative / Pushback",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              },
+              {
+                "indicator_name": "future_multilateralism_position",
+                "code": "0",
+                "option": "No Mention",
+                "model": "claude-sonnet-5",
+                "date_coded": "2026-09-18"
+              }
+            ],
+            "emerging_priorities": [
+              {
+                "emerging_topic": "Peace and security",
+                "textual_extract": "As Russia's war against my country goes on, people are still dying every week."
+              },
+              {
+                "emerging_topic": "AI / digital transformation",
+                "textual_extract": "We need global rules now for how AI can be used in weapons, and this is just as urgent as preventing the spread of nuclear weapons."
+              },
+              {
+                "emerging_topic": "Technology / digital divide",
+                "textual_extract": "weapons are evolving faster than our ability to defend ourselves... fully autonomous and no human involved, except the few who control AI systems."
+              },
+              {
+                "emerging_topic": "Human rights",
+                "textual_extract": "Russia abducted thousands of Ukrainian children, and we have brought some of them back."
+              },
+              {
+                "emerging_topic": "Food security",
+                "textual_extract": "chemical weapons and famine used as a weapon."
+              }
+            ]
           }
         }
       ]
@@ -2483,7 +5539,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -2546,7 +5604,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -2609,7 +5669,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -2672,7 +5734,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -2735,7 +5799,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -2798,7 +5864,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -2861,7 +5929,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -2924,7 +5994,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -2987,7 +6059,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -3050,7 +6124,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -3113,7 +6189,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -3176,7 +6254,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -3239,7 +6319,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -3302,7 +6384,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -3365,7 +6449,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -3428,7 +6514,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -3491,7 +6579,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -3554,7 +6644,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -3617,7 +6709,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -3680,7 +6774,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -3743,7 +6839,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -3806,7 +6904,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -3869,7 +6969,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -3932,7 +7034,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -3995,7 +7099,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -4058,7 +7164,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -4121,7 +7229,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -4184,7 +7294,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -4247,7 +7359,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -4310,7 +7424,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -4373,7 +7489,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -4436,7 +7554,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -4499,7 +7619,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -4562,7 +7684,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -4625,7 +7749,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         },
         {
@@ -4688,7 +7814,9 @@
             "model": "",
             "summary": "",
             "notes": "",
-            "fields": {}
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": []
           }
         }
       ]

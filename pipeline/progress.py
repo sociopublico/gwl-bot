@@ -17,6 +17,70 @@ from pipeline.store import (
     speech_relpath,
 )
 
+
+def _coded_speech_ids(config: SessionConfig, day: str, *, dest: Path | None = None) -> set[str]:
+    """id_speech presentes en Indicators.csv del día (output de `coding`)."""
+    try:
+        from pipeline.coding import existing_speech_ids, indicators_csv_path
+    except ImportError:
+        return set()
+    directory = out_dir(config, day, dest=dest)
+    return existing_speech_ids(indicators_csv_path(directory))
+
+
+def _coding_summary_for_speech(
+    config: SessionConfig,
+    day: str,
+    speech_id: str,
+    *,
+    dest: Path | None = None,
+) -> dict[str, Any]:
+    """Resumen liviano desde CSV de coding para el dashboard."""
+    import csv
+
+    from pipeline.coding import emerging_csv_path, indicators_csv_path
+
+    directory = out_dir(config, day, dest=dest)
+    indicators: list[dict[str, str]] = []
+    emerging: list[dict[str, str]] = []
+    ind_path = indicators_csv_path(directory)
+    em_path = emerging_csv_path(directory)
+    if ind_path.is_file():
+        with ind_path.open(encoding="utf-8", newline="") as fh:
+            for row in csv.DictReader(fh):
+                if str(row.get("id_speech") or "").strip() == speech_id:
+                    indicators.append(
+                        {
+                            "indicator_name": str(row.get("indicator_name") or ""),
+                            "code": str(row.get("code") or ""),
+                            "option": str(row.get("option") or ""),
+                            "model": str(row.get("model") or ""),
+                            "date_coded": str(row.get("date_coded") or ""),
+                        }
+                    )
+    if em_path.is_file():
+        with em_path.open(encoding="utf-8", newline="") as fh:
+            for row in csv.DictReader(fh):
+                if str(row.get("id_speech") or "").strip() == speech_id:
+                    emerging.append(
+                        {
+                            "emerging_topic": str(row.get("emerging_topic") or ""),
+                            "textual_extract": str(row.get("textual_extract") or "")[:240],
+                        }
+                    )
+    model = next((r["model"] for r in indicators if r.get("model")), "")
+    dated = next((r["date_coded"] for r in indicators if r.get("date_coded")), "")
+    return {
+        "status": "ok",
+        "analyzed_at": dated,
+        "model": model,
+        "summary": f"{len(indicators)} indicators · {len(emerging)} emerging",
+        "notes": "",
+        "fields": {},
+        "indicators": indicators,
+        "emerging_priorities": emerging,
+    }
+
 SOURCE_KEYS = ("pdf_en", "audio_en", "pdf_other", "audio_floor", "video")
 
 REPO_ROOT = PIPELINE_ROOT.parent
@@ -265,10 +329,20 @@ function speakerDetail(sp) {
           <dt>Modelo</dt><dd>${esc(a.model || "—")}</dd>
           ${extraRows}
         </dl>
-        <p style="margin:0.65rem 0 0;color:var(--muted);font-size:0.8rem">Summary</p>
+        <p style="margin:0.65rem 0 0;color:var(--muted);font-size:0.8rem">Summary / coding</p>
         <div class="prose">${esc(a.summary || "—")}</div>
         <p style="margin:0.65rem 0 0;color:var(--muted);font-size:0.8rem">Notes</p>
         <div class="prose">${esc(a.notes || "—")}</div>
+        ${Array.isArray(a.indicators) && a.indicators.length ? `
+        <p style="margin:0.65rem 0 0;color:var(--muted);font-size:0.8rem">Indicators (${a.indicators.length})</p>
+        <ul class="sources">${a.indicators.map(ind =>
+          `<li><code>${esc(ind.indicator_name)}</code>: ${esc(ind.code)} ${esc(ind.option)}</li>`
+        ).join("")}</ul>` : ""}
+        ${Array.isArray(a.emerging_priorities) && a.emerging_priorities.length ? `
+        <p style="margin:0.65rem 0 0;color:var(--muted);font-size:0.8rem">Emerging (${a.emerging_priorities.length})</p>
+        <ul class="sources">${a.emerging_priorities.map(em =>
+          `<li><strong>${esc(em.emerging_topic)}</strong>: ${esc(em.textual_extract || "")}</li>`
+        ).join("")}</ul>` : ""}
       </section>
     </div>`;
 }
@@ -431,6 +505,7 @@ def build_speaker_progress(
     scraped_at: str,
     dest: Path | None = None,
     repo_root: Path | None = None,
+    coded_ids: set[str] | None = None,
 ) -> dict[str, Any]:
     slug = str(entry.get("slug") or "")
     error = entry.get("error")
@@ -500,7 +575,13 @@ def build_speaker_progress(
         discurso["error"] = str(error)
 
     snap = load_analysis_snapshot(config, day, slug) if slug else None
-    if snap:
+    speech_id = str(discurso.get("id_speech") or "")
+    coded = coded_ids if coded_ids is not None else _coded_speech_ids(config, day, dest=dest)
+    if speech_id and speech_id in coded:
+        analisis = _coding_summary_for_speech(
+            config, day, speech_id, dest=dest
+        )
+    elif snap:
         analisis = {
             "status": str(snap.get("status") or "ok"),
             "analyzed_at": snap.get("analyzed_at") or "",
@@ -508,6 +589,10 @@ def build_speaker_progress(
             "summary": snap.get("summary") or "",
             "notes": snap.get("notes") or "",
             "fields": snap.get("fields") or {},
+            "indicators": snap.get("Indicators") or snap.get("indicators") or [],
+            "emerging_priorities": snap.get("Emerging_Priorities")
+            or snap.get("emerging_priorities")
+            or [],
         }
     else:
         analisis = {
@@ -517,6 +602,8 @@ def build_speaker_progress(
             "summary": "",
             "notes": "",
             "fields": {},
+            "indicators": [],
+            "emerging_priorities": [],
         }
 
     return {
@@ -540,6 +627,7 @@ def build_day_progress(
     if roster is None:
         return None
     scraped_at = str(roster.get("scraped_at") or "")
+    coded_ids = _coded_speech_ids(config, day, dest=dest)
     speakers = [
         build_speaker_progress(
             config,
@@ -548,6 +636,7 @@ def build_day_progress(
             scraped_at=scraped_at,
             dest=dest,
             repo_root=repo_root,
+            coded_ids=coded_ids,
         )
         for entry in (roster.get("speakers") or [])
         if isinstance(entry, dict)

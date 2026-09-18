@@ -227,6 +227,41 @@ def _parser() -> argparse.ArgumentParser:
         help="No escribir metadata.csv local",
     )
 
+    coding_p = sub.add_parser(
+        "coding",
+        help="Codear discursos del día con Claude → Indicators.csv + Emerging_Priorities.csv",
+        parents=[common],
+    )
+    coding_p.add_argument("--day", required=True, help="YYYY-MM-DD")
+    coding_p.add_argument("--slug", default="", help="Una sola ficha")
+    coding_p.add_argument(
+        "--prompt",
+        default="",
+        help="Metodología markdown (default: claude-prompt.md en la raíz del repo)",
+    )
+    coding_p.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="No llamar a Claude ni escribir CSV; mostrar las tandas",
+    )
+    coding_p.add_argument(
+        "--force",
+        action="store_true",
+        help="Recodear id_speech que ya están en Indicators.csv del día",
+    )
+
+    coding_sheet_p = sub.add_parser(
+        "coding-sheet",
+        help="Append idempotente de los CSV de coding a Indicators y Emerging_Priorities",
+        parents=[common],
+    )
+    coding_sheet_p.add_argument("--day", required=True, help="YYYY-MM-DD")
+    coding_sheet_p.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Contar append vs skip; no escribir el spreadsheet",
+    )
+
     site = sub.add_parser(
         "progress-site",
         help="Generar sitio estático de avance (docs/ para GitHub Pages)",
@@ -400,6 +435,29 @@ def main(argv: list[str] | None = None) -> int:
             slug=args.slug or None,
             dest=dest,
             prompt_path=Path(args.prompt) if args.prompt else None,
+            dry_run=args.dry_run,
+        )
+
+    if args.cmd == "coding":
+        from pipeline.coding import code_day
+
+        return code_day(
+            config,
+            day=args.day,
+            slug=args.slug or None,
+            dest=dest,
+            prompt_path=Path(args.prompt) if args.prompt else None,
+            dry_run=args.dry_run,
+            force=args.force,
+        )
+
+    if args.cmd == "coding-sheet":
+        from pipeline.coding_sheet import publish_coding_day
+
+        return publish_coding_day(
+            config,
+            day=args.day,
+            dest=dest,
             dry_run=args.dry_run,
         )
 

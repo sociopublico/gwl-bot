@@ -5,7 +5,7 @@ Pipeline batch: baja el roster de oradores, extrae el texto de cada discurso (PD
 Esto **no** es el monitor de alertas en vivo. Ver [`README-ALERTAS.md`](README-ALERTAS.md).
 
 ```text
-roster (HTML) → extract (PDF/OCR/Whisper) → publish (txt + Sheets) → analyze (Claude, opcional)
+roster (HTML) → extract (PDF/OCR/Whisper) → publish (txt + Sheets) → coding (Claude → CSV) → coding-sheet (Indicators + Emerging_Priorities)
 ```
 
 Guía asumiendo **todo en local** (laptop/desktop).
@@ -132,16 +132,25 @@ docker compose -f docker-compose.pipeline.yml run --rm pipeline \
   publish --session 80 --day 2025-09-23 --github --sheet
 ```
 
-### 4. Analyze (opcional)
+### 4. Coding (Indicators + Emerging_Priorities)
 
-Requiere prompt real en `pipeline/data/analyze-prompt.md` (hoy es un stub) y `ANTHROPIC_API_KEY`.
+Tras `publish` (hace falta `id_speech` / `M_N.txt`). Usa [`claude-prompt.md`](claude-prompt.md) como methodology.
 
 ```bash
-docker compose -f docker-compose.pipeline.yml run --rm pipeline \
-  analyze --session 80 --day 2025-09-23
+# Claude → CSV locales
+pipeline/.venv/bin/python -m pipeline coding --session 80 --day 2025-09-23
+
+# CSV → pestañas Indicators + Emerging_Priorities
+pipeline/.venv/bin/python -m pipeline coding-sheet --session 80 --day 2025-09-23
 ```
 
-Idempotente por `slug|date|id_speech`. Con stub, sale sin llamar a la API. `--dry-run` lista qué haría. Para forzar prueba con stub: `ANALYZE_ALLOW_STUB=1`.
+Idempotente: `coding` saltea `id_speech` ya en `Indicators.csv` (`--force` para recodear). `coding-sheet` saltea por `extract_id` / `id_extract`.
+
+`--dry-run` en ambos. Modelo: `ANTHROPIC_MODEL` (recomendado `claude-sonnet-5`).
+
+### 5. Analyze (legado → pestaña Analysis)
+
+Flujo narrativo summary/notes hacia `Analysis` — no es el coding del codebook. Preferí `coding` + `coding-sheet`.
 
 ## Atajo: roster + extract en un comando
 
@@ -156,7 +165,7 @@ Si el scrape de gadebate falla dentro de Docker (WAF/proxy), usá el flujo separ
 
 ## Dashboard de avance (GitHub Pages)
 
-Sitio estático con accordion por día y timeline por orador (fetch orador → discurso → análisis, con summary/notes).
+Sitio estático con accordion por día y timeline por orador (fetch orador → discurso → coding).
 
 ```bash
 # Local (venv del pipeline)
@@ -164,7 +173,7 @@ pipeline/.venv/bin/python -m pipeline progress-site --session 80
 # → docs/index.html + docs/data/progress.json
 ```
 
-Tras `analyze`, cada discurso deja un snapshot en `pipeline/data/analysis/<session>/<day>/<slug>.json` (queda en el repo; el sitio lo lee).
+El hito “análisis” se marca OK si hay filas en `Indicators.csv` del día (o snapshot legacy en `pipeline/data/analysis/`).
 
 Publicación: workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml) regenera `docs/` y despliega Pages. En el repo: **Settings → Pages → Source = GitHub Actions**.
 
@@ -187,18 +196,21 @@ docker compose -f docker-compose.pipeline.yml run --rm pipeline refresh-protocol
 
 ```text
 pipeline/
-  cli.py              comandos (roster, extract, publish, analyze, progress-site, …)
+  cli.py              comandos (roster, extract, publish, coding, coding-sheet, …)
   roster.py           scrape → JSON
   extract_*.py        PDF / OCR / audio / video
   cascade.py          orden de fuentes
-  sheets.py           Google Sheets
-  analyze.py          Claude → pestaña Analysis + snapshot local
+  sheets.py           Google Sheets (Metadata + Indicators + Emerging_Priorities)
+  coding.py           Claude codebook → Indicators.csv + Emerging_Priorities.csv
+  coding_sheet.py     CSV → append a Sheets
+  claude.py           cliente Anthropic
+  analyze.py          legado: Claude → pestaña Analysis
   progress.py         agregación de avance + generador docs/
   data/roster/        JSON diarios
-  data/analysis/      snapshots de análisis (summary/notes)
   data/analyze-prompt.md
-  out/<session>/<day>/*.txt
+  out/<session>/<day>/*.txt (+ Indicators.csv / Emerging_Priorities.csv locales)
 docs/                 sitio estático (GitHub Pages)
+claude-prompt.md      methodology / codebook para coding
 ```
 
 ## Troubleshooting

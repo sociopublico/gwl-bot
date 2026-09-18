@@ -242,10 +242,20 @@ function speakerDetail(sp) {
           <dt>Modelo</dt><dd>${esc(a.model || "—")}</dd>
           ${extraRows}
         </dl>
-        <p style="margin:0.65rem 0 0;color:var(--muted);font-size:0.8rem">Summary</p>
+        <p style="margin:0.65rem 0 0;color:var(--muted);font-size:0.8rem">Summary / coding</p>
         <div class="prose">${esc(a.summary || "—")}</div>
         <p style="margin:0.65rem 0 0;color:var(--muted);font-size:0.8rem">Notes</p>
         <div class="prose">${esc(a.notes || "—")}</div>
+        ${Array.isArray(a.indicators) && a.indicators.length ? `
+        <p style="margin:0.65rem 0 0;color:var(--muted);font-size:0.8rem">Indicators (${a.indicators.length})</p>
+        <ul class="sources">${a.indicators.map(ind =>
+          `<li><code>${esc(ind.indicator_name)}</code>: ${esc(ind.code)} ${esc(ind.option)}</li>`
+        ).join("")}</ul>` : ""}
+        ${Array.isArray(a.emerging_priorities) && a.emerging_priorities.length ? `
+        <p style="margin:0.65rem 0 0;color:var(--muted);font-size:0.8rem">Emerging (${a.emerging_priorities.length})</p>
+        <ul class="sources">${a.emerging_priorities.map(em =>
+          `<li><strong>${esc(em.emerging_topic)}</strong>: ${esc(em.textual_extract || "")}</li>`
+        ).join("")}</ul>` : ""}
       </section>
     </div>`;
 }
