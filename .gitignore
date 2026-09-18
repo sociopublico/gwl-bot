@@ -14,10 +14,12 @@ pipeline/log/
 pipeline/tools/
 pipeline/data/protocol/*.pdf
 pipeline/.venv/
-# Versionar solo los .txt de discursos; manifests y CSV locales no
+# Versionar .txt de discursos y CSV de coding (para Pages / progress-site)
 pipeline/out/**
 !pipeline/out/**/
 !pipeline/out/**/*.txt
+!pipeline/out/**/Indicators.csv
+!pipeline/out/**/Emerging_Priorities.csv
 # Google service account JSON (nunca commitear)
 gwl-bot-*.json
 secrets/*.json

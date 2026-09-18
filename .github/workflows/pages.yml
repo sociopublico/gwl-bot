@@ -6,8 +6,10 @@ on:
     paths:
       - "pipeline/data/roster/**"
       - "pipeline/data/analysis/**"
+      - "pipeline/data/coding/**"
       - "pipeline/out/**"
       - "pipeline/progress.py"
+      - "pipeline/coding.py"
       - "pipeline/cli.py"
       - ".github/workflows/pages.yml"
   workflow_dispatch:

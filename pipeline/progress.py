@@ -19,13 +19,24 @@ from pipeline.store import (
 
 
 def _coded_speech_ids(config: SessionConfig, day: str, *, dest: Path | None = None) -> set[str]:
-    """id_speech presentes en Indicators.csv del día (output de `coding`)."""
+    """id_speech coded: Indicators.csv local y/o snapshot versionado en data/coding/."""
+    ids: set[str] = set()
     try:
-        from pipeline.coding import existing_speech_ids, indicators_csv_path
+        from pipeline.coding import (
+            existing_speech_ids,
+            indicators_csv_path,
+            load_coding_status,
+        )
     except ImportError:
-        return set()
+        return ids
     directory = out_dir(config, day, dest=dest)
-    return existing_speech_ids(indicators_csv_path(directory))
+    ids |= existing_speech_ids(indicators_csv_path(directory))
+    status = load_coding_status(config, day, dest=dest)
+    if status:
+        speeches = status.get("speeches") or {}
+        if isinstance(speeches, dict):
+            ids |= {str(k) for k in speeches.keys()}
+    return ids
 
 
 def _coding_summary_for_speech(
@@ -35,10 +46,14 @@ def _coding_summary_for_speech(
     *,
     dest: Path | None = None,
 ) -> dict[str, Any]:
-    """Resumen liviano desde CSV de coding para el dashboard."""
+    """Resumen liviano desde CSV de coding o snapshot data/coding/."""
     import csv
 
-    from pipeline.coding import emerging_csv_path, indicators_csv_path
+    from pipeline.coding import (
+        emerging_csv_path,
+        indicators_csv_path,
+        load_coding_status,
+    )
 
     directory = out_dir(config, day, dest=dest)
     indicators: list[dict[str, str]] = []
@@ -68,17 +83,45 @@ def _coding_summary_for_speech(
                             "textual_extract": str(row.get("textual_extract") or "")[:240],
                         }
                     )
-    model = next((r["model"] for r in indicators if r.get("model")), "")
-    dated = next((r["date_coded"] for r in indicators if r.get("date_coded")), "")
+    if indicators or emerging:
+        model = next((r["model"] for r in indicators if r.get("model")), "")
+        dated = next((r["date_coded"] for r in indicators if r.get("date_coded")), "")
+        return {
+            "status": "ok",
+            "analyzed_at": dated,
+            "model": model,
+            "summary": f"{len(indicators)} indicators · {len(emerging)} emerging",
+            "notes": "",
+            "fields": {},
+            "indicators": indicators,
+            "emerging_priorities": emerging,
+        }
+
+    status = load_coding_status(config, day, dest=dest) or {}
+    speeches = status.get("speeches") or {}
+    entry = speeches.get(speech_id) if isinstance(speeches, dict) else None
+    if isinstance(entry, dict):
+        n_ind = int(entry.get("indicators") or 0)
+        n_em = int(entry.get("emerging") or 0)
+        return {
+            "status": "ok",
+            "analyzed_at": str(entry.get("date_coded") or status.get("updated_at") or ""),
+            "model": str(entry.get("model") or status.get("model") or ""),
+            "summary": f"{n_ind} indicators · {n_em} emerging",
+            "notes": "",
+            "fields": {},
+            "indicators": [],
+            "emerging_priorities": [],
+        }
     return {
-        "status": "ok",
-        "analyzed_at": dated,
-        "model": model,
-        "summary": f"{len(indicators)} indicators · {len(emerging)} emerging",
+        "status": "pending",
+        "analyzed_at": "",
+        "model": "",
+        "summary": "",
         "notes": "",
         "fields": {},
-        "indicators": indicators,
-        "emerging_priorities": emerging,
+        "indicators": [],
+        "emerging_priorities": [],
     }
 
 SOURCE_KEYS = ("pdf_en", "audio_en", "pdf_other", "audio_floor", "video")

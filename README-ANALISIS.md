@@ -173,7 +173,9 @@ pipeline/.venv/bin/python -m pipeline progress-site --session 80
 # → docs/index.html + docs/data/progress.json
 ```
 
-El hito “análisis” se marca OK si hay filas en `Indicators.csv` del día (o snapshot legacy en `pipeline/data/analysis/`).
+El hito “análisis/coding” se marca OK si hay filas en `Indicators.csv` del día **o** en el snapshot versionado `pipeline/data/coding/<session>/<day>.json` (lo escribe `coding` al terminar).
+
+Para que GitHub Pages cuente bien: commit + push de `docs/`, `pipeline/data/coding/` y/o los CSV `Indicators.csv` / `Emerging_Priorities.csv` (ya no están ignorados).
 
 Publicación: workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml) regenera `docs/` y despliega Pages. En el repo: **Settings → Pages → Source = GitHub Actions**.
 

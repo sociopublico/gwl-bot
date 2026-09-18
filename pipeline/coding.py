@@ -215,6 +215,86 @@ def emerging_csv_path(directory: Path) -> Path:
     return directory / "Emerging_Priorities.csv"
 
 
+def coding_status_path(
+    config: SessionConfig,
+    day: str,
+    *,
+    dest: Path | None = None,
+) -> Path:
+    if dest is not None:
+        return dest / "_coding_status" / str(config.id) / f"{day}.json"
+    return config.root / "data" / "coding" / str(config.id) / f"{day}.json"
+
+
+def write_coding_status(
+    config: SessionConfig,
+    day: str,
+    *,
+    dest: Path | None = None,
+    model: str = "",
+) -> Path:
+    """Snapshot versionable de qué id_speech ya están coded (para GitHub Pages)."""
+    directory = out_dir(config, day, dest=dest)
+    ind_path = indicators_csv_path(directory)
+    em_path = emerging_csv_path(directory)
+    by_speech: dict[str, dict[str, int | str]] = {}
+    if ind_path.is_file():
+        with ind_path.open(encoding="utf-8", newline="") as fh:
+            for row in csv.DictReader(fh):
+                sid = normalize_speech_id(str(row.get("id_speech") or ""))
+                if not sid:
+                    continue
+                entry = by_speech.setdefault(
+                    sid, {"indicators": 0, "emerging": 0, "model": "", "date_coded": ""}
+                )
+                entry["indicators"] = int(entry["indicators"]) + 1
+                if not entry["model"]:
+                    entry["model"] = str(row.get("model") or model or "")
+                if not entry["date_coded"]:
+                    entry["date_coded"] = str(row.get("date_coded") or "")
+    if em_path.is_file():
+        with em_path.open(encoding="utf-8", newline="") as fh:
+            for row in csv.DictReader(fh):
+                sid = normalize_speech_id(str(row.get("id_speech") or ""))
+                if not sid:
+                    continue
+                entry = by_speech.setdefault(
+                    sid, {"indicators": 0, "emerging": 0, "model": "", "date_coded": ""}
+                )
+                entry["emerging"] = int(entry["emerging"]) + 1
+    path = coding_status_path(config, day, dest=dest)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "session": config.id,
+        "day": day,
+        "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "model": model,
+        "speeches": by_speech,
+    }
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"coding status → {path} ({len(by_speech)} speeches)", file=sys.stderr)
+    return path
+
+
+def load_coding_status(
+    config: SessionConfig,
+    day: str,
+    *,
+    dest: Path | None = None,
+) -> dict | None:
+    path = coding_status_path(config, day, dest=dest)
+    if not path.is_file() and dest is not None:
+        # Fallback al snapshot versionado del repo
+        path = coding_status_path(config, day, dest=None)
+    if not path.is_file():
+        return None
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+    return raw if isinstance(raw, dict) else None
+
+
 def existing_speech_ids(path: Path) -> set[str]:
     if not path.is_file():
         return set()
@@ -539,6 +619,7 @@ def code_day(
 
     if not pending:
         print("nada para codear (ids ya están en Indicators.csv; usá --force)", file=sys.stderr)
+        write_coding_status(config, day, dest=dest)
         return 0
 
     try:
@@ -607,4 +688,5 @@ def code_day(
         ),
         file=sys.stderr,
     )
+    write_coding_status(config, day, dest=dest, model=model)
     return 0 if errors == 0 else 2
