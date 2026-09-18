@@ -17,11 +17,17 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from pipeline.env import load_dotenv
-from pipeline.metadata import METADATA_COLUMNS, MetadataRow, row_values
+from pipeline.metadata import (
+    METADATA_COLUMNS,
+    MetadataRow,
+    normalize_speech_id,
+    row_values,
+)
 
 ANALYSIS_IDENTITY = (
     "slug",
     "date_time",
+    "id_speech",
     "country",
     "speaker_name",
     "ficha_url",
@@ -31,6 +37,48 @@ ANALYSIS_COLUMNS = [
     "summary",
     "notes",
 ]
+
+
+def analysis_identity_key(
+    *,
+    slug: str = "",
+    date_time: str = "",
+    id_speech: str = "",
+) -> str:
+    """Clave canónica de Analysis: slug|date|id_speech."""
+    sid = normalize_speech_id(id_speech) or str(id_speech or "").strip()
+    return (
+        f"{str(slug or '').strip()}|"
+        f"{str(date_time or '').strip()}|"
+        f"{sid}"
+    )
+
+
+def analysis_key_aliases(
+    *,
+    slug: str = "",
+    date_time: str = "",
+    id_speech: str = "",
+    ficha_url: str = "",
+) -> set[str]:
+    """Claves con las que una fila puede matchear (canónica + legacy)."""
+    keys: set[str] = set()
+    sid = normalize_speech_id(id_speech) or str(id_speech or "").strip()
+    slug_s = str(slug or "").strip()
+    date_s = str(date_time or "").strip()
+    ficha = str(ficha_url or "").strip()
+    keys.add(analysis_identity_key(slug=slug_s, date_time=date_s, id_speech=sid))
+    if sid:
+        keys.add(sid)
+    if slug_s and date_s:
+        # Filas viejas sin columna id_speech
+        keys.add(f"{slug_s}|{date_s}")
+    if ficha:
+        keys.add(ficha)
+        tail = ficha.rstrip("/").rsplit("/", 1)[-1]
+        if tail and date_s:
+            keys.add(f"{tail}|{date_s}")
+    return keys
 
 
 @dataclass(frozen=True)
@@ -255,15 +303,12 @@ def analysis_headers(settings: SheetsSettings | None = None) -> list[str]:
 def existing_analysis_keys(records: list[dict]) -> set[str]:
     keys: set[str] = set()
     for record in records:
-        slug = str(record.get("slug") or "").strip()
-        date_time = str(record.get("date_time") or "").strip()
-        ficha = str(record.get("ficha_url") or "").strip()
-        if slug and date_time:
-            keys.add(f"{slug}|{date_time}")
-        if ficha:
-            tail = ficha.rstrip("/").rsplit("/", 1)[-1]
-            if tail and date_time:
-                keys.add(f"{tail}|{date_time}")
+        keys |= analysis_key_aliases(
+            slug=str(record.get("slug") or ""),
+            date_time=str(record.get("date_time") or ""),
+            id_speech=str(record.get("id_speech") or ""),
+            ficha_url=str(record.get("ficha_url") or ""),
+        )
     return keys
 
 
@@ -274,7 +319,7 @@ def append_analysis_rows(
     existing: list[dict] | None = None,
     headers: list[str] | None = None,
 ) -> list[dict]:
-    """Append idempotente por slug|date. Devuelve las filas nuevas."""
+    """Append idempotente por slug|date|id_speech. Devuelve las filas nuevas."""
     cfg = settings or sheets_settings()
     ws = _open_or_create_worksheet(cfg, cfg.analysis_tab, list(headers or ANALYSIS_COLUMNS))
     if headers is None or existing is None:
@@ -283,19 +328,34 @@ def append_analysis_rows(
     if not headers:
         headers = list(ANALYSIS_COLUMNS)
         ws.update("A1", [headers])
+    if "id_speech" not in headers:
+        print(
+            "sheet: la pestaña Analysis no tiene columna id_speech; "
+            "agregala al encabezado para idempotencia estable "
+            "(sobre todo discursos sin slug de país)",
+            file=sys.stderr,
+        )
     seen = existing_analysis_keys(existing or [])
     written: list[dict] = []
     payload: list[list[str]] = []
     for row in rows:
-        slug = str(row.get("slug") or "").strip()
-        date_time = str(row.get("date_time") or "").strip()
-        key = f"{slug}|{date_time}"
-        if key in seen:
+        aliases = analysis_key_aliases(
+            slug=str(row.get("slug") or ""),
+            date_time=str(row.get("date_time") or ""),
+            id_speech=str(row.get("id_speech") or ""),
+            ficha_url=str(row.get("ficha_url") or ""),
+        )
+        key = analysis_identity_key(
+            slug=str(row.get("slug") or ""),
+            date_time=str(row.get("date_time") or ""),
+            id_speech=str(row.get("id_speech") or ""),
+        )
+        if aliases & seen:
             print(f"SHEET skip duplicado {key}", file=sys.stderr)
             continue
         payload.append([str(row.get(col, "") or "") for col in headers])
         written.append(row)
-        seen.add(key)
+        seen |= aliases
     if payload:
         ws.append_rows(payload, value_input_option="USER_ENTERED")
     return written

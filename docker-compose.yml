@@ -12,6 +12,8 @@ services:
       - whisper-models:/root/.cache/huggingface
       # Lista de oradores (un nombre por línea):
       - ./speakers.txt:/speakers.txt:ro
+      # Logs duales (full + highlights), flush inmediato:
+      - ./logs:/app/logs
 
 volumes:
   whisper-models:

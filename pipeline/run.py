@@ -177,10 +177,13 @@ def extract_from_page_timed(
     for source in config.sources:
         try:
             speech, via = _extract_source(config, page, source)
+            elapsed = time.perf_counter() - started
+            speech.via = via
+            speech.elapsed_s = elapsed
             directory = out_dir(config, page.speech_date, dest=dest)
             txt_path = write_speech(speech, directory)
             append_manifest(directory, speech, txt_path)
-            return speech, via, time.perf_counter() - started
+            return speech, via, elapsed
         except (SourceUnavailable, HttpError) as exc:
             errors.append(str(exc))
             print(

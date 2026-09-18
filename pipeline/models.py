@@ -49,3 +49,5 @@ class ExtractedSpeech:
     original_language: str = ""
     transformation: str = "none"
     id_speech: str = ""
+    via: str = ""
+    elapsed_s: float = 0.0

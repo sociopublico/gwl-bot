@@ -1,0 +1,1359 @@
+{
+  "session": 80,
+  "day": "2025-09-24",
+  "scraped_at": "2026-09-17T15:36:58Z",
+  "speakers": [
+    {
+      "slug": "albania",
+      "ficha_url": "https://gadebate.un.org/en/80/albania",
+      "country": "Albania",
+      "name": "Bajram Begaj",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/al_en.pdf",
+          "filename": "al_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_AL_EN.mp3",
+          "filename": "80_AL_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement, as delivered",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/al_al.pdf",
+          "filename": "al_al.pdf",
+          "lang": ""
+        },
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_AL_FL.mp3",
+          "filename": "80_AL_FL.mp3",
+          "lang": ""
+        },
+        "video": {
+          "entry_id": "1_5a8g413k",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_5a8g413k/format/url/protocol/https",
+          "filename": "1_5a8g413k.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "argentina",
+      "ficha_url": "https://gadebate.un.org/en/80/argentina",
+      "country": "Argentina",
+      "name": "Javier Gerardo Milei",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "audio_en",
+      "sources": {
+        "pdf_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_AR_EN.mp3",
+          "filename": "80_AR_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in Spanish",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/ar_es.pdf",
+          "filename": "ar_es.pdf",
+          "lang": ""
+        },
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_1ul6a1m7",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_1ul6a1m7/format/url/protocol/https",
+          "filename": "1_1ul6a1m7.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "australia",
+      "ficha_url": "https://gadebate.un.org/en/80/australia",
+      "country": "Australia",
+      "name": "Anthony Albanese",
+      "rank": "Prime Minister",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/au_en.pdf",
+          "filename": "au_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_AU_EN.mp3",
+          "filename": "80_AU_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ko1stjes",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ko1stjes/format/url/protocol/https",
+          "filename": "1_ko1stjes.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "central-african-republic",
+      "ficha_url": "https://gadebate.un.org/en/80/central-african-republic",
+      "country": "Central African Republic",
+      "name": "Faustin Archange Touadera",
+      "rank": "Head of State",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "audio_en",
+      "sources": {
+        "pdf_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_CF_EN.mp3",
+          "filename": "80_CF_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in French",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/cf_fr.pdf",
+          "filename": "cf_fr.pdf",
+          "lang": ""
+        },
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_g3r78c2b",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_g3r78c2b/format/url/protocol/https",
+          "filename": "1_g3r78c2b.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "comoros",
+      "ficha_url": "https://gadebate.un.org/en/80/comoros",
+      "country": "Comoros",
+      "name": "Azali Assoumani",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "audio_en",
+      "sources": {
+        "pdf_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_KM_EN.mp3",
+          "filename": "80_KM_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in French",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/km_fr.pdf",
+          "filename": "km_fr.pdf",
+          "lang": ""
+        },
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_w7msuv31",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_w7msuv31/format/url/protocol/https",
+          "filename": "1_w7msuv31.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "congo",
+      "ficha_url": "https://gadebate.un.org/en/80/congo",
+      "country": "Congo",
+      "name": "Denis Sassou Nguesso",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "audio_en",
+      "sources": {
+        "pdf_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_CG_EN.mp3",
+          "filename": "80_CG_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in French",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/cg_fr.pdf",
+          "filename": "cg_fr.pdf",
+          "lang": ""
+        },
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_42ln64dd",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_42ln64dd/format/url/protocol/https",
+          "filename": "1_42ln64dd.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "costa-rica",
+      "ficha_url": "https://gadebate.un.org/en/80/costa-rica",
+      "country": "Costa Rica",
+      "name": "Arnoldo Ricardo André Tinoco",
+      "rank": "Minister for Foreign Affairs and Worship",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "audio_en",
+      "sources": {
+        "pdf_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_CR_EN.mp3",
+          "filename": "80_CR_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement, as delivered",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/cr_fl.pdf",
+          "filename": "cr_fl.pdf",
+          "lang": ""
+        },
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_irsq44ct",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_irsq44ct/format/url/protocol/https",
+          "filename": "1_irsq44ct.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "croatia",
+      "ficha_url": "https://gadebate.un.org/en/80/croatia",
+      "country": "Croatia",
+      "name": "Zoran Milanović",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/hr_en.pdf",
+          "filename": "hr_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_HR_EN.mp3",
+          "filename": "80_HR_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_4rpqvlpo",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_4rpqvlpo/format/url/protocol/https",
+          "filename": "1_4rpqvlpo.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "cyprus",
+      "ficha_url": "https://gadebate.un.org/en/80/cyprus",
+      "country": "Cyprus",
+      "name": "Nikos Christodoulides",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/cy_en.pdf",
+          "filename": "cy_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_CY_EN.mp3",
+          "filename": "80_CY_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement, as delivered",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/cy_el.pdf",
+          "filename": "cy_el.pdf",
+          "lang": ""
+        },
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_CY_FL.mp3",
+          "filename": "80_CY_FL.mp3",
+          "lang": ""
+        },
+        "video": {
+          "entry_id": "1_z9zcmgak",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_z9zcmgak/format/url/protocol/https",
+          "filename": "1_z9zcmgak.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "czechia",
+      "ficha_url": "https://gadebate.un.org/en/80/czechia",
+      "country": "Czechia",
+      "name": "Petr Pavel",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/cz_en.pdf",
+          "filename": "cz_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_CZ_EN.mp3",
+          "filename": "80_CZ_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_xmn6xcqi",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_xmn6xcqi/format/url/protocol/https",
+          "filename": "1_xmn6xcqi.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "dominican-republic",
+      "ficha_url": "https://gadebate.un.org/en/80/dominican-republic",
+      "country": "Dominican Republic",
+      "name": "Luis Rodolfo Abinader Corona",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "audio_en",
+      "sources": {
+        "pdf_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_DO_EN.mp3",
+          "filename": "80_DO_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in Spanish",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/do_es.pdf",
+          "filename": "do_es.pdf",
+          "lang": ""
+        },
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_nq8wf2ev",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_nq8wf2ev/format/url/protocol/https",
+          "filename": "1_nq8wf2ev.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "estonia",
+      "ficha_url": "https://gadebate.un.org/en/80/estonia",
+      "country": "Estonia",
+      "name": "Alar Karis",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/ee_en.pdf",
+          "filename": "ee_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_EE_EN.mp3",
+          "filename": "80_EE_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_EE_FL.mp3",
+          "filename": "80_EE_FL.mp3",
+          "lang": ""
+        },
+        "video": {
+          "entry_id": "1_cyxxnuay",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_cyxxnuay/format/url/protocol/https",
+          "filename": "1_cyxxnuay.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "finland",
+      "ficha_url": "https://gadebate.un.org/en/80/finland",
+      "country": "Finland",
+      "name": "Alexander Stubb",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/fi_en.pdf",
+          "filename": "fi_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_FI_EN.mp3",
+          "filename": "80_FI_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_FI_FL.mp3",
+          "filename": "80_FI_FL.mp3",
+          "lang": ""
+        },
+        "video": {
+          "entry_id": "1_ovz2y1qm",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ovz2y1qm/format/url/protocol/https",
+          "filename": "1_ovz2y1qm.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "guatemala",
+      "ficha_url": "https://gadebate.un.org/en/80/guatemala",
+      "country": "Guatemala",
+      "name": "César Bernardo Arévalo de León",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "audio_en",
+      "sources": {
+        "pdf_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_GT_EN.mp3",
+          "filename": "80_GT_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in Spanish",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/gt_es.pdf",
+          "filename": "gt_es.pdf",
+          "lang": ""
+        },
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_1uezjv7i",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_1uezjv7i/format/url/protocol/https",
+          "filename": "1_1uezjv7i.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "guyana",
+      "ficha_url": "https://gadebate.un.org/en/80/guyana",
+      "country": "Guyana",
+      "name": "Mohamed Irfaan Ali",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/gy_en.pdf",
+          "filename": "gy_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_GY_EN.mp3",
+          "filename": "80_GY_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_p8lrt61y",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_p8lrt61y/format/url/protocol/https",
+          "filename": "1_p8lrt61y.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "hungary",
+      "ficha_url": "https://gadebate.un.org/en/80/hungary",
+      "country": "Hungary",
+      "name": "Péter Szijjártó",
+      "rank": "Minister for Foreign Affairs and Trade",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "audio_en",
+      "sources": {
+        "pdf_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_HU_EN.mp3",
+          "filename": "80_HU_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_rttjpag3",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_rttjpag3/format/url/protocol/https",
+          "filename": "1_rttjpag3.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "iran-islamic-republic",
+      "ficha_url": "https://gadebate.un.org/en/80/iran-islamic-republic",
+      "country": "Iran (Islamic Republic of)",
+      "name": "Masoud Pezeshkian",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/ir_en.pdf",
+          "filename": "ir_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_IR_EN.mp3",
+          "filename": "80_IR_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_IR_FL.mp3",
+          "filename": "80_IR_FL.mp3",
+          "lang": ""
+        },
+        "video": {
+          "entry_id": "1_t64l9ozs",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_t64l9ozs/format/url/protocol/https",
+          "filename": "1_t64l9ozs.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "italy",
+      "ficha_url": "https://gadebate.un.org/en/80/italy",
+      "country": "Italy",
+      "name": "Giorgia Meloni",
+      "rank": "President of the Council of Ministers",
+      "speaker_title": "Her Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/it_en.pdf",
+          "filename": "it_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_IT_EN.mp3",
+          "filename": "80_IT_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement, as delivered",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/it_it.pdf",
+          "filename": "it_it.pdf",
+          "lang": ""
+        },
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_IT_FL.mp3",
+          "filename": "80_IT_FL.mp3",
+          "lang": ""
+        },
+        "video": {
+          "entry_id": "1_tzt6qhpn",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_tzt6qhpn/format/url/protocol/https",
+          "filename": "1_tzt6qhpn.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "kenya",
+      "ficha_url": "https://gadebate.un.org/en/80/kenya",
+      "country": "Kenya",
+      "name": "William Samoei Ruto",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/ke_en.pdf",
+          "filename": "ke_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_KE_EN.mp3",
+          "filename": "80_KE_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_e7pimhue",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_e7pimhue/format/url/protocol/https",
+          "filename": "1_e7pimhue.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "kiribati",
+      "ficha_url": "https://gadebate.un.org/en/80/kiribati",
+      "country": "Kiribati",
+      "name": "Taneti Maamau",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/ki_en.pdf",
+          "filename": "ki_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_KI_EN.mp3",
+          "filename": "80_KI_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_fuetn0vi",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_fuetn0vi/format/url/protocol/https",
+          "filename": "1_fuetn0vi.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "kuwait",
+      "ficha_url": "https://gadebate.un.org/en/80/kuwait",
+      "country": "Kuwait",
+      "name": "His Highness Sheikh Sabah Al-Khaled Al-Sabah",
+      "rank": "Crown Prince",
+      "speaker_title": "His Highness",
+      "speech_date": "2025-09-24",
+      "chosen": "audio_en",
+      "sources": {
+        "pdf_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_KW_EN.mp3",
+          "filename": "80_KW_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_8r2rnt8u",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_8r2rnt8u/format/url/protocol/https",
+          "filename": "1_8r2rnt8u.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "latvia",
+      "ficha_url": "https://gadebate.un.org/en/80/latvia",
+      "country": "Latvia",
+      "name": "Edgars Rinkēvičs",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/lv_en.pdf",
+          "filename": "lv_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_LV_EN.mp3",
+          "filename": "80_LV_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement, as delivered",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/lv_lv.pdf",
+          "filename": "lv_lv.pdf",
+          "lang": ""
+        },
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_bvchvuo2",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_bvchvuo2/format/url/protocol/https",
+          "filename": "1_bvchvuo2.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "madagascar",
+      "ficha_url": "https://gadebate.un.org/en/80/madagascar",
+      "country": "Madagascar",
+      "name": "Andry Nirina Rajoelina",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "audio_en",
+      "sources": {
+        "pdf_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_MG_EN.mp3",
+          "filename": "80_MG_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in French",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/mg_fr.pdf",
+          "filename": "mg_fr.pdf",
+          "lang": ""
+        },
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_3y0dpm9l",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_3y0dpm9l/format/url/protocol/https",
+          "filename": "1_3y0dpm9l.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "marshall-islands",
+      "ficha_url": "https://gadebate.un.org/en/80/marshall-islands",
+      "country": "Marshall Islands",
+      "name": "Hilda Heine",
+      "rank": "President",
+      "speaker_title": "Her Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/mh_en.pdf",
+          "filename": "mh_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_MH_EN.mp3",
+          "filename": "80_MH_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_13uprc9g",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_13uprc9g/format/url/protocol/https",
+          "filename": "1_13uprc9g.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "monaco",
+      "ficha_url": "https://gadebate.un.org/en/80/monaco",
+      "country": "Monaco",
+      "name": "His Serene Highness Prince Albert II",
+      "rank": "Sovereign Prince",
+      "speaker_title": "His Serene Highness",
+      "speech_date": "2025-09-24",
+      "chosen": "audio_en",
+      "sources": {
+        "pdf_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_MC_EN.mp3",
+          "filename": "80_MC_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_33e6edx8",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_33e6edx8/format/url/protocol/https",
+          "filename": "1_33e6edx8.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "namibia",
+      "ficha_url": "https://gadebate.un.org/en/80/namibia",
+      "country": "Namibia",
+      "name": "Netumbo Nandi-Ndaitwah",
+      "rank": "President",
+      "speaker_title": "Her Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/na_en.pdf",
+          "filename": "na_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_NA_EN.mp3",
+          "filename": "80_NA_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_bgeza4ju",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_bgeza4ju/format/url/protocol/https",
+          "filename": "1_bgeza4ju.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "nigeria",
+      "ficha_url": "https://gadebate.un.org/en/80/nigeria",
+      "country": "Nigeria",
+      "name": "Kashim Shetima",
+      "rank": "Vice-President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/ng_en.pdf",
+          "filename": "ng_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_NG_EN.mp3",
+          "filename": "80_NG_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_9xevpm8s",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_9xevpm8s/format/url/protocol/https",
+          "filename": "1_9xevpm8s.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "panama",
+      "ficha_url": "https://gadebate.un.org/en/80/panama",
+      "country": "Panama",
+      "name": "His ExcellencyJosé Raúl Mulino Quintero",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "audio_en",
+      "sources": {
+        "pdf_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_PA_EN.mp3",
+          "filename": "80_PA_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in Spanish",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/pa_es.pdf",
+          "filename": "pa_es.pdf",
+          "lang": ""
+        },
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_sx7ggofc",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_sx7ggofc/format/url/protocol/https",
+          "filename": "1_sx7ggofc.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "paraguay",
+      "ficha_url": "https://gadebate.un.org/en/80/paraguay",
+      "country": "Paraguay",
+      "name": "Santiago Peña Palacios",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "audio_en",
+      "sources": {
+        "pdf_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_PY_EN.mp3",
+          "filename": "80_PY_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in Spanish",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/py_es.pdf",
+          "filename": "py_es.pdf",
+          "lang": ""
+        },
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_3etz2iey",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_3etz2iey/format/url/protocol/https",
+          "filename": "1_3etz2iey.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "senegal",
+      "ficha_url": "https://gadebate.un.org/en/80/senegal",
+      "country": "Senegal",
+      "name": "Bassírou Diomaye Diakhar Faye",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "audio_en",
+      "sources": {
+        "pdf_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_SN_EN.mp3",
+          "filename": "80_SN_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in French",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/sn_fr.pdf",
+          "filename": "sn_fr.pdf",
+          "lang": ""
+        },
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_nchon0hs",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_nchon0hs/format/url/protocol/https",
+          "filename": "1_nchon0hs.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "serbia",
+      "ficha_url": "https://gadebate.un.org/en/80/serbia",
+      "country": "Serbia",
+      "name": "Aleksandar Vučić",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/rs_en.pdf",
+          "filename": "rs_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_RS_EN.mp3",
+          "filename": "80_RS_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement, as delivered",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/rs_rs_0.pdf",
+          "filename": "rs_rs_0.pdf",
+          "lang": ""
+        },
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_RS_FL.mp3",
+          "filename": "80_RS_FL.mp3",
+          "lang": ""
+        },
+        "video": {
+          "entry_id": "1_1o49ipij",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_1o49ipij/format/url/protocol/https",
+          "filename": "1_1o49ipij.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "sierra-leone",
+      "ficha_url": "https://gadebate.un.org/en/80/sierra-leone",
+      "country": "Sierra Leone",
+      "name": "Julius Maada Bio",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/sl_en_0.pdf",
+          "filename": "sl_en_0.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_SL_EN.mp3",
+          "filename": "80_SL_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_SL_FL.mp3",
+          "filename": "80_SL_FL.mp3",
+          "lang": ""
+        },
+        "video": {
+          "entry_id": "1_kk2figke",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_kk2figke/format/url/protocol/https",
+          "filename": "1_kk2figke.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "slovakia",
+      "ficha_url": "https://gadebate.un.org/en/80/slovakia",
+      "country": "Slovakia",
+      "name": "Peter Pellegrini",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/sk_en_0.pdf",
+          "filename": "sk_en_0.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_SK_EN.mp3",
+          "filename": "80_SK_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_wwkhkmd5",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_wwkhkmd5/format/url/protocol/https",
+          "filename": "1_wwkhkmd5.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "spain",
+      "ficha_url": "https://gadebate.un.org/en/80/spain",
+      "country": "Spain",
+      "name": "His Majesty Don Felipe VI",
+      "rank": "King",
+      "speaker_title": "His Majesty",
+      "speech_date": "2025-09-24",
+      "chosen": "audio_en",
+      "sources": {
+        "pdf_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_ES_EN.mp3",
+          "filename": "80_ES_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in Spanish",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/es_es.pdf",
+          "filename": "es_es.pdf",
+          "lang": ""
+        },
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_q9zwt0qp",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_q9zwt0qp/format/url/protocol/https",
+          "filename": "1_q9zwt0qp.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "sri-lanka",
+      "ficha_url": "https://gadebate.un.org/en/80/sri-lanka",
+      "country": "Sri Lanka",
+      "name": "Anura Kumara Dissanayake",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/lk_en.pdf",
+          "filename": "lk_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_LK_EN.mp3",
+          "filename": "80_LK_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_LK_FL.mp3",
+          "filename": "80_LK_FL.mp3",
+          "lang": ""
+        },
+        "video": {
+          "entry_id": "1_zv3rnssr",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_zv3rnssr/format/url/protocol/https",
+          "filename": "1_zv3rnssr.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "switzerland",
+      "ficha_url": "https://gadebate.un.org/en/80/switzerland",
+      "country": "Switzerland",
+      "name": "Karin Keller-Sutter",
+      "rank": "President",
+      "speaker_title": "Her Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/ch_en.pdf",
+          "filename": "ch_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_CH_EN.mp3",
+          "filename": "80_CH_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement, as delivered",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/ch_de.pdf",
+          "filename": "ch_de.pdf",
+          "lang": ""
+        },
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_d1jeh6wo",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_d1jeh6wo/format/url/protocol/https",
+          "filename": "1_d1jeh6wo.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "syrian-arab-republic",
+      "ficha_url": "https://gadebate.un.org/en/80/syrian-arab-republic",
+      "country": "Syrian Arab Republic",
+      "name": "Ahmad Al-Sharaa",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/sy_en.pdf",
+          "filename": "sy_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_SY_EN.mp3",
+          "filename": "80_SY_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_q4z4rj10",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_q4z4rj10/format/url/protocol/https",
+          "filename": "1_q4z4rj10.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "ukraine",
+      "ficha_url": "https://gadebate.un.org/en/80/ukraine",
+      "country": "Ukraine",
+      "name": "Volodymyr Zelenskyy",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2025-09-24",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/80/ua_en.pdf",
+          "filename": "ua_en.pdf",
+          "lang": ""
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2025/80_UA_EN.mp3",
+          "filename": "80_UA_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_k4v0v5ca",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_k4v0v5ca/format/url/protocol/https",
+          "filename": "1_k4v0v5ca.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    }
+  ]
+}

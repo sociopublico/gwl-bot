@@ -108,6 +108,23 @@ def _parser() -> argparse.ArgumentParser:
     roster_p.add_argument("--day", required=True, help="YYYY-MM-DD")
     roster_p.add_argument("--slug", default="", help="Una sola ficha")
     roster_p.add_argument("--limit", type=int, default=0, help="Máximo de oradores")
+    roster_p.add_argument(
+        "--speakers-txt",
+        default="",
+        help="Además, exportar nombres a este archivo (p.ej. speakers.txt del monitor)",
+    )
+
+    export_sp = sub.add_parser(
+        "export-speakers",
+        help="Exportar nombres del roster JSON a speakers.txt (monitor de alertas)",
+        parents=[common],
+    )
+    export_sp.add_argument("--day", required=True, help="YYYY-MM-DD")
+    export_sp.add_argument(
+        "--speakers-txt",
+        default="speakers.txt",
+        help="Archivo de salida (default: speakers.txt en el cwd)",
+    )
 
     extract_p = sub.add_parser(
         "extract",
@@ -209,6 +226,22 @@ def _parser() -> argparse.ArgumentParser:
         action="store_true",
         help="No escribir metadata.csv local",
     )
+
+    site = sub.add_parser(
+        "progress-site",
+        help="Generar sitio estático de avance (docs/ para GitHub Pages)",
+        parents=[common],
+    )
+    site.add_argument(
+        "--docs",
+        default="",
+        help="Directorio de salida (default: docs/ en la raíz del repo)",
+    )
+    site.add_argument(
+        "--day",
+        default="",
+        help="Solo un día YYYY-MM-DD (default: todos los roster de la sesión)",
+    )
     return parser
 
 
@@ -267,6 +300,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.cmd == "roster":
         from pipeline.roster import (
             build_roster,
+            export_speaker_names,
             load_roster,
             merge_speakers,
             roster_path,
@@ -284,6 +318,9 @@ def main(argv: list[str] | None = None) -> int:
         if args.slug:
             payload = merge_speakers(load_roster(config, day), payload)
         write_roster(payload, path)
+        if args.speakers_txt:
+            export_path = export_speaker_names(payload, Path(args.speakers_txt))
+            print(f"speakers.txt → {export_path}", file=sys.stderr)
         speakers = payload.get("speakers") or []
         errors = 0
         for speaker in speakers:
@@ -308,6 +345,26 @@ def main(argv: list[str] | None = None) -> int:
             file=sys.stderr,
         )
         return 0 if errors == 0 else 2
+
+    if args.cmd == "export-speakers":
+        from pipeline.roster import export_speaker_names, load_roster, roster_path
+
+        day = args.day
+        payload = load_roster(config, day)
+        if not payload:
+            print(
+                f"error: no hay roster {roster_path(config, day)}",
+                file=sys.stderr,
+            )
+            return 1
+        export_path = export_speaker_names(payload, Path(args.speakers_txt))
+        names = [
+            str(s.get("name") or "").strip()
+            for s in (payload.get("speakers") or [])
+            if str(s.get("name") or "").strip()
+        ]
+        print(f"{len(names)} nombres → {export_path}")
+        return 0
 
     if args.cmd == "extract":
         try:
@@ -400,6 +457,19 @@ def main(argv: list[str] | None = None) -> int:
             do_sheet=args.sheet,
             write_csv=not args.no_csv,
         )
+
+    if args.cmd == "progress-site":
+        from pipeline.progress import REPO_ROOT, generate_progress_site
+
+        docs = Path(args.docs) if args.docs else (REPO_ROOT / "docs")
+        days = [args.day] if args.day else None
+        generate_progress_site(
+            config,
+            docs_dir=docs,
+            dest=dest,
+            days=days,
+        )
+        return 0
 
     return 1
 

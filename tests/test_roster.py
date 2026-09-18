@@ -8,6 +8,7 @@ from pipeline.config import load_session
 from pipeline.gadebate import parse_speaker_page
 from pipeline.roster import (
     chosen_source,
+    export_speaker_names,
     merge_speakers,
     page_from_entry,
     speaker_entry_from_page,
@@ -94,6 +95,27 @@ class RosterTest(unittest.TestCase):
             text = path.read_text(encoding="utf-8")
         self.assertIn('"brazil"', text)
         self.assertIn("audio_en", text)
+
+    def test_export_speaker_names(self) -> None:
+        payload = {
+            "speakers": [
+                {"slug": "brazil", "name": "Luiz Inacio Lula da Silva"},
+                {"slug": "france", "name": "Emmanuel Macron"},
+                {"slug": "dup", "name": "Emmanuel Macron"},
+                {"slug": "empty", "name": ""},
+            ]
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            path = export_speaker_names(payload, Path(tmp) / "speakers.txt")
+            lines = [
+                line
+                for line in path.read_text(encoding="utf-8").splitlines()
+                if line and not line.startswith("#")
+            ]
+        self.assertEqual(
+            lines,
+            ["Luiz Inacio Lula da Silva", "Emmanuel Macron"],
+        )
 
 
 if __name__ == "__main__":

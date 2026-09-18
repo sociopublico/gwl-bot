@@ -30,6 +30,7 @@ def _config(**overrides) -> Config:
         heartbeat_seconds=60,
         cpu_threads=4,
         log_level="INFO",
+        log_dir="logs",
         cookies_file=None,
         audio_read_timeout=30,
         smtp_host="",
@@ -37,6 +38,9 @@ def _config(**overrides) -> Config:
         smtp_user="",
         smtp_password="",
         smtp_from="",
+        smtp_user_b="",
+        smtp_password_b="",
+        smtp_from_b="",
         alert_email_to=(),
         smtp_starttls=True,
         smtp_ssl=False,
@@ -178,8 +182,9 @@ class SpeakerTrackerTest(unittest.TestCase):
             "The Assembly will now hear an address by His Excellency Luiz Inacio"
         )
         self.assertEqual(first.name, "unknown")
+        # Segundo chunk sigue siendo intro (completa el nombre): no atribuir aún.
         mid = tracker.observe("Lula da Silva, President of the Federative Republic of Brazil.")
-        self.assertIn("Inacio", mid.name)
+        self.assertEqual(mid.name, "unknown")
         full = tracker.observe("Brazil remains committed to multilateralism.")
         self.assertIn("Lula", full.name)
         self.assertIn("Inacio", full.name)

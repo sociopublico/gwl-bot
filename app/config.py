@@ -64,6 +64,7 @@ class Config:
     heartbeat_seconds: float
     cpu_threads: int
     log_level: str
+    log_dir: str
     cookies_file: str | None
     audio_read_timeout: float
     smtp_host: str
@@ -71,6 +72,9 @@ class Config:
     smtp_user: str
     smtp_password: str
     smtp_from: str
+    smtp_user_b: str
+    smtp_password_b: str
+    smtp_from_b: str
     alert_email_to: tuple[str, ...]
     smtp_starttls: bool
     smtp_ssl: bool
@@ -92,6 +96,10 @@ class Config:
     @property
     def email_enabled(self) -> bool:
         return bool(self.smtp_host and self.smtp_from and self.alert_email_to)
+
+    @property
+    def smtp_rotation_enabled(self) -> bool:
+        return bool(self.smtp_password_b)
 
     @property
     def chunk_bytes(self) -> int:
@@ -189,6 +197,7 @@ class Config:
             heartbeat_seconds=heartbeat_seconds,
             cpu_threads=cpu_threads,
             log_level=_env("LOG_LEVEL", "INFO") or "INFO",
+            log_dir=_env("LOG_DIR", "logs") or "logs",
             cookies_file=cookies,
             audio_read_timeout=_env_float("AUDIO_READ_TIMEOUT", 30),
             smtp_host=_env("SMTP_HOST"),
@@ -196,6 +205,9 @@ class Config:
             smtp_user=_env("SMTP_USER"),
             smtp_password=os.getenv("SMTP_PASSWORD", "") or "",
             smtp_from=_env("SMTP_FROM"),
+            smtp_user_b=_env("SMTP_USER_B"),
+            smtp_password_b=os.getenv("SMTP_PASSWORD_B", "") or "",
+            smtp_from_b=_env("SMTP_FROM_B"),
             alert_email_to=_parse_emails(_env("ALERT_EMAIL_TO")),
             smtp_starttls=_env_bool("SMTP_STARTTLS", True),
             smtp_ssl=smtp_ssl,

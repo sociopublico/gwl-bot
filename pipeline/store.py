@@ -133,6 +133,14 @@ def speech_to_txt(speech: ExtractedSpeech) -> str:
             f"language: {speech.language}",
             f"original_language: {speech.original_language}",
             f"transformation: {speech.transformation or transformation_for(speech.source)}",
+        ]
+    )
+    if speech.via:
+        header.append(f"via: {speech.via}")
+    if speech.elapsed_s:
+        header.append(f"elapsed_s: {speech.elapsed_s:.3f}")
+    header.extend(
+        [
             "---",
             "",
             speech.text.strip(),
@@ -159,6 +167,11 @@ def parse_speech_txt(path: Path) -> ExtractedSpeech:
     speech_id = normalize_speech_id(meta.get("id_speech", "")) or normalize_speech_id(
         path.stem
     )
+    elapsed_raw = (meta.get("elapsed_s") or "").strip()
+    try:
+        elapsed_s = float(elapsed_raw) if elapsed_raw else 0.0
+    except ValueError:
+        elapsed_s = 0.0
     return ExtractedSpeech(
         session_id=int(meta.get("session") or 0),
         slug=meta.get("slug") or path.stem,
@@ -174,6 +187,8 @@ def parse_speech_txt(path: Path) -> ExtractedSpeech:
         original_language=meta.get("original_language", ""),
         transformation=meta.get("transformation") or transformation_for(source),
         id_speech=speech_id,
+        via=meta.get("via", ""),
+        elapsed_s=elapsed_s,
     )
 
 
@@ -208,6 +223,8 @@ def append_manifest(directory: Path, speech: ExtractedSpeech, txt_path: Path) ->
         "language": speech.language,
         "original_language": speech.original_language,
         "transformation": speech.transformation,
+        "via": speech.via,
+        "elapsed_s": speech.elapsed_s,
         "chars": len(speech.text),
         "txt": str(txt_path),
         "skipped": speech.skipped,

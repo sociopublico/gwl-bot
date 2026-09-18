@@ -5,6 +5,8 @@ import smtplib
 import ssl
 import time
 from collections.abc import Sequence
+from dataclasses import dataclass
+from datetime import datetime
 from email.message import EmailMessage
 from typing import Protocol
 
@@ -16,12 +18,56 @@ logger = logging.getLogger(__name__)
 
 
 class Notifier(Protocol):
+    @property
+    def emails_sent(self) -> int: ...
+
     def notify(self, events: Sequence[DetectionEvent]) -> None: ...
 
 
 class NullNotifier:
+    @property
+    def emails_sent(self) -> int:
+        return 0
+
     def notify(self, events: Sequence[DetectionEvent]) -> None:
         return None
+
+
+@dataclass(frozen=True)
+class SmtpCredentials:
+    user: str
+    password: str
+    from_addr: str
+    slot: str
+
+
+def active_smtp_credentials(
+    config: Config,
+    *,
+    hour: int | None = None,
+) -> SmtpCredentials:
+    """Hora par → slot A; hora impar → slot B (si SMTP_PASSWORD_B está seteado)."""
+    if not config.smtp_rotation_enabled:
+        return SmtpCredentials(
+            user=config.smtp_user,
+            password=config.smtp_password,
+            from_addr=config.smtp_from,
+            slot="A",
+        )
+    when = datetime.now().hour if hour is None else hour
+    if when % 2 == 0:
+        return SmtpCredentials(
+            user=config.smtp_user,
+            password=config.smtp_password,
+            from_addr=config.smtp_from,
+            slot="A",
+        )
+    return SmtpCredentials(
+        user=config.smtp_user_b or config.smtp_user,
+        password=config.smtp_password_b,
+        from_addr=config.smtp_from_b or config.smtp_from,
+        slot="B",
+    )
 
 
 def select_events_for_alert(
@@ -103,6 +149,11 @@ class EmailNotifier:
         self.config = config
         self._clock = clock
         self._last_sent: dict[str, float] = {}
+        self._emails_sent = 0
+
+    @property
+    def emails_sent(self) -> int:
+        return self._emails_sent
 
     def notify(self, events: Sequence[DetectionEvent]) -> None:
         now = self._clock()
@@ -113,23 +164,33 @@ class EmailNotifier:
             now,
         )
         if not selected:
-            logger.debug("Email skipped (cooldown) | keywords=%s", [e.keyword for e in events])
+            logger.info(
+                "EMAIL_SKIPPED_COOLDOWN | keywords=%s",
+                ", ".join(dict.fromkeys(e.keyword for e in events)),
+            )
             return
 
         subject, body = build_email(selected)
+        creds = active_smtp_credentials(self.config)
         try:
-            self._send(subject, body)
+            self._send(subject, body, creds)
         except Exception as exc:
             logger.error("Email alert failed: %s", exc)
             return
 
         mark_sent(self._last_sent, selected, now)
-        logger.info("Email alert sent | to=%s | subject=%s", ", ".join(self.config.alert_email_to), subject)
+        self._emails_sent += 1
+        logger.info(
+            "Email alert sent | to=%s | subject=%s | smtp_slot=%s",
+            ", ".join(self.config.alert_email_to),
+            subject,
+            creds.slot,
+        )
 
-    def _send(self, subject: str, body: str) -> None:
+    def _send(self, subject: str, body: str, creds: SmtpCredentials) -> None:
         message = EmailMessage()
         message["Subject"] = subject
-        message["From"] = self.config.smtp_from
+        message["From"] = creds.from_addr
         message["To"] = ", ".join(self.config.alert_email_to)
         message.set_content(body)
 
@@ -141,7 +202,7 @@ class EmailNotifier:
                 timeout=self.config.smtp_timeout,
                 context=context,
             ) as client:
-                self._login_and_send(client, message)
+                self._login_and_send(client, message, creds)
             return
 
         with smtplib.SMTP(
@@ -151,11 +212,16 @@ class EmailNotifier:
         ) as client:
             if self.config.smtp_starttls:
                 client.starttls(context=ssl.create_default_context())
-            self._login_and_send(client, message)
+            self._login_and_send(client, message, creds)
 
-    def _login_and_send(self, client: smtplib.SMTP, message: EmailMessage) -> None:
-        if self.config.smtp_user:
-            client.login(self.config.smtp_user, self.config.smtp_password)
+    def _login_and_send(
+        self,
+        client: smtplib.SMTP,
+        message: EmailMessage,
+        creds: SmtpCredentials,
+    ) -> None:
+        if creds.user:
+            client.login(creds.user, creds.password)
         client.send_message(message)
 
 
@@ -169,11 +235,13 @@ def build_notifier(config: Config) -> Notifier:
             logger.info("Email alerts disabled (SMTP not configured)")
         return NullNotifier()
 
+    rotation = "on (even=A odd=B)" if config.smtp_rotation_enabled else "off"
     logger.info(
-        "Email alerts enabled | host=%s:%s | to=%s | cooldown=%.0fs",
+        "Email alerts enabled | host=%s:%s | to=%s | cooldown=%.0fs | key_rotation=%s",
         config.smtp_host,
         config.smtp_port,
         ", ".join(config.alert_email_to),
         config.alert_cooldown_seconds,
+        rotation,
     )
     return EmailNotifier(config)

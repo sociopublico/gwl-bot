@@ -341,6 +341,7 @@ class SpeakerTracker:
             self._current = self._pending
             self._pending = None
 
+        attributed = self._current
         extracted = self._extract(text)
         if extracted is not None:
             name = apply_alias(extracted.name, self.aliases)
@@ -380,9 +381,11 @@ class SpeakerTracker:
                     title,
                     extracted.source,
                 )
+                # Chunk de intro del chair: no atribuir keywords al orador saliente.
+                attributed = Speaker()
 
         self._previous_text = text
-        return self._current
+        return attributed
 
     def _extract(self, text: str) -> Speaker | None:
         compact = " ".join(text.split())

@@ -10,7 +10,7 @@ Respondé únicamente un objeto JSON cuyas claves coincidan con las columnas
 de la pestaña Analysis del spreadsheet. No inventes claves extra.
 
 Campos de identidad (el pipeline los pisa con metadatos del .txt):
-slug, date_time, country, speaker_name, ficha_url
+slug, date_time, id_speech, country, speaker_name, ficha_url
 
 Campos de análisis (placeholder hasta tener el xls de ejemplo):
 summary — un párrafo en inglés con el eje del discurso

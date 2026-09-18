@@ -19,6 +19,9 @@ class ConfigDefaultsTest(unittest.TestCase):
         self.assertTrue(config.exit_on_eof)
         self.assertTrue(config.speaker_tracking)
         self.assertEqual(config.speaker_llm_model, "gpt-4o-mini")
+        self.assertEqual(config.log_dir, "logs")
+        self.assertEqual(config.smtp_password_b, "")
+        self.assertFalse(config.smtp_rotation_enabled)
 
     def test_stream_start_cannot_be_negative(self) -> None:
         env = {

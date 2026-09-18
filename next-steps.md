@@ -1,13 +1,27 @@
-LOCAL
+SETUP
+
+python3 -m venv pipeline/.venv
+
+pipeline/.venv/bin/pip install -U pip
+
+pipeline/.venv/bin/pip install -r pipeline/requirements.txt  
+
+
+
+ANALISIS
+
+pipeline/.venv/bin/python -m pipeline roster  --session 80 --day 2025-09-23 --speakers-txt speakers.txt   
+
+docker compose up --build
+
+
+
+ALERTAS 
 
 pipeline/.venv/bin/python -m pipeline roster --session 80 --day 2025-09-23
 
-git add pipeline/data/roster/80/2025-09-23.json && git commit && git push
+pipeline/.venv/bin/python -m pipeline fetch --session 80 --day 2025-09-23 --skip-existing
 
+pipeline/.venv/bin/python -m pipeline publish --session 80 --day 2025-09-23 --sheet  --github
 
-
-SERVER
-
-pipeline/.venv/bin/python -m pipeline fetch --session 80 --day 2025-09-23
-
-pipeline/.venv/bin/python -m pipeline publish --session 80 --day 2025-09-23 --sheet  
+pipeline/.venv/bin/python -m pipeline analyze --session 80 --day 2025-09-23   

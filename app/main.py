@@ -10,7 +10,7 @@ from app.audio import AudioStream, EndOfStream, ShutdownRequested, StreamError
 from app.clock import StreamClock
 from app.config import Config
 from app.detector import detect_keywords
-from app.events import emit_detections
+from app.events import DetectionDeduper, emit_detections
 from app.logger import setup_logging
 from app.notifier import build_notifier
 from app.speaker import Speaker, SpeakerTracker
@@ -40,6 +40,7 @@ def run(config: Config) -> None:
     stop_event = threading.Event()
     _install_signal_handlers(stop_event)
 
+    logger.info("SESSION_START | stream monitor | log_dir=%s", config.log_dir)
     logger.info("Starting stream monitor")
     logger.info("Stream: %s", config.stream_url)
     logger.info(
@@ -62,6 +63,7 @@ def run(config: Config) -> None:
     transcriber.load()
     notifier = build_notifier(config)
     tracker = SpeakerTracker(config) if config.speaker_tracking else None
+    deduper = DetectionDeduper(ttl_seconds=max(config.chunk_overlap_seconds * 2, 8.0))
 
     started = time.monotonic()
     last_heartbeat = started
@@ -103,16 +105,18 @@ def run(config: Config) -> None:
                         speaker_title=speaker.display_title,
                         timestamp_reliable=stream.origin_reliable,
                     )
-                    emit_detections(events, notifier)
-                    detections += len(events)
+                    unique = emit_detections(events, notifier, deduper=deduper)
+                    detections += len(unique)
 
                     now = time.monotonic()
                     if now - last_heartbeat >= config.heartbeat_seconds:
                         logger.info(
-                            "Still listening | uptime=%.0fs | chunks=%s | detections=%s | speaker=%s",
+                            "Still listening | uptime=%.0fs | chunks=%s | detections=%s | "
+                            "emails_sent=%s | speaker=%s",
                             now - started,
                             chunks,
                             detections,
+                            notifier.emails_sent,
                             speaker.name,
                         )
                         last_heartbeat = now
@@ -135,11 +139,13 @@ def run(config: Config) -> None:
             break
 
     logger.info(
-        "Shutting down | uptime=%.0fs | chunks=%s | detections=%s",
+        "Shutting down | uptime=%.0fs | chunks=%s | detections=%s | emails_sent=%s",
         time.monotonic() - started,
         chunks,
         detections,
+        notifier.emails_sent,
     )
+    logger.info("SESSION_END | stream monitor")
 
 
 def main() -> None:
@@ -149,5 +155,5 @@ def main() -> None:
         print(f"Configuration error: {exc}", file=sys.stderr)
         sys.exit(1)
 
-    setup_logging(config.log_level)
+    setup_logging(config.log_level, config.log_dir)
     run(config)

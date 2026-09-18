@@ -119,6 +119,28 @@ def write_roster(payload: dict, path: Path) -> Path:
     return path
 
 
+def export_speaker_names(payload: dict, path: Path) -> Path:
+    """Escribe un nombre por línea para SPEAKER_ROSTER_FILE del monitor en vivo."""
+    names: list[str] = []
+    seen: set[str] = set()
+    for speaker in payload.get("speakers") or []:
+        name = str(speaker.get("name") or "").strip()
+        if not name:
+            continue
+        key = name.casefold()
+        if key in seen:
+            continue
+        seen.add(key)
+        names.append(name)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    body = "# Auto-exportado desde roster UNGA para el monitor de alertas\n"
+    body += "\n".join(names)
+    if names:
+        body += "\n"
+    path.write_text(body, encoding="utf-8")
+    return path
+
+
 def merge_speakers(existing: dict | None, incoming: dict) -> dict:
     """Reemplaza o agrega oradores por slug; conserva el orden del roster previo."""
     if not existing or not existing.get("speakers"):

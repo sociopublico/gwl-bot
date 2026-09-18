@@ -57,6 +57,7 @@ PIPELINE_CPU_THREADS=1
 # Analyze con Claude (opcional)
 # ANTHROPIC_API_KEY=...
 # ANTHROPIC_MODEL=claude-haiku-4-5
+# ANTHROPIC_CACHE_TTL=1h   # 1h | 5m | off — prompt caching del system
 ```
 
 Copiá el JSON de la service account a `secrets/google-sa.json` (o la ruta de `PIPELINE_SA_FILE`) y compartí el Sheet con el email de esa cuenta como Editor.
@@ -89,6 +90,8 @@ Scrape de fichas HTML en [gadebate.un.org](https://gadebate.un.org). Escribe un 
 
 ```bash
 pipeline/.venv/bin/python -m pipeline roster --session 80 --day 2025-09-23
+# Opcional: exportar nombres para el monitor de alertas
+pipeline/.venv/bin/python -m pipeline roster --session 80 --day 2025-09-23 --speakers-txt speakers.txt
 ```
 
 Salida: `pipeline/data/roster/80/2025-09-23.json`.
@@ -138,7 +141,7 @@ docker compose -f docker-compose.pipeline.yml run --rm pipeline \
   analyze --session 80 --day 2025-09-23
 ```
 
-Idempotente por `slug|date`. Con stub, sale sin llamar a la API. `--dry-run` lista qué haría. Para forzar prueba con stub: `ANALYZE_ALLOW_STUB=1`.
+Idempotente por `slug|date|id_speech`. Con stub, sale sin llamar a la API. `--dry-run` lista qué haría. Para forzar prueba con stub: `ANALYZE_ALLOW_STUB=1`.
 
 ## Atajo: roster + extract en un comando
 
@@ -150,6 +153,20 @@ docker compose -f docker-compose.pipeline.yml run --rm pipeline \
 ```
 
 Si el scrape de gadebate falla dentro de Docker (WAF/proxy), usá el flujo separado: `roster` con el venv y después `extract` con Compose.
+
+## Dashboard de avance (GitHub Pages)
+
+Sitio estático con accordion por día y timeline por orador (fetch orador → discurso → análisis, con summary/notes).
+
+```bash
+# Local (venv del pipeline)
+pipeline/.venv/bin/python -m pipeline progress-site --session 80
+# → docs/index.html + docs/data/progress.json
+```
+
+Tras `analyze`, cada discurso deja un snapshot en `pipeline/data/analysis/<session>/<day>/<slug>.json` (queda en el repo; el sitio lo lee).
+
+Publicación: workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml) regenera `docs/` y despliega Pages. En el repo: **Settings → Pages → Source = GitHub Actions**.
 
 ## Otros comandos
 
@@ -170,15 +187,18 @@ docker compose -f docker-compose.pipeline.yml run --rm pipeline refresh-protocol
 
 ```text
 pipeline/
-  cli.py              comandos (roster, extract, publish, analyze, …)
+  cli.py              comandos (roster, extract, publish, analyze, progress-site, …)
   roster.py           scrape → JSON
   extract_*.py        PDF / OCR / audio / video
   cascade.py          orden de fuentes
   sheets.py           Google Sheets
-  analyze.py          Claude → pestaña Analysis
+  analyze.py          Claude → pestaña Analysis + snapshot local
+  progress.py         agregación de avance + generador docs/
   data/roster/        JSON diarios
+  data/analysis/      snapshots de análisis (summary/notes)
   data/analyze-prompt.md
   out/<session>/<day>/*.txt
+docs/                 sitio estático (GitHub Pages)
 ```
 
 ## Troubleshooting

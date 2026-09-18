@@ -48,6 +48,7 @@ KEYWORDS=women,gender,refugees
 | `SPEAKER_TRACKING` | `true` | Rastrea orador por presentaciones de protocolo |
 | `SPEAKER_ROSTER_FILE` | vacío | Archivo con un orador por línea (Compose monta `speakers.txt`) |
 | `LOG_LEVEL` | `INFO` | `DEBUG` para ver stderr de FFmpeg |
+| `LOG_DIR` | `logs` | Directorio de `full.log` + `highlights.log` (flush inmediato) |
 
 SMTP (opcional; sin esto solo hay log):
 
@@ -55,7 +56,9 @@ SMTP (opcional; sin esto solo hay log):
 |---|---|
 | `SMTP_HOST` | Si está vacío, no se mandan mails |
 | `SMTP_PORT` | `587` (STARTTLS) o `465` (SSL) |
-| `SMTP_USER` / `SMTP_PASSWORD` | Credenciales |
+| `SMTP_USER` / `SMTP_PASSWORD` | Credenciales (slot A; horas pares si hay rotación) |
+| `SMTP_PASSWORD_B` | Segunda key (opcional). Horas impares usan slot B |
+| `SMTP_USER_B` / `SMTP_FROM_B` | Opcional; si vacío, reusan A |
 | `SMTP_FROM` | Remitente (obligatorio para activar email) |
 | `ALERT_EMAIL_TO` | Destinatarios separados por coma |
 | `ALERT_COOLDOWN_SECONDS` | Mínimo entre emails de la **misma** keyword (default `120`) |
@@ -68,10 +71,24 @@ docker compose up --build
 
 La primera vez descarga el modelo de Whisper (~140 MB para `base`) al volumen `whisper-models`.
 
-Logs:
+### Logs en disco
+
+Cada línea se escribe y flushea al toque (no hace falta esperar al fin del proceso):
+
+| Archivo | Contenido |
+|---|---|
+| `logs/full.log` | Igual que la consola |
+| `logs/highlights.log` | Solo `SPEAKER_CHANGED`, `KEYWORD_DETECTED`, email sent/failed/cooldown, errores, inicio/fin de sesión |
+
+Rotación diaria (14 días). Compose monta `./logs` → `/app/logs`.
+
+Consola:
 
 ```bash
 docker compose logs -f
+# o
+tail -f logs/full.log
+tail -f logs/highlights.log
 ```
 
 Parar:
@@ -112,6 +129,30 @@ Matching case-insensitive y por palabra (`\b`):
 
 ## Email (opcional)
 
+### Resend (recomendado)
+
+1. Verificá un dominio propio en [resend.com/domains](https://resend.com/domains) (ideal: `alerts.tudominio.com`).
+2. Creá una o dos API keys.
+3. Configurá:
+
+```env
+SMTP_HOST=smtp.resend.com
+SMTP_PORT=587
+SMTP_USER=resend
+SMTP_PASSWORD=re_xxxxx_key_A
+SMTP_PASSWORD_B=re_yyyyy_key_B
+SMTP_FROM=bot@alerts.tudominio.com
+ALERT_EMAIL_TO=vos@org.org,companera@org.org
+SMTP_STARTTLS=true
+ALERT_COOLDOWN_SECONDS=120
+```
+
+- **Destinatarios:** cualquier mail; la compañera no tiene que validar nada. Separá con comas.
+- **From:** tiene que ser del dominio verificado. Con `resend.dev` solo podés mandarte a tu propia cuenta de Resend.
+- **Rotación de keys:** si `SMTP_PASSWORD_B` está seteado, horas **pares** usan A y horas **impares** usan B (se elige al momento del envío).
+
+### Gmail u otro SMTP
+
 ```env
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
@@ -130,6 +171,20 @@ docker compose up -d
 Al arrancar deberías ver `Email alerts enabled | ...`.
 
 Con Gmail: activar 2FA y usar un [App Password](https://myaccount.google.com/apppasswords).
+
+## Oradores (speaker tracking)
+
+El monitor detecta cambios de orador desde el ASR cuando el chair presenta (`His Excellency…`, `give the floor`, etc.). En el chunk de la intro las keywords quedan como `unknown`; el nombre nuevo aplica en el chunk siguiente (cuando arranca a hablar la persona).
+
+Eso **no** es lo mismo que el pipeline de análisis: ahí Whisper solo transcribe un discurso ya aislado y el nombre viene del roster gadebate.
+
+Para mejorar el fuzzy match del monitor, exportá los nombres del roster del día a `speakers.txt`:
+
+```bash
+pipeline/.venv/bin/python -m pipeline roster --session 80 --day 2025-09-23 --speakers-txt speakers.txt
+# o, si el JSON ya existe:
+pipeline/.venv/bin/python -m pipeline export-speakers --session 80 --day 2025-09-23 --speakers-txt speakers.txt
+```
 
 ## Cambiar el modelo Whisper
 
@@ -191,6 +246,7 @@ app/
   transcriber.py   faster-whisper
   speaker.py       presentaciones de protocolo + LLM opcional
   detector.py      regex con word boundaries
-  events.py        log + notifier
-  notifier.py      email SMTP + cooldown
+  events.py        log + dedup + notifier
+  notifier.py      email SMTP + cooldown + rotación de keys
+  logger.py        consola + full.log + highlights.log
 ```

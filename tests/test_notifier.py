@@ -2,12 +2,15 @@ from __future__ import annotations
 
 import unittest
 from datetime import datetime, timezone
+from unittest.mock import patch
 
 from app.config import Config
 from app.detector import DetectionEvent
 from app.notifier import (
     EmailNotifier,
     NullNotifier,
+    SmtpCredentials,
+    active_smtp_credentials,
     build_email,
     build_notifier,
     mark_sent,
@@ -102,6 +105,7 @@ def _config(**overrides) -> Config:
         heartbeat_seconds=60,
         cpu_threads=4,
         log_level="INFO",
+        log_dir="logs",
         cookies_file=None,
         audio_read_timeout=30,
         smtp_host="smtp.example.com",
@@ -109,6 +113,9 @@ def _config(**overrides) -> Config:
         smtp_user="user",
         smtp_password="secret",
         smtp_from="bot@example.com",
+        smtp_user_b="",
+        smtp_password_b="",
+        smtp_from_b="",
         alert_email_to=("alerts@example.com",),
         smtp_starttls=True,
         smtp_ssl=False,
@@ -125,7 +132,7 @@ class EmailNotifierTest(unittest.TestCase):
         clock = {"now": 10.0}
 
         class Recording(EmailNotifier):
-            def _send(self, subject: str, body: str) -> None:
+            def _send(self, subject: str, body: str, creds: SmtpCredentials) -> None:
                 sent.append((subject, body))
 
         notifier = Recording(_config(), clock=lambda: clock["now"])
@@ -133,6 +140,7 @@ class EmailNotifierTest(unittest.TestCase):
         notifier.notify(events)
         self.assertEqual(len(sent), 1)
         self.assertEqual(sent[0][0], "KEYWORD_DETECTED | women, gender")
+        self.assertEqual(notifier.emails_sent, 1)
 
         clock["now"] = 50.0
         notifier.notify(events)
@@ -141,22 +149,84 @@ class EmailNotifierTest(unittest.TestCase):
         clock["now"] = 200.0
         notifier.notify(events)
         self.assertEqual(len(sent), 2)
+        self.assertEqual(notifier.emails_sent, 2)
 
     def test_smtp_failure_does_not_arm_cooldown(self) -> None:
         clock = {"now": 10.0}
 
         class Failing(EmailNotifier):
-            def _send(self, subject: str, body: str) -> None:
+            def _send(self, subject: str, body: str, creds: SmtpCredentials) -> None:
                 raise OSError("smtp down")
 
         notifier = Failing(_config(), clock=lambda: clock["now"])
         notifier.notify([_event("women")])
         self.assertEqual(notifier._last_sent, {})
+        self.assertEqual(notifier.emails_sent, 0)
 
     def test_build_notifier_disabled_without_smtp(self) -> None:
         notifier = build_notifier(_config(smtp_host="", smtp_from="", alert_email_to=()))
         self.assertIsInstance(notifier, NullNotifier)
         notifier.notify([_event("women")])
+
+    def test_cooldown_skip_logged_at_info(self) -> None:
+        clock = {"now": 10.0}
+
+        class Recording(EmailNotifier):
+            def _send(self, subject: str, body: str, creds: SmtpCredentials) -> None:
+                return None
+
+        notifier = Recording(_config(), clock=lambda: clock["now"])
+        notifier.notify([_event("women")])
+        clock["now"] = 20.0
+        with self.assertLogs("app.notifier", level="INFO") as captured:
+            notifier.notify([_event("women")])
+        self.assertTrue(any("EMAIL_SKIPPED_COOLDOWN" in line for line in captured.output))
+
+    def test_active_smtp_credentials_rotates_by_hour(self) -> None:
+        config = _config(
+            smtp_password="key-a",
+            smtp_password_b="key-b",
+            smtp_user="resend",
+            smtp_from="bot@alerts.example.com",
+        )
+        even = active_smtp_credentials(config, hour=14)
+        odd = active_smtp_credentials(config, hour=15)
+        self.assertEqual(even.slot, "A")
+        self.assertEqual(even.password, "key-a")
+        self.assertEqual(odd.slot, "B")
+        self.assertEqual(odd.password, "key-b")
+
+    def test_rotation_disabled_without_password_b(self) -> None:
+        config = _config(smtp_password="only-a", smtp_password_b="")
+        self.assertFalse(config.smtp_rotation_enabled)
+        creds = active_smtp_credentials(config, hour=15)
+        self.assertEqual(creds.slot, "A")
+        self.assertEqual(creds.password, "only-a")
+
+    def test_send_uses_active_slot_credentials(self) -> None:
+        sent: list[SmtpCredentials] = []
+
+        class Recording(EmailNotifier):
+            def _send(self, subject: str, body: str, creds: SmtpCredentials) -> None:
+                sent.append(creds)
+
+        with patch(
+            "app.notifier.active_smtp_credentials",
+            return_value=SmtpCredentials(
+                user="resend",
+                password="key-b",
+                from_addr="bot@alerts.example.com",
+                slot="B",
+            ),
+        ):
+            notifier = Recording(
+                _config(smtp_password="key-a", smtp_password_b="key-b"),
+                clock=lambda: 10.0,
+            )
+            notifier.notify([_event("women")])
+        self.assertEqual(len(sent), 1)
+        self.assertEqual(sent[0].slot, "B")
+        self.assertEqual(notifier.emails_sent, 1)
 
 
 if __name__ == "__main__":
