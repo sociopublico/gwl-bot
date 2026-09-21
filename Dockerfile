@@ -27,6 +27,7 @@ COPY app/ app/
 COPY pipeline/ pipeline/
 COPY tests/ tests/
 COPY speakers.txt speakers.txt
+COPY claude-prompt.md claude-prompt.md
 
 RUN python -c "from app.detector import detect_keywords; \
 e=detect_keywords('Today we want to talk about Women and their participation', ('women',), 4); \

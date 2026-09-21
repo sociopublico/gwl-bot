@@ -11,6 +11,8 @@ __pycache__
 .mypy_cache
 .ruff_cache
 *.md
+!claude-prompt.md
+!pipeline/data/*.md
 pipeline/out
 pipeline/cache
 pipeline/.venv
