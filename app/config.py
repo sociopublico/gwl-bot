@@ -94,6 +94,7 @@ class Config:
     speaker_llm_base_url: str = "https://api.openai.com/v1"
     speaker_llm_model: str = "gpt-4o-mini"
     speaker_llm_timeout: float = 8.0
+    webtv_url: str = ""
 
     @property
     def email_enabled(self) -> bool:
@@ -126,6 +127,12 @@ class Config:
         stream_url = _env("STREAM_URL")
         if not stream_url:
             raise ValueError("STREAM_URL es obligatorio")
+
+        webtv_url = _env("WEBTV_URL")
+        if webtv_url:
+            from app.webtv import webtv_url_at
+
+            webtv_url_at(webtv_url, 0)
 
         language_raw = _env("LANGUAGE", "en")
         cookies = _env("COOKIES_FILE") or None
@@ -237,4 +244,5 @@ class Config:
             or "https://api.openai.com/v1",
             speaker_llm_model=_env("SPEAKER_LLM_MODEL", "gpt-4o-mini") or "gpt-4o-mini",
             speaker_llm_timeout=speaker_llm_timeout,
+            webtv_url=webtv_url,
         )

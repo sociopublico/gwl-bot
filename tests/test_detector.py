@@ -3,7 +3,7 @@ from __future__ import annotations
 import unittest
 from datetime import datetime, timezone
 
-from app.detector import detect_keywords
+from app.detector import detect_keywords, mark_keywords_html, mark_keywords_plain
 from app.transcript import TranscriptSegment
 
 
@@ -21,6 +21,7 @@ class DetectKeywordsTest(unittest.TestCase):
             segments=segments,
             window_start=2830.0,
             video_id="KnIFmbdRCi0",
+            webtv_asset_url="https://webtv.un.org/en/asset/k10/k10h1p03zp",
             speaker="Luiz Inacio Lula da Silva",
         )
         self.assertEqual(len(events), 1)
@@ -28,10 +29,24 @@ class DetectKeywordsTest(unittest.TestCase):
         self.assertAlmostEqual(event.video_seconds or 0, 2834.0)
         self.assertEqual(
             event.watch_url,
-            "https://www.youtube.com/embed/KnIFmbdRCi0?start=2834",
+            "https://www.youtube.com/watch?v=KnIFmbdRCi0",
+        )
+        self.assertEqual(
+            event.webtv_url,
+            "https://webtv.un.org/en/asset/k10/k10h1p03zp?kalturaStartTime=2834",
         )
         self.assertEqual(event.speaker, "Luiz Inacio Lula da Silva")
         self.assertIn("women", event.context)
+
+    def test_mark_keywords_wraps_hits(self) -> None:
+        text = "Today we want to talk about women and gender."
+        self.assertEqual(
+            mark_keywords_plain(text, ("women", "gender")),
+            "Today we want to talk about **women** and **gender**.",
+        )
+        html = mark_keywords_html(text, ("women",))
+        self.assertIn("<strong>women</strong>", html)
+        self.assertNotIn("<script>", html)
 
     def test_word_boundaries_still_apply(self) -> None:
         self.assertEqual(

@@ -6,7 +6,8 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 
 from app.transcript import TranscriptSegment
-from app.youtube import watch_url_at
+from app.webtv import webtv_url_at
+from app.youtube import watch_url
 
 _WORD_RE = re.compile(r"\S+")
 
@@ -21,6 +22,7 @@ class DetectionEvent:
     speaker_title: str | None = None
     video_seconds: float | None = None
     watch_url: str | None = None
+    webtv_url: str | None = None
     timestamp_reliable: bool = True
 
 
@@ -30,6 +32,46 @@ def _keyword_pattern(keyword: str) -> re.Pattern[str]:
         raise ValueError("keyword vacía")
     body = r"\s+".join(parts)
     return re.compile(rf"(?i)\b{body}\b")
+
+
+def keyword_spans(text: str, keywords: Sequence[str]) -> list[tuple[int, int, str]]:
+    spans: list[tuple[int, int, str]] = []
+    for keyword in keywords:
+        for match in _keyword_pattern(keyword).finditer(text):
+            spans.append((match.start(), match.end(), match.group(0)))
+    spans.sort(key=lambda item: (item[0], -(item[1] - item[0])))
+    merged: list[tuple[int, int, str]] = []
+    last_end = -1
+    for start, end, hit in spans:
+        if start < last_end:
+            continue
+        merged.append((start, end, hit))
+        last_end = end
+    return merged
+
+
+def mark_keywords_plain(text: str, keywords: Sequence[str]) -> str:
+    parts: list[str] = []
+    cursor = 0
+    for start, end, hit in keyword_spans(text, keywords):
+        parts.append(text[cursor:start])
+        parts.append(f"**{hit}**")
+        cursor = end
+    parts.append(text[cursor:])
+    return "".join(parts)
+
+
+def mark_keywords_html(text: str, keywords: Sequence[str]) -> str:
+    import html
+
+    parts: list[str] = []
+    cursor = 0
+    for start, end, hit in keyword_spans(text, keywords):
+        parts.append(html.escape(text[cursor:start]))
+        parts.append(f"<strong>{html.escape(hit)}</strong>")
+        cursor = end
+    parts.append(html.escape(text[cursor:]))
+    return "".join(parts)
 
 
 def _snippet(text: str, match: re.Match[str], context_words: int) -> str:
@@ -87,6 +129,7 @@ def detect_keywords(
     segments: Sequence[TranscriptSegment] | None = None,
     window_start: float | None = None,
     video_id: str | None = None,
+    webtv_asset_url: str | None = None,
     speaker: str = "unknown",
     speaker_title: str | None = None,
     timestamp_reliable: bool = True,
@@ -108,9 +151,10 @@ def detect_keywords(
             matched = _segment_at(spans, match.start())
             if matched is not None and window_start is not None:
                 video_seconds = window_start + matched.start
-            watch_url = None
-            if video_id and video_seconds is not None:
-                watch_url = watch_url_at(video_id, video_seconds)
+            live_url = watch_url(video_id) if video_id else None
+            jump_url = None
+            if webtv_asset_url and video_seconds is not None:
+                jump_url = webtv_url_at(webtv_asset_url, video_seconds)
             events.append(
                 DetectionEvent(
                     timestamp=now,
@@ -120,7 +164,8 @@ def detect_keywords(
                     speaker=speaker,
                     speaker_title=speaker_title,
                     video_seconds=video_seconds,
-                    watch_url=watch_url,
+                    watch_url=live_url,
+                    webtv_url=jump_url,
                     timestamp_reliable=timestamp_reliable,
                 )
             )

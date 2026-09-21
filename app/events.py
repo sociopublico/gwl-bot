@@ -53,8 +53,6 @@ def emit_detection(event: DetectionEvent) -> None:
     if event.video_seconds is not None:
         parts.append(f"t={int(round(event.video_seconds))}s")
     parts.append(event.context)
-    if event.watch_url:
-        parts.append(event.watch_url)
     logger.log(KEYWORD_DETECTED, "%s", " | ".join(parts))
     logger.debug(
         "Detection detail | ts=%s | keyword=%s | speaker=%s | transcript=%s",

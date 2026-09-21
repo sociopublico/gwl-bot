@@ -24,6 +24,28 @@ class ConfigDefaultsTest(unittest.TestCase):
         self.assertFalse(config.smtp_rotation_enabled)
         self.assertEqual(config.watchdog_seconds, 180)
         self.assertEqual(config.watchdog_email_cooldown, 600)
+        self.assertEqual(config.webtv_url, "")
+
+    def test_webtv_url_from_env(self) -> None:
+        env = {
+            "STREAM_URL": "https://www.youtube.com/watch?v=KnIFmbdRCi0",
+            "WEBTV_URL": "https://webtv.un.org/en/asset/k10/k10h1p03zp",
+        }
+        with patch.dict(os.environ, env, clear=True):
+            config = Config.from_env()
+        self.assertEqual(
+            config.webtv_url,
+            "https://webtv.un.org/en/asset/k10/k10h1p03zp",
+        )
+
+    def test_webtv_url_must_be_absolute(self) -> None:
+        env = {
+            "STREAM_URL": "https://www.youtube.com/watch?v=KnIFmbdRCi0",
+            "WEBTV_URL": "not-a-url",
+        }
+        with patch.dict(os.environ, env, clear=True):
+            with self.assertRaises(ValueError):
+                Config.from_env()
 
     def test_stream_start_cannot_be_negative(self) -> None:
         env = {

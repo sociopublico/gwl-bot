@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import unittest
 
-from app.youtube import format_timecode, video_id_from_url, watch_page_url_at, watch_url_at
+from app.youtube import format_timecode, video_id_from_url, watch_url
 
 
 class VideoIdFromUrlTest(unittest.TestCase):
@@ -25,24 +25,14 @@ class VideoIdFromUrlTest(unittest.TestCase):
         self.assertIsNone(video_id_from_url("https://example.com/watch?v=KnIFmbdRCi0"))
 
 
-class WatchUrlAtTest(unittest.TestCase):
-    def test_rounds_to_int_seconds(self) -> None:
+class WatchUrlTest(unittest.TestCase):
+    def test_live_page_has_no_timestamp(self) -> None:
         self.assertEqual(
-            watch_url_at("KnIFmbdRCi0", 2830.4),
-            "https://www.youtube.com/embed/KnIFmbdRCi0?start=2830",
+            watch_url("KnIFmbdRCi0"),
+            "https://www.youtube.com/watch?v=KnIFmbdRCi0",
         )
-
-    def test_clamps_negative(self) -> None:
-        self.assertEqual(
-            watch_url_at("KnIFmbdRCi0", -3),
-            "https://www.youtube.com/embed/KnIFmbdRCi0?start=0",
-        )
-
-    def test_watch_page_keeps_t_seconds(self) -> None:
-        self.assertEqual(
-            watch_page_url_at("KnIFmbdRCi0", 2830.4),
-            "https://www.youtube.com/watch?v=KnIFmbdRCi0&t=2830",
-        )
+        self.assertNotIn("t=", watch_url("KnIFmbdRCi0"))
+        self.assertNotIn("embed", watch_url("KnIFmbdRCi0"))
 
 
 class FormatTimecodeTest(unittest.TestCase):

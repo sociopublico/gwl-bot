@@ -54,16 +54,21 @@ class SelectEventsForAlertTest(unittest.TestCase):
 
 class BuildEmailTest(unittest.TestCase):
     def test_subject_and_body_include_keywords(self) -> None:
-        subject, body = build_email(
+        subject, body, html = build_email(
             [_event("women", '"...talk about women..."'), _event("gender", '"...and gender..."')]
         )
         self.assertEqual(subject, "KEYWORD_DETECTED | women, gender")
         self.assertIn("Keyword(s): women, gender", body)
-        self.assertIn("Time: 2026-09-01 15:32:17", body)
-        self.assertIn("context: \"...talk about women...\"", body)
-        self.assertIn("Today we want to talk about women and gender.", body)
+        self.assertIn("When: 2026-09-01 15:32:17 UTC", body)
+        self.assertIn("New York:", body)
+        self.assertIn("Chunk:", body)
+        self.assertIn("talk about **women** and **gender**", body)
+        self.assertNotIn("embed", body)
+        self.assertNotIn("context:", body)
+        self.assertIn("<strong>women</strong>", html)
+        self.assertIn("<strong>gender</strong>", html)
 
-    def test_includes_speaker_and_watch_url(self) -> None:
+    def test_includes_speaker_live_url_without_timestamp(self) -> None:
         event = _event("women", '"...talk about women..."')
         event = DetectionEvent(
             timestamp=event.timestamp,
@@ -73,15 +78,40 @@ class BuildEmailTest(unittest.TestCase):
             speaker="Luiz Inacio Lula da Silva",
             speaker_title="President of Brazil",
             video_seconds=2845,
-            watch_url="https://www.youtube.com/embed/KnIFmbdRCi0?start=2845",
+            watch_url="https://www.youtube.com/watch?v=KnIFmbdRCi0",
         )
-        subject, body = build_email([event])
+        subject, body, html = build_email([event])
         self.assertEqual(subject, "KEYWORD_DETECTED | women | Luiz Inacio Lula da Silva")
         self.assertIn("Speaker: Luiz Inacio Lula da Silva", body)
-        self.assertIn("Video time: 47:25", body)
-        self.assertIn("Watch: https://www.youtube.com/embed/KnIFmbdRCi0?start=2845", body)
-        self.assertIn("Watch page: https://www.youtube.com/watch?v=KnIFmbdRCi0&t=2845", body)
-        self.assertIn("context: \"...talk about women...\"", body)
+        self.assertIn("Player: 47:25", body)
+        self.assertIn("YouTube: https://www.youtube.com/watch?v=KnIFmbdRCi0", body)
+        self.assertNotIn("t=2845", body)
+        self.assertNotIn("embed", body)
+        self.assertNotIn("embed", html)
+        self.assertIn("YouTube live ignores timestamp links", body)
+        self.assertNotIn("UN Web TV:", body)
+        self.assertIn("talk about **women** and gender", body)
+        self.assertIn("<strong>women</strong>", html)
+
+    def test_includes_webtv_timestamp_link(self) -> None:
+        event = DetectionEvent(
+            timestamp=datetime(2026, 9, 1, 15, 32, 17, tzinfo=timezone.utc),
+            keyword="women",
+            transcript="Today we want to talk about women and gender.",
+            context='"...talk about women..."',
+            video_seconds=3600,
+            watch_url="https://www.youtube.com/watch?v=KnIFmbdRCi0",
+            webtv_url="https://webtv.un.org/en/asset/k10/k10h1p03zp?kalturaStartTime=3600",
+        )
+        _subject, body, html = build_email([event])
+        self.assertIn(
+            "UN Web TV: https://webtv.un.org/en/asset/k10/k10h1p03zp?kalturaStartTime=3600",
+            body,
+        )
+        self.assertIn("YouTube: https://www.youtube.com/watch?v=KnIFmbdRCi0", body)
+        self.assertNotIn("YouTube live ignores timestamp links", body)
+        self.assertIn("kalturaStartTime=3600", html)
+        self.assertIn("UN Web TV", html)
 
     def test_mark_sent_uses_casefold(self) -> None:
         last_sent: dict[str, float] = {}
@@ -133,7 +163,7 @@ class EmailNotifierTest(unittest.TestCase):
         clock = {"now": 10.0}
 
         class Recording(EmailNotifier):
-            def _send(self, subject: str, body: str, creds: SmtpCredentials) -> None:
+            def _send(self, subject: str, body: str, creds: SmtpCredentials, html=None) -> None:
                 sent.append((subject, body))
 
         notifier = Recording(_config(), clock=lambda: clock["now"])
@@ -156,7 +186,7 @@ class EmailNotifierTest(unittest.TestCase):
         clock = {"now": 10.0}
 
         class Failing(EmailNotifier):
-            def _send(self, subject: str, body: str, creds: SmtpCredentials) -> None:
+            def _send(self, subject: str, body: str, creds: SmtpCredentials, html=None) -> None:
                 raise OSError("smtp down")
 
         notifier = Failing(_config(), clock=lambda: clock["now"])
@@ -174,7 +204,7 @@ class EmailNotifierTest(unittest.TestCase):
         clock = {"now": 10.0}
 
         class Recording(EmailNotifier):
-            def _send(self, subject: str, body: str, creds: SmtpCredentials) -> None:
+            def _send(self, subject: str, body: str, creds: SmtpCredentials, html=None) -> None:
                 return None
 
         notifier = Recording(_config(), clock=lambda: clock["now"])
@@ -209,7 +239,7 @@ class EmailNotifierTest(unittest.TestCase):
         sent: list[SmtpCredentials] = []
 
         class Recording(EmailNotifier):
-            def _send(self, subject: str, body: str, creds: SmtpCredentials) -> None:
+            def _send(self, subject: str, body: str, creds: SmtpCredentials, html=None) -> None:
                 sent.append(creds)
 
         with patch(

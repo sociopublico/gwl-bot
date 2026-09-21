@@ -37,6 +37,7 @@ KEYWORDS=women,gender,refugees
 | Variable | Default | Qué hace |
 |---|---|---|
 | `STREAM_URL` | (obligatorio) | YouTube Live, VOD o URL directa de audio/HLS/RTMP |
+| `WEBTV_URL` | vacío | Página UN Web TV del evento. El mail manda `?kalturaStartTime=` al segundo del keyword |
 | `KEYWORDS` | `women,gender,refugees` | Lista separada por coma. Acepta frases (`human rights`) |
 | `STREAM_START_SECONDS` | `0` | Seek en VOD (segundos). En live se ignora |
 | `EXIT_ON_EOF` | `true` | Salir al terminar un VOD |
@@ -223,10 +224,10 @@ No hace falta `pip install`. El modelo nuevo se descarga solo la primera vez que
 ## Qué ver en el log
 
 ```text
-KEYWORD_DETECTED | women | Luiz Inacio Lula da Silva | t=3122s | "...talk about women..." | https://www.youtube.com/embed/...?start=3122
+KEYWORD_DETECTED | women | Luiz Inacio Lula da Silva | t=3122s | "...talk about women..."
 ```
 
-El link usa `/embed/?start=` para que el player **no salte al vivo**. El mail también trae `Watch page` (`watch?v=&t=`) para cuando el stream ya es archivo.
+El mail lleva el **chunk entero** con la keyword en negrita (HTML), hora UTC + Nueva York, orador, YouTube sin timestamp (en vivo ignora `t=`), y si `WEBTV_URL` está seteado un link `?kalturaStartTime=<segundos>` que sí salta al keyword (VOD y live con DVR).
 
 Latencia típica con chunks de 20 s: **25–55 s** después de que se dijo la palabra (HLS de YouTube + chunk + inferencia).
 

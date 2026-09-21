@@ -30,15 +30,9 @@ def video_id_from_url(url: str) -> str | None:
     return None
 
 
-def watch_url_at(video_id: str, seconds: float) -> str:
-    """Link que busca el segundo. En un live, embed+start pisa el salto al vivo."""
-    t = max(0, int(round(seconds)))
-    return f"https://www.youtube.com/embed/{video_id}?start={t}"
-
-
-def watch_page_url_at(video_id: str, seconds: float) -> str:
-    t = max(0, int(round(seconds)))
-    return f"https://www.youtube.com/watch?v={video_id}&t={t}"
+def watch_url(video_id: str) -> str:
+    """Página del live, sin t=/start=: YouTube en vivo ignora el seek."""
+    return f"https://www.youtube.com/watch?v={video_id}"
 
 
 def format_timecode(seconds: float) -> str:

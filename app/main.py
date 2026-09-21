@@ -116,6 +116,7 @@ def run(config: Config) -> None:
                         segments=segments,
                         window_start=window_start,
                         video_id=stream.video_id,
+                        webtv_asset_url=config.webtv_url or None,
                         speaker=speaker.name,
                         speaker_title=speaker.display_title,
                         timestamp_reliable=stream.origin_reliable,

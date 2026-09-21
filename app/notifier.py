@@ -6,13 +6,19 @@ import ssl
 import time
 from collections.abc import Sequence
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timezone
 from email.message import EmailMessage
+from html import escape as html_escape
 from typing import Protocol
+from zoneinfo import ZoneInfo
 
 from app.config import Config
-from app.detector import DetectionEvent
-from app.youtube import format_timecode, video_id_from_url, watch_page_url_at
+from app.detector import DetectionEvent, mark_keywords_html, mark_keywords_plain
+from app.youtube import format_timecode
+
+logger = logging.getLogger(__name__)
+
+_NY = ZoneInfo("America/New_York")
 
 logger = logging.getLogger(__name__)
 
@@ -101,17 +107,16 @@ def mark_sent(last_sent: dict[str, float], events: Sequence[DetectionEvent], now
         last_sent[event.keyword.casefold()] = now
 
 
-def _watch_page_from_embed(watch_url: str, video_seconds: float | None) -> str | None:
-    if video_seconds is None:
-        return None
-    video_id = video_id_from_url(watch_url)
-    if not video_id:
-        return None
-    page = watch_page_url_at(video_id, video_seconds)
-    return None if page == watch_url else page
+def _when_lines(stamp: datetime) -> tuple[str, str]:
+    utc = stamp.astimezone(timezone.utc)
+    ny = stamp.astimezone(_NY)
+    return (
+        f"{utc.strftime('%Y-%m-%d %H:%M:%S')} UTC",
+        f"{ny.strftime('%Y-%m-%d %H:%M:%S %Z')}",
+    )
 
 
-def build_email(events: Sequence[DetectionEvent]) -> tuple[str, str]:
+def build_email(events: Sequence[DetectionEvent]) -> tuple[str, str, str]:
     if not events:
         raise ValueError("no hay eventos para armar el email")
 
@@ -122,44 +127,73 @@ def build_email(events: Sequence[DetectionEvent]) -> tuple[str, str]:
     subject = "KEYWORD_DETECTED | " + ", ".join(keywords)
     if speakers:
         subject += " | " + ", ".join(speakers)
-    stamp = events[0].timestamp.strftime("%Y-%m-%d %H:%M:%S")
     first = events[0]
+    chunk = first.transcript
+    marked_plain = mark_keywords_plain(chunk, keywords)
+    marked_html = mark_keywords_html(chunk, keywords)
+    when_utc, when_ny = _when_lines(first.timestamp)
+    titles = list(dict.fromkeys(event.speaker_title for event in events if event.speaker_title))
+
     lines = [
         f"Keyword(s): {', '.join(keywords)}",
-        f"Time: {stamp}",
+        f"When: {when_utc}",
+        f"New York: {when_ny}",
     ]
     if first.video_seconds is not None:
-        lines.append(f"Video time: {format_timecode(first.video_seconds)}")
-    if first.watch_url:
-        if first.timestamp_reliable:
-            lines.append(f"Watch: {first.watch_url}")
+        player = f"Player: {format_timecode(first.video_seconds)}"
+        if first.webtv_url:
+            lines.append(player)
         else:
             lines.append(
-                "Watch (t= may not match the player; live start time was unknown): "
-                f"{first.watch_url}"
+                f"{player} (YouTube live ignores timestamp links; use the bar if you seek)"
             )
-        page_url = _watch_page_from_embed(first.watch_url, first.video_seconds)
-        if page_url:
-            lines.append(f"Watch page: {page_url}")
+    if first.webtv_url:
+        lines.append(f"UN Web TV: {first.webtv_url}")
+    if first.watch_url:
+        lines.append(f"YouTube: {first.watch_url}")
     if speakers:
         lines.append(f"Speaker: {', '.join(speakers)}")
-        titles = list(dict.fromkeys(event.speaker_title for event in events if event.speaker_title))
         if titles:
             lines.append(f"Title: {', '.join(titles)}")
     lines.append("")
-    for event in events:
-        lines.append(event.keyword)
-        if event.speaker and event.speaker != "unknown":
-            lines.append(f"  speaker: {event.speaker}")
-        if event.speaker_title:
-            lines.append(f"  title: {event.speaker_title}")
-        if event.watch_url:
-            lines.append(f"  watch: {event.watch_url}")
-        lines.append(f"  context: {event.context}")
-        lines.append("")
-    lines.append("Transcript:")
-    lines.append(events[0].transcript)
-    return subject, "\n".join(lines)
+    lines.append("Chunk:")
+    lines.append(marked_plain)
+    text = "\n".join(lines)
+
+    meta_html = [
+        f"<p><b>Keyword(s):</b> {html_escape(', '.join(keywords))}</p>",
+        f"<p><b>When:</b> {html_escape(when_utc)}<br>"
+        f"<b>New York:</b> {html_escape(when_ny)}</p>",
+    ]
+    if first.video_seconds is not None:
+        player_html = (
+            f"<p><b>Player:</b> {html_escape(format_timecode(first.video_seconds))}"
+        )
+        if first.webtv_url:
+            meta_html.append(f"{player_html}</p>")
+        else:
+            meta_html.append(
+                f"{player_html} (YouTube live ignores timestamp links)</p>"
+            )
+    if first.webtv_url:
+        href = html_escape(first.webtv_url)
+        meta_html.append(f'<p><b>UN Web TV:</b> <a href="{href}">{href}</a></p>')
+    if first.watch_url:
+        href = html_escape(first.watch_url)
+        meta_html.append(f'<p><b>YouTube:</b> <a href="{href}">{href}</a></p>')
+    if speakers:
+        meta_html.append(f"<p><b>Speaker:</b> {html_escape(', '.join(speakers))}</p>")
+        if titles:
+            meta_html.append(f"<p><b>Title:</b> {html_escape(', '.join(titles))}</p>")
+    html = (
+        '<div style="font-family:sans-serif;max-width:40em;line-height:1.45">'
+        + "".join(meta_html)
+        + "<p><b>Chunk:</b></p>"
+        + '<blockquote style="margin:0;border-left:3px solid #222;padding:0.4em 0.8em">'
+        + marked_html
+        + "</blockquote></div>"
+    )
+    return subject, text, html
 
 
 class EmailNotifier:
@@ -189,10 +223,10 @@ class EmailNotifier:
             )
             return
 
-        subject, body = build_email(selected)
+        subject, body, html = build_email(selected)
         creds = active_smtp_credentials(self.config)
         try:
-            self._send(subject, body, creds)
+            self._send(subject, body, creds, html=html)
         except Exception as exc:
             logger.error("Email alert failed: %s", exc)
             return
@@ -233,12 +267,20 @@ class EmailNotifier:
         )
         return True
 
-    def _send(self, subject: str, body: str, creds: SmtpCredentials) -> None:
+    def _send(
+        self,
+        subject: str,
+        body: str,
+        creds: SmtpCredentials,
+        html: str | None = None,
+    ) -> None:
         message = EmailMessage()
         message["Subject"] = subject
         message["From"] = creds.from_addr
         message["To"] = ", ".join(self.config.alert_email_to)
         message.set_content(body)
+        if html:
+            message.add_alternative(html, subtype="html")
 
         if self.config.smtp_ssl:
             context = ssl.create_default_context()
