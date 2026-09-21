@@ -226,16 +226,27 @@ Latencia típica con chunks de 20 s: **25–55 s** después de que se dijo la pa
 
 ## Cookies de YouTube (si hace falta)
 
-En `docker-compose.yml`, bajo `monitor`:
+Si yt-dlp falla con `Sign in to confirm you're not a bot` (típico en VPS/datacenter):
 
-```yaml
-volumes:
-  - ./youtube.cookies.txt:/cookies/youtube.txt:ro
-```
+1. En tu **laptop** (logueada en YouTube), exportá cookies Netscape. Lo más simple: extensión [Get cookies.txt LOCALLY](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc) en `youtube.com` → guardá como `youtube.cookies.txt`.
+2. Copiá el archivo a la raíz del repo **en el server** (`~/traefik/gwl-bot/youtube.cookies.txt`).
+3. En `.env`:
 
 ```env
 COOKIES_FILE=/cookies/youtube.txt
 ```
+
+4. Compose ya monta `./youtube.cookies.txt:/cookies/youtube.txt:ro`. Reiniciá:
+
+```bash
+# si el archivo aún no existe, creá uno vacío solo para que el mount no falle, después reemplazalo
+touch youtube.cookies.txt
+docker compose up -d
+```
+
+Las cookies vencen; si vuelve el error de bot, re-exportá. **No subas** `youtube.cookies.txt` a git.
+
+Alternativa de smoke test **sin** YouTube: URL directa de audio (p.ej. un `.flac`/HLS) en `STREAM_URL`.
 
 ## Código
 

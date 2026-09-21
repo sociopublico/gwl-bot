@@ -9,6 +9,8 @@ __pycache__/
 .idea/
 .vscode/
 logs/
+youtube.cookies.txt
+*.cookies.txt
 pipeline/cache/
 pipeline/log/
 pipeline/tools/
