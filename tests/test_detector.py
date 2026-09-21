@@ -38,6 +38,22 @@ class DetectKeywordsTest(unittest.TestCase):
         self.assertEqual(event.speaker, "Luiz Inacio Lula da Silva")
         self.assertIn("women", event.context)
 
+    def test_unreliable_clock_does_not_seek_webtv(self) -> None:
+        events = detect_keywords(
+            "we must protect women",
+            ("women",),
+            context_words=4,
+            window_start=120.0,
+            webtv_asset_url="https://webtv.un.org/en/asset/k1g/k1gb6tjmle",
+            timestamp_reliable=False,
+        )
+        self.assertEqual(len(events), 1)
+        self.assertEqual(
+            events[0].webtv_url,
+            "https://webtv.un.org/en/asset/k1g/k1gb6tjmle",
+        )
+        self.assertNotIn("kalturaStartTime", events[0].webtv_url or "")
+
     def test_mark_keywords_wraps_hits(self) -> None:
         text = "Today we want to talk about women and gender."
         self.assertEqual(

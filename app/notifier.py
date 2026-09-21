@@ -139,14 +139,18 @@ def build_email(events: Sequence[DetectionEvent]) -> tuple[str, str, str]:
         f"When: {when_utc}",
         f"New York: {when_ny}",
     ]
-    if first.video_seconds is not None:
+    if first.timestamp_reliable and first.video_seconds is not None:
         player = f"Player: {format_timecode(first.video_seconds)}"
-        if first.webtv_url:
+        if first.webtv_url and "kalturaStartTime=" in first.webtv_url:
             lines.append(player)
         else:
             lines.append(
                 f"{player} (YouTube live ignores timestamp links; use the bar if you seek)"
             )
+    elif first.webtv_url:
+        lines.append(
+            "Player: unknown (live start missing or this Web TV asset has no DVR)"
+        )
     if first.webtv_url:
         lines.append(f"UN Web TV: {first.webtv_url}")
     if first.watch_url:
@@ -165,16 +169,20 @@ def build_email(events: Sequence[DetectionEvent]) -> tuple[str, str, str]:
         f"<p><b>When:</b> {html_escape(when_utc)}<br>"
         f"<b>New York:</b> {html_escape(when_ny)}</p>",
     ]
-    if first.video_seconds is not None:
+    if first.timestamp_reliable and first.video_seconds is not None:
         player_html = (
             f"<p><b>Player:</b> {html_escape(format_timecode(first.video_seconds))}"
         )
-        if first.webtv_url:
+        if first.webtv_url and "kalturaStartTime=" in first.webtv_url:
             meta_html.append(f"{player_html}</p>")
         else:
             meta_html.append(
                 f"{player_html} (YouTube live ignores timestamp links)</p>"
             )
+    elif first.webtv_url:
+        meta_html.append(
+            "<p><b>Player:</b> unknown (live start missing or this Web TV asset has no DVR)</p>"
+        )
     if first.webtv_url:
         href = html_escape(first.webtv_url)
         meta_html.append(f'<p><b>UN Web TV:</b> <a href="{href}">{href}</a></p>')

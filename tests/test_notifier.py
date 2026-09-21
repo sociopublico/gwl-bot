@@ -113,6 +113,23 @@ class BuildEmailTest(unittest.TestCase):
         self.assertIn("kalturaStartTime=3600", html)
         self.assertIn("UN Web TV", html)
 
+    def test_unreliable_clock_skips_player_timecode(self) -> None:
+        event = DetectionEvent(
+            timestamp=datetime(2026, 9, 21, 22, 6, 53, tzinfo=timezone.utc),
+            keyword="world",
+            transcript="the world's hope for peace",
+            context='"world"',
+            video_seconds=33_801_945,
+            webtv_url="https://webtv.un.org/en/asset/k1g/k1gb6tjmle",
+            timestamp_reliable=False,
+        )
+        _subject, body, html = build_email([event])
+        self.assertNotIn("9389:25:45", body)
+        self.assertNotIn("kalturaStartTime", body)
+        self.assertIn("Player: unknown", body)
+        self.assertIn("https://webtv.un.org/en/asset/k1g/k1gb6tjmle", body)
+        self.assertNotIn("kalturaStartTime", html)
+
     def test_mark_sent_uses_casefold(self) -> None:
         last_sent: dict[str, float] = {}
         mark_sent(last_sent, [_event("Women")], now=42.0)

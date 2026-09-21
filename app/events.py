@@ -51,7 +51,10 @@ def emit_detection(event: DetectionEvent) -> None:
     if event.speaker and event.speaker != "unknown":
         parts.append(event.speaker)
     if event.video_seconds is not None:
-        parts.append(f"t={int(round(event.video_seconds))}s")
+        tag = f"t={int(round(event.video_seconds))}s"
+        if not event.timestamp_reliable:
+            tag += "?"
+        parts.append(tag)
     parts.append(event.context)
     logger.log(KEYWORD_DETECTED, "%s", " | ".join(parts))
     logger.debug(

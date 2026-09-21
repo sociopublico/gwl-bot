@@ -6,12 +6,14 @@ import select
 import subprocess
 import threading
 import time
+from datetime import datetime, timezone
 from collections.abc import Iterator
 from dataclasses import dataclass
 from typing import IO
 from urllib.parse import urlparse
 
 from app.config import Config
+from app.webtv import MAX_LIVE_ORIGIN_SECONDS, probe_webtv_clock
 from app.youtube import video_id_from_url
 
 logger = logging.getLogger(__name__)
@@ -47,18 +49,69 @@ def is_youtube_url(url: str) -> bool:
     return host in YOUTUBE_HOSTS or host.endswith(".youtube.com")
 
 
-def _live_origin_seconds(info: dict, now: float) -> tuple[float, bool]:
-    start = info.get("release_timestamp") or info.get("timestamp")
+def _unix_field(info: dict, key: str) -> float | None:
+    raw = info.get(key)
     try:
-        start_ts = float(start) if start is not None else None
+        value = float(raw) if raw is not None else None
     except (TypeError, ValueError):
-        start_ts = None
-    if start_ts and start_ts > 0:
-        return max(0.0, now - start_ts), True
+        return None
+    if value and value > 0:
+        return value
+    return None
+
+
+def _live_origin_seconds(info: dict, now: float) -> tuple[float, bool]:
+    """Elapsed desde que arrancó ESTE live, no desde que crearon el listing 24/7."""
+    start_ts = _unix_field(info, "release_timestamp") or _unix_field(info, "timestamp")
+    if not start_ts:
+        logger.warning(
+            "YouTube live start missing; player timestamps are seconds since we connected"
+        )
+        return 0.0, False
+    age = now - start_ts
+    start_iso = datetime.fromtimestamp(start_ts, tz=timezone.utc).isoformat()
+    if 0 <= age <= MAX_LIVE_ORIGIN_SECONDS:
+        logger.info(
+            "YouTube live origin | elapsed=%.1fs | start=%s",
+            age,
+            start_iso,
+        )
+        return age, True
     logger.warning(
-        "Live start time unknown; t= links are relative to when we connected"
+        "YouTube live start ignored (likely 24/7 listing, not this session) | "
+        "start=%s | age=%.0fh | max=%.0fh | player timestamps will not seek",
+        start_iso,
+        age / 3600,
+        MAX_LIVE_ORIGIN_SECONDS / 3600,
     )
     return 0.0, False
+
+
+def _maybe_webtv_origin(
+    config: Config,
+    origin_seconds: float,
+    origin_reliable: bool,
+    now: float,
+) -> tuple[float, bool]:
+    if not config.webtv_url:
+        return origin_seconds, origin_reliable
+    clock = probe_webtv_clock(config.webtv_url, now=now)
+    if clock is None:
+        return origin_seconds, origin_reliable
+    if not clock.dvr:
+        logger.warning(
+            "UN Web TV entry %s has no DVR; kalturaStartTime opens at live",
+            clock.entry_id,
+        )
+        return origin_seconds, False
+    if clock.elapsed_seconds is None:
+        return origin_seconds, origin_reliable
+    logger.info(
+        "Using UN Web TV DVR clock | elapsed=%.1fs | entry=%s",
+        clock.elapsed_seconds,
+        clock.entry_id,
+    )
+    return clock.elapsed_seconds, True
 
 
 def resolve_stream(config: Config, now: float | None = None) -> StreamInfo:
@@ -120,7 +173,19 @@ def resolve_stream(config: Config, now: float | None = None) -> StreamInfo:
         origin_seconds = config.stream_start_seconds
         origin_reliable = True
 
-    logger.info("Resolved stream | live=%s | title=%s | video_id=%s", is_live, title, video_id)
+    if is_live:
+        origin_seconds, origin_reliable = _maybe_webtv_origin(
+            config, origin_seconds, origin_reliable, clock_now
+        )
+
+    logger.info(
+        "Resolved stream | live=%s | title=%s | video_id=%s | origin=%.1fs reliable=%s",
+        is_live,
+        title,
+        video_id,
+        origin_seconds,
+        origin_reliable,
+    )
     if not is_live:
         if config.stream_start_seconds:
             logger.info(

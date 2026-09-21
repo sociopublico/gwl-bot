@@ -52,6 +52,15 @@ class LiveOriginTest(unittest.TestCase):
         self.assertEqual(origin, 0.0)
         self.assertFalse(reliable)
 
+    def test_ignores_stale_24_7_listing_date(self) -> None:
+        # 2025-08-26 listing vs 2026-09-21 now, like UNTV 24/7.
+        origin, reliable = _live_origin_seconds(
+            {"release_timestamp": 1756226452},
+            now=1790028413,
+        )
+        self.assertEqual(origin, 0.0)
+        self.assertFalse(reliable)
+
 
 if __name__ == "__main__":
     unittest.main()

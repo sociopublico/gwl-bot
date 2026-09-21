@@ -37,7 +37,7 @@ KEYWORDS=women,gender,refugees
 | Variable | Default | Qué hace |
 |---|---|---|
 | `STREAM_URL` | (obligatorio) | YouTube Live, VOD o URL directa de audio/HLS/RTMP |
-| `WEBTV_URL` | vacío | Página UN Web TV del evento. El mail manda `?kalturaStartTime=` al segundo del keyword |
+| `WEBTV_URL` | vacío | Página **del meeting** en UN Web TV (con DVR). El mail manda `?kalturaStartTime=` solo si el reloj es de ese live. El canal 24/7 (`k1gb6tjmle`) no tiene DVR: el seek abre en vivo |
 | `KEYWORDS` | `women,gender,refugees` | Lista separada por coma. Acepta frases (`human rights`) |
 | `STREAM_START_SECONDS` | `0` | Seek en VOD (segundos). En live se ignora |
 | `EXIT_ON_EOF` | `true` | Salir al terminar un VOD |
@@ -227,7 +227,7 @@ No hace falta `pip install`. El modelo nuevo se descarga solo la primera vez que
 KEYWORD_DETECTED | women | Luiz Inacio Lula da Silva | t=3122s | "...talk about women..."
 ```
 
-El mail lleva el **chunk entero** con la keyword en negrita (HTML), hora UTC + Nueva York, orador, YouTube sin timestamp (en vivo ignora `t=`), y si `WEBTV_URL` está seteado un link `?kalturaStartTime=<segundos>` que sí salta al keyword (VOD y live con DVR).
+El mail lleva el **chunk entero** con la keyword en negrita (HTML), hora UTC + Nueva York, orador, YouTube sin timestamp (en vivo ignora `t=`), y si `WEBTV_URL` es un meeting con DVR un link `?kalturaStartTime=` al segundo del keyword. No uses el canal 24/7 de UN Web TV: no tiene DVR y el listing de YouTube data de cuando lo crearon (meses), no de cuando arrancó el programa de hoy. En el log, `origin=… reliable=false` y `t=12s?` quieren decir que el offset no es seekable.
 
 Latencia típica con chunks de 20 s: **25–55 s** después de que se dijo la palabra (HLS de YouTube + chunk + inferencia).
 

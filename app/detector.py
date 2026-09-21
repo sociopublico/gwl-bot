@@ -153,8 +153,11 @@ def detect_keywords(
                 video_seconds = window_start + matched.start
             live_url = watch_url(video_id) if video_id else None
             jump_url = None
-            if webtv_asset_url and video_seconds is not None:
-                jump_url = webtv_url_at(webtv_asset_url, video_seconds)
+            if webtv_asset_url:
+                if timestamp_reliable and video_seconds is not None:
+                    jump_url = webtv_url_at(webtv_asset_url, video_seconds)
+                else:
+                    jump_url = webtv_asset_url.strip()
             events.append(
                 DetectionEvent(
                     timestamp=now,
