@@ -15,6 +15,7 @@ from app.logger import setup_logging
 from app.notifier import build_notifier
 from app.speaker import Speaker, SpeakerTracker
 from app.transcriber import Transcriber
+from app.watchdog import check_stale, write_heartbeat
 
 logger = logging.getLogger(__name__)
 
@@ -67,8 +68,20 @@ def run(config: Config) -> None:
 
     started = time.monotonic()
     last_heartbeat = started
+    last_progress = started
+    write_heartbeat(config.log_dir)
     chunks = 0
     detections = 0
+
+    def _maybe_stale() -> None:
+        check_stale(
+            config,
+            notifier,
+            last_progress,
+            now=time.monotonic(),
+            uptime=time.monotonic() - started,
+            chunks=chunks,
+        )
 
     while not stop_event.is_set():
         try:
@@ -80,6 +93,8 @@ def run(config: Config) -> None:
                 for window, fresh in stream.chunks():
                     clock.add_fresh(len(fresh))
                     text, segments, inference_s = transcriber.transcribe(window)
+                    last_progress = time.monotonic()
+                    write_heartbeat(config.log_dir)
                     chunks += 1
                     audio_s = len(window) / (config.sample_rate * 2)
                     logger.info(
@@ -134,9 +149,11 @@ def run(config: Config) -> None:
         if stop_event.is_set():
             break
 
+        _maybe_stale()
         logger.warning("Reconnecting in %.0fs", config.reconnect_delay)
         if stop_event.wait(config.reconnect_delay):
             break
+        _maybe_stale()
 
     logger.info(
         "Shutting down | uptime=%.0fs | chunks=%s | detections=%s | emails_sent=%s",

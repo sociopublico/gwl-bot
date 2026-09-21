@@ -80,6 +80,8 @@ class Config:
     smtp_ssl: bool
     alert_cooldown_seconds: float
     smtp_timeout: float
+    watchdog_seconds: float = 180.0
+    watchdog_email_cooldown: float = 600.0
     sample_rate: int = 16000
     stream_start_seconds: float = 0.0
     exit_on_eof: bool = True
@@ -178,6 +180,14 @@ class Config:
         if smtp_timeout < 1:
             raise ValueError("SMTP_TIMEOUT debe ser al menos 1 segundo")
 
+        watchdog_seconds = _env_float("WATCHDOG_SECONDS", 180)
+        if watchdog_seconds < 0:
+            raise ValueError("WATCHDOG_SECONDS no puede ser negativo")
+
+        watchdog_email_cooldown = _env_float("WATCHDOG_EMAIL_COOLDOWN", 600)
+        if watchdog_email_cooldown < 0:
+            raise ValueError("WATCHDOG_EMAIL_COOLDOWN no puede ser negativo")
+
         smtp_ssl_raw = _env("SMTP_SSL")
         smtp_ssl = _env_bool("SMTP_SSL", smtp_port == 465) if smtp_ssl_raw else smtp_port == 465
 
@@ -213,6 +223,8 @@ class Config:
             smtp_ssl=smtp_ssl,
             alert_cooldown_seconds=cooldown,
             smtp_timeout=smtp_timeout,
+            watchdog_seconds=watchdog_seconds,
+            watchdog_email_cooldown=watchdog_email_cooldown,
             stream_start_seconds=stream_start_seconds,
             exit_on_eof=_env_bool("EXIT_ON_EOF", True),
             speaker_tracking=_env_bool("SPEAKER_TRACKING", True),

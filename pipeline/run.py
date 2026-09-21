@@ -355,6 +355,7 @@ def fetch_speeches(
     metadata_only: bool = False,
     skip_existing: bool = False,
     require_roster: bool = False,
+    reextract: set[str] | None = None,
 ) -> list[FetchItem]:
     from pipeline.roster import load_roster, page_from_entry, roster_path
 
@@ -387,7 +388,12 @@ def fetch_speeches(
     items: list[FetchItem] = []
     for item in slugs:
         existing = find_existing_speech(config, item, dest=dest)
-        if skip_existing and existing and is_english_transcript(existing):
+        if (
+            skip_existing
+            and existing
+            and is_english_transcript(existing)
+            and item not in (reextract or set())
+        ):
             items.append(
                 FetchItem(
                     page=SpeakerPage(

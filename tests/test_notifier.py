@@ -73,13 +73,14 @@ class BuildEmailTest(unittest.TestCase):
             speaker="Luiz Inacio Lula da Silva",
             speaker_title="President of Brazil",
             video_seconds=2845,
-            watch_url="https://www.youtube.com/watch?v=KnIFmbdRCi0&t=2845s",
+            watch_url="https://www.youtube.com/embed/KnIFmbdRCi0?start=2845",
         )
         subject, body = build_email([event])
         self.assertEqual(subject, "KEYWORD_DETECTED | women | Luiz Inacio Lula da Silva")
         self.assertIn("Speaker: Luiz Inacio Lula da Silva", body)
         self.assertIn("Video time: 47:25", body)
-        self.assertIn("Watch: https://www.youtube.com/watch?v=KnIFmbdRCi0&t=2845s", body)
+        self.assertIn("Watch: https://www.youtube.com/embed/KnIFmbdRCi0?start=2845", body)
+        self.assertIn("Watch page: https://www.youtube.com/watch?v=KnIFmbdRCi0&t=2845", body)
         self.assertIn("context: \"...talk about women...\"", body)
 
     def test_mark_sent_uses_casefold(self) -> None:
@@ -167,6 +168,7 @@ class EmailNotifierTest(unittest.TestCase):
         notifier = build_notifier(_config(smtp_host="", smtp_from="", alert_email_to=()))
         self.assertIsInstance(notifier, NullNotifier)
         notifier.notify([_event("women")])
+        self.assertFalse(notifier.notify_status("MONITOR_STALE", "body"))
 
     def test_cooldown_skip_logged_at_info(self) -> None:
         clock = {"now": 10.0}

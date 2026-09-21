@@ -14,6 +14,10 @@ from pipeline.run import FetchItem, fetch_speeches, select_slugs
 _KNOWN_SOURCES = {"pdf_en", "audio_en", "pdf_other", "video"}
 
 
+def _parse_reextract(raw: str) -> set[str]:
+    return {part.strip() for part in raw.split(",") if part.strip()}
+
+
 def _apply_sources(config, raw: str):
     sources = tuple(part.strip() for part in raw.split(",") if part.strip())
     unknown = [s for s in sources if s not in _KNOWN_SOURCES]
@@ -126,6 +130,27 @@ def _parser() -> argparse.ArgumentParser:
         help="Archivo de salida (default: speakers.txt en el cwd)",
     )
 
+    speakers_p = sub.add_parser(
+        "speakers",
+        help="Bajar la lista pública de e-speakers y escribir speakers.txt (monitor de alertas)",
+        parents=[common],
+    )
+    speakers_p.add_argument(
+        "--url",
+        required=True,
+        help="URL o hash de e-speakers (p.ej. https://e-speakers.e-delegate.un.org/<id>)",
+    )
+    speakers_p.add_argument(
+        "--day",
+        default="",
+        help="YYYY-MM-DD (default: todos los días con nombre en la lista)",
+    )
+    speakers_p.add_argument(
+        "--speakers-txt",
+        default="speakers.txt",
+        help="Archivo de salida (default: speakers.txt en el cwd)",
+    )
+
     extract_p = sub.add_parser(
         "extract",
         help="Bajar y transcribir desde un roster JSON (sin scrape de gadebate)",
@@ -143,6 +168,11 @@ def _parser() -> argparse.ArgumentParser:
         "--skip-existing",
         action="store_true",
         help="No re-extraer slugs que ya tienen .txt en inglés",
+    )
+    extract_p.add_argument(
+        "--reextract",
+        default="",
+        help="Slugs a re-extraer aunque exista .txt inglés (coma-separados). Combina con --skip-existing.",
     )
 
     analyze_p = sub.add_parser(
@@ -185,6 +215,11 @@ def _parser() -> argparse.ArgumentParser:
         "--skip-existing",
         action="store_true",
         help="No re-extraer slugs que ya tienen .txt en inglés",
+    )
+    fetch_p.add_argument(
+        "--reextract",
+        default="",
+        help="Slugs a re-extraer aunque exista .txt inglés (coma-separados). Combina con --skip-existing.",
     )
 
     alerts_p = sub.add_parser(
@@ -401,6 +436,46 @@ def main(argv: list[str] | None = None) -> int:
         print(f"{len(names)} nombres → {export_path}")
         return 0
 
+    if args.cmd == "speakers":
+        from pipeline.espeakers import (
+            available_days,
+            fetch_payload,
+            filter_day,
+            page_url,
+            parse_speakers,
+            unique_names,
+            write_speakers_txt,
+        )
+
+        day = args.day or None
+        try:
+            payload = fetch_payload(args.url, user_agent=config.user_agent)
+        except Exception as exc:
+            print(f"error: {exc}", file=sys.stderr)
+            return 1
+        speakers = parse_speakers(payload)
+        chosen = filter_day(speakers, day)
+        names = unique_names(chosen)
+        days = available_days(speakers)
+        if day and not names:
+            listed = ", ".join(f"{d} ({n})" for d, n in days) or "ninguno"
+            print(
+                f"error: no hay oradores con nombre para {day}. "
+                f"Días en la lista: {listed}",
+                file=sys.stderr,
+            )
+            return 2
+        export_path = write_speakers_txt(
+            chosen,
+            Path(args.speakers_txt),
+            source=page_url(args.url),
+            day=day,
+        )
+        print(f"{len(names)} nombres → {export_path}")
+        for meeting_day, count in available_days(chosen):
+            print(f"  {meeting_day}: {count}", file=sys.stderr)
+        return 0
+
     if args.cmd == "extract":
         try:
             if args.sources:
@@ -420,6 +495,7 @@ def main(argv: list[str] | None = None) -> int:
                 dest=dest,
                 skip_existing=args.skip_existing,
                 require_roster=True,
+                reextract=_parse_reextract(args.reextract),
             )
         except FileNotFoundError as exc:
             print(f"error: {exc}", file=sys.stderr)
@@ -495,6 +571,7 @@ def main(argv: list[str] | None = None) -> int:
             dest=dest,
             metadata_only=args.metadata_only,
             skip_existing=args.skip_existing,
+            reextract=_parse_reextract(args.reextract),
         )
         return _summarize_extract(results, metadata_only=args.metadata_only)
 

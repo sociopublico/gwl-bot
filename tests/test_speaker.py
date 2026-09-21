@@ -64,8 +64,9 @@ class IntroductionRegexTest(unittest.TestCase):
         self.assertIsNotNone(speaker.title)
         assert speaker.title is not None
         self.assertIn("Brazil", speaker.title)
-
-    def test_her_excellency_extracts_name(self) -> None:
+        self.assertIsNotNone(speaker.country)
+        assert speaker.country is not None
+        self.assertIn("Brazil", speaker.country)
         speaker = extract_introduction_regex(
             "I now give the floor to Her Excellency Claudia Sheinbaum Pardo, "
             "President of Mexico, and invite her to address the assembly."
@@ -206,6 +207,35 @@ class SpeakerTrackerTest(unittest.TestCase):
         )
         tracker.observe(text)
         self.assertEqual(tracker.observe("Turkey remains committed.").name, "Recep Tayyip Erdoğan")
+
+    def test_president_of_brasil_maps_roster_country(self) -> None:
+        tracker = SpeakerTracker(
+            _config(
+                speaker_roster=(
+                    "Luiz Inacio Lula da Silva | Brazil | President of the Federative Republic of Brazil;"
+                    "Emmanuel Macron | France | President of the French Republic"
+                )
+            )
+        )
+        first = tracker.observe("I now give the floor to the President of Brasil.")
+        self.assertEqual(first.name, "unknown")
+        speaker = tracker.observe("Brazil remains committed to multilateralism.")
+        self.assertEqual(speaker.name, "Luiz Inacio Lula da Silva")
+        self.assertEqual(speaker.country, "Brasil")
+
+    def test_mid_speech_country_mention_does_not_switch(self) -> None:
+        tracker = SpeakerTracker(
+            _config(
+                speaker_roster=(
+                    "Luiz Inacio Lula da Silva | Brazil | President;"
+                    "Emmanuel Macron | France | President"
+                )
+            )
+        )
+        tracker.observe(LULA_INTRO)
+        tracker.observe("The speech begins.")
+        later = tracker.observe("We thank the president of France for the climate pledge.")
+        self.assertIn("Lula", later.name)
 
 
 if __name__ == "__main__":

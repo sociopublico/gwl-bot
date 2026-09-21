@@ -28,7 +28,7 @@ class DetectKeywordsTest(unittest.TestCase):
         self.assertAlmostEqual(event.video_seconds or 0, 2834.0)
         self.assertEqual(
             event.watch_url,
-            "https://www.youtube.com/watch?v=KnIFmbdRCi0&t=2834s",
+            "https://www.youtube.com/embed/KnIFmbdRCi0?start=2834",
         )
         self.assertEqual(event.speaker, "Luiz Inacio Lula da Silva")
         self.assertIn("women", event.context)

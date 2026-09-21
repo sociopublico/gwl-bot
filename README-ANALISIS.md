@@ -90,9 +90,9 @@ Scrape de fichas HTML en [gadebate.un.org](https://gadebate.un.org). Escribe un 
 
 ```bash
 pipeline/.venv/bin/python -m pipeline roster --session 80 --day 2025-09-23
-# Opcional: exportar nombres para el monitor de alertas
-pipeline/.venv/bin/python -m pipeline roster --session 80 --day 2025-09-23 --speakers-txt speakers.txt
 ```
+
+Para `speakers.txt` del monitor de alertas usá `python -m pipeline speakers` (e-Delegate), no este scrape.
 
 Salida: `pipeline/data/roster/80/2025-09-23.json`.
 
@@ -118,7 +118,17 @@ OK brazil source=audio_en via=whisper chars=... elapsed=841s
 
 Transcripts en `pipeline/out/<session>/<day>/<slug>.txt`.
 
-`--skip-existing` no reprocesa lo que ya está. Si un PDF de gadebate falla por WAF, extract sigue con audio (S3) o video (Kaltura).
+`--skip-existing` no reprocesa lo que ya está. Si a la tarde aparece un PDF mejor, no lo pisa: re-scrapear el roster y re-extraer el slug:
+
+```bash
+pipeline/.venv/bin/python -m pipeline roster --session 80 --day 2025-09-23
+docker compose -f docker-compose.pipeline.yml run --rm pipeline \
+  extract --session 80 --day 2025-09-23 --skip-existing --reextract brazil
+```
+
+En cron: `REEXTRACT=brazil,kenya ./pipeline/scripts/daily.sh`. `write_speech` conserva el `id_speech` / `M_N.txt`.
+
+Si un PDF de gadebate falla por WAF, extract sigue con audio (S3) o video (Kaltura).
 
 ### 3. Publish
 
@@ -145,6 +155,8 @@ pipeline/.venv/bin/python -m pipeline coding-sheet --session 80 --day 2025-09-23
 ```
 
 Idempotente: `coding` saltea `id_speech` ya en `Indicators.csv` (`--force` para recodear). `coding-sheet` saltea por `extract_id` / `id_extract`.
+
+Si Claude omite un indicador o manda un `code` inválido, ese discurso **no** se escribe (no es “No Mention”). Log `FAIL speech=M_N missing=...`. Re-correr `coding` sin `--force` lo recupera. Un `code=0` explícito del modelo sí es No Mention.
 
 `--dry-run` en ambos. Modelo: `ANTHROPIC_MODEL` (recomendado `claude-sonnet-5`).
 
@@ -224,3 +236,10 @@ claude-prompt.md      methodology / codebook para coding
 | Whisper se corta al segundo | Mismo: kill por memoria |
 | `publish --sheet` falla auth | SA en `PIPELINE_SA_FILE` + Sheet compartido con esa cuenta |
 | `analyze` no llama a Claude | Prompt stub en `analyze-prompt.md` o falta `ANTHROPIC_API_KEY` |
+
+## Sin plan B automático
+
+- **`audio_floor`.** El roster guarda el MP3 de sala (`_FL`) pero la cascada no lo usa (`pdf_en` → `audio_en` → `pdf_other` → `video`). Plan B = `--sources video` o `--reextract` cuando haya `pdf_en` / `audio_en`.
+- **OOM cruzado con el monitor de alertas.** No hay lock. Plan B = no correr extract pesado durante el live; acá `PIPELINE_WHISPER_MODEL=tiny`.
+- **`--skip-existing` congela un .txt malo** salvo que pases `--reextract slug` (arriba).
+- Catch-up del vivo, cookies de YouTube y failover SMTP son del [monitor de alertas](README-ALERTAS.md#sin-plan-b-automático).

@@ -16,6 +16,7 @@
 #   30 22 * * * /ruta/al/repo/pipeline/scripts/daily.sh
 #
 # 22:30 NY = fin del día de debate. --skip-existing no re-transcribe lo que ya está.
+# Re-extraer slugs puntuales: REEXTRACT=brazil,kenya ./pipeline/scripts/daily.sh
 # Corrida a mano: SESSION=81 DAY=2026-09-22 ./pipeline/scripts/daily.sh
 
 set -euo pipefail
@@ -71,13 +72,16 @@ EXTRACT_ARGS=(extract --session "$SESSION" --day "$DAY")
 if [[ "$SKIP_EXISTING" != "0" ]]; then
   EXTRACT_ARGS+=(--skip-existing)
 fi
+if [[ -n "${REEXTRACT:-}" ]]; then
+  EXTRACT_ARGS+=(--reextract "$REEXTRACT")
+fi
 
 JOURNAL="$ROOT/pipeline/data/unga${SESSION}/${DAY}.txt"
 if [[ ! -f "$JOURNAL" ]]; then
   log "aviso: no está $JOURNAL (orden del UN Journal). Extract usa el roster."
 fi
 
-log "inicio session=$SESSION day=$DAY skip_existing=$SKIP_EXISTING roster=$ROSTER"
+log "inicio session=$SESSION day=$DAY skip_existing=$SKIP_EXISTING reextract=${REEXTRACT:-} roster=$ROSTER"
 set +e
 run_pipeline "${EXTRACT_ARGS[@]}" 2>&1 | tee -a "$LOG"
 extract_rc=${PIPESTATUS[0]}

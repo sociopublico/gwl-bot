@@ -622,6 +622,63 @@ Excellencies, we gather here today to defend the Charter.
         self.assertEqual(results[0].via, "whisper")
         self.assertGreaterEqual(results[0].elapsed_s, 0.0)
 
+    def test_skip_existing_honors_reextract(self) -> None:
+        from pipeline.roster import speaker_entry_from_page
+        from pipeline.store import out_dir, write_speech
+
+        config = load_session("80")
+        html = FIXTURE.read_text(encoding="utf-8")
+        page = parse_speaker_page(
+            config, "https://gadebate.un.org/en/80/brazil", html
+        )
+        roster = {
+            "session": 80,
+            "day": "2025-09-23",
+            "speakers": [speaker_entry_from_page(page, config.sources)],
+        }
+        old = ExtractedSpeech(
+            session_id=80,
+            slug="brazil",
+            country="Brazil",
+            name="Lula",
+            rank="President",
+            speech_date="2025-09-23",
+            source="audio_en",
+            source_url="https://example/en.mp3",
+            language="en",
+            text="Old english transcript " * 20,
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            dest = Path(tmp)
+            write_speech(old, out_dir(config, "2025-09-23", dest=dest))
+            with patch("pipeline.roster.load_roster", return_value=roster):
+                skipped = fetch_speeches(
+                    config,
+                    day="2025-09-23",
+                    slug="brazil",
+                    dest=dest,
+                    skip_existing=True,
+                    require_roster=True,
+                )
+                self.assertEqual(skipped[0].skip, "already extracted")
+                with patch("pipeline.run.fetch", return_value=(200, {}, b"fake-mp3")):
+                    with patch(
+                        "pipeline.run.transcribe_audio_file",
+                        return_value="New english transcript " * 20,
+                    ) as transcribed:
+                        redone = fetch_speeches(
+                            config,
+                            day="2025-09-23",
+                            slug="brazil",
+                            dest=dest,
+                            skip_existing=True,
+                            require_roster=True,
+                            reextract={"brazil"},
+                        )
+            transcribed.assert_called()
+            self.assertIsNotNone(redone[0].speech)
+            self.assertIn("New english", redone[0].speech.text)
+
     def test_extract_require_roster_missing_file(self) -> None:
         config = load_session("80")
         with patch("pipeline.roster.load_roster", return_value=None):

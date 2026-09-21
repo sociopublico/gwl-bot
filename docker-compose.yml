@@ -6,6 +6,8 @@ services:
     environment:
       OMP_NUM_THREADS: ${CPU_THREADS:-4}
     restart: unless-stopped
+    # HEALTHCHECK lo define el Dockerfile (logs/.heartbeat).
+    # unhealthy no reinicia el contenedor: mirá `docker compose ps` y el mail MONITOR_STALE.
     init: true
     stop_grace_period: 20s
     volumes:
@@ -14,8 +16,8 @@ services:
       - ./speakers.txt:/speakers.txt:ro
       # Logs duales (full + highlights), flush inmediato:
       - ./logs:/app/logs
-      # Cookies Netscape de YouTube (exportá desde el navegador; ver README-ALERTAS):
-      - ./youtube.cookies.txt:/cookies/youtube.txt:ro
+      # Cookies Netscape de YouTube (yt-dlp puede reescribirlas; no montar :ro):
+      - ./youtube.cookies.txt:/cookies/youtube.txt
 
 volumes:
   whisper-models:

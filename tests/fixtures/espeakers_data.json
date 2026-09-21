@@ -1,0 +1,147 @@
+{
+  "entities": {},
+  "sampleOptions": [],
+  "sampleData": [
+    {
+      "_id": "m1",
+      "MT_AgendaOrder": 1,
+      "MT_agendaitem": {
+        "MT_AG_item": "1st Day - Morning",
+        "MT_AG_title": "Tuesday, 22 September 2026 - 9:00 am"
+      },
+      "MT_speakers": [
+        {
+          "SP_slotNo": "1",
+          "SP_isSkip": false,
+          "SP_LS_nameFormat": false,
+          "SP_LS_fname": "Luiz Inácio",
+          "SP_LS_lname": "Lula da Silva",
+          "SP_LS_funcTitle": "President of the Federative Republic of Brazil",
+          "SP_entity": {
+            "SP_entity": "BRAZIL",
+            "SP_entityShort": "Brazil"
+          }
+        },
+        {
+          "SP_slotNo": "2",
+          "SP_isSkip": false,
+          "SP_LS_nameFormat": false,
+          "SP_LS_fname": "Donald",
+          "SP_LS_lname": "Trump",
+          "SP_LS_funcTitle": "President of the United States of America",
+          "SP_entity": {
+            "SP_entity": "UNITED STATES OF AMERICA",
+            "SP_entityShort": "United States of America"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "m2",
+      "MT_AgendaOrder": 2,
+      "MT_agendaitem": {
+        "MT_AG_item": "1st Day - Afternoon",
+        "MT_AG_title": "Tuesday, 22 September 2026 - 3:00 pm"
+      },
+      "MT_speakers": [
+        {
+          "SP_slotNo": "2",
+          "SP_isSkip": false,
+          "SP_LS_nameFormat": true,
+          "SP_LS_fname": "Jae Myung",
+          "SP_LS_lname": "Lee",
+          "SP_entity": {
+            "SP_entity": "REPUBLIC OF KOREA",
+            "SP_entityShort": "Republic of Korea"
+          }
+        },
+        {
+          "SP_slotNo": "1",
+          "SP_isSkip": false,
+          "SP_LS_nameFormat": false,
+          "SP_LS_fname": "Khurelsukh",
+          "SP_LS_lname": "Ukhnaa",
+          "SP_entity": {
+            "SP_entity": "MONGOLIA",
+            "SP_entityShort": "Mongolia"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "m3",
+      "MT_AgendaOrder": 3,
+      "MT_agendaitem": {
+        "MT_AG_item": "2nd Day - Morning",
+        "MT_AG_title": "Wednesday, 23 September 2026 - 9:00 am"
+      },
+      "MT_speakers": [
+        {
+          "SP_slotNo": "1",
+          "SP_isSkip": false,
+          "SP_LS_nameFormat": false,
+          "SP_LS_fname": "  ",
+          "SP_LS_lname": "",
+          "SP_entity": {
+            "SP_entity": "( Forthcoming )",
+            "SP_entityShort": ""
+          }
+        },
+        {
+          "SP_slotNo": "2",
+          "SP_isSkip": false,
+          "SP_LS_nameFormat": false,
+          "SP_LS_fname": "Ahmad",
+          "SP_LS_lname": "Al-Sharaa",
+          "SP_entity": {
+            "SP_entity": "SYRIAN ARAB REPUBLIC",
+            "SP_entityShort": "Syrian Arab Republic"
+          }
+        },
+        {
+          "SP_slotNo": "3",
+          "SP_isSkip": true,
+          "SP_LS_nameFormat": false,
+          "SP_LS_fname": "Skipped",
+          "SP_LS_lname": "Person",
+          "SP_entity": {
+            "SP_entity": "TEST",
+            "SP_entityShort": "Test"
+          }
+        },
+        {
+          "SP_slotNo": "4",
+          "SP_isSkip": false,
+          "SP_LS_nameFormat": false,
+          "SP_LS_fname": "",
+          "SP_LS_lname": "",
+          "SP_entity": {
+            "SP_entity": "NEW ZEALAND",
+            "SP_entityShort": "New Zealand"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "m4",
+      "MT_AgendaOrder": 4,
+      "MT_agendaitem": {
+        "MT_AG_item": "3rd Day - Morning",
+        "MT_AG_title": "Thursday, 24 September 2026 - 9:00 am"
+      },
+      "MT_speakers": [
+        {
+          "SP_slotNo": "1",
+          "SP_isSkip": false,
+          "SP_LS_nameFormat": false,
+          "SP_LS_fname": " ",
+          "SP_LS_lname": "",
+          "SP_entity": {
+            "SP_entity": "( Forthcoming )",
+            "SP_entityShort": ""
+          }
+        }
+      ]
+    }
+  ]
+}

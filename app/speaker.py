@@ -11,7 +11,7 @@ from typing import Any
 
 from app.config import Config
 from app.logger import SPEAKER_CHANGED
-from app.roster import load_roster_file, match_roster, parse_roster
+from app.roster import country_from_title, load_roster_file, match_roster, parse_roster
 from app.youtube import format_timecode
 
 logger = logging.getLogger(__name__)
@@ -40,6 +40,15 @@ _TITLE_WORD_RE = re.compile(
     r"^(?:president|prime|minister|king|queen|secretary|emir|amir|sultan|"
     r"chancellor|head|vice|deputy|foreign|premier|taoiseach|chairman|chair|"
     r"grand|duke|pope|pontiff|general)$",
+    re.IGNORECASE,
+)
+_ROLE_OF_RE = re.compile(
+    r"\b(?:the\s+)?"
+    r"(?:president|prime\s+minister|king|queen|emir|chancellor|"
+    r"(?:distinguished\s+)?(?:representative|delegate|ambassador)|"
+    r"head\s+of\s+(?:state|government))"
+    r"\s+of\s+(?:the\s+)?(.+?)"
+    r"(?=\s+and\s+(?:i\s+)?(?:invite|ask|call)\b|\s+and\s+invite\b|[.,;:]|$)",
     re.IGNORECASE,
 )
 
@@ -244,11 +253,38 @@ def extract_introduction_regex(text: str) -> Speaker | None:
             continue
         tokens = _name_tokens(name)
         confidence = "strong" if len(tokens) >= 2 else "weak"
-        speaker = Speaker(name=name, title=title, confidence=confidence, source="regex")
+        country = country_from_title(title or "") or None
+        speaker = Speaker(
+            name=name,
+            title=title,
+            country=country,
+            confidence=confidence,
+            source="regex",
+        )
         if match.start() >= best_at:
             best = speaker
             best_at = match.start()
-    return best
+    if best is not None:
+        return best
+    return extract_role_country(text)
+
+
+def extract_role_country(text: str) -> Speaker | None:
+    compact = _INVITE_CUT_RE.split(text, maxsplit=1)[0]
+    match = _ROLE_OF_RE.search(compact)
+    if not match:
+        return None
+    country = " ".join(match.group(1).split()).strip(" ,;:")
+    if len(country) < 3:
+        return None
+    title = " ".join(match.group(0).split()).strip(" ,;:")
+    return Speaker(
+        name="",
+        title=title,
+        country=country,
+        confidence="weak",
+        source="regex",
+    )
 
 
 def _parse_json_object(raw: str) -> dict[str, Any]:
@@ -344,31 +380,42 @@ class SpeakerTracker:
         attributed = self._current
         extracted = self._extract(text)
         if extracted is not None:
-            name = apply_alias(extracted.name, self.aliases)
-            matched = match_roster(name, self.roster, self.config.speaker_roster_threshold)
-            if matched is None and extracted.title:
-                matched = match_roster(
-                    f"{name} {extracted.title}",
-                    self.roster,
-                    self.config.speaker_roster_threshold,
-                )
+            name = apply_alias(extracted.name, self.aliases) if extracted.name else ""
+            matched = match_roster(
+                name,
+                self.roster,
+                self.config.speaker_roster_threshold,
+                title=extracted.title or "",
+                country=extracted.country or "",
+            )
             if matched is not None:
-                canonical, score = matched
-                if canonical.casefold() != name.casefold():
+                entry, score = matched
+                if entry.name.casefold() != name.casefold():
                     logger.info(
                         "Speaker roster match | asr=%s | canonical=%s | score=%.2f",
-                        name,
-                        canonical,
+                        name or extracted.title or extracted.country,
+                        entry.name,
                         score,
                     )
-                name = canonical
-            extracted = Speaker(
-                name=name,
-                title=extracted.title,
-                country=extracted.country,
-                confidence=extracted.confidence,
-                source=extracted.source,
-            )
+                name = entry.name
+                extracted = Speaker(
+                    name=name,
+                    title=extracted.title or entry.title or None,
+                    country=extracted.country or entry.country or None,
+                    confidence=extracted.confidence,
+                    source=extracted.source,
+                )
+            elif name:
+                extracted = Speaker(
+                    name=name,
+                    title=extracted.title,
+                    country=extracted.country,
+                    confidence=extracted.confidence,
+                    source=extracted.source,
+                )
+            else:
+                extracted = None
+        if extracted is not None:
             if extracted.name.casefold() != self._current.name.casefold():
                 self._pending = extracted
                 stamp = format_timecode(video_seconds or 0.0)
@@ -403,7 +450,8 @@ class SpeakerTracker:
             if llm_speaker is not None:
                 return llm_speaker
         if regex_speaker is not None:
-            return regex_speaker
+            if regex_speaker.name or cue:
+                return regex_speaker
         return None
 
     def _llm_enabled(self) -> bool:

@@ -21,6 +21,7 @@ _HIGHLIGHT_MARKERS = (
     "Stream ended",
     "Email alerts enabled",
     "Email alerts disabled",
+    "MONITOR_STALE",
 )
 
 

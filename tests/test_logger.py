@@ -45,7 +45,7 @@ class HighlightsFilterTest(unittest.TestCase):
             )
         )
         self.assertTrue(
-            self.filter.filter(self._record(logging.INFO, "SESSION_START | stream monitor"))
+            self.filter.filter(self._record(logging.INFO, "MONITOR_STALE | no transcript"))
         )
 
     def test_drops_routine_transcription(self) -> None:

@@ -12,7 +12,7 @@ from typing import Protocol
 
 from app.config import Config
 from app.detector import DetectionEvent
-from app.youtube import format_timecode
+from app.youtube import format_timecode, video_id_from_url, watch_page_url_at
 
 logger = logging.getLogger(__name__)
 
@@ -23,6 +23,8 @@ class Notifier(Protocol):
 
     def notify(self, events: Sequence[DetectionEvent]) -> None: ...
 
+    def notify_status(self, subject: str, body: str) -> bool: ...
+
 
 class NullNotifier:
     @property
@@ -31,6 +33,9 @@ class NullNotifier:
 
     def notify(self, events: Sequence[DetectionEvent]) -> None:
         return None
+
+    def notify_status(self, subject: str, body: str) -> bool:
+        return False
 
 
 @dataclass(frozen=True)
@@ -96,6 +101,16 @@ def mark_sent(last_sent: dict[str, float], events: Sequence[DetectionEvent], now
         last_sent[event.keyword.casefold()] = now
 
 
+def _watch_page_from_embed(watch_url: str, video_seconds: float | None) -> str | None:
+    if video_seconds is None:
+        return None
+    video_id = video_id_from_url(watch_url)
+    if not video_id:
+        return None
+    page = watch_page_url_at(video_id, video_seconds)
+    return None if page == watch_url else page
+
+
 def build_email(events: Sequence[DetectionEvent]) -> tuple[str, str]:
     if not events:
         raise ValueError("no hay eventos para armar el email")
@@ -123,6 +138,9 @@ def build_email(events: Sequence[DetectionEvent]) -> tuple[str, str]:
                 "Watch (t= may not match the player; live start time was unknown): "
                 f"{first.watch_url}"
             )
+        page_url = _watch_page_from_embed(first.watch_url, first.video_seconds)
+        if page_url:
+            lines.append(f"Watch page: {page_url}")
     if speakers:
         lines.append(f"Speaker: {', '.join(speakers)}")
         titles = list(dict.fromkeys(event.speaker_title for event in events if event.speaker_title))
@@ -149,6 +167,7 @@ class EmailNotifier:
         self.config = config
         self._clock = clock
         self._last_sent: dict[str, float] = {}
+        self._last_status_sent: float | None = None
         self._emails_sent = 0
 
     @property
@@ -186,6 +205,33 @@ class EmailNotifier:
             subject,
             creds.slot,
         )
+
+    def notify_status(self, subject: str, body: str) -> bool:
+        now = self._clock()
+        previous = self._last_status_sent
+        if (
+            previous is not None
+            and now - previous < self.config.watchdog_email_cooldown
+        ):
+            logger.info("MONITOR_STALE email skipped (cooldown)")
+            return False
+
+        creds = active_smtp_credentials(self.config)
+        try:
+            self._send(subject, body, creds)
+        except Exception as exc:
+            logger.error("Email alert failed: %s", exc)
+            return False
+
+        self._last_status_sent = now
+        self._emails_sent += 1
+        logger.info(
+            "Email alert sent | to=%s | subject=%s | smtp_slot=%s",
+            ", ".join(self.config.alert_email_to),
+            subject,
+            creds.slot,
+        )
+        return True
 
     def _send(self, subject: str, body: str, creds: SmtpCredentials) -> None:
         message = EmailMessage()

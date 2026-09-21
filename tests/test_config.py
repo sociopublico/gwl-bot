@@ -22,6 +22,8 @@ class ConfigDefaultsTest(unittest.TestCase):
         self.assertEqual(config.log_dir, "logs")
         self.assertEqual(config.smtp_password_b, "")
         self.assertFalse(config.smtp_rotation_enabled)
+        self.assertEqual(config.watchdog_seconds, 180)
+        self.assertEqual(config.watchdog_email_cooldown, 600)
 
     def test_stream_start_cannot_be_negative(self) -> None:
         env = {

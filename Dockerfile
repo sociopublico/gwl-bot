@@ -29,6 +29,9 @@ COPY tests/ tests/
 COPY speakers.txt speakers.txt
 COPY claude-prompt.md claude-prompt.md
 
+HEALTHCHECK --interval=30s --timeout=5s --start-period=180s --retries=4 \
+    CMD python -m app.healthcheck
+
 RUN python -c "from app.detector import detect_keywords; \
 e=detect_keywords('Today we want to talk about Women and their participation', ('women',), 4); \
 assert len(e)==1 and e[0].keyword=='women'; \

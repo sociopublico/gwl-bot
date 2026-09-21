@@ -49,6 +49,8 @@ KEYWORDS=women,gender,refugees
 | `SPEAKER_ROSTER_FILE` | vacío | Archivo con un orador por línea (Compose monta `speakers.txt`) |
 | `LOG_LEVEL` | `INFO` | `DEBUG` para ver stderr de FFmpeg |
 | `LOG_DIR` | `logs` | Directorio de `full.log` + `highlights.log` (flush inmediato) |
+| `WATCHDOG_SECONDS` | `180` | Mail `MONITOR_STALE` + HEALTHCHECK si no hay chunk transcrito. `0` = apagado |
+| `WATCHDOG_EMAIL_COOLDOWN` | `600` | Mínimo entre mails de “estoy ciego” |
 
 SMTP (opcional; sin esto solo hay log):
 
@@ -78,7 +80,7 @@ Cada línea se escribe y flushea al toque (no hace falta esperar al fin del proc
 | Archivo | Contenido |
 |---|---|
 | `logs/full.log` | Igual que la consola |
-| `logs/highlights.log` | Solo `SPEAKER_CHANGED`, `KEYWORD_DETECTED`, email sent/failed/cooldown, errores, inicio/fin de sesión |
+| `logs/highlights.log` | Solo `SPEAKER_CHANGED`, `KEYWORD_DETECTED`, email sent/failed/cooldown, `MONITOR_STALE`, errores, inicio/fin de sesión |
 
 Rotación diaria (14 días). Compose monta `./logs` → `/app/logs`.
 
@@ -178,13 +180,26 @@ El monitor detecta cambios de orador desde el ASR cuando el chair presenta (`His
 
 Eso **no** es lo mismo que el pipeline de análisis: ahí Whisper solo transcribe un discurso ya aislado y el nombre viene del roster gadebate.
 
-Para mejorar el fuzzy match del monitor, exportá los nombres del roster del día a `speakers.txt`:
+Para mejorar el fuzzy match del monitor, bajá nombres, país y cargo desde e-speakers:
 
 ```bash
-pipeline/.venv/bin/python -m pipeline roster --session 80 --day 2025-09-23 --speakers-txt speakers.txt
-# o, si el JSON ya existe:
-pipeline/.venv/bin/python -m pipeline export-speakers --session 80 --day 2025-09-23 --speakers-txt speakers.txt
+pipeline/.venv/bin/python -m pipeline speakers \
+  --url https://e-speakers.e-delegate.un.org/6aa9a60e2a8f905c7035541515092026 \
+  --day 2026-09-22 \
+  --speakers-txt speakers.txt
 ```
+
+El archivo queda `nombre | país | cargo`. El monitor matchea el nombre **y**, si el chair dice *“President of Brasil”* o *“prime minister of Canada”* sin un nombre usable, usa país/cargo.
+
+Sin `--day` escribe todos los nombres que ya figuran en la lista. Si el día está todo en *Forthcoming*, no pisa `speakers.txt`.
+
+Después de escribir el archivo, reiniciá el monitor para que lo recargue:
+
+```bash
+docker compose up -d --force-recreate
+```
+
+El roster de análisis (`python -m pipeline roster`) sigue siendo otra cosa: fichas de gadebate con PDF/audio/video. Si ese JSON ya existe, todavía se puede exportar nombres con `export-speakers`.
 
 ## Cambiar el modelo Whisper
 
@@ -208,8 +223,10 @@ No hace falta `pip install`. El modelo nuevo se descarga solo la primera vez que
 ## Qué ver en el log
 
 ```text
-KEYWORD_DETECTED | women | Luiz Inacio Lula da Silva | t=3122s | "...talk about women..." | https://www.youtube.com/watch?v=...&t=3122s
+KEYWORD_DETECTED | women | Luiz Inacio Lula da Silva | t=3122s | "...talk about women..." | https://www.youtube.com/embed/...?start=3122
 ```
+
+El link usa `/embed/?start=` para que el player **no salte al vivo**. El mail también trae `Watch page` (`watch?v=&t=`) para cuando el stream ya es archivo.
 
 Latencia típica con chunks de 20 s: **25–55 s** después de que se dijo la palabra (HLS de YouTube + chunk + inferencia).
 
@@ -222,6 +239,7 @@ Latencia típica con chunks de 20 s: **25–55 s** después de que se dijo la pa
 | `timed out waiting for audio` | Live caído, URL vencida o red; reintenta solo |
 | Inferencia > `CHUNK_SECONDS` | Bajar a `tiny`/`base` o subir `CHUNK_SECONDS` |
 | `Email alerts disabled` | Faltan `SMTP_HOST`, `SMTP_FROM` o `ALERT_EMAIL_TO` |
+| `MONITOR_STALE` / `unhealthy` | No transcribe: live caído, 403, o Whisper colgado. El contenedor **no** se reinicia solo; `docker compose ps` + el mail. `WATCHDOG_SECONDS=0` lo apaga |
 | Mails de más | Subí `ALERT_COOLDOWN_SECONDS` |
 
 ## Cookies de YouTube (si hace falta)
@@ -236,7 +254,7 @@ Si yt-dlp falla con `Sign in to confirm you're not a bot` (típico en VPS/datace
 COOKIES_FILE=/cookies/youtube.txt
 ```
 
-4. Compose ya monta `./youtube.cookies.txt:/cookies/youtube.txt:ro`. Reiniciá:
+4. Compose monta `./youtube.cookies.txt:/cookies/youtube.txt` (escribible: yt-dlp actualiza el archivo). Reiniciá:
 
 ```bash
 # si el archivo aún no existe, creá uno vacío solo para que el mount no falle, después reemplazalo
@@ -248,11 +266,22 @@ Las cookies vencen; si vuelve el error de bot, re-exportá. **No subas** `youtub
 
 Alternativa de smoke test **sin** YouTube: URL directa de audio (p.ej. un `.flac`/HLS) en `STREAM_URL`.
 
+## Sin plan B automático
+
+Estos huecos **no** se recuperan solos. El watchdog avisa si el monitor está ciego; no rellena el audio perdido.
+
+- **Audio perdido al reconectar.** `live_from_start=False`: al volver se engancha al vivo actual. Plan B = `highlights.log` + pipeline del discurso publicado.
+- **YouTube 403 / bot-check.** El loop reconecta como si fuera un corte de red. Plan B = montar `COOKIES_FILE` (arriba) y mirar `MONITOR_STALE` si queda ciego.
+- **SMTP A/B.** La rotación es por hora par/impar, no failover. Si A falla, no se prueba B. Plan B = logs. El mail de watchdog usa el mismo SMTP (si A está muerto a esa hora, el HEALTHCHECK y `highlights.log` siguen).
+- **OOM cruzado con extract.** No hay lock entre el monitor (`WHISPER_MODEL=base`) y el pipeline. Plan B = no correr extract pesado durante el live; el compose del pipeline ya fuerza `tiny`.
+
 ## Código
 
 ```text
 app/
-  main.py          loop, señales, reconnect, heartbeat
+  main.py          loop, señales, reconnect, heartbeat, watchdog
+  watchdog.py      .heartbeat + MONITOR_STALE
+  healthcheck.py   Docker HEALTHCHECK
   audio.py         yt-dlp + FFmpeg + chunks PCM
   transcriber.py   faster-whisper
   speaker.py       presentaciones de protocolo + LLM opcional

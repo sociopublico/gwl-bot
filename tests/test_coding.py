@@ -20,6 +20,7 @@ from pipeline.coding import (
     emerging_extract_id,
     extract_id_for,
     flatten_newlines,
+    incomplete_speeches,
     option_for,
     rows_from_payload,
     topic_slug,
@@ -211,7 +212,7 @@ class CodebookHelpersTest(unittest.TestCase):
         self.assertIn("Not a real theme", stderr.getvalue())
         self.assertFalse(any(row["id_speech"] == "M_99" for row in indicators))
 
-    def test_missing_indicator_defaults_to_zero(self) -> None:
+    def test_missing_indicator_is_incomplete_not_zero(self) -> None:
         payload = {
             "indicators": [
                 {
@@ -224,18 +225,25 @@ class CodebookHelpersTest(unittest.TestCase):
             ],
             "emerging_priorities": [],
         }
-        indicators, _emerging = rows_from_payload(
+        items = [(_speech(), Path("M_1.txt"), "M_1")]
+        missing = incomplete_speeches(payload, items)
+        self.assertIn("M_1", missing)
+        self.assertIn("gender_equality_position", missing["M_1"])
+        indicators, emerging = rows_from_payload(
             payload,
-            [(_speech(), Path("M_1.txt"), "M_1")],
+            items,
             model="claude-haiku-4-5",
             date_coded="2026-09-15",
         )
-        self.assertEqual(len(indicators), 8)
-        missing = next(row for row in indicators if row["indicator_name"] == "gender_equality_position")
-        self.assertEqual(missing["code"], "0")
-        self.assertEqual(missing["option"], "No Mention")
-        self.assertEqual(missing["textual_extract"], "")
-        self.assertIn("missing from model response", missing["coder_notes"])
+        self.assertEqual(indicators, [])
+        self.assertEqual(emerging, [])
+
+    def test_invalid_code_is_incomplete(self) -> None:
+        payload = _payload("M_1", codes={"gender_equality_position": 99}, topics=[])
+        missing = incomplete_speeches(
+            payload, [(_speech(), Path("M_1.txt"), "M_1")]
+        )
+        self.assertIn("gender_equality_position", missing["M_1"])
 
     def test_code_zero_drops_textual_extract(self) -> None:
         payload = _payload(
@@ -437,7 +445,66 @@ class CodeDayTest(unittest.TestCase):
                     "--dry-run",
                 ]
             )
-        self.assertEqual(rc, 0)
+            self.assertEqual(rc, 0)
+
+
+    def test_mixed_chunk_writes_only_complete_speech(self) -> None:
+        config = load_session("80")
+        complete = _payload("M_1", topics=["Climate change"])
+        incomplete = {
+            "indicators": [
+                {
+                    "id_speech": "M_2",
+                    "indicator_name": "un_reform_position",
+                    "code": 1,
+                    "textual_extract": "(1) Reform.",
+                    "coder_notes": "",
+                }
+            ],
+            "emerging_priorities": [
+                {
+                    "id_speech": "M_2",
+                    "emerging_topic": "Climate change",
+                    "textual_extract": "should not be written",
+                }
+            ],
+        }
+        payload = {
+            "indicators": complete["indicators"] + incomplete["indicators"],
+            "emerging_priorities": complete["emerging_priorities"]
+            + incomplete["emerging_priorities"],
+        }
+
+        with tempfile.TemporaryDirectory() as tmp:
+            dest = Path(tmp)
+            prompt = _prompt(dest)
+            directory = out_dir(config, "2025-09-23", dest=dest)
+            write_speech(_speech(), directory)
+            write_speech(_speech(slug="chile", id_speech="M_2", name="Boric"), directory)
+            stderr = io.StringIO()
+            with redirect_stderr(stderr):
+                with patch(
+                    "pipeline.coding.anthropic_settings",
+                    return_value=("sk", "claude-haiku-4-5"),
+                ):
+                    with patch("pipeline.coding.call_claude", return_value=payload):
+                        rc = code_day(
+                            config,
+                            day="2025-09-23",
+                            dest=dest,
+                            prompt_path=prompt,
+                        )
+            self.assertEqual(rc, 2)
+            self.assertIn("FAIL speech=M_2", stderr.getvalue())
+            with (directory / "Indicators.csv").open(encoding="utf-8", newline="") as fh:
+                rows = list(csv.DictReader(fh))
+            self.assertEqual({row["id_speech"] for row in rows}, {"M_1"})
+            self.assertEqual(len(rows), 8)
+            with (directory / "Emerging_Priorities.csv").open(
+                encoding="utf-8", newline=""
+            ) as fh:
+                emerging = list(csv.DictReader(fh))
+            self.assertEqual([row["id_speech"] for row in emerging], ["M_1"])
 
 
 if __name__ == "__main__":

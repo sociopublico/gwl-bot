@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import unittest
 
-from app.youtube import format_timecode, video_id_from_url, watch_url_at
+from app.youtube import format_timecode, video_id_from_url, watch_page_url_at, watch_url_at
 
 
 class VideoIdFromUrlTest(unittest.TestCase):
@@ -29,13 +29,19 @@ class WatchUrlAtTest(unittest.TestCase):
     def test_rounds_to_int_seconds(self) -> None:
         self.assertEqual(
             watch_url_at("KnIFmbdRCi0", 2830.4),
-            "https://www.youtube.com/watch?v=KnIFmbdRCi0&t=2830s",
+            "https://www.youtube.com/embed/KnIFmbdRCi0?start=2830",
         )
 
     def test_clamps_negative(self) -> None:
         self.assertEqual(
             watch_url_at("KnIFmbdRCi0", -3),
-            "https://www.youtube.com/watch?v=KnIFmbdRCi0&t=0s",
+            "https://www.youtube.com/embed/KnIFmbdRCi0?start=0",
+        )
+
+    def test_watch_page_keeps_t_seconds(self) -> None:
+        self.assertEqual(
+            watch_page_url_at("KnIFmbdRCi0", 2830.4),
+            "https://www.youtube.com/watch?v=KnIFmbdRCi0&t=2830",
         )
 
 

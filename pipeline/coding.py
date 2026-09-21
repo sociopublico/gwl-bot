@@ -444,14 +444,10 @@ def _indicator_row(
     }
 
 
-def rows_from_payload(
+def _indicators_by_speech(
     payload: dict,
-    items: list[tuple[ExtractedSpeech, Path, str]],
-    *,
-    model: str,
-    date_coded: str,
-) -> tuple[list[dict[str, str]], list[dict[str, str]]]:
-    allowed = {speech_id for _, _, speech_id in items}
+    allowed: set[str],
+) -> dict[str, dict[str, dict]]:
     by_speech: dict[str, dict[str, dict]] = {speech_id: {} for speech_id in allowed}
     raw_indicators = payload.get("indicators") or []
     if not isinstance(raw_indicators, list):
@@ -466,9 +462,48 @@ def rows_from_payload(
         if name not in CLUSTERS:
             continue
         by_speech[speech_id][name] = raw
+    return by_speech
+
+
+def incomplete_speeches(
+    payload: dict,
+    items: list[tuple[ExtractedSpeech, Path, str]],
+) -> dict[str, list[str]]:
+    """id_speech → indicadores ausentes o con code inválido. Vacío = todos completos."""
+    allowed = {speech_id for _, _, speech_id in items}
+    by_speech = _indicators_by_speech(payload, allowed)
+    missing: dict[str, list[str]] = {}
+    for _, _, speech_id in items:
+        found = by_speech.get(speech_id) or {}
+        problems: list[str] = []
+        for name in INDICATORS:
+            raw = found.get(name)
+            if not raw:
+                problems.append(name)
+                continue
+            code = _parse_code(raw.get("code"))
+            if code is None or option_for(name, code) == "":
+                problems.append(name)
+        if problems:
+            missing[speech_id] = problems
+    return missing
+
+
+def rows_from_payload(
+    payload: dict,
+    items: list[tuple[ExtractedSpeech, Path, str]],
+    *,
+    model: str,
+    date_coded: str,
+) -> tuple[list[dict[str, str]], list[dict[str, str]]]:
+    allowed = {speech_id for _, _, speech_id in items}
+    by_speech = _indicators_by_speech(payload, allowed)
+    skip_ids = set(incomplete_speeches(payload, items))
 
     indicator_rows: list[dict[str, str]] = []
     for _, _, speech_id in items:
+        if speech_id in skip_ids:
+            continue
         found = by_speech.get(speech_id) or {}
         for name in INDICATORS:
             raw = found.get(name) or {}
@@ -477,10 +512,6 @@ def rows_from_payload(
             extract = str(raw.get("textual_extract") or "").strip()
             if code is None:
                 code = 0
-                if name not in found:
-                    notes = notes or "missing from model response"
-            elif option_for(name, code) == "":
-                notes = notes or f"invalid code {code} for {name}"
             if code == 0:
                 extract = ""
             indicator_rows.append(
@@ -504,7 +535,7 @@ def rows_from_payload(
         if not isinstance(raw, dict):
             continue
         speech_id = normalize_speech_id(str(raw.get("id_speech") or ""))
-        if speech_id not in allowed:
+        if speech_id not in allowed or speech_id in skip_ids:
             continue
         topic = canonical_topic(str(raw.get("emerging_topic") or ""))
         if topic is None:
@@ -652,9 +683,19 @@ def code_day(
                 cache_system=True,
                 disable_thinking=True,
             )
+            incomplete = incomplete_speeches(payload, chunk)
+            complete = [item for item in chunk if item[2] not in incomplete]
+            for speech_id, names in incomplete.items():
+                errors += 1
+                print(
+                    f"FAIL speech={speech_id} missing={','.join(names)}",
+                    file=sys.stderr,
+                )
+            if not complete:
+                continue
             indicator_rows, emerging_rows = rows_from_payload(
                 payload,
-                chunk,
+                complete,
                 model=model,
                 date_coded=date_coded,
             )
@@ -666,11 +707,12 @@ def code_day(
             print(f"WARN {warning}", file=sys.stderr)
         append_csv(indicators_csv_path(directory), INDICATOR_COLUMNS, indicator_rows)
         append_csv(emerging_csv_path(directory), EMERGING_COLUMNS, emerging_rows)
-        coded += len(chunk)
+        coded += len(complete)
         indicator_total += len(indicator_rows)
         emerging_total += len(emerging_rows)
         print(
-            f"OK chunk {index}/{len(chunks)} speeches={ids} "
+            f"OK chunk {index}/{len(chunks)} speeches="
+            f"{','.join(item[2] for item in complete)} "
             f"indicators={len(indicator_rows)} emerging={len(emerging_rows)} model={model}",
             file=sys.stderr,
         )
