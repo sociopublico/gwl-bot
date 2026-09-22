@@ -6,16 +6,28 @@ pipeline/.venv/bin/pip install -U pip
 
 pipeline/.venv/bin/pip install -r pipeline/requirements.txt  
 
-ALERTAS
+---
 
-pipeline/.venv/bin/python -m pipeline roster  --session 80 --day 2025-09-23 --speakers-txt speakers.txt   
+SERVER (ALERTAS) 
 
-docker compose up --build
+al principio de cada dia:
 
- ANALISIS
+- volver a sacar cookies por las dudas:
+  - yt-dlp --cookies-from-browser firefox --cookies youtube.cookies.txt --skip-download "[https://www.youtube.com/watch?v=bZ99XPDm1vk"](https://www.youtube.com/watch?v=KnIFmbdRCi0)
+  - scp youtube.cookies.txt root@ubuntu-socio-new:~/traefik/gwl-bot/
+- pipeline/.venv/bin/python -m pipeline roster  --session 80 --day 2025-09-23 --speakers-txt speakers.txt     
+- git push etc etc  
+- docker compose up --build
 
-pipeline/.venv/bin/python -m pipeline roster --session 80 --day 2025-09-23
+---
 
-pipeline/.venv/bin/python -m pipeline fetch --session 80 --day 2025-09-23 --skip-existing
+LOCAL (ANALISIS)
 
-pipeline/.venv/bin/python -m pipeline publish --session 80 --day 2025-09-23 --sheet  --github
+al final de cada día: 
+
+- pipeline/.venv/bin/python -m pipeline roster --session 80 --day 2025-09-23
+- pipeline/.venv/bin/python -m pipeline fetch --session 80 --day 2025-09-23 --skip-existing
+- pipeline/.venv/bin/python -m pipeline publish --session 80 --day 2025-09-23 --sheet  --github
+- pipeline/.venv/bin/python -m pipeline coding --session 80 --day 2025-09-23 
+- pipeline/.venv/bin/python -m pipeline coding-sheet --session 80 --day 2025-09-23
+

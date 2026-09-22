@@ -177,19 +177,19 @@ Si el scrape de gadebate falla dentro de Docker (WAF/proxy), usá el flujo separ
 
 ## Dashboard de avance (GitHub Pages)
 
-Sitio estático con accordion por día y timeline por orador (fetch orador → discurso → coding).
+Sitio estático con accordion por día y timeline por orador (fetch orador → discurso → coding). **No se actualiza solo en el browser**: es HTML generado.
+
+- **GitHub Pages:** el workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml) corre `progress-site` (y `alerts-site`) en cada push a `main` que toque roster/coding/out/alerts. No hace falta correr el comando a mano para que se publique; sí hace falta **commit + push de los datos** (roster, CSV, snapshots). En el repo: **Settings → Pages → Source = GitHub Actions**.
+- **Local (preview):**
 
 ```bash
-# Local (venv del pipeline)
 pipeline/.venv/bin/python -m pipeline progress-site --session 80
 # → docs/index.html + docs/data/progress.json
 ```
 
 El hito “análisis/coding” se marca OK si hay filas en `Indicators.csv` del día **o** en el snapshot versionado `pipeline/data/coding/<session>/<day>.json` (lo escribe `coding` al terminar).
 
-Para que GitHub Pages cuente bien: commit + push de `docs/`, `pipeline/data/coding/` y/o los CSV `Indicators.csv` / `Emerging_Priorities.csv` (ya no están ignorados).
-
-Publicación: workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml) regenera `docs/` y despliega Pages. En el repo: **Settings → Pages → Source = GitHub Actions**.
+Para que GitHub Pages cuente bien: commit + push de `docs/` no es obligatorio (Actions regenera el artefacto); sí versioná `pipeline/data/coding/` y/o los CSV `Indicators.csv` / `Emerging_Priorities.csv`.
 
 ## Otros comandos
 
@@ -220,7 +220,9 @@ pipeline/
   claude.py           cliente Anthropic
   analyze.py          legado: Claude → pestaña Analysis
   progress.py         agregación de avance + generador docs/
+  alerts_site.py      dashboard de keywords en vivo (docs/alerts.html)
   data/roster/        JSON diarios
+  data/alerts/        snapshots de KEYWORD_DETECTED por día (opcional, para Pages)
   data/analyze-prompt.md
   out/<session>/<day>/*.txt (+ Indicators.csv / Emerging_Priorities.csv locales)
 docs/                 sitio estático (GitHub Pages)

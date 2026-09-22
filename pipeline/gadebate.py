@@ -2,9 +2,11 @@ from __future__ import annotations
 
 import json
 import re
+from dataclasses import dataclass
 from html import unescape
 
 from pipeline.config import SessionConfig
+from pipeline.countries import NO_ISO_SLUGS, _ALIAS_PAIRS, slugify, weak_slug
 from pipeline.http import HttpError, fetch
 from pipeline.models import FileRef, SpeakerPage
 
@@ -257,3 +259,145 @@ def refresh_slugs_from_archive(config: SessionConfig) -> list[str]:
             f"Usá el slug_file de {config.name}."
         )
     return slugs
+
+
+@dataclass(frozen=True)
+class ListingSpeaker:
+    part: str
+    title: str
+    name: str
+    slug: str
+
+
+_HOMEPAGE_TITLE_RE = re.compile(
+    r'views-field-field-speaker-title">\s*([^<]+)[\s\S]{0,1200}?speaker-info">([\s\S]*?)</span>',
+    re.I,
+)
+_HOMEPAGE_DATE_RE = re.compile(r'"settingsDate"\s*:\s*"(\d{4}-\d{2}-\d{2})"')
+
+
+def _view_chunk(html: str, display_id: str) -> str:
+    marker = f"view-display-id-{display_id}"
+    start = html.find(marker)
+    if start < 0:
+        return ""
+    rest = html[start:]
+    nxt = rest.find("view-display-id-block_", 16)
+    return rest if nxt < 0 else rest[:nxt]
+
+
+def _clean_listing_title(raw: str) -> str:
+    return re.sub(r"^\d+\.\s*", "", strip_tags(raw)).strip()
+
+
+def _name_from_listing_info(raw: str) -> str:
+    before = unescape(raw).split("<br", 1)[0]
+    name = strip_tags(before)
+    name = re.sub(r"^(His|Her)\s+Excellency\s+", "", name, flags=re.I)
+    name = re.sub(
+        r"^(His|Her)\s+(Royal\s+Highness|Highness|Majesty)\s+",
+        "",
+        name,
+        flags=re.I,
+    )
+    return name.strip()
+
+
+def build_slug_catalog(slugs: list[str]) -> dict[str, str]:
+    catalog: dict[str, str] = {}
+    for slug in slugs:
+        slug = (slug or "").strip()
+        if not slug:
+            continue
+        for key in (slug, slugify(slug), weak_slug(slug)):
+            if key:
+                catalog.setdefault(key, slug)
+    for left, right in _ALIAS_PAIRS:
+        if left in catalog:
+            catalog.setdefault(right, catalog[left])
+        elif right in catalog:
+            catalog.setdefault(left, catalog[right])
+        else:
+            catalog.setdefault(left, left)
+            catalog.setdefault(right, left)
+    return catalog
+
+
+def slug_catalog_for(config: SessionConfig) -> dict[str, str]:
+    from pipeline.config import load_slugs
+
+    slugs = list(NO_ISO_SLUGS)
+    slugs.extend(load_slugs(config))
+    extra = config.root / "data" / "unga80-slugs.txt"
+    if extra.is_file() and extra.resolve() != config.slug_file.resolve():
+        for line in extra.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            slugs.append(line)
+    return build_slug_catalog(slugs)
+
+
+def slug_from_speaker_title(title: str, catalog: dict[str, str] | None = None) -> str:
+    cleaned = _clean_listing_title(title)
+    if not cleaned:
+        return ""
+    keys = [slugify(cleaned), weak_slug(cleaned)]
+    if catalog:
+        for key in keys:
+            if key and key in catalog:
+                return catalog[key]
+    return next((key for key in keys if key), "")
+
+
+def listings_from_homepage_html(
+    html: str,
+    catalog: dict[str, str] | None = None,
+) -> tuple[str, list[ListingSpeaker]]:
+    listed_day = ""
+    match = _HOMEPAGE_DATE_RE.search(html)
+    if match:
+        listed_day = match.group(1)
+    speakers: list[ListingSpeaker] = []
+    seen: set[str] = set()
+    for display, part in (
+        ("block_morning_session", "morning"),
+        ("block_afternoon_session", "afternoon"),
+    ):
+        chunk = _view_chunk(html, display)
+        if not chunk:
+            continue
+        for raw_title, raw_info in _HOMEPAGE_TITLE_RE.findall(chunk):
+            title = _clean_listing_title(raw_title)
+            slug = slug_from_speaker_title(title, catalog)
+            if not slug or slug in seen:
+                continue
+            seen.add(slug)
+            speakers.append(
+                ListingSpeaker(
+                    part=part,
+                    title=title,
+                    name=_name_from_listing_info(raw_info),
+                    slug=slug,
+                )
+            )
+    return listed_day, speakers
+
+
+def fetch_homepage_listings(
+    config: SessionConfig,
+    day: str | None = None,
+) -> list[ListingSpeaker]:
+    _, _, body = fetch(config.homepage_url(), user_agent=config.user_agent)
+    html = body.decode("utf-8", "replace")
+    listed_day, speakers = listings_from_homepage_html(html, slug_catalog_for(config))
+    if day and listed_day and listed_day != day:
+        raise RuntimeError(
+            f"gadebate /en muestra el Daily schedule de {listed_day}, no {day}"
+        )
+    if not speakers:
+        raise RuntimeError(
+            "gadebate /en no listó Morning/Afternoon Session "
+            f"(día {listed_day or day or '?'})"
+        )
+    return speakers

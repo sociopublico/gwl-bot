@@ -1,34 +1,33 @@
-# Auto-exportado desde e-speakers --day 2026-09-22
-# https://e-speakers.e-delegate.un.org/6aa9a60e2a8f905c7035541515092026
+# Auto-exportado desde roster UNGA para el monitor de alertas
 # nombre | país | cargo
-Luiz Inácio Lula da Silva | Brazil | President of the Federative Republic of Brazil
-Donald Trump | United States of America | President of the United States of America
-King Abdullah II ibn Al Hussein | Jordan | King of the Hashemite Kingdom of Jordan
-Recep Tayyip Erdoğan | Türkiye | President of the Republic of Türkiye
-Sadyr Zhaparov | Kyrgyzstan | President of the Kyrgyz Republic
-Sheikh Tamim bin Hamad Al Thani | Qatar | Amir of the State of Qatar
-Gitanas Nausėda | Lithuania | President of the Republic of Lithuania
-Keiko Sofia Fujimori Higuchi | Peru | President of the Republic of Peru
-José Antonio Kast | Chile | President of the Republic of Chile
-Emmanuel Macron | France | President of the French Republic
-Alexander Stubb | Finland | President of the Republic of Finland
-Grand Duke Guillaume of Luxembourg | Luxembourg
-João Manuel Gonçalves Lourenço | Angola | President of the Republic of Angola
-Khurelsukh Ukhnaa | Mongolia | President of Mongolia
-Lee Jae Myung | Republic of Korea | President of the Republic of Korea
-Jennifer Geerlings-Simons | Suriname | President of the Republic of Suriname
-Julius Maada Bio | Sierra Leone | President of the Republic of Sierra Leone
-Denis Bećirović | Bosnia and Herzegovina | Chairman of the Presidency of Bosnia and Herzegovina
-Sylvanie Burton | Dominica | President of the Commonwealth of Dominica
-Guy Parmelin | Switzerland | President of the Swiss Confederation
-Lam To | Viet Nam | General Secretary of the Communist Party of Viet Nam and President of the Socialist Republic of Viet Nam
-Mathew Antonio Patrick Herminie | Seychelles | President of the Republic of Seychelles
-David Ranibok Adeang | Naoero | President and Head of State of the Republic of Naoero
-Deogratius Ndejembi | United Republic of Tanzania | Vice President of the United Republic of Tanzania
-Tshering Tobgay | Bhutan | Prime Minister of the Kingdom of Bhutan
-Kamla Persad-Bissessar | Trinidad and Tobago | Prime Minister of the Republic of Trinidad and Tobago
-Takaichi Sanae | Japan | Prime Minister of Japan
-Andy Burnham | United Kingdom of Great Britain and Northern Ireland | Prime Minister and First Lord of the Treasury of the United Kingdom of Great Britain and Northern Ireland
-Andrej Plenković | Croatia | Prime Minister of the Republic of Croatia
-Maxime Prévot | Belgium | Deputy Prime Minister and Minister of Foreign Affairs, European Affairs and Development Cooperation of Belgium
-Nasser Bourita | Morocco | Minister of Foreign Affairs, African Cooperation and Moroccans Abroad of Morocco
+António Guterres | Secretary-General of the United Nations | Secretary-General
+Dr. Khalilur Rahman | President of the General Assembly (opening) | President of the General Assembly
+Luiz Inácio Lula Da Silva | Brazil | President
+Donald Trump | United States of America | President
+Abdullah II ibn Al Hussein | Jordan | King
+Recep Tayyip Erdoğan | Türkiye | President
+Sadyr Zhaparov | Kyrgyzstan | President
+Sheikh Tamim bin Hamad Al Thani | Qatar | Amir
+Gitanas Nausėda | Lithuania | President
+Keiko Sofia Fujimori Higuchi | Peru | President
+José Antonio Kast | Chile | President
+Emmanuel Macron | France | President
+Alexander Stubb | Finland | President
+Guillaume of Luxembourg | Luxembourg | Grand Duke
+João Manuel Gonçalves Lourenço | Angola | President
+Khurelsukh Ukhnaa | Mongolia | President
+Lee Jae Myung | Republic of Korea | President
+Jennifer Geerlings-Simons | Suriname | President
+Julius Maada Bio | Sierra Leone | President
+Denis Bećirović | Bosnia and Herzegovina | Chairman of the Presidency
+Sylvanie Burton | Dominica | President
+Guy Parmelin | Switzerland | President
+Lam To | Viet Nam | President
+Mathew Antonio Patrick Herminie | Seychelles | President
+David Ranibok Adeang | Naoero
+Deogratius Ndejembi | United Republic of Tanzania | Vice-President
+Tshering Tobgay | Bhutan | Prime Minister
+Kamla Persad-Bissessar | Trinidad and Tobago | Prime Minister
+Takaichi Sanae | Japan | Prime Minister
+Andrew Burnham | United Kingdom of Great Britain and Northern Ireland | Prime Minister
+Andrej Plenković | Croatia | Prime Minister

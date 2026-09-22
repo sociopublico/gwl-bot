@@ -4,8 +4,11 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from unittest.mock import patch
+
 from pipeline.config import load_session
-from pipeline.gadebate import parse_speaker_page
+from pipeline.gadebate import ListingSpeaker, parse_speaker_page
+from pipeline.models import SpeakerPage
 from pipeline.roster import (
     chosen_source,
     export_speaker_names,
@@ -99,10 +102,22 @@ class RosterTest(unittest.TestCase):
     def test_export_speaker_names(self) -> None:
         payload = {
             "speakers": [
-                {"slug": "brazil", "name": "Luiz Inacio Lula da Silva"},
-                {"slug": "france", "name": "Emmanuel Macron"},
-                {"slug": "dup", "name": "Emmanuel Macron"},
+                {
+                    "slug": "brazil",
+                    "name": "Luiz Inacio Lula da Silva",
+                    "country": "Brazil",
+                    "rank": "President",
+                },
+                {
+                    "slug": "france",
+                    "name": "Emmanuel Macron",
+                    "country": "France",
+                    "rank": "President",
+                    "speaker_title": "His Excellency",
+                },
+                {"slug": "dup", "name": "Emmanuel Macron", "country": "France"},
                 {"slug": "empty", "name": ""},
+                {"slug": "plain", "name": "Someone Without Meta"},
             ]
         }
         with tempfile.TemporaryDirectory() as tmp:
@@ -114,8 +129,51 @@ class RosterTest(unittest.TestCase):
             ]
         self.assertEqual(
             lines,
-            ["Luiz Inacio Lula da Silva", "Emmanuel Macron"],
+            [
+                "Luiz Inacio Lula da Silva | Brazil | President",
+                "Emmanuel Macron | France | President",
+                "Someone Without Meta",
+            ],
         )
+
+    def test_build_roster_uses_homepage_when_slug_file_empty(self) -> None:
+        from dataclasses import replace
+
+        from pipeline.roster import build_roster
+
+        config = load_session("81")
+        listings = [
+            ListingSpeaker("morning", "Brazil", "Luiz Inácio Lula da Silva", "brazil"),
+            ListingSpeaker("afternoon", "France", "Emmanuel Macron", "france"),
+        ]
+
+        def fake_scrape(_config, slug: str) -> SpeakerPage:
+            return SpeakerPage(
+                slug=slug,
+                url=f"https://gadebate.un.org/en/81/{slug}",
+                country=slug,
+                name=slug,
+                rank="",
+                speaker_title="",
+                speech_date="2026-09-22",
+            )
+
+        with tempfile.TemporaryDirectory() as tmp:
+            journal_dir = Path(tmp)
+            config = replace(config, journal_dir=journal_dir)
+            with patch(
+                "pipeline.roster.fetch_homepage_listings", return_value=listings
+            ), patch(
+                "pipeline.roster.scrape_speaker", side_effect=fake_scrape
+            ):
+                payload = build_roster(config, day="2025-09-22")
+            self.assertEqual(payload["day"], "2026-09-22")
+            self.assertEqual(
+                [s["slug"] for s in payload["speakers"]], ["brazil", "france"]
+            )
+            journal = (journal_dir / "2026-09-22.txt").read_text(encoding="utf-8")
+        self.assertIn("brazil", journal)
+        self.assertIn("# afternoon", journal)
 
 
 if __name__ == "__main__":

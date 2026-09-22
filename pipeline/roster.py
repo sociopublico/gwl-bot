@@ -5,9 +5,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from pipeline.cascade import SourceUnavailable, choose_source
-from pipeline.config import SessionConfig
+from pipeline.config import SessionConfig, coerce_debate_day
 from pipeline.extract_video import kaltura_play_url
-from pipeline.gadebate import scrape_speaker
+from pipeline.gadebate import ListingSpeaker, fetch_homepage_listings, scrape_speaker
+from pipeline.journal import write_journal_slugs
 from pipeline.models import FileRef, SpeakerPage
 
 
@@ -119,9 +120,19 @@ def write_roster(payload: dict, path: Path) -> Path:
     return path
 
 
+def _export_title(speaker: dict) -> str:
+    rank = str(speaker.get("rank") or "").strip()
+    if rank:
+        return rank
+    title = str(speaker.get("speaker_title") or "").strip()
+    if title.casefold() in {"his excellency", "her excellency"}:
+        return ""
+    return title
+
+
 def export_speaker_names(payload: dict, path: Path) -> Path:
-    """Escribe un nombre por línea para SPEAKER_ROSTER_FILE del monitor en vivo."""
-    names: list[str] = []
+    """Escribe `nombre | país | cargo` para SPEAKER_ROSTER_FILE del monitor en vivo."""
+    lines: list[str] = []
     seen: set[str] = set()
     for speaker in payload.get("speakers") or []:
         name = str(speaker.get("name") or "").strip()
@@ -131,11 +142,17 @@ def export_speaker_names(payload: dict, path: Path) -> Path:
         if key in seen:
             continue
         seen.add(key)
-        names.append(name)
+        country = str(speaker.get("country") or "").strip()
+        title = _export_title(speaker)
+        if country or title:
+            lines.append(f"{name} | {country} | {title}".rstrip(" |"))
+        else:
+            lines.append(name)
     path.parent.mkdir(parents=True, exist_ok=True)
     body = "# Auto-exportado desde roster UNGA para el monitor de alertas\n"
-    body += "\n".join(names)
-    if names:
+    body += "# nombre | país | cargo\n"
+    body += "\n".join(lines)
+    if lines:
         body += "\n"
     path.write_text(body, encoding="utf-8")
     return path
@@ -166,6 +183,26 @@ def merge_speakers(existing: dict | None, incoming: dict) -> dict:
     }
 
 
+def _generic_country(value: str) -> bool:
+    text = (value or "").strip().casefold()
+    return not text or text in {"general debate", "united nations"}
+
+
+def _apply_listing(page: SpeakerPage, listing: ListingSpeaker | None, day: str) -> None:
+    if listing is None:
+        return
+    if not page.name and listing.name:
+        page.name = listing.name
+    if listing.title and _generic_country(page.country):
+        page.country = listing.title
+    if not page.speech_date:
+        page.speech_date = day
+    if page.error and (
+        str(page.error).startswith("ficha vacía") or page.http_status == 404
+    ) and (page.name or listing.name):
+        page.error = None
+
+
 def build_roster(
     config: SessionConfig,
     *,
@@ -175,10 +212,31 @@ def build_roster(
 ) -> dict:
     from pipeline.run import select_slugs
 
+    day = coerce_debate_day(config, day)
+    listings: list[ListingSpeaker] = []
     slugs = select_slugs(config, day=day, slug=slug, limit=limit)
+    if not slug:
+        try:
+            listings = fetch_homepage_listings(config, day)
+        except Exception:
+            if not slugs:
+                raise
+            listings = []
+        if not slugs:
+            slugs = [item.slug for item in listings]
+            write_journal_slugs(
+                config,
+                day,
+                slugs,
+                parts=[item.part for item in listings],
+            )
+        if limit is not None:
+            slugs = slugs[:limit]
+    by_slug = {item.slug: item for item in listings}
     speakers: list[dict] = []
     for item in slugs:
         page = scrape_speaker(config, item)
+        _apply_listing(page, by_slug.get(item), day)
         if day and page.speech_date and page.speech_date != day:
             continue
         speakers.append(speaker_entry_from_page(page, config.sources))

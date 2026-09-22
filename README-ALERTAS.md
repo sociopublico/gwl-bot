@@ -82,6 +82,7 @@ Cada línea se escribe y flushea al toque (no hace falta esperar al fin del proc
 |---|---|
 | `logs/full.log` | Igual que la consola |
 | `logs/highlights.log` | Solo `SPEAKER_CHANGED`, `KEYWORD_DETECTED`, email sent/failed/cooldown, `MONITOR_STALE`, errores, inicio/fin de sesión |
+| `logs/keywords.jsonl` | Una línea JSON por `KEYWORD_DETECTED` (para el dashboard) |
 
 Rotación diaria (14 días). Compose monta `./logs` → `/app/logs`.
 
@@ -228,6 +229,23 @@ KEYWORD_DETECTED | women | Luiz Inacio Lula da Silva | t=3122s | "...talk about 
 ```
 
 El mail lleva el **chunk entero** con la keyword en negrita (HTML), hora UTC + Nueva York, orador, YouTube sin timestamp (en vivo ignora `t=`), y si `WEBTV_URL` es un meeting con DVR un link `?kalturaStartTime=` al segundo del keyword. No uses el canal 24/7 de UN Web TV: no tiene DVR y el listing de YouTube data de cuando lo crearon (meses), no de cuando arrancó el programa de hoy. En el log, `origin=… reliable=false` y `t=12s?` quieren decir que el offset no es seekable.
+
+El monitor también appendea `logs/keywords.jsonl` (una línea por hit; no entra SPEAKER_CHANGED ni watchdog).
+
+## Dashboard de keywords
+
+Misma idea que el [dashboard de análisis](README-ANALISIS.md#dashboard-de-avance-github-pages): HTML estático, accordion por día → orador → hits con contexto. No muestra healthcheck ni cambios de orador.
+
+No se refresca solo en el browser. En el VPS el bot escribe el jsonl; para verlo / publicarlo:
+
+```bash
+# En el server, con los logs montados
+pipeline/.venv/bin/python -m pipeline alerts-site --session 80 --logs logs --snapshot
+# → docs/alerts.html + docs/data/alerts.json
+# --snapshot copia a pipeline/data/alerts/80/<día>.json para versionar
+```
+
+Commit + push de `pipeline/data/alerts/` dispara GitHub Pages (el workflow corre `alerts-site`). Local: abrí `docs/alerts.html` (junto a `docs/index.html`).
 
 Latencia típica con chunks de 20 s: **25–55 s** después de que se dijo la palabra (HLS de YouTube + chunk + inferencia).
 

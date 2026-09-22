@@ -21,3 +21,28 @@ def load_journal_slugs(config: SessionConfig, day: str) -> list[str] | None:
             continue
         slugs.append(line.split()[0])
     return slugs or None
+
+
+def write_journal_slugs(
+    config: SessionConfig,
+    day: str,
+    slugs: list[str],
+    *,
+    parts: list[str] | None = None,
+    overwrite: bool = False,
+) -> Path | None:
+    """Persiste el orden del día. No pisa un journal existente salvo overwrite."""
+    path = journal_path(config, day)
+    if path.is_file() and not overwrite:
+        return None
+    path.parent.mkdir(parents=True, exist_ok=True)
+    lines = [f"# Schedule gadebate /en {day}"]
+    last_part = None
+    for index, slug in enumerate(slugs):
+        part = parts[index] if parts and index < len(parts) else None
+        if part and part != last_part:
+            lines.append(f"# {part}")
+            last_part = part
+        lines.append(slug)
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return path

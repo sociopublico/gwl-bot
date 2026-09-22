@@ -5,12 +5,14 @@ import signal
 import sys
 import threading
 import time
+from pathlib import Path
 
 from app.audio import AudioStream, EndOfStream, ShutdownRequested, StreamError
 from app.clock import StreamClock
 from app.config import Config
 from app.detector import detect_keywords
 from app.events import DetectionDeduper, emit_detections
+from app.keyword_journal import KeywordJournal
 from app.logger import setup_logging
 from app.notifier import build_notifier
 from app.speaker import Speaker, SpeakerTracker
@@ -65,6 +67,11 @@ def run(config: Config) -> None:
     notifier = build_notifier(config)
     tracker = SpeakerTracker(config) if config.speaker_tracking else None
     deduper = DetectionDeduper(ttl_seconds=max(config.chunk_overlap_seconds * 2, 8.0))
+    journal = (
+        KeywordJournal(Path(config.log_dir) / "keywords.jsonl")
+        if config.log_dir
+        else None
+    )
 
     started = time.monotonic()
     last_heartbeat = started
@@ -121,7 +128,9 @@ def run(config: Config) -> None:
                         speaker_title=speaker.display_title,
                         timestamp_reliable=stream.origin_reliable,
                     )
-                    unique = emit_detections(events, notifier, deduper=deduper)
+                    unique = emit_detections(
+                        events, notifier, deduper=deduper, journal=journal
+                    )
                     detections += len(unique)
 
                     now = time.monotonic()

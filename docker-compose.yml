@@ -12,7 +12,7 @@ services:
     stop_grace_period: 20s
     volumes:
       - whisper-models:/root/.cache/huggingface
-      # Lista de oradores (un nombre por línea):
+      # Lista de oradores (nombre | país | cargo):
       - ./speakers.txt:/speakers.txt:ro
       # Logs duales (full + highlights), flush inmediato:
       - ./logs:/app/logs

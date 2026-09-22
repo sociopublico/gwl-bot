@@ -7,7 +7,7 @@ from dataclasses import replace
 from pathlib import Path
 
 from pipeline.alerts import DEFAULT_KEYWORDS_PATH, print_alert_report
-from pipeline.config import load_session, load_slugs, write_slugs
+from pipeline.config import coerce_debate_day, load_session, load_slugs, write_slugs
 from pipeline.gadebate import refresh_slugs_from_archive
 from pipeline.run import FetchItem, fetch_speeches, select_slugs
 
@@ -312,6 +312,32 @@ def _parser() -> argparse.ArgumentParser:
         default="",
         help="Solo un día YYYY-MM-DD (default: todos los roster de la sesión)",
     )
+
+    alerts_site = sub.add_parser(
+        "alerts-site",
+        help="Generar sitio estático de keywords en vivo (docs/alerts.html)",
+        parents=[common],
+    )
+    alerts_site.add_argument(
+        "--docs",
+        default="",
+        help="Directorio de salida (default: docs/ en la raíz del repo)",
+    )
+    alerts_site.add_argument(
+        "--logs",
+        default="",
+        help="Directorio con keywords.jsonl y highlights.log (default: logs/ si existe)",
+    )
+    alerts_site.add_argument(
+        "--day",
+        default="",
+        help="Solo un día YYYY-MM-DD",
+    )
+    alerts_site.add_argument(
+        "--snapshot",
+        action="store_true",
+        help="Escribir pipeline/data/alerts/<session>/<day>.json para versionar en git",
+    )
     return parser
 
 
@@ -319,6 +345,16 @@ def main(argv: list[str] | None = None) -> int:
     args = _parser().parse_args(argv)
     config = load_session(args.session)
     dest = Path(args.out) if args.out else None
+    requested_day = getattr(args, "day", None) or ""
+    if requested_day:
+        coerced = coerce_debate_day(config, requested_day)
+        if coerced != requested_day:
+            print(
+                f"aviso: {requested_day} no está en el calendario de la sesión "
+                f"{config.id} ({config.year}); uso {coerced}",
+                file=sys.stderr,
+            )
+            args.day = coerced
 
     if args.cmd == "list":
         slugs = load_slugs(config)
@@ -378,12 +414,17 @@ def main(argv: list[str] | None = None) -> int:
         )
 
         day = args.day
-        payload = build_roster(
-            config,
-            day=day,
-            slug=args.slug or None,
-            limit=args.limit or None,
-        )
+        try:
+            payload = build_roster(
+                config,
+                day=day,
+                slug=args.slug or None,
+                limit=args.limit or None,
+            )
+        except Exception as exc:
+            print(f"error: {exc}", file=sys.stderr)
+            return 1
+        day = str(payload.get("day") or day)
         path = roster_path(config, day)
         if args.slug:
             payload = merge_speakers(load_roster(config, day), payload)
@@ -404,6 +445,11 @@ def main(argv: list[str] | None = None) -> int:
                     f"{speaker.get('country') or ''}".rstrip(),
                     file=sys.stderr,
                 )
+        if not speakers:
+            print(
+                "sin oradores: no hay journal/slugs ni Daily schedule en gadebate /en",
+                file=sys.stderr,
+            )
         print(
             json.dumps(
                 {
@@ -603,6 +649,25 @@ def main(argv: list[str] | None = None) -> int:
             docs_dir=docs,
             dest=dest,
             days=days,
+        )
+        return 0
+
+    if args.cmd == "alerts-site":
+        from pipeline.alerts_site import generate_alerts_site
+        from pipeline.progress import REPO_ROOT
+
+        docs = Path(args.docs) if args.docs else (REPO_ROOT / "docs")
+        log_raw = args.logs or ""
+        log_dir = Path(log_raw) if log_raw else (REPO_ROOT / "logs")
+        if not log_dir.is_dir():
+            log_dir = None
+        days = [args.day] if args.day else None
+        generate_alerts_site(
+            config,
+            docs_dir=docs,
+            log_dir=log_dir,
+            days=days,
+            snapshot=args.snapshot,
         )
         return 0
 

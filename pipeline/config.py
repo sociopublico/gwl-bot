@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import re
 import tomllib
 from dataclasses import dataclass
 from pathlib import Path
@@ -46,6 +47,9 @@ class SessionConfig:
 
     def archive_url(self) -> str:
         return f"{self.gadebate_base.rstrip('/')}/en/sessions-archive"
+
+    def homepage_url(self) -> str:
+        return f"{self.gadebate_base.rstrip('/')}/en"
 
 
 def resolve_session_path(session: str | Path) -> Path:
@@ -137,6 +141,24 @@ def load_session(session: str | Path) -> SessionConfig:
         root=root,
         config_path=path,
     )
+
+
+def coerce_debate_day(config: SessionConfig, day: str) -> str:
+    """Si el día coincide con el calendario de la sesión salvo el año, usa el año de la sesión.
+
+    Evita el pie de `--session 81 --day 2025-09-22` (UNGA 81 es 2026).
+    """
+    raw = (day or "").strip()
+    if not raw or raw in config.debate_dates:
+        return raw
+    match = re.fullmatch(r"(\d{4})-(\d{2}-\d{2})", raw)
+    if not match:
+        return raw
+    md = match.group(2)
+    for candidate in config.debate_dates:
+        if candidate[5:] == md:
+            return candidate
+    return raw
 
 
 def load_slugs(config: SessionConfig) -> list[str]:

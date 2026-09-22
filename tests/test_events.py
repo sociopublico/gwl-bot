@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 
 from app.detector import DetectionEvent
 from app.events import DetectionDeduper, emit_detections
+from app.keyword_journal import KeywordJournal
 from app.notifier import NullNotifier
 
 
@@ -39,6 +40,20 @@ class DetectionDeduperTest(unittest.TestCase):
         second = emit_detections(events, notifier, deduper=deduper)
         self.assertEqual(len(first), 1)
         self.assertEqual(len(second), 0)
+
+    def test_emit_writes_keyword_journal(self) -> None:
+        import tempfile
+        from pathlib import Path
+
+        with tempfile.TemporaryDirectory() as tmp:
+            journal = KeywordJournal(Path(tmp) / "keywords.jsonl")
+            emit_detections(
+                [_event("women", '"...women..."')],
+                NullNotifier(),
+                journal=journal,
+            )
+            text = journal.path.read_text(encoding="utf-8")
+            self.assertIn('"keyword": "women"', text)
 
 
 if __name__ == "__main__":

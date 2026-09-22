@@ -5,6 +5,7 @@ import time
 from collections.abc import Sequence
 
 from app.detector import DetectionEvent
+from app.keyword_journal import KeywordJournal
 from app.logger import KEYWORD_DETECTED
 from app.notifier import Notifier
 
@@ -71,12 +72,18 @@ def emit_detections(
     notifier: Notifier,
     *,
     deduper: DetectionDeduper | None = None,
+    journal: KeywordJournal | None = None,
 ) -> list[DetectionEvent]:
     """Loguea cada detección (con dedup) y manda como máximo un email por chunk."""
     active = deduper if deduper is not None else _default_deduper
     unique = active.filter(events)
     for event in unique:
         emit_detection(event)
+        if journal is not None:
+            try:
+                journal.append(event)
+            except OSError:
+                logger.exception("Keyword journal write failed")
     if unique:
         notifier.notify(unique)
     return unique

@@ -6,17 +6,24 @@ from pathlib import Path
 from unittest.mock import patch
 
 from pipeline.cascade import SourceUnavailable, choose_source
-from pipeline.config import load_session, load_slugs
+from pipeline.config import coerce_debate_day, load_session, load_slugs
 from pipeline.extract_audio import _join_segments
 from pipeline.extract_ocr import ocr_pdf_text, tesseract_lang_for
 from pipeline.extract_pdf import clean_pdf_text, is_cid_garbage, strip_assembly_protocol
-from pipeline.gadebate import parse_speaker_page, scrape_speaker, slugs_from_archive_html
+from pipeline.gadebate import (
+    listings_from_homepage_html,
+    parse_speaker_page,
+    scrape_speaker,
+    slug_catalog_for,
+    slugs_from_archive_html,
+)
 from pipeline.models import FileRef, SpeakerPage
 from pipeline.run import extract_from_page, extract_from_page_timed, fetch_speeches, language_for, select_slugs
 from pipeline.store import speech_to_txt
 from pipeline.models import ExtractedSpeech
 
 FIXTURE = Path(__file__).parent / "fixtures" / "gadebate_brazil.html"
+HOME = Path(__file__).parent / "fixtures" / "gadebate_home.html"
 
 
 class SessionConfigTest(unittest.TestCase):
@@ -33,6 +40,16 @@ class SessionConfigTest(unittest.TestCase):
         self.assertEqual(load_slugs(eighty_one), [])
         self.assertIn("2025-09-23", eighty.debate_dates)
         self.assertIn("2026-09-22", eighty_one.debate_dates)
+        self.assertTrue(eighty_one.homepage_url().endswith("/en"))
+        self.assertEqual(
+            coerce_debate_day(eighty_one, "2025-09-22"), "2026-09-22"
+        )
+        self.assertEqual(
+            coerce_debate_day(eighty_one, "2026-09-22"), "2026-09-22"
+        )
+        self.assertEqual(
+            coerce_debate_day(eighty, "2026-09-23"), "2025-09-23"
+        )
 
     def test_day_filter_uses_index(self) -> None:
         config = load_session("80")
@@ -106,6 +123,30 @@ class ParsePageTest(unittest.TestCase):
         <a href="/en/80/france">France</a>
         """
         self.assertEqual(slugs_from_archive_html(config, html), ["brazil", "france"])
+
+    def test_homepage_listings_map_morning_afternoon_to_slugs(self) -> None:
+        config = load_session("81")
+        html = HOME.read_text(encoding="utf-8")
+        listed_day, speakers = listings_from_homepage_html(
+            html, slug_catalog_for(config)
+        )
+        self.assertEqual(listed_day, "2026-09-22")
+        slugs = [item.slug for item in speakers]
+        self.assertEqual(
+            slugs,
+            [
+                "secretary-general-united-nations",
+                "brazil",
+                "united-states-america",
+                "nauru",
+                "united-kingdom-great-britain-and-northern-ireland",
+                "republic-korea",
+            ],
+        )
+        self.assertEqual(speakers[0].part, "morning")
+        self.assertEqual(speakers[0].name, "António Guterres")
+        self.assertEqual(speakers[-1].part, "afternoon")
+        self.assertEqual(speakers[-1].title, "Republic of Korea")
 
     def test_empty_html_is_marked_unusable(self) -> None:
         config = load_session("80")

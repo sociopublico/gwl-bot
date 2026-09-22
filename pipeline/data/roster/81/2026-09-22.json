@@ -1,0 +1,596 @@
+{
+  "session": 81,
+  "day": "2026-09-22",
+  "scraped_at": "2026-09-22T13:12:01Z",
+  "speakers": [
+    {
+      "slug": "secretary-general-united-nations",
+      "ficha_url": "https://gadebate.un.org/en/81/secretary-general-united-nations",
+      "country": "Secretary-General of the United Nations",
+      "name": "António Guterres",
+      "rank": "Secretary-General",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "president-general-assembly-opening",
+      "ficha_url": "https://gadebate.un.org/en/81/president-general-assembly-opening",
+      "country": "President of the General Assembly (opening)",
+      "name": "Dr. Khalilur Rahman",
+      "rank": "President of the General Assembly",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "brazil",
+      "ficha_url": "https://gadebate.un.org/en/81/brazil",
+      "country": "Brazil",
+      "name": "Luiz Inácio Lula Da Silva",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "united-states-america",
+      "ficha_url": "https://gadebate.un.org/en/81/united-states-america",
+      "country": "United States of America",
+      "name": "Donald Trump",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "jordan",
+      "ficha_url": "https://gadebate.un.org/en/81/jordan",
+      "country": "Jordan",
+      "name": "Abdullah II ibn Al Hussein",
+      "rank": "King",
+      "speaker_title": "His Majesty",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "turkiye",
+      "ficha_url": "https://gadebate.un.org/en/81/turkiye",
+      "country": "Türkiye",
+      "name": "Recep Tayyip Erdoğan",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "kyrgyzstan",
+      "ficha_url": "https://gadebate.un.org/en/81/kyrgyzstan",
+      "country": "Kyrgyzstan",
+      "name": "Sadyr Zhaparov",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "qatar",
+      "ficha_url": "https://gadebate.un.org/en/81/qatar",
+      "country": "Qatar",
+      "name": "Sheikh Tamim bin Hamad Al Thani",
+      "rank": "Amir",
+      "speaker_title": "His Highness",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "lithuania",
+      "ficha_url": "https://gadebate.un.org/en/81/lithuania",
+      "country": "Lithuania",
+      "name": "Gitanas Nausėda",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "peru",
+      "ficha_url": "https://gadebate.un.org/en/81/peru",
+      "country": "Peru",
+      "name": "Keiko Sofia Fujimori Higuchi",
+      "rank": "President",
+      "speaker_title": "Her Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "chile",
+      "ficha_url": "https://gadebate.un.org/en/81/chile",
+      "country": "Chile",
+      "name": "José Antonio Kast",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "france",
+      "ficha_url": "https://gadebate.un.org/en/81/france",
+      "country": "France",
+      "name": "Emmanuel Macron",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "finland",
+      "ficha_url": "https://gadebate.un.org/en/81/finland",
+      "country": "Finland",
+      "name": "Alexander Stubb",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "luxembourg",
+      "ficha_url": "https://gadebate.un.org/en/81/luxembourg",
+      "country": "Luxembourg",
+      "name": "Guillaume of Luxembourg",
+      "rank": "Grand Duke",
+      "speaker_title": "His Royal Highness",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "angola",
+      "ficha_url": "https://gadebate.un.org/en/81/angola",
+      "country": "Angola",
+      "name": "João Manuel Gonçalves Lourenço",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "mongolia",
+      "ficha_url": "https://gadebate.un.org/en/81/mongolia",
+      "country": "Mongolia",
+      "name": "Khurelsukh Ukhnaa",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "republic-korea",
+      "ficha_url": "https://gadebate.un.org/en/81/republic-korea",
+      "country": "Republic of Korea",
+      "name": "Lee Jae Myung",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "suriname",
+      "ficha_url": "https://gadebate.un.org/en/81/suriname",
+      "country": "Suriname",
+      "name": "Jennifer Geerlings-Simons",
+      "rank": "President",
+      "speaker_title": "Her Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "sierra-leone",
+      "ficha_url": "https://gadebate.un.org/en/81/sierra-leone",
+      "country": "Sierra Leone",
+      "name": "Julius Maada Bio",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "bosnia-and-herzegovina",
+      "ficha_url": "https://gadebate.un.org/en/81/bosnia-and-herzegovina",
+      "country": "Bosnia and Herzegovina",
+      "name": "Denis Bećirović",
+      "rank": "Chairman of the Presidency",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "dominica",
+      "ficha_url": "https://gadebate.un.org/en/81/dominica",
+      "country": "Dominica",
+      "name": "Sylvanie Burton",
+      "rank": "President",
+      "speaker_title": "Her Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "switzerland",
+      "ficha_url": "https://gadebate.un.org/en/81/switzerland",
+      "country": "Switzerland",
+      "name": "Guy Parmelin",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "viet-nam",
+      "ficha_url": "https://gadebate.un.org/en/81/viet-nam",
+      "country": "Viet Nam",
+      "name": "Lam To",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "seychelles",
+      "ficha_url": "https://gadebate.un.org/en/81/seychelles",
+      "country": "Seychelles",
+      "name": "Mathew Antonio Patrick Herminie",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "nauru",
+      "ficha_url": "https://gadebate.un.org/en/81/nauru",
+      "country": "Naoero",
+      "name": "David Ranibok Adeang",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 404
+    },
+    {
+      "slug": "united-republic-tanzania",
+      "ficha_url": "https://gadebate.un.org/en/81/united-republic-tanzania",
+      "country": "United Republic of Tanzania",
+      "name": "Deogratius Ndejembi",
+      "rank": "Vice-President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "bhutan",
+      "ficha_url": "https://gadebate.un.org/en/81/bhutan",
+      "country": "Bhutan",
+      "name": "Tshering Tobgay",
+      "rank": "Prime Minister",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "trinidad-and-tobago",
+      "ficha_url": "https://gadebate.un.org/en/81/trinidad-and-tobago",
+      "country": "Trinidad and Tobago",
+      "name": "Kamla Persad-Bissessar",
+      "rank": "Prime Minister",
+      "speaker_title": "Her Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "japan",
+      "ficha_url": "https://gadebate.un.org/en/81/japan",
+      "country": "Japan",
+      "name": "Takaichi Sanae",
+      "rank": "Prime Minister",
+      "speaker_title": "Her Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "united-kingdom-great-britain-and-northern-ireland",
+      "ficha_url": "https://gadebate.un.org/en/81/united-kingdom-great-britain-and-northern-ireland",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "name": "Andrew Burnham",
+      "rank": "Prime Minister",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "croatia",
+      "ficha_url": "https://gadebate.un.org/en/81/croatia",
+      "country": "Croatia",
+      "name": "Andrej Plenković",
+      "rank": "Prime Minister",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    }
+  ]
+}
