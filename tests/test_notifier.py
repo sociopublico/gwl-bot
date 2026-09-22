@@ -277,6 +277,51 @@ class EmailNotifierTest(unittest.TestCase):
         self.assertEqual(sent[0].slot, "B")
         self.assertEqual(notifier.emails_sent, 1)
 
+    def test_probe_tcp_reports_closed_port(self) -> None:
+        from app.notifier import probe_tcp
+
+        ok, detail = probe_tcp("127.0.0.1", 1, timeout=0.3)
+        self.assertFalse(ok)
+        self.assertTrue(detail)
+
+
+class MailTestCliTest(unittest.TestCase):
+    def test_probe_does_not_send_mail(self) -> None:
+        from app import mail_test
+
+        config = _config(smtp_host="smtp.mailgun.org", smtp_port=2525)
+        with (
+            patch("app.mail_test.Config.from_env", return_value=config),
+            patch("app.mail_test.probe_tcp", return_value=(True, "220 ok")),
+            patch("app.mail_test.send_smtp_email") as send,
+        ):
+            code = mail_test.main(["--probe"])
+        self.assertEqual(code, 0)
+        send.assert_not_called()
+
+    def test_send_uses_smtp_not_http(self) -> None:
+        from app import mail_test
+
+        config = _config(
+            smtp_host="smtp.mailgun.org",
+            smtp_port=2525,
+            smtp_from="bot@mails.example.com",
+            alert_email_to=("alerts@example.com",),
+        )
+        with (
+            patch("app.mail_test.Config.from_env", return_value=config),
+            patch("app.mail_test.probe_tcp", return_value=(True, "220 ok")),
+            patch("app.mail_test.send_smtp_email") as send,
+        ):
+            code = mail_test.main(["--to", "alerts@example.com"])
+        self.assertEqual(code, 0)
+        send.assert_called_once()
+        kwargs = send.call_args.kwargs
+        self.assertEqual(kwargs["host"], "smtp.mailgun.org")
+        self.assertEqual(kwargs["port"], 2525)
+        self.assertTrue(kwargs["starttls"])
+        self.assertFalse(kwargs["use_ssl"])
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -58,7 +58,7 @@ SMTP (opcional; sin esto solo hay log):
 | Variable | Qué hace |
 |---|---|
 | `SMTP_HOST` | Si está vacío, no se mandan mails |
-| `SMTP_PORT` | `587` (STARTTLS) o `465` (SSL) |
+| `SMTP_PORT` | Mailgun en DO: `2525` (STARTTLS). `587`/`465` suelen estar bloqueados |
 | `SMTP_USER` / `SMTP_PASSWORD` | Credenciales (slot A; horas pares si hay rotación) |
 | `SMTP_PASSWORD_B` | Segunda key (opcional). Horas impares usan slot B |
 | `SMTP_USER_B` / `SMTP_FROM_B` | Opcional; si vacío, reusan A |
@@ -133,27 +133,35 @@ Matching case-insensitive y por palabra (`\b`):
 
 ## Email (opcional)
 
-### Resend (recomendado)
+El mailer es **SMTP**. El puerto lo publica el servidor, no el cliente: DigitalOcean bloquea salida 25/465/587; Mailgun también escucha **2525** (STARTTLS).
 
-1. Verificá un dominio propio en [resend.com/domains](https://resend.com/domains) (ideal: `alerts.tudominio.com`).
-2. Creá una o dos API keys.
-3. Configurá:
+### Mailgun SMTP
+
+1. Dominio verificado en Mailgun (SPF + DKIM).
+2. Sending → Domain settings → SMTP credentials (`postmaster@tu-dominio` + SMTP password, no la API key).
+3. En `.env`:
 
 ```env
-SMTP_HOST=smtp.resend.com
-SMTP_PORT=587
-SMTP_USER=resend
-SMTP_PASSWORD=re_xxxxx_key_A
-SMTP_PASSWORD_B=re_yyyyy_key_B
-SMTP_FROM=bot@alerts.tudominio.com
+SMTP_HOST=smtp.mailgun.org
+SMTP_PORT=2525
+SMTP_USER=postmaster@mails.tudominio.com
+SMTP_PASSWORD=xxxxxxxx
+SMTP_FROM=bot@mails.tudominio.com
 ALERT_EMAIL_TO=vos@org.org,companera@org.org
 SMTP_STARTTLS=true
 ALERT_COOLDOWN_SECONDS=120
 ```
 
-- **Destinatarios:** cualquier mail; la compañera no tiene que validar nada. Separá con comas.
-- **From:** tiene que ser del dominio verificado. Con `resend.dev` solo podés mandarte a tu propia cuenta de Resend.
-- **Rotación de keys:** si `SMTP_PASSWORD_B` está seteado, horas **pares** usan A y horas **impares** usan B (se elige al momento del envío).
+EU: `SMTP_HOST=smtp.eu.mailgun.org`. Puertos Mailgun: `25`, `465` (TLS), `587` y `2525` (STARTTLS). En DO usá `2525`.
+
+```bash
+docker compose exec monitor python -m app.mail_test --probe
+docker compose exec monitor python -m app.mail_test --to vos@org.org
+# sin tumbar el live:
+docker compose run --rm --no-deps --build monitor python -m app.mail_test --probe
+```
+
+Si cambiaste `.env`, `docker compose up -d` para que el contenedor tome las variables.
 
 ### Gmail u otro SMTP
 

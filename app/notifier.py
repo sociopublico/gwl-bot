@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import logging
 import smtplib
+import socket
 import ssl
 import time
 from collections.abc import Sequence
@@ -79,6 +80,64 @@ def active_smtp_credentials(
         from_addr=config.smtp_from_b or config.smtp_from,
         slot="B",
     )
+
+
+def probe_tcp(host: str, port: int, timeout: float = 5.0) -> tuple[bool, str]:
+    """Prueba si el host:puerto acepta TCP. No autentica SMTP."""
+    try:
+        with socket.create_connection((host, port), timeout=timeout) as sock:
+            sock.settimeout(timeout)
+            banner = b""
+            try:
+                banner = sock.recv(180)
+            except TimeoutError:
+                pass
+            text = banner.decode("ascii", errors="replace").strip().splitlines()
+            detail = text[0][:120] if text else "connected"
+            return True, detail
+    except OSError as exc:
+        return False, str(exc)
+
+
+def send_smtp_email(
+    *,
+    host: str,
+    port: int,
+    user: str,
+    password: str,
+    from_addr: str,
+    to: Sequence[str],
+    subject: str,
+    text: str,
+    html: str | None = None,
+    starttls: bool = True,
+    use_ssl: bool = False,
+    timeout: float = 15,
+) -> None:
+    message = EmailMessage()
+    message["Subject"] = subject
+    message["From"] = from_addr
+    message["To"] = ", ".join(to)
+    message.set_content(text)
+    if html:
+        message.add_alternative(html, subtype="html")
+
+    def _login_and_send(client: smtplib.SMTP) -> None:
+        if user:
+            client.login(user, password)
+        client.send_message(message)
+
+    ssl_mode = use_ssl or port == 465
+    if ssl_mode:
+        context = ssl.create_default_context()
+        with smtplib.SMTP_SSL(host, port, timeout=timeout, context=context) as client:
+            _login_and_send(client)
+        return
+
+    with smtplib.SMTP(host, port, timeout=timeout) as client:
+        if starttls:
+            client.starttls(context=ssl.create_default_context())
+        _login_and_send(client)
 
 
 def select_events_for_alert(
@@ -282,43 +341,20 @@ class EmailNotifier:
         creds: SmtpCredentials,
         html: str | None = None,
     ) -> None:
-        message = EmailMessage()
-        message["Subject"] = subject
-        message["From"] = creds.from_addr
-        message["To"] = ", ".join(self.config.alert_email_to)
-        message.set_content(body)
-        if html:
-            message.add_alternative(html, subtype="html")
-
-        if self.config.smtp_ssl:
-            context = ssl.create_default_context()
-            with smtplib.SMTP_SSL(
-                self.config.smtp_host,
-                self.config.smtp_port,
-                timeout=self.config.smtp_timeout,
-                context=context,
-            ) as client:
-                self._login_and_send(client, message, creds)
-            return
-
-        with smtplib.SMTP(
-            self.config.smtp_host,
-            self.config.smtp_port,
+        send_smtp_email(
+            host=self.config.smtp_host,
+            port=self.config.smtp_port,
+            user=creds.user,
+            password=creds.password,
+            from_addr=creds.from_addr,
+            to=self.config.alert_email_to,
+            subject=subject,
+            text=body,
+            html=html,
+            starttls=self.config.smtp_starttls,
+            use_ssl=self.config.smtp_ssl,
             timeout=self.config.smtp_timeout,
-        ) as client:
-            if self.config.smtp_starttls:
-                client.starttls(context=ssl.create_default_context())
-            self._login_and_send(client, message, creds)
-
-    def _login_and_send(
-        self,
-        client: smtplib.SMTP,
-        message: EmailMessage,
-        creds: SmtpCredentials,
-    ) -> None:
-        if creds.user:
-            client.login(creds.user, creds.password)
-        client.send_message(message)
+        )
 
 
 def build_notifier(config: Config) -> Notifier:
