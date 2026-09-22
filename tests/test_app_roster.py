@@ -88,6 +88,27 @@ class MatchRosterTest(unittest.TestCase):
     def test_does_not_guess_when_country_missing(self) -> None:
         self.assertIsNone(match_roster("", self.roster, 0.62, title="President"))
 
+    def test_united_nations_does_not_match_united_states(self) -> None:
+        self.assertLess(
+            country_score(
+                "Erie First Session of the United Nations General Assembly",
+                "United States of America",
+            ),
+            0.86,
+        )
+        self.assertGreaterEqual(
+            country_score("United States", "United States of America"),
+            0.9,
+        )
+        hit = match_roster(
+            "Khalilur Rahman on his election as",
+            self.roster,
+            0.62,
+            title="president of the Erie First Session of the United Nations General Assembly",
+            country="Erie First Session of the United Nations General Assembly",
+        )
+        self.assertIsNone(hit)
+
 
 if __name__ == "__main__":
     unittest.main()

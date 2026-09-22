@@ -20,8 +20,8 @@ debate_dates = [
 # Orden UN Journal del día: data/unga81/YYYY-MM-DD.txt
 journal_dir = "data/unga81"
 
-# Cascada: PDF EN → audio EN → PDF original → video Kaltura (último recurso)
-sources = ["pdf_en", "audio_en", "pdf_other", "video"]
+# Cascada: PDF EN → transcript AI gadebate → audio EN → PDF original → video Kaltura
+sources = ["pdf_en", "transcript_ai", "audio_en", "pdf_other", "video"]
 min_pdf_chars = 200
 min_audio_chars = 200
 whisper_model = "base"

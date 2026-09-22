@@ -170,3 +170,41 @@ class ProtocolMatchTest(TestCase):
         finally:
             clear_protocol_index()
         self.assertEqual((level, pronouns, gender), ("CD", "she/her", "female"))
+
+    def test_institutional_speakers_skip_protocol_country_match(self) -> None:
+        records = [
+            {
+                "country": "BANGLADESH",
+                "people": [
+                    {
+                        "level": "CD",
+                        "name": "Khalilur Rahman",
+                        "gender": "male",
+                        "pronouns": "he/him",
+                    }
+                ],
+            }
+        ]
+        idx = index_from_records(records)
+        clear_protocol_index()
+        import pipeline.metadata as metadata
+
+        metadata._PROTOCOL_INDEX = idx
+        try:
+            level, pronouns, gender = apply_protocol(
+                _speech(
+                    slug="president-general-assembly-opening",
+                    country="BANGLADESH",
+                    name="Dr. Khalilur Rahman",
+                    rank="President of the General Assembly",
+                    speaker_title="His Excellency",
+                ),
+                level="PGA",
+                pronouns="he/him",
+                gender="male",
+            )
+        finally:
+            clear_protocol_index()
+        self.assertEqual(level, "PGA")
+        self.assertEqual(pronouns, "he/him")
+        self.assertEqual(gender, "male")

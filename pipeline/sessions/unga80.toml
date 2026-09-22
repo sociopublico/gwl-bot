@@ -21,8 +21,8 @@ debate_dates = [
 # Orden UN Journal del día: data/unga80/YYYY-MM-DD.txt
 journal_dir = "data/unga80"
 
-# Cascada: PDF EN → audio EN → PDF original → video Kaltura (último recurso)
-sources = ["pdf_en", "audio_en", "pdf_other", "video"]
+# Cascada: PDF EN → transcript AI gadebate → audio EN → PDF original → video Kaltura
+sources = ["pdf_en", "transcript_ai", "audio_en", "pdf_other", "video"]
 
 # PDF escaneado o casi vacío: no cuenta como texto usable
 min_pdf_chars = 200

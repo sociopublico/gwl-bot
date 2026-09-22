@@ -6,9 +6,10 @@ en el orden de aparición del Journal. Las líneas que empiezan con # se ignoran
 
 Ejemplo (2026-09-22.txt):
 
-# secretary-general-united-nations
-# brazil
-# kenya
+secretary-general-united-nations
+president-general-assembly-opening
+brazil
+kenya
 
 Después (laptop → git, server extract):
 

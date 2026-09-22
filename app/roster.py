@@ -84,6 +84,19 @@ _COUNTRY_SKIP = {
     "independent",
     "great",
     "northern",
+    "united",
+    "nations",
+    "nation",
+    "states",
+    "session",
+    "assembly",
+    "general",
+    "first",
+    "opening",
+    "closing",
+    "secretary",
+    "president",
+    "international",
 }
 
 # ASR / short names → forma canónica plegada.
@@ -284,10 +297,20 @@ def country_score(extracted: str, canonical: str) -> float:
         if len(key) >= 4 and key not in _COUNTRY_SKIP
     }
     if overlap:
-        return 1.0 if any(len(key) >= 5 for key in overlap) else 0.92
+        # "united" de United Nations no puede casar con United States.
+        distinctive = [
+            key for key in overlap if " " in key or len(key) >= 5
+        ]
+        if distinctive:
+            return 1.0
+        return 0.92
     best = 0.0
     for left_key in left:
+        if left_key in _COUNTRY_SKIP or len(left_key) < 5:
+            continue
         for right_key in right:
+            if right_key in _COUNTRY_SKIP or len(right_key) < 5:
+                continue
             best = max(best, _ratio(left_key, right_key))
     return best
 

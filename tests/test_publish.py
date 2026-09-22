@@ -23,6 +23,7 @@ from pipeline.publish import (
     transcript_url_for,
     write_metadata_csv,
 )
+from pipeline.run import select_slugs
 from pipeline.sheets import existing_keys
 from pipeline.store import parse_speech_txt, speech_to_txt
 
@@ -52,6 +53,21 @@ class CountryJoinTest(unittest.TestCase):
         index = load_countries_file()
         missing: list[str] = []
         for slug in load_slugs(load_session("80")):
+            match = index.lookup(slug)
+            if slug in NO_ISO_SLUGS:
+                self.assertTrue(match.expected_empty, slug)
+                continue
+            if not match.row or not match.row.iso_country:
+                missing.append(slug)
+        self.assertEqual(missing, [])
+
+    def test_session_81_journal_slugs_join(self) -> None:
+        index = load_countries_file()
+        missing: list[str] = []
+        slugs = select_slugs(load_session("81"), day="2026-09-22")
+        self.assertIn("secretary-general-united-nations", slugs)
+        self.assertIn("president-general-assembly-opening", slugs)
+        for slug in slugs:
             match = index.lookup(slug)
             if slug in NO_ISO_SLUGS:
                 self.assertTrue(match.expected_empty, slug)
@@ -97,7 +113,68 @@ class MetadataRowTest(unittest.TestCase):
         self.assertEqual(row.speaker_pronouns, "he/him")
         self.assertIn("William Ruto", row.speaker_name)
         self.assertEqual(infer_speaker_level("Minister for Foreign Affairs"), "CD")
+        self.assertEqual(infer_speaker_level("Secretary-General"), "SG")
+        self.assertEqual(
+            infer_speaker_level("President of the General Assembly"), "PGA"
+        )
+        self.assertEqual(
+            infer_speaker_level("President", "secretary-general-united-nations"),
+            "SG",
+        )
         self.assertEqual(language_label("pt"), "portuguese")
+
+    def test_institutional_speeches_keep_empty_iso_and_own_level(self) -> None:
+        index = load_countries_file()
+        sg = ExtractedSpeech(
+            session_id=81,
+            slug="secretary-general-united-nations",
+            country="Secretary-General of the United Nations",
+            name="António Guterres",
+            rank="Secretary-General",
+            speech_date="2026-09-22",
+            source="pdf_en",
+            source_url="https://gadebate.un.org/sites/default/files/gastatements/81/unsg_en.pdf",
+            language="en",
+            text="Excellencies",
+            speaker_title="His Excellency",
+        )
+        pga = ExtractedSpeech(
+            session_id=81,
+            slug="president-general-assembly-opening",
+            country="President of the General Assembly (opening)",
+            name="Dr. Khalilur Rahman",
+            rank="President of the General Assembly",
+            speech_date="2026-09-22",
+            source="pdf_en",
+            source_url="https://gadebate.un.org/sites/default/files/gastatements/81/pgaopening_en.pdf",
+            language="en",
+            text="Excellencies",
+            speaker_title="His Excellency",
+        )
+        sg_row, sg_warning = build_metadata_row(
+            sg,
+            countries=index,
+            appearance=1,
+            ficha_url="https://gadebate.un.org/en/81/secretary-general-united-nations",
+        )
+        pga_row, pga_warning = build_metadata_row(
+            pga,
+            countries=index,
+            appearance=2,
+            ficha_url="https://gadebate.un.org/en/81/president-general-assembly-opening",
+        )
+        self.assertEqual(sg_warning, "")
+        self.assertEqual(pga_warning, "")
+        self.assertEqual(sg_row.iso_country, "")
+        self.assertEqual(pga_row.iso_country, "")
+        self.assertEqual(sg_row.speaker_level, "SG")
+        self.assertEqual(pga_row.speaker_level, "PGA")
+        self.assertEqual(sg_row.country, "Secretary-General of the United Nations")
+        self.assertEqual(
+            pga_row.country, "President of the General Assembly (opening)"
+        )
+        self.assertEqual(sg_row.speaker_pronouns, "he/him")
+        self.assertEqual(pga_row.speaker_pronouns, "he/him")
 
     def test_speech_id_and_sheet_keys(self) -> None:
         self.assertEqual(next_speech_id(["M_1", "M_12", "x"]), 13)

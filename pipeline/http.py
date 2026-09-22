@@ -77,6 +77,8 @@ def _fetch_curl(
     user_agent: str,
     timeout: float,
     extra_headers: dict[str, str] | None,
+    method: str = "GET",
+    data: bytes | None = None,
 ) -> tuple[int, dict[str, str], bytes] | None:
     binary = shutil.which("curl")
     if not binary:
@@ -99,6 +101,10 @@ def _fetch_curl(
     ]
     for key, value in {**_BROWSER_HEADERS, **(extra_headers or {})}.items():
         cmd.extend(["-H", f"{key}: {value}"])
+    if method.upper() != "GET":
+        cmd.extend(["-X", method.upper()])
+    if method.upper() == "POST":
+        cmd.extend(["--data-binary", (data or b"").decode("latin-1")])
     cmd.append(url)
     try:
         proc = subprocess.run(
@@ -136,9 +142,13 @@ def fetch(
     timeout: float = 40,
     retries: int = 4,
     extra_headers: dict[str, str] | None = None,
+    data: bytes | None = None,
 ) -> tuple[int, dict[str, str], bytes]:
     headers = {"User-Agent": user_agent, **_BROWSER_HEADERS, **(extra_headers or {})}
-    req = Request(url, headers=headers, method=method)
+    payload = data
+    if method.upper() == "POST" and payload is None:
+        payload = b""
+    req = Request(url, data=payload, headers=headers, method=method)
     opener = _opener()
     last_err: Exception | None = None
     last_body = b""
@@ -206,6 +216,8 @@ def fetch(
             user_agent=user_agent,
             timeout=timeout,
             extra_headers=extra_headers,
+            method=method,
+            data=payload,
         )
         if via_curl is not None:
             return via_curl

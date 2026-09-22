@@ -11,6 +11,7 @@ def choose_source(page: SpeakerPage, order: tuple[str, ...]) -> tuple[str, FileR
     """Devuelve (source_id, archivo) según la cascada configurada."""
     mapping: dict[str, FileRef | None] = {
         "pdf_en": page.pdf_en,
+        "transcript_ai": page.transcript_ai,
         "audio_en": page.audio_en,
         "pdf_other": page.pdf_other,
         "video": None,

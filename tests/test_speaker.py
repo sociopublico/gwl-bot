@@ -160,7 +160,7 @@ class SpeakerTrackerTest(unittest.TestCase):
         tracker = SpeakerTracker(
             _config(speaker_aliases="lula:Luiz Inacio Lula da Silva"),
         )
-        tracker.observe("His Excellency Lula da Silver, President of Brazil.")
+        tracker.observe("I now give the floor to His Excellency Lula da Silver, President of Brazil.")
         speaker = tracker.observe("The speech begins.")
         self.assertEqual(speaker.name, "Luiz Inacio Lula da Silva")
 
@@ -243,7 +243,8 @@ class SpeakerTrackerTest(unittest.TestCase):
         )
         assert majesty is not None
         self.assertIn("Abdullah", majesty.name)
-        self.assertTrue(has_introduction_cue("His Majesty Abdullah II"))
+        self.assertTrue(has_introduction_cue("I now give the floor to His Majesty Abdullah II"))
+        self.assertFalse(has_introduction_cue("His Majesty Abdullah II"))
 
         highness = extract_introduction_regex(
             "The Assembly will hear an address by His Highness Sheikh Tamim bin Hamad "
@@ -257,7 +258,8 @@ class SpeakerTrackerTest(unittest.TestCase):
         )
         assert royal is not None
         self.assertIn("Guillaume", royal.name)
-        self.assertTrue(has_introduction_cue("Her Royal Highness"))
+        self.assertTrue(has_introduction_cue("The Assembly will hear an address by Her Royal Highness"))
+        self.assertFalse(has_introduction_cue("Her Royal Highness"))
 
     def test_agenda_only_ignores_excellency_not_in_roster(self) -> None:
         tracker = SpeakerTracker(
@@ -298,6 +300,34 @@ class SpeakerTrackerTest(unittest.TestCase):
         )
         speaker = tracker.observe("Jordan remains committed to peace.")
         self.assertEqual(speaker.name, "Abdullah II ibn Al Hussein")
+
+    def test_congratulating_pga_does_not_switch_to_trump(self) -> None:
+        roster = (
+            "João Manuel Gonçalves Lourenço | Angola | President of the Republic of Angola;"
+            "Donald Trump | United States of America | President of the United States of America;"
+            "Dr. Khalilur Rahman | President of the General Assembly (opening) | President of the General Assembly;"
+            "António Guterres | Secretary-General of the United Nations | Secretary-General;"
+            "Andrew Burnham | United Kingdom of Great Britain and Northern Ireland | Prime Minister;"
+            "Deogratius Ndejembi | United Republic of Tanzania | Vice-President"
+        )
+        tracker = SpeakerTracker(_config(speaker_roster=roster))
+        tracker.observe(
+            "The Assembly will hear an address by His Excellency João Manuel Gonçalves Lourenço, "
+            "President of the Republic of Angola. I request protocol to escort his excellency "
+            "and invite him to address the assembly."
+        )
+        speaker = tracker.observe("Ro Renzo, President of the Republic of Angola.")
+        self.assertEqual(speaker.name, "João Manuel Gonçalves Lourenço")
+        later = tracker.observe(
+            "Gentlemen, allow me to congratulate his Excellency Khalilur Rahman on his election "
+            "as president of the Erie First Session of the United Nations General Assembly"
+        )
+        self.assertEqual(later.name, "João Manuel Gonçalves Lourenço")
+        self.assertEqual(tracker.current.name, "João Manuel Gonçalves Lourenço")
+        still = tracker.observe(
+            "this year's session, however, takes place 25 years after the terro"
+        )
+        self.assertEqual(still.name, "João Manuel Gonçalves Lourenço")
 
 
 if __name__ == "__main__":

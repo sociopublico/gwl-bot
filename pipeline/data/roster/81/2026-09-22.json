@@ -1,7 +1,7 @@
 {
   "session": 81,
   "day": "2026-09-22",
-  "scraped_at": "2026-09-22T13:12:01Z",
+  "scraped_at": "2026-09-22T18:05:20Z",
   "speakers": [
     {
       "slug": "secretary-general-united-nations",
@@ -11,13 +11,44 @@
       "rank": "Secretary-General",
       "speaker_title": "His Excellency",
       "speech_date": "2026-09-22",
-      "chosen": null,
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
-        "audio_en": null,
-        "pdf_other": null,
-        "audio_floor": null,
-        "video": null
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/unsg_en.pdf",
+          "filename": "unsg_en.pdf",
+          "lang": ""
+        },
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81157/transcript/en/prepare-download",
+          "filename": "81-secretary-general-united-nations-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_UNSG_EN.mp3",
+          "filename": "81_UNSG_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement, as delivered",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/unsg_fl.pdf",
+          "filename": "unsg_fl.pdf",
+          "lang": ""
+        },
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_UNSG_FL.mp3",
+          "filename": "81_UNSG_FL.mp3",
+          "lang": ""
+        },
+        "video": {
+          "entry_id": "1_2yf6cvkj",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_2yf6cvkj/format/url/protocol/https",
+          "filename": "1_2yf6cvkj.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -30,13 +61,39 @@
       "rank": "President of the General Assembly",
       "speaker_title": "His Excellency",
       "speech_date": "2026-09-22",
-      "chosen": null,
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
-        "audio_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/pgaopening_en.pdf",
+          "filename": "pgaopening_en.pdf",
+          "lang": ""
+        },
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81143/transcript/en/prepare-download",
+          "filename": "81-president-general-assembly-opening-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_PGAopening_EN.mp3",
+          "filename": "81_PGAopening_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
-        "audio_floor": null,
-        "video": null
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_PGAopening_FL.mp3",
+          "filename": "81_PGAopening_FL.mp3",
+          "lang": ""
+        },
+        "video": {
+          "entry_id": "1_ihdx54zp",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ihdx54zp/format/url/protocol/https",
+          "filename": "1_ihdx54zp.mp4"
+        }
       },
       "error": null,
       "http_status": 200

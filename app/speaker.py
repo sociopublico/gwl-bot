@@ -22,13 +22,26 @@ _HONORIFIC = r"(?:his|her)\s+(?:royal\s+)?(?:excellency|majesty|highness)"
 
 _CUE_RE = re.compile(
     r"(?:"
-    rf"{_HONORIFIC}|"
     r"i\s+(?:now\s+)?(?:give|call|yield)\s+(?:the\s+)?floor|"
     r"give\s+(?:the\s+)?floor\s+to|"
     r"the\s+assembly\s+will\s+(?:now\s+)?(?:hear|here)|"
     r"we\s+(?:shall|will)\s+now\s+hear|"
-    r"the\s+distinguished\s+(?:representative|delegate|ambassador)"
+    r"the\s+distinguished\s+(?:representative|delegate|ambassador)|"
+    r"invite\s+(?:him|her|them)\s+to\s+address|"
+    r"(?:protocol\s+to\s+)?escort\s+(?:his|her)\s+excellency|"
+    r"request\s+protocol\s+to\s+escort"
     r")",
+    re.IGNORECASE,
+)
+# Menciones a otro dignatario dentro del discurso, no una intro del chair.
+_NOT_INTRO_RE = re.compile(
+    r"\b(?:"
+    r"congratulat\w+|"
+    r"on\s+(?:his|her|your)\s+election|"
+    r"allow\s+me\s+to\s+(?:congratulate|thank|pay)|"
+    r"i\s+(?:wish\s+to\s+)?thank\s+(?:his|her)\s+excellency|"
+    r"former\s+presidents?\s+of\s+the\s+general\s+assembly"
+    r")\b",
     re.IGNORECASE,
 )
 
@@ -453,8 +466,15 @@ class SpeakerTracker:
         window = compact
         if self._previous_text:
             window = f"{self._previous_text} {compact}"
-        cue = has_introduction_cue(compact) or has_introduction_cue(window)
-        regex_speaker = extract_introduction_regex(window)
+        cue_now = has_introduction_cue(compact)
+        cue_window = has_introduction_cue(window)
+        if _NOT_INTRO_RE.search(compact) and not cue_now:
+            return None
+        if not cue_now and not cue_window:
+            return None
+        source = compact if cue_now else window
+        regex_speaker = extract_introduction_regex(source)
+        cue = cue_now or cue_window
         if regex_speaker is not None and regex_speaker.confidence == "strong":
             return regex_speaker
         if cue and self._llm_enabled():

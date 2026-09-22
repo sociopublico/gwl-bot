@@ -1,0 +1,293 @@
+---
+session: 81
+slug: president-general-assembly-opening
+id_speech: M_38
+country: President of the General Assembly (opening)
+speaker: Dr. Khalilur Rahman
+title: President of the General Assembly
+speaker_title: His Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/pgaopening_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.603
+---
+
+Mr. Secretary-General,
+
+Former Presidents of the General Assembly,
+
+Excellencies,
+
+Ladies and Gentlemen,
+
+Forty years ago, I stood in this very Hall as a newly minted member of the Cabinet of the 41st President of the General Assembly, Mr. Humayun Rasheed Choudhury.
+
+At the time, President Choudhury said, and I quote: “In recent years there appears to have been a crisis of confidence in the United Nations itself... there is a general feeling that the United Nations today needs revitalizing in a number of aspects in order to bring it into line with the priorities of a changing world.”
+
+This shows that questions about multilateralism and the effectiveness of the United Nations are not new. They have been part of this place since the first stone was laid.
+
+Yet, through it all, the United Nations has persevered. Not because it is perfect, but because it is irreplaceable, and because the alternative is simply unfathomable.
+
+The world of 1945 was in peril. The Second World War, the colossal devastation wrought by it, and the Holocaust, left humanity bankrupt, morally and fiscally.
+
+Something had to change. And this place was that change.
+
+It ushered in a long era of diplomacy, which continues: Member States coming together to work through their problems because they knew that the alternative, guns blazing and bombs dropping, simply was not an option.
+
+Perhaps the clearest evidence of its achievement is here in this very Hall.
+
+In 1945, 50 nations participated in the San Francisco Conference. Today, eight decades later, the Organization has 193 Member States. The UN has brought together humanity under one roof; this is unprecedented in human history.
+
+The core promise of this institution, its raison d’être, was and remains to prevent the unimaginable: a third world war. The fact that we have avoided such calamity is among the greatest achievements this institution could ever deliver.
+
+(BRIEF PAUSE) But survival alone cannot be our sole measure of success.
+
+Outside these walls, people are not asking whether the United Nations still exists.
+
+They are asking whether it works.
+
+Yes, there have been wars and conflicts that we could not prevent, and issues we could not resolve. The Palestinian issue continues unresolved for decades. Wars and conflict and their aftermath are ravaging Sudan, Gaza, Ukraine, Myanmar, and the Middle East.
+
+But even as those wars raged, the United Nations stayed and served.
+
+I’ve seen this in my own country, where the United Nations country team in Cox’s Bazar is striving to do more with less to support Rohingya refugees in the camps.
+
+Just recently, a representative from a war-torn nation said to me: “Your peacekeepers from Bangladesh were not just blue helmets.
+
+They built roads and communities.
+
+They fed children.
+
+They helped rebuild societies and put us on the road to proper governance.”
+
+In Iraq, the United Nations system helped nearly five million people return home. It rehabilitated hundreds of schools, electricity stations and water-treatment plants.
+
+And right now, in Haiti, the entire United Nations family is delivering amid immense security and governance challenges.
+
+These stories rarely make the headlines, but we should never lose sight of what is working.
+
+(BRIEF PAUSE) At the same time, let us not turn a blind eye to where we have fallen short, particularly in a world where challenges seem to multiply by the day.
+
+The war in Gaza has left over 70,000 people dead, including thousands of children.
+
+Humanitarian support has been a fraction of what is needed.
+
+The ongoing wars across the Middle East and Europe have consequences far beyond the frontlines.
+
+And the heartbreaking disaster in Nepal and China, was not just an isolated event, but yet another horrible climax to our collectively insufficient response to climate change.
+
+The circumstances and politics of these crises differ. But our commitments under the Charter do not.
+
+The principles of multilateralism, international law, the protection of civilians and humanitarian access cannot be applied selectively, not if we want the world to trust us.
+
+It is precisely at such times that we must honestly confront our setbacks, however profound, not with blame, cynicism or blind hope, but with action, sober reflection, clear-eyed realism and pragmatism.
+
+That is how we chart these turbulent waters. And that is how we rebuild trust in this institution, the central focus of this 81st session.
+
+(BRIEF PAUSE) So how do we build back trust?
+
+Trust is not given. It is earned.
+
+And we earn trust, I believe, in three ways.
+
+First, by being unapologetically realistic about where we are falling behind; Second, by taking a foundational look at the reforms of the Organization to deliver better; and Third, by making our work more inclusive and engaging all relevant stakeholders for effective delivery.
+
+Let me elaborate.
+
+(BRIEF PAUSE) On my first point, we must be frank about where the challenges lie and what needs to be fixed, even when the necessary changes may prove painful.
+
+Consider peace and security. Under the UN Charter, the Security Council bears primary responsibility for the maintenance of international peace and security.
+
+Yet when the Council is unable to act, Member States turn to the General Assembly.
+
+We saw this as early as 1950 with the “Uniting for Peace” resolution, and we have seen it more recently through the Assembly’s Veto Initiative.
+
+These two principal organs of our Organization are complementary, not competing.
+
+The Charter provides for an appropriate balance between them. Both chambers must do their respective part.
+
+To be fair, the Security Council, when it acts, proves its strength and effectiveness.
+
+It helped liberate Kuwait, ended civil war in El Salvador, supported Namibia’s independence, led rebuilding of Cambodia, and stabilized conflict-affected countries through peacekeeping.
+
+Yet when the Council is unable to act on important matters, the effectiveness of our Organization as a whole is called into question.
+
+In 1945, humanity placed its trust in the Council in good faith, giving it the extraordinary responsibility of maintaining international peace.
+
+The Council accepted that responsibility and entered into a compact.
+
+It must now hold up its end of the bargain.
+
+This is what the people of the world expect. And in their eyes, when the Security Council works, the United Nations works.
+
+The promise of 1945 still binds us today. I call on the Security Council to step up, to lead as we need it to lead and to act when we need it to act.
+
+Linked to this is the question of Security Council reform.
+
+I will support the General Assembly-led Intergovernmental Negotiations in its work to make the Council more representative, transparent and reflective of the geopolitical realities of our time.
+
+Ensuring fair representation for underrepresented regions must remain a priority.
+
+Nowhere is this more important, right now, than in Africa.
+
+After eight decades, the largest region by number of Member States and a key focus of UN Peacekeeping, is underrepresented on the Security Council.
+
+Africa needs to be at the table, not on the menu.
+
+Africa cannot be asked to wait indefinitely for its rightful place on the Council.
+
+Ending Africa’s underrepresentation, now, is a question of fairness, justice and, ultimately, the credibility of this Organization.
+
+(BRIEF PAUSE) Turning to development, and particularly the Sustainable Development Goals, we are right to focus on the challenges.
+
+Last year OECD donors spent about $175 billion on development assistance... a 23% drop year-on year.
+
+And yet military expenditures approached $3 trillion.... capping 11 straight years of growth.
+
+All the while progress on the SDGs has stalled at just over a third of targets, and developing countries are now paying the price for supply chain disruptions they did not cause and cannot cure.
+
+The contrasts could not be more stark. We must better prioritize how our resources are spent by augmenting development assistance, addressing debt burdens, reforming the international financial architecture, fulfilling our Sevilla and Paris commitments.
+
+And implementing the programmes of action for LDCs, LLDCs, SIDs, as well as the AU’s Agenda 2063.
+
+Because where we have done so, the results are clear:
+
+Over the past decade, nearly one billion people have gained access to safely managed drinking water.
+
+Electricity now reaches 92 per cent of the world’s population.
+
+And internet access has risen from 40 per cent to 74 per cent.
+
+Behind these figures are healthier children, more resilient communities, greater opportunities for women and girls, and renewed hope.
+
+These gains show that accelerating the SDGs is possible when developing countries and development partners work in concert.
+
+This indeed is a shared responsibility.
+
+Developing countries must also intensify their own efforts through domestic resource mobilization and plug any leakage or corruption, including capital flight — A plague that, until recently, undermined development in my own country under a repressive, authoritarian regime.
+
+(BRIEF PAUSE) Turning to human rights, we should acknowledge that these are central to the other two pillars: they can promote peace and security and advance sustainable development.
+
+And we recognize one of the most urgent assaults on human dignity today: hate speech that incites violence.
+
+It is a growing threat to regional and global peace, and it is on the rise.
+
+Hateful narratives are spreading like wildfire across borders and into homes at unprecedented speed and scale. They target women and girls, minorities, migrants, refugees and persons with disabilities, often for political gain.
+
+New and emerging technologies are used to amplify lies, manipulate public debate, spread hatred and give incitement to violence faster and farther than ever before.
+
+We must choose dialogue and tolerance and foster a culture in which human rights are respected not only in law, but in our daily interactions.
+
+And we must stop the cherry picking of those rights that fit our respective cultures or the politics of the day. Whether it is islamophobia, antisemitism, homophobia, or misogyny, it’s all the same... hatred, repackaged and relabelled.
+
+Let us use the tools of our age not to deepen fear, but to widen understanding and advance human dignity, for everyone, everywhere.
+
+(BRIEF PAUSE) My second point: making the United Nations fit for the future, which requires a more foundational approach to reform.
+
+The UN80 Initiative is a constructive start.
+
+But it is only a start.
+
+Moving positions on a budget sheet may deliver savings.
+
+Merging or renaming bodies may reduce duplication.
+
+Streamlining structures may improve efficiency.
+
+These steps are important and often necessary for good housekeeping, but they are not enough; we need to dig deeper to address the problems beneath the superstructure, because the United Nations’ reform challenges are chronic and fundamental.
+
+On 24 November 1949, four years after the founding of the United Nations, this Assembly adopted resolution 310 (IV), entitled “Problem of the Proliferation and Overlapping of the Programmes of the United Nations and of the Specialized Agencies”.
+
+It urged Member States “to refrain from initiating new projects other than those which are urgently required and which can be effectively carried out”.
+
+Yet we have not paid sufficient attention to our own decision. We have since created thousands of mandates, of which 4,000 are still active, irrespective of whether they were required or could be effectively carried out.
+
+We cannot continue treating a chronic ailment with temporary painkillers when what we need is a deeper diagnosis and a more profound plan for transformation, even if that plan proves painful.
+
+And here I must be equally candid: this will happen only if Member States take charge.
+
+Time and again, we say that United Nations reforms must be Member State-led. But too often, Member States fail to take the wheel.
+
+Passive ownership is not enough.
+
+If we do not claim proactive ownership of this place, we cannot expect it to heal.
+
+So let us engage.
+
+Let us take charge, fix our own house, respect sovereignty of Member States, and together deliver the transformation we need.
+
+(BRIEF PAUSE) As we decide what must change, we must also recognize what already works.
+
+Again and again, Member States tell us that the United Nations works well at the country level, emergency situations, and in keeping and building peace.
+
+We should build on that success.
+
+We should strengthen the United Nations’ country-level work and draw increasingly on local capacity, including qualified national institutions and individuals.
+
+We should ensure that all activities at country level, from development support to peacekeeping, are properly integrated and produce the highest synergy.
+
+We should ensure avoidance of turf battles among different parts of the UN, and exercise care to select resident coordinators that are fit to lead the teams.
+
+We want to have full value for money.
+
+The Organization’s financial viability is also a chronic concern. We must ensure that it receives sufficient resources on a sustained basis and that all countries pay their dues on time and without conditions.
+
+We must also recognize that dues to the United Nations come from hardworking people around the world.
+
+Every penny must therefore be properly accounted for.
+
+Every penny must be invested to achieve impact on the ground for the people we serve.
+
+(BRIEF PAUSE) The role of the Member States, supported by the Secretariat is essential to delivering our work, but not sufficient.
+
+This brings me to my third point: building a more open and inclusive United Nations.
+
+We know that the United Nations of today, and the world it serves, are profoundly different from those of 1945.
+
+Nowhere is the pace of change more evident today than in artificial intelligence.
+
+AI can be a powerful accelerator of human progress; therefore, we must not close the door to innovation.
+
+At the same time, we must address AI’s potential harms, including job losses and widening of the digital divide. We cannot also rule out the possibility that AI, particularly artificial general intelligence, or AGI, could affect human survival.
+
+That demands prudent and reliable guardrails, based on scientific evidence, to safeguard the global public interest, while allowing innovation to go forward.
+
+Governments must remain at the heart of this endeavour.
+
+But governments do not have a monopoly on expertise, capital, technology, innovation or influence. Much of that experience and capacity already lies with businesses, innovators, civil society and others.
+
+We need to unlock the doors of the United Nations to those developing and using AI.
+
+Not someday. Now. We are falling further behind each day.
+
+AI differs from earlier proliferation challenges in one critical respect: it is already embedded in nearly every facet of our lives, in our water systems, electricity grids, health records, economies and militaries.
+
+We cannot allow an arms race for control of AI to carry us over the precipice.
+
+There is clear precedent for United Nations engagement with world-changing developments.
+
+We did so on nuclear non-proliferation; through the Montreal Protocol to protect the ozone layer; and with the United Nations Declaration on Human Cloning in 2005.
+
+We need experts, innovators, industry leaders, scientists, civil society, and academia all working together on the issues of our times.
+
+(PAUSE) Excellencies,
+
+Ladies and gentlemen,
+
+We have an opportunity in this session to show that we have learned from what works; that we are prepared to confront what does not; and that we can build a United Nations capable not simply of surviving change, but of shaping it.
+
+To seize that opportunity, we must be realistic enough to confront hard truths, bold enough to reform, and inclusive enough to bring the right people to the table.
+
+That is how, in my view, we will renew trust in our Organization and make it fit for future.
+
+The task is not easy, nor can it be done overnight. Then we must persist over the long-haul.
+
+Eighty-one years ago, President Truman expressed the hope that the United Nations would endure for nine decades.
+
+Here we are, at the beginning of the UN’s ninth decade. Let us dedicate ourselves to the task of rebuilding trust and confidence in the United Nations so that it lives up to that incredible potential for many decades to come.
+
+I thank you.

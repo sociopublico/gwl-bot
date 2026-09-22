@@ -11,7 +11,7 @@ from pipeline.config import coerce_debate_day, load_session, load_slugs, write_s
 from pipeline.gadebate import refresh_slugs_from_archive
 from pipeline.run import FetchItem, fetch_speeches, select_slugs
 
-_KNOWN_SOURCES = {"pdf_en", "audio_en", "pdf_other", "video"}
+_KNOWN_SOURCES = {"pdf_en", "transcript_ai", "audio_en", "pdf_other", "video"}
 
 
 def _parse_reextract(raw: str) -> set[str]:
@@ -162,7 +162,7 @@ def _parser() -> argparse.ArgumentParser:
     extract_p.add_argument(
         "--sources",
         default="",
-        help="Cascada, p.ej. pdf_en,audio_en,pdf_other",
+        help="Cascada, p.ej. pdf_en,transcript_ai,audio_en,pdf_other",
     )
     extract_p.add_argument(
         "--skip-existing",
@@ -195,7 +195,7 @@ def _parser() -> argparse.ArgumentParser:
 
     fetch_p = sub.add_parser(
         "fetch",
-        help="Bajar fichas y extraer texto (pdf_en → audio_en → pdf_other traducido → video)",
+        help="Bajar fichas y extraer texto (pdf_en → transcript_ai → audio_en → pdf_other traducido → video)",
         parents=[common],
     )
     fetch_p.add_argument("--day", default="", help="YYYY-MM-DD (día del discurso / UN Journal)")
@@ -209,7 +209,7 @@ def _parser() -> argparse.ArgumentParser:
     fetch_p.add_argument(
         "--sources",
         default="",
-        help="Cascada, p.ej. pdf_en,audio_en,pdf_other (default: la del TOML; video es último recurso)",
+        help="Cascada, p.ej. pdf_en,transcript_ai,audio_en,pdf_other (default: la del TOML; video es último recurso)",
     )
     fetch_p.add_argument(
         "--skip-existing",

@@ -19,6 +19,24 @@ NO_ISO_SLUGS = {
     "secretary-general-united-nations",
 }
 
+# Niveles de metadata para oradores institucionales (no son Estados).
+INSTITUTIONAL_LEVELS = {
+    "secretary-general-united-nations": "SG",
+    "president-general-assembly-opening": "PGA",
+    "president-general-assembly-closing": "PGA",
+}
+
+# Títulos del Daily schedule / ficha → slug gadebate (además de slugify/weak_slug).
+LISTING_SLUG_ALIASES = {
+    "secretary-general": "secretary-general-united-nations",
+    "secretary-general-of-the-united-nations": "secretary-general-united-nations",
+    "un-secretary-general": "secretary-general-united-nations",
+    "president-general-assembly": "president-general-assembly-opening",
+    "president-of-the-general-assembly": "president-general-assembly-opening",
+    "president-of-the-general-assembly-opening": "president-general-assembly-opening",
+    "president-of-the-general-assembly-closing": "president-general-assembly-closing",
+}
+
 # Pares gadebate slug ↔ slugify(nombre en country_list)
 _ALIAS_PAIRS = (
     ("nauru", "naoero"),
@@ -108,11 +126,7 @@ class CountryIndex:
 
     def lookup(self, slug: str, country_name: str = "") -> CountryMatch:
         if slug in NO_ISO_SLUGS:
-            return CountryMatch(
-                row=None,
-                expected_empty=True,
-                warning=f"{slug}: sin ISO (no está en country_list)",
-            )
+            return CountryMatch(row=None, expected_empty=True)
         for key in (
             slug,
             slugify(slug),

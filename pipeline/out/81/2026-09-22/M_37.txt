@@ -1,0 +1,725 @@
+---
+session: 81
+slug: secretary-general-united-nations
+id_speech: M_37
+country: Secretary-General of the United Nations
+speaker: António Guterres
+title: Secretary-General
+speaker_title: His Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/unsg_en.pdf
+language: en
+original_language: und
+transformation: none
+via: pypdf
+elapsed_s: 0.964
+---
+
+Mr. President,
+
+Excellencies,
+
+Ladies and gentlemen,
+
+The faultlines in our world are widening.
+
+Cracks have become canyons.
+
+Over the last decade, wars erupted with devastating consequences and dragged on with despicable cruelty.
+
+Civilians were targeted.
+
+Human rights trampled.
+
+Hunger weaponized.
+
+Humanitarians killed.
+
+International law cast aside.
+
+Geopolitical divides have deepened.
+
+Inequalities have intensified.
+
+Trust has frayed.
+
+The climate crisis went from distant warning to daily reality.
+
+And artificial intelligence moved at a speed that has blindsided even those who created it.
+
+These are not separate crises.
+
+They are chapters of the same story.
+
+The story of power.
+
+Who has it.
+
+Who is denied it.
+
+How it is used.
+
+And how it is changing.
+
+Excellencies,
+
+Power is being reshaped in three fundamental ways.
+
+First, among States.
+
+New centres of economic, political and technological influence have emerged.
+
+Second, we are witnessing an extraordinary transfer of power away from governments to a handful of private corporations and individuals.
+
+Their reach now extends across politics, economies, information flows, technological development, and the civic space on which societies depend.
+
+And, third, humans are increasingly handing over power to machines – with Artificial Intelligence agents going rogue, and lethal autonomous weapons going from science fiction to military reality.
+
+Yet our institutions and systems of global governance continue to reflect the power realities and interests of a largely bygone age.
+
+That is the defining challenge before us.
+
+At the very moment when humanity faces an unprecedented convergence of threats, our mechanisms for collective action are under growing strain.
+
+Excellencies,
+
+We are clearly moving towards a multipolar world.
+
+And that movement is irreversible.
+
+But there are different ways that multipolarity can take shape.
+
+One possibility is a world of fragmentation and transactionalism.
+
+A world of rising tensions and deepening mistrust.
+
+Of fractured markets and weakened institutions.
+
+Of shrinking cooperation and zero-sum calculations.
+
+In many respects, that is the trajectory we are on today.
+
+But there is another path.
+
+A path towards networked multipolarity.
+
+A world built on interdependence – and sustained by a dense web of economic, political, social and technological connections.
+
+A world in which multiple centres of influence coexist within a common framework of international law and shared rules.
+
+Such a world can help us avoid hegemonic tendencies and what I have called the Great Fracture:
+
+The division of the world into two rival blocs with separate economic, technological and security systems.
+
+A networked world recognizes that no power can solve today’s challenges alone.
+
+Of course, competition will remain a permanent feature of international relations.
+
+But competition does not have to mean confrontation.
+
+Healthy competition can drive innovation, strengthen resilience, and expand opportunity.
+
+But only when it operates within frameworks that preserve stability and enable cooperation where cooperation is indispensable.
+
+Building a networked future begins with a recognition, especially by superpowers:
+
+That their power isn’t so super.
+
+That their power has limits.
+
+The events of recent years have made that unmistakably clear.
+
+Military power alone cannot secure peace.
+
+Economic power alone cannot command stability.
+
+And technological power alone cannot guarantee security.
+
+A networked multipolar world can create the conditions for more balanced and representative global problem-solving.
+
+But it requires a multilateral system centred in the UN that is balanced and representative.
+
+Strong, effective institutions that reflect the realities and the progressively changing relative weight of countries and economies in today’s world – not the power arrangements of 80 years ago.
+
+Fortunately, we are not starting from scratch.
+
+We already have a binding foundation:
+
+The Charter of the United Nations.
+
+And the principles that give it life.
+
+The primacy of international law.
+
+Upholding human dignity.
+
+And the pursuit of justice in all its dimensions.
+
+These are the backbone for the effective, legitimate and responsible exercise of power in the 21st century.
+
+Excellencies,
+
+It comes down to this:
+
+Will we act to ensure that power is governed by law or by force?
+
+By cooperation or coercion?
+
+By responsibility to young people and future generations or indifference to their fate?
+
+Because the defining challenges of our age are not separate from the question of power.
+
+They are expressions of it.
+
+And they will determine whether we drift deeper into division and instability – or move toward cooperation, justice and collective security.
+
+Looking ahead, our future will be shaped by how we address four great tests of power:
+
+The power over war and peace.
+
+The power that concentrates wealth and drives inequality.
+
+The power fuelling climate chaos and the war on nature.
+
+And the power unleashed by artificial intelligence.
+
+Excellencies,
+
+The first great power test in the 21st century is peace and security.
+
+Peace is far more than the absence of conflict.
+
+It is the presence of restraint of power by law.
+
+It is the recognition, as enshrined in the UN Charter, that force cannot be the final arbiter of whose lives, rights and future matter.
+
+Today that principle is under profound strain.
+
+Across the Middle East, conflicts are cascading.
+
+So-called ceasefires have amounted to little more than “lesser fires” – with civilians continuing to pay the price.
+
+Enough is enough.
+
+I appeal to the leaders in this Chamber to maximize this High-Level week for deescalation and dialogue.
+
+Together, let's send a clear message from this Hall:
+
+The fighting must stop.
+
+Humanitarian aid must flow.
+
+And navigational rights and freedoms must be fully restored in accordance with international law.
+
+Amid the turmoil engulfing the region, we must not lose sight of the devastating situation in the Occupied Palestinian Territory.
+
+It is nearly three years since the abhorrent terror attacks by Hamas on 7 October.
+
+What followed was an onslaught on Palestinians in Gaza, with a scale of killing and destruction unlike anything I have witnessed in all my years as Secretary-General.
+
+The International Court of Justice has issued legally binding provisional measures in the case entitled: “Application of the Convention on the Prevention and Punishment of the Crime of Genocide in the Gaza Strip.”
+
+In an advisory opinion last year, the Court was clear that the United Nations needs to be allowed to perform our mandates in Gaza – and for our staff and humanitarian personnel to be protected.
+
+All parties must comply with international law and the Court’s orders.
+
+Meanwhile violence, displacement and settlement expansion by Israel in the Occupied West Bank are bulldozing the path to peace and raising the spectre of ethnic cleansing.
+
+We cannot allow the two-State solution to disappear before our eyes.
+
+In Ukraine, Russia’s full-scale invasion has subjected a sovereign country to a brutal war in blatant violation of the Charter.
+
+Civilians continue to be killed far from the frontlines.
+
+Mainly in Ukraine, but also more recently in parts of Russia – homes, energy and water systems, and transport have come under repeated attack, threatening food and energy supply chains globally.
+
+In Sudan, a war for raw power fed by outside actors has become a war on civilians:
+
+Millions displaced.
+
+Hunger spreading.
+
+Drones striking hospitals and homes.
+
+Sexual violence and ethnically driven attacks escalating.
+
+And a country being torn apart as the world looks away.
+
+And in Myanmar, another crisis is at risk of slipping from global attention with: escalating violence; mass displacement; and expanding transnational crime.
+
+Excellencies,
+
+These and so many other conflicts show what happens when power gets out of control, force outpaces diplomacy, military budgets soar, and accountability goes out the window.
+
+The test before us is whether power will be exercised with the law – or beyond it.
+
+We must pass that test:
+
+We must defend the Charter without double standards.
+
+Protect civilians without exception.
+
+Ensure humanitarian access without obstruction.
+
+Shield humanitarian personnel without fail.
+
+Advance nuclear non-proliferation and disarmament without delay.
+
+And demand accountability without fear or favour.
+
+We must also reform the Security Council so that it reflects today’s world with the legitimacy and effectiveness that today’s challenges demand.
+
+The Security Council was designed in the aftermath of World War II.
+
+But the world has fundamentally changed since then.
+
+A change that is far from reflected in the Security Council.
+
+The most stunning example is Africa.
+
+When the UN was founded, most of Africa was still under colonial rule.
+
+Today, Africa still has no permanent representation on the Council.
+
+A 21st century Security Council without permanent African seats is unjust and indefensible.
+
+This must change.
+
+Excellencies,
+
+The second test of power is inequality.
+
+Inequality is often framed as an economic problem.
+
+It is a power problem.
+
+Power over opportunity, resources, voice.
+
+Never has humanity possessed so much wealth, knowledge, and technological capability.
+
+Yet for billions, progress remains out of reach.
+
+They see prosperity around them, but not for themselves.
+
+They are told globalization expands horizons, but they experience exclusion.
+
+They are promised that technology will unlock new possibilities, yet many fear it will take away their livelihoods.
+
+Meanwhile, billions of people still live without the essentials embedded in the Sustainable Development Goals.
+
+Food.
+
+Clean water.
+
+Education.
+
+Decent work.
+
+Health care.
+
+Dignity.
+
+Excellencies,
+
+No country should be denied a sustainable future because it is on the wrong side of a deeply unequal financial system.
+
+Yet so many throughout the developing world are being crushed by unsustainable debt.
+
+Battered by disasters they did little to cause.
+
+And locked out of affordable finance.
+
+That is why we have pushed relentlessly:
+
+For reform of the international financial architecture – which is not a technical debate, but a question of representation, fairness and power.
+
+For debt relief that is timely, effective and just.
+
+For Multilateral Development Banks that are bigger, bolder and better equipped to provide affordable long-term finance at scale and massively leverage private finance.
+
+For Special Drawing Rights to benefit countries that need them most.
+
+Excellencies,
+
+No discussion of inequality can ignore its most universal form:
+
+The inequality between women and men.
+
+Everywhere, women and girls continue to face discrimination, violence, exclusion and abuse.
+
+Around the world:
+
+Their rights are being rolled back.
+
+Their voices silenced.
+
+Their bodies turned into battlegrounds.
+
+And their freedoms treated as bargaining chips.
+
+This is an outrage –and a profound waste for humanity.
+
+Peace is more durable when women are at the table.
+
+Economies are more dynamic when women have equal opportunity.
+
+Societies are more resilient when girls can learn, lead and live free from fear.
+
+And institutions are more effective when power is shared equally.
+
+Over the last decade, we achieved an enormous milestone.
+
+I am proud to report to you today that the United Nations achieved gender parity for the first time in history across all senior leadership...all headquarters... and all professional staff.
+
+It happened because we removed barriers, challenged assumptions, and refused to accept that power must look as it always has.
+
+At every step, we never compromised on quality and competence.
+
+Equality is not a dream. It is a decision.
+
+If the United Nations can change:
+
+So can Governments.
+
+So can Parliaments.
+
+So can businesses.
+
+So can peace processes.
+
+And so can this General Assembly.
+
+Excellencies,
+
+The third great power test is the climate crisis.
+
+In many ways, it is the most profound intergenerational power imbalance of all:
+
+One generation consuming the future of the next.
+
+One group profiting, while those least responsible suffer first and worst.
+
+Three years ago in the mountains of Nepal, I sounded the alarm on accelerating glacier melt – warning that the rooftops of the world are caving in.
+
+Some dismissed it all as overstating dangers.
+
+But – as tragic events have shown – impacts are arriving sooner, hitting harder, and spreading further than many anticipated.
+
+Now we face a near certain breach of the 1.5 degree limit, with a supersized El Niño speeding straight for humanity.
+
+The dangers are real.
+
+But so is the hope.
+
+The last decade has fuelled one of the most promising shifts in power of our time.
+
+The rise of clean energy.
+
+The sun belongs to no one.
+
+The wind cannot be embargoed.
+
+Innovation can come from everywhere.
+
+This is a profound rebalancing of power relations.
+
+Renewables are now the cheapest source of new electricity in most of the world.
+
+And the most viable path to energy security, independence and sustainable growth.
+
+Excellencies,
+
+A future beyond fossil fuels is in sight.
+
+The question is how.
+
+Will it be a just and orderly transition built on international cooperation – or chaotic and costly leaving people and countries behind?
+
+Today I call on every government to adopt a national plan to transition away from fossil fuels aligned with 1.5 degrees, with clear timelines and protection for affected workers and communities.
+
+We know fossil fuel interests won’t step aside on their own.
+
+For decades, Big Oil has treated the atmosphere as an open sewer – and cashed in on the consequences.
+
+Since Russia’s invasion of Ukraine, five major Western oil companies have pocketed nearly half a trillion dollars in profits.
+
+Compare that with just 34 billion dollars in international public adaptation finance for developing countries in the latest year reported.
+
+Meanwhile, everyday people are paying more for energy, food and insurance.
+
+We have seen this kind of abuse of power before.
+
+When the harms of Big Tobacco became undeniable – governments acted.
+
+The climate crisis demands the same determination.
+
+Those who polluted the most – and profited the most – must do far more to repair the damage they caused.
+
+Polluters must pay.
+
+And to the leaders, cities, civil society and citizens working to hold them accountable:
+
+You are on the right side of history.
+
+Keep going.
+
+And governments must keep going on all fronts:
+
+To end deforestation.
+
+Invest in grids and storage.
+
+Cut methane emissions.
+
+But these actions are not enough:
+
+We need climate justice with a focus on adaptation and finance.
+
+Developed countries must respect their commitments.
+
+They must triple adaptation finance.
+
+And make the Loss and Damage Fund work at scale.
+
+We must also ensure that the mining of critical minerals does not dig deeper into the inequities of the past.
+
+Producing countries and affected communities must retain a far greater share of the value created from their resources.
+
+No more plundering.
+
+No more exploitation.
+
+Excellencies,
+
+The fourth power test is technology, and above all artificial intelligence.
+
+For centuries, power came from territory.
+
+Then industry.
+
+Then finance.
+
+Today, power increasingly comes from data, computing capacity and algorithms.
+
+This new power is highly concentrated.
+
+It is advancing at extraordinary speed.
+
+And racing ahead of our ability to understand its full consequences.
+
+In 2017, AI was barely on the world’s radar.
+
+Yet in my first address to the opening of the General Assembly, I warned – and I quote: “Artificial intelligence is a game changer that can boost development and transform lives in spectacular fashion. But it may also have a dramatic impact on labour markets and, indeed, on global security and the very fabric of societies.”
+
+Unquote.
+
+Here we are, almost a decade later.
+
+AI is indeed a game changer – with enormous promise to advance medicine, accelerate scientific discovery, expand opportunity, and improve lives.
+
+Make no mistake.
+
+The danger is not technology.
+
+The danger is technology without accountability:
+
+Capability without oversight.
+
+Decision-making without transparency.
+
+And that danger cannot be minimized.
+
+The very developers building these systems are now pulling the alarm.
+
+Excellencies,
+
+The first duty of government is to protect its people.
+
+Governments must assume their responsibilities.
+
+And governments with the greatest AI capabilities have the greatest responsibilities to humanity.
+
+To establish channels for dialogue, transparency, trust and cooperation.
+
+Not despite geopolitical rivalry – but precisely because of it.
+
+At a pivotal moment during the Cold War, strategic rivals came to recognize the need to manage shared existential risks.
+
+They built mechanisms to reduce misunderstandings, manage escalation, and prevent catastrophe.
+
+Artificial intelligence demands the same clarity of purpose and sense of urgency.
+
+Those countries leading this technological revolution must share information on emerging safety risks.
+
+Cooperate on testing and evaluation.
+
+And work towards common safeguards that protect us all.
+
+But because this affects us all, global coordination is indispensable.
+
+And there is only one place where every country has a voice in shaping our common future:
+
+The United Nations.
+
+Through the Global Digital Compact, you agreed for the first time on universal principles for AI governance.
+
+Through the Global Dialogue on AI Governance, we created a platform for governments, scientists, industry leaders and civil society to work together.
+
+Through the Independent International Scientific Panel on AI, we have brought together global expertise to ensure that policy is guided by evidence.
+
+Just yesterday, the AI Scientific Panel released a thematic brief on AI safety and risks from loss of human control.
+
+Building on these efforts, we must take the next steps.
+
+First, to advance the conditions for the responsible pacing of AI and the additional safeguards needed to address risks.
+
+Second, to work towards a multilateral AI Risk Management Framework, supported by credible and independent oversight.
+
+And in all our efforts, we must ensure no country is left behind.
+
+Artificial intelligence must be shaped by humanity, with humanity, and for all humanity.
+
+And as we confront the challenges ahead, let us not retreat from two fundamental principles.
+
+Let us say with one voice:
+
+Children must never become the test subjects for unregulated systems.
+
+And let us resolve that life-and-death decisions must never be surrendered to machines.
+
+Killer robots must have no place in our future.
+
+Excellencies,
+
+Peace and security.
+
+Inequality.
+
+Climate.
+
+Artificial intelligence.
+
+These are the four great power tests of the future.
+
+And they are linked.
+
+War deepens inequality, destroys development and accelerates hunger.
+
+Inequality determines who has the means to face climate and other shocks and who is left exposed.
+
+The climate crisis fuels instability and displacement.
+
+Artificial Intelligence could help solve all these challenges, or make them worse.
+
+Excellencies,
+
+Across all four tests, the decisive issue is power.
+
+Power over force, money, energy, technology, rules and the future.
+
+That is why the UN Charter – and the work of the United Nations – matter more than ever.
+
+The United Nations exists because power requires rules – and humanity needs a place where power answers to principle.
+
+And the Charter leaves no room for selective reading.
+
+The Charter created an Organization rooted in three pillars.
+
+Peace.
+
+Development.
+
+And human rights.
+
+These are not competing agendas.
+
+They are one reality:
+
+There is no peace without development.
+
+No development without peace.
+
+And no peace or development without human rights.
+
+To pretend that peace can be separated from dignity, opportunity and rights is an illusion.
+
+But defending this truth does not mean defending the status quo.
+
+The Pact for the Future and the UN80 initiative are about making the UN:
+
+More responsive.
+
+More effective.
+
+More coherent.
+
+More transparent.
+
+More focused on results.
+
+More disciplined with resources.
+
+And more present where people need us.
+
+The world does not need a weaker United Nations.
+
+It needs a UN strong enough to face the world as it is – and determined enough to build the world as it should be.
+
+Excellencies,
+
+After ten years, I hold one conviction even more strongly than when I arrived:
+
+The greatest power is not the power to dominate.
+
+It is the power to build a future that works for everyone.
+
+Our shared future will be forged by whether humanity can govern power wisely.
+
+By upholding the law before impunity becomes normalized.
+
+By ending wars before they consume generations.
+
+By tackling inequality before societies fracture.
+
+By accelerating climate action before tipping points are crossed.
+
+And by governing artificial intelligence before it governs us.
+
+This is the challenge before this General Assembly, the United Nations, and humanity itself.
+
+Excellencies,
+
+In the face of global catastrophe more than 80 years ago, the United Nations was created as an act of defiance.
+
+The defiance of people who refuse to surrender the future to fear.
+
+The defiance against the self-defeating notion that might makes right.
+
+The defiance of countries that know our futures are bound together.
+
+The defiance of hope.
+
+I will carry that spirit of resolve and determination through each of the 100 days I have left in office.
+
+But commitment to the values and principles of the United Nations does not begin with a mandate.
+
+And it does not end with one.
+
+They are greater than any office – and they endure beyond any title.
+
+So, on January 1st, when I am no longer Secretary-General, be sure of this:
+
+Wherever I will be, whatever I will be doing – I will keep championing the conviction that peace is possible.
+
+That human dignity is universal.
+
+That the power of law must prevail over the law of power.
+
+And that our common future is worth fighting for.
+
+I will continue to stand up for the values of the United Nations Charter.
+
+And I will never... ever give up.
+
+Thank you.

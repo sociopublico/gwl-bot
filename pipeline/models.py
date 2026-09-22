@@ -26,6 +26,7 @@ class SpeakerPage:
     pdf_other: FileRef | None = None
     audio_en: FileRef | None = None
     audio_floor: FileRef | None = None
+    transcript_ai: FileRef | None = None
     video_entry_id: str | None = None
     video_partner_id: str | None = None
     error: str | None = None

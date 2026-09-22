@@ -111,8 +111,14 @@ def load_session(session: str | Path) -> SessionConfig:
     journal_raw = data.get("journal_dir") or f"data/unga{int(data['id'])}"
     journal_dir = Path(journal_raw)
     journal_dir = journal_dir if journal_dir.is_absolute() else (root / journal_dir)
-    sources = tuple(data.get("sources") or ("pdf_en", "audio_en", "pdf_other", "video"))
-    unknown = [s for s in sources if s not in {"pdf_en", "audio_en", "pdf_other", "video"}]
+    sources = tuple(
+        data.get("sources") or ("pdf_en", "transcript_ai", "audio_en", "pdf_other", "video")
+    )
+    unknown = [
+        s
+        for s in sources
+        if s not in {"pdf_en", "transcript_ai", "audio_en", "pdf_other", "video"}
+    ]
     if unknown:
         raise ValueError(f"sources desconocidos: {unknown}")
     return SessionConfig(

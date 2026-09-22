@@ -3,7 +3,12 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass
 
-from pipeline.countries import CountryIndex, CountryMatch
+from pipeline.countries import (
+    INSTITUTIONAL_LEVELS,
+    NO_ISO_SLUGS,
+    CountryIndex,
+    CountryMatch,
+)
 from pipeline.models import ExtractedSpeech
 from pipeline.protocol import ProtocolIndex, load_protocol_index
 
@@ -100,6 +105,8 @@ LANGUAGE_NAMES = {
     "fil": "filipino",
 }
 
+_SG = re.compile(r"\bsecretary[\s-]+general\b", re.I)
+_PGA = re.compile(r"\bpresident of the general assembly\b", re.I)
 _HS = re.compile(
     r"\b(president|king|queen|amir|emir|pope|emperor|sultan|grand duke|"
     r"head of state|governor-?general)\b",
@@ -133,12 +140,19 @@ def transformation_for(source: str, *, translated: bool = False) -> str:
     return "none"
 
 
-def infer_speaker_level(rank: str) -> str:
-    if _HS.search(rank or ""):
+def infer_speaker_level(rank: str, slug: str = "") -> str:
+    if slug in INSTITUTIONAL_LEVELS:
+        return INSTITUTIONAL_LEVELS[slug]
+    text = rank or ""
+    if _PGA.search(text):
+        return "PGA"
+    if _SG.search(text):
+        return "SG"
+    if _HS.search(text):
         return "HS"
-    if _HG.search(rank or ""):
+    if _HG.search(text):
         return "HG"
-    if _CD.search(rank or ""):
+    if _CD.search(text):
         return "CD"
     return ""
 
@@ -179,6 +193,8 @@ def apply_protocol(
     pronouns: str,
     gender: str,
 ) -> tuple[str, str, str]:
+    if speech.slug in NO_ISO_SLUGS:
+        return level, pronouns, gender
     person = protocol_index().match_speaker(
         slug=speech.slug,
         country=speech.country,
@@ -295,7 +311,7 @@ def build_metadata_row(
 ) -> tuple[MetadataRow, str]:
     found = match or countries.lookup(speech.slug, speech.country)
     pronouns, gender = infer_pronouns_gender(speech.speaker_title)
-    level = infer_speaker_level(speech.rank)
+    level = infer_speaker_level(speech.rank, speech.slug)
     level, pronouns, gender = apply_protocol(
         speech, level=level, pronouns=pronouns, gender=gender
     )

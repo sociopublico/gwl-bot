@@ -49,6 +49,7 @@ def sources_from_page(page: SpeakerPage) -> dict:
         }
     return {
         "pdf_en": _dump_ref(page.pdf_en),
+        "transcript_ai": _dump_ref(page.transcript_ai),
         "audio_en": _dump_ref(page.audio_en),
         "pdf_other": _dump_ref(page.pdf_other),
         "audio_floor": _dump_ref(page.audio_floor),
@@ -94,6 +95,7 @@ def page_from_entry(entry: dict) -> SpeakerPage:
         speaker_title=str(entry.get("speaker_title") or ""),
         speech_date=str(entry.get("speech_date") or ""),
         pdf_en=_load_ref(sources.get("pdf_en")),
+        transcript_ai=_load_ref(sources.get("transcript_ai")),
         audio_en=_load_ref(sources.get("audio_en")),
         pdf_other=_load_ref(sources.get("pdf_other")),
         audio_floor=_load_ref(sources.get("audio_floor")),

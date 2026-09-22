@@ -15,6 +15,7 @@ from pipeline.gadebate import (
     parse_speaker_page,
     scrape_speaker,
     slug_catalog_for,
+    slug_from_speaker_title,
     slugs_from_archive_html,
 )
 from pipeline.models import FileRef, SpeakerPage
@@ -78,6 +79,27 @@ class ParsePageTest(unittest.TestCase):
         self.assertIsNotNone(page.audio_floor)
         self.assertEqual(page.video_entry_id, "1_abc")
         self.assertEqual(page.video_partner_id, "2503451")
+        self.assertIsNone(page.transcript_ai)
+
+    def test_parses_ai_transcript_prepare_download(self) -> None:
+        config = load_session("81")
+        html = """
+        <title>Brazil | 81st session</title>
+        <a href="/en/node/81024/transcript/en/prepare-download"
+           class="download-transcript btn btn-secondary"
+           data-un-gad-transcript-download>Transcript (AI generated)</a>
+        """
+        page = parse_speaker_page(
+            config, "https://gadebate.un.org/en/81/brazil", html
+        )
+        assert page.transcript_ai is not None
+        self.assertEqual(page.transcript_ai.lang, "en")
+        self.assertTrue(
+            page.transcript_ai.url.endswith(
+                "/en/node/81024/transcript/en/prepare-download"
+            )
+        )
+        self.assertEqual(page.transcript_ai.filename, "81-brazil-en-transcript.txt")
 
     def test_cascade_skips_missing_pdf_en(self) -> None:
         page = SpeakerPage(
@@ -115,6 +137,29 @@ class ParsePageTest(unittest.TestCase):
         self.assertIn("1_nor", ref.url)
         self.assertIn("2503451", ref.url)
 
+    def test_cascade_prefers_transcript_ai_over_audio(self) -> None:
+        page = SpeakerPage(
+            slug="brazil",
+            url="https://gadebate.un.org/en/81/brazil",
+            country="Brazil",
+            name="Lula",
+            rank="President",
+            speaker_title="",
+            speech_date="2026-09-22",
+            transcript_ai=FileRef(
+                "transcript ai",
+                "https://gadebate.un.org/en/node/81024/transcript/en/prepare-download",
+                "81-brazil-en-transcript.txt",
+                "en",
+            ),
+            audio_en=FileRef("english", "https://x/en.mp3", "81_BR_EN.mp3", "en"),
+        )
+        source, ref = choose_source(
+            page, ("pdf_en", "transcript_ai", "audio_en", "pdf_other", "video")
+        )
+        self.assertEqual(source, "transcript_ai")
+        self.assertIn("prepare-download", ref.url)
+
     def test_archive_slugs_are_session_scoped(self) -> None:
         config = load_session("80")
         html = """
@@ -136,6 +181,7 @@ class ParsePageTest(unittest.TestCase):
             slugs,
             [
                 "secretary-general-united-nations",
+                "president-general-assembly-opening",
                 "brazil",
                 "united-states-america",
                 "nauru",
@@ -145,8 +191,47 @@ class ParsePageTest(unittest.TestCase):
         )
         self.assertEqual(speakers[0].part, "morning")
         self.assertEqual(speakers[0].name, "António Guterres")
+        self.assertEqual(speakers[1].slug, "president-general-assembly-opening")
+        self.assertEqual(speakers[1].name, "Dr. Khalilur Rahman")
         self.assertEqual(speakers[-1].part, "afternoon")
         self.assertEqual(speakers[-1].title, "Republic of Korea")
+
+    def test_institutional_listing_titles_map_to_slugs(self) -> None:
+        catalog = slug_catalog_for(load_session("81"))
+        self.assertEqual(
+            slug_from_speaker_title(
+                "1. Secretary-General of the United Nations", catalog
+            ),
+            "secretary-general-united-nations",
+        )
+        self.assertEqual(
+            slug_from_speaker_title(
+                "2. President of the General Assembly (opening)", catalog
+            ),
+            "president-general-assembly-opening",
+        )
+        self.assertEqual(
+            slug_from_speaker_title("President of the General Assembly", catalog),
+            "president-general-assembly-opening",
+        )
+        self.assertEqual(
+            slug_from_speaker_title(
+                "President of the General Assembly (closing)", catalog
+            ),
+            "president-general-assembly-closing",
+        )
+
+    def test_session_81_journal_starts_with_sg_and_pga(self) -> None:
+        config = load_session("81")
+        slugs = select_slugs(config, day="2026-09-22")
+        self.assertGreaterEqual(len(slugs), 2)
+        self.assertEqual(
+            slugs[:2],
+            [
+                "secretary-general-united-nations",
+                "president-general-assembly-opening",
+            ],
+        )
 
     def test_empty_html_is_marked_unusable(self) -> None:
         config = load_session("80")
@@ -308,6 +393,61 @@ class ParsePageTest(unittest.TestCase):
         self.assertEqual(speech.transformation, "whisper")
         self.assertIn("Madam President", speech.text)
 
+    def test_transcript_ai_before_audio_en(self) -> None:
+        from dataclasses import replace
+
+        from pipeline.extract_transcript import clean_ai_transcript
+
+        raw = """Meeting/Event: Brazil - General Debate, 81st Session
+Date: 22 September 2026
+[Auto-generated transcript: may contain errors]
+
+The Assembly will now hear an address by His Excellency Luiz Inacio Lula da Silva, president of the Federative Republic of Brazil.
+I request protocol to escort His Excellency and invite him to address the Assembly.
+
+Madam President, Brazil remains committed to multilateralism and peace.
+We will keep working with all nations represented in this hall to strengthen
+the United Nations and to defend diplomacy as the only path that can last.
+
+On behalf of the Assembly, I wish to thank the president of the Federative Republic of Brazil.
+"""
+        cleaned = clean_ai_transcript(raw)
+        self.assertIn("Brazil remains committed", cleaned)
+        self.assertNotIn("Meeting/Event:", cleaned)
+        self.assertNotIn("Auto-generated transcript", cleaned)
+        self.assertNotIn("I wish to thank", cleaned)
+
+        page = SpeakerPage(
+            slug="brazil",
+            url="https://gadebate.un.org/en/81/brazil",
+            country="Brazil",
+            name="Lula",
+            rank="President",
+            speaker_title="",
+            speech_date="2026-09-22",
+            transcript_ai=FileRef(
+                "transcript ai",
+                "https://gadebate.un.org/en/node/81024/transcript/en/prepare-download",
+                "81-brazil-en-transcript.txt",
+                "en",
+            ),
+            audio_en=FileRef("english", "https://x/en.mp3", "81_BR_EN.mp3", "en"),
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            config = replace(load_session("81"), root=Path(tmp))
+            with patch(
+                "pipeline.extract_transcript.download_ai_transcript",
+                return_value=raw,
+            ), patch(
+                "pipeline.run.transcribe_audio_file",
+                side_effect=AssertionError("no debería transcribir audio"),
+            ):
+                speech = extract_from_page(config, page, dest=Path(tmp))
+        self.assertEqual(speech.source, "transcript_ai")
+        self.assertEqual(speech.via, "ai_transcript")
+        self.assertEqual(speech.transformation, "none")
+        self.assertIn("Brazil remains committed", speech.text)
+
     def test_original_language_from_pdf_other(self) -> None:
         from pipeline.run import original_language_for
 
@@ -437,7 +577,8 @@ class ParsePageTest(unittest.TestCase):
     def test_session_cascade_puts_video_last(self) -> None:
         config = load_session("81")
         self.assertEqual(
-            config.sources, ("pdf_en", "audio_en", "pdf_other", "video")
+            config.sources,
+            ("pdf_en", "transcript_ai", "audio_en", "pdf_other", "video"),
         )
 
 

@@ -28,7 +28,7 @@ _LANG_IN_NAME = re.compile(r"_([a-z]{2})(?:\.pdf|\.mp3)$", re.I)
 
 
 def language_for(source: str, ref: FileRef) -> str:
-    if source in {"pdf_en", "audio_en"}:
+    if source in {"pdf_en", "audio_en", "transcript_ai"}:
         return "en"
     if ref.lang:
         return ref.lang
@@ -46,7 +46,7 @@ def original_language_for(page: SpeakerPage) -> str:
         return language_for("pdf_other", page.pdf_other)
     if page.audio_floor and page.audio_floor.lang:
         return page.audio_floor.lang
-    if page.pdf_en or page.audio_en:
+    if page.pdf_en or page.audio_en or page.transcript_ai:
         return "en"
     return "und"
 
@@ -117,6 +117,8 @@ def _asset_labels(page: SpeakerPage) -> str:
     assets: list[str] = []
     if page.pdf_en:
         assets.append("pdf_en")
+    if page.transcript_ai:
+        assets.append("transcript_ai")
     if page.audio_en:
         assets.append("audio_en")
     if page.pdf_other:
@@ -135,9 +137,12 @@ def _cache_path(config: SessionConfig, filename: str) -> Path:
 def _unusable_asset(blob: bytes, source: str) -> bool:
     if is_waf_challenge(blob):
         return True
-    if source.startswith("pdf"):
+    if source.startswith("pdf") or source == "transcript_ai":
         stripped = blob.lstrip()
-        if stripped.startswith(b"%PDF"):
+        if source.startswith("pdf"):
+            if stripped.startswith(b"%PDF"):
+                return False
+        elif stripped and not stripped.lower().startswith((b"<!doctype", b"<html")):
             return False
         head = stripped[:32].lower()
         return head.startswith(b"<!doctype") or head.startswith(b"<html")
@@ -195,6 +200,42 @@ def extract_from_page_timed(
     raise SourceUnavailable("; ".join(errors) or "ningún origen de la cascada está disponible")
 
 
+def _extract_transcript_ai(
+    config: SessionConfig,
+    page: SpeakerPage,
+    ref: FileRef,
+) -> tuple[ExtractedSpeech, str]:
+    from pipeline.extract_transcript import clean_ai_transcript, download_ai_transcript
+
+    cache = _cache_path(config, ref.filename)
+    raw = ""
+    if cache.is_file() and cache.stat().st_size > 0:
+        cached = cache.read_bytes()
+        if not _unusable_asset(cached, "transcript_ai"):
+            raw = cached.decode("utf-8", "replace")
+    if not raw:
+        raw = download_ai_transcript(config, ref)
+        cache.write_text(raw, encoding="utf-8")
+    text = clean_ai_transcript(raw)
+    if len(text) < config.min_pdf_chars:
+        raise SourceUnavailable(
+            f"transcript_ai ({ref.filename}) tiene solo {len(text)} caracteres "
+            f"(mínimo {config.min_pdf_chars}); sigo la cascada"
+        )
+    return (
+        _speech(
+            config,
+            page,
+            source="transcript_ai",
+            source_url=ref.url,
+            language="en",
+            text=text,
+            transformation="none",
+        ),
+        "ai_transcript",
+    )
+
+
 def _extract_source(
     config: SessionConfig,
     page: SpeakerPage,
@@ -202,6 +243,7 @@ def _extract_source(
 ) -> tuple[ExtractedSpeech, str]:
     mapping = {
         "pdf_en": page.pdf_en,
+        "transcript_ai": page.transcript_ai,
         "audio_en": page.audio_en,
         "pdf_other": page.pdf_other,
     }
@@ -210,6 +252,8 @@ def _extract_source(
     ref = mapping.get(source)
     if ref is None:
         raise SourceUnavailable(f"{source}: no está en la ficha")
+    if source == "transcript_ai":
+        return _extract_transcript_ai(config, page, ref)
     cache = _cache_path(config, ref.filename)
     cached = (
         cache.read_bytes()

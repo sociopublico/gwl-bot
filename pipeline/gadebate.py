@@ -6,7 +6,13 @@ from dataclasses import dataclass
 from html import unescape
 
 from pipeline.config import SessionConfig
-from pipeline.countries import NO_ISO_SLUGS, _ALIAS_PAIRS, slugify, weak_slug
+from pipeline.countries import (
+    LISTING_SLUG_ALIASES,
+    NO_ISO_SLUGS,
+    _ALIAS_PAIRS,
+    slugify,
+    weak_slug,
+)
 from pipeline.http import HttpError, fetch
 from pipeline.models import FileRef, SpeakerPage
 
@@ -144,6 +150,33 @@ def _pick_audios(audios: list[FileRef]) -> tuple[FileRef | None, FileRef | None]
     return en, floor
 
 
+_TRANSCRIPT_PREPARE = re.compile(
+    r'href="([^"]+/transcript/([^/]+)/prepare-download)"',
+    re.I,
+)
+
+
+def _transcript_from_html(
+    config: SessionConfig, html: str, slug: str
+) -> FileRef | None:
+    english: FileRef | None = None
+    other: FileRef | None = None
+    for href, lang in _TRANSCRIPT_PREPARE.findall(html):
+        code = (lang or "").strip().lower() or "en"
+        url = _abs(config, href)
+        ref = FileRef(
+            label="transcript ai",
+            url=url,
+            filename=f"{config.id}-{slug}-{code}-transcript.txt",
+            lang=code,
+        )
+        if code == "en":
+            english = ref
+        elif other is None:
+            other = ref
+    return english or other
+
+
 def parse_speaker_page(config: SessionConfig, url: str, html: str) -> SpeakerPage:
     slug = url.rstrip("/").split("/")[-1]
     title = ""
@@ -155,6 +188,7 @@ def parse_speaker_page(config: SessionConfig, url: str, html: str) -> SpeakerPag
     audios = _audios_from_html(html)
     pdf_en, pdf_other = _pick_pdfs(pdfs, _field(html, "field-language-neutral-statement"))
     audio_en, audio_floor = _pick_audios(audios)
+    transcript_ai = _transcript_from_html(config, html, slug)
     datetime_attr = ""
     d = re.search(r'datetime="([^"]+)"', html)
     if d:
@@ -185,6 +219,7 @@ def parse_speaker_page(config: SessionConfig, url: str, html: str) -> SpeakerPag
         pdf_other=pdf_other,
         audio_en=audio_en,
         audio_floor=audio_floor,
+        transcript_ai=transcript_ai,
         video_entry_id=kaltura,
         video_partner_id=partner,
     )
@@ -230,6 +265,7 @@ def _ficha_sin_contenido(page: SpeakerPage) -> bool:
         or page.pdf_en
         or page.pdf_other
         or page.audio_en
+        or page.transcript_ai
     )
 
 
@@ -320,6 +356,8 @@ def build_slug_catalog(slugs: list[str]) -> dict[str, str]:
         else:
             catalog.setdefault(left, left)
             catalog.setdefault(right, left)
+    for alias, slug in LISTING_SLUG_ALIASES.items():
+        catalog.setdefault(alias, slug)
     return catalog
 
 

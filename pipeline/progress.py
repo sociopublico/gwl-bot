@@ -124,7 +124,7 @@ def _coding_summary_for_speech(
         "emerging_priorities": [],
     }
 
-SOURCE_KEYS = ("pdf_en", "audio_en", "pdf_other", "audio_floor", "video")
+SOURCE_KEYS = ("pdf_en", "transcript_ai", "audio_en", "pdf_other", "audio_floor", "video")
 
 REPO_ROOT = PIPELINE_ROOT.parent
 
