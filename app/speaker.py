@@ -18,9 +18,11 @@ logger = logging.getLogger(__name__)
 
 LlmCall = Callable[[str, str | None], dict[str, Any] | None]
 
+_HONORIFIC = r"(?:his|her)\s+(?:royal\s+)?(?:excellency|majesty|highness)"
+
 _CUE_RE = re.compile(
     r"(?:"
-    r"his\s+excellency|her\s+excellency|"
+    rf"{_HONORIFIC}|"
     r"i\s+(?:now\s+)?(?:give|call|yield)\s+(?:the\s+)?floor|"
     r"give\s+(?:the\s+)?floor\s+to|"
     r"the\s+assembly\s+will\s+(?:now\s+)?(?:hear|here)|"
@@ -31,7 +33,7 @@ _CUE_RE = re.compile(
 )
 
 _HONORIFIC_RE = re.compile(r"^(?:mr|mrs|ms|miss|dr|sir|madam|sheikh)\.?\s+", re.IGNORECASE)
-_EXCELLENCY_AT_RE = re.compile(r"(?:his|her)\s+excellency\s*[,:]?\s*", re.IGNORECASE)
+_HONORIFIC_AT_RE = re.compile(rf"{_HONORIFIC}\s*[,:]?\s*", re.IGNORECASE)
 _INVITE_CUT_RE = re.compile(
     r"\s+and\s+(?:i\s+)?(?:invite|ask|call)\b|\s+and\s+invite\b",
     re.IGNORECASE,
@@ -63,6 +65,9 @@ _STOPWORDS = {
     "his",
     "her",
     "excellency",
+    "majesty",
+    "highness",
+    "royal",
     "mr",
     "mrs",
     "ms",
@@ -247,7 +252,7 @@ def _split_name_and_title(rest: str) -> tuple[str, str | None]:
 def extract_introduction_regex(text: str) -> Speaker | None:
     best: Speaker | None = None
     best_at = -1
-    for match in _EXCELLENCY_AT_RE.finditer(text):
+    for match in _HONORIFIC_AT_RE.finditer(text):
         name, title = _split_name_and_title(text[match.end() :])
         if not _looks_like_person_name(name):
             continue
@@ -405,7 +410,7 @@ class SpeakerTracker:
                     confidence=extracted.confidence,
                     source=extracted.source,
                 )
-            elif name:
+            elif name and not self.roster:
                 extracted = Speaker(
                     name=name,
                     title=extracted.title,
@@ -414,6 +419,13 @@ class SpeakerTracker:
                     source=extracted.source,
                 )
             else:
+                if self.roster and (name or extracted.title or extracted.country):
+                    logger.info(
+                        "Speaker ignored (not in agenda) | asr=%s | title=%s | country=%s",
+                        name or "",
+                        extracted.title or "",
+                        extracted.country or "",
+                    )
                 extracted = None
         if extracted is not None:
             if extracted.name.casefold() != self._current.name.casefold():

@@ -237,6 +237,68 @@ class SpeakerTrackerTest(unittest.TestCase):
         later = tracker.observe("We thank the president of France for the climate pledge.")
         self.assertIn("Lula", later.name)
 
+    def test_honorifics_extract_majesty_and_royal_highness(self) -> None:
+        majesty = extract_introduction_regex(
+            "I now give the floor to His Majesty Abdullah II ibn Al Hussein, King of Jordan."
+        )
+        assert majesty is not None
+        self.assertIn("Abdullah", majesty.name)
+        self.assertTrue(has_introduction_cue("His Majesty Abdullah II"))
+
+        highness = extract_introduction_regex(
+            "The Assembly will hear an address by His Highness Sheikh Tamim bin Hamad "
+            "Al Thani, Amir of Qatar."
+        )
+        assert highness is not None
+        self.assertIn("Tamim", highness.name)
+
+        royal = extract_introduction_regex(
+            "I give the floor to His Royal Highness Guillaume of Luxembourg, Grand Duke."
+        )
+        assert royal is not None
+        self.assertIn("Guillaume", royal.name)
+        self.assertTrue(has_introduction_cue("Her Royal Highness"))
+
+    def test_agenda_only_ignores_excellency_not_in_roster(self) -> None:
+        tracker = SpeakerTracker(
+            _config(
+                speaker_roster=(
+                    "Luiz Inacio Lula da Silva | Brazil | President;"
+                    "Emmanuel Macron | France | President"
+                )
+            )
+        )
+        first = tracker.observe(
+            "I now give the floor to His Excellency Gabriel Boric, President of Chile."
+        )
+        self.assertEqual(first.name, "unknown")
+        self.assertEqual(tracker.observe("Chile remains committed.").name, "unknown")
+
+        tracker.observe(LULA_INTRO)
+        tracker.observe("The speech begins.")
+        later = tracker.observe(
+            "I now give the floor to Her Excellency Claudia Sheinbaum Pardo, "
+            "President of Mexico."
+        )
+        self.assertIn("Lula", later.name)
+        self.assertIn("Lula", tracker.observe("We continue.").name)
+
+    def test_agenda_majesty_maps_roster(self) -> None:
+        tracker = SpeakerTracker(
+            _config(
+                speaker_roster=(
+                    "Abdullah II ibn Al Hussein | Jordan | King;"
+                    "Luiz Inacio Lula da Silva | Brazil | President"
+                )
+            )
+        )
+        tracker.observe(
+            "The Assembly will hear an address by His Majesty Abdullah II ibn Al Hussein, "
+            "King of Jordan."
+        )
+        speaker = tracker.observe("Jordan remains committed to peace.")
+        self.assertEqual(speaker.name, "Abdullah II ibn Al Hussein")
+
 
 if __name__ == "__main__":
     unittest.main()
