@@ -25,10 +25,12 @@ dominica
 switzerland
 viet-nam
 seychelles
-nauru
+naoero
 united-republic-tanzania
 bhutan
 trinidad-and-tobago
 japan
 united-kingdom-great-britain-and-northern-ireland
 croatia
+belgium
+morocco

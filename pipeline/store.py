@@ -192,10 +192,15 @@ def parse_speech_txt(path: Path) -> ExtractedSpeech:
     )
 
 
-def write_speech(speech: ExtractedSpeech, directory: Path) -> Path:
+def write_speech(
+    speech: ExtractedSpeech,
+    directory: Path,
+    *,
+    reuse_existing_id: bool = True,
+) -> Path:
     directory.mkdir(parents=True, exist_ok=True)
     existing = find_speech_in_dir(directory, speech.slug)
-    if existing and not normalize_speech_id(speech.id_speech):
+    if reuse_existing_id and existing and not normalize_speech_id(speech.id_speech):
         try:
             speech.id_speech = parse_speech_txt(existing).id_speech
         except (OSError, ValueError):

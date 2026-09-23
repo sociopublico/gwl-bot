@@ -9,7 +9,6 @@ from pipeline.config import SessionConfig
 from pipeline.countries import (
     LISTING_SLUG_ALIASES,
     NO_ISO_SLUGS,
-    _ALIAS_PAIRS,
     slugify,
     weak_slug,
 )
@@ -306,10 +305,11 @@ class ListingSpeaker:
 
 
 _HOMEPAGE_TITLE_RE = re.compile(
-    r'views-field-field-speaker-title">\s*([^<]+)[\s\S]{0,1200}?speaker-info">([\s\S]*?)</span>',
+    r'views-field-field-speaker-title">([\s\S]*?)</span>[\s\S]{0,1500}?speaker-info">([\s\S]*?)</span>',
     re.I,
 )
 _HOMEPAGE_DATE_RE = re.compile(r'"settingsDate"\s*:\s*"(\d{4}-\d{2}-\d{2})"')
+_SPEAKER_HREF_RE = re.compile(r"/en/\d+/([a-z0-9-]+)", re.I)
 
 
 def _view_chunk(html: str, display_id: str) -> str:
@@ -348,14 +348,8 @@ def build_slug_catalog(slugs: list[str]) -> dict[str, str]:
         for key in (slug, slugify(slug), weak_slug(slug)):
             if key:
                 catalog.setdefault(key, slug)
-    for left, right in _ALIAS_PAIRS:
-        if left in catalog:
-            catalog.setdefault(right, catalog[left])
-        elif right in catalog:
-            catalog.setdefault(left, catalog[right])
-        else:
-            catalog.setdefault(left, left)
-            catalog.setdefault(right, left)
+    # _ALIAS_PAIRS es solo para ISO (nauru↔naoero). No reescribir el slug de la
+    # URL: gadebate 81 usa /naoero; 80 usaba /nauru.
     for alias, slug in LISTING_SLUG_ALIASES.items():
         catalog.setdefault(alias, slug)
     return catalog
@@ -407,7 +401,8 @@ def listings_from_homepage_html(
             continue
         for raw_title, raw_info in _HOMEPAGE_TITLE_RE.findall(chunk):
             title = _clean_listing_title(raw_title)
-            slug = slug_from_speaker_title(title, catalog)
+            href = _SPEAKER_HREF_RE.search(raw_title)
+            slug = href.group(1) if href else slug_from_speaker_title(title, catalog)
             if not slug or slug in seen:
                 continue
             seen.add(slug)

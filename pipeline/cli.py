@@ -261,6 +261,11 @@ def _parser() -> argparse.ArgumentParser:
         action="store_true",
         help="No escribir metadata.csv local",
     )
+    pub.add_argument(
+        "--reset-ids",
+        action="store_true",
+        help="Renumerar M_N del día desde 1 (por sesión), ignorando ids ya asignados",
+    )
 
     coding_p = sub.add_parser(
         "coding",
@@ -637,6 +642,7 @@ def main(argv: list[str] | None = None) -> int:
             do_github=args.github,
             do_sheet=args.sheet,
             write_csv=not args.no_csv,
+            reset_ids=args.reset_ids,
         )
 
     if args.cmd == "progress-site":

@@ -184,9 +184,11 @@ class ParsePageTest(unittest.TestCase):
                 "president-general-assembly-opening",
                 "brazil",
                 "united-states-america",
-                "nauru",
+                "naoero",
                 "united-kingdom-great-britain-and-northern-ireland",
                 "republic-korea",
+                "belgium",
+                "morocco",
             ],
         )
         self.assertEqual(speakers[0].part, "morning")
@@ -194,7 +196,9 @@ class ParsePageTest(unittest.TestCase):
         self.assertEqual(speakers[1].slug, "president-general-assembly-opening")
         self.assertEqual(speakers[1].name, "Dr. Khalilur Rahman")
         self.assertEqual(speakers[-1].part, "afternoon")
-        self.assertEqual(speakers[-1].title, "Republic of Korea")
+        self.assertEqual(speakers[-1].title, "Morocco")
+        self.assertEqual(speakers[-2].slug, "belgium")
+        self.assertEqual(speakers[-2].name, "Maxime Prévot")
 
     def test_institutional_listing_titles_map_to_slugs(self) -> None:
         catalog = slug_catalog_for(load_session("81"))
@@ -220,6 +224,7 @@ class ParsePageTest(unittest.TestCase):
             ),
             "president-general-assembly-closing",
         )
+        self.assertEqual(slug_from_speaker_title("Naoero", catalog), "naoero")
 
     def test_session_81_journal_starts_with_sg_and_pga(self) -> None:
         config = load_session("81")

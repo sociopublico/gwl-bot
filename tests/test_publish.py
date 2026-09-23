@@ -32,6 +32,7 @@ class CountryJoinTest(unittest.TestCase):
     def test_aliases_and_no_iso(self) -> None:
         index = load_countries_file()
         self.assertEqual(index.lookup("nauru").row.iso_country, "NRU")
+        self.assertEqual(index.lookup("naoero").row.iso_country, "NRU")
         self.assertEqual(index.lookup("gambia-republic").row.iso_country, "GMB")
         self.assertEqual(index.lookup("republic-north-macedonia").row.iso_country, "MKD")
         self.assertEqual(index.lookup("palestine-state").row.iso_country, "PSE")
@@ -391,7 +392,7 @@ class MetadataRowTest(unittest.TestCase):
                     "pipeline.sheets.read_metadata_records",
                     return_value=(
                         ["id_speech", "ficha_url"],
-                        [{"id_speech": "M_40", "ficha_url": "https://other"}],
+                        [{"id_speech": "M_40", "ficha_url": "https://gadebate.un.org/en/80/other"}],
                     ),
                 ):
                     with patch("pipeline.sheets.append_metadata_rows", return_value=[]):
@@ -405,6 +406,95 @@ class MetadataRowTest(unittest.TestCase):
             self.assertEqual(code, 0)
             self.assertTrue((dest / "80" / "2025-09-24" / "M_41.txt").is_file())
             self.assertIn("M_41", (dest / "80" / "2025-09-24" / "metadata.csv").read_text())
+
+    def test_publish_ignores_other_session_sheet_ids(self) -> None:
+        from pipeline.publish import publish_day
+        from pipeline.store import out_dir, write_speech
+
+        config = load_session("80")
+        speech = ExtractedSpeech(
+            session_id=80,
+            slug="kenya",
+            country="Kenya",
+            name="William Ruto",
+            rank="President",
+            speech_date="2025-09-24",
+            source="pdf_en",
+            source_url="https://example/ke_en.pdf",
+            language="en",
+            text="Excellencies",
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            dest = Path(tmp)
+            write_speech(speech, out_dir(config, speech.speech_date, dest=dest))
+            with patch("pipeline.sheets.can_write_sheets", return_value=True):
+                with patch(
+                    "pipeline.sheets.read_metadata_records",
+                    return_value=(
+                        ["id_speech", "ficha_url"],
+                        [
+                            {
+                                "id_speech": "M_40",
+                                "ficha_url": "https://gadebate.un.org/en/81/brazil",
+                            }
+                        ],
+                    ),
+                ):
+                    with patch("pipeline.sheets.append_metadata_rows", return_value=[]):
+                        code = publish_day(
+                            config,
+                            day="2025-09-24",
+                            dest=dest,
+                            do_github=False,
+                            do_sheet=True,
+                        )
+            self.assertEqual(code, 0)
+            self.assertTrue((dest / "80" / "2025-09-24" / "M_1.txt").is_file())
+            self.assertFalse((dest / "80" / "2025-09-24" / "M_41.txt").exists())
+
+    def test_reset_ids_renumbers_from_one(self) -> None:
+        from pipeline.publish import publish_day
+        from pipeline.store import out_dir, write_speech
+
+        config = load_session("81")
+        speech = ExtractedSpeech(
+            session_id=81,
+            slug="brazil",
+            country="Brazil",
+            name="Lula",
+            rank="President",
+            speech_date="2026-09-22",
+            source="pdf_en",
+            source_url="https://example/br_en.pdf",
+            language="en",
+            text="Excellencies",
+            id_speech="M_37",
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            dest = Path(tmp)
+            write_speech(speech, out_dir(config, speech.speech_date, dest=dest))
+            self.assertTrue((dest / "81" / "2026-09-22" / "M_37.txt").is_file())
+            with patch("pipeline.sheets.can_write_sheets", return_value=False):
+                with patch(
+                    "pipeline.sheets.sheets_unavailable_reason",
+                    return_value="test sin sheet",
+                ):
+                    code = publish_day(
+                        config,
+                        day="2026-09-22",
+                        dest=dest,
+                        do_github=False,
+                        do_sheet=False,
+                        write_csv=True,
+                        reset_ids=True,
+                    )
+            self.assertEqual(code, 0)
+            self.assertTrue((dest / "81" / "2026-09-22" / "M_1.txt").is_file())
+            self.assertFalse((dest / "81" / "2026-09-22" / "M_37.txt").exists())
+            parsed = parse_speech_txt(dest / "81" / "2026-09-22" / "M_1.txt")
+            self.assertEqual(parsed.id_speech, "M_1")
+            self.assertEqual(parsed.slug, "brazil")
+            self.assertIn("M_1", (dest / "81" / "2026-09-22" / "metadata.csv").read_text())
 
 
 class DotenvSheetsTest(unittest.TestCase):

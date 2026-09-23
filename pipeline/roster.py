@@ -224,14 +224,28 @@ def build_roster(
             if not slugs:
                 raise
             listings = []
-        if not slugs:
-            slugs = [item.slug for item in listings]
-            write_journal_slugs(
-                config,
-                day,
-                slugs,
-                parts=[item.part for item in listings],
-            )
+        if listings:
+            listed = [item.slug for item in listings]
+            if not slugs:
+                slugs = listed
+                write_journal_slugs(
+                    config,
+                    day,
+                    slugs,
+                    parts=[item.part for item in listings],
+                )
+            else:
+                extra = [item for item in listed if item not in slugs]
+                if extra:
+                    slugs = slugs + extra
+                    part_of = {item.slug: item.part for item in listings}
+                    write_journal_slugs(
+                        config,
+                        day,
+                        slugs,
+                        parts=[part_of.get(item, "") for item in slugs],
+                        overwrite=True,
+                    )
         if limit is not None:
             slugs = slugs[:limit]
     by_slug = {item.slug: item for item in listings}

@@ -264,14 +264,41 @@ def _countries_for_publish(config: SessionConfig) -> CountryIndex:
     )
 
 
+def session_sheet_records(
+    config: SessionConfig, records: list[dict] | None
+) -> list[dict]:
+    """Filas Metadata de esta sesión (ficha_url /en/{id}/)."""
+    marker = f"/en/{config.id}/"
+    out: list[dict] = []
+    for record in records or []:
+        ficha = str(record.get("ficha_url") or "")
+        if marker in ficha:
+            out.append(record)
+    return out
+
+
 def assign_speech_ids(
     config: SessionConfig,
     items: list[tuple[ExtractedSpeech, Path]],
     *,
     start_id: int,
     sheet_records: list[dict] | None = None,
+    reset_ids: bool = False,
 ) -> list[tuple[ExtractedSpeech, Path]]:
     """Asigna M_N correlativos, escribe el id en el YAML y renombra el .txt."""
+    if reset_ids:
+        cleared: list[tuple[ExtractedSpeech, Path]] = []
+        for speech, path in items:
+            speech.id_speech = ""
+            cleared.append(
+                (
+                    speech,
+                    write_speech(speech, path.parent, reuse_existing_id=False),
+                )
+            )
+        items = cleared
+        sheet_records = None
+
     ficha_ids: dict[str, int] = {}
     for record in sheet_records or []:
         num = parse_speech_id(str(record.get("id_speech") or ""))
@@ -382,6 +409,7 @@ def publish_day(
     do_github: bool = False,
     do_sheet: bool = False,
     write_csv: bool = True,
+    reset_ids: bool = False,
 ) -> int:
     load_dotenv()
     items = _order_speeches(
@@ -391,14 +419,21 @@ def publish_day(
         print("publish: no hay .txt extraídos para esos filtros", file=sys.stderr)
         return 1
     existing_headers, existing_records, do_sheet = _load_sheet_records(do_sheet)
-    file_ids = existing_speech_id_labels(config, dest=dest)
-    sheet_ids = [str(r.get("id_speech") or "") for r in existing_records or []]
-    start_id = next_speech_id(file_ids + sheet_ids)
+    session_records = session_sheet_records(config, existing_records)
+    if reset_ids:
+        start_id = 1
+        sheet_for_ids: list[dict] | None = None
+    else:
+        file_ids = existing_speech_id_labels(config, dest=dest)
+        sheet_ids = [str(r.get("id_speech") or "") for r in session_records]
+        start_id = next_speech_id(file_ids + sheet_ids)
+        sheet_for_ids = session_records
     items = assign_speech_ids(
         config,
         items,
         start_id=start_id,
-        sheet_records=existing_records,
+        sheet_records=sheet_for_ids,
+        reset_ids=reset_ids,
     )
     ids = [speech.id_speech for speech, _ in items]
     if ids:

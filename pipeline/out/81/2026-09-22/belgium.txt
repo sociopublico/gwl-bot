@@ -1,0 +1,454 @@
+---
+session: 81
+slug: belgium
+country: Belgium
+speaker: Maxime Prévot
+title: Deputy Prime Minister
+speaker_title: His Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/be_en.pdf
+language: en
+original_language: fr
+transformation: none
+via: pypdf
+elapsed_s: 1.753
+---
+
+Mr President,
+
+Mr Secretary-General,
+
+Excellencies,
+
+Ladies and Gentlemen,
+
+Maurice Maeterlinck, born in Ghent and awarded the Nobel Prize in Literature in 1911 (nineteen eleven), wrote a strange, almost unsettling play entitled The Blind.
+
+Twelve people find themselves in a forest on an island.
+
+The guide who led them there is sitting among them.
+
+He is dead, but they do not yet know it.
+
+They are waiting for him to return.
+
+They hear the wind, the sea, the voices around them.
+
+They know they are not alone, yet they can barely tell where the others are.
+
+At one point, one of the characters says: “Years and years we have been together, and we have never seen each other!”
+
+That line comes back to me when I look at our world.
+
+We, too, are together.
+
+We meet constantly.
+
+We exchange statements, messages and positions.
+
+At times, we spend hours around the same tables.
+
+And yet, being in the same room does not mean that we understand one another.
+
+Do we still take the time to hear what others are telling us?
+
+To understand what they fear, what they need, and what the world looks like from where they stand?
+
+That, to me, is where diplomacy begins.
+
+Not when we agree.
+
+But when we no longer do.
+
+Diplomacy is not about erasing disagreements, nor about abandoning our principles to secure consensus at any cost.
+
+It is about continuing to speak, continuing to listen, and finding ways to manage our differences without allowing them to lead to a breakdown in relations or to confrontation.
+
+In the play, one of the characters says something very simple: “Let us try to draw a little closer.”
+
+Maeterlinck wrote those words more than a century ago.
+
+Yet they feel entirely relevant today.
+
+Drawing closer does not mean thinking alike.
+
+It means refusing to let distance turn into indifference, then mistrust, until eventually we stop speaking altogether.
+
+That risk is real today.
+
+It is one of the paradoxes of our time.
+
+We have never been more connected, yet we do not necessarily understand one another any better.
+
+Our economies, societies and technologies have become deeply interdependent, even as the temptation to turn inward returns with force.
+
+In other words, we depend on one another more than ever, at the very moment when we are sometimes tempted to believe that we can do without one another.
+
+The more interdependent we become, the more we need common rules.
+
+Not to erase our differences.
+
+Not to impose a single vision of the world.
+
+But to ensure that we can manage our disagreements without allowing the law of the strongest to become the only law that matters.
+
+In the play The Blind, the characters have lost the person who was meant to show them the way.
+
+We are not in the same position.
+
+No one will come and decide for us which direction to take.
+
+But that does not mean we can move forward without bearings.
+
+Faced with wars, humanitarian crises, climate disruption, pandemics and technological upheaval, the question is ultimately quite simple: do we still have a common compass?
+
+For Belgium, the answer is yes.
+
+That compass is the Charter of the United Nations. It is international law.
+
+But a rule has value only if it continues to apply when respecting it becomes difficult.
+
+It is precisely when the law runs counter to a State’s immediate interest that we discover whether it truly matters.
+
+When a signature loses its value the moment it becomes binding, when a treaty holds only for as long as it suits the party that signed it, it is not merely a legal text that is weakened.
+
+It is trust in a promise made.
+
+And with it, the security of all those who believed they could rely on that promise.
+
+This is why Russia’s war of aggression against Ukraine concerns far more than two States.
+
+When a border can be changed by force, every border becomes less secure.
+
+No one in this room needs reminding that international politics is shaped by power and by interests. The Charter does not wish those realities away. It draws a line around what power may be allowed to do.
+
+For Belgium, that line matters in very practical terms. We are an open country, with an economy tied to the world and a security bound up with that of our partners. We depend on States keeping their word, on agreements surviving changes in the balance of power, and on borders not being redrawn at gunpoint.
+
+International law reflects our values, certainly. It also protects our interests.
+
+That is why Belgium stands firmly with Ukraine. Any lasting peace must be grounded in the Charter of the United Nations and in respect for Ukraine’s sovereignty, political independence and territorial integrity.
+
+But we cannot uphold these principles on my continent alone – in Europe – and treat them as optional elsewhere. Sovereignty, territorial integrity and the right of peoples to determine their own future do not change meaning when we cross the borders of our continent.
+
+The same standard must guide us when it comes to international humanitarian law.
+
+Its rules do not apply only when they suit us.
+
+They exist precisely for the moments when respecting them becomes difficult.
+
+In Palestine, Sudan, Myanmar, the Democratic Republic of the Congo,
+
+Haiti, and so many other places scarred by war or armed violence, the circumstances differ.
+
+But no human life is worth less than another.
+
+Civilians remain civilians. They must be protected.
+
+Humanitarian aid must be allowed to reach them.
+
+Everywhere.
+
+This year again, hundreds of millions of people need humanitarian assistance while the resources available to help them are shrinking.
+
+When funding runs out, what do we tell the mother who has walked for hours to reach a clinic with her sick child? That the doors are closed?
+
+What do we tell a family waiting for food? That there will be no delivery tomorrow?
+
+We cannot ask humanitarian workers to give those answers because we have chosen to cut their funding.
+
+This is not the time to treat humanitarian aid as an optional expense.
+
+It is neither a reward nor a bargaining chip.
+
+A hungry child is not responsible for the position taken by his government.
+
+That child has the right to eat, the right to receive care, and the right to be protected.
+
+That is why I urge every one of us not to cut humanitarian funding.
+
+International law does more than contain violence.
+
+It also enables trade, exchange and movement.
+
+That brings me to a freedom that may at first sound rather technical: freedom of navigation.
+
+For my country, it is anything but technical.
+
+As early as the nineteenth century, the port of Antwerp had immense potential.
+
+But ships sailing up the River Scheldt had to pay a toll.
+
+In 1863 (eighteen sixty-three), an international agreement abolished that toll once and for all.
+
+The abolition was to apply to “all flags”.
+
+All of them.
+
+An international route has real value only if it remains open.
+
+Passage cannot depend, each time, on a fresh contest of power.
+
+That is precisely what freedom of navigation represents today.
+
+It is not merely the abstract right of a ship to travel from one point to another.
+
+It allows economies that may share neither the same interests nor the same alliances to remain connected.
+
+It allows a landlocked State to take part in global trade.
+
+It allows grain, medicines, gas and industrial components to cross several maritime areas without their passage having to be renegotiated at every stage.
+
+That seems perfectly normal while everything is working.
+
+It takes only one route closing for us to remember how much it matters.
+
+Think of the Strait of Hormuz, the Bab el-Mandeb Strait at the entrance of the Red Sea, the Suez Canal, the Bosporus, the Strait of Malacca or the Panama Canal.
+
+More than 80 per cent of global merchandise trade by volume is carried by sea.
+
+When a ship is attacked, when a strait becomes dangerous, or when a carrier has to sail around an entire region, the effects are felt thousands of kilometres away.
+
+In our ports, of course.
+
+But also in the price of energy, fertiliser and food.
+
+The price of a tank of fuel.
+
+The price of a loaf of bread. Even having a bread.
+
+And very often, the countries with the least economic room to maneuver bear the greatest burden in proportionate terms.
+
+The United Nations Convention on the Law of the Sea confers rights, but it also imposes obligations: the safety of navigation, the protection of the marine environment, and respect for the rights of coastal States.
+
+A smaller navy does not mean fewer rights.
+
+Nor does a larger one confer the right to impose its will.
+
+No country should have to surrender the rights the law gives it simply because another can send more ships.
+
+That is why maritime disputes must be settled by law, not by intimidation.
+
+And that is why freedom of navigation depends on common rules: so that every country can exercise its rights while respecting those of others.
+
+But keeping our sea routes open also means keeping them safe, all the way into our ports.
+
+The International Ship and Port Facility Security Code, the ISPS Code, offers a very concrete example of what multilateralism can achieve when it works.
+
+Piracy, terrorism and crime are scourges that we must fight together.
+
+That Code must be strengthened.
+
+Belgium understands its importance.
+
+Freedom and security are not opposing ideas.
+
+Security is a condition of freedom.
+
+I dwell on freedom of navigation because it illustrates something larger.
+
+Sovereignty does not require isolation.
+
+We can defend our interests while accepting that others have rights too.
+
+And when rules are clear and predictable enough, a space of competition can still remain a space of cooperation.
+
+The ocean, moreover, are far more than the highways of our trade.
+
+They feed populations, regulate our climate, and absorb much of the excess heat caused by global warming.
+
+For many small island States, rising sea levels affect the land on which their citizens live, their economy, their culture and, in some cases, their very ability to remain where their families have lived for generations.
+
+The freedom to use the ocean therefore comes with a responsibility: to preserve it.
+
+And on this point, allow me to be optimistic.
+
+The BBNJ Agreement entered into force this year, after almost twenty years of negotiations.
+
+Almost twenty years.
+
+Measured against a political cycle, that is close to an eternity. Measured against the building of international law, it is sometimes the time needed to reach a compromise strong enough to last.
+
+The Agreement proves that, even today, we continue to build international law rather than dismantle it.
+
+Belgium has invested greatly in this process. It helped launch the Blue Leaders, a coalition of countries working to protect at least 30 per cent of the ocean by 2030 (twenty thirty) and secure an ambitious high seas treaty.
+
+The BBNJ Agreement now gives us an essential tool to advance towards that protection goal.
+
+But twenty years of negotiations must not be followed by years of waiting.
+
+It is in that spirit that Belgium is offering to host the treaty’s future secretariat in Brussels.
+
+We are ready to enable it to work from day one. It will be able to draw on our scientific expertise and on a community that brings together international organisations, embassies and civil society.
+
+So that what we have agreed together becomes real protection at sea.
+
+Beneath those same ocean run other vital routes: the cables that connect our continents and carry much of our digital communications and energy.
+
+Here too, our interdependence is plain to see.
+
+A break, an act of sabotage or an attack can have consequences thousands of kilometres away.
+
+Protecting those connections is essential. But our responsibility in the digital world does not end with infrastructure.
+
+Artificial intelligence already confronts us with another question: how can we make full use of the possibilities created by innovation without allowing technology to move faster than our ability to protect people?
+
+I am thinking in particular of children, who are growing up in a world where AI can open extraordinary possibilities, but also create new vulnerabilities.
+
+We must neither hold back innovation out of fear nor assume that it will regulate itself.
+
+At sea as in the digital world, freedom needs rules if it is to remain freedom.
+
+We cannot speak about interdependence without speaking about migration.
+
+People have always moved, and they will continue to do so.
+
+Governments have a duty to manage that movement and to ensure that migration takes place safely, regularly and in accordance with the law.
+
+Order is itself a matter of human rights. When migration is left in the hands of smugglers and traffickers, people are exploited, placed in danger and sometimes lost at sea.
+
+But the way in which governments maintain order matters just as much.
+
+States have both the right and the responsibility to manage their borders.
+
+They must do so in full respect of international law and fundamental rights.
+
+A person’s legal status may change. Their human dignity does not.
+
+Every person counts.
+
+That is why countries of origin, transit and destination must work together. Safe, orderly and regular migration and respect for human rights are not competing ambitions. They must go hand in hand.
+
+We can either manage our interdependence, or be at its mercy.
+
+Health crises have taught us the same lesson.
+
+Outbreaks do not recognise borders.
+
+Cooperation is a necessity.
+
+Those who refuse to cooperate weaken themselves.
+
+But if our commitments are to hold, we also need institutions capable of upholding them.
+
+The law needs guardians.
+
+This year, we mark the 80th anniversary of the International Court of Justice. It settles legal disputes submitted to it by States, peacefully and in accordance with international law.
+
+The International Criminal Court has a different mandate: to fight impunity by prosecuting and trying individuals accused of the gravest international crimes.
+
+Their mandates differ. Their independence must be defended equally.
+
+Both courts rest on the same idea: power cannot be its own judge.
+
+That remains true even when we dislike their rulings or proceedings.
+
+When judges or staff members of an international court face sanctions or pressure for carrying out their mandate, Belgium will always stand with them to protect them.
+
+But the promise of the law does not end in courtrooms or in relations between States.
+
+It concerns people.
+
+Human rights.
+
+The right to think and speak freely.
+
+Freedom of conscience and religion.
+
+And the freedom not to believe.
+
+It concerns the ability of every woman to decide the course of her own life and take her equal place in society.
+
+The ability to love the person we love without fear of prison, violence or persecution.
+
+These freedoms belong to no single continent.
+
+They rest on an elementary conviction: a person’s dignity does not depend on their sex, their origin, their sexual orientation, or what a government thinks of them.
+
+Our societies are different.
+
+They will remain so.
+
+Human dignity does not require us to be alike in order to be equal.
+
+That conviction also guides our diplomacy.
+
+Dialogue is not approval.
+
+Dialogue is not the opposite of resolve.
+
+Diplomacy requires both.
+
+It also requires institutions capable of functioning.
+
+Defending the United Nations does not mean pretending that everything within it works well.
+
+The UN80 process is necessary.
+
+But there is a difference between reforming an organisation and weakening it.
+
+We cannot ask more of it, steadily strip away its resources, and then express surprise when it is not effective enough.
+
+Reform must preserve what gives the Organisation its purpose: peace and security, human rights, and development.
+
+It must also ensure better representation for every region of the world.
+
+More than eighty years ago, Paul -Henri Spaak led the Belgian delegation to the San Francisco Conference that gave birth to the United Nations. A few months later, he became the first President of this General Assembly.
+
+Belgium was emerging from war and occupation.
+
+That is precisely why multilateralism seemed the obvious choice to us.
+
+We are not here to preserve an institution for its own sake.
+
+We are here to preserve what it must make possible.
+
+Peace and security.
+
+Human rights.
+
+And prosperity for all.
+
+Ladies and Gentlemen,
+
+Before we were presidents, ministers, ambassadors or diplomats, we were all children.
+
+And despite all that sets them apart, the people we represent often want remarkably simple things.
+
+To come home in the evening.
+
+To watch their children grow up and send them to school without fear.
+
+To work.
+
+To love the person they love.
+
+To make plans for next year.
+
+Not to live with the thought that war, hunger, disease or violence could make everything disappear overnight.
+
+That is the most concrete definition of peace: being able to live your life without constantly fearing that you will lose it.
+
+We can build peace, and we can damage it. We can pass it on, or leave the next generation with the task of starting all over again.
+
+At the beginning of this speech, I spoke of Maurice Maeterlinck’s play The Blind.
+
+Its characters were waiting for someone to show them the way.
+
+We cannot simply wait.
+
+No one will come and decide for us what kind of world we want to live in.
+
+But we are not without bearings.
+
+We have international law.
+
+We have dialogue.
+
+Above all, we have a responsibility to use them both.
+
+A compass cannot prevent a storm.
+
+It helps us hold our course when the storm comes.
+
+Thank you.
