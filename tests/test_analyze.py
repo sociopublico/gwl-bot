@@ -64,6 +64,16 @@ class AnalyzeHelpersTest(unittest.TestCase):
         raw = 'Here:\n```json\n{"summary": "hi", "notes": ""}\n```\n'
         self.assertEqual(parse_json_object(raw)["summary"], "hi")
 
+    def test_parse_json_object_ignores_trailing_second_object(self) -> None:
+        raw = '{"indicators": [{"id_speech": "M_1"}]}\n{"emerging_priorities": []}'
+        parsed = parse_json_object(raw)
+        self.assertEqual(parsed["indicators"][0]["id_speech"], "M_1")
+        self.assertEqual(parsed["emerging_priorities"], [])
+
+    def test_parse_json_object_allows_trailing_text(self) -> None:
+        raw = '{"summary": "ok"}\nThanks!'
+        self.assertEqual(parse_json_object(raw)["summary"], "ok")
+
     def test_merge_overwrites_identity(self) -> None:
         speech = _speech()
         row = merge_analysis_row(

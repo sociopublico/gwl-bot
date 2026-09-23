@@ -1,0 +1,40 @@
+# Schedule gadebate /en 2026-09-23
+# morning
+syrian-arab-republic
+latvia
+romania
+burundi
+iran-islamic-republic
+paraguay
+czechia
+argentina
+estonia
+timor-leste
+libya
+palau
+cyprus
+dominican-republic
+botswana
+ecuador
+ukraine
+bulgaria
+central-african-republic
+panama
+ethiopia
+# afternoon
+poland
+namibia
+slovakia
+kenya
+serbia
+mozambique
+guinea
+eswatini
+honduras
+montenegro
+venezuela-bolivarian-republic
+uganda
+rwanda
+spain
+andorra
+democratic-republic-congo

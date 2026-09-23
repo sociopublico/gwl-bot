@@ -20,24 +20,56 @@ class ClaudeError(RuntimeError):
     pass
 
 
+def _decode_json_objects(text: str) -> list[dict]:
+    decoder = json.JSONDecoder()
+    objects: list[dict] = []
+    idx = 0
+    while idx < len(text):
+        start = text.find("{", idx)
+        if start < 0:
+            break
+        try:
+            data, end = decoder.raw_decode(text, start)
+        except json.JSONDecodeError:
+            idx = start + 1
+            continue
+        if isinstance(data, dict):
+            objects.append(data)
+        idx = max(end, start + 1)
+    return objects
+
+
+def _merge_json_objects(objects: list[dict]) -> dict:
+    if len(objects) == 1:
+        return objects[0]
+    merged: dict = {}
+    for obj in objects:
+        for key, value in obj.items():
+            if (
+                key in merged
+                and isinstance(merged[key], list)
+                and isinstance(value, list)
+            ):
+                merged[key].extend(value)
+            elif key not in merged:
+                merged[key] = value
+    return merged
+
+
 def parse_json_object(raw: str) -> dict:
     text = (raw or "").strip()
     if not text:
         raise ClaudeError("Claude devolvió texto vacío")
-    fenced = _JSON_FENCE.search(text)
-    if fenced:
-        text = fenced.group(1).strip()
-    start = text.find("{")
-    end = text.rfind("}")
-    if start < 0 or end <= start:
+    fenced = [match.group(1).strip() for match in _JSON_FENCE.finditer(text)]
+    objects: list[dict] = []
+    for chunk in fenced or [text]:
+        objects.extend(_decode_json_objects(chunk))
+    if not objects:
         raise ClaudeError(f"no hay JSON en la respuesta: {text[:200]!r}")
-    try:
-        data = json.loads(text[start : end + 1])
-    except json.JSONDecodeError as exc:
-        raise ClaudeError(f"JSON inválido: {exc}") from exc
-    if not isinstance(data, dict):
+    merged = _merge_json_objects(objects)
+    if not isinstance(merged, dict):
         raise ClaudeError("Claude no devolvió un objeto JSON")
-    return data
+    return merged
 
 
 def anthropic_settings() -> tuple[str, str]:

@@ -1,0 +1,206 @@
+{
+  "session": 81,
+  "day": "2026-09-22",
+  "updated_at": "2026-09-23T02:45:43Z",
+  "model": "claude-sonnet-5",
+  "speeches": {
+    "M_1": {
+      "indicators": 8,
+      "emerging": 6,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_2": {
+      "indicators": 8,
+      "emerging": 6,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_3": {
+      "indicators": 8,
+      "emerging": 6,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_4": {
+      "indicators": 8,
+      "emerging": 6,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_5": {
+      "indicators": 8,
+      "emerging": 4,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_6": {
+      "indicators": 8,
+      "emerging": 6,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_7": {
+      "indicators": 8,
+      "emerging": 4,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_8": {
+      "indicators": 8,
+      "emerging": 3,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_9": {
+      "indicators": 8,
+      "emerging": 4,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_10": {
+      "indicators": 8,
+      "emerging": 3,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_11": {
+      "indicators": 8,
+      "emerging": 4,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_12": {
+      "indicators": 8,
+      "emerging": 7,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_13": {
+      "indicators": 8,
+      "emerging": 4,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_14": {
+      "indicators": 8,
+      "emerging": 4,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_15": {
+      "indicators": 8,
+      "emerging": 5,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_16": {
+      "indicators": 8,
+      "emerging": 5,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_17": {
+      "indicators": 8,
+      "emerging": 5,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_18": {
+      "indicators": 8,
+      "emerging": 6,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_19": {
+      "indicators": 8,
+      "emerging": 7,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_20": {
+      "indicators": 8,
+      "emerging": 4,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_21": {
+      "indicators": 8,
+      "emerging": 5,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_22": {
+      "indicators": 8,
+      "emerging": 4,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_23": {
+      "indicators": 8,
+      "emerging": 5,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_24": {
+      "indicators": 8,
+      "emerging": 4,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_25": {
+      "indicators": 8,
+      "emerging": 4,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_26": {
+      "indicators": 8,
+      "emerging": 5,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_27": {
+      "indicators": 8,
+      "emerging": 3,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_28": {
+      "indicators": 8,
+      "emerging": 3,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_29": {
+      "indicators": 8,
+      "emerging": 6,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_30": {
+      "indicators": 8,
+      "emerging": 4,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_31": {
+      "indicators": 8,
+      "emerging": 6,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_32": {
+      "indicators": 8,
+      "emerging": 7,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    },
+    "M_33": {
+      "indicators": 8,
+      "emerging": 5,
+      "model": "claude-sonnet-5",
+      "date_coded": "2026-09-23"
+    }
+  }
+}

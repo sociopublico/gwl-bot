@@ -1,35 +1,12 @@
 # Auto-exportado desde roster UNGA para el monitor de alertas
 # nombre | país | cargo
-António Guterres | Secretary-General of the United Nations | Secretary-General
-Dr. Khalilur Rahman | President of the General Assembly (opening) | President of the General Assembly
-Luiz Inácio Lula Da Silva | Brazil | President
-Donald Trump | United States of America | President
-His Majesty Abdullah II ibn Al Hussein | Jordan | King
-Recep Tayyip Erdoğan | Türkiye | President
-Sadyr Zhaparov | Kyrgyzstan | President
-His Highness Sheikh Tamim bin Hamad Al Thani | Qatar | Amir
-Gitanas Nausėda | Lithuania | President
-Keiko Sofia Fujimori Higuchi | Peru | President
-José Antonio Kast | Chile | President
-Emmanuel Macron | France | President
-Alexander Stubb | Finland | President
-His Royal Highness Guillaume of Luxembourg | Luxembourg | Grand Duke
-João Manuel Gonçalves Lourenço | Angola | President
-Khurelsukh Ukhnaa | Mongolia | President
-Lee Jae Myung | Republic of Korea | President
-Jennifer Geerlings-Simons | Suriname | President
-Julius Maada Bio | Sierra Leone | President
-Denis Bećirović | Bosnia and Herzegovina | Chairman of the Presidency
-Sylvanie Burton | Dominica | President
-Guy Parmelin | Switzerland | President
-To Lam | Viet Nam | President
-Mathew Antonio Patrick Herminie | Seychelles | President
-Deogratius Ndejembi | United Republic of Tanzania | Vice-President
-Tshering Tobgay | Bhutan | Prime Minister
-Kamla Persad-Bissessar | Trinidad and Tobago | Prime Minister
-Takaichi Sanae | Japan | Prime Minister
-Andy Burnham | United Kingdom of Great Britain and Northern Ireland | Prime Minister
-Andrej Plenković | Croatia | Prime Minister
-David Ranibok Adeang | Naoero | President
-Maxime Prévot | Belgium | Deputy Prime Minister
-Nasser Bourita | Morocco | Minister of Foreign Affairs, African Cooperation and Moroccans Abroad
+Nasser Bourita | Syrian Arab Republic
+Masoud Pezeshkian | Iran (Islamic Republic of) | President
+Javier Gerardo Milei | Argentina | President
+Volodymyr Zelenskyy | Ukraine | President
+Karol Nawrocki | Poland | President
+William Samoei Ruto | Kenya | President
+Aleksandar Vučić | Serbia | President
+Mamadi Doumbouya | Guinea | President
+Jakov Milatović | Montenegro | President
+Delcy Eloína Rodríguez Gómez | Venezuela (Bolivarian Republic of) | Acting President

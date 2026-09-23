@@ -1,7 +1,7 @@
 {
   "session": 81,
   "day": "2026-09-22",
-  "scraped_at": "2026-09-23T01:16:37Z",
+  "scraped_at": "2026-09-23T02:41:04Z",
   "speakers": [
     {
       "slug": "secretary-general-united-nations",
@@ -707,15 +707,15 @@
         },
         "audio_en": {
           "label": "english",
-          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/ 81_KR_EN.mp3",
-          "filename": " 81_KR_EN.mp3",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_KR_EN.mp3",
+          "filename": "81_KR_EN.mp3",
           "lang": "en"
         },
         "pdf_other": null,
         "audio_floor": {
           "label": "original language",
-          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/ 81_KR_FL.mp3",
-          "filename": " 81_KR_FL.mp3",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_KR_FL.mp3",
+          "filename": "81_KR_FL.mp3",
           "lang": ""
         },
         "video": {
@@ -1024,6 +1024,46 @@
       "http_status": 200
     },
     {
+      "slug": "naoero",
+      "ficha_url": "https://gadebate.un.org/en/81/naoero",
+      "country": "Naoero",
+      "name": "David Ranibok Adeang",
+      "rank": "President",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-22",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/nr_en_0.pdf",
+          "filename": "nr_en_0.pdf",
+          "lang": ""
+        },
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81123/transcript/en/prepare-download",
+          "filename": "81-naoero-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/ 81_NR_EN.mp3",
+          "filename": " 81_NR_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_am6apfkd",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_am6apfkd/format/url/protocol/https",
+          "filename": "1_am6apfkd.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
       "slug": "united-republic-tanzania",
       "ficha_url": "https://gadebate.un.org/en/81/united-republic-tanzania",
       "country": "United Republic of Tanzania",
@@ -1159,7 +1199,12 @@
           "filename": "jp_en.pdf",
           "lang": ""
         },
-        "transcript_ai": null,
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81089/transcript/en/prepare-download",
+          "filename": "81-japan-en-transcript.txt",
+          "lang": "en"
+        },
         "audio_en": {
           "label": "english",
           "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_JP_EN.mp3",
@@ -1173,7 +1218,12 @@
           "filename": "81_JP_FL.mp3",
           "lang": ""
         },
-        "video": null
+        "video": {
+          "entry_id": "1_57fi0nh3",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_57fi0nh3/format/url/protocol/https",
+          "filename": "1_57fi0nh3.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -1186,10 +1236,15 @@
       "rank": "Prime Minister",
       "speaker_title": "His Excellency",
       "speech_date": "2026-09-22",
-      "chosen": "audio_en",
+      "chosen": "transcript_ai",
       "sources": {
         "pdf_en": null,
-        "transcript_ai": null,
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81191/transcript/en/prepare-download",
+          "filename": "81-united-kingdom-great-britain-and-northern-ireland-en-transcript.txt",
+          "lang": "en"
+        },
         "audio_en": {
           "label": "english",
           "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_GB_EN.mp3",
@@ -1203,7 +1258,12 @@
           "filename": "81_GB_FL.mp3",
           "lang": ""
         },
-        "video": null
+        "video": {
+          "entry_id": "1_yeykslch",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_yeykslch/format/url/protocol/https",
+          "filename": "1_yeykslch.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -1224,50 +1284,25 @@
           "filename": "hr_en.pdf",
           "lang": ""
         },
-        "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
-        "audio_floor": null,
-        "video": null
-      },
-      "error": null,
-      "http_status": 200
-    },
-    {
-      "slug": "naoero",
-      "ficha_url": "https://gadebate.un.org/en/81/naoero",
-      "country": "Naoero",
-      "name": "David Ranibok Adeang",
-      "rank": "President",
-      "speaker_title": "His Excellency",
-      "speech_date": "2026-09-22",
-      "chosen": "pdf_en",
-      "sources": {
-        "pdf_en": {
-          "label": "Statement in English",
-          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/nr_en_0.pdf",
-          "filename": "nr_en_0.pdf",
-          "lang": ""
-        },
         "transcript_ai": {
           "label": "transcript ai",
-          "url": "https://gadebate.un.org/en/node/81123/transcript/en/prepare-download",
-          "filename": "81-naoero-en-transcript.txt",
+          "url": "https://gadebate.un.org/en/node/81043/transcript/en/prepare-download",
+          "filename": "81-croatia-en-transcript.txt",
           "lang": "en"
         },
         "audio_en": {
           "label": "english",
-          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/ 81_NR_EN.mp3",
-          "filename": " 81_NR_EN.mp3",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_HR_EN.mp3",
+          "filename": "81_HR_EN.mp3",
           "lang": "en"
         },
         "pdf_other": null,
         "audio_floor": null,
         "video": {
-          "entry_id": "1_am6apfkd",
+          "entry_id": "1_0bo233fc",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_am6apfkd/format/url/protocol/https",
-          "filename": "1_am6apfkd.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_0bo233fc/format/url/protocol/https",
+          "filename": "1_0bo233fc.mp4"
         }
       },
       "error": null,
@@ -1289,8 +1324,18 @@
           "filename": "be_en.pdf",
           "lang": ""
         },
-        "transcript_ai": null,
-        "audio_en": null,
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81017/transcript/en/prepare-download",
+          "filename": "81-belgium-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_BE_EN.mp3",
+          "filename": "81_BE_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": {
           "label": "Statement in French",
           "url": "https://gadebate.un.org/sites/default/files/gastatements/81/be_fr.pdf",
@@ -1298,7 +1343,12 @@
           "lang": ""
         },
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_9apln1le",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_9apln1le/format/url/protocol/https",
+          "filename": "1_9apln1le.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -1311,14 +1361,24 @@
       "rank": "Minister of Foreign Affairs, African Cooperation and Moroccans Abroad",
       "speaker_title": "His Excellency",
       "speech_date": "2026-09-22",
-      "chosen": null,
+      "chosen": "transcript_ai",
       "sources": {
         "pdf_en": null,
-        "transcript_ai": null,
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81119/transcript/en/prepare-download",
+          "filename": "81-morocco-en-transcript.txt",
+          "lang": "en"
+        },
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_lfvf6vyu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_lfvf6vyu/format/url/protocol/https",
+          "filename": "1_lfvf6vyu.mp4"
+        }
       },
       "error": null,
       "http_status": 200

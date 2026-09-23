@@ -15,7 +15,6 @@ from __future__ import annotations
 
 import json
 import os
-import re
 import sys
 import urllib.error
 import urllib.request
@@ -23,6 +22,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
+from pipeline.claude import ClaudeError, parse_json_object as _parse_json_object
 from pipeline.config import PIPELINE_ROOT, SessionConfig
 from pipeline.env import load_dotenv
 from pipeline.models import ExtractedSpeech
@@ -45,7 +45,6 @@ DEFAULT_MODEL = "claude-haiku-4-5"
 DEFAULT_CACHE_TTL = "1h"
 STUB_MARKERS = ("TODO: pegar el prompt", "PEGAR_PROMPT")
 ANTHROPIC_URL = "https://api.anthropic.com/v1/messages"
-_JSON_FENCE = re.compile(r"```(?:json)?\s*([\s\S]*?)```", re.I)
 
 SYSTEM_ROLE = (
     "Sos un analista de discursos de la Asamblea General. "
@@ -148,23 +147,10 @@ def load_prompt(path: Path | None = None) -> str:
 
 
 def parse_json_object(raw: str) -> dict:
-    text = (raw or "").strip()
-    if not text:
-        raise AnalyzeError("Claude devolvió texto vacío")
-    fenced = _JSON_FENCE.search(text)
-    if fenced:
-        text = fenced.group(1).strip()
-    start = text.find("{")
-    end = text.rfind("}")
-    if start < 0 or end <= start:
-        raise AnalyzeError(f"no hay JSON en la respuesta: {text[:200]!r}")
     try:
-        data = json.loads(text[start : end + 1])
-    except json.JSONDecodeError as exc:
-        raise AnalyzeError(f"JSON inválido: {exc}") from exc
-    if not isinstance(data, dict):
-        raise AnalyzeError("Claude no devolvió un objeto JSON")
-    return data
+        return _parse_json_object(raw)
+    except ClaudeError as exc:
+        raise AnalyzeError(str(exc)) from exc
 
 
 def _ficha_url(speech: ExtractedSpeech) -> str:
