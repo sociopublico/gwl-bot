@@ -1,0 +1,167 @@
+---
+session: 81
+slug: angola
+id_speech: M_15
+country: Angola
+speaker: João Manuel Gonçalves Lourenço
+title: President
+speaker_title: His Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/ao_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.813
+---
+
+Your Excellencies, Heads of State and Government,
+
+Distinguished Delegates,
+
+Ladies and Gentlemen,
+
+Allow me to congratulate His Excellency Khalilur Rahman on his election as President of the Eighty -first Session of the United Nations General Assembly, in the hope that, with his vast experience and profound knowledge of our international organization, he will render valuable service to the United Nations, which faces complex challenges that must be overcome in order to resume its central role in addressing the major issues of contemporary international relations.
+
+I also congratulate Ms. Annalena Baerbock, who preceded you in the discharge of these noble duties and spared no effort, during the term she carried out with undeniable competence, to preserve the role of the United Nations in addressing the issues that most concern the international community today.
+
+I would also like to congratulate His Excellency the Secretary-General, António Guterres, who has been working tirelessly and devoting himself with persistent dedication to the great global causes, building bridges for dialogue in the search for peaceful solutions to the problems facing humanity today.
+
+We highlight his exemplary contribution as a man of dialogue, an advocate of the United Nations Charter and of International Law, a tireless advocate of the need to protect the planet from the harmful effects of climate change, and a champion of the global debate on the global governance of artificial intelligence.
+
+Mr. President,
+
+Excellencies,
+
+The United Nations General Assembly is always held in the month of September; this year's session, however, takes place 25 years after the terrorist act that destroyed the twin towers in New York and struck other targets on American territory, causing thousands of civilian deaths and injuries, some of whom continue to bear physical and emotional scars to this day.
+
+I take this opportunity once again to condemn terrorism in all its forms, wherever it occurs. In addition to terrorism, which remains active in some countries, particularly in Africa, the situation of global peace and security has been worsening year after year, bringing us to the present moment, in which we note with deep concern that the world has taken a course that brings it alarmingly close to a global conflict.
+
+Over the years, Angola has sought to make its contribution to the building and consolidation of peace in Africa and in the world, but the current situation in no way reflects the aspirations of peoples for harmony and understanding among nations.
+
+Among these contributions to peace are several initiatives undertaken in Africa, of which I highlight the “ 21st Extraordinary Conference of the African Union on Strengthening Conflict Prevention and Resolution Mechanisms in Africa”, recently held in Luanda, which opened a serious and sound prospect for resolving the problems affecting peace and stability on the African continent.
+
+Also deserving particular attention is the holding, in July of this year in Luanda, in partnership with the United Nations Alliance of Civilizations, of the Third Edition of the “Initiative Call for Peace, an End to Wars and Respect for International Law”.
+
+In this same context, Angola will host next October the “Pan-African Forum for the Culture of Peace and Non Violence, Luanda Biennale”.
+
+My country takes seriously our commitment to matters concerning peace, the conflicts resolution through dialogue, respect for the norms governing international relations and the defence of International Law, sparing no effort to bringing the conflicting parties closer together and build consensus in Africa.
+
+We remain available to render our attention and contribution to resolving the conflicts that persist on the continent.
+
+Our paradigm for peacebuilding initiatives is based on the search for realistic and sustainable solutions, within the principle of African solutions to conflicts in Africa.
+
+We call for the eff ective implementation of Security Council Resolution 2719, which must ensure predictable, adequate and sustainable financing for African Union -led peace support operations authorized by the United Nations Security Council, because investing in Africa’s capacity to prevent and resolve conflicts is also an investment in international peace and security.
+
+Excellencies,
+
+Ladies and Gentlemen,
+
+This session of the General Assembly is of particular significance to my country, as it is taking place in the year in which we celebrate the fiftieth anniversary of the Republic of Angola’s admission as a full member of the United Nations Organization, in December 1976.
+
+At that time, it was a historic achievement for the Angolan people, who waited more than twelve months from the date of the proclamation of their National Independence for the country to be accepted as a full -fledged member of the international community.
+
+That event, of great significance for the history of my country, took place in a global context in which Angola became a victim of confrontation between the world powers, in the struggle for control of spheres of influence within the spirit of the Cold War.
+
+Our entire journey towards the attainment of peace in 2002 was closely linked to the disputes of that period, which hampered the fulfilment of the dreams of Angolans and their plans to build a prosperous nation committed to its development.
+
+These facts belong to the past, but they have left us with a wealth of experience and lessons that we have drawn upon to build peace, understanding and reconciliation among all Angolans and to chart the course of our foreign policy.
+
+Peace and national reconciliation is now a reality, as shown demonstrated through concrete gestures, including the holding of award ceremonies honouring the main political leaders of the national liberation struggle and representative members of all segments of civil society, within the framework of the 50 th anniversary of National Independence.
+
+Still within this framework, a monument in memory of all victims of the political conflicts that occurred in Angola, from the proclamation of National Independence until the achievement of peace in April 2002, will be inaugurated next October in Luanda.
+
+Mr. President,
+
+Excellencies,
+
+In our time, we are witnessing a downgrading and violation of the rules governing international relations, with the logic of force, intimidation and the imposition of values stemming from the unilateral vision of certain countries prevailing in the defence of their exclusive interests.
+
+Instability being experienced in various regions of our planet is a direct consequence of this stance, as it can be seen in the conflicts currently unfolding in Europe, the Middle East, the Persian Gulf and Africa, while tension is mounting in the Asia-Pacific region.
+
+From what we have observed, we do not discern encouraging signs regarding the likelihood of reaching any peace agreement in the near future in the wars between Russia and Ukraine, in the Israeli-Palestinian conflict in the Middle East and in the Persian Gulf.
+
+We condemn the genocide against defenceless populations, the elderly, women, children, bedridden patients, health professionals, journalists and workers of international humanitarian organizations, who are often deprived of access to the most basic human rights and to essential goods for life, such as water, food and medicines.
+
+The expulsion of the Palestinians from their homes and lands through the expansion of Jewish settlements in the West Bank must elicit the strongest international outrage and condemnation.
+
+Attempts to dominate entire countries and regions of the globe by force of arms are leading the world towards catastrophe.
+
+The food security, energy and humanitarian situation of countries and of the world in general has deteriorated considerably following the outbreak of the wars against Ukraine and, more recently, against Iran.
+
+The toll of the wars is disastrous, judging by the consequences arising from the strangulation of freedom of maritime navigation through the Strait of Hormuz and Bab al-Mandab, a situation that has created a serious risk of disruption to logistics supply chains in general, and to food and energy supply chains in particular, with devastating effects on the most vulnerable countries.
+
+Today, we live in an environment of global anarchy in which the use of force prevails over the force of reason and of law, in blatant opposition to the norms governing international relations.
+
+In view of this, there is every need for profound reflection within the United Nations, the only institution on the planet with legitimacy and which brings together all the nations of the world, in order to find the best solutions for achieving global peace.
+
+Our appeal is for us to act with wisdom and courage to restore the central role of the United Nations in its responsibility and irreplaceable mission in maintaining world peace.
+
+Ladies and Gentlemen We are concerned by the unjust manner, indicative of great human insensitivity, in which Cuba has been treated over decades, as a victim of an embargo that continues and worsens the living conditions of the Cuban people.
+
+Cuba is not a terrorist State; it neither produces nor possesses nuclear weapons, chemical or bacteriological weapons that could constitute an imminent or real threat to the national security of other countries, including neighbouring countries.
+
+On the contrary, Cuba contributed to the fall of South Africa’s racist and segregationist apartheid regime, a regime broadly and unanimously condemned by the international community and consequently became one of the signatories to the Quadripartite Agreements of New York of 22 December 1988.
+
+As the embargo is chiefly responsible for the calamitous situation in which Cuba and the Cuban people find themselves, and since it is inhumane, unfair and violates all the principles and norms of International Law, we once again call for an end to the embargo against Cuba.
+
+Ladies and Gentlemen,
+
+Today, we are witnessing the direct involvement of certain permanent members of the United Nations Security Council in the bloodiest and most destructive conflicts of our time in Europe and the Persian Gulf, which is a cause for concern and a bad example for the rest of the world.
+
+Those countries rendered a great service when they freed humanity from the horrors of Nazism, fascism and the Holocaust, and should therefore preserve that capital and legacy as liberators.
+
+At a time when good governance of countries is widely advocated, the governance of the world likewise calls for a new, more democratic and just world order, one that is not based solely on the power of the restricted club of victors of a war that took place eight decades ago.
+
+Since then, the World has come to know a different reality: new countries have emerged, which at the time were colonies and which today are strong economies with significant advances in science and technology.
+
+It is therefore becoming increasingly pressing and urgent to undertake a profound reform of the United Nations Security Council, in which Africa, Latin America and Asia should be adequately represented as permanent members with all the powers inherent therein.
+
+In this context, the Republic of Angola reaffirms its full support for the common African position enshrined in the Ezulwini Consensus and the Sirte Declaration.
+
+The voice of Africans must be heard in all circumstances, at all times, in strategic decision -making processes on issues of peace, global security, financing for development, as well as climate issues and the global governance of artificial intelligence.
+
+Mr. President,
+
+Excellencies,
+
+Peace and development are inseparable, which compels us to consider strategies that can help accelerate the implementation of the 2030 Agenda.
+
+The important decisions adopted under the Pact for the Future and the Seville Commitment can help advance development programmes in Africa.
+
+However, in order to achieve concrete results in this area, it is essential to ensure affordable financing, debt relief, technology transfer, capacity -building and greater participation in international financial institutions.
+
+African countries spend far more resources on the exorbitant costs of debt servicing than they are able to invest in health, education and infrastructure development programmes.
+
+This situation obviously limits productive investment, deepens inequalities and economic disparities, and threatens economic and social stability.
+
+In view of this, it is imperative to correct these distortions, and I therefore reiterate the call for the immediate reform of the international financial architecture, in order to make it fairer, more equitable, democratic and geared towards the progress and well-being of humankind.
+
+These challenges are inherently complex and are further exacerbated by climate change, which has a severe impact on Africa, with severe and prolonged droughts, floods, desertification, food insecurity and population displacement.
+
+This situation clearly illustrates the need to establish predictable, affordable and additional climate financing, without further aggravating the debt of developing countries.
+
+Today, peoples and nations have an opportunity to make a qualitative leap in their overall living conditions, through fair mechanisms to support development and the tools that artificial intelligence provides to improve education, health, agriculture, public services, scientific research and economic productivity.
+
+In this regard, I consider that the Global Digital Compact opens new prospects for cooperation to bridge the digital divide, expand digital public infrastructure, promote training and innovation, strengthen cybersecurity and build more inclusive, secure and human -centred governance of artificial intelligence.
+
+To that end, I believe there is a need to strengthen North South, South-South and triangular cooperation, in order to make the digital revolution an instrument of inclusion, sovereignty and development, rather than a source of dependence and inequality.
+
+Excellencies,
+
+We are drawing close to the end of the tenure of the current Secretary-General and the appointment of the next one, an act of great importance, given that the person chosen must possess the qualities of independence, integrity, competence and courage to build consensus, uphold the Charter, promote conflict prevention, lead the necessary reforms and seek solutions to address the Organization’s financial crisis.
+
+The Republic of Angola reaffirms its commitment to the United Nations, convinced that only at the level of this institution will it be possible to safeguard the achievements of recent decades in respect for International Law.
+
+Only within the framework of the United Nations can we make progress in seeking peaceful solutions to the conflicts ravaging the world, within a framework in which multilateralism serves as the mechanism for bringing together ideas, political will and initiatives conducive to global peace.
+
+We, political leaders and rulers of today, will be judged in the future by our ability to replace confrontation with dialogue, predatory competition with cooperation, exclusion with solidarity and the force of arms with the force of law.
+
+Only in this way will we build a more just, peaceful and inclusive international order, capable of ensuring progress and well-being of humankind, leaving no one behind.
+
+No weapon is more powerful than diplomacy, since all others are used only to destroy lives, infrastructure, dreams and life plans, whereas diplomacy is the only weapon that exists to unite, repair, build and save lives, peoples, nations and humanity.
+
+For this reason, the United Nations Organization must equip itself with the appropriate tools and means to fulfil the theme of this 81 st session of its General Assembly, namely, “Restoring Trust, Managing Transformation and Empowering It to Become an Organization That Delivers for All”.
+
+Thank you very much for your attention.

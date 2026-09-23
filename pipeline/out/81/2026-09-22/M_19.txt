@@ -1,0 +1,247 @@
+---
+session: 81
+slug: sierra-leone
+id_speech: M_19
+country: Sierra Leone
+speaker: Julius Maada Bio
+title: President
+speaker_title: His Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/sl_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.942
+---
+
+1. I congratulate His Excellency Khalilur Rahman on his election as President of the eighty-first session of the General Assembly.
+
+2. President Rahman assumes this responsibility at a moment that demands principled and steady leadership, and he has Sierra Leone’s full support.
+
+3. I pay tribute to His Excellency Secretary-General António Guterres, who is in the closing months of his mandate.
+
+4. He has served this Organisation with steadfastness, moral clarity and the courage to speak difficult truths.
+
+5. I also commend Her Excellency Amina Mohammed, the Deputy Secretary-General, for her exemplary service and distinguished representation of Africa on the global stage.
+
+MR PRESIDENT,
+
+6. Nearly twenty-five years ago, Sierra Leone completed disarmament and formally declared its civil war over.
+
+7. The formal declaration matters, but peace became real in more practical ways: in the families that returned home, in the communities that learned to live together again, in the citizens who chose the ballot and in institutions that slowly earned back confidence.
+
+8. The United Nations stood with us through disarmament, elections and the long work of peacebuilding.
+
+9. We know what international cooperation can make possible because we have lived it.
+
+10. That experience taught us that trust cannot be commanded by declaration.
+
+11. Trust grows when promises are honoured, when the law protects everyone, when institutions serve their people, and when citizens can see a future for themselves.
+
+12. Sierra Leone brings that lesson to this Assembly at a time when trust between nations, in institutions and in multilateral cooperation is under profound strain.
+
+MR PRESIDENT,
+
+13. In this year’s theme, “Restoring Trust, Managing Transformation:
+
+A United Nations That Delivers FOR ALL,” the words “FOR ALL” carry its defining moral weight.
+
+14. The words “FOR ALL” ask not only whether the United Nations can act, but also whom its actions reach, whose voices shape them, and whose dignity they protect.
+
+15. An institution may act quickly and still fail those it was meant to serve.
+
+16. Delivery worthy of the UN Charter must reach those furthest from power and recognise the equal worth of every nation and every human life.
+
+17. That is the standard by which the world will judge us.
+
+MR PRESIDENT,
+
+18. That standard begins with TRUST. Trust is the currency of multilateralism.
+
+19. Trust is gained when the law protects the vulnerable as firmly as it restrains the powerful.
+
+20. International law must not change with geography or bend according to the identity of the accused.
+
+21. In the Middle East, the UN Charter and international law must guide us. Civilians must be protected, humanitarian access ensured, aggression and occupation ended, and freedom of navigation safeguarded.
+
+22. The inalienable right of the Palestinian people to selfdetermination must be realised through a viable State of Palestine living alongside the State of Israel in peace and security.
+
+23. That same commitment to peace requires progress on nuclear disarmament and non-proliferation through diplomacy.
+
+24. In Sudan, civilians continue to endure atrocities and displacement, underscoring the cost of delayed action.
+
+25. Sierra Leone calls for their protection, unhindered humanitarian access, accountability, and a Sudanese-led political process that safeguards the country’s sovereignty, unity and territorial integrity.
+
+26. In the eastern Democratic Republic of the Congo, agreements have not yet silenced the guns or allowed millions to return home.
+
+27. Across West Africa and the Sahel, terrorism feeds on poverty, exclusion, unemployment and weak institutions.
+
+28. These conflicts differ in origin and circumstance, but they carry a common warning.
+
+29. Military action may contain a threat, but it cannot, by itself, build lasting peace.
+
+30. When hunger, exclusion and despair deepen, insecurity takes root.
+
+31. The connection between peace and development must therefore move from our resolutions into our budgets.
+
+32. In 2025, global military expenditure reached almost 2.9 trillion United States dollars, the eleventh consecutive annual increase.
+
+33. Nations have legitimate security needs, but the speed with which the world finds resources for war, compared with prevention and development, reveals a grave disorder in our priorities.
+
+MR PRESIDENT,
+
+34. The credibility of international law also depends on who has a voice in applying it.
+
+35. That credibility weakens when the institutions entrusted with the law preserve an unequal distribution of power.
+
+36. The Security Council still reflects the world of 1945. Africa, home to more than 1.6 billion people and the subject of much of the Council's work, still has no Permanent Seat.
+
+37. Africa seeks its rightful place because the Council cannot be fully legitimate or effective while an entire continent remains permanently absent from its highest level of decision-making.
+
+38. No durable global solution on peace, climate, food, energy or technology can be built without African leadership.
+
+39. The Common African Position, espoused in the Ezulwini Consensus and Sirte Declaration, calls for no fewer than two Permanent Seats, with all the rights and privileges of permanent membership, including the veto if it is retained, and five NonPermanent Seats.
+
+40. As Coordinator of the African Union Committee of Ten, Sierra Leone will continue to advance that position.
+
+41. Years of Intergovernmental Negotiations without realising the reform have tested the credibility of the process.
+
+42. Before this session concludes, Member States should have a consolidated model, which we committed to in the Pact for the Future.
+
+43. Sierra Leone speaks with the authority of service. During our term on the Security Council in 2024 and 2025, we worked as a voice of reason and a bridge across division.
+
+44. We convened the Security Council’s first high-level debate on redressing the historical injustice against Africa, placed conflict-related food insecurity at the centre of its agenda and, with Guyana, co-drafted the unanimously adopted Resolution 2807 on Youth, Peace and Security, strengthening young people’s role in conflict prevention and peacebuilding.
+
+MR PRESIDENT,
+
+45. Representation becomes meaningful when it changes decisions and improves lives.
+
+46. The imbalance within the Security Council is also present in International Financial Institutions, whose structures still bear the imprint of an earlier age.
+
+47. Developing countries need fairer voting power, stronger representation and increased capital within these institutions, together with affordable finance, concessional resources and fairer debt treatment.
+
+48. They must also participate equally in shaping the rules of international taxation. Sierra Leone therefore supports a UN Framework Convention on International Tax Cooperation.
+
+49. Through ECOSOC, Sierra Leone will champion a development system that responds more effectively to Africa’s priorities.
+
+MR PRESIDENT,
+
+50. Restoring trust and delivering for all must also embrace the unfinished cause of reparatory justice.
+
+51. In March, this Assembly adopted a resolution led by Ghana and supported by the African Union and the Caribbean Community, recognising the trafficking and racialised chattel enslavement of Africans as the gravest crime against humanity.
+
+52. For Sierra Leone, this history is neither abstract nor distant.
+
+53. From Bunce Island, in our own river estuary, thousands of Africans were forcibly transported across the Atlantic into enslavement.
+
+54. Freetown, our capital, would later become a home for formerly enslaved and liberated Africans. This history is woven into our nation's identity.
+
+55. However, the consequences did not end with abolition. Their legacy continues to be reflected in enduring disparities in wealth, power and opportunity across our world.
+
+56. Reparatory justice is therefore not a plea for charity. It calls for acknowledgement, formal apology, the return of cultural heritage, fair redress and guarantees of non-repetition.
+
+57. Sierra Leone stands with Africa, the Caribbean and the wider African diaspora in advancing this cause, not to remain captive to the past, but to build a more just and equitable future.
+
+MR PRESIDENT,
+
+58. The same principle of fairness applies to Africa's critical minerals.
+
+59. Critical minerals are indispensable to the global energy transition, yet too much value is still added elsewhere.
+
+60. Processing at source, fair value chains, technology transfer and local industry would turn natural wealth into skilled work, stronger economies and hope for our young people.
+
+61. The green transition must not reproduce the extractive terms of the past.
+
+62. For the youth, this is immediate. A young person without work, opportunity or a stake in the future becomes vulnerable to the recruiter, the smuggler and the dangerous journey across the Mediterranean.
+
+63. Jobs, skills and dignity are therefore part of any serious policy for peace and development.
+
+MR PRESIDENT,
+
+64. Sierra Leone does not ask of the world what it does not demand of itself. We carry these same principles into our work at home.
+
+65. Through Feed Salone, we are increasing domestic food production and strengthening food security.
+
+66. Through Free Quality School Education, we are widening the path from the circumstances of a child's birth to the possibilities of that child's future.
+
+67. In 2024, we enacted the Prohibition of Child Marriage Act and subsequently championed the proclamation of 27 November as the International Day for the Elimination of Child, Early and Forced Marriage.
+
+68. A girl in Sierra Leone is no more or less precious than a girl anywhere else. Protecting her childhood, education and freedom is part of what development means.
+
+MR PRESIDENT,
+
+69. A girl’s future, like the future of every young person, will be shaped by forces already remaking our world: climate change, artificial intelligence and the energy transition.
+
+70. The meaning of ‘FOR ALL’ becomes more urgent as we decide how these transformations will be governed.
+
+71. Artificial Intelligence can improve education, healthcare, agriculture and public administration.
+
+72. It can also widen inequality if infrastructure, knowledge and rule-making remain concentrated in a few countries.
+
+73. Developing nations must help shape the standards that will govern technologies affecting their people.
+
+74. Climate Change presents the same moral question in harsher form: who benefits, who decides, and who pays?
+
+75. In Shenge, on Sierra Leone's southern coast, families watch the sea take land, fishing grounds and the graves of their ancestors.
+
+76. For them, climate change is the disappearance of home in the present.
+
+77. Those who contributed least to the climate crisis are bearing some of its greatest costs.
+
+78. Accessible and predictable climate finance, support for adaptation, and effective arrangements for loss and damage are obligations of justice.
+
+79. They are also investments in global stability.
+
+80. Fairness in transformation depends on the institutions that govern it.
+
+81. Sierra Leone therefore supports the UN80 Initiative and wider reforms that make this Organisation more effective, accountable and responsive.
+
+82. Efficiency matters and reform must preserve the capacity to act.
+
+MR PRESIDENT,
+
+83. The choice of the next Secretary-General offers another test of institutional effectiveness and equality.
+
+84. In eighty years, every Secretary-General has been a man.
+
+85. The women put forward for this office have placed their competence beyond dispute.
+
+86. What remains is the will of this Organisation to live by the equality it asks of others and entrust a woman with its highest office.
+
+MR PRESIDENT,
+
+87. Our insistence on a capable United Nations comes from experience.
+
+88. For Sierra Leone, this Organisation is part of our living history. It stood with us when our country was broken and helped us make peace durable.
+
+89. In this Hall, a Small State has the same vote as a great power.
+
+Imperfect as it is, that equality remains one of humanity’s boldest promises.
+
+90. Sierra Leone will continue to contribute personnel to United Nations peace operations, uphold international law, support mediation and peacebuilding, defend the rights of women and girls, and serve as a bridge wherever Member States seek one.
+
+91. We will also continue to support the institutions of international justice.
+
+92. In this regard, Sierra Leone has nominated Professor Charles Chernor Jalloh, a distinguished international jurist, endorsed by the African Union and ECOWAS, for election as a Judge of the International Court of Justice.
+
+93. We respectfully seek Member States' support on 3 November.
+
+MR PRESIDENT,
+
+94. The United Nations was created in a world of unequal power, yet it rests on a radical idea: nations differ in size and strength, but their peoples do not differ in human worth.
+
+95. A United Nations that delivers ‘FOR ALL’ makes that equality felt beyond this Hall.
+
+96. Nearly twenty-five years ago, Sierra Leoneans placed their trust in peace because they believed tomorrow could be different.
+
+97. People around the world are asking something similar of us now.
+
+98. They need reason to believe that cooperation still works, that law still matters, and that promises made here will be honoured in their lives.
+
+99. Let this session give them that reason.
+
+100. The words 'FOR ALL' should not remain at the end of this year’s theme. They must become the measure of our work.
+
+I THANK YOU.

@@ -1,0 +1,229 @@
+---
+session: 81
+slug: dominica
+id_speech: M_21
+country: Dominica
+speaker: Sylvanie Burton
+title: President
+speaker_title: Her Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/dm_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.630
+---
+
+Mister President Excellencies,
+
+Distinguished Delegates,
+
+Mabrika, good afternoon.
+
+I bring greetings to this Assembly from the People and Government of the Commonwealth of Dominica. I congratulate you, Mr. President, on your election and on the theme chosen for this eighty -first session of the General Assembly: “Restoring Trust, Managing Transformation: A United Nations That Delivers For All.”
+
+This theme speaks directly to the defining challenges of our time.
+
+We are living through an age of profound transformation. Technology is changing how we work, communicate and understand the world. Climate change is reshaping economies, communities and entire ecosystems.
+
+09/21/2026 Final Statement Conflicts are destroying lives and displacing families. Economic uncertainty is deepening inequality, while progress towards achieving the Sustainable Development Goals has stalled.
+
+These challenges are not unfolding in isolation. They are interconnected, global in scale and beyond the capacity of any one nation to address alone.
+
+They demand stronger cooperation and renewed confidence in multilateralism.
+
+Yet, Excellencies, at the very moment when collective action is most urgently needed, this Organization stands at a crossroads.
+
+The question before us, therefore, is whether we possess the courage, solidarity and political will to shape that change and guide our world towards peace, justice and shared prosperity.
+
+09/21/2026 Final Statement The UN already Delivers for All.
+
+I strongly believe that most right -thinking individuals would agree that the UN System has substantially delivered for all countries over the several decades of its existence.
+
+For more than eighty years, this organization has embodied humanity’s highest collective aspiration, that countries, large and small, rich and poor, can work together to prevent conflict, protect human dignity and improve the lives of their people.
+
+The United Nations provides shelter and protection to people enduring conflict, displacement and natural disaster. It supports education, healthcare, peacekeeping, elections and development in communities that might otherwise be forgotten.
+
+These achievements matter and must never be dismissed or diminished.
+
+What the United Nations does not currently do enough, is deliver at the transformative level.
+
+09/21/2026 Final Statement Too often, humanity, and the institutions we have created to serve us, have had to concentrate on managing one crisis after another, without giving enough attention to the conditions that allow them to persist.
+
+Excellencies, there is no question that managing crises is necessary. It brings relief, restores hope and saves lives. But we cannot stop there. Our responsibility must also be to address the root causes of these problems and build systems that are fairer, stronger and better able to serve our people.
+
+The true test of this Organization, therefore, is not only how well we respond after people have suffered. It is also whether we can work together to prevent that suffering in the first place.
+
+This is not to dismiss what has already been achieved. It is a call for us to build on that progress, strengthen our cooperation, and deliver the meaningful change that our people expect from us.
+
+09/21/2026 Final Statement A fundamental question that one must ask is “ Can the international system still deliver?”
+
+For Dominica, this is not an abstract question. When a hurricane destroys our infrastructure, when international energy prices rise, when access to capital becomes more expensive, when global markets change or when climate finance remains beyond our reach, the consequences are felt immediately - in our homes, in our businesses, in our schools and hospitals, and in the very lives of our people.
+
+Yet, Mr. President, I do not come before this Assembly to speak only of vulnerability. I wish to speak of transformation and resilience.
+
+Dominica has made a choice. We have chosen not only to rebuild after disaster, but to build differently, build better, buil d stronger. We have chosen not only to adapt to climate change, but to demonstrate what a climate-resilient economy and country can look like. And we have chosen to move from dependence to greater self-reliance.
+
+09/21/2026 Final Statement Mr. President,
+
+In 2017, Category Five Hurricane Maria demonstrated with devastating force the vulnerability of small island states like Dominica. The economic and human consequences were enormous.
+
+Hurricane Maria however, also taught us an important lesson: Resilience should n ever begin after the disaster. Resilience must begin before disaster.
+
+The international community must therefore move from a model that primarily finances reconstruction after catastrophe, to one that invests systematically in resilience before disaster strikes.
+
+For Dominica, this means resilient roads and bridges, resilient buildings, reliable communications, modern water systems, strengthened health infrastructure and disaster-ready communities.
+
+09/21/2026 Final Statement But resilience is not only physical. A resilient country must have resilient institutions. It must have resilient public finances. It must have resilient energy systems and must have resilient food systems.
+
+Above all, a resilient nation must have people who possess the skills and confidence to withstand shocks and move forward.
+
+That is the Dominica that we are building.
+
+Excellencies,
+
+Dominica has begun the transition from imported fossil fuels to renewable energy. Our geothermal power plant is now in commercial operation, and increasing the renewable share of our electricity generation to approximately 84 percent. We are well on our way to achieving 100% renewable energy by 2030.
+
+09/21/2026 Final Statement This is more than an energy project. It is economic transformation. It demonstrates that small states can lead in the transition to clean energy.
+
+Every barrel of oil that we no longer need to import, strengthens our resilience to international price shocks. Every unit of clean electricity we produce strengthens our energy security.
+
+Affordable, reliable renewable energy can become a foundation for new industries, new investment, new employment and greater competitiveness.
+
+The lesson is important beyond Dominica. We need international finance that recognises the transformative nature of renewable energy investment in vulnerable countries.
+
+We need financing mechanisms that allow countries such as Dominica to move faster. And we need partnerships that allow the energy transition to become an engine of economic development and growth.
+
+09/21/2026 Final Statement Our ambition is not merely to generate clean electricity. Our ambition is to use clean energy to transform our economy.
+
+Finance Must Change Mister President,
+
+The international community has become very good at recognising vulnerability. We have become less successful at financing the transformation that vulnerability requires.
+
+Too often, the cycle is predictable: A disaster occurs. Infrastructure is destroyed and economic activity collapses. We then mobilise resources to rebuild what was lost, often through borrowing that substantially increases debt to rebuild what we could have made more resilient from the outset. This is not an efficient financial model.
+
+The best time to build resilience is before disaster. The best time to finance transformation is before crisis. And the value of resilience should be 09/21/2026 Final Statement measured not only by what we build, but by what we prevent from being destroyed.
+
+Mister President,
+
+Dominica does not come to the United Nations asking to be treated as a victim of vulnerability. We come asking to be recognised as a partner in transformation. We must finance potential - not merely manage vulnerability.
+
+And this is not only about Dominica. It is about whether the global financial system is capable of recognising a different development model.
+
+A model in which resilience is an investment. Nature is an asset.
+
+Connectivity is productive infrastructure. Clean energy is economic opportunity. And prevention is financially smarter than reconstruction.
+
+That is the proposition we place before this Assembly. It is time that the international financial architecture evolves. Dominica joins its voice with those countries that continue to advocate for the use of multidimensional 09/21/2026 Final Statement vulnerability as a practical and fair basis in determining access to development finance.
+
+We call for greater and easier access to concessional financing and grants for adaptation.
+
+We call for stronger disaster clauses in sovereign debt instruments.
+
+We call for financing mechanisms that can be activated rapidly when disasters strike.
+
+And we call for a fundamental shift in the way the international community views investment in resilience.
+
+Every dollar spent preventing the destruction of a road, a hospital, a school or a water system is an investment in future development. Dominica is prepared to serve as a demonstration country for this approach.
+
+09/21/2026 Final Statement We are prepared to work with international partners to show what happens when finance is designed around transformation rather than vulnerability.
+
+Mister President,
+
+Dominica has long spoken of becoming the world's first climate-resilient nation. Today, I wish to take that ambition further. We invite the international community to partner with us in making Dominica a living laboratory for climate resilience and sustainable development.
+
+Bring us the technology; Bring us the research; Bring us the investment; Bring us the innovation.
+
+And together, let us demonstrate what a resilient small island economy can look like. Resilient housing; Smart and renewable energy systems; Climate-smart agriculture; Modern water management; Digital public services; Resilient infrastructure; Nature -based adaptation; And new industries powered by clean energy.
+
+09/21/2026 Final Statement This should not be a relationship based simply on donor and recipient. It should be a relationship based on partnership, innovation and shared learning. Dominica has lessons to learn from the world. But we also have lessons to offer the world.
+
+Transformation Must Create Opportunity Mister President,
+
+Transformation is ultimately about people. A resilient economy must create opportunity for young people. Young people want to inherit a country that is not merely protected from disasters, but one in which they can build businesses, work in new industries, participate in the global economy, and build meaningful lives at home.
+
+That is why our investments in energy, connectivity, digital transformation, tourism, agriculture and resilience must ultimately converge around one objective: creating opportunity.
+
+The Wider Challenge to Multilateralism 09/21/2026 Final Statement Excellencies,
+
+The challenges before us extend beyond climate and finance. We meet at a time when war continues to devastate communities and ruin lives. When humanitarian crises are multiplying. When international law is under pressure. When trust between nations is strained.
+
+We cannot speak about development without speaking about peace.
+
+Without peace, development is tenuous.
+
+We believe in the principles of the United Nations Charter. We believe in respecting the sovereignty and territorial integrity of states. We believe in the peaceful settlement of international disputes. We believe in dialogue.
+
+And we believe that internati onal law must apply equally to all nations, and must be applied consistently.
+
+09/21/2026 Final Statement Small states must never become collateral damage in the competition among larger powers. The security of a small nation is no less important than the security of a large one.
+
+The credibility of multilateralism depends on fairness. But it also depends on delivery.
+
+The true test of multilateralism is not whether we can agree in this room.
+
+It is whether our agreements can transform lives outside this room.
+
+Restoring Trust That is why I welcome the central challenge of this 81st General Assembly, “restoring trust”.
+
+Excellencies,
+
+The world does not need another generation of promises that remain unfulfilled. It needs delivery. It needs institutions that respond faster. It 09/21/2026 Final Statement needs financing that reaches vulnerable countries more efficiently. It needs partnerships that produce measurable results. And it needs a multilateral system that people can believe in again.
+
+For Dominica, restoring trust means closing the gap between international commitments and the lived experience of our people.
+
+It means ensuring that when the world says it supports climate resilience, resources actually reach the communities that need them.
+
+It means ensuring that when we call for sustainable development, financing mechanisms do not make sustainability harder to achieve.
+
+And it means recognising that the challenges confronting small island states are not marginal issues. They are an early warning of the challenges that the wider world will increasingly face.
+
+09/21/2026 Final Statement The United Nations must remain a place where every country - large or small - can believe that its voice matters. But the United Nations must also remain a place where ambition can become action.
+
+Mister President,
+
+We must also confront the serious challenges facing the Sustainable Development Goals.
+
+The SDGs represented a promise that, by 2030, we would make meaningful progress in ending poverty and hunger, improving health and education, advancing equality, protecting our planet and building more peaceful and inclusive societies.
+
+Today, that promise is at risk. Conflict, climate change, debt distress, inflation and persistent inequality have pushed the Goals further out of reach for many developing countries.
+
+09/21/2026 Final Statement But this is not the time to abandon the 2030 Agenda. It is the time to renew our commitment and concentrate on delivering results that people can see and feel in their daily lives.
+
+For Dominica, we have incorporated the SDG’s as priorities in our National Resilience Development Strategy 2030, our Climate Resilience and Recovery Plan and our wider development agenda.
+
+We see sustainable development in the homes we have built for vulnerable families; in our investment in geothermal energy as cleaner, more affordable and reliable energy.
+
+We see it in our efforts to strengthen education, expand technical and vocational training and better prepare our young people for the world of work. We see it in our support for farmers, entrepreneurs, agro-processors and tourism operators who are creatin g jobs and building stronger local industries.
+
+09/21/2026 Final Statement We also see it in our work to protect our forests, marine resources and natural environment. For Dominica, these resources are part of our identity, but they are also essential to our food security, our tourism product and the livelihoods of our people.
+
+Excellencies,
+
+The challenges before us cannot be overcome by any one country acting alone. They require a strong and effective United Nations, renewed international cooperation and a firm commitment to multilateralism.
+
+We need a United Nations that does more than respond to crises after lives have been lost and communities destroyed. We need an Organization that works with determination to prevent conflict, advance sustainable development, confront injustice and protect those who are most vulnerable.
+
+We need a system in which every country, regardless of its size, wealth or influence, has a voice and a meaningful place at the table. We need 09/21/2026 Final Statement multilateralism that is not selective in its concern or uneven in its response, but fair, effective and responsive to the needs of all people.
+
+Our development must include young people, women and girls,
+
+Indigenous Peoples, persons with disabilities, the elderly and communities that have too often been left behind.
+
+If the United Nations is to deliver for all, it must first see, hear and include all.
+
+Multilateralism is our best hope for addressing challenges that cross borders, threaten our shared future and demand collective action.
+
+We therefore remain committed to peace, climate action, sustainable development and the dignity of every human being. We remain ready to work with all nations, in a spirit of mutual respect and shared responsibility, to build a fairer, safer and more resilient world.
+
+09/21/2026 Final Statement Mister President Let this Eighty -first Session be remembered as the moment when we collectively renewed our faith in cooperation, and matched our words with action.
+
+Let this Eighty-first Session be remembered as the moment when vulnerability was met with solidarity, promises were honoured and trust was rebuilt through meaningful delivery.
+
+Above all, let this Eighty-first Session be remembered as the moment when this family of nations found the courage to act together and recommitted ourselves to ensuring that no country, no community and no person was left behind.
+
+Ayahora, thank you.
+
+I thank you for the courtesy of your attention.

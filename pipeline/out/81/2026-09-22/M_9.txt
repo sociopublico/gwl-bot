@@ -1,0 +1,117 @@
+---
+session: 81
+slug: lithuania
+id_speech: M_9
+country: Lithuania
+speaker: Gitanas Nausėda
+title: President
+speaker_title: His Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/lt_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.558
+---
+
+Excellencies,
+
+Ladies and Gentlemen,
+
+Thirty-five years ago, Lithuania returned to its rightful place in the global community of sovereign states. By joining the United Nations, we reaffirmed our strong commitment to the global order based on international law, territorial integrity, state sovereignty, and human dignity.
+
+It was a glorious moment for a nation well taught by historical experience that freedom and independence cannot be taken for granted. They must be constantly – and consistently – defended.
+
+Today, I am standing here to speak for the same dream that inspired Lithuania in 1991. The vision of a more just, secure, and peaceful world.
+
+Today, I am backing up the principles of the United Nations which, sadly, are being put under increasing pressure.
+
+Recent years have brought us numerous high-intensity and far -reaching conflicts that dominate the global affairs on a scale not seen in decades.
+
+We witness geopolitical instability in Europe, the Middle East, and elsewhere. It is made worse by growing nuclear ambitions in the Middle East and Asia, as well as the irresponsible transfer of military-related goods, dualuse items, and sensitive technologies.
+
+In recent months, Iran has continued attacking neighbouring countries, often through its proxies, while actively impairing the freedom of navigation in the Strait of Hormuz. These actions constitute a serious threat to regional and international peace and security. We reaffirm our full solidarity with the Gulf Cooperation Council states and Jordan. We call on Iran to halt its nuclear and missile programs, as well as its collaboration with armed groups across the Middle East.
+
+Lithuania commends all efforts to find a solution ensuring the freedom of navigation. We will contribute with our demining capabilities to the international maritime missions in the Strait of Hormuz.
+
+As regards the situation in the Gaza Strip, my country supports international efforts to maintain and consolidate the ceasefire. The Comprehensive Plan to End the Gaza Conflict, including the deployment of the temporary International Stabilisation Force, provides the guidelines to follow.
+
+Lithuania reiterates the importance of full demilitarisation and calls on Hamas and other non -state armed groups to disarm and permanently decommission their weapons. Humanitarian aid must also be allowed to reach those in need safely, and without obstruction.
+
+To this day, the two -state solution remains the only way towards a comprehensive, just, and lasting peace. In this light, it is crucially important to abstain from any further actions incompatible with a credible political process.
+
+Ladies and Gentlemen,
+
+The one conflict that poses the greatest threat to the world order is Russia’s war of aggression against Ukraine, supported by its proxies.
+
+In the twelve years since the illegal occupation of Crimea, Russia has escalated from clandestine operations and limited warfare in Eastern Ukraine to massive military operations, mass killings, and, ultimately, the largest drone attacks against civilian infrastructure the world has ever seen.
+
+The current stage of the war, which began with the full -scale invasion in February 2022, has already lasted longer than the First World War.
+
+In the last 55 months, Russia has suffered 1.5 million military casualties. In the last year, it has gained 0.3 percent of Ukraine’s territory at the cost of over 400 thousand soldiers killed and wounded.
+
+Yet all these enormous efforts, all th at blood and tears, basically came to nothing. Ukraine is still standing proudly as an independent state. The Ukrainian language, culture, and national identity are alive and thriving.
+
+In all but name, Russia has already lost the war. Yet its leadership does not allow itself to admit defeat, fearing international legal accountability and possible revenge from its own people. As the inevitable approach es, the stakes get higher, and the Kremlin regime increasingly finds itself cornered.
+
+How much more Ukrainian civilian lives will be sacrificed on Russia’s war altar? How many people will be tortured, sexually assaulted, thrown into dark dungeons, never to see the sunlight again? How many children will be illegally separated from their parents and sent to Russia to suffer indoctrination?
+
+We do not know the answers, yet we must all feel the deep pain brought by this brutal and pointless war. And we all should join our forces to draw Ukraine’s victory closer.
+
+For it is only Ukraine’s final victory, safeguarding its sovereignty, independence, and territorial integrity, that could ensure the global peace, security, and the credibility of the United Nations charter.
+
+What we cannot allow is a brute force prevailing over international law. We cannot tolerate any longer Moscow’s colonial aspirations, which undermine global food security and driving up food prices.
+
+Russia’s imperial ambitions reach far into Europe, Africa, and Asia. No country should consider itself immune from this threat.
+
+Naturally, Lithuania witnesses many dangers up close. In recent months,
+
+Russia’s war of aggression has led to numerous violations of our air space by combat drones. Russia has also intensified hybrid attacks, disinformation, and sabotage efforts.
+
+Where Russia advances, opening Pandora’s box of new techniques for destabilization, other hostile actors follow, learning new skills and ideas.
+
+Ladies and Gentlemen,
+
+Attacks on information integrity pose an especially troubling challenge to every society. Disinformation, foreign information manipulation and interference, and the falsification of history erode trust, restrict civic space, and target journalists and human rights defenders. As a result, human rights, democracy, and security suffer.
+
+This risk is further enhanced by the development of artificial intelligence. As we all know, AI has a huge potential for transformation, especially in the field of economy. Whole sectors, including those related to defence and security, might get radically changed or destroyed almost overnight. As any instrument, AI is also increasingly used by those seeking to cause harm and destruction.
+
+Lithuania strongly believes that the future of AI must not be determined by authoritarian control, technological coercion, or the malicious use of data.
+
+We are therefore investing in trusted AI capabilities, promoting responsible AI deployment, and advancing the Vilnius Convention – the world’s first legally binding international treaty on artificial intelligence.
+
+By demonstrating how shared principles can be translated into concrete legal commitments, we hope to contribute significantly to the United Nations Global Dialogue on AI Governance.
+
+Lithuania invites the international community to unite in addressing significant legal, ethical, and strategic challenges posed by artificial intelligence. With even major technology companies sending warning signals that control of AI might slip out of humanity’s hands, the time is ripe for collective action.
+
+Together, we must ensure that AI serves human dignity, sustainable development, and international security, rather than becoming a new instrument of inequality, manipulation, or conflict. At any cost, human accountability, international law, and peace and security must be safeguarded.
+
+Ladies and Gentlemen,
+
+The credibility of the United Nations depends on its ability to respond firmly to aggression, unlawful conquest, forced deportations, and crimes against humanity, and also to coordinate the global response to the growth of AI.
+
+If we are serious about preserving peace, we must defend justice and strongly support those fighting for their freedom.
+
+I am grateful to the Secretary General, His Excellency António Guterres, for his long-lasting service and his focus on reforming the United Nations into a more effective, modern, and responsive organization.
+
+This is the correct path to follow. There is no other way. No nation can confront today’s challenges alone. Aggression cannot win. It is only through multilateralism, solidarity, and the unity of all Member States that we can uphold peace, security, and the rules-based international order.
+
+It is also important to learn from the many lessons of history. Today, too many seem unwilling to recognize and confront the past crimes committed by totalitarian regimes, including Soviet crimes.
+
+This is a fundamental flaw. We must remember the past so as not to repeat it!
+
+That is why Lithuania is promoting the concept of historical remembrance.
+
+My personal wish is to see the Pan-European Memorial to all victims of the 20th century totalitarian regimes unveiled in Brussels as soon as possible.
+
+There is one lesson Lithuania, having survived and overcome numerous occupations and waves of repression, can share with the international community. Freedom can be delayed, but it cannot be extinguished; justice can be challenged, but it cannot be defeated.
+
+This, I believe, is a message that goes far beyond an experience of a single person, or a nation. It speaks to the whole humankind, united in our shared dignity.
+
+At a time of growing global uncertainty and power politics, we need even more multilateralism grounded in international law, the UN Charter, and universal human rights. We need to resist the law of the strongest collectively, in order not to fall under the yoke separately.
+
+The time to act is now. And I believe – I want to believe – that we have what it takes to make the world a more just, secure, and peaceful place to live!
+
+Thank you.

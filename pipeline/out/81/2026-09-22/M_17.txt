@@ -1,0 +1,185 @@
+---
+session: 81
+slug: republic-korea
+id_speech: M_17
+country: Republic of Korea
+speaker: Lee Jae Myung
+title: President
+speaker_title: His Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/kr_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.667
+---
+
+Mr. President, Mr. Secretary-General, and distinguished delegates,
+
+The United Nations, which has a history of upholding human dignity and pioneering the way for future generations, now stands at a grave crossroads.
+
+The glacial flooding in Nepal that claimed many lives and destroyed the foundations of people’s livelihoods evidences that the climate crisis is a reality of today, not tomorrow.
+
+Persistent armed conflicts around the world, including those in Ukraine and the Middle East, continue to threaten the survival of humanity.
+
+Emerging technologies such as drones are rapidly transforming warfare and posing serious challenges to human rights and the international law-based order.
+
+Tensions surrounding the Strait of Hormuz are undermining the fundamental principles of ‘free and safe navigation’ and heightening the vulnerability of energy supply chains.
+
+“The United Nations was not created in order to bring us to heaven, but in order to save us from hell.”
+
+These words of the second Secretary-General of the UN, Dag Hammarskjöld, compel us to ask ourselves:
+
+Is the United Nations today capable of saving humanity from war, poverty, and disaster?
+
+Is the United Nations living up to its promise of restoring peace and achieving sustainable development?
+
+Ironically, the geopolitical crisis brought on by the turbulence in international order has reminded us of the cherished value of multilateral cooperation and international norms.
+
+In an era of fragmentation marked by fierce competition for immediate survival, values such as cooperation, mutual prosperity, and solidarity can sound like hollow outcries.
+
+However, like the founders who, having witnessed the ravages of war, conceived the United Nations, the deeper the crisis, the more we need to return to the basic principles of the UN.
+
+Last year, I proudly announced from this podium that the Republic of Korea, which will be a beacon of light for global citizens, has returned to the international community.
+
+Today, I stand here to make clear the Republic of Korea’s bold resolve to lead the effort to restore the spirit of the United Nations and reconnect the world, as a nation that has risen through the solidarity of the international community.
+
+The worldwide popularity of K-culture serves as an example demonstrating that universal empathy is possible, showcasing the potential of global connection.
+
+The stories and content that grew out of Korea’s unique experience have become a ‘language of solidarity’ that crosses borders.
+
+Just as culture has connected people across borders, so too can nations reunite in the face of common problems.
+
+The Republic of Korea will build on the power of empathy and solidarity that culture has brought to light. We will harness that power to address the common challenges facing all of humanity.
+
+To that end, allow me to set out the three visions of the ‘K-Initiative’ toward fulfilling this commitment.
+
+First, the ‘Global AI Universal Basic Society.’
+
+The Artificial Intelligence revolution is both a massive opportunity and a crisis for humanity. While it can be a core driver of new prosperity and sustainable development, it will only deepen inequality and imbalance unless we are properly prepared for it.
+
+Young people around the world, in particular, are facing growing anxiety about their employment and their future as the pace of change becomes increasingly difficult to keep up with.
+
+This boils down to a clear direction for the new era we seek to build. It is the ‘AI Universal Basic Society’ where everyone can benefit from technological progress.
+
+The Republic of Korea is pursuing an AI transformation that will ensure stronger protection of fundamental rights across fields such as social security, labor, housing, and culture, beginning with our ‘AI Universal Basic Health’ program.
+
+I believe this resonates with the core spirit of the UN Sustainable Development Goals, which prioritizes the guiding principle of “leaving no one behind.”
+
+It also harnesses the AI revolution as a new driver to accelerate the realization of ‘economic, social and cultural rights.’
+
+The Republic of Korea will build the ‘Global AI Hub’ platform to share this vision with the international community, in collaboration with international organizations, multilateral development banks, the business sector, and academia.
+
+The Republic of Korea envisions a ‘Global AI Universal Basic Society’ where no country or individual is left out from access to the basic benefits of AI development. We will take the lead in shaping AI into a tool for solving the shared challenges we face, such as the climate crisis, public health, food insecurity, and refugee issues.
+
+Second, the ‘green transformation.’
+
+The climate crisis is often referred to as a ‘global group project shared by all 8 billion people on Earth.’
+
+A single country cannot tackle this challenge alone. At the same time, abandoning growth cannot bring everyone on board.
+
+The Republic of Korea announced its ‘2035 Nationally Determined Contributions’ as part of its active participation in the Paris Agreement and UNcentered climate action.
+
+The ‘Korea Green Transformation’ strategy aims to convert our industrial structure, creating a virtuous cycle in which carbon neutrality leads to new growth engines and decent jobs.
+
+We are ready to share our experience and best practices with the international community. Co-hosting the ‘4th UN Ocean Conference’ with Chile in 2028 reflects our commitment to leading discussions on the sustainable development of our oceans.
+
+Third, the coalition for global energy supply chains.
+
+Recently, there have been repeated blockades of sea routes in the Strait of Hormuz and the Red Sea. This has underscored the stark reality that the weaponization of key energy and logistics supply routes can send severe shockwaves to the lives of ordinary people around the world.
+
+Freedom of navigation and safe passage through international straits is a right grounded in international law and serves as a bedrock of the global economy.
+
+Attacks on merchant vessels and threats to the lives and safety of crew members cannot be justified under any circumstances.
+
+While making greater use of existing frameworks such as the International Energy Agency, the Republic of Korea will build a more robust framework of cooperation for energy supply chains to prevent the supply chain crisis from escalating into a broader threat to the global economy and people’s livelihoods.
+
+By nature, these problems cannot be resolved by any one of us alone. At the same time, we cannot afford to sit idly by and wait for all nations to arrive at a single solution.
+
+The most urgent and realistic path is for countries with the capacity and willingness to supply global public goods to join hands and broaden the scope of cooperation.
+
+I would like to call this a ‘Partnership of Constructive Contributors.’
+
+I am not seeking to propose a new organization, nor an exclusive grouping. The idea is to respect the functions of the existing international order and the UN, work together in a flexible and open manner in areas where each country has particular strength, and expand our ties of cooperation into new areas.
+
+By continuing to build on the achievements of collaborating ‘separately yet together,’ we can move beyond geopolitical rivalry, deadlock, and fragmentation, and rebuild trust in multilateralism.
+
+The United Nations must evolve with the times.
+
+Agreements reached at the negotiating table must translate into real change on the ground, so that people around the world can feel their impact in their daily lives.
+
+We must reduce duplication across organizations and programs, accelerate decision making, and direct limited resources where they are needed most.
+
+In this spirit, the Republic of Korea supports the ‘UN 80 Initiative,’ which will improve efficiency, prioritize field operations, and deliver greater results.
+
+We also support the reform of the UN Security Council, so that it operates in a more effective, democratic, and accountable manner.
+
+The Republic of Korea will live up to its responsibility and position to deliver results that can be vividly felt by people around the world across the UN's three pillars of peace, development and human rights.
+
+Through the ‘Busan Global Partnership Forum,’ we will continue to support inclusive growth, share Korea’s development experiences such as the Saemaul Undong, and continue to make sustainable and innovative investments.
+
+Mr. President, Mr. Secretary-General, and distinguished delegates,
+
+When it comes to peace on the Korean Peninsula, the Republic of Korea knows firsthand the change that the United Nations has brought about.
+
+Thirty-five years ago, the two Koreas were admitted to the UN as members on this very stage. It was a crucial turning point that laid the foundation for peaceful coexistence, freeing us from the relentless rivalry and confrontation that followed our division.
+
+One year ago, I stated from this stage that the Republic of Korea would begin a new journey toward ‘peaceful coexistence and shared growth on the Korean Peninsula.’
+
+Today, as we set out on this new journey, I would like to present to the international community the three blueprints for the road to peaceful coexistence on the Korean Peninsula.
+
+First is inclusive peaceful coexistence built on mutual respect. Based on the respect for each other’s systems and acknowledgement of our differences, we will explore ways for shared growth through cooperation.
+
+We will continue to respect the North on the international stage and seek cooperation wherever possible. We hope that opportunities will emerge for us to work together in the international community, in areas such as public health, disaster response, and the climate crisis.
+
+Second is stable peaceful coexistence that renders conflict unnecessary. We will work to institute mechanisms for preventing crisis and managing conflicts.
+
+Reestablishing basic channels of communication and building trust will be the first step toward a stable peaceful coexistence.
+
+Third is responsible peaceful coexistence contributing to world peace.
+
+We will go beyond building a Korean Peninsula free from war and nuclear weapons to promoting stability and cooperation in Northeast Asia, while actively contributing to global efforts to build a world free from war and conflict.
+
+The most critical task is to bring an end to this decades-old war on the Korean Peninsula and establish a lasting peace regime.
+
+For decades, the two Koreas, along with key countries such as the U.S. and China, have recognized the need for a peace regime on the Korean Peninsula and discussed ways to achieve it.
+
+Fortunately, President Trump’s resolve has recently created a hard-won opportunity for change.
+
+I hope the long-suspended dialogue between North Korea and the U.S. can resume without delay. We will lay the groundwork for this to develop into a dialogue among the parties aimed at ending the war on the Korean Peninsula and transitioning to a peace regime.
+
+I am confident that the dialogue for establishing a peace regime on the Korean Peninsula can provide a valuable framework not only for normalizing relations among the parties concerned, but also for fostering shared growth through multilateral cooperation and promoting stability and cooperation in Northeast Asia.
+
+In this process, we will begin with a stop to further advances in North Korea’s nuclear and missile capabilities, followed by their reductions in the medium term, moving toward a Korean Peninsula free from nuclear weapons over the long term.
+
+I hope that the United Nations, which created a pivotal moment for peaceful coexistence on the Korean Peninsula thirty-five years ago, and the Security Council, which has safeguarded the peace and stability of the international community, will once again play a responsible and constructive role.
+
+As a direct party to peace on the Korean Peninsula, and as a pacemaker, my government will exert every effort to open and sustain the path toward dialogue.
+
+Mr. President, Mr. Secretary-General, and distinguished delegates,
+
+The true performance of UN does not lie solely in the figures and charts of reports, or in the declarations made in conference rooms.
+
+The raison d'etre of UN will be proven only when children's laughter replaces gunfire, when young people can enjoy the opportunity to learn, work, and take on new challenges, and when anyone, anywhere, can choose to live the life they want.
+
+In 2015, the international community adopted the Sustainable Development Goals as our shared commitments for a bright future.
+
+As we approach the 2030 deadline, now is the time to chart a new path forward for the next generation.
+
+It is imperative for young people, our future generation, to define problems together, formulate solutions, and become co-designers who can lead the action.
+
+We need to bring more youth voices into international decision-making by widening opportunities for participation and communication, as well as making bold investments in the potential of the next generation.
+
+The Republic of Korea can testify more vividly than anyone else, to the noble power of solidarity embodied by the United Nations.
+
+Our own experience of achieving industrialization and democratization in the wake of war stands as proof of how the world can bring about miraculous changes with one mind and one heart of the international community.
+
+We are ready to repay that solidarity with greater responsibility and contribution.
+
+We will reconnect a divided world, build a future that leaves no one behind, and chart a course for the next generation to dream of a better tomorrow.
+
+The Republic of Korea stands ready to lead the way toward a peaceful coexistence on the Korean Peninsula, and toward “a United Nations that delivers for all.”
+
+Thank you for your attention.

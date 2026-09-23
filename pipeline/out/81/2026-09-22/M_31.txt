@@ -1,0 +1,261 @@
+---
+session: 81
+slug: croatia
+id_speech: M_31
+country: Croatia
+speaker: Andrej Plenković
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/hr_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.144
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Excellencies,
+
+Ladies and Gentlemen, • We come to this Assembly from countries that differ in size, population, and power.
+
+• Yet here, precisely because of that, every country has its unique experience to share, responsibilities to assume, and a contribution to make.
+
+• Croatia brings the experience of a nation that, within one generation, endured aggression and occupation, defended its freedom, and rebuilt itself.
+
+• It joined UN, NATO and the European Union and developed a flourishing democracy and a growing economy.
+
+• Our path and our transition were neither straight nor easy, but we made it.
+
+• Over the past decade as Prime Minister, I have seen Croatia translate those experiences into progress at home and more responsibility abroad.
+
+• They have reinforced three convictions that speak directly to the theme of this session.
+
+• First, rules are our common compass.
+
+• Second, transformation helps build resilience.
+
+• Third, trust is earned only through delivery.
+
+(First: Rules are our common compass) Ladies and Gentlemen, • Croatia supports rules -based multilateralism as the pinnacle of human cooperation not because we are naive, but because we have seen and experienced the alternative.
+
+• For smaller and medium-sized states, international law is not an abstraction.
+
+• It is the line between order and tyranny, between sovereign equality and the rule of force.
+
+• The rule of force such as witnessed by Croatia during the brutal aggression and occupation of more than one quarter of our territory in the 1990s.
+
+• In the war which claimed nearly 20,000 lives.
+
+• And after which, m ore than three decades later,
+
+Croatia continues to search for 1,725 missing persons – a poignant example that the consequences of war do not end when the weapons fall silent.
+
+• Instead, peace requires courage, credible institutions, and rules that apply equally to everyone.
+
+• Russia's ongoing war of aggression against Ukraine is a direct assault on those rules.
+
+• Croatia will continue to support Ukraine's sovereignty, independence, and territorial integrity, and a comprehensive, just, and lasting peace based on the UN Charter.
+
+• Peace cannot reward conquest, and recovery cannot be separated from justice.
+
+• The same compass must guide us in the Middle East.
+
+• Protection of civilians, unhindered humanitarian access, respect for international law, and a credible political horizon are essential to breaking the cycle of violence.
+
+• Croatia supports a negotiated two-state solution in which Israelis and Palestinians live in peace and security.
+
+• From Sudan and Myanmar to the Sahel and the Great Lakes region, civilians bear the highest cost when rules are ignored and diplomacy fails.
+
+• And no crisis remains local for long.
+
+• War disrupts food and energy supplies, while insecurity from the Strait of Hormuz to the Black Sea affects shipping, prices, and livelihoods across continents.
+
+• This is why, as a Government, we are dealing with the consequences of energy price pressures by passing decrees to protect Croatian citizens and economy from energy shocks created far away from our shores.
+
+• As distant as they may seem, these shocks are real, as they ripple into domestic inflationary pressures, affecting everything from wages and pensions to food prices and basic services.
+
+• This is why freedom of navigation, maritime security, and the strict implementation of the United Nations Convention on the Law of the Sea matter to everyone.
+
+• For us, freedom of navigation and maritime security are both a national interest and a global responsibility.
+
+• Common rules do not hold us back.
+
+• They provide the stability and predictability necessary for countries to advance their ambitions.
+
+(Second: Transformation helps build resilience) Excellencies, • The world is being transformed by technology, climate change, demographic pressures, illegal migration, and geopolitical rivalry.
+
+• Our responsibility is to govern them so that change expands human freedom and security instead of weakening them.
+
+• The United Nations must begin with its own transformation.
+
+• Croatia supports a UN that is more effective, accountable, and financially sustainable, and stronger across all three pillars: peace and security, sustainable development, and human rights.
+
+• Reform must also produce a more representative and effective Security Council.
+
+• When the Council is blocked, the General Assembly can and must act, but it cannot replace the Council's primary responsibility under the Charter.
+
+• This makes the selection of the next Secretary General all the more relevant.
+
+• I thank Secretary General Guterres for his work over the last decade.
+
+• The United Nations needs leadership capable of bringing member states together, defending the Charter, and turning reform into measurable results.
+
+• No country alone can successfully respond to the global transformations we witness today.
+
+• Artificial intelligence can accelerate development, but its use must remain consistent with legal frameworks, human dignity, and democratic accountability.
+
+• Renewed nuclear rhetoric makes a firm commitment to the Treaty on the Non -Proliferation of Nuclear Weapons more important than ever.
+
+• Climate action should be used to strengthen energy security and social cohesion.
+
+• Our experience shows that the green transition should not be ideological.
+
+• It can endure only when it is technologically realistic, socially fair, compatible with secure and affordable energy, and supportive of overall development.
+
+• For Europe, which imports most of the energy it consumes, the case for producing more renewable energy at home now reaches far beyond climate policy.
+
+• It is a strategic necessity.
+
+• It strengthens Europe’s sovereignty and capacity to act, reduces external dependence, creates economic opportunity, and makes our societies more resilient.
+
+• The same principle applies to illegal migration, which has caused mistrust in Europe and altered the political landscape in many countries.
+
+• This situation is unacceptable and it cannot continue.
+
+• The rule of law must be upheld, and legal procedures must be followed.
+
+• Our primary responsibility is to our citizens.
+
+• And it starts at our borders.
+
+• We are not allowing uncontrolled migration, and we are fighting the criminal networks that facilitate it.
+
+• As an EU external border country, Croatia carries an additional responsibility, and we will fulfill it with full determination.
+
+• Transformation is equally important in our own neighborhood.
+
+• Southeast Europe remains the unfinished part of the European project.
+
+• Croatia will continue to support merit-based EU enlargement.
+
+• EU membership can turn borders of division into lines of cooperation, and reforms on paper into stronger institutions and better living standards.
+
+• But European transformation requires honesty about the past.
+
+• Reconciliation becomes possible when responsibility for the crimes of the past is acknowledged and their glorification rejected.
+
+• That standard allows no national exceptions.
+
+• That means respect for victims and clear rejection of historical revisionism – not the glorification of war criminals.
+
+• Ratko Mladić was a convicted war criminal responsible for the Srebrenica genocide—the first genocide in Europe since the Holocaust.
+
+• While his criminal record reached i ts nefarious culmination in Srebrenica, his trail of war crimes stretches further back—to the shelling of Croatian cities, the murder of civilians, the mining of dams, and the destruction of cultural heritage and industrial facilities.
+
+• The military and official honors accorded to Mladić in Serbia were an affront to his victims and to the judgments of international courts.
+
+• The participation of state representatives and the public acclaim that accompanied the ceremony is totally incompatible with the values of a Union Serbia seeks to join.
+
+• The same commitment to equality and reform should guide Bosnia and Herzegovina.
+
+• As a signatory to the Dayton Peace Accords, and a neighbor and a friend of Bosnia and Herzegovina,
+
+Croatia is one of the strongest advocates of its European future.
+
+• The Dayton Peace Accords ended the war and established the constitutional framework for Bosnia and Herzegovina: one state, two entities, and three constituent peoples —Croats, Bosniaks, and Serbs.
+
+• That balance is the foundation on which peace was built.
+
+• Yet the Croats of Bosnia and Herzegovina are still being denied legitimate representation, including in the Presidency of the country.
+
+• That is unjust, destabilizing, and contrary to the spirit of Dayton.
+
+• The solution is neither division nor domination.
+
+• It is carefully designed electoral reform that protects every citizen, while ensuring that a basic principle of legitimate political representation of the constituent peoples is restored.
+
+• Croatia will not tire of explaining why this reform is crucial for the entire country to reach its full potential.
+
+• And we will not tire of opposing those political forces whose shortsighted pursuit of political gains jeopardizes equality of constituent peoples and the long-term prosperity.
+
+• Our own history confirms that transformation succeeds when it is rooted in inclusion, responsibility, and reform.
+
+• Over the past decade, Croatia has doubled the size of its economy in nominal terms, while reducing its public debt-to-GDP ratio by 30 percentage points from its pandemic peak.
+
+• Six consecutive sovereign credit -rating upgrades have brought us into the A category.
+
+• We have tripled our defense budget, with approximately one-third of that spending allocated to military modernization.
+
+• In a changed security environment, we are strengthening our security and ensur ing we are better equipped to support international stabilization missions abroad.
+
+• Reforms we are pursuing domestically are increasing our overall resilience and giving us increased capacity to engage in a world which is rapidly changing.
+
+(Third: Trust is earned through delivery) Ladies and Gentlemen, • The international system stutters when the distance between declaration and delivery becomes too wide.
+
+• Trust returns when cooperation produces real, measurable results.
+
+• It returns when a child is in school, a community is protected from violence, a mine is removed from a field, or food reaches a family.
+
+• And it returns when institutions prevent conflict before it even begins.
+
+• Last year alone, the world’s official development assistance was reduced by almost 25% (23.1%).
+
+• This drop is the largest annual contraction on record for international aid.
+
+• Refusing to spiral into negative trends, Croatia is contributing more, not less.
+
+• Between 2016 and 2024, our official development assistance increased fivefold, while our humanitarian assistance grew more than twentyone fold.
+
+• With our UN partners, we are translating our commitment and funds into action.
+
+• We support girls’ education in Kenya, provide humanitarian assistance in Gaza, and assist Syrian refugee children.
+
+• We also advance mine action in Ukraine—drawing on Croatia’s own postwar experience —and protect women and girls from digital violence.
+
+• This practical, inclusive, and human centered approach is also what Croatia brings to ECOSOC.
+
+• If elected to the presidency of ECOSOC for the 2027–2028 cycle, Croatia will work to strengthen coordination and accountability.
+
+• As 2030 approaches, accelerating implementation of the Sustainable Development Goals continues to be a central priority.
+
+• Croatia persistently ranks among the world’s fifteen highest -performing countries in implementing the Sustainable Development Goals.
+
+• Our experience is not a universal prescription but evidence that national reform and international responsibility can and do advance together.
+
+• It is this credibility that is in the foundation of trust in multilateralism that we wish to see rebuilt.
+
+• Credibility which is str ongest when every country, regardless of its size, wealth, or power, has a meaningful voice.
+
+• The answer is therefore not less multilateralism.
+
+• It is multilateralism that delivers.
+
+• It is this approach that Croatia would bring to the Security Council, if elected to serve in 2030–2031.
+
+Excellencies, • Croatia's modern journey began in war, but war did not define its destination.
+
+• Our experience has shaped the way we understand international cooperation and the responsibilities that come with it.
+
+• Rules gave us a compass when force sought to erase our borders.
+
+• Reform gave us a bridge from vulnerability to resilience, and from postwar recovery to membership in the European Union, the euro area, and Schengen.
+
+• Delivery turned those ambitions into institutions, security, and better lives for our citizens—and gave us the capacity to contribute beyond our borders.
+
+• That is the experience Croatia brings to the United Nations.
+
+• Not a claim to perfection, but the perspective of a country that has traveled a difficult road and learned from it.
+
+• The United Nations remains indispensable because no country can navigate today's storms alone.
+
+• Let us therefore re build trust by defending our common compass and managing change so that it strengthens human dignity.
+
+• Let us ensure that our commitments reach the people for whom they were made.
+
+Thank you.

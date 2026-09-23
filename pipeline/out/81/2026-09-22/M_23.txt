@@ -1,0 +1,123 @@
+---
+session: 81
+slug: viet-nam
+id_speech: M_23
+country: Viet Nam
+speaker: To Lam
+title: President
+speaker_title: His Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/vn_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.646
+---
+
+Mr. President of the 81st Session of the United Nations General Assembly,
+
+Mr. Secretary-General,
+
+Excellencies, Ladies and Gentlemen,
+
+On behalf of the Party, State and People of Viet Nam, I warmly congratulate H.E. Dr. Khalilur Rahman on his election as President of the 81st Session of the United Nations General Assembly. I am confident that under his leadership, this session will be a great success. I also highly appreciate the contributions of H.E. Ms. Annalena Baerbock,
+
+President of the 80th Session of the General Assembly.
+
+I wish to pay special tribute to Secretary -General António Guterres for his dedicated service to the United Nations and the international community. Throughout nearly a decade of formidable challenges, he has steadfastly upheld the values of the Charter, while working alongside Member States to strengthen the role and effectiveness of the United Nations.
+
+Mr. President, Excellencies,
+
+The world is undergoing profound shifts in the international order, with many risks and uncertainties. The tendency towards the use or threat of force and the arms race, particularly the modernization of nuclear weapons and the development of new technology weapon s, are heightening the risks of confrontation, miscalculation and conflict, even of large-scale wars.
+
+At the same time, the global economy is becoming increasingly fragmented, amid mounting barriers to trade, investment and technology. Supply -chain disruptions and economic instability are narrowing development opportunities for many countries.
+
+Climate change, natural disasters, pandemics and emerging technological risks continue to pose direct threats to people’s lives and livelihoods, as well as to the development and stability of many nations.
+
+Shifts in the balance of power and development inequalities are placing growing strains on international relations. Instability is further exacerbated when competition goes unchecked, commitments are left unfulfilled and international law is applied select ively.
+
+An erosion of trust is further impeding efforts at cooperation.
+
+What should concern us is not only how the international order is changing, but where that change will take our world. Change is inevitable, for it is part of the objective course of history. Conflict and confrontation, however, are not inevitable. From our own history,
+
+Viet Nam understands profoundly the cost of war, the value of independence, and the power of reconciliation and cooperation.
+
+It is therefore my belief that the theme of this Session, “Restoring trust, managing transformation: a United Nations that delivers for all,” aptly reflects the urgent demands of our time.
+
+Mr. President,
+
+From the losses of the Second World War, humanity created the United Nations with the aspiration to prevent war, safeguard peace, promote cooperation, and place relations among nations on a foundation of common principles. Over the past eight decades, despite its limitations, the United Nations has helped sustain dialogue, advance decolonization, uphold the right of peoples to self-determination, and support development.
+
+These achievements must be preserved and carried forward. Our institutions must be reformed to keep pace with the times, while the fundamental principles of the United Nations Charter must be respected and reinforced. What we seek is a more equitable, democratic and inclusive international order, where every country has a voice and every nation has the opportunity to develop.
+
+The mission of our generation is to help shape and manage change so that competition does not turn into confrontation, differences do not lead to conflict, and advances in science and technology do not create new divides.
+
+In that spirit, I wish to put forward four major priorities:
+
+First, we must restore trust among nations on the basis of respect for the UN Charter and international law.
+
+The UN Charter and international law form the foundation of the international order. They must be respected fully, consistently and without selectivity. All States must respect one another’s independence, sovereignty, territorial integrity and right to choose th eir own path of development; refrain from interference in internal affairs; and refrain from the threat or use of force inconsistent with the UN Charter.
+
+Restoring trust does not require countries to erase their differences, but rather to manage those differences responsibly. Crises must be prevented. Competition must be kept under control. Dialogue must be sustained. Commitments must be honored and fully implemented. Major powers should lead by example in respecting international law, exercising restraint and responsibly addressing common challenges.
+
+The United Nations must remain at the center of these efforts.
+
+In every conflict, civilians must be protected, international humanitarian law must be respected, and humanitarian access must be ensured. Viet Nam supports the right of the Palestinian people to self-determination and the two-State solution, with an indep endent State of Palestine living peacefully alongside the State of Israel, in accordance with international law and relevant United Nations resolutions.
+
+In the Asia-Pacific, nearly six decades of ASEAN’s development have demonstrated that countries can transform suspicion into trust, confrontation into dialogue, division into cooperation, and individual strength into collective strength.
+
+In that spirit, Viet Nam remains steadfast in its commitment to resolving disputes, including those in the East Sea, by peaceful means and in accordance with international law, particularly the 1982 United Nations Convention on the Law of the Sea. Viet Nam is resolute in safeguarding its sovereignty, sovereign rights and jurisdiction. The seas and oceans must remain spa ces of peace, cooperation, connectivity and sustainable development.
+
+In the same spirit of peace and respect for peoples’ right to development, Viet Nam has always stood in solidarity with the State and People of Cuba. We call upon the United States to end the unilateral embargo and sanctions and the energy blockade against Cuba, and to remove Cuba from the list of State Sponsors of Terrorism. We also call upon the international community to support Cuba in overcoming the sanction-driven crisis.
+
+Second, we must advance development that is equitable, humane, inclusive and sustainable.
+
+International commitments must be translated into action and bring people lives of peace, security, dignity and happiness. It is for this reason that the Pact for the Future and the 2030 Agenda, our promises to present and future generations, must be implemented earnestly and in full.
+
+Commitments on financing for development, including the Sevilla Commitment, must be translated into concrete measures: expanding access to long -term financing at affordable cost, supporting countries burdened by debt, and amplifying the voice of developing countries in international financial and monetary institutions. The multilateral trading system must be strengthened in an open, equitable and transparent manner, ensuring development opportunities for all countries.
+
+Climate action must be accorded its rightful place in development cooperation, particularly through adaptation finance, technology transfer and a just energy transition.
+
+Development must be people-centered and leave no one behind. Growth must go hand in hand with social progress and equity, environmental protection and the safeguarding of people’s livelihoods, particularly in vulnerable countries and communities. Global progress must uphold the spirit of humanity in relations among nations, safeguard their legitimate interests, and respect differences in history, culture and development conditions.
+
+Third, we must proactively shape technology governance so that progress serves humanity and our common development.
+
+Science, technology, digital transformation and artificial intelligence are opening up unprecedented opportunities, while also presenting new challenges. The future of technology does not automatically guarantee equity. Technological progress must help narrow divides and expand development opportunities, rather than create new forms of dependency or new sources of conflict.
+
+We need to develop inclusive, safe, transparent and accountable principles and governance frameworks to ensure that technology serves people, while respecting national sovereignty, digital sovereignty and the right to development. Developing countries must be able to participate substantively in rule -making, receive support for infrastructure and digital capacity, and enjoy equitable access to the benefits of scientific and technological progress.
+
+Viet Nam’s hosting of the Opening for Signature of the United Nations Convention against Cybercrime in Ha Noi in 2025 reflects our desire to make substantive contributions to global digital cooperation. Viet Nam stands ready to work with partners to streng then cooperation and build capacity in preventing and combating cybercrime, so that people may live safely and benefit from technological progress.
+
+Viet Nam also stands ready to support international initiatives on green and digital transformation and the development of effective governance frameworks, so that science and technology can truly become drivers of shared development.
+
+Fourth, we must strengthen multilateralism and the central, indispensable role of the United Nations.
+
+The strength of the United Nations does not lie in its ability to replace the responsibilities of States, but in its legitimacy and capacity to build consensus, establish norms, develop rules, and mobilize global efforts to address common challenges.
+
+For the United Nations to adapt to the transformations of our time, Viet Nam supports efforts to reform the Organization, particularly the General Assembly, the Security Council and the Secretariat, with a view to enhancing effectiveness, prioritizing structural reform and streamlining the apparatus, while fully harnessing the Organization’s advantages in advancing global agendas and safeguarding the interests of developing countries.
+
+Mr. President,
+
+The perspectives I have just shared are drawn from the experience of Viet Nam itself.
+
+Viet Nam’s nearly half -century journey alongside the United Nations mirrors the transformation of our own country. From being primarily a recipient of invaluable assistance during the years of reconstruction and Doi Moi, Viet Nam today is increasingly making proactive contributions to our common endeavors, while deepening and broadening our substantive relations with the United Nations. Vietnamese military personnel and police officers have served, and continue to serve, in United Nations peacekeeping operations, carrying our nation’s aspiration for peace to places where peace remains fragile.
+
+Our tradition of independence and self -reliance provides the foundation for Viet Nam to strengthen its strategic autonomy and proactively pursue international integration.
+
+Looking towards our goal of becoming a developing country with modern industry and upper-middle income by 2030, and a developed, high-income country by 2045, Viet Nam is establishing a new development model based on productivity, quality and added value; with science, technology, innovation and digital transformation as key drivers; and w ith economic growth closely linked to cultural development, social progress and equity, and environmental protection.
+
+Autonomy also means proactively adapting and cooperating with the world on an equal footing. Viet Nam therefore pursues the consistent foreign policy of independence, autonomy, self -reliance, peace, friendship, cooperation and development, and of multilateralization and diversification of external relations. Viet Nam will remain steadfast in upholding the UN Charter and international law, promoting dialogue and the peaceful settlement of disputes, and deepening its participation in United Nations peacekeeping operations. Viet Nam is working together with fellow Member States to build a united, self-reliant and resilient ASEAN, and is actively preparing to host APEC in 2027, contributing to peace, cooperation and development in the region and the world.
+
+As a member of the United Nations Human Rights Council, Viet Nam champions dialogue and cooperation in promoting and protecting human rights and in ensuring that all people can share in the fruits of development. Viet Nam stands ready to share its experien ce in poverty reduction, agricultural development and climate change adaptation, and to work with partners to broaden cooperation for common interests.
+
+Mr. President, Excellencies,
+
+The world will continue to change. The direction of such change will depend on the choices we make and the responsibilities we shoulder today.
+
+Viet Nam chooses peace, cooperation and development. We will work steadfastly with all nations to strengthen the United Nations, uphold international law, and translate our shared commitments into tangible benefits for our people.
+
+Viet Nam believes that, with a strong United Nations, together we can build a more peaceful, equitable, inclusive and better world for all. On th is journey, Viet Nam will remain an active member, a trusted partner and a responsible nation, ready to contribute to the common endeavors of the international community.
+
+Thank you.

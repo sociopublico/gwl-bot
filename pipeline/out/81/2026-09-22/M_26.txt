@@ -1,0 +1,89 @@
+---
+session: 81
+slug: united-republic-tanzania
+id_speech: M_26
+country: United Republic of Tanzania
+speaker: Deogratius Ndejembi
+title: Vice-President
+speaker_title: His Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/tz_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.766
+---
+
+1. Courtesy It is indeed a great honor and privilege to address this Assembly on behalf of H.E. Dr. Samia Suluhu Hassan,
+
+President of the United Republic of Tanzania. H.E. the President asked me to convey her fraternal greetings and best wishes for the success of this Session.
+
+Mr. President; Allow me to congratulate you, on your election to preside over the 8 1st Session of the UN General Assembly. Your immense experience and diplomatic skills give us confidence in your ability to guide the proceedings of this Session successfully. Your election is also a fitting tribute to your great country, Bangladesh, with which Tanza nia enjoys excellent relations.
+
+2. Theme of UNGA81 and UN80 Initiatives Mr. President; About eighty years ago, the UN was founded in San Francisco on a simple but enduring principle: that nations can prevent war and advance peace through trust, collective action and respect for the UN Charter. Today, war and insecurity are not the only existential threats to our survival, but a range of challenges including climate change, pandemics, ungoverned Artificial Intelligence and energy insecurity, just to mention a few. These challenges should remind us of a need for a stronger and much more coordinated UN. Therefore, the theme of this session, that is “Restoring Trust, Managing Transformation: A United Nations that Delivers for All”, is timely for it requires us to revert to the founding principle of maintaining peace and restoring trust.
+
+Managing transformation requires reforming the UN to meet the realities of our time. In that regard, I commend our illustrious Secretary -General, H.E. Antonio Guterres, for championing the UN80 initiative that aims to advance the transformation agenda. In our opinion, the UN80 initiative must go beyond administrative efficiency to include overall Organizational effectiveness, accountability, and representativeness, for the UN to be able to deliver for all. Further, the transformation must be undertaken with utmost caution to avoid going off -track on the development pillar and incapacitating the UN Country offices and programs.
+
+3. Agenda 2030, Vision 2050 and Financing for Development Mr. President, Excellencies and Distinguished Delegates; While we are a few years away from 2030, progress towards attainment of the SDGs is still unimpressive. Given this situation, we need to improve our execution and ensure that every cent invested delivers results. Tanzania remains committed and has made strides in implementing the 2030 Agenda. Tanzania Vision 2050, aim to build an inclusive and competitive economy that ensures quality of life for all. We are investing in our people, productive infrastructure, technology and innovation, while creating greater opportunities for women and young people. Our ambition is to transform economic growth into lasting improvements in people's lives.
+
+These ambitions may not be realized if the international financial architecture is not made to work for development.
+
+Currently, when developing countries are accelerating progress, they are restricted by high borrowing costs, rising debt burdens, and limited access to affordable longterm finance.
+
+Tanzania stresses that improvements must be made to ensure the expansion of concessional financing, mobilization of private investment, improved access to development and climate finance, and giving developing countries a stronger voice in global financial decision making.
+
+It is without a doubt that political commitment is paramount in undertaking focused investment. In that respect, Tanzania has made significant strides in reducing maternal and child mortality by expanding facility delivery from 51 per cent in 2015 to 81 per cent in 2022. Our experience on this demonstrates that when we invest in feasible projects, and remain people -centred, development can move from promises to measurable results.
+
+It is in this spirit that H.E. President Samia Suluhu Hassan, accepted the responsibility of championing Maternal and Child Health for the African Union. Under her leadership,
+
+Tanzania reduced maternal deaths by 80 per cent in just seven years. We now aim to advance the Three Zeros, i.e.,
+
+Zero Preventable Maternal and Child Deaths; Zero home deliveries; and Zero Unvaccinated Children. Our experience shows that this is an agenda that Africa can successfully achieve, but it will require sustained political leadership, adequate financing, and stronger partnerships.
+
+We, therefore, urge the international community to join us in giving this agenda a push.
+
+4. Climate Action Excellencies; Our efforts to address climate-related challenges continue to face unjustifiable obstacles, mainly from those contributing significantly to greenhouse gas emissions.
+
+Global efforts to address climate challenges are being frustrated by withdrawal of financial contributions supporting climate adaptation measures and initiatives by international and regional institutions, as well as individual states. Let us prioritize delivery on the pledges for climate action by increasing long-term concessional financing and deployment of new technology.
+
+On this agenda, Tanzania chose to address the just energy transition component through different measures. Some of these measures include, implementation of the national renewable energy strategy that comprises 2,115MW Julius Nyerere H ydro Power Project, 650MW solar and wind power projects, 130MW geothermal power projects, and the National Clean Cooking Strategy, which aims to ensure that 80% of households adopt clean cooking by 2034. In our efforts to reduce the use of fossil fuels, we have also opted for the electric railway to link the port of Dar es Salaam and neighboring countries of Burundi and DRC.
+
+We, therefore, appeal that climate financing be provided as grants and concessional financing to step up efforts on climate action.
+
+Mr. President; Tanzania joins Small Islands and Coastal States in pushing for a workable solution to address sea-level rise.
+
+We commend the President for convening today the HighLevel Event addressing the existential threats posed by sea-level rise, and we look forward to the adoption of the UN Declaration on Sea -Level Rise, which will provide a comprehensive framework for international cooperation, scientific advancement, adaptation resilience, and legal stability. We welcome the Declaration's legal affirmation on the stability of maritime zones under United Nations Convention on the Law of the Sea ( UNCLOS) and the continuity of statehood, even in cases of physical land loss, while encouraging strengthened international cooperation and the protection of human rights. Timely and urgent action is needed to safeguard the future of our coastal communities and island nations.
+
+5. Sanctions and Embargoes Excellencies; Global solidarity must be concurrent with respect of each other's sovereignty. Tanzania stands against the proliferating trend of some states to assume the responsibility of policing and imposing unilateral sanctions on others, thus undermining the principles of sovereignty and peaceful co-existence. As stated previously, Tanzania reaffirms its position to oppose the use of such coercive measures against any Member State and reaffirms its unwavering solidarity with Cuba, Zimbabwe and all other states that are subjected to such unjustifiable constraints.
+
+In line with our resolve to leave no one behind, we call for an immediate and unequivocal lifting of these measures that cause hardships, constrain development and obstruct full enjoyment of human rights.
+
+6. Global Peace and Security Mr. President; Global peace and security are vital for sustainable socio economic development. The United Nations, through its Charter, has remained central to international efforts to maintain peace and security, uphold international law, and promote conditions conducive to development.
+
+However, despite these longstanding commitments, the persistence of armed conflicts around the world reflects the departure from the purposes and principles of the Charter. In addition, there are emerging challenges to the authority of the United Nations Charter and the established principles of international law, often without commensurate accountability. These developments underscore the urgent need to reaffirm multilateralism, strengthen respect for international law, and reinforce the central role of the United Nations in maintaining international peace and security.
+
+In that regard, Tanzania remains firmly committed to supporting the efforts of the U N Security Council to fulfil its primary responsibility, for the maintenance of international peace and security. our commitment is demonstrated by our two terms of service on the Security Council, during which we made substantive contributions to such cause.
+
+Notable achievements include the adoption of Security Council Resolution 1653 (2006) on the Great Lakes Region and Tanzania’s collaboration with Denmark in establishing the Peacebuilding Commission.
+
+Excellencies; Building on this record of service and sustained commitment to multilateralism, I am pleased to inform you that, last month, the African Union formally endorsed Tanzania’s candidacy for a non-permanent seat on the UN Security Council for the term 2029–2030, during elections to be held by this Assembly in June 2028. I, therefore, seize this opportunity to formally announce our candidature. During our tenure in the Council, we will put forward and prioritize deliberations on matters vital to the maintenance of international peace and security, such as preventive diplomacy and the peaceful Settlement of disputes; women in peacekeeping; youth in peace and security and the Reform of UN Peacekeeping. In the coming days, we will engage with each one of you and present our vision and respectfully seek your valued support to enable Tanzania to serve with a strong African voice, principled leadership, and unwavering commitment to international peace and security.
+
+7. Peace in the Middle East Mr. President; Tanzania is deeply concerned and saddened by the protracted conflict and humanitarian suffering in Gaza and across the Middle East. We continue to call for the protection of civilians, unhindered humanitarian assistance, and renewed diplomacy towards lasting peace.
+
+Furthermore, Tanzania remains firmly committed to the two-State solution, with Israel and Palestine living side by side in peace and harm ony, in accordance with international law and relevant UN resolutions. We reaffirm the right of the Palestinian people to self -determination and believe that lasting peace must guarantee the dignity, security and legitimate aspirations of both peoples. We have been consistent on this for the past 50 years. For us, this is a matter of our foreign principle.
+
+8. Tribute to the outgoing UN Secretary-General Mr. President; On behalf of the people of the United Republic of Tanzania,
+
+I wish to pay tribute to H.E. António Guterres as he concludes his distinguished tenure as the SecretaryGeneral of the UN. During his tenure, he steered the UN through an exceptionally challenging period marked by conflicts, geopolitical tensions, the COVID -19 pandemic, climate emergencies and growing pressure on multilateralism. In all these situations, he remained firm and undeterred.
+
+Tanzania appreciates his support for Africa’s aspirations for peace, sustainable development, climate justice and a fairer international financial architecture, as well as his personal engagement with our country.
+
+Similar accolades are for Ambassador Amina Mohammed,
+
+Deputy Secretary-General, who has played a pivotal role in advancing the SDGs, advocacy for women, children and those whose voices are too often unheard. We shall miss your contribution, but Africa is proud to welcome its daughter back home. To both of you, we wish you every success and fulfillment in the years ahead.
+
+9. Conclusion Mr. President; In conclusion, I wish to underscore that the UN must not merely reflect on the balance of power but serve as a platform for justice, solidarity, and progress. As we take stock of its invaluable contribution to the advancement of humanity, maintenance of international peace and security, socioeconomic progress, and sustainable development over the past 81 years, let us be reminded that there are more mountains to climb and milestones to accomplish. Tanzania believes that it is only by respecting and living by the Charter that we can honor the past and build a safer and better future for all.
+
+Thank you for your attention.

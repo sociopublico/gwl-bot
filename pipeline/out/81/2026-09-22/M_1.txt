@@ -1,7 +1,7 @@
 ---
 session: 81
 slug: secretary-general-united-nations
-id_speech: M_37
+id_speech: M_1
 country: Secretary-General of the United Nations
 speaker: António Guterres
 title: Secretary-General
@@ -13,7 +13,7 @@ language: en
 original_language: und
 transformation: none
 via: pypdf
-elapsed_s: 0.964
+elapsed_s: 0.426
 ---
 
 Mr. President,

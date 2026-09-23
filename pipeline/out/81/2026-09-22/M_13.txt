@@ -1,0 +1,219 @@
+---
+session: 81
+slug: finland
+id_speech: M_13
+country: Finland
+speaker: Alexander Stubb
+title: President
+speaker_title: His Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/fi_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.655
+---
+
+Mr President, Mr Secretary-General, Excellencies, Ladies and Gentlemen,
+
+Former Secretary-General Kofi Annan once said: “Whatever our differences, [...] we stand or fall together. ” When we forget this, disorder is what happens.
+
+Last year, from this very podium, I stated that foreign policy is based on three pillars: values, interests, and power.
+
+This year, I come with something simpler. A choice. Co-operation or conflict.
+
+In today’s world, co-operation is undermined by a lack of trust, disregard for rules, and the weakening of institutions.
+
+Conflicts are spreading, bringing suffering, violence, and injustice.
+
+According to some accounts, there are currently 65 active armed conflicts – more than at any time since the end of the Cold War.
+
+Competition will always be there. Nations compete now harder than they did a generation ago. That doesn’t worry me. What does, is that more and more of them now compete against the rules on which the international order rests.
+
+So, this speech defends the rules. And it calls for co-operation. Small nations need it to survive. Large nations need it to stay great.
+
+Upholding the most basic rules, values and institutions is our best option to ensure that competition does not escalate into conflict. And that co-operation gains ground.
+
+Now, I want to begin by analysing how the world is changing today. And as a pragmatic Finn, I will always try to deal with the world as it is, because it often helps in building a world that I wish we would have. In other words, a world we can build together.
+
+I will then make a few suggestions about what we should do next.
+
+*** We should all be steadfast defenders of multilateralism. As Strobe Talbott reportedly remarked, multilateralism is hell, and can be a real pain in the neck. But it is the best option for humanity as a whole.
+
+We need multilateralism in order to address our shared agenda, ranging from armed conflicts and climate change to sustainable development and artificial intelligence.
+
+Currently, however, we seem to be going the other way: towards a non-cooperative multipolar world order.
+
+This order, as it turns out, is based on zero-sum deals, transactions, and unrestrained power. This is a short-sighted approach.
+
+Tempting as it may be for some, such a multipolar order will ultimately lead to conflict. It will turn against us, whether you represent a great power, a middle power, or a small state, like Finland.
+
+Between these two approaches, there is a third option: plurilateralism. It means building ad hoc coalitions when global co-operation is unattainable.
+
+And this is my first observation today: the emergence of flexible forms of co-operation around different themes and interests. Be it in the economy, climate, defence, or technology.
+
+Coalition-building can be a force for good. But with one condition: it should not challenge multilateralism, but build on it. It should support the UN system, not substitute it.
+
+The Coalition of the Willing for Ukraine is particularly close to my heart. It is a group of countries working to end Russia’s war of aggression. The war is unlawful, unjustified and unprovoked. Its solution will have far-reaching consequences for Ukraine and beyond.
+
+The Coalition works for a just and lasting peace in Ukraine in accordance with the UN Charter. It seeks to uphold the basic tenets of the international order.
+
+My second observation is that everywhere I travel, I hear the word ‘realignment’.
+
+Whether it is in Europe, Africa, the Middle East, Asia, or the Americas, nations are seeking new alliances and partnerships.
+
+This is a logical consequence in times of uncertainty and transformation. You seek security where you can get it.
+
+We are seeing an intensification of regional integration akin to what we saw in the immediate aftermath of World War II.
+
+Regional organizations like the African Union, Gulf Cooperation Council, Mercosur, ASEAN or the EU build trust.
+
+When integration is not feasible, other forms of co-operation can prove essential. We Finns are happy to point to the historic signing of the Helsinki Final Act in 1975. It brought together 35 nations in the midst of the Cold War and laid the foundations for what would later become the Organization for Security and Co-operation in Europe.
+
+There was no trust. There were deep disagreements. And outright hostility. Yet there was room for a process that reduced tensions and built common ground.
+
+I believe regions, such as the Middle East, where conflicts are raging today, may consider something similar.
+
+Even in the face of conflict and grievance, a region may be able to agree on principles that foster cooperation and prevent further conflict.
+
+My third observation is that a new economic world order is taking shape.
+
+Instruments once used for economic integration – including trade, technology, energy, investment, and supply chains – have become instruments of geopolitical competition.
+
+There was perhaps, at times, a naïve belief that interdependence would bring about stability and peace. Now, the focus on opportunities has been replaced by the focus on threats.
+
+We have entered a world of coercion, where dependencies are vulnerabilities. Countries seek chokepoints that can be weaponized to pressure others.
+
+But dependencies are complex. No nation, not even the biggest ones, can go it alone. All coercive actions come at a cost.
+
+And even if a mightier state dominates in one domain, a smaller state can respond in another.
+
+In the new geopolitical environment, the economic order of the post-World War II era is seeking new forms.
+
+The new order must be based on a realistic understanding of the power balance in the world.
+
+We in the West must acknowledge that the Global South and East are an expanding economic and political force.
+
+Many nations around the world have made remarkable advances in competence and know-how. We should put this collective expertise to work for the global common good.
+
+Countries are right to be wary of dangerous dependencies. But our focus on threats should not lead us to abandon co-operation.
+
+We should strive for an economic world order built on institutions and agreements. Multilateralism is also needed in the global economy.
+
+*** It is all well and good to diagnose the problem: too many nations now compete at the expense of basic rules, and that is why the world has slipped into disorder.
+
+But it matters more to find a prescription which would bring us back to order, stability and cooperation.
+
+Thus, I will offer you three remedies for a world in disorder. To begin with, we need to go back to the basics of international law.
+
+On my recent visit to India, I came across a quote from Mahatma Gandhi: “The breach of one rule inevitably leads to the breach of other rules”. These words resonate all too strongly today.
+
+We have moved back to a world defined by raw power and narrow self-interest.
+
+Rules and values seem to be taking a back seat. Some are ready to throw in the towel, prepared to accept the defeat of the international rules-based order.
+
+That is an exaggeration. International law has been questioned and challenged before. It has never been a perfect system.
+
+But we must admit that we are at a critical juncture. Fundamental norms are being questioned in a way that erodes confidence in the entire multilateral system.
+
+Therefore, the first remedy for a world in disorder is rule of law.
+
+Today, international norms are often presented as an obstacle to the pursuit of national interests. This is both wrong and dangerous.
+
+International law has never been merely an effort to achieve universal justice, but neither can it be reduced to a mere instrument of domination.
+
+It is not only about values, nor only about interests, but about both.
+
+Despite the rhetoric, no major power is likely to give up its ability to shape the rules.
+
+Even when actors claim to abandon rules, they rather seek to replace existing rules with ones more to their liking.
+
+Therefore, we will not face a world without rules. But we could be facing a world with less predictability, less restraint – a world based on rules that are more permissive for the powerful.
+
+For the collective benefit of the nations in this Hall, we should continue to defend the rule of law and uphold its most fundamental principles. They include the independence, sovereignty, and territorial integrity of nations; freedom of navigation at sea; and accountability for the most serious international crimes.
+
+The second remedy is about humanitarian principles.
+
+The world today has an unprecedented capacity to meet humanity’s most pressing needs.
+
+Since the establishment of the United Nations, poverty has declined, access to basic education has expanded, literacy has increased, and child mortality has fallen.
+
+Yet, we are witnessing tyranny, disregard for the vulnerable, and violence against civilians in many parts of the world. Poverty and distress are still widespread.
+
+For example, Sudan is devastated by war. Millions have been displaced, and many face famine.
+
+Gaza continues to be one of the world’s most acute humanitarian emergencies, marked by mass displacement, the destruction of infrastructure and a lack of essential services.
+
+Haiti struggles with armed violence and extreme weather events, causing a displacement crisis, a hunger crisis, and a health crisis.
+
+We must not grow indifferent to wars and human suffering, but instead channel our efforts into preventing conflicts, upholding human rights, and strengthening sustainable economies.
+
+Our growing material prosperity should not come at the expense of our ethical responsibilities.
+
+The third remedy is about language and the way we treat each other.
+
+Unfortunately, there is no shortage of examples of those who use dismissive language to describe others and entire groups of people.
+
+Too often, those with the most provocative rhetoric receive the greatest visibility.
+
+Provocation is rewarded with attention. Excess is misinterpreted as courage. Exaggeration as the truth.
+
+Language can foster co-operation, but it can also break trust and turn competition into conflict.
+
+The recipe is simple, but necessary: avoid polarization, strengthen trust, and listen to others.
+
+We need dignified foreign policy. And that starts here, at the United Nations.
+
+*** Ladies and Gentlemen,
+
+I would like to thank Secretary-General Guterres for his service and his dedication to reforming and rationalising the UN system. This work must continue.
+
+Every Secretary-General is shaped both by their era and by their own actions.
+
+I was reminded of this recently when reading the biographies of former Secretaries-General U-Thant and Kofi Annan, both highly influential leaders who navigated an era of great-power tensions.
+
+Let me put forward a few suggestions for the new Secretary-General’s consideration, whoever she may be, and for the international community at large.
+
+Since my first speech here two years ago, I have consistently called for a reformed Security Council.
+
+The world has changed, so should the UN.
+
+There should be, at least, two new permanent seats for Africa, two for Asia-Pacific and one for Latin America.
+
+No single state should have veto power. And, if a member of the Security Council violates the UN Charter, its voting rights should be suspended.
+
+The world needs a functioning UN Security Council. To move forward, we need to break the impasse and be open for creative solutions.
+
+The need for reform also extends to the global economic architecture. It, too, must be updated to reflect today’s power balance.
+
+We have to make sure international economic co-operation continues to be rules-based, legitimate, and representative. Multilateral solutions are needed in an increasingly multipolar world.
+
+We must also bring the United Nations back to peace mediation. The Secretary-General, as MediatorIn-Chief, will have a key role.
+
+The UN’s legitimacy as a mediator is unique. Together, the UN and its Member States can accomplish what neither can achieve alone.
+
+The UN needs to be at the centre of rule-making and institution-building. Regional integration and thematic coalitions can and should support it.
+
+Artificial intelligence is the most consequential technology in the history of mankind. It will impact science, the economy, politics, security, and the very essence of our humanity.
+
+Humans can and should be in the driver’s seat. We have a choice: we can compete, co-operate or slow down. For me, co-operation is the best way forward.
+
+This is why Norway and Finland have, together with leaders from nations around the world, launched a call for companies, governments, regional organisations and the UN to develop mechanisms to control frontier models of AI.
+
+My country, Finland, wants the United Nations to succeed and will remain strongly engaged in its work.
+
+Therefore, we are standing for election to the Security Council from 2029 to 2030.
+
+We are motivated by our belief in the UN Charter and the values it stands for. We will prioritize peace, people, and partnerships.
+
+We are willing to take on the responsibility of the Council membership at a time that calls for more peace. We want people and nations to thrive. We believe in dialogue and co-operation.
+
+Finally, let me make a procedural proposal. The foundations of the United Nations were built in San Francisco over 80 years ago.
+
+Today, we must restore balance to the world order. We must recommit to the fundamental principles of the international order. And we must embrace co-operation over conflict.
+
+What the world needs now, is a new San Francisco moment. A moment where world leaders come together to chart the way forward. A process to achieve this should start with the new SecretaryGeneral.
+
+Thank you.

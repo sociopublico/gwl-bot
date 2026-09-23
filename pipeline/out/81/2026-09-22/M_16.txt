@@ -1,0 +1,189 @@
+---
+session: 81
+slug: mongolia
+id_speech: M_16
+country: Mongolia
+speaker: Khurelsukh Ukhnaa
+title: President
+speaker_title: His Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/mn_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.642
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Distinguished delegates,
+
+Ladies and gentlemen,
+
+At the outset, I wish to extend my sincere congratulations to Mr. Khalilur Rahman on assuming the important role of the President of the eighty-first session of the United Nations General Assembly and to convey my best wishes for the successful session.
+
+This session of the General Assembly is convening on the eve of the 65th anniversary of Mongolia’s full-fledged membership in the United Nations.
+
+In 1961, Mongolia made history by raising its national flag with the golden Soyombo at the United Nations and becoming the 101st member of the United Nations, the guarantor of global peace and security and the beacon of hope and trust for the world's nations.
+
+Mongolia welcomes the convening of the eighty-first session of the United Nations General Assembly under the theme “Restoring Trust, Managing Transformation: A United Nations that Delivers for All,” reaffirming its belief in the central role of the United Nations in fostering mutual trust, mutual respect, and cooperation among the nations and peoples of the world.
+
+Mongols say, “If you do your best, fate will do the rest.”
+
+The United Nations is an organization based on the trust and commitment of each Member State, and the UN is strengthened by their dedication and sustained efforts.
+
+Therefore, it is incumbent upon us, Member States, to uphold the mission of the United Nations with a sincere heart. Rather than simply expecting support and assistance, we must remain deeply conscious of our own responsibilities and duties and dedicate our wholehearted efforts to strengthening the United Nations.
+
+It is through trust and hope, dedication and commitment, and engagement and participation of every Member State, that we can strengthen the United Nations. A stronger United Nations, in turn, will deliver more efficiently towards global peace, security, and sustainable development, thereby creating conditions for all Member States to benefit.
+
+As the conflicts and confrontations flash across the world, the walls of distrust rise higher, and the chasm of misunderstanding grows deeper, it is becoming crucial to shape and develop international relations not through a form of multi-polarity that risks driving the world toward division, but through a multi-pillared principle that respects the pluralism inherent in each nation's history, culture, civilization, core national interests, and chosen path of development.
+
+Eight centuries ago, our ancestors established the great "Pax Mongolica," promoting, for the first time, the idea to the world that nations could mutually recognize one another's values and that peoples of diverse civilizations and faiths could coexist. This historic contribution of the Mongols to the advancement of humankind continues to be recognized by the international community.
+
+Let us strengthen multilateral cooperation through the multi-pillar principle inspired by the ideas of "Pax Mongolica," so that we may restore our trust and hope through shared responsibility, reform the United Nations with a common purpose, and build a better, more peaceful world through the strength of our collective action.
+
+Mr. President,
+
+Despite the remarkable heights of development and progress humanity has reached, our planet is currently confronted with more than 90 armed conflicts, around 30 of which are international, demonstrating that global peace and security remain unstable and th at geopolitical and geostrategic competition continues to intensify.
+
+This results in the disruption of global economic supply chains, a rise in thein the prices of energy, fuel, raw materials, and food, as well as economic strains on nations around the world.
+
+All of this is weakening the international order established since the Second World War, changing the universally recognized norms of international law, and undermining the stability of multilateral relations and cooperation.
+
+Mongolia shares the view expressed by United Nations Secretary-General António Guterres in his Annual Report on the Work of the Organization that in a world marked by turbulence, division and uncertainty, the United Nations is more necessary than ever.
+
+Hence, Mongolia underscores the tangible progress made under Secretary-General’s UN80 initiative to improve the effectiveness and efficiency of the United Nations in response to the challenges of our time, and reaffirms its active support for this initiative.
+
+The effectiveness of the United Nations, the decisiveness of its actions, and the ability of nations to unite their efforts will ultimately depend upon us, the Member States.
+
+Mongolia is confident that the soon-to-be-appointed Secretary-General will steadfastly uphold the purposes and principles of the United Nations and international law, ensure that the voices and positions of all Member States are equally heard and reflected, and provide strong leadership in restoring trust and managing transformation within the United Nations.
+
+Believing that reform of the Security Council should be at the core of broader United Nations reform, Mongolia maintains its principled position in support of expanding the number of both permanent and non-permanent members of the Security Council, ensuring equitable representation of developing countries in the Council, and promoting greater openness and transparency in its work.
+
+Mongolia is one of the 58 countries that have never served as a non-permanent member of the United Nations Security Council.
+
+Therefore, Mongolia aspires to actively participate in the work of the Security Council and contribute to finding collective solutions to the problems and challenges facing the international community.
+
+In manifestation of this aspiration, I officially announce from this rostrum today that Mongolia is presenting its candidature for a non-permanent seat of the UN Security Council for the term 2048-2049.
+
+Mr. President,
+
+On behalf of the people of Mongolia, I extend my heartfelt gratitude to the United Nations and its system organizations for their valuable contributions to our country’s development and progress and their longstanding constructive cooperation over the 65 years since Mongolia’s accession to the United Nations as a full-fledged member.
+
+Mongolia has been contributing with honor to the efforts on strengthening international peace and security, advancing social and economic development, and protecting human rights - the core pillars of the United Nations.
+
+For instance, more than three decades ago, in pursuit of its foreign policy to ensure national security through political and diplomatic means, Mongolia declared its territory nuclear-weapon-free.
+
+Since then, Mongolia has consistently pursued policies and taken actions to verify this status legally. In this spirit, the United Nations General Assembly adopts, on a biennial basis, the resolution entitled "Mongolia's international security and nuclear-weapon-free status," initiated by Mongolia in 1998.
+
+Furthermore, Mongolia has made tangible contributions to global efforts to maintain international peace and security through its active participation in United Nations Peacekeeping Operations and other international missions, having deployed more than 23,000 military and police personnel to hotspots around the world since 2002.Even today, our troops are serving in the "Gang Suppression Force" multinational police and military mission deployed to Haiti.
+
+Mongolia has been actively advancing the implementation of United Nations Security Council Resolution 1325, “Women, Peace and Security,” and has become one of the few countries to have reached 15 percent women’s representation among its military personnel serving in United Nations Peacekeeping Operations.
+
+Since 2006, when Mongolia deployed its first female peacekeeper to the UN mission in Western Sahara, Mongolian women have made valuable contributions to global peace over the past two decades through their courage, resilience, and ingenuity.
+
+In this connection, Mongolia plans to host the second international conference on "Women's Participation in UN Peacekeeping Operations" in Ulaanbaatar in 2027.
+
+I am pleased to highlight Mongolia’s active leadership within the United Nations in advancing the interests of landlocked developing countries, drawing greater international attention to their special needs and unique circumstances, and cooperating with th ese countries to ensure that their voices are heard on the global stage.
+
+Mongolia has launched several important initiatives in this regard, including serving as one of the founding members of the Group of Landlocked Developing Countries at the United Nations and the establishment of the International Think Tank for Landlocked Developing Countries in Ulaanbaatar.
+
+To translate the Awaza Programme of Action into tangible outcomes, it is essential for landlocked developing countries to align the Programme with their national development agendas and make full use of available resources and opportunities to accelerate regional integration and cooperation.
+
+We also call upon the international community, banks, financial institutions, and development partners to provide credible assistance to landlocked developing countries through their support and collaboration.
+
+Mr. President,
+
+As the deadline for the 2030 Agenda for Sustainable Development approaches, the 2026 SDG report shows that only 36 percent of the Sustainable Development Goals are on track or making moderate progress, while 15 percent are regressing.
+
+It is deeply regrettable that, according to the latest report of the Stockholm International Peace Research Institute, released at this critical time, global military expenditure has reached an all-time high of 2.9 trillion USD.
+
+It is time for all of us to ponder and reflect with common sense on what progress could have been achieved in the development of human society if this huge budget and funds had been spent on tackling pressing issues such as combating global warming and cli mate change, and improving education, health, food security, and advancement of women and children.
+
+According to the Sustainable Development Report 2026, Mongolia has achieved 68.8 percent of the SDGs, reflecting the tangible results of our efforts and the progress we have made in recent years.
+
+As a country experiencing the adverse impacts of climate change first-hand, Mongolia has remained steadfast in contributing to global collective efforts to protect and preserve our natural environment.
+
+In this regard, Mongolia is successfully implementing a series of national policies and initiatives, including the “Billion Trees,” “Food Revolution,” “White Gold,” “Blue Gold,” and “Healthy Mongolian,” aimed at restoring degraded land, expanding forest resources, protecting soil, water and pastureland, ensuring food supply and security, and supporting sustainable rural development.
+
+Mongolia’s “Billion Trees” National Movement goes far beyond tree planting and afforestation; it is a comprehensive, nationwide initiative aimed at combating desertification and land degradation, scaling up land restoration, expanding forest resources, protecting soil fertility, water resources and biodiversity, mitigating the adverse impacts of climate change, improving food supply, and creating employment opportunities.
+
+Furthermore, the United Nations General Assembly resolution initiated by Mongolia proclaiming 2026 as the International Year of Rangelands and Pastoralists provides an opportunity to raise global awareness of the importance of rangeland ecosystems, support the livelihoods of pastoralists, strengthen sustainable food systems, conserve biodiversity, and preserve the cultural heritage of nomadic peoples.
+
+In this regard, Mongolia, with its millennia-old tradition of nomadic pastoralism, took the initiative to convene the Global Pastoralist Gathering and Conference in Ulaanbaatar.
+
+The Gathering brought together around 400 herders from 57 countries, whose opinions and fruitful discussion of challenges and solutions culminated in the adoption of the Ulaanbaatar Declaration.
+
+Moreover, in August, Mongolia successfully hosted the seventeenth session of the Conference of the Parties to the United Nations Convention to Combat Desertification in Ulaanbaatar, under the theme “Restoring Land, Restoring Hope.”
+
+Restoring Mother Nature to its pristine state and creating conditions for future generations to live in a healthy environment with confidence and contentment must be a noble duty of humanity.
+
+Mother Nature and healthy soil are the guarantee of humanity's existence, and the foundation of food and water resources, livelihood, and sustainable development.
+
+Healthy soil means healthy food, and healthy food means healthy people.
+
+Therefore, desertification, land degradation, and drought should not be viewed merely as environmental issues but should be addressed holistically in connection with food supply and security, water resources, livelihoods, sustainable development, and global peace and security.
+
+In this spirit, as the Presidency of UNCCD COP17, Mongolia has advanced the Steppe Action Agenda, built upon three interconnected flagship initiatives: the Rangelands Flagship Initiative, the Water-Land Nexus Initiative, and the Nature-based Solutions for Sustainable Infrastructure Initiative.
+
+Particularly, we regard the Rangelands Flagship Initiative as a landmark global movement that opens a new chapter in the history of rangeland conservation.
+
+This initiative is special in raising global awareness that the protection, sustainable management, and restoration of rangelands are of strategic importance for building resilience to climate change, ensuring food security, and maintaining balanced ecosystems.
+
+The nomadic way of life that we Mongols have inherited and carried forward over thousands of years embodies a comprehensive set of values and wisdom for living in harmony with nature and preserving it in its pristine state.
+
+Today, we Mongols aim to share with the world our cultural heritage and the traditional knowledge and experiences gained from living in harmony with nature, thereby contributing to enhanced adaptation and resilience to climate change.
+
+Mr. President,
+
+Mongolia consistently adheres to the principle of resolving any conflicts through diplomacy and multilateral dialogue, while maintaining longstanding friendly relations with the countries of the region.
+
+Building on this distinctive advantage, Mongolia held the 11th International Conference of the Ulaanbaatar Dialogue on Northeast Asian Security this year.
+
+The Ulaanbaatar Dialogue has evolved into a unique platform for strengthening trust and confidence-building across Northeast Asia, facilitating multilateral discussions among government delegates and scholars, not only on traditional security challenges such as political and disarmament matters, but also on a broad range of issues including energy, infrastructure connectivity, green development, and humanitarian cooperation.
+
+Furthermore, as an active member of the United Nations, Mongolia has contributed to international cooperation to advance gender equality, strengthen women’s political participation and leadership, and increase their representation at decision-making levels.
+
+In recent years, Mongolia has established a tradition of hosting international events dedicated to women in our country, including the International Conference on Strengthening the Role of Women in Peacekeeping in 2022, the Female Foreign Ministers’ Meeting in 2023, and the World Women’s Forum in 2024, in collaboration with the United Nations, and the World Women Entrepreneurs’ Forum in 2025.
+
+Hence, I am confident that the World Women Parliamentarians’ Forum, to be held in Ulaanbaatar on October 12-13 this year, will substantially contribute to strengthening women’s political leadership and inter-parliamentary cooperation, thereby advancing gender equality and accelerating progress towards achieving the Sustainable Development Goals.
+
+I cordially invite you to participate in this important event at a high level and with broad representation.
+
+Mongolia will continue to serve as a solid bridge for partnership, cooperation, and solidarity in advancing women’s social and political leadership and participation at all levels.
+
+Mr. President,
+
+Mongolia has consistently championed and supported numerous initiatives within the international community aimed at preserving and promoting cultural heritage, traditional knowledge, and the shared values of humanity.
+
+For instance, in 2025, at Mongolia’s initiative, a United Nations General Assembly resolution proclaiming World Horse Day was adopted, which recognizes the invaluable contribution of horses to the history, civilization, and socio-economic development of peoples around the world.
+
+Moreover, last July, the Cemetery Complexes of the Xiongnu Nobility, Mongolia’s first statehood, were inscribed in the UNESCO World Heritage List, reflecting international recognition of their historical and cultural significance.
+
+It is my pleasure to underline that Mongolia is serving for the first time as a member of the UNESCO World Heritage Committee for the term 2026-2029.
+
+Moreover, this year marks the 820th anniversary of the Great Mongol Empire founded by Great Chinggis Khaan, Man of the Millennium, King of Kings.
+
+The United Nations General Assembly resolution adopted on the occasion of the eight hundred years of Mongolian statehood highly values and emphasizes the contribution of Mongols to the history of humankind by “recognizing the richness of nomadic civilization and its important contribution to promoting dialogue and interaction among all forms of civilization, and that nomadic civilization influenced, inter alia, societies across Asia and Europe and, in turn, absorbed influences from both East and West in a true interchange of human values, the important role in the development of extensive trade networks and the creation of large administrative, cultural, religious and commercial centers.”
+
+This demonstrates that these historical contributions embodied progressive ideas that could serve as a foundation for today’s collective efforts to safeguard peace and stability.
+
+For example, the renowned Mongolist Władysław Kotwicz, in his work “Mongols are the promoters of the idea of global peace from the early 14th century,” noted that Öljeitü, IlKhan of the Mongol Empire, in his letter sent to King Philip IV of France in 1305, eloquently underscored the value of harmonious relations among nations and peoples in the thoughtful words, “What could be better than true concord?”
+
+History is the foundation upon which we reflect on the past, shape the present, and build the future, and it is the memory of our statehood.
+
+Scholars advise that studying the establishment of “Pax Mongolica” by Great Chinggis Khaan and his successors, as well as the history of its foreign policy and diplomacy, offers good practices and enduring lessons.
+
+Hence, we, the Mongol people, who are guarding the sacred hearth of the Great Mongol Empire, wish to call upon from this mighty rostrum of the United Nations that if the nations of the world can bring together their efforts, it is possible to establish a Pax Globalica, a Global Peace, embodying the vision of the Pax Mongolica, which, eight centuries ago, laid the foundation for nations to coexist in peace and for humanity to flourish.
+
+The role and contribution of the United Nations in further strengthening mutual understanding, mutual trust, and mutual respect among world nations, and in fostering a peaceful world free from war and conflict, where all can prosper together, are becoming increasingly critical than ever.
+
+Therefore, let us work together to empower the United Nations, the guarantor of world peace and security and a source of hope and trust for the nations of the world, into a strong and respected Organization capable of bringing Pax Globalica!
+
+May the eternal blue sky bless humankind forever with peace across the world.
+
+Thank you for your attention!

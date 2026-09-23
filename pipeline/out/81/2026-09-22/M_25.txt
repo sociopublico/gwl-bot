@@ -1,0 +1,199 @@
+---
+session: 81
+slug: naoero
+id_speech: M_25
+country: Naoero
+speaker: David Ranibok Adeang
+title: President
+speaker_title: His Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/nr_en_0.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.612
+---
+
+Mr President,
+
+Mr Secretary-General,
+
+Excellencies,
+
+Distinguished Delegates,
+
+Ekamawir Omo. I bring you warm greetings from my people and my country.
+
+We meet under the theme, “Restoring trust, managing transformation: a United Nations that delivers for all.” For my country, that means ensuring no nation — regardless of size or distance — is left behind as the world changes around us.
+
+Mr President,
+
+Let me begin by congratulating you on your election to preside over this eighty -first session. My delegation assures you of our full support, and we thank your predecessor for the stewardship of the eightieth session.
+
+We also pay tribute to Secretary-General António Guterres. This is the last General Debate of his tenure, and my country records its gratitude for a decade in which the smallest States were heard more often than before.
+
+I have travelled far to speak on matters that may seem distinct, but are united by a single, fundamental principle: the right of every people to be treated as an equal, and to speak for itself.
+
+Mr President,
+
+There are moments in the life of a nation when its people are called to remember who they have always been. This is such a moment for us. And so I begin with something deeply personal to my people and my country: our name.
+
+For many years, the world has known our country as Nauru. Nauru is how our name sounded to those who found it hard to say, and the world kept it. But it is not the name our people used among themselves.
+
+I rise on my first point not to announce a change, but to affirm a truth. Long before our country took its place among the family of nations —long before our name appeared on international records—our people knew our homeland by one name: Naoero.
+
+That name carries the memory of our ancestors, our language, and our identity. It has been there all along. Never lost, never absent. Today, we restore Naoero.
+
+We do not make this choice to erase our past. We make it because we honor it. We do so with respect for our history, and with gratitude for the journey “ Nauru” has carried us through to our independence and our place on the international stage.
+
+Mr President,
+
+My Government’s priority is investing in our people and our future generations. Restoring our name gives back to them a piece of their inheritance. Because the identity handed down by our own ancestors has a place in the community of nations. Because their history and language matter.
+
+Because they too have the right to inherit a nation that knows itself, names itself, and speaks for itself.
+
+In light of this year's theme, let me say this: there can be no genuine trust and no true transformation without respect for the identity, history, language, and right of every people to be treated as an equal, and to speak for itself.
+
+I take the opportunity now to convey my sincerest gratitude to the Secretariat, this Assembly, and the many institutions and partners who have taken steps to recognise our restored name. It may seem a small courtesy but it meant a great deal at home.
+
+And so Mr President,
+
+I say this with the greatest pride: Anga dei-Naoero (which means ‘I am from Naoero’). And so is every person I have the honor to speak for today.
+
+We take our seat under that name proud of where we have come from. Confident in who we are.
+
+And determined to carry our name into the future.
+
+What I ask of the world costs nothing. Join us in recognizing and respecting the identity that is already ours.
+
+Say our name. Naoero.
+
+DEEP SEABED Mr President,
+
+Naoero is an ocean State. We are not merely guardians of the ocean, but rightful participants in its future. For Naoero, the ocean represents both opportunity and responsibility. Never one without the other. Both are essential, or the United Nations Convention on the Law of the Sea is left hollow.
+
+Today, I focus on a part of it that belongs to no one —the deep seabed area beyond national jurisdiction.
+
+Mr President,
+
+The Convention established the International Seabed Authority and charged it with a clear legal obligation to put in place regulations and regulate activities in parallel with sponsoring States. Its role is not to determine whether deep seabed mining is, as a matter of public policy, a correct course of action.
+
+Naoero joined trusting in the commitments set out in the Convention and the 1994 Agreement. For fifteen years, Naoero has invested critical resources in sponsoring the exploration of a portion of the deep seabed. Our sponsored entity, Nauru Ocean Resources Inc, has contributed about one petabyte of data — more than one-third of all Clarion-Clipperton Zone data held in the Authority’s DeepData.
+
+We called on the Authority to seek an Advisory Opinion on the responsibilities of sponsoring States, and we followed it. We established a national regulator with the powers and due diligence obligations that opinion requires.
+
+At every stage, our decisions have rested on the best available scientific evidence, on the Convention, and on that Opinion. At every stage, we have called for the Mining Code to be finished. And when progress stalled, we looked to the 1994 Agreement and invoked the two-year rule. We were told we were rushing. That was five years ago, and the rules remain unwritten.
+
+We are participating in the first contentious proceedings before the Seabed Disputes Chamber, because our obligations as a sponsoring State require legal clarity.
+
+For fifteen years we have done everything a member State can do consistent with our obligations as a sponsoring State. And we continue to wait.
+
+Mr President,
+
+There is a general understanding within the Authority ’s Council that “ nothing is agreed until everything is agreed”. And that the regulations will be adopted by consensus. Achieving that is a great challenge for an institution whose members remain deeply divided on whether deep seabed mining should proceed at all. A question the Convention never asked the Authority to decide.
+
+Naoero welcomes every effort to ensure that seabed mineral development proceeds responsibly.
+
+And I ask this Assembly to reckon with this: a principle declared in 1970, and a bargain struck in 1994 — both in this hall — still wait for the rules that would give them effect.
+
+When a multilateral process cannot deliver, the world does not stand still. Those with the means to act will not wait. And every year of delay makes that more likely, not less.
+
+That is why the theme of this session matters. A multilateral system that cannot deliver for a State like mine does not deliver for all. That holds here in this Assembly, and in any institution we build.
+
+Naoero therefore calls upon the Authority to let the waiting end. Adopt the rules.
+
+Mr President,
+
+My Government’s central purpose is to put Naoero on its own feet.
+
+That work is under way. Our Trust Fund, to which we contribute more than ten per cent of our revenue every single year, so that Naoero has something to stand on when these arrangements end.
+
+Our fisheries. The seabed. Joining the Egmont Group. New revenue through our investment and residence programmes. A virtual asset regulator built with full due diligence obligations before the industry it regulates. Our valuable partnerships. And behind all of it, investment in health, education and sport, so that our people are not only better off but healthier and better prepared.
+
+We are building an economy that does not depend on any single arrangement. And by every measure of fiscal discipline, we have done what was asked of us.
+
+Yet the measure by which we are assessed sees none of it. It sees income, and nothing else. It does not capture the full story of my nation: the true cost of our geographic isolation, the fragility of our limited economic base, or the devastating impact a single disaster can have on our people and our progress.
+
+In January 2027, Naoero will be considered a high -income country in the OECD system. That reflects real progress. But progress should not be punished.
+
+Because fifty-eight per cent of our revenue comes from bilateral arrangements that are not ours to renew. Eighty-seven per cent of the food our people eat is purchased and imported. We have one runway. One port. One road that connects everything we have.
+
+None of that appears in how we are assessed.
+
+That is why we strongly support the Multidimensional Vulnerability Index and the United Nations’ efforts to pilot the tool. Its full implementation is essential to ensuring that countries like ours are fairly assessed and adequately supported. It recognises that vulnerability is complex, and it must be seen, measured, and acted upon.
+
+Mr President,
+
+We acknowledge the significant progress made by some development partners and financial institutions in adopting vulnerability assessments and reviewing their eligibility criteria. The Asian Development Bank (ADB) weighs vulnerability alongside income, and its own policy names my nation as the clearest example of why income alone conceals what small island states face. As a country that is ranked the fifth most vulnerable country in the world on the Index, and the most vulnerable in the Pacific, we welcome these developments as positive steps.
+
+But a gap remains. Not all have taken the necessary steps to truly recognise our realities. I therefore urge all who have yet to do so, including the World Bank, to weigh vulnerability alongside income in decisions on eligibility, as the ADB already does.
+
+If the international community is truly serious about restoring trust and managing transformation, it must demonstrate that commitment where it matters most: with those who are most vulnerable.
+
+PARTNERSHIP Mr President,
+
+I turn to my final point. No country of our size stands alone. Naoero is a friend to all and an enemy to none.
+
+Naoero’s partnerships are not all of one kind. Some are born of kinship. Some of shared interests.
+
+Some have been built through decades of cooperation. And some are grounded in the conviction that when a wrong persists, it must be named and addressed.
+
+Each relationship matters. None is a substitute for another. And none comes at the expense of another.
+
+Mr President,
+
+Small States are increasingly asked to choose. B etween partners, between blocs, between competing visions of the world. Naoero will not be made to choose. We will work with every partner who respects our sovereignty and our right to decide our own future. That is not neutrality.
+
+It is independence.
+
+Partnership does not mean agreement on everything. It means standing together where interests align, and standing on principle where they do not.
+
+A friend I speak for today has been waiting for justice. I am asking this Assembly to honour its word, and I cannot then fall silent when that word is broken for someone else. For thirty-three consecutive years, this Assembly has called for an end to the embargo against Cuba. Naoero reiterates that call and we encourage dialogue grounded in full respect for sovereignty. Because sovereign equality must be more than a principle written in the Charter.
+
+Whatever this Assembly intends to deliver, it will be delivered through partnership and cooperation, or not at all.
+
+So let me extend an invitation to the members of this Assembly.
+
+Invest in our people. Invest in an economy that rests on more than a handful of arrangements.
+
+Invest in institutions that will outlast my Government and the next. Invest in the infrastructure, connectivity and opportunities that distance has too often denied us.
+
+What Naoero offers this Assembly is not dependence, but participation. Not expectation, but contribution. Not a beneficiary, but a partner.
+
+Invest with us, not simply in us.
+
+Mr President,
+
+Everything I have raised today concerns this Organization and what it has promised.
+
+So does this:
+
+The Security Council does not reflect the world as it is. It reflects the world as it was in 1945, when most of the countries in this hall did not yet exist as sovereign States. Naoero therefore calls for reform that expands both the permanent and non-permanent categories.
+
+A body that speaks for all of us should look like all of us.
+
+CONCLUSION Mr President,
+
+As I draw my statement to a close, the matters I have raised may appear separate. They are not.
+
+Our name is about sovereignty. How we are measured is about justice. The deep seabed is about opportunity and responsibility. Our partnerships are about standing as equals. One principle binds them: the right of every people to be treated as an equal, and to speak for itself.
+
+You have convened this Assembly to restore trust, manage transformation, and deliver for all.
+
+Trust is restored when promises are kept. Transformation is managed when decisions lead to action. And we deliver for all only when we deliver for the small.
+
+Everything Naoero has asked for today was agreed in this hall long before I took this floor. I am not asking this Assembly to be braver than it has ever been. I am challenging you to be as good as your word.
+
+Say our name.
+
+Let the waiting end.
+
+Let vulnerability be measured honestly.
+
+Treat us as partners.
+
+May God bless the Republic of Naoero, and may God bless the United Nations.
+
+Mwa tubwa kor. I thank you.

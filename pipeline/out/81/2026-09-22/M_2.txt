@@ -1,7 +1,7 @@
 ---
 session: 81
 slug: president-general-assembly-opening
-id_speech: M_38
+id_speech: M_2
 country: President of the General Assembly (opening)
 speaker: Dr. Khalilur Rahman
 title: President of the General Assembly
@@ -13,7 +13,7 @@ language: en
 original_language: en
 transformation: none
 via: pypdf
-elapsed_s: 0.603
+elapsed_s: 0.410
 ---
 
 Mr. Secretary-General,

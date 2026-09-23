@@ -1,0 +1,163 @@
+---
+session: 81
+slug: suriname
+id_speech: M_18
+country: Suriname
+speaker: Jennifer Geerlings-Simons
+title: President
+speaker_title: Her Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/sr_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.610
+---
+
+Mr. President,
+
+Secretary-General,
+
+Excellencies,
+
+Distinguished delegates,
+
+Ladies and Gentlemen,
+
+Mr. President, let me congratulate you on the assumption of the high office of President of the 81st session of the General Assembly of the United Nations.
+
+Expressing appreciation to your predecessor for her stewardship of the 80th session of the General Assembly, I wish her every success in her future endeavors.
+
+Secretary–General, as you approach the conclusion of your tenure, the Republic of Suriname commends the dedicated service to humanity, showcased while in office. We also remember with warmth your visit to Suriname, expressing the importance of the United N ations’ engagement with our country and the Caribbean region. We wish you well, in the path before you.
+
+Mr. President,
+
+Standing before this Assembly, I am reminded that, while some efforts have been made from this rostrum over the past year, these have not yet matched the scale of the challenges confronting our world.
+
+We will have to increase and strengthen efforts and commitment to the process of trans formation and strengthening of the UN in order to restore the trust that our organization will really be capable of delivering peace, inclusion and development in the world.
+
+Suriname is firmly committed to the upholding of International Law, as we depend on a rules -based international order, without which, l ike many other vulnerable nations, we simply cannot exist as sovereign countries.
+
+The consistent application of i nternational law and the strengthening of its institutions is also essential to maintain international peace and security, protect human rights and ensure sustainable development for all.
+
+Mr. President,
+
+As mentioned before, t he international community is experiencing profound uncertainty, including energy and food security crises, leading to intensified displacement of many people globally.
+
+Armed conflicts continue to claim innocent lives, while geopolitical tensions escalate. Children are living through unimaginable horrors. The United Nations has not been able to prevent this or end the continuation.
+
+Other developments, for example in the Strait of Hormuz, demonstrate how quickly wars can affect energy markets, suddenly and steeply increasing the cost of energy, adversely impacting economic and social developments in our countries.
+
+Common people suffer when food and energy prices rise, so the quality of life of our people is directly threatened, even by wars in regions far from their home.
+
+Suriname, therefore, calls for a renewed commitment to the purposes and principles of the UN Charter, namely the peaceful resolution of disputes.
+
+Mr. President,
+
+Dialogue is paramount for safeguarding a solid and proven UN system. The people of Cuba, a Caribbean country, are adversely affected by the current situation in their country.
+
+Suriname calls on the parties involved to remain committed to dialogue and negotiation, to end the economic, commercial and financial embargo. We plea for continuing of negotiations in order to prevent further escalation and to reach a resolution, that will benefit the people of Cuba.
+
+We also call for sustained international support for Haiti to restore security, constitutional order and democratic governance. Suriname supports solutions that place the Haitian people at the center.
+
+The UN80 process rightly emphasizes mandate rationalization, institutional coherence and efficiency.
+
+Reform must protect and improve the United Nations' capacity to deliver and also make the system easier to navigate. It should not reduce support where it is most needed.
+
+Equally important, is the overdue reform of the Security Council, hence Suriname reiterates its call for making it more representative, more accountable and more capable of acting.
+
+Africa, the Republic of Suriname supports your demand, for just permanent representation. Likewise, we underscore the relevance of a dedicated representation for Small Island States and Low-Lying Coastal Developing States.
+
+Mr. President,
+
+Regional and international partnership s remain indispensable to achieve our economic and social objectives as Suriname continues to actively engage in various regional bodies and mechanisms including CARICOM, CELAC, ACTO and Brasilia Consensus.
+
+As Suriname prepares to be the Chair of the Caribbean Community (CARICOM) in 2027, we are also committed to further strengthen our partnership globally in different areas of shared interest.
+
+Our regional priorities are practical: food and energy security, climate resilience, improved connectivity, and movement of skilled people, transportation of goods and services. These are essential to economic integration and to our ability to withstand external shocks.
+
+Mr. President,
+
+The pursuit of restorative justice gained new momentum with the adoption of the resolution on Slavery and Transatlantic Trafficking of Enslaved Africans, in this Hall in March of this year.
+
+This development is relevant for Suriname. And equally important for the countries of the Caribbean region.
+
+The discussion is no longer about whether slavery and colonialism have caused lasting consequences. We know we are living them.
+
+We increasingly must focus on how to overcome these effects and on the question of what form reparation should take to achieve that. How will countries that have benefited from slavery and colonialism compensate the affected.
+
+It is therefore that the CARICOM ten -point plan for restorative justice is now of eminent importance.
+
+Mr. President,
+
+Suriname occupies a unique position. We are carbon negative and remain the world’s most forested country with over 90 per cent forest coverage.
+
+High Forested and Low Deforestation countries, like Suriname, should not first have to lose forests, before climate finance institutions recognize the value of protecting them.
+
+Conservation costs cannot be borne only by the countries protecting ecosystems whose benefits are shared globally.
+
+I will continue my plea for just and effective climate finance, because our forests are under even more pressure than when I addressed this meeting last year.
+
+I stated that the forest face s competition of rich natural resources like gold, diamonds and other precious minerals.
+
+We are now confronted, however, with a new threat of people who also want to clear parts of our rainforest for large-scale agriculture.
+
+At this very moment my government is introducing legal and institutional measures to better protect our forests and the immediate living environment of the Indigenous Peoples and Tribal Communities. Their knowledge and participation are important at all stages of development.
+
+Last year at this rostrum I noted that Suriname is diversity.
+
+At a time when diversity is too often manipulated as a source of division, Suriname has chosen the path to recognize the distinct histories of its people while strengthening their unity and their shared responsibility for the future.
+
+Our experience affirms that diversity, when grounded in equality, mutual respect and meaningful participation, is not an adversity; it is a source of national resilience and prosperity.
+
+Last month, the Republic of Suriname observed its first National Heritage Month under the theme, "Hoe wij hier ook samen kwamen, hoe wij samen verder gaan”, meaning “However we came here, united we move forward”.
+
+This initiative was conceived not merely to celebrate our culture, but as a deliberate national undertaking centered on growing inclusion, mutual respect and unity. This process is also relevant for the global community.
+
+Mr. President,
+
+The development of Suriname’s offshore natural resources including oil and gas, will present significant opportunities to accelerate national development and improve the well being of our people.
+
+Yet, we are equally conscious that oil and gas cannot and should not become the only foundation of our economy.
+
+Our approach is therefore clear. We must transform temporary resource wealth into lasting national prosperity using resource revenues strategically to strengthen our economy and make it more resilient, through diversification.
+
+Additionally, we will need to improve our energy security.
+
+Although we are preparing for gas to shore, renewable energy will be part of our national energy mix.
+
+Mr. President,
+
+Besides the expected economic and energy transition, we must also prepare for the transformation driven by artificial intelligence.
+
+Only if we can implement AI responsibly, Suriname will be able to benefit from the opportunities of this technology and mitigate its risks.
+
+Mr. President,
+
+With only four years left to achieve the S ustainable Development Goals, we may question whether we were too ambitious or if we should have done much more.
+
+Political will, international peace and a ccelerated implementation are required, supported by financing, technology and partnerships that produce measurable results.
+
+Equally important is to have a mechanism in place for global commitments after 2030.
+
+Mr. President, Excellencies, Distinguished Delegates,
+
+Finally, as the United Nations approaches change in its highest leadership, current realities and approved mandates require the next Secretary -General to portray strong commitment to multilateralism, dialogue, and the rule of law.
+
+Many capable candidates, including women leaders who have taken up the challenge, have been put forth and for the first time in history we have a female candidate from the Caribbean. CARICOM endorses this candidate.
+
+We are at that time in history where trust in the United Nations must urgently be restored.
+
+We make efforts to protect our forests, use our natural wealth responsibly, strengthen the Caribbean Community and promote dialogue.
+
+We will do what we can and call on more influential members of the United Nations, to help maintain peace.
+
+Only a United Nations, capable of safeguarding international peace and security will deliver for all.
+
+I thank you.
+
+Gran Tangi.
+
+May God bless you all.

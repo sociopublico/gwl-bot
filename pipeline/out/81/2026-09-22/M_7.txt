@@ -1,0 +1,321 @@
+---
+session: 81
+slug: kyrgyzstan
+id_speech: M_7
+country: Kyrgyzstan
+speaker: Sadyr Zhaparov
+title: President
+speaker_title: His Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/kg_en.pdf
+language: en
+original_language: und
+transformation: none
+via: pypdf
+elapsed_s: 0.673
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Distinguished Heads of Delegations,
+
+Ladies and Gentlemen,
+
+At the outset of my speech, I would like to sincerely congratulate Dr. Khalilur Rahman on being elected as the President of the 81st Session of the United Nations General Assembly and wish him further success.
+
+• • • As you are all aware, last year the international community marked the 80th anniversary of the United Nations.
+
+For 80 years, this unique global organization has been standing at the forefront of safeguarding peace, security and development.
+
+Although our Organization brings together all countries of the world and serves as the principal platform for international cooperation, wars and tensions still persist in various regions.
+
+Armed conflicts and humanitarian crises in different parts of the world, including Ukraine, Iran, Sudan and Palestine, demonstrate the complexity of the current international environment and require all of us to work together to strengthen peace, security and sustainable development.
+
+Kyrgyzstan is a country that believes in the power of dialogue and the peaceful settlement of conflicts.
+
+Our country stands ready to serve as a mediator in addressing complex and contentious issues.
+
+In recent years, Central Asia has clearly demonstrated to the world its ability to resolve complex interstate issues peacefully.
+
+Today, Central Asia is becoming an example of constructive interstate cooperation, as well as economic, infrastructural and technological development.
+
+In this regard, we are ready to share the experience we have accumulated along this path.
+
+• • • Distinguished Heads of Delegations,
+
+For the first time in its history, Kyrgyzstan has been elected as a member of the United Nations Security Council for the 2027–2028 term.
+
+Taking this opportunity, I would like to express my profound gratitude to all countries that supported our candidacy.
+
+The support of 142 Member States not only confirms Kyrgyzstan's readiness to contribute to international affairs but also demonstrates the growing role of Central Asia in international relations.
+
+This achievement is clear evidence that even small states can make a meaningful contribution to addressing global challenges.
+
+We fully understand that membership in the Security Council is not a privilege or award – it is a great responsibility.
+
+One year ago, standing at this stage, I stated with confidence that “Kyrgyzstan is among those states whose experience enables them to put forward substantive issues for consideration by the Security Council.”
+
+We do not forget the promises we have made and will make every effort to implement them fully.
+
+Therefore, I would like to reiterate: “Kyrgyzstan firmly adheres to international law, justice and the protection of human rights, and supports the multilateral system based on mutual respect, balance of interests and responsibility toward future generations.”
+
+We intend to work closely with every country and remain committed to productive cooperation.
+
+• • • Distinguished Colleagues,
+
+As you all may know, since the establishment of the United Nations in 1945, its Member States and leaders have attempted to undertake systemic reforms.
+
+Reforms have ranged from expanding the membership of the Security Council to modernizing mechanisms of governance, peacekeeping and the protection of human rights.
+
+These initiatives continue to be actively discussed at the international level.
+
+However, despite numerous efforts and years of discussion, the institutional structure of our Organization continues to face various challenges.
+
+Therefore, I believe that expanding the membership of the Security Council is one of the reforms that the international community expects. I consider it fair to grant two permanent seats to the African continent with population of more than one billion people, and one permanent seat to Latin America.
+
+Today, the world has changed.
+
+At the same time, a number of developed countries have also expressed their aspiration to become members of the Security Council.
+
+I believe that the requests of these countries should also be consider ed.
+
+• • • Another issue, in my view, is the weakness of effective mechanisms for ensuring the implementation of the decisions of the Organization.
+
+The systematic failure to implement the Organization's decisions undermines the legitimacy of multilateralis m’s concept, creates the impression that international law is not binding, and encourages disregard for international obligations.
+
+Therefore, we must expand and strengthen the authority of the United Nations.
+
+In this regard, we propose to redevelop the United Nations mechanism for the implementation of decisions and accountability.
+
+First and foremost, it is necessary to establish, within the framework of the General Assembly, the permanent public registry of the implementation of resolutions and obligations by Member States.
+
+This Registry could include the following information and ensure the implementation of such measures as:
+
+The first — systematically record and verify the level of implementation of adopted decisions.
+
+The second — establish the obligation for Member States to regularly submit report in accordance with agreed standards.
+
+The third — provide analytical reviews on sectors and regions.
+
+The f ourth — ensure transparency and equal access to information for all States.
+
+• • • The Registry could be administered by the United Nations Secretariat, with the support of independent experts.
+
+If decisions of the Organization are systematically not implemented, I propose the gradual response mechanism.
+
+The first stage — an official notification to the concerned State, followed by consultations with the relevant bodies of the Organization.
+
+The second stage — the deployment of a monitoring mission to the country concerned to assess the objective obstacles preventing the implementation of the decisions and to prepare recommendations.
+
+The third stage — consideration of the case — right here — at a plenary meeting of the General Assembly to determine the status of the concerned State in terms of its systematic implementation or non-implementation of United Nations decisions.
+
+The fourth stage — the initiation of appropriate procedures under the Charter of the United Nations with regard to States that fail to comply with the requirements.
+
+In particular, the matter could be referred to the United Nations Security Council for consideration of restrictive measures provided for under international law, including:
+
+The first - temporary restrictions on participation in United Nations programs.
+
+The second - recommendations to review existing formats of cooperation.
+
+And other diplomatic measures, where appropriate.
+
+• • • Distinguished Colleagues,
+
+I believe that when cases of systematic non-implementation of United Nations’ decisions are considered, the permanent members of the Security Council should voluntarily refrain from using the veto.
+
+If a mechanism designed to ensure the implementation of the Organization's decisions is systematically blocked by permanent members through the use of the veto, such practice would no longer be consistent with the spirit of the UN Charter and the principle of equal responsibility of Member States.
+
+Therefore, we should once again consider the possibility of voluntarily restraining the use of the veto in matters related to the implementation of the Organization’s decisions.
+
+This approach could promote universality, the equality of all states regardless of their size, the primacy of diplomacy and avoid the double standards.
+
+In order to implement this initiative, I propose establishing the open working group within the General Assembly with the participation of the interested Member States.
+
+The working group could conduct intergovernmental consultations and prepare a report on possible models for the proposed mechanism.
+
+Following these consultations, the General Assembly and the Security Council should consider adopting the relevant resolutions and decisions.
+
+The strategic objective of this initiative is to ensure that the decisions of the Organization are treated not merely as political recommendations, but as genuine international obligations.
+
+Improvement of their implementation would strengthen the rule of international law and reinforce confidence in the United Nations.
+
+Kyrgyzstan is ready to initiate interstate discussions on the development of such a mechanism.
+
+Starting from January 1, 2027, as a member of the United Nations Security Council, we intend to formally submit all these proposals to the relevant Committee.
+
+• • • Distinguished Colleagues,
+
+I would like to address separately the issue of sanctions.
+
+As we have all observed, today sanctions are, in some cases, used by individual countries as an instrument of interference in the internal affairs of sovereign states.
+
+The negative consequences of unjustified unilateral sanctions also affect small countries such as ours, which are at the stage of formation and development, and this raises concern among other small states as well.
+
+In certain cases, such practices lead to interference in the internal affairs of independent states and contradict to the fundamental principles of international law.
+
+Some major states, in pursuit of their own interests, put pressure on smaller countries such as Kyrgyzstan, attempting to force them to bargain over certain matters and issuing ultimatums.
+
+In this context, I would like to take this opportunity to note the decision made by the President of the United States His Excellency Mr. Donald Trump after taking office to halt funding of non-governmental organizations around the world.
+
+As a result, interference by NGOs in the internal affairs and policies of developing States has practically ceased.
+
+President Trump’s decisions have created conditions for strengthening the sovereignty of States and enabling them to independently choose their own path of development.
+
+Therefore, taking this opportunity today, I would like to express my appreciation to Mr. Trump for ending the funding of NGOs.
+
+• • • Distinguished Colleagues,
+
+Decisions to impose sanctions should be taken in accordance with the Charter of the United Nations and exclusively within the mandate of the Security Council.
+
+We believe that the mandate to impose sanctions against a state should belong exclusively to the United Nations.
+
+In my view, this is the only possible way to improve the international sanctions system.
+
+First and foremost, we should introduce a mandatory mechanism under which all sanctions measures are reviewed in advance by the Organization.
+
+The prior review of sanctions initiatives would help ensure that their potential humanitarian, economic and social consequences are taken into account.
+
+An important element of the proposed mechanism should be the enhanced transparency and accountability.
+
+States initiating sanctions should clearly indicate the legal basis for such measures, explain their necessity and objectives, and define clear criteria and conditions for their eventual removal.
+
+I believe it would be appropriate to establish, under the auspices of the United Nations, the unified international mechanism for monitoring sanctions and reviewing them on a regular basis.
+
+Only then can the central role of the United Nations in maintaining international peace and security be strengthened and its mandate enhanced.
+
+This would also help eliminate the risk of sanctions being used arbitrarily by one country against another for political or economic gain.
+
+No state should act arbitrarily.
+
+The United Nations must be strong.
+
+Every country should tremble when the United Nations intends to impose sanctions. Only then the strict international order can be established in the world.
+
+Otherwise, some decisions of the United Nations may no longer be taken seriously, while states simply act according to their own discretion.
+
+Every decision of the United Nations should be implemented without delay.
+
+If a state fails to implement such decision and other countries cease cooperation with it, the effectiveness of sanctions will increase.
+
+Only then will decisions can be implemented promptly, and the United Nations will become a strong and respected organization.
+
+Otherwise, existing sanctions will become a sort of children's toy.
+
+• • • Dear Friends,
+
+As we all know, climate change, that has become a global challenge, continues.
+
+The average temperature of our planet and the number of climate -related emergencies are rising rapidly, while their negative impact on energy, agriculture, food security and the economy as a whole has reached a significant scale.
+
+Kyrgyzstan is a mountainous country.
+
+We are particularly vulnerable to the effects of melting glaciers.
+
+This is not an abstract threat.
+
+It is an environmental challenge of regional significance.
+
+I believe it is extremely important and necessary to unite international efforts in addressing climate challenges and the problems facing mountainous regions.
+
+In this regard, on October 21–23, 2027, Bishkek will host the Second Global Mountain Summit, “Bishkek+25.”
+
+Taking this opportunity, I invite all of you to participate in the Summit.
+
+The Summit will serve as the concluding event of the Five Years of Action for the Development of Mountain Regions for 2023–2027 term.
+
+During my meeting with United Nations Secretary -General Mr. António Guterres in Bishkek on August 31, 2026, I proposed organizing this Summit jointly with the Organization.
+
+These efforts demonstrate our country's leading role among mountain states and its commitment to unite international efforts to address their challenges.
+
+Therefore, Kyrgyzstan stands fully ready to serve within the United Nations as the voice of small and developing countries in addressing the climate -related challenges affecting mountainous regions.
+
+• • • Distinguished Heads of Delegations,
+
+Continuing the topic of climate change, I would like to draw your attention to another environmental challenge.
+
+As we all know, global problems and disasters often have their origins at the local level.
+
+This issue concerns the unique high -altitude Lake Issyk-Kul, which is part of the UNESCO Biosphere Reserve and is included among wetlands of international importance under the Ramsar framework.
+
+Today, this invaluable natural water reservoir is under severe climatic stress.
+
+Over the past 170 years, the water level has fallen by almost 14 meters, while over the past five years the rate of decline has reached approximately seven centimeters per year.
+
+101 rivers historically flowed into the lake, but today only around 30 flow throughout the entire year.
+
+The main source of water for Lake Issyk -Kul is the glaciers of the Tien Shan mountains.
+
+Over the past 70 years, more than 30 % of the region's mountain glaciers have melted.
+
+Nearly 20 % of this reduction has occurred within just the past seven to ten years.
+
+This process poses a direct threat to the biodiversity of the region and economic stability of hundreds of thousands of people.
+
+As part of our efforts to preserve Lake Issyk -Kul, Kyrgyzstan is mobilizing all available domestic resources.
+
+In particular, the State Concept for the Sustainable Development of the IssykKul Ecological and Economic System until 2030 is being implemented.
+
+Strict environmental restrictions have been introduced, and pilot projects have been launched to monitor the depth of the lake using underwater robotic technologies.
+
+Large-scale efforts to clean the lakebed and its waters are continuing on a regular basis.
+
+The scale and speed of climate change exceed the capacities of any individual mountain country and require consolidated international action.
+
+The loss of Lake Issyk-Kul would not be merely a local tragedy.
+
+It would become an irreversible environmental loss for the entire region.
+
+In order to understand the potential scale of this environmental challenge and the costs associated with preventing it, it is important to look at the fate of the Aral Sea and Lake Chad, both of which have suffered severely over recent decades.
+
+(Pictures) Please take a look.
+
+Not so long ago, the Aral Sea and Lake Chad, just like Issyk -Kul today, were full and reservoir with full of water.
+
+Today, they have largely dried up.
+
+For us, these examples must serve as a clear warning.
+
+Taking this opportunity, I officially call upon the United Nations, international financial institutions and donor countries to support our initiative to establish, under the auspices of the Organization, the Special joint trust fund for the preservation of Lake Issyk-Kul.
+
+In order t o demonstrate our commitment through concrete action, we are prepared to contribute 10 million US dollars from the state budget to this fund.
+
+• • • In our culture, there is a concept known as “Amanat.”
+
+It means the duty to carefully preserve what our ancestors have entrusted to us and to pass it on to future generations.
+
+In this sense, it would be fair to state that Lake Issyk-Kul is our shared climate Amanat.
+
+We are not asking for help.
+
+We are proposing a joint global partnership to preserve this unique natural resource of the Earth.
+
+Before it is too late, let us unite our efforts and resources within the framework of this trust fund.
+
+• • • Distinguished Participants,
+
+Ladies and Gentlemen,
+
+The challenges before us are shared. Therefore, our response to them must also be collective.
+
+We stand at the threshold of a new era of change.
+
+Safe, just and sustainable future can be built only through collective action.
+
+The destiny of our planet and future generations is the responsibility of each and every one of us.
+
+This year, Kyrgyzstan celebrates the 35th anniversary of its independence.
+
+Throughout this period, our country has faced many different challenges.
+
+Since then we chose cooperation over confrontation, creation over destruction, and embarked upon the path of sustainable development.
+
+There is one thing we must all remember: peace does not come about by itself.
+
+Therefore, let us turn our words into action - concrete steps that improve people's lives and protect nature.
+
+Let us build together a world in which dialogue is stronger than weapons, mutual respect is stronger than fear, and cooperation among nations delivers tangible results for all humanity.
+
+Thank you for your attention.

@@ -1,0 +1,123 @@
+---
+session: 81
+slug: seychelles
+id_speech: M_24
+country: Seychelles
+speaker: Mathew Antonio Patrick Herminie
+title: President
+speaker_title: His Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/sc_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.647
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Excellencies,
+
+Distinguished Delegates,
+
+Good evening.
+
+Mr. President,
+
+I warmly congratulate you on your election to lead the eighty-first session of this General Assembly. You assume this high office at a defining moment for our Organisation and for humanity. Seychelles assures you of its full support and wishes you every success in guiding our work.
+
+Mr. Secretary-General,
+
+As this is the final General Assembly you will address in your current capacity,
+
+Seychelles extends its profound gratitude for your decade of dedicated stewardship.
+
+You have consistently championed a United Nations that is more effective, responsive, and grounded in the needs of the people we serve.
+
+Mr. President,
+
+The theme of this session strikes at the core of our contemporary global crisis: trust has eroded, yet structural transformation is urgently upon us.
+
+In a world increasingly fractured by geopolitical rivalry, the answer cannot be a retreat into isolationism. It must be a revitalized commitment to multilateralism. The United Nations must prove that dialogue can bridge division, that international law must prevail over force, and that collective action achieves what unilateralism never can.
+
+Seychelles approaches the world guided by an enduring, foundational principle: we are a friend to all, and an enemy to none.
+
+Our commitment to non-alignment is not passive indifference; it is an active choice for peace. It is the conviction that principled diplomacy, mutual respect, and international law are the true foundations of global stability.
+
+Small states like ours do not seek strategic competition—we seek shared solutions.
+
+This requires a multilateral system that is principled yet practical, ambitious yet accountable, and representative yet effective. In short, a United Nations that delivers for all.
+
+If multilateralism is to deliver, it must first secure the peace upon which all human progress depends. Without peace, sustainable development is an illusion. Conflict destroys lives, uproots communities, and diverts vital resources away from healthcare, education, and climate resilience.
+
+We must reject the normalization of perpetual conflict and the selective application of international law. International law must apply equally to all—without exception, bias, or double standards.
+
+This principle is vital to maritime security. The oceans are the lifeblood of global trade.
+
+When maritime routes are threatened by piracy, geopolitical friction, or armed aggression, the shocks ripple far beyond regional waters, devastating vulnerable island economies.
+
+Freedom of navigation and maritime security must be preserved under international law. Small and vulnerable states should never bear the collateral economic costs of conflicts in which they have no part.
+
+Furthermore, we firmly reject unilateral coercive measures that violate international law and inflict disproportionate hardship on innocent populations.
+
+Yet, our global architecture is failing to enforce these principles because its key organs remain outdated. The Security Council’s inability to act decisively in moments of global crisis undermines its very purpose. Its composition reflects a bygone era, not twentyfirst-century geopolitical realities.
+
+Reform is no longer a matter of political convenience—it is a matter of institutional survival and legitimacy.
+
+Seychelles reaffirms Africa’s unified position: our continent must hold no fewer than two permanent seats on the Security Council, with full prerogatives, including the veto for as long as it exists.
+
+Mr. President,
+
+This past June, Seychelles proudly celebrated fifty years of independence. Half a century of self-determination has taught us a fundamental lesson: size does not define sovereignty, and geography does not diminish dignity.
+
+We may be a Small Island Developing State, but we sit as an equal participant in this hall. Every nation—regardless of population or economic power—possesses an inherent right to sovereignty, territorial integrity, and national dignity.
+
+Today, however, sovereignty faces quiet, insidious threats. Transnational organized crime, drug trafficking, and illegal, unreported, and unregulated (IUU) fishing threaten our security, wreck our marine ecosystems, and steal from our people.
+
+Because these threats are interconnected, our response must be equally integrated: stronger international intelligence-sharing, expanded maritime surveillance, and practical law enforcement support. It is unreasonable to expect nations safeguarding vast oceanic domains with modest budgets to meet standards set by heavily resourced states without providing them the tools to do so.
+
+Resilience without resources is not resilience - it is merely survival.
+
+The same logic applies directly to the climate crisis.
+
+For Seychelles, climate change is not a prospective debate; It is a daily reality that strikes at the very foundations of our society. Rising seas threaten our infrastructure, our coastal livelihoods, and our very territory.
+
+The science is undisputed. The targets are clear. What remains missing is political will and execution. Major emitters must display greater ambition, while all nations act according to their responsibilities and capabilities. Economic growth that bankrupts the planet for future generations is not progress.
+
+Seychelles welcomes the Advisory Opinion of the International Court of Justice on climate change, reinforcing that climate action is rooted in international law, equity, and intergenerational justice. Mitigation, adaptation, technology transfer, and lossand-damage funding are not acts of charity—they are legal obligations.
+
+Our survival is inextricably linked to the health of the ocean. Protecting our marine environment is an economic necessity. As an early ratifying state of the BBNJ Agreement, Seychelles looks forward to its first Conference of the Parties and urges all Member States to finalize their ratifications swiftly.
+
+Yet, our ambitions are hampered by structural economic barriers. Frameworks like the Antigua and Barbuda Agenda for SIDS and the Sevilla Commitment must be backed by real capital. For small island states, debt sustainability is a matter of national survival.
+
+We require affordable, accessible, long-term financing, meaningful debt relief, and the full implementation of the Multidimensional Vulnerability Index (MVI). Measuring a nation’s development solely by GDP per capita ignores extreme exposure to climate shocks and geographic isolation. If international finance is to serve reality, it must first measure reality correctly.
+
+Looking ahead, we must also address the rapid rise of artificial intelligence and emerging technologies.
+
+While these tools offer immense opportunities for development and ocean management, they also risk widening the global divide and enabling new forms of warfare and cybercrime.
+
+We must ensure technology serves human dignity. We call for global digital governance anchored in human rights, ethical standards, and international law—with the United Nations playing a central role in steering this transformation.
+
+Mr. President,
+
+Excellencies,
+
+Across every crisis we face, one fundamental truth endures: our ultimate duty is to the people we represent—our families, our youth, our coastal communities, and future generations.
+
+Our nations represent a rich tapestry of cultures, languages, and political systems. But diversity need not breed division. Guided by our policy of friend to all and enemy to none, Seychelles believes that our differences can be the dynamic foundation for stronger global cooperation.
+
+Let us restore trust through deliberate action:
+
+By upholding the rule of international law unconditionally; By reforming our global governance institutions to reflect today’s world; By delivering equitable climate and development finance; and By protecting our shared oceans and climate.
+
+Seychelles enters this General Assembly with deep humility, clear conviction, and an unshakable belief in the multilateral system. We may be a small nation, but our voice, our sovereignty, and our aspirations will never be measured by our size on a map.
+
+Let this eighty-first session be remembered not for the divisions we inherited, but for the courage, solidarity, and resolve with which we overcame them.
+
+Let us restore trust. Let us manage transformation. And together, let us build a United Nations that truly delivers for every nation and every human being.
+
+Thank you.

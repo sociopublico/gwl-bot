@@ -1,0 +1,433 @@
+---
+session: 81
+slug: bhutan
+id_speech: M_27
+country: Bhutan
+speaker: Tshering Tobgay
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/bt_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.641
+---
+
+Mr. President,
+
+Excellencies,
+
+Ladies and gentlemen I stand before you today not as Prime Minister, but as a salesman.
+
+And I am not here to sell you a product. Or a policy.
+
+Or another declaration.
+
+I am here to sell you an idea.
+
+An idea conceived and spearheaded by His Majesty,
+
+King Jigme Khesar Namgyel Wangchuck.
+
+An idea embraced by the people of Bhutan.
+
+An idea already being built.
+
+That idea is Gelephu Mindfulness City.
+
+GMC.
+
+And my sales pitch is simple:
+
+Come and build it with us.
+
+The world has built new cities before: financial centres, free ports, technology hubs, special economic zones.
+
+But GMC is different.
+
+Gelephu Mindfulness City is a Special Administrative Region - an SAR.
+
+Under its Royal Charter, GMC exercises full autonomy - in governance, legislation and the judiciary.
+
+Think one country, two systems.
+
+Think of the agility of a microstate.
+
+But GMC was not inherited from history. It was not created to manage a transfer of sovereignty.
+
+It is being deliberately created - by Bhutan, within Bhutan, on sovereign Bhutanese territory - for the future.
+
+GMC covers more than 4,000 square kilometres. That is more than five times the size of Singapore.
+
+But its greatest opportunity is not its size.
+
+Its greatest opportunity is an institutional blank slate.
+
+GMC was given something extraordinarily rare: the freedom to design an entire city - and its operating system - from first principles.
+
+So we asked:
+
+If we could begin again, how would we govern?
+
+What laws would we write?
+
+How would we regulate business?
+
+How would we guarantee an independent judiciary?
+
+How would we attract the best talent?
+
+How would we use technology - and especially artificial intelligence?
+
+How would we create wealth while protecting nature?
+
+And ultimately - what would all that prosperity be for?
+
+These were not theoretical questions.
+
+We answered them.
+
+And we are making full use of that blank slate.
+
+If Singapore has legal principles that work, we learn from Singapore.
+
+If Abu Dhabi has financial regulation that works, we learn from Abu Dhabi.
+
+If leading jurists from the United Kingdom can help us build an independent judiciary, we learn from them.
+
+If international experts can strengthen our institutions, we learn from them.
+
+The principle is simple:
+
+Search the world for what works.
+
+Take the best.
+
+Adapt it.
+
+And make it work for GMC.
+
+The result is a core operating system that is now in place - designed to give investors clarity, familiarity and predictability.
+
+But GMC's operating system was designed around a deeper conviction:
+
+That prosperity and values should reinforce one another.
+
+That means rejecting the assumption that we must choose between enterprise and wellbeing. Between technology and humanity. Between development and nature.
+
+At GMC, we believe a balanced approach can deliver substantial profits - while protecting the values that make prosperity worthwhile.
+
+Balance is not the enemy of profit.
+
+It is the foundation of lasting profit.
+
+And at GMC, balance is not a slogan.
+
+It is built into the operating system.
+
+This matters deeply to Bhutan.
+
+Bhutan is peaceful and stable. Our forests are intact.
+
+Our culture is alive. Our people are educated.
+
+But our economy is small. It cannot yet create enough opportunities for our young people.
+
+So too many of them leave home to find opportunity elsewhere.
+
+For a country as small as ours, this is not only an economic challenge.
+
+It is an existential one.
+
+We cannot simply tell them to stay.
+
+We must give them a reason to stay - and a reason to return.
+
+Jobs.
+
+Opportunities.
+
+Enterprise.
+
+A future.
+
+So Bhutan must transform.
+
+But we refuse to believe that transformation requires us to become somebody else.
+
+We want economic growth. We want investment. We want technology. We want successful companies. We want our people to become wealthier.
+
+But we also want to protect what makes Bhutan Bhutan.
+
+That is the driving force behind His Majesty's vision for GMC.
+
+And that is why His Majesty is personally spearheading its development.
+
+GMC is not a project on the margins of Bhutan.
+
+It is at the heart of our national transformation.
+
+Our people have embraced GMC as a People's Project - an investment in our children, our economy and our shared future.
+
+Bhutan is not waiting to see whether the world believes in GMC before committing to it.
+
+We have committed.
+
+Fully.
+
+Now let me tell you why GMC is built to succeed.
+
+Begin with location.
+
+GMC sits directly on the border with India - our closest friend and neighbour.
+
+The vision enjoys the support of Prime Minister Narendra Modi, the Government of India and our neighbours across the border in Assam.
+
+Beyond that border lies the world's most populous country - and one of its largest and fastest-growing economies.
+
+GMC is also a gateway to the markets of South Asia and Southeast Asia.
+
+So GMC begins with what many new cities spend decades trying to acquire: access to vast and growing markets, connectivity and, in India, a trusted friend.
+
+Bhutan brings another advantage - one that cannot be constructed or bought.
+
+Trust.
+
+Trust built through peace, political stability, the rule of law and a record of honouring our commitments.
+
+For long-term investors, trust creates something invaluable:
+
+Predictability.
+
+Bhutan has spent generations building that trust.
+
+GMC puts it to work.
+
+Then there is nature.
+
+Imagine GMC early in the morning.
+
+Mist rising from its rivers.
+
+Forests stretching towards the mountains.
+
+Elephants moving through the landscape.
+
+Tigers still roaming its forests.
+
+This is not empty land.
+
+It is a living, carbon-negative landscape.
+
+A biodiversity hotspot.
+
+We will not build over it.
+
+We will build within it - and protect it.
+
+The forests, rivers and wildlife of GMC are not obstacles to development.
+
+They are part of its value.
+
+And then there is energy.
+
+Bhutan is expanding its renewable-energy capacity towards 25 gigawatts by 2040.
+
+That electricity will power GMC - and the industries of the future: advanced manufacturing, scientific research, artificial intelligence and data centres.
+
+Clean, renewable power.
+
+But GMC has another type of power.
+
+A power Bhutan has cultivated for centuries.
+
+Spiritual power.
+
+GMC is being developed as a global centre for Vajrayana Buddhism.
+
+Spiritual masters from across the Buddhist world are already building monasteries, retreat centres, libraries and institutions of learning.
+
+So imagine what will exist side by side:
+
+Entrepreneurs and monks.
+
+Artificial intelligence and human consciousness.
+
+Data centres and meditation centres.
+
+The newest technologies humanity has created alongside some of the world's oldest traditions for understanding the human mind.
+
+Is that a contradiction?
+
+No.
+
+That is the point.
+
+GMC is not asking investors to choose between commercial success and quality of life.
+
+It is designed to offer both.
+
+Because the world's best people choose more than a workplace.
+
+They choose where to build their lives.
+
+Taken together, these advantages create the conditions for businesses to grow - and investors to prosper:
+
+Lower uncertainty.
+
+Abundant clean energy.
+
+Access to growth.
+
+The ability to attract global talent.
+
+And the freedom to create the markets others will later enter.
+
+That is how GMC turns its values into commercial advantage.
+
+You may now reasonably ask:
+
+It sounds wonderful.
+
+But is it real?
+
+Yes.
+
+It is real.
+
+The Royal Charter is in force. Laws have been enacted. Regulators are operating. The framework for an independent judiciary is in place.
+
+GMC has its own government. Its own laws. Its own financial system. And its own gold-backed digital currency.
+
+These are not aspirations.
+
+They are foundations already in place.
+
+The physical city is also taking shape.
+
+Infrastructure is being built progressively - as and when it is needed.
+
+The international airport is under construction. A railway connection to India's vast rail network is being developed. Energy, digital connectivity and urban infrastructure are being added as demand grows.
+
+Artificial-intelligence and data-centre projects are moving forward. And nearly five billion US dollars in projects are under active negotiation.
+
+GMC is not an idea waiting to begin.
+
+The journey has begun.
+
+But there is still an extraordinary opportunity to help define where it goes.
+
+Perhaps the best way to understand GMC is to imagine it as a startup.
+
+A 4,000-square-kilometre startup.
+
+Most startups begin with an idea - then search for the conditions they need to succeed.
+
+GMC begins with many of them already in place:
+
+His Majesty's leadership.
+
+An entire country fully committed.
+
+Land and clean energy.
+
+Full autonomy.
+
+Trusted laws and institutions.
+
+Access to vast and growing markets.
+
+So GMC is a startup designed from the beginning for success.
+
+And there is one guarantee I can give you:
+
+Bhutan will not hedge its bets.
+
+We are all-in.
+
+Every startup needs one more critical ingredient.
+
+Co-founders.
+
+And that, Excellencies, is why this salesman is standing before you.
+
+We want your capital. Your technology. Your talent.
+
+Your ideas. Your enterprise.
+
+And let me be absolutely clear:
+
+We want you to make money.
+
+GMC is not a retreat from capitalism, technology or ambition.
+
+It is designed to harness all three - without sacrificing nature, culture or human wellbeing.
+
+Those who come early can help create the industries and markets that others will later enter.
+
+They can help define GMC's economic journey - and share in the value they create.
+
+That is the first-mover advantage.
+
+At GMC, commercial success and human flourishing are designed to build on one another.
+
+This balance is deeply Bhutanese.
+
+For more than half a century, Bhutan has pursued Gross National Happiness.
+
+It does not reject economic growth.
+
+But it does ask the essential question:
+
+What is growth for?
+
+GMC gives this development philosophy contemporary form - through markets, technology and investment.
+
+But the aspiration itself is older.
+
+For centuries, the Himalayan Buddhist world has carried an ideal of an enlightened society - where material prosperity and spiritual wisdom coexist; where good governance serves human flourishing; and where people live in harmony with one another and with nature.
+
+That ideal is called Shambhala.
+
+Some of our spiritual masters have looked at what is taking shape in GMC and said:
+
+Under an enlightened King, Shambhala is being built.
+
+We make no claim to perfection.
+
+For us, Shambhala points not back to the past, but forward - a promise to carry its wisdom into the future.
+
+To build a city that prospers - and has a soul.
+
+Mr. President,
+
+I told you at the beginning that I came here as a salesman.
+
+Now you know what I am selling.
+
+Gelephu Mindfulness City.
+
+So, to governments and institutions seeking partnership - and to investors, entrepreneurs and companies seeking the next great opportunity:
+
+Do not watch GMC being built.
+
+Come to Bhutan.
+
+Come to GMC.
+
+Help define the journey.
+
+Build it with us.
+
+Become our co-founders.
+
+Because the future does not simply arrive.
+
+The future is built.
+
+And in Bhutan - we are already building it.
+
+Thank you and Tashidelek.

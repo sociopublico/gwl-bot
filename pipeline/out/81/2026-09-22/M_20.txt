@@ -1,0 +1,157 @@
+---
+session: 81
+slug: bosnia-and-herzegovina
+id_speech: M_20
+country: Bosnia and Herzegovina
+speaker: Denis Bećirović
+title: Chairman of the Presidency
+speaker_title: His Excellency
+date: 2026-09-22
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/ba_en_0.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.526
+---
+
+Excellencies,
+
+Ladies and Gentlemen,
+
+It is an honour and a pleasure to address the 81st Session of the UN General Assembly on behalf of Bosnia and Herzegovina.
+
+We are a symbol of a nation that has survived severe trials but has not lost its path towards a better future.
+
+In the period f rom 1992 to 1995, my country was subjected to aggression, joint criminal enterprises, genocide against Bosniaks, crimes against humanity and other war crimes.
+
+Following the end of the aggression in 1995, destructive forces have sought, through blockades, obstruction and other means, to halt the progress of Bosnia and Herzegovina. They are slowing down our path towards a modern European state, but they cannot stop it.
+
+Today, Bosnia and Herzegovina stands at the doorstep of the European Union (EU) and the North Atlantic Treaty Organization (NATO).
+
+These are our strategic foreign policy objectives, unanimously defined by the state authorities of Bosnia and Herzegovina.
+
+Unfortunately, there are still those seeking to realise greaterstate projects at the expense of the territory of Bosnia and Herzegovina.
+
+During the aggression, they attacked our country by military means; today, they do so by political, diplomatic and other means.
+
+It is very important that the UN courts have established the nature of the war waged against the Republic of Bosnia and Herzegovina.
+
+Final judgments, including those concerning joint criminal enterprises, have established that this was an international armed conflict. Judgments of the highest UN courts have established that genocide was committed against Bosniaks. They also stand as judgments on the greater -state policies that, through a joint criminal enterprise, sought to divide and destroy Bosnia and Herzegovina as an independent, sovereign, indivisible and internationally recognised state.
+
+Ladies and Gentlemen,
+
+We live in a world of injustice, insecurity and intolerance.
+
+The strengthening of authoritarian populism, the aggression against Ukraine, the suffering in Gaza, the war in the Gulf region, the catastrophic situation in Sudan and other flashpoints have brought humanity into a profound crisis, marked by great uncertainty and fear. We must not remain silent in the face of injustice.
+
+The world did not respond adequately to the aggression against Ukraine and the genocide against Palestinians in Gaza, just as it did not during the aggression against Bosnia and Herzegovina.
+
+The aggression of the Russian Federation against Ukraine is a flagrant example of a violation of the UN Charter and international law, while Gaza is humanity’s greatest defeat in the twenty-first century.
+
+The greatest global crises are directly interconnected and have the same root: the erosion of international law.
+
+Disrespect for international law cannot lead the world towards prosperity and a better future.
+
+Ladies and Gentlemen,
+
+Without identifying the causes of the crisis facing contemporary humanity, we cannot solve its problems.
+
+The politics of force cannot bring progress to humanity. Instead of force, we need respect and the strengthening of the existing international norms, rules and institutions that we have built over more than 80 years.
+
+The multilateral system today faces a serious challenge – a crisis of institutional trust.
+
+Trust is weakening because some actors in the international community undermine the values enshrined in the UN Charter.
+
+The future of humanity does not lie in policies of violence and human rights violations.
+
+Conflicts and wars are not the purpose of our civilisation. Let us build a culture of dialogue, cooperation and peace.
+
+In this context, I believe it is of utmost importance to: ▪ reaffirm the importance of the UN Charter; ▪ revitalise the role of the UN as the global centre for coordination and cooperation; ▪ support the reform process and strengthen the credibility of the UN; ▪ consistently implement the Sustainable Development Goals; ▪ build mutual trust, inclusiveness and a democratic vision of leadership; ▪ and strengthen preventive diplomacy at a time of numerous tensions and conflicts.
+
+Let respect for international law, peace, solidarity, sustainable development and justice be the path that we follow together.
+
+Ladies and Gentlemen,
+
+We in Bosnia and Herzegovina call upon all UN Member States to focus on: ▪ reaffirming relations between states on the basis of international law; ▪ ensuring respect for human rights and fundamental freedoms; ▪ promoting peace and social progress; ▪ combating hate speech and all forms of discrimination; ▪ strengthening policies for the prevention of genocide, crimes against humanity and other war crimes; ▪ advancing the rights of women and children; ▪ and strengthening gender equality, better healthcare and education.
+
+The world must return to the fundamental principles upon which the UN is founded.
+
+Respect for human dignity.
+
+The sovereign equality of states.
+
+The peaceful settlement of disputes.
+
+Respect for international law.
+
+These are not unrealistic propositions; they are the only possible foundations of a stable world.
+
+Bosnia and Herzegovina is a reliable and responsible member of the UN.
+
+Among other things, I would like to remind that Bosnia and Herzegovina is: ▪ aware of climate change and committed to contributing to global efforts; ▪ committed to the transition towards renewable energy sources and the reduction of harmful gas emissions; ▪ and determined to combat all forms of terrorism.
+
+We in Bosnia and Herzegovina know that peace cannot be taken for granted.
+
+Peace must be safeguarded every day. It requires responsibility of political leaders, respect for the law and a readiness for dialogue.
+
+There must not be one standard for large states and another for small states.
+
+If we want to preserve trust in the international order, the rules we establish together must be applied equally.
+
+Ladies and Gentlemen,
+
+Bosnia and Herzegovina is the only country in Europe where genocide was committed after the Second World War.
+
+In May 2024, the UN General Assembly adopted the Resolution designating 11 July as the International Day of Reflection and Commemoration of the 1995 Genocide in Srebrenica. This Resolution represents a profoundly moral and civilisational act by the UN General Assembly. The adopted Resolution is equally important for the UN and for Bosnia and Herzegovina.
+
+It is particularly dangerous that the leadership of the Republic of Serbia glorifies the convicted war criminal Ratko Mladić.
+
+The monster Ratko Mladić is not a hero, but a convicted war criminal.
+
+The institutional glorification of this war criminal is an anti -civilizational and unacceptable act.
+
+It amounts to identifying Serbia’s state leadership with one of the worst butchers in European history.
+
+It is an indication that Serbia has not abandoned the ideology and policies that lead to aggression and genocide.
+
+It is a direct assault on the values of the UN, whose court delivered a final judgement against this war criminal.
+
+Let me remind you that Serbia is the only state in the world that has been found by a UN court to have violated the UN Convention on the Prevention and Punishment of the Crime of Genocide.
+
+I call on the UN and EU and other international actors to clearly condemn this conduct and take concrete measures against those who institutionally glorify convicted war criminals.
+
+Unfortunately, the ideology and policies that led to the genocide against Bosniaks continue to threaten Bosnia and Herzegovina.
+
+From the podium of the UN General Assembly, I wish to publicly warn the international public that the current leadership of the Bosnian entity Republika Srpska continues to threaten the peace and security of Bosnia and Herzegovina and the region.
+
+We must stop this destructive policy together.
+
+The victims of the genocide and the employees of the Memorial Centre Srebrenica are facing unacceptable pressures from the police of the Republika Srpska.
+
+We must not allow that the police and other institutions of Republika Srpska which committed the genocide against Bosniaks, today threaten the survivors and those that are preserving the memory on the victims of the genocide.
+
+Those seeking to destroy the Dayton Peace Agreement are attempting to create the conditions for the secession of the Bosnian entity Republika Srpska.
+
+In the period ahead, they will intensify their activities, primarily with the aim of: ▪ weakening and abolishing the mandate of the High Representative of the international community, which is also envisaged by the Dayton Peace Agreement; ▪ weakening the institution of the Constitutional Court of BiH; ▪ and seizing the state property of Bosnia and Herzegovina, contrary to national and international law.
+
+Ladies and Gentlemen,
+
+Bosnia and Herzegovina is an unconquerable state.
+
+There is not a single map of Southeast Europe from the past 1,000 years on which Bosnia or Bosnia and Herzegovina does not appear.
+
+Bosnia and Herzegovina is home to people who love freedom more than their own lives.
+
+Finally, as the Chairman of the Presidency of BiH, I wish to emphasise that I am proud of the brave people of Bosnia and Herzegovina.
+
+These are people who have suffered injustice, yet they continue to fight for justice.
+
+These are people who have been victims of lies, yet they continue to fight for the truth.
+
+These are people who support the struggle for justice, freedom and human dignity throughout the world.
+
+These are the honourable and proud people of my homeland, Bosnia and Herzegovina.
+
+Thank you for your attention.
