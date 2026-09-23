@@ -117,7 +117,7 @@ Each indicator object:
 {"id_speech": "M_N", "indicator_name": "...", "code": <int>, "textual_extract": "...", "coder_notes": ""}
 
 Use the codebook codes. For future_multilateralism_position the codes are 0, 5, 2, or 6.
-textual_extract: exhaustive unabridged quotes, numbered (1) (2) (3). If code is 0, omit textual_extract or send "". Do not write "No mention of …".
+textual_extract: exhaustive unabridged quotes, numbered (1) (2) (3), each a contiguous verbatim span for that indicator. Omit paraphrases, merged sentences, and passages about another indicator. If code is 0, omit textual_extract or send "". Do not write "No mention of …".
 coder_notes: only for borderline/inferential codes or source-file data issues; else "".
 
 emerging_priorities: zero or more objects per speech. emerging_topic MUST be one of:
@@ -127,10 +127,11 @@ Each: {"id_speech": "M_N", "emerging_topic": "...", "textual_extract": "<one sho
 Process every speech below with a full close read (not keyword scanning).
 
 Hard rules (also in the system methodology):
-- sg_selection_position / sg_selection_position_gender: ONLY the UN Secretary-General (appointment, selection process, candidacy, nomination). Congratulating the President of the General Assembly (e.g. Annalena Baerbock) or any other UN election is code 0 for these indicators.
-- gender_equality_position: code 1 if the speech denounces gender imbalance, calls for gender inclusion as a rights agenda, or endorses Women, Peace and Security. A woman-SG argument is also gender-equality Positive. Do NOT code 1 just because it mentions "attacks on women" or "women and children" as victims of war, drugs, or environmental harm.
+- sg_selection_position / sg_selection_position_gender: ONLY the appointment, the process, a candidacy, a nomination, or an explicit next or new Secretary-General. Congratulating the PGA or any other UN election is code 0. Praise or "building on the achievements" of the sitting Secretary-General is code 0; do not quote it.
+- If women_multilateral_leadership_position is non-zero, women_leadership_position cannot be 0; if that passage is the only evidence, use the same code.
+- gender_equality_position: code 1 for gender imbalance, gender inclusion as a rights agenda, WPS, a woman SG, stated opportunities or benefits for women and girls, or women and girls targeted by hate, discrimination, or misogyny the speaker opposes. Code 0 when women and children are listed only as victims of war, drugs, famine, or environmental harm. Opposition to transgender people or gender identity is code 3, never 1; together with praise of only the speaker's own wife or first lady, code 2. The code must match coder_notes.
 - current_multilateralism_position: if the past was better / progress is under threat, the present has lost credibility, or the future will "restore" the UN, code 3 (Negative), not Mixed. A leftover "the UN remains a pillar" does not turn that into Mixed.
-- un_reform_position: crisis + the UN must change/transform/reform, UN80, or SC without veto = code 1 (Positive), not 3. Critique of inaction/condemnations without an institutional-reform proposal = code 0 (No Mention), not Mixed.
+- un_reform_position: a call to renew, change, transform, or reorient the UN or this Organization is code 1 even with no named mechanism. Crisis + the UN must change/transform/reform, UN80, or SC without veto is also code 1, not 3. Critique of inaction on a crisis, or reform only of the financial architecture, IMF, or World Bank, is code 0, not Mixed.
 - If un_reform_position is 1, future_multilateralism_position MUST be 6 (Transformation), not 5 (Preservation), including when the speaker supports UN80.
 """
 
