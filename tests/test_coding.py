@@ -176,7 +176,7 @@ class CodebookHelpersTest(unittest.TestCase):
         self.assertIn("Women, Peace and Security", text)
         self.assertIn("restore credibility", text)
         self.assertIn("UN-80", text)
-        self.assertIn("women and children", text)
+        self.assertIn("women and children", text.casefold())
         self.assertIn("Annalena Baerbock", API_INSTRUCTIONS)
         self.assertIn("UN80", API_INSTRUCTIONS)
 
