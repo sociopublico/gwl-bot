@@ -1,6 +1,7 @@
 ---
 session: 81
 slug: belgium
+id_speech: M_32
 country: Belgium
 speaker: Maxime Prévot
 title: Deputy Prime Minister
