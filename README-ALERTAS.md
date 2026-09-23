@@ -37,7 +37,7 @@ KEYWORDS=women,gender,refugees
 | Variable | Default | Qué hace |
 |---|---|---|
 | `STREAM_URL` | (obligatorio) | YouTube Live, VOD o URL directa de audio/HLS/RTMP |
-| `WEBTV_URL` | vacío | Página **del meeting** en UN Web TV (con DVR). El mail manda `?kalturaStartTime=` solo si el reloj es de ese live. El canal 24/7 (`k1gb6tjmle`) no tiene DVR: el seek abre en vivo |
+| `WEBTV_URL` | vacío | Página del meeting en UN Web TV. Solo se usa para el reloj del vivo (no va en el mail). El canal 24/7 no tiene DVR usable |
 | `KEYWORDS` | `women,gender,refugees` | Lista separada por coma. Acepta frases (`human rights`) |
 | `STREAM_START_SECONDS` | `0` | Seek en VOD (segundos). En live se ignora |
 | `EXIT_ON_EOF` | `true` | Salir al terminar un VOD |
@@ -65,6 +65,8 @@ SMTP (opcional; sin esto solo hay log):
 | `SMTP_FROM` | Remitente (obligatorio para activar email) |
 | `ALERT_EMAIL_TO` | Destinatarios separados por coma |
 | `ALERT_COOLDOWN_SECONDS` | Mínimo entre emails de la **misma** keyword (default `120`) |
+| `ALERT_TEXT_BEFORE_SECONDS` | Segundos de transcripción anteriores a la keyword en el mail (default `75`) |
+| `ALERT_TEXT_AFTER_SECONDS` | Segundos posteriores que el mail espera antes de enviarse (default `30`) |
 
 ## Correr local
 
@@ -236,7 +238,7 @@ No hace falta `pip install`. El modelo nuevo se descarga solo la primera vez que
 KEYWORD_DETECTED | women | Luiz Inacio Lula da Silva | t=3122s | "...talk about women..."
 ```
 
-El mail lleva el **chunk entero** con la keyword en negrita (HTML), hora UTC + Nueva York, orador, YouTube sin timestamp (en vivo ignora `t=`), y si `WEBTV_URL` es un meeting con DVR un link `?kalturaStartTime=` al segundo del keyword. No uses el canal 24/7 de UN Web TV: no tiene DVR y el listing de YouTube data de cuando lo crearon (meses), no de cuando arrancó el programa de hoy. En el log, `origin=… reliable=false` y `t=12s?` quieren decir que el offset no es seekable.
+El mail espera `ALERT_TEXT_AFTER_SECONDS` (default 30 s) y manda el texto desde `ALERT_TEXT_BEFORE_SECONDS` (default 75 s) antes de la keyword hasta ese después, con la keyword en negrita (HTML). También lleva hora UTC, Nueva York y Madrid, orador y el link de YouTube sin timestamp (en vivo ignora `t=`). `EMAIL_WAITING_CONTEXT` es el mail demorado hasta juntar el texto de después. Si `WEBTV_URL` está puesto, solo ajusta el reloj del vivo; no se manda en el mail. En el log, `origin=… reliable=false` y `t=12s?` quieren decir que ese reloj no es seekable.
 
 El monitor también appendea `logs/keywords.jsonl` (una línea por hit; no entra SPEAKER_CHANGED ni watchdog).
 

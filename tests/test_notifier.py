@@ -60,7 +60,8 @@ class BuildEmailTest(unittest.TestCase):
         self.assertEqual(subject, "KEYWORD_DETECTED | women, gender")
         self.assertIn("Keyword(s): women, gender", body)
         self.assertIn("When: 2026-09-01 15:32:17 UTC", body)
-        self.assertIn("New York:", body)
+        self.assertIn("New York: 2026-09-01 11:32:17 EDT", body)
+        self.assertIn("Madrid: 2026-09-01 17:32:17 CEST", body)
         self.assertIn("Chunk:", body)
         self.assertIn("talk about **women** and **gender**", body)
         self.assertNotIn("embed", body)
@@ -83,17 +84,16 @@ class BuildEmailTest(unittest.TestCase):
         subject, body, html = build_email([event])
         self.assertEqual(subject, "KEYWORD_DETECTED | women | Luiz Inacio Lula da Silva")
         self.assertIn("Speaker: Luiz Inacio Lula da Silva", body)
-        self.assertIn("Player: 47:25", body)
         self.assertIn("YouTube: https://www.youtube.com/watch?v=KnIFmbdRCi0", body)
         self.assertNotIn("t=2845", body)
         self.assertNotIn("embed", body)
         self.assertNotIn("embed", html)
-        self.assertIn("YouTube live ignores timestamp links", body)
+        self.assertNotIn("Player:", body)
         self.assertNotIn("UN Web TV:", body)
         self.assertIn("talk about **women** and gender", body)
         self.assertIn("<strong>women</strong>", html)
 
-    def test_includes_webtv_timestamp_link(self) -> None:
+    def test_omits_player_and_webtv_link(self) -> None:
         event = DetectionEvent(
             timestamp=datetime(2026, 9, 1, 15, 32, 17, tzinfo=timezone.utc),
             keyword="women",
@@ -102,33 +102,30 @@ class BuildEmailTest(unittest.TestCase):
             video_seconds=3600,
             watch_url="https://www.youtube.com/watch?v=KnIFmbdRCi0",
             webtv_url="https://webtv.un.org/en/asset/k10/k10h1p03zp?kalturaStartTime=3600",
-        )
-        _subject, body, html = build_email([event])
-        self.assertIn(
-            "UN Web TV: https://webtv.un.org/en/asset/k10/k10h1p03zp?kalturaStartTime=3600",
-            body,
-        )
-        self.assertIn("YouTube: https://www.youtube.com/watch?v=KnIFmbdRCi0", body)
-        self.assertNotIn("YouTube live ignores timestamp links", body)
-        self.assertIn("kalturaStartTime=3600", html)
-        self.assertIn("UN Web TV", html)
-
-    def test_unreliable_clock_skips_player_timecode(self) -> None:
-        event = DetectionEvent(
-            timestamp=datetime(2026, 9, 21, 22, 6, 53, tzinfo=timezone.utc),
-            keyword="world",
-            transcript="the world's hope for peace",
-            context='"world"',
-            video_seconds=33_801_945,
-            webtv_url="https://webtv.un.org/en/asset/k1g/k1gb6tjmle",
             timestamp_reliable=False,
         )
         _subject, body, html = build_email([event])
-        self.assertNotIn("9389:25:45", body)
+        self.assertNotIn("Player:", body)
+        self.assertNotIn("UN Web TV", body)
         self.assertNotIn("kalturaStartTime", body)
-        self.assertIn("Player: unknown", body)
-        self.assertIn("https://webtv.un.org/en/asset/k1g/k1gb6tjmle", body)
         self.assertNotIn("kalturaStartTime", html)
+        self.assertIn("YouTube: https://www.youtube.com/watch?v=KnIFmbdRCi0", body)
+        self.assertIn("Madrid:", body)
+
+    def test_mail_context_replaces_chunk_label(self) -> None:
+        event = DetectionEvent(
+            timestamp=datetime(2026, 9, 1, 15, 32, 17, tzinfo=timezone.utc),
+            keyword="women",
+            transcript="talk about women",
+            context='"women"',
+            mail_context="Earlier the chair spoke. Then we talk about women and keep going.",
+        )
+        _subject, body, html = build_email([event])
+        self.assertIn("Context:", body)
+        self.assertNotIn("Chunk:", body)
+        self.assertIn("Earlier the chair spoke. Then we talk about **women** and keep going.", body)
+        self.assertIn("<strong>women</strong>", html)
+        self.assertIn("Context", html)
 
     def test_mark_sent_uses_casefold(self) -> None:
         last_sent: dict[str, float] = {}

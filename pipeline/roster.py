@@ -132,19 +132,41 @@ def _export_title(speaker: dict) -> str:
     return title
 
 
-def export_speaker_names(payload: dict, path: Path) -> Path:
-    """Escribe `nombre | país | cargo` para SPEAKER_ROSTER_FILE del monitor en vivo."""
-    lines: list[str] = []
-    seen: set[str] = set()
-    for speaker in payload.get("speakers") or []:
+def _leaked_names(speakers: list[dict]) -> set[str]:
+    """Un mismo 'nombre' en muchos países = basura de ficha (widget de gadebate)."""
+    countries_by_name: dict[str, set[str]] = {}
+    for speaker in speakers:
         name = str(speaker.get("name") or "").strip()
         if not name:
             continue
-        key = name.casefold()
+        country = str(speaker.get("country") or "").strip().casefold()
+        countries_by_name.setdefault(name.casefold(), set()).add(country)
+    return {
+        name
+        for name, countries in countries_by_name.items()
+        if len([item for item in countries if item]) >= 3
+    }
+
+
+def export_speaker_names(payload: dict, path: Path) -> Path:
+    """Escribe `nombre | país | cargo` para SPEAKER_ROSTER_FILE del monitor en vivo."""
+    speakers = list(payload.get("speakers") or [])
+    leaked = _leaked_names(speakers)
+    lines: list[str] = []
+    seen: set[str] = set()
+    for speaker in speakers:
+        country = str(speaker.get("country") or "").strip()
+        name = str(speaker.get("name") or "").strip()
+        if name.casefold() in leaked:
+            name = ""
+        if not name:
+            name = country
+        if not name:
+            continue
+        key = f"{name.casefold()}|{country.casefold()}"
         if key in seen:
             continue
         seen.add(key)
-        country = str(speaker.get("country") or "").strip()
         title = _export_title(speaker)
         if country or title:
             lines.append(f"{name} | {country} | {title}".rstrip(" |"))
@@ -193,7 +215,7 @@ def _generic_country(value: str) -> bool:
 def _apply_listing(page: SpeakerPage, listing: ListingSpeaker | None, day: str) -> None:
     if listing is None:
         return
-    if not page.name and listing.name:
+    if listing.name:
         page.name = listing.name
     if listing.title and _generic_country(page.country):
         page.country = listing.title

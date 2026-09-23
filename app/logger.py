@@ -15,6 +15,8 @@ _HIGHLIGHT_MARKERS = (
     "Email alert sent",
     "Email alert failed",
     "EMAIL_SKIPPED_COOLDOWN",
+    "EMAIL_WAITING",
+    "EMAIL_CONTEXT_PARTIAL",
     "SESSION_",
     "Shutting down",
     "Stream connected",

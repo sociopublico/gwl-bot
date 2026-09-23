@@ -110,6 +110,19 @@
           }
         },
         {
+          "SP_slotNo": "5",
+          "SP_isSkip": false,
+          "SP_approval": false,
+          "SP_LS_nameFormat": false,
+          "SP_LS_fname": "Antonio",
+          "SP_LS_lname": "Tajani",
+          "SP_LS_funcTitle": "Deputy Prime Minister of Italy",
+          "SP_entity": {
+            "SP_entity": "ITALY",
+            "SP_entityShort": "Italy"
+          }
+        },
+        {
           "SP_slotNo": "4",
           "SP_isSkip": false,
           "SP_LS_nameFormat": false,

@@ -7,8 +7,9 @@ import threading
 import time
 from pathlib import Path
 
+from app.alert_context import AlertContext
 from app.audio import AudioStream, EndOfStream, ShutdownRequested, StreamError
-from app.clock import StreamClock
+from app.clock import StreamClock, pcm_seconds
 from app.config import Config
 from app.detector import detect_keywords
 from app.events import DetectionDeduper, emit_detections
@@ -54,6 +55,11 @@ def run(config: Config) -> None:
     )
     logger.info("Keywords: %s", ", ".join(config.keywords))
     logger.info(
+        "Alert context | before=%.0fs | after=%.0fs",
+        config.alert_text_before_seconds,
+        config.alert_text_after_seconds,
+    )
+    logger.info(
         "Chunk=%.1fs | overlap=%.1fs | model=%s | language=%s | vad=%s",
         config.chunk_seconds,
         config.chunk_overlap_seconds,
@@ -64,7 +70,11 @@ def run(config: Config) -> None:
 
     transcriber = Transcriber(config)
     transcriber.load()
-    notifier = build_notifier(config)
+    notifier = AlertContext(
+        build_notifier(config),
+        before_seconds=config.alert_text_before_seconds,
+        after_seconds=config.alert_text_after_seconds,
+    )
     tracker = SpeakerTracker(config) if config.speaker_tracking else None
     deduper = DetectionDeduper(ttl_seconds=max(config.chunk_overlap_seconds * 2, 8.0))
     journal = (
@@ -111,6 +121,8 @@ def run(config: Config) -> None:
                         _clip(text) if text else "(empty)",
                     )
                     window_start = clock.window_start(len(window))
+                    window_end = window_start + pcm_seconds(len(window), config.sample_rate)
+                    notifier.add_window(window_start, window_end, text, segments)
                     speaker = (
                         tracker.observe(text, video_seconds=window_start)
                         if tracker is not None
@@ -132,6 +144,7 @@ def run(config: Config) -> None:
                         events, notifier, deduper=deduper, journal=journal
                     )
                     detections += len(unique)
+                    notifier.flush_ready()
 
                     now = time.monotonic()
                     if now - last_heartbeat >= config.heartbeat_seconds:
@@ -148,12 +161,18 @@ def run(config: Config) -> None:
         except ShutdownRequested:
             break
         except EndOfStream:
+            notifier.flush()
+            notifier.reset()
             logger.info("Stream ended")
             if config.exit_on_eof:
                 break
         except StreamError as exc:
+            notifier.flush()
+            notifier.reset()
             logger.error("Stream error: %s", exc)
         except Exception as exc:
+            notifier.flush()
+            notifier.reset()
             logger.exception("Unexpected error: %s", exc)
 
         if stop_event.is_set():
@@ -165,6 +184,7 @@ def run(config: Config) -> None:
             break
         _maybe_stale()
 
+    notifier.flush()
     logger.info(
         "Shutting down | uptime=%.0fs | chunks=%s | detections=%s | emails_sent=%s",
         time.monotonic() - started,

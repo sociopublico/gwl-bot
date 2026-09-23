@@ -10,6 +10,7 @@ from pipeline.config import load_session
 from pipeline.gadebate import ListingSpeaker, parse_speaker_page
 from pipeline.models import SpeakerPage
 from pipeline.roster import (
+    _apply_listing,
     chosen_source,
     export_speaker_names,
     merge_speakers,
@@ -136,6 +137,55 @@ class RosterTest(unittest.TestCase):
             ],
         )
 
+    def test_export_drops_leaked_ficha_name(self) -> None:
+        payload = {
+            "speakers": [
+                {"slug": "latvia", "name": "Nasser Bourita", "country": "Latvia"},
+                {"slug": "romania", "name": "Nasser Bourita", "country": "Romania"},
+                {
+                    "slug": "burundi",
+                    "name": "Nasser Bourita",
+                    "country": "Burundi",
+                },
+                {
+                    "slug": "argentina",
+                    "name": "Javier Gerardo Milei",
+                    "country": "Argentina",
+                    "rank": "President",
+                },
+            ]
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            path = export_speaker_names(payload, Path(tmp) / "speakers.txt")
+            lines = [
+                line
+                for line in path.read_text(encoding="utf-8").splitlines()
+                if line and not line.startswith("#")
+            ]
+        self.assertEqual(
+            lines,
+            [
+                "Latvia | Latvia",
+                "Romania | Romania",
+                "Burundi | Burundi",
+                "Javier Gerardo Milei | Argentina | President",
+            ],
+        )
+
+    def test_listing_name_overwrites_leaked_ficha_name(self) -> None:
+        page = SpeakerPage(
+            slug="latvia",
+            url="https://gadebate.un.org/en/81/latvia",
+            country="Latvia",
+            name="Nasser Bourita",
+            rank="",
+            speaker_title="",
+            speech_date="",
+        )
+        listing = ListingSpeaker("morning", "Latvia", "Edgars Rinkēvičs", "latvia")
+        _apply_listing(page, listing, "2026-09-23")
+        self.assertEqual(page.name, "Edgars Rinkēvičs")
+
     def test_build_roster_uses_homepage_when_slug_file_empty(self) -> None:
         from dataclasses import replace
 
@@ -170,6 +220,10 @@ class RosterTest(unittest.TestCase):
             self.assertEqual(payload["day"], "2026-09-22")
             self.assertEqual(
                 [s["slug"] for s in payload["speakers"]], ["brazil", "france"]
+            )
+            self.assertEqual(
+                [s["name"] for s in payload["speakers"]],
+                ["Luiz Inácio Lula da Silva", "Emmanuel Macron"],
             )
             journal = (journal_dir / "2026-09-22.txt").read_text(encoding="utf-8")
         self.assertIn("brazil", journal)

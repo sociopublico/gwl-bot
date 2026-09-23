@@ -25,6 +25,8 @@ class ConfigDefaultsTest(unittest.TestCase):
         self.assertEqual(config.watchdog_seconds, 180)
         self.assertEqual(config.watchdog_email_cooldown, 600)
         self.assertEqual(config.webtv_url, "")
+        self.assertEqual(config.alert_text_before_seconds, 75)
+        self.assertEqual(config.alert_text_after_seconds, 30)
 
     def test_webtv_url_from_env(self) -> None:
         env = {
@@ -51,6 +53,15 @@ class ConfigDefaultsTest(unittest.TestCase):
         env = {
             "STREAM_URL": "https://www.youtube.com/watch?v=KnIFmbdRCi0",
             "STREAM_START_SECONDS": "-1",
+        }
+        with patch.dict(os.environ, env, clear=True):
+            with self.assertRaises(ValueError):
+                Config.from_env()
+
+    def test_alert_text_window_cannot_be_negative(self) -> None:
+        env = {
+            "STREAM_URL": "https://www.youtube.com/watch?v=KnIFmbdRCi0",
+            "ALERT_TEXT_BEFORE_SECONDS": "-1",
         }
         with patch.dict(os.environ, env, clear=True):
             with self.assertRaises(ValueError):

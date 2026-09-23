@@ -15,11 +15,11 @@ from zoneinfo import ZoneInfo
 
 from app.config import Config
 from app.detector import DetectionEvent, mark_keywords_html, mark_keywords_plain
-from app.youtube import format_timecode
 
 logger = logging.getLogger(__name__)
 
 _NY = ZoneInfo("America/New_York")
+_MADRID = ZoneInfo("Europe/Madrid")
 
 logger = logging.getLogger(__name__)
 
@@ -166,12 +166,15 @@ def mark_sent(last_sent: dict[str, float], events: Sequence[DetectionEvent], now
         last_sent[event.keyword.casefold()] = now
 
 
-def _when_lines(stamp: datetime) -> tuple[str, str]:
+def _when_lines(stamp: datetime) -> tuple[str, str, str]:
     utc = stamp.astimezone(timezone.utc)
     ny = stamp.astimezone(_NY)
+    madrid = stamp.astimezone(_MADRID)
+    clock = "%Y-%m-%d %H:%M:%S %Z"
     return (
         f"{utc.strftime('%Y-%m-%d %H:%M:%S')} UTC",
-        f"{ny.strftime('%Y-%m-%d %H:%M:%S %Z')}",
+        ny.strftime(clock),
+        madrid.strftime(clock),
     )
 
 
@@ -187,31 +190,19 @@ def build_email(events: Sequence[DetectionEvent]) -> tuple[str, str, str]:
     if speakers:
         subject += " | " + ", ".join(speakers)
     first = events[0]
-    chunk = first.transcript
-    marked_plain = mark_keywords_plain(chunk, keywords)
-    marked_html = mark_keywords_html(chunk, keywords)
-    when_utc, when_ny = _when_lines(first.timestamp)
+    passage = first.mail_context or first.transcript
+    passage_label = "Context" if first.mail_context else "Chunk"
+    marked_plain = mark_keywords_plain(passage, keywords)
+    marked_html = mark_keywords_html(passage, keywords)
+    when_utc, when_ny, when_madrid = _when_lines(first.timestamp)
     titles = list(dict.fromkeys(event.speaker_title for event in events if event.speaker_title))
 
     lines = [
         f"Keyword(s): {', '.join(keywords)}",
         f"When: {when_utc}",
         f"New York: {when_ny}",
+        f"Madrid: {when_madrid}",
     ]
-    if first.timestamp_reliable and first.video_seconds is not None:
-        player = f"Player: {format_timecode(first.video_seconds)}"
-        if first.webtv_url and "kalturaStartTime=" in first.webtv_url:
-            lines.append(player)
-        else:
-            lines.append(
-                f"{player} (YouTube live ignores timestamp links; use the bar if you seek)"
-            )
-    elif first.webtv_url:
-        lines.append(
-            "Player: unknown (live start missing or this Web TV asset has no DVR)"
-        )
-    if first.webtv_url:
-        lines.append(f"UN Web TV: {first.webtv_url}")
     if first.watch_url:
         lines.append(f"YouTube: {first.watch_url}")
     if speakers:
@@ -219,32 +210,16 @@ def build_email(events: Sequence[DetectionEvent]) -> tuple[str, str, str]:
         if titles:
             lines.append(f"Title: {', '.join(titles)}")
     lines.append("")
-    lines.append("Chunk:")
+    lines.append(f"{passage_label}:")
     lines.append(marked_plain)
     text = "\n".join(lines)
 
     meta_html = [
         f"<p><b>Keyword(s):</b> {html_escape(', '.join(keywords))}</p>",
         f"<p><b>When:</b> {html_escape(when_utc)}<br>"
-        f"<b>New York:</b> {html_escape(when_ny)}</p>",
+        f"<b>New York:</b> {html_escape(when_ny)}<br>"
+        f"<b>Madrid:</b> {html_escape(when_madrid)}</p>",
     ]
-    if first.timestamp_reliable and first.video_seconds is not None:
-        player_html = (
-            f"<p><b>Player:</b> {html_escape(format_timecode(first.video_seconds))}"
-        )
-        if first.webtv_url and "kalturaStartTime=" in first.webtv_url:
-            meta_html.append(f"{player_html}</p>")
-        else:
-            meta_html.append(
-                f"{player_html} (YouTube live ignores timestamp links)</p>"
-            )
-    elif first.webtv_url:
-        meta_html.append(
-            "<p><b>Player:</b> unknown (live start missing or this Web TV asset has no DVR)</p>"
-        )
-    if first.webtv_url:
-        href = html_escape(first.webtv_url)
-        meta_html.append(f'<p><b>UN Web TV:</b> <a href="{href}">{href}</a></p>')
     if first.watch_url:
         href = html_escape(first.watch_url)
         meta_html.append(f'<p><b>YouTube:</b> <a href="{href}">{href}</a></p>')
@@ -255,7 +230,7 @@ def build_email(events: Sequence[DetectionEvent]) -> tuple[str, str, str]:
     html = (
         '<div style="font-family:sans-serif;max-width:40em;line-height:1.45">'
         + "".join(meta_html)
-        + "<p><b>Chunk:</b></p>"
+        + f"<p><b>{html_escape(passage_label)}:</b></p>"
         + '<blockquote style="margin:0;border-left:3px solid #222;padding:0.4em 0.8em">'
         + marked_html
         + "</blockquote></div>"

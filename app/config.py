@@ -95,6 +95,8 @@ class Config:
     speaker_llm_model: str = "gpt-4o-mini"
     speaker_llm_timeout: float = 8.0
     webtv_url: str = ""
+    alert_text_before_seconds: float = 75.0
+    alert_text_after_seconds: float = 30.0
 
     @property
     def email_enabled(self) -> bool:
@@ -183,6 +185,14 @@ class Config:
         if cooldown < 0:
             raise ValueError("ALERT_COOLDOWN_SECONDS no puede ser negativo")
 
+        text_before = _env_float("ALERT_TEXT_BEFORE_SECONDS", 75)
+        if text_before < 0:
+            raise ValueError("ALERT_TEXT_BEFORE_SECONDS no puede ser negativo")
+
+        text_after = _env_float("ALERT_TEXT_AFTER_SECONDS", 30)
+        if text_after < 0:
+            raise ValueError("ALERT_TEXT_AFTER_SECONDS no puede ser negativo")
+
         smtp_timeout = _env_float("SMTP_TIMEOUT", 15)
         if smtp_timeout < 1:
             raise ValueError("SMTP_TIMEOUT debe ser al menos 1 segundo")
@@ -229,6 +239,8 @@ class Config:
             smtp_starttls=_env_bool("SMTP_STARTTLS", True),
             smtp_ssl=smtp_ssl,
             alert_cooldown_seconds=cooldown,
+            alert_text_before_seconds=text_before,
+            alert_text_after_seconds=text_after,
             smtp_timeout=smtp_timeout,
             watchdog_seconds=watchdog_seconds,
             watchdog_email_cooldown=watchdog_email_cooldown,

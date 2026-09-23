@@ -135,6 +135,8 @@ def parse_speakers(payload: dict) -> list[ListedSpeaker]:
         for raw in rows:
             if raw.get("SP_isSkip") or _is_placeholder(raw):
                 continue
+            if raw.get("SP_approval") is False:
+                continue
             name = speaker_name(raw)
             if not name:
                 continue

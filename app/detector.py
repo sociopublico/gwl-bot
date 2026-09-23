@@ -24,6 +24,7 @@ class DetectionEvent:
     watch_url: str | None = None
     webtv_url: str | None = None
     timestamp_reliable: bool = True
+    mail_context: str | None = None
 
 
 def _keyword_pattern(keyword: str) -> re.Pattern[str]:

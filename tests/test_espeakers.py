@@ -60,6 +60,7 @@ class EspeakersTest(unittest.TestCase):
         lula = [s for s in speakers if "Lula" in s.name][0]
         self.assertEqual(lula.country, "Brazil")
         self.assertIn("President", lula.title)
+        self.assertFalse(any("Tajani" in name for name in names))
 
     def test_filter_day_and_empty_forthcoming_day(self) -> None:
         speakers = parse_speakers(self.payload)

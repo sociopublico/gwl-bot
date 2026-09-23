@@ -45,6 +45,11 @@ class HighlightsFilterTest(unittest.TestCase):
             )
         )
         self.assertTrue(
+            self.filter.filter(
+                self._record(logging.INFO, "EMAIL_WAITING_CONTEXT | keywords=women")
+            )
+        )
+        self.assertTrue(
             self.filter.filter(self._record(logging.INFO, "MONITOR_STALE | no transcript"))
         )
 
