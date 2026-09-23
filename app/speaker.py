@@ -7,7 +7,10 @@ import urllib.error
 import urllib.request
 from collections.abc import Callable
 from dataclasses import dataclass
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 from app.config import Config
 from app.logger import SPEAKER_CHANGED
@@ -17,6 +20,11 @@ from app.youtube import format_timecode
 logger = logging.getLogger(__name__)
 
 LlmCall = Callable[[str, str | None], dict[str, Any] | None]
+NowFn = Callable[[], datetime]
+
+_NY = ZoneInfo("America/New_York")
+SPEAKER_MAX_AGE = timedelta(minutes=90)
+_SPEAKER_STATE = "speaker.json"
 
 _HONORIFIC = r"(?:his|her)\s+(?:royal\s+)?(?:excellency|majesty|highness)"
 
@@ -367,19 +375,102 @@ def speaker_from_llm(data: dict[str, Any]) -> Speaker | None:
     return Speaker(name=name, title=title, country=country, confidence="weak", source="llm")
 
 
+def _named(speaker: Speaker) -> bool:
+    return bool(speaker.name) and speaker.name.casefold() != "unknown"
+
+
+def _iso(stamp: datetime | None) -> str:
+    if stamp is None:
+        return ""
+    return stamp.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def _speaker_record(speaker: Speaker, started_at: datetime) -> dict[str, str]:
+    return {
+        "name": speaker.name,
+        "title": speaker.title or "",
+        "country": speaker.country or "",
+        "confidence": speaker.confidence,
+        "source": speaker.source,
+        "started_at": _iso(started_at),
+    }
+
+
+def _parse_started(raw: object) -> datetime | None:
+    if not isinstance(raw, str) or not raw:
+        return None
+    try:
+        stamp = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if stamp.tzinfo is None:
+        stamp = stamp.replace(tzinfo=timezone.utc)
+    return stamp.astimezone(timezone.utc)
+
+
+def _restore_reason(started_at: datetime, now: datetime) -> str | None:
+    if started_at.astimezone(_NY).date() != now.astimezone(_NY).date():
+        return "previous day"
+    if now - started_at > SPEAKER_MAX_AGE:
+        return "older than 90m"
+    return None
+
+
+def _fresh_speaker(raw: object, now: datetime) -> tuple[Speaker, datetime] | None:
+    if not isinstance(raw, dict):
+        return None
+    name = str(raw.get("name") or "").strip()
+    if not name or name.casefold() == "unknown":
+        return None
+    started_at = _parse_started(raw.get("started_at"))
+    if started_at is None:
+        logger.info("SPEAKER_RESTORE_SKIPPED | %s | reason=missing timestamp", name)
+        return None
+    reason = _restore_reason(started_at, now)
+    if reason is not None:
+        logger.info(
+            "SPEAKER_RESTORE_SKIPPED | %s | started=%s | reason=%s",
+            name,
+            _iso(started_at),
+            reason,
+        )
+        return None
+    title = str(raw.get("title") or "").strip() or None
+    country = str(raw.get("country") or "").strip() or None
+    return (
+        Speaker(
+            name=name,
+            title=title,
+            country=country,
+            confidence=str(raw.get("confidence") or "unknown"),
+            source=str(raw.get("source") or "restored"),
+        ),
+        started_at,
+    )
+
+
 class SpeakerTracker:
-    def __init__(self, config: Config, llm_call: LlmCall | None = None) -> None:
+    def __init__(
+        self,
+        config: Config,
+        llm_call: LlmCall | None = None,
+        now: NowFn | None = None,
+    ) -> None:
         self.config = config
         self.aliases = parse_aliases(config.speaker_aliases)
         self.roster = parse_roster(config.speaker_roster)
         if config.speaker_roster_file:
             self.roster = self.roster + load_roster_file(config.speaker_roster_file)
         self._llm_call = llm_call
+        self._now = now or (lambda: datetime.now(timezone.utc))
         self._current = Speaker()
+        self._current_started_at: datetime | None = None
         self._pending: Speaker | None = None
+        self._pending_started_at: datetime | None = None
         self._previous_text = ""
         if self.roster:
             logger.info("Speaker roster loaded | n=%s", len(self.roster))
+        self._load()
 
     @property
     def current(self) -> Speaker:
@@ -387,13 +478,20 @@ class SpeakerTracker:
 
     def reset(self) -> None:
         self._current = Speaker()
+        self._current_started_at = None
         self._pending = None
+        self._pending_started_at = None
         self._previous_text = ""
+        self._persist()
 
     def observe(self, text: str, video_seconds: float | None = None) -> Speaker:
+        changed = False
         if self._pending is not None:
             self._current = self._pending
+            self._current_started_at = self._pending_started_at or self._now()
             self._pending = None
+            self._pending_started_at = None
+            changed = True
 
         attributed = self._current
         extracted = self._extract(text)
@@ -443,6 +541,8 @@ class SpeakerTracker:
         if extracted is not None:
             if extracted.name.casefold() != self._current.name.casefold():
                 self._pending = extracted
+                self._pending_started_at = self._now()
+                changed = True
                 stamp = format_timecode(video_seconds or 0.0)
                 title = extracted.display_title or ""
                 logger.log(
@@ -457,7 +557,71 @@ class SpeakerTracker:
                 attributed = Speaker()
 
         self._previous_text = text
+        if changed:
+            self._persist()
         return attributed
+
+    def _state_path(self) -> Path | None:
+        raw = (self.config.log_dir or "").strip()
+        if not raw:
+            return None
+        return Path(raw) / _SPEAKER_STATE
+
+    def _load(self) -> None:
+        path = self._state_path()
+        if path is None or not path.is_file():
+            return
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            logger.warning("Speaker state unreadable | path=%s | %s", path, exc)
+            return
+        if not isinstance(data, dict):
+            return
+        now = self._now()
+        current = _fresh_speaker(data.get("current"), now)
+        pending = _fresh_speaker(data.get("pending"), now)
+        if current is None and pending is None:
+            self._persist()
+            return
+        if current is not None:
+            self._current, self._current_started_at = current
+            logger.info(
+                "SPEAKER_RESTORED | %s | started=%s",
+                self._current.name,
+                _iso(self._current_started_at),
+            )
+        if pending is not None:
+            self._pending, self._pending_started_at = pending
+            logger.info(
+                "SPEAKER_RESTORED | pending %s | started=%s",
+                self._pending.name,
+                _iso(self._pending_started_at),
+            )
+
+    def _persist(self) -> None:
+        path = self._state_path()
+        if path is None:
+            return
+        payload: dict[str, dict[str, str]] = {}
+        if _named(self._current) and self._current_started_at is not None:
+            payload["current"] = _speaker_record(self._current, self._current_started_at)
+        if (
+            self._pending is not None
+            and _named(self._pending)
+            and self._pending_started_at is not None
+        ):
+            payload["pending"] = _speaker_record(self._pending, self._pending_started_at)
+        try:
+            if not payload:
+                path.unlink(missing_ok=True)
+                return
+            path.parent.mkdir(parents=True, exist_ok=True)
+            temporary = path.with_suffix(".json.tmp")
+            temporary.write_text(json.dumps(payload), encoding="utf-8")
+            temporary.replace(path)
+        except OSError as exc:
+            logger.warning("Speaker state write failed | path=%s | %s", path, exc)
 
     def _extract(self, text: str) -> Speaker | None:
         compact = " ".join(text.split())

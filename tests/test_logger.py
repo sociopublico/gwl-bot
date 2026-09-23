@@ -34,6 +34,9 @@ class HighlightsFilterTest(unittest.TestCase):
     def test_keeps_keyword_and_speaker_levels(self) -> None:
         self.assertTrue(self.filter.filter(self._record(KEYWORD_DETECTED, "women | …")))
         self.assertTrue(self.filter.filter(self._record(SPEAKER_CHANGED, "0:00 | Lula | …")))
+        self.assertTrue(
+            self.filter.filter(self._record(logging.INFO, "SPEAKER_RESTORED | Lula | started=..."))
+        )
 
     def test_keeps_email_and_session_info(self) -> None:
         self.assertTrue(

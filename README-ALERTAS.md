@@ -188,7 +188,7 @@ Con Gmail: activar 2FA y usar un [App Password](https://myaccount.google.com/app
 
 ## Oradores (speaker tracking)
 
-El monitor detecta cambios de orador desde el ASR cuando el chair presenta (`His Excellency…`, `give the floor`, etc.). En el chunk de la intro las keywords quedan como `unknown`; el nombre nuevo aplica en el chunk siguiente (cuando arranca a hablar la persona).
+El monitor detecta cambios de orador desde el ASR cuando el chair presenta (`His Excellency…`, `give the floor`, etc.). En el chunk de la intro las keywords quedan como `unknown`; el nombre nuevo aplica en el chunk siguiente (cuando arranca a hablar la persona). El orador actual queda en `logs/speaker.json`. Un `docker compose up --build` lo retoma, salvo que haya empezado el día anterior (hora de Nueva York) o hace más de 90 minutos.
 
 Eso **no** es lo mismo que el pipeline de análisis: ahí Whisper solo transcribe un discurso ya aislado y el nombre viene del roster gadebate.
 

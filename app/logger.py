@@ -24,6 +24,8 @@ _HIGHLIGHT_MARKERS = (
     "Email alerts enabled",
     "Email alerts disabled",
     "MONITOR_STALE",
+    "SPEAKER_RESTORED",
+    "SPEAKER_RESTORE_SKIPPED",
 )
 
 

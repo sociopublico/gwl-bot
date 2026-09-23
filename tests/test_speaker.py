@@ -1,6 +1,10 @@
 from __future__ import annotations
 
+import json
+import tempfile
 import unittest
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from typing import Any
 
 from app.config import Config
@@ -30,7 +34,7 @@ def _config(**overrides) -> Config:
         heartbeat_seconds=60,
         cpu_threads=4,
         log_level="INFO",
-        log_dir="logs",
+        log_dir="",
         cookies_file=None,
         audio_read_timeout=30,
         smtp_host="",
@@ -328,6 +332,78 @@ class SpeakerTrackerTest(unittest.TestCase):
             "this year's session, however, takes place 25 years after the terro"
         )
         self.assertEqual(still.name, "João Manuel Gonçalves Lourenço")
+
+
+class SpeakerPersistenceTest(unittest.TestCase):
+    def test_restart_restores_speaker_from_the_same_day(self) -> None:
+        now = datetime(2026, 9, 23, 18, 0, tzinfo=timezone.utc)
+        with tempfile.TemporaryDirectory() as tmp:
+            tracker = SpeakerTracker(_config(log_dir=tmp), now=lambda: now)
+            tracker.observe(LULA_INTRO, video_seconds=100)
+            speaker = tracker.observe("We must protect women.")
+            self.assertIn("Lula", speaker.name)
+
+            again = SpeakerTracker(_config(log_dir=tmp), now=lambda: now)
+            self.assertIn("Lula", again.current.name)
+            self.assertEqual(again.observe("The speech continues.").name, again.current.name)
+
+    def test_discards_speaker_older_than_90_minutes(self) -> None:
+        now = datetime(2026, 9, 23, 18, 0, tzinfo=timezone.utc)
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "speaker.json"
+            started = now - timedelta(minutes=91)
+            path.write_text(
+                json.dumps(
+                    {
+                        "current": {
+                            "name": "Luiz Inacio Lula da Silva",
+                            "title": "President",
+                            "country": "Brazil",
+                            "confidence": "strong",
+                            "source": "regex",
+                            "started_at": started.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                        }
+                    }
+                ),
+                encoding="utf-8",
+            )
+            tracker = SpeakerTracker(_config(log_dir=tmp), now=lambda: now)
+            self.assertEqual(tracker.current.name, "unknown")
+            self.assertFalse(path.is_file())
+
+    def test_discards_speaker_from_the_previous_new_york_day(self) -> None:
+        # 00:20 en Nueva York; el orador empezó 23:40 del día anterior (40 min).
+        now = datetime(2026, 9, 23, 4, 20, tzinfo=timezone.utc)
+        started = now - timedelta(minutes=40)
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "speaker.json"
+            path.write_text(
+                json.dumps(
+                    {
+                        "current": {
+                            "name": "Luiz Inacio Lula da Silva",
+                            "title": "President",
+                            "country": "Brazil",
+                            "confidence": "strong",
+                            "source": "regex",
+                            "started_at": started.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                        }
+                    }
+                ),
+                encoding="utf-8",
+            )
+            tracker = SpeakerTracker(_config(log_dir=tmp), now=lambda: now)
+            self.assertEqual(tracker.current.name, "unknown")
+
+    def test_reset_forgets_saved_speaker(self) -> None:
+        now = datetime(2026, 9, 23, 18, 0, tzinfo=timezone.utc)
+        with tempfile.TemporaryDirectory() as tmp:
+            tracker = SpeakerTracker(_config(log_dir=tmp), now=lambda: now)
+            tracker.observe(LULA_INTRO)
+            tracker.observe("Speech starts.")
+            tracker.reset()
+            again = SpeakerTracker(_config(log_dir=tmp), now=lambda: now)
+            self.assertEqual(again.current.name, "unknown")
 
 
 if __name__ == "__main__":
