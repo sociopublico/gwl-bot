@@ -1,0 +1,98 @@
+---
+session: 81
+slug: romania
+country: Romania
+speaker: Nicuşor-Daniel Dan
+title: President
+speaker_title: His Excellency
+date: 2026-09-23
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/ro_en.pdf
+language: en
+original_language: und
+transformation: none
+via: pypdf
+elapsed_s: 1.109
+---
+
+Mr. President,
+
+Mr. Secretary General,
+
+Excellencies,
+
+Ladies and gentlemen,
+
+It is an honour for me to address this Assembly, and it is a particular pleasure to do so here in the United States, a country with which Romania shares a long history of friendship, a nation toward which Romanians look with respect and gratitude, including for its essential contribution to the fall of the Iron Curtain and the opening of my country’s path to wards democracy and freedom.
+
+We are at the United Nations, and I will speak about relations between nations, but let me first draw your attention to a threat to our democracies that I do not believe is receiving the interest it deserves: manipulation via social media. The fundamental principle of democracy is ”one person, one voice, one vote ”, b ut, if thousands of fake accounts speak in a coordinated manner, the individual's voice is no longer heard, and freedom of speech is denied. And if thousands of fake accounts launch a coordinated attack on the ideas expressed by an individual, they discourage others from joining that person's cause, and freedom of association is denied.
+
+I will switch now to Romanian.
+
+I reaffirm Romania's commitment to the principles of the UN Charter, and these are not abstract commitments. The very principles that underpin international law - human rights, the rule of law and democratic governance - are those that have transformed our country. Romania's evolution over the past thirty -seven years demonstrates the crucial importance of upholding these principles. Millions of Romanians know from their own experience the difference between a communist system that oppressed them and stifled their initiative and freedom of choice, and a democracy that rewards work, innovation, and personal responsibility.
+
+This choice has made Romania one of the most dynamic destinations in Europe for investment and industrial development. Romania has aligned itself with the standards of the Organisation for Economic Co-operation and Development, the OECD. Leading global companies have established manufacturing, engineering, technology and service centres in my country, drawn by our favourable business environment and highly skilled workforce.
+
+Our most important strategic asset is our people. Romanian scientists, engineers, physicians, and technology specialists are shaping the industries of the future: artificial intelligence, cybersecurity, defence technologies, advanced manufacturing, and robotics.
+
+Romania is also strengthening Europe's resilience. We are developing significant reserves of natural gas, critical minerals, and other strategic resources, which are essential for securing supply chains and reducing dependence on unpredictable energy sources. Next year, we will begin the exploitation of 100 billion cubic metres of natural gas in the Black Sea.
+
+Romania is a gateway between Europe and the rest of the world. Situated at the crossroads of the Danube, the Black Sea, and the main trade corridors, my country serves as a strategic hub for trade, energy, and transport.
+
+Economic development is all the stronger when it is built on partnership. Our message is simple: Romania is open for business and innovation. We are a credible and reliable partner, ready to contribute to shared prosperity.
+
+Ladies and gentlemen,
+
+We are in the fifth year of the illegal, unprovoked and unjustified war of aggression waged on a large scale against Ukraine by a permanent member of the Security Council.
+
+This member, to which the entire United Nations community entrusted the responsibility for maintaining international peace and security, has deliberately abandoned its fundamental obligation and is pursuing a revisionist agenda.
+
+As the EU Member State with the longest border with Ukraine, Romania has directly felt the effects of this war through repeated violations of our airspace. A few months ago, a drone crashed onto a residential building on our territory, injuring people and causing material damage. It was one episode in a continuing series of such incidents.
+
+We have said it before, and we say it again: Romania will stand with Ukraine and its people, who are acting in legitimate self-defence, for as long as it takes.
+
+Moreover, Romania is acting responsibly to stabilise the region.
+
+We have provided assistance to refugees from Ukraine.
+
+In response to Russia's attacks on ports and grain infrastructure, which have disrupted global food supply chains and heightened food insecurity for millions of people, our country has coordinated with Ukraine on the transit of grain through Romania, by rail and by inland waterway.
+
+In response to the impairment of freedom of navigation in the Black Sea, Romania, together with Bulgaria and Türkiye, is part of the Mine Countermeasures Black Sea Task Group. Through mine detection and neutralisation missions and the protection of critical underwater infrastructure, this initiative safeguards freedom of navigation and the region's energy security.
+
+And, to enhance security in the Black Sea region, Romania places particular emphasis on the strategic approach of the European Union. Accordingly, together with Bulgaria, we are establishing a maritime security hub intended to strengthen situational awaren ess capabilities on the ground.
+
+Finally, in response to the disruption of energy supplies in the area, Romania has expanded energy interconnections with Ukraine and the Republic of Moldova.
+
+Romania will continue to support the resilience of our neighbour, the Republic of Moldova, the second most affected country in this war. It is facing the effects of the economic shock caused by Russia's aggression and a sustained hybrid campaign consisting of disinformation, energy pressure and attempts to destabilise its democratic institutions. Romania is a firm supporter of the Republic of Moldova in the face of these challenges. Romania also remains the Republic of Moldova's strongest advocate within the European Union, sharing our own accession experience and providing political, technical, and diplomatic support for the continuation of its European path.
+
+The threat posed by the Russian Federation is not limited to Ukraine. Europe is the target of hybrid war, encompassing cyberattacks, disinformation campaigns, sabotage and disruption of critical infrastructure, with the intention of undermining citizens' t rust in democratic institutions and discouraging support for Ukraine. We must deter the Russian threat and, regrettably, we can do so only by increasing military expenditure. Romania supports the rebalancing of defence spending and the 5% of GDP target for military expenditure, being at 3.7% this year.
+
+Distinguished audience,
+
+We are equally concerned by the proliferation of conflicts worldwide. It is essential to advance the implementation of the Peace Plan for Gaza, in accordance with Security Council Resolution 2803, and to address the humanitarian situation on the ground without delay. Within the "Board of Peace" initiative, Romania has offered its support and has contributed, to date, to the medical evacuation of numerous patients, especially children.
+
+The disarmament of Hamas remains a prerequisite for lasting stability in Gaza. President Trump's Peace Plan represents the most credible path towards peace and prosperity in the region, and Romania supports its full implementation. At the same time, recent developments in the West Bank are a cause for genuine concern and risk undermining the peace that this plan seeks to promote.
+
+With regard to Iran, our position is clear: Iran must not possess nuclear weapons. Iran must comply with the Treaty on the Non -Proliferation of Nuclear Weapons and the safeguards of the International Atomic Energy Agency, and restore full transparency of its nuclear programme.
+
+Diplomacy must be the first option towards a comprehensive, verifiable and durable agreement, which would open the way to a more stable Middle East.
+
+Romania will continue to promote maritime security and unhindered freedom of navigation in the Strait of Hormuz, as well as in the Black Sea and other areas. This is a shared responsibility and a priority for my country. Specialised bodies such as the Inte rnational Maritime Organization can contribute to this effort. The suspension of the Black Sea Grain Initiative, following Russia's unilateral withdrawal in 2023, reminds us that agreements matter only when the parties honour their commitments.
+
+We reaffirm our support for a just and lasting peace in Sudan, South Sudan, the Democratic Republic of the Congo, Somalia, Libya, the Sahel, and in all regions of Africa affected by conflict.
+
+Romania contributes to conflict prevention, mediation, peacebuilding, and economic recovery, while underlining the importance of African-led solutions, in full respect of the Charter.
+
+Prevention and mediation should play a greater role. Peace operations must have a clear mandate, deliver measurable results, ensure responsible funding and share burdens equitably.
+
+Since 1991, Romania has contributed to United Nations peacekeeping missions through political support, troop and equipment contributions, and the training of peacekeepers and close protection officers.
+
+Romania also attaches great importance to the role of the International Organisation of La Francophonie in promoting peace and security. With the majority of its 90 members in Africa, the OIF supports mediation, election observation, and peacebuilding in fragile contexts. Romania has put forward a candidate for the post of Secretary-General of the OIF: a former Prime Minister and a seasoned figure in international affairs. His candidacy reflects Romania's willingness to place this experience directly at the service of a stronger and more effective Francophonie. We count on your support.
+
+Ladies and gentlemen,
+
+Allow me to conclude by welcoming the initiatives of First Ladies and First Gentlemen on children and education, innovation, digital education, and child safety. Romania has joined the concepts initiated by Melania Trump, Emine Erdoğan, and Olena Zelenska. By building accessible education, and by building a more innovative and safer space for our children, we are building a better future for our societies.
+
+Thank you!
+
+Departamentul Comunicare Publică

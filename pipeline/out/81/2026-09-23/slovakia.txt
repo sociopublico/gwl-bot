@@ -1,0 +1,166 @@
+---
+session: 81
+slug: slovakia
+country: Slovakia
+speaker: Peter Pellegrini
+title: President
+speaker_title: His Excellency
+date: 2026-09-23
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/sk_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.983
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Excellencies,
+
+Ladies and Gentlemen,
+
+Every country that enters this hall brings its own concerns.
+
+For some, security means protecting borders. For others, it means food, water, energy, or the future of their children. Many countries face all of these challenges at once.
+
+That is why a world ruled mainly by power, rather than by rules, would be dangerous for everyone.
+
+For smaller countries such as Slovakia, this is especially clear. But no country, large or small, is truly safe in a world where international law is ignored and institutions are weakened.
+
+Sadly, we no longer need to imagine such a world. We can already see parts of it around us.
+
+Trade is becoming less predictable. Security cooperation is more fragmented. The idea that every country should have a voice is under pressure.
+
+And when rules are weakened, when cooperation is replaced by confrontation, all of us become more vulnerable.
+
+But we still have a choice.
+
+The international system we have built is not perfect. It can be slow. It can be frustrating. At times, it does not deliver as quickly as people need.
+
+But the solution is not to destroy it. The solution is to make it work better.
+
+Slovakia is firmly anchored in the United Nations, NATO and the European Union. We believe in cooperation. But we also believe that institutions must produce real results.
+
+Over the past year, Slovakia has hosted several international meetings and offered space for dialogue. Where we can be useful, we are ready to help bring parties together and support diplomacy within the UN framework.
+
+Because when diplomacy stops, confrontation fills the space.
+
+That is why, when we speak about the United Nations, I believe in evolution rather than revolution.
+
+The world has changed, and the United Nations must change with it. The Security Council should better reflect today’s realities and give a stronger voice to countries and regions that are still underrepresented.
+
+Countries from the region often understand a crisis best. Giving them a stronger voice can help us act earlier and prevent escalation.
+
+Slovakia sees its engagement in UN reform as part of its responsibility to this Organization, including through UN80 and the implementation of the Pact for the Future.
+
+Our responsibility to the wider international order is also reflected in our candidacy for the Security Council for 2028 and 2029.
+
+We would be grateful for your trust and support.
+
+If elected, Slovakia will focus on four priorities:
+
+International law and the UN Charter; Accountable security institutions; The protection of strategic resources and critical infrastructure; And the security challenges linked to digitalization and artificial intelligence.
+
+I fully share the concern of the United Nations about the inequalities that can be created by unequal access to artificial intelligence.
+
+It is in our common interest that innovation benefits all of humanity, not only the strongest economies or the biggest companies.
+
+If AI is available only to a few, new divisions will appear. Entire communities may be left behind.
+
+The growing use of AI -powered weapons and autonomous systems also requires urgent attention.
+
+One principle must remain clear: machines should never be allowed to make life -ordeath decisions on their own.
+
+Just as the international community developed rules for nuclear, chemical and biological weapons, we also need strong international frameworks for new technologies. The United Nations can and should play a leading role in this effort.
+
+AI is not only a potential threat on the battlefield. It is already having a negative impact on society, especially in education. An entire generation of young people is being affected. Recent assessments show declining test scores across the vast majority of countries. This is a concerning trend that deserves open and serious discussion on international platforms such as the United Nations.
+
+At the same time, we should not see AI only as a risk. It can also be a tool for peace.
+
+It can help us analyze information, identify patterns and overcome language barriers in real time. It can support better decisions, faster responses and more effective prevention.
+
+With responsible use, proper human oversight and good governance, we can move this technology away from the battlefield and towards diplomacy, mediation and conflict prevention.
+
+And prevention matters.
+
+Every conflict we prevent saves lives. It protects development. It preserves human dignity.
+
+Once violence begins, every solution becomes harder, more costly and more painful.
+
+There is no need to reinvent the wheel when we reform international institutions.
+
+AI may be revolutionary, but we did not need to reinvent the personal computer in order to build it. The same is true in global politics. We should improve what already exists, not start again from zero.
+
+But let's ask ourselves a simple question. What if we, as world leaders, simply started following the UN Charter again? Would reform even matter if we finally did our best for global peace?
+
+Too many conflicts are still driven by the belief that political problems can be solved by force, by changing borders, violating sovereignty and ignoring international rules.
+
+We need to reject this logic.
+
+Leadership is not shown by the willingness to escalate. It requires the courage to de escalate.
+
+International rules may sound abstract in this hall. But on the ground, they are very real. They can mean the difference between life and death.
+
+When these rules are ignored, civilians suffer. Communities are destroyed. Millions are displaced. Supply chains are disrupted. Prosperity is lost.
+
+And there is an even deeper danger.
+
+If violence becomes normal for the next generation, diplomacy itself will become harder. What is difficult to solve today may become impossible tomorrow.
+
+That is why our most urgent task must be clear: stop the violence, keep diplomacy alive, and prevent today’s conflicts from becoming tomorrow’s normal.
+
+The war in Ukraine, now in its fifth year, continues to bring destruction close to Slovakia’s border.
+
+Attacks on civilian areas and critical infrastructure remain unacceptable. A ceasefire is still distant and lasting peace even further away.
+
+We should support every serious diplomatic effort that can help end Russia’s war against Ukraine and build a safe future for our neighbor.
+
+Our commitment to international law and human dignity cannot stop at Europe’s borders.
+
+The same basic principles must guide us in the Middle East.
+
+International humanitarian law must be respected. Civilians must be protected.
+
+Humanitarian aid must reach those who need it, including in Gaza.
+
+There can be no justification for terrorism, antisemitism, anti -Muslim hatred or calls to violence.
+
+Israelis and Palestinians both deserve to live in security and dignity.
+
+Slovakia continues to support a negotiated two -state solution, with Israel and an independent Palestinian state living side by side in peace and security.
+
+Other conflicts that are currently out of the spotlight must not escape our attention and our efforts to solve them. Take for example the civil war in Sudan that has triggered the world’s largest humanitarian crisis.
+
+Excellencies,
+
+The first words of our Charter are “We the peoples of the United Nations”.
+
+Today, we need that sense of shared responsibility again.
+
+Armed conflicts have reached levels we have not seen since the Second World War.
+
+Civilians continue to pay an unacceptable price.
+
+We already have institutions. We already have rules. We already have knowledge.
+
+What we need now is the will to use them.
+
+This year, the United Nations will choose its next Secretary-General.
+
+Slovakia supports a transparent and inclusive process based on merit, with due regard to regional diversity and gender balance.
+
+I would also like to thank Secretary-General António Guterres for his dedicated service and leadership during these difficult years.
+
+The next Secretary -General will inherit an organization under serious security, geopolitical, institutional and financial pressure.
+
+But the future of the United Nations will not depend on one person alone.
+
+It depends on all of us. On our will, courage and determination.
+
+We “the people of the United Nations” should not leave the next generation a world where violence is normal and diplomacy is the exception.
+
+Thank you.

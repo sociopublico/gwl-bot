@@ -1,0 +1,96 @@
+---
+session: 81
+slug: serbia
+country: Serbia
+speaker: Aleksandar Vučić
+title: President
+speaker_title: His Excellency
+date: 2026-09-23
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/rs_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.065
+---
+
+Mr. President of the General Assembly,
+
+Mr. Secretary-General,
+
+Excellencies,
+
+Ladies and gentlemen,
+
+The theme of this year’s session, “Restoring trust, managing transformation: a United Nations that delivers for all,” captures, at least in part, the moment in which we find ourselves.
+
+I agree that we need to restore trust in the United Nations, but I am less certain about the extent to which we can manage a transformation that has, in many respects, already taken place.
+
+The international system as we knew it has collapsed. It no longer exists.
+
+Today, we are witnessing the emergence of a new order, increasingly structured around two principal centers of power, alongside a growing number of strong regional actors with considerable political, economic, military and technological capabilities, seeking to shape their own environments and influence broader global developments on their own terms. We are therefore entering a period marked by a more complex and less predictable distribution of power, in which the risk of potential conflict is greater than it has been for decades. This is no longer confined to conventional armed conflicts between states. Confrontations are increasingly taking the form of economic pressure, technological restrictions, competition for resources and markets, cyberattacks, disinformati on and attempts to influence other societies.
+
+Cultural and identity-based divisions are also becoming more pronounced, increasingly exploited for political purposes and further deepening mistrust among peoples. The boundary between peace and conflict is becoming ever less distinct, while the consequences of confrontation among global and regional powers increasingly affect even those countries that are not directly involved.
+
+For small and medium -sized countries, just like the Republic of Serbia, such an environment represents an enormous challenge. The space for independent decision-making is narrowing, while pressure on states to choose sides is steadily increasing. At the same time, disagreements among the most powerful actors are increasingly paralyzing the very institutions that should be protecting all countries equally. The traditional system of international justice is seriously undermined whenever interests prevail over law and the same rules do not apply to everyone.
+
+The greatest problem of today is not the lack of rules or political principles, but the fact that they were not respected in the past or now. You will notice, dear friends, that today, with the exception of a few countries, everyone speaks of and invokes the UN Charter, the spirit of the Charter, and the principles on which the world order that was in force until recently was based on. It is as though they want to tell us, “Never mind, it doesn’t count” — that the fact that in the past we tore down and violated that Charter, by which we opened a Pandora’s box which is impossible to be closed, and today we would like, without consequences, to return to the future.
+
+They would like to revitalize the observance of the very same principles that powerful and great countries trampled so brutally.
+
+How many times over the past two days, from this rostrum, have you heard calls and appeals for observance of the principles of international public law, particularly when it comes to the conflict in Ukraine, while the majority of those same countries shamelessly and recklessly remain silent about the fact that they themselves participated in trampling the Charter and destroying the foundations of the international public law system — and today they would, at any cost, like to return to those principles now that they see that more powerful and stronger ones have resorted to the very same violations that they themselves carried out when they were the most powerful and the strongest.
+
+Here I am referring to all the countries that recognized the unilaterally declared independence of the so -called Kosovo and, without any basis whatsoever in international legal documents, attempted to seize 14 % of the territory of the Republic of Serbia. To many of you, this may sound like a distant past, but the wounds inflicted on international public law are becoming ever deeper and more severe. To be completely precise, the order based on respect for the UN Charter and the law founded upon it no longer exists. It was destroyed by those who tore apart the territories of other countries for the sake of their own political and economic interests. They did so unscrupulously, recklessly, and shamelessly. Do you know, esteemed friends, what was, in fact, the reason — the sole official and formal reason — for the attack on the territory of the Republic of Serbia and the Federal Republic of Yugoslavia, carried out by 19 NATO countries? You will not believe it. They told us that they had attacked a sovereign, free, and independent country in order to prevent a potential humanitarian disaster. The humanitarian disaster did not occur, and I have still not managed to hear or see where a simi lar example has occurred anywhere in the world. The attack against that small, yet free and freedomloving country, Serbia, of which I am the proud president, was carried out with the intention of finally destroying the UN order established after the World War II, and of formally and informally confirming the dominance of at that time unison Western world, of America and Europe.
+
+Do you know which countries took part in decision -making in the UN Security Council to bomb an independent and sovereign country that had attacked no other country? Not a single soldier, not a single police officer from Serbia had set foot on the territory of any other country, and yet the decision was made. I am certain that most of you, dear friends, who are among those best informed about world politics, no longer remember much of this either — and especially not the fact of who in the UN Security Council voted for that decision, or perhaps in the General Assembly. Do not even try, because it is impossible for you to remember. Why? Because such a decision was never made in the first place, and to make things even worse, no one ever even attempted to make such a decision. They were so arrogant and so powerful that they t rampled everything in their path. From the Clinton administration to the administrations of numerous European countries. That is precisely why Serbia supports the actions of the Administration o f President Donald Trump and sees in his work an opportunity for establishing a more just order in the world and more responsible attitude towards Serbia as a close American ally from both World Wars.
+
+And what they did not know or understand at the time was this: they trampled Serbia, but they did not defeat it. Serbia rose like a phoenix from the ashes. And today, through its example, it shows everyone in the world how the international public order is preserved and how international public law is protected. Nevertheless, the consequences of that brutal attack against Serbia are enormous and particularly visible here in the UN General Assembly. Admittedly, they are even more visible on the numerous battlefields around the world. Why?
+
+Well, because the principles, of any kind, no longer exist. Those who once trampled them have no moral right to speak about them. And to make the situation even worse, and the hypocrisy even more visible, it is precisely those very people and those very countries who have assumed the position of supreme teachers of moral and every kind of protection of the values of the modern world. The most difficult thing for us in Serbia is when we see in our surroundings the resurgence of Nazism elevated to the position of social prominence, especially in the Republic of Croatia, which is proud of its Nazi past and of the use of Nazi slogans and symbols today. The Serbian people, as people who suffered the most from Nazi hands, cannot accept the revival of the most terrible ghosts from the past responsible for the death of hundreds of thousands of Serbs, Jews, and Roma in monstrous concentration camps like Jasenovac. That is precisely why moral lectures coming from such sources are completely unacceptable to the Serbian people and Serbia.
+
+In addition, for four and a half years now,
+
+I have been listening to lectures how many in the West remain the last beacon of democracy in the world, the protectors not of Ukraine’s, but of the rules and principles of international law. And when they raise their voices, thinking that they are being highly moral and that their positions are the only right ones, we simply smile and ask ourselves: “And how did you treat Kosovo and Metohija and the territorial integrity of Serbia which is guaranteed by the UN Charter and the Resolution of the UN Security Council 1244?” To that, either there is no answer, or they supposedly give us some well-intentioned advice and tell us not to look to the past, but to the future.
+
+When we ask them, “Do you also say to Ukraine that the territories they are fighting for are not important?”, we end the pointless conversation and move on to another subject. And I want to warn all of you. All of you here who belong to the Global South. Pay the utmost attention while signing all the agreements with great powers. That is how we signed the famous Brussels Agreement in 2013, wishing to resolve problems between Serbs and Albanians in Kosovo and Metohija by compromise. All the obligations that were to be met by Serbia have been met, and the only one that the was to be bet by Albanians, the one about the establishment of the Community of Serb Municipalities, has not been met to this day. It is interesting that the Agreement was accepted not only in the presence of the EU but it was also confirmed with the signature of the EU, but it meant nothing. As the President of Serbia, for 10 years I have been facing all possible tricks and pressures to give up on full implementation of what was signed. It is a lesson to us Serbs, but also to all others in the world who want to protect their country. In spite of everything,
+
+Serbia will defend its country, its territorial integrity, the UN Charter and the UN S ecurity Council Resolution 1244.
+
+I wish to thank, individually, every of 107 states that has not recognized the unilaterally declared independence of the so -called Kosovo. We know that many of those states have been subjected to pressure, and we know that maintaining a principled position is sometimes far more difficult than it appears from the outside. Thank you for being consistent in not recognizing the independence of a part of Serbia’s territory.
+
+Excellencies,
+
+Serbia is on its European path and it will have to do many more things in order to become a full -fledged member of the EU. We are grateful to the European Union, and in particular to the President of the European Commission Ursula von der Leyen and to the President of the European Council Antonio Costa for every kind of assistance they have provided to our country. Although fullfledged membership to the European Union remains a strategic priority, we cannot ignore the prolonged enlargement fatigue, both among certain EU Member States and among the candidate countries themselves.
+
+Serbia’s European path is a clear illustration of the length and complexity of this process. We obtained candidate status in 2012 and opened accession negotiations in 2014 – more than twelve years ago. The citizens of Serbia therefore rightly expect a clearer perspective and more tangible results from a process in which our country has participated for more than a decade. At a time when the next enlargement of the European Union does not appear likely in the near future, we have sought to remain constructive and to propose practical ways of overcoming the current impasse. We have therefore proposed that the Western Balkans be gradually integrated into the EU Single Market and granted access to the Schengen Area even before attaining full membership in the European Union. This would neither serve as a substitute for membership nor diminish our ambitions. Rather, it would provide a concrete and pragmatic way forward, enable the c itizens and economies of the region to experience the tangible benefits of European integration, and help overcome the deadlock in which the enlargement process has remained for far too long.
+
+However, a stable and integrated Europe, of which Serbia is a part, and our European path do not mean renouncing the traditional friendships thanks to which Belgrade is one of the few European capitals from which one can fly directly to the United States of America, the People’s Republic of China and the Russian Federation. I owe special gratitude for the support during COVID Pandemics as well as for paramount investment in Serbia to the President of the People’s Republic of China Xi Jinping, hoping that his talks with the President Trump will be productive and that they will contribute to the stabilization of the developments in the world. At the same time, we nurture ties with traditional friends and partners in Africa, Asia and Latin America, with whom we recently marked in Belgrade the sixty-fifth anniversary of the First Conference of Non -Aligned Countries, held in our capital in 1961.
+
+Our openness reflects our development strategy, our history and our understanding of the world. Ser bia believes that states can have a clear course and interests of their own without closing the door to those with whom they do not agree on everything. After all, a world in which we speak only to those who think as we do would have little need for diplom acy. Freedom and independence in making decision s are the highest values for Serbia.
+
+We must anticipate the consequences of a world in which force is once again being presented ever more openly as the most reliable instrument of policy; in which military budgets are growing, conflicts are multiplying, arms -control mechanisms are weakening, and channels of communication are disappearing precisely when they are needed most. We must therefore ask the essential question: Where is the United Nations in such a world? The Security Council is often blocked precisely in the crises in which it should be most active.
+
+Other parts of the UN system face financial pressures, overlapping mandates, bureaucratization and the justified demand of Member States to see more concrete results.
+
+These are real problems, and there is no benefit in glossing over them. Yet it by no means follows that we need the United Nations less. We may need it more than ever; it simply must be more effective, more focused and more prepared to address the issues for which it was created. Over the past eight decades, states have not come to this building because they shared the same interests, but because they understood that the cost of settling disagreements by force of arms was too high. That is why multilateralism came into being and why we are here today. Serbia supports the United Nations and reform of the UN system so that the Organization may become more effective and better adapted to today’s realities. We advocate a more representative UN Security Council through greater representation of developing countries, particularly those from the African continent, as well as more inclusive regional representation and the addition of another seat for the Eastern European Group. However, without a genuine return to the principles on which we have already agreed, I do not expect progress in terms of this Organization’s concrete results.
+
+Excellencies,
+
+Peace is not the only test of our ability to manage change. We are in the midst of a technological transformation whose full reach we are only beginning to understand. Artificial intelligence is already changing the economy, education, medicine, security, the labour market and the way states function. It can bring enormous benefits to humanity. It can also deepen existing inequalities, enable new forms of manipulation and create security risks that we could not even have imagined only a few years ago. During our leadership cycle in the Global Partnership on Artificial Intelligence – GPAI, which Serbia chaired in 2025, one of our priorities was to ensure that technological progress remained connected with security, human rights, the rule of law, accountability and bridging the digital divide. The Belgrade Ministerial Declaration received the support of 44 Member States and the European Union and affirmed the need for safe, sustainable and human centered artificial intelligence.
+
+The more powerful technology becomes, the more responsible those who manage it must be. We may have cutting-edge algorithms, quantum computers, unmanned systems and artificial intelligence capable of processing in a matter of seconds what once took us year s, but if, at the same time, we allow the fundamental rules of the international order to be applied selectively, technological progress will not make the world safer. It will merely make us more technologically advanced in a world that is becoming politically less predictable. If we wish to manage the coming transformation responsibly, we must first reinforce the foundations on which the international order rests.
+
+Those foundations are simple: the sovereign equality of st ates, respect for territorial integrity, the prohibition of the use of force except in the cases expressly provided for in the UN Charter, and the obligation not to change the rules from one case to another.
+
+Esteemed colleagues,
+
+To those of you who know Serbia and our region, as well as those less familiar with this part of the world, I wish to express my gratitude to all who have honored Serbia by confirming their participation in the specialized exhibition EXPO 2027, to be held next year in Belgrade under the theme “Play for Humanity: Sport and Music for All”.
+
+Cultures, science, sport, technology, business and young people from all parts of the world will come together in Belgrade, and I look for ward to our hosting a large number of the states represented in this Hall today.
+
+At the outset, I spoke about trust and responsibility, and that is where I wish to conclude. We will not restore trust through grand declarations if we then continue to act as before. Each of us must begin with our own decisions.
+
+Serbia endeavors to do so by preserving peace in its neighborhood, participating in peacekeeping missions far from its borders, assisting others when they are in danger, speaking even with those with whom it disagrees, and fulfilling the commitments it undertakes. What will restore trust in international law and in the United Nations is more actions such as those.
+
+Thank you.

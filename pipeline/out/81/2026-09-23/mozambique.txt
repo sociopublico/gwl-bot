@@ -1,0 +1,156 @@
+---
+session: 81
+slug: mozambique
+country: Mozambique
+speaker: Daniel Francisco Chapo
+title: President
+speaker_title: His Excellency
+date: 2026-09-23
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/mz_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.204
+---
+
+President of the 81st Session of the United Nations General Assembly; • Your Excellency António Guterres,
+
+Secretary-General of the United Nations; • Your Excellencies; • Ladies and Gentlemen,
+
+1. Allow me to begin by congratulating you, Mr.
+
+President, on your election to preside over the work of this Assembly, and to assure you of the full support of the Republic of Mozambique.
+
+2. We also acknowledge the work carried out by your predecessor, Her Excellency Annalena Baerbock, in the service of this Organization, whose contribution we greatly value.
+
+Mr. President,
+
+3. The topic chosen for this session —“Restoring Trust, Managing Transformation: A United Nations That Benefits All” —invites us to return to the opening words of the United Nations Charter. Simple words. Yet perhaps among the most powerful ever inscribed in an international treaty:
+
+4. “We the Peoples.” Together, as the most comprehensive expression of our collective responsibility toward humanity.
+
+5. Eighty-one years ago, in the face of the devastation caused by war, humanity chose cooperation over confrontation, law over force, and hope over fear.
+
+6. That promise has shaped generations. It has protected millions of lives. And it has given a voice to those who, for far too long, remained on the margins of international decision making.
+
+7. Today, however, that promise faces one of its toughest tests, as we live in a world marked by protracted wars, growing geopolitical rivalries, persistent humanitarian crises, severe weather events, and other highly complex challenges.
+
+8. At the same time, the digital revolution, demographic shifts, and the reorganization of value chains are transforming our economies and societies at an unprecedented pace.
+
+9. Never has the world been so interconnected and, at the same time, so fragmented. And it is precisely in this context that the theme of this session takes on particular significance.
+
+10. Restoring trust requires consistency between the principles we proclaim and the decisions we make. It requires the fair application of international law and concrete results that translate into improvements in people’s lives.
+
+11. In short, restoring trust means renewing the promise made eighty -one years ago to “We the Peoples.”
+
+Mr. President,
+
+12. Mozambique knows from its own experience the value of multilateralism and the United Nations.
+
+13. This Organization has stood by our people at decisive moments in their history: on the path to independence, in the pursuit and building of peace, in national reconstruction, in responding to natural disasters, and in promoting sustainable development.
+
+14. Mozambique’s confidence in multilateralism therefore stems from a living memory.
+
+15. It is in this spirit that Mozambique commends the leadership of SecretaryGeneral António Guterres, whose tenure at the helm of this Organization coincided with a period marked by enormous global challenges and in which the limits of multilateralism were put to the test.
+
+16. He leaves behind a robust organization that is prepared to better respond to the challenges of our time. His legacy is, in our view, unquestionably positive and marked by transformative achievements.
+
+17. Thus, the best tribute we can pay to his legacy is to continue the work of strengthening this Organization, for no generation inherits the United Nations as a finished legacy.
+
+Your Excellencies,
+
+18. Today, the three pillars upon which the United Nations’ work rests —peace and security, development, and human rights —are under unprecedented pressure.
+
+19. In the realm of peace and security, we are witnessing a proliferation of conflicts, the worsening of civilian suffering, and the spread of terrorism and transnational organized crime.
+
+20. These challenges, among others, must lead us to strengthen compliance with and the promotion of mechanisms for the prevention and peaceful resolution of conflicts, as well as international law in light of the United Nations Charter, including respect for sovereignty and territorial integrity, human rights, and international cooperation —factors that are, in fact, inseparable.
+
+21. In this way, we will be able to address the conflicts that persist around the world — including in some countries and regions of Africa—more effectively.
+
+22. It is also this principle that underlies our support for a two -state solution for Palestine, with Palestinians living side by side with Israel in peace and security, as the just, legitimate, and lasting path forward.
+
+23. The principle of self -determination of peoples, enshrined in the United Nations Charter as far back as 1945, remains as valid as ever. It is in this context that we reaffirm our principled position in support of the cause of the Sahrawi people.
+
+24. The values enshrined in the United Nations Charter elevate the organization to the epicenter of global multilateralism. For this reason, we oppose the imposition of unilateral coercive measures, which continue to penalize entire peoples, in clear violation of the aforementioned Charter.
+
+25. We thus reiterate our position in support of ending the economic, commercial, and financial blockade imposed on Cuba. Likewise, we wish to express our solidarity with the brotherly people of Zimbabwe and reiterate our position in favor of the unconditional lifting of sanctions against Zimbabwe and other countries.
+
+26. We also advocate for mutually beneficial economic cooperation, based on respect for sovereignty, equality among states, and freedom of choice.
+
+27. In the area of development, we are still far from fulfilling the promise of the 2030 Agenda.
+
+28. With less than four years until the deadline, millions of people remain deprived of basic opportunities. It is therefore necessary to accelerate the implementation of the commitments made under the Sustainable Development Goals, which requires predictable, accessible, and sustainable financing.
+
+29. It also requires a fairer international financial architecture, sustainable debt relief, greater transfer of appropriate technology, more balanced international trade, and investments capable of transforming potential into prosperity, as well as adherence to the principle of common but differentiated responsibilities.
+
+30. Similarly, in the field of human rights, it is important to promote a balanced, impartial, and coherent approach, based on the principles of universality and equal treatment.
+
+Promoting these rights should prioritize constructive dialogue, cooperation, and the strengthening of institutions.
+
+Mr. President,
+
+31. In Mozambique, we are committed to consolidating peace, strengthening democratic institutions, and conducting an Inclusive National Dialogue —led by Mozambicans—to deepen reconciliation, national unity, and the necessary reforms, with the support of our partners and while respecting national ownership.
+
+32. In Cabo Delgado, we have made progress in combating terrorism and strengthening security, thanks to the efforts of our Defense and Security Forces and the support of SADC, the European Union, Rwanda, and Tanzania.
+
+However, stabilization remains incomplete and requires a concerted response and greater international cooperation.
+
+33. We are grateful for the solidarity we have received and call for more predictable and coordinated international support to consolidate security, stabilization, reconstruction, and development in the affected areas.
+
+34. Within the framework of the 2025 –2029 National Development Plan (PQG) and the 2025–2044 National Economic Development Strategy (ENDE), Mozambique is committed to transforming its potential into shared prosperity by harnessing its resources and investing in human development.
+
+35. We aim to add value to natural resources, modernize agriculture, promote industrialization, expand access to energy, and invest in infrastructure, education, health, science, and the digital economy. Natural resources should contribute to economic diversification, revenue generation, and investment in our greatest asset: the talent of the Mozambican people.
+
+36. Our location in the Indian Ocean, our logistics corridors, and our agricultural, energy, and mineral potential make Mozambique a strategic platform for investment and regional integration. We therefore seek long -term partnerships that build national capacity, promote local content, respect the environment, and generate employment, especially for young people and women.
+
+37. Mozambique will continue to diversify its partnerships in a sovereign, transparent, and mutually beneficial manner, working with all parties in light of national priorities. This is also Africa’s ambition: to be the architect of its own destiny, to participate in setting the rules, and to fully benefit from the wealth it helps to create.
+
+38. Africa faces, however, a paradox: it is rich in resources, yet retains little of the value they generate. Therefore, investment must evolve from simple extraction to transformation and value creation, shifting from transactions to partnerships, from dependence to capacity building, and from the export of resources to the construction of national and regional value chains.
+
+39. In this context, regional and continental integration takes on strategic importance. By expanding markets, creating economies of scale, integrating production chains, attracting investment, and stimulating innovation, economic potential can be transformed into concrete opportunities, especially for its young population.
+
+40. In Mozambique, this vision translates into progress on electricity interconnectors with neighboring countries, as well as on one -stop border crossing points. Integration is built through roads that bring people closer together, energy that crosses borders, and infrastructure that transforms neighboring communities into a single community —a transformation that requires fair and sustainable financing conditions.
+
+Your Excellencies,
+
+41. With less than four years remaining to achieve the 2030 Agenda, developing countries continue to face high financing costs, rising debt, and limited access to resources to invest in their development. We continue to advocate for a fairer international financial architecture, with predictable and accessible financing and sustainable debt solutions.
+
+42. It is also necessary that access to concessional financing take into account countries’ vulnerabilities —beyond just income—and that developed countries fully fulfill their commitments to development financing and climate action.
+
+43. For Mozambique, climate change means lost lives, displaced families, destroyed crops, and damaged infrastructure. Cyclones demonstrate that resilience is now an environmental, economic, food security, social, and development issue—and, increasingly, one of peace and security.
+
+44. We therefore reiterate the need to increase funding for adaptation, facilitate access to climate funds, operationalize loss -and-damage mechanisms, and invest in early warning systems and resilient infrastructure.
+
+45. Mozambique remains highly vulnerable to extreme weather events. We are particularly concerned about the forecast of an El Niño event, with potentially severe impacts in the central and southern parts of the country, especially in terms of drought, food insecurity, and livelihoods. Preparedness and international cooperation will be essential to mitigating these impacts, in a context where humanitarian needs are already facing a severe funding shortfall.
+
+Mr. President,
+
+46. Digital transformation demands the same solidarity, for Africa must not be limited to supplying the minerals that fuel the world’s innovation hubs.
+
+47. We need investment in connectivity, computing capacity, scientific research, training, technology transfer, and the ethical governance of artificial intelligence, in the spirit of partnerships that build capacity and promote autonomy.
+
+48. Thus, Mozambique reiterates its support for the objectives of the UN80 initiative to make this Organization more effective, coherent, inclusive, representative, and suited to the challenges of our time. Reform must be embraced as a political commitment, focused on concrete results.
+
+49. Reform must also correct imbalances in representation within global governance. In this regard, Africa cannot continue to be at the center of the Security Council’s agenda while remaining absent from its ranks of permanent members.
+
+50. We therefore reaffirm the common African position on the reform of the United Nations Security Council, based on the Ezulwini Consensus and the Sirte Declaration, under which no fewer than two permanent seats — with all prerogatives and privileges, including the veto as long as it exists —and five non permanent seats are allocated to Africa.
+
+51. The contribution that Mozambique wishes to make to this Assembly’s debate aims to: restore trust through peace; manage transformation through inclusion; and produce results through coherent action at the national, regional, and global levels.
+
+52. To this end, it is necessary to strengthen international cooperation and equip the United Nations with greater capacity to address the challenges of the present and bequeath to future generations an Organization stronger than the one we received —an Organization equal to the challenges of our time, capable of serving the people, protecting the planet, and promoting shared prosperity.
+
+Your Excellencies,
+
+53. Eighty-one years ago, the founders of this Organization entrusted humanity with a promise of peace, cooperation, dignity, and hope.
+
+54. Today, that responsibility falls to us, and the path remains clear: dialogue, cooperation, partnership, innovation, solidarity, and the continued strengthening of the role of the United Nations.
+
+55. This Organization is the most comprehensive expression of our collective responsibility and our commitment to multilateralism in the service of humanity.
+
+Mr. President,
+
+56. Allow me to conclude by returning to the opening words of our Magna Carta: “We the Peoples.” These words do not belong to the past, but are a commitment to a future in which the United Nations remains the expression of our shared responsibility toward humanity.
+
+Thank you very much for your attention!

@@ -1,0 +1,252 @@
+---
+session: 81
+slug: cyprus
+country: Cyprus
+speaker: Nikos Christodoulides
+title: President
+speaker_title: His Excellency
+date: 2026-09-23
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/cy_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.855
+---
+
+Mr. President,
+
+Excellencies,
+
+As the UN Secretary-General reminded us a few years ago, "The United Nations is the product of HOPE."
+
+Eighty-one years after its birth, that HOPE is being tested.
+
+Technology, including Artificial Intelligence, is advancing at rapid speed. Climate change is reshaping our societies. The international landscape is becoming more complex, more contested and more unpredictable.
+
+The international order is not simply changing. It is being tested in an unprecedented manner.
+
+But, it is in such times of uncertainty, that the foundational values of Multilateralism must be protected:
+
+International Law. The UN Charter. Respect for Sovereignty and Territorial Integrity. The peaceful settlement of disputes. Respect for human rights. The equality of States.
+
+All these are not principles of the Past.
+
+They are principles that transcend time. The essential ingredient for the Present and for the Future.
+
+The challenge before us is therefore clear: as the World changes, our Institutions must be able to respond to new realities and threats. While guided by the painful lessons of history AND the vision of the founding fathers of this Organisation.
+
+This is the essence of the theme of the 81st General Assembly: “Restoring trust, managing transformation: a United Nations that delivers for all.”
+
+Ladies and Gentlemen,
+
+Transformation is inevitable. What must remain constant is the UN Charter as our compass.
+
+It directs all of us. Irrespective of Power, Size and Leverage.
+
+For small-sized countries, the principle of equality of States is fundamental. And it has formed the binding Trust between us.
+
+We rely on an International System in which sovereignty and territorial integrity are respected.
+
+We expect International Law, including the UN Convention on the Law of the Sea, to be applied consistently.
+
+We believe in the peaceful resolution of disputes.
+
+AND we demand that the rights of every state are protected.
+
+These, are the integral elements of our Collective Trust. And this, is the code of conduct of Cyprus’ diplomatic engagement.
+
+And in a rapidly changing world, small and medium-sized States must seek synergies, while continuing to pursue strategic autonomy.
+
+Preserving Trust, also requires Institutions capable of responding to the World as it is today: The United Nations must, therefore, continue to evolve.
+
+The UN80 Initiative is an important part of this effort. The Pact for the Future, and the 2030 Agenda and its Sustainable Development Goals, are also part of the effort to ensure that Multilateral Cooperation can respond to the needs of our time.
+
+This moment of Reform also comes as Secretary -General,
+
+António Guterres, approaches the completion of a decade leading this Organization. Cyprus wishes to acknowledge his leadership during a period of extraordinary global developments, his steadfast commitment to multilateralism AND his efforts to strengthen and reform the UN.
+
+But reforming our structural set -up is only part of the answer.
+
+What is also needed, is the genuine willingness of Member States to contribute and protect the Multilateral System.
+
+After all, States bring different Capabilities, Experiences and Perspectives.
+
+Great powers have scale. Smaller states must have persuasion.
+
+We cannot compel. But we can coalesce. We cannot dictate outcomes. But together, we can help shape them.
+
+There is no doubt that the challenges of today require cooperation and partnerships based on the knowledge of regions and of their realities. AND The Republic of Cyprus has consistently sought to do exactly that. And it has built the capabilities for it.
+
+Our geographical position, at the crossroads of Europe, Asia and Africa, places us close to some of the most complex dynamics of our World. At the same time, i t gives us the opportunity to actively contribute to address them.
+
+Following the Hamas terrorist attack of October 7, 2023, and the devastating humanitarian situation in Gaza, Cyprus, in addition to having dedicated more than 25% of its humanitarian assistance budget to Palestine, has put forward the Amalthea Maritime Humanitarian Corridor.
+
+Cyprus could offer something specific: its geographical position, its infrastructure, its excellent relationships with all countries in the region and the will to engage with international partners.
+
+Through cooperation, including with the UN2720 Mechanism, that idea became a proposal, and evolved into a functioning humanitarian route. One that keeps delivering as we speak.
+
+Cyprus has ALSO played a constructive role in times of Emergency. When third -country nationals need ed to be evacuated from our neighbourhood, my country has served, time and time again, as a safe harbour. Our infrastructure and our resources, have been made available in order to facilitate safe passage for people in danger.
+
+In the last three years alone, we helped evacuate thousands of citizens from 70 different countries.
+
+AND through CyprusAid, we have provided humanitarian assistance to countries facing natural disasters. Cyprus was among the first responders following the catastrophic earthquake in Venezuela and the flashfloods in Nepal. The devastating humanitarian situation in Sudan, and in the wider Sahel region, have also been a priority for my country, with a large percentage of our available earmarked resources directed to the region.
+
+Ladies and Gentlemen,
+
+Rising Temperatures, Water Scarcity and Extreme Weather affect us all. Transcending borders and politics.
+
+In the Eastern Mediterranean and the Middle East, the interwoven political realities that we are facing, are further amplified by the climate crisis.
+
+Cooperation is therefore the only answer.
+
+This is the purpose of Cyprus ’ Regional Initiative on Climate Change: to bring together countries of our region, thus strengthening our collective capacity for adaptation, mitigation and resilience.
+
+ANOTHER manifestation of this, is the Cyprus Regional Aerial Firefighting Station. Hosted at Paphos Air Base and supported by the European Union, it offers an operational hub for aerial firefighting and rapid response, and a Centre of Excellence for training, interoperability and capacity -building. Reflecting its emphasis on regional ownership, it brings together partners from the Middle East, North Africa and the Gulf.
+
+This commitment to regional engagement is ALSO demonstrated through the Cyprus Center for Land, Open Seas and Port Security, jointly created with the United States. In its four years of operation, it has provided specialized training to thousands of government officials from more than 50 countries, from the Middle East, Africa, Central Asia, and Europe.
+
+Excellencies,
+
+The ability to bring different interests together was ALSO at the heart of Cyprus’ Presidency of the Council of the European Union, during the first half of this year.
+
+For six months, a country of fewer than one million people, assumed the responsibility of steering the work of a Union of four hundred and fifty million European citizens.
+
+For Cyprus, this was both a Responsibility and an Opportunity: to listen, to negotiate, to build consensus. And to help the European Union and its Member States move forward on common priorities.
+
+Our size did not diminish the responsibility to lead.
+
+Nor did it diminish our ability to fulfil it.
+
+Our position is CLEAR:
+
+In an era of polycrises, isolation is the antithesis of Responsibility and a Luxury we cannot afford.
+
+Cyprus proved to be an Active and Responsible party of the international community. A contributor in crisis management, an actor in humanitarian assistance, a proponent of regional synergies and a defender of the protection of human rights and multilateralism.
+
+Esteemed Delegates,
+
+In these times of transformation, t he Credibility of the UN must be safeguarded.
+
+And credibility requires consistency in the application of International Law.
+
+For my country, Cyprus, this is not an abstract principle. It is a painful, existential reality.
+
+Fifty-two years have passed since the illegal Turkish invasion of Cyprus. An act of aggression, violating the core principles of the UN Charter.
+
+An ongoing, flagrant violation of International Law, with more than a third of the territory of the Republic of Cyprus remain ing under Turkish occupation.
+
+For fifty-two years, the tens of thousands of displaced and their descendants are prevented from returning to their homes.
+
+For fifty-two years, Varosha remains sealed off, with Turkey still in defiance of its clear and specific obligations set out in the relevant UN Security Council Resolutions.
+
+For fifty -two years, we are experiencing violations of fundamental human rights; the destruction of religious and cultural heritage; AND the organized transfer of settlers amounting to demographic change.
+
+Pain and immense suffering are the daily reality of the relatives of the missing persons, that to this day are demanding answers as to the fate of their loved ones.
+
+AND for fifty-two years, the principles at stake have remained the same.
+
+Respect for Sovereignty and Territorial Integrity are not rhetorical vehicles. Nor are they to be applied selectively, depending on who the perpetrator is.
+
+These principles do not become less important with the passage of time.
+
+Nor do the Resolutions of this Organization.
+
+UN Resolutions cannot be upheld in one case and disregarded in another.
+
+And the Sovereignty and Territorial Integrity of a state cannot depend on its Size, its Power or the Passage of time. AND This is not only a question for Cyprus.
+
+It goes to the credibility of the International System itself.
+
+If we ask states to believe in Multilateralism, if we expect them to be active contributors, then they must be able to Trust that the principles and decisions of our Institutions will be upheld without exception.
+
+This consistency matters, particularly for States whose security rests on the protection afforded by International Law, rather than on the Balance of Power.
+
+Ladies and Gentlemen,
+
+I listened very carefully to the speech of President Erdogan yesterday: references to International Law, to the respect for the sovereignty and territorial integrity of all states, to illegal occupation, to the drama of refugees.
+
+Yet, in relation to Cyprus, Turkey is doing exactly the opposite.
+
+Hypocrisy of the highest form.
+
+President Erdogan also quoted extensively from the UN Charter. But politicians are judged not by their words but by their deeds.
+
+Mr. Erdogan, if you want to quote from the Charter, you must first apply it.
+
+The UN Security Council has established the framework for the settlement of the Cyprus problem. That framework, of a Bizonal Bicommunal Federation with political equality remains the ONLY basis, on which a comprehensive settlement must be reached.
+
+I remain fully committed to achieving a comprehensive settlement.
+
+I am ready to resume negotiations from where they were left off in 2017, building on the substantial work already achieved, within the agreed United Nations framework.
+
+The common ground is there: the relevant Resolutions of the United Nations Security Council, International Law, and the laws, values, and principles of the European Union.
+
+What is now required, is Political Will by all parties.
+
+A genuine willingness to return to meaningful negotiations.
+
+To engage seriously.
+
+To build on the body of work already achieved.
+
+AND to reach a settlement that reunifies our country and our people.
+
+A settlement that allows Greek Cypriots, Turkish Cypriot s,
+
+Maronites, Armenian s, and Latins, to live together in Peace,
+
+Security and Prosperity.
+
+On my side (let me REPEAT it), I am fully committed.
+
+Because Division will not be accepted. This cannot and will not be the future for my country and my people. Ever. Our determination to reunify our island is firm.
+
+I therefore call on my Turkish Cypriot compatriots to perceive our future together as the opportunity for prosperity.
+
+AND I call on President Erdogan to give the green light for substantive negotiations within the UN-agreed framework.
+
+Excellencies,
+
+I mentioned several times how Change is inevitable.
+
+But the Choices we make in response to Change, are ours.
+
+For countries like Cyprus, the answer must be cooperation with purpose. Partnerships that deliver when they are needed.
+
+Formed by the belief that in times of need, we must act together.
+
+This is the choice to make.
+
+We can allow divisions to weaken the Institutions we built together.
+
+Or, we can choose to strengthen them.
+
+We can allow differences in power to determine whose voice matters.
+
+Or, we can reaffirm the principles on which this Organization was founded.
+
+For Cyprus, there is no such dilemma:
+
+We believe in a United Nations that protects the principles of its Charter and has the capacity to act upon them.
+
+We believe in a Multilateral System in which every state has both rights and responsibilities.
+
+AND we believe that small-sized states have a particular role to play: NOT on the margins of international affairs but as active participants in shaping our common future.
+
+For the Republic of Cyprus, that means Defending the principles on which we depend, Contributing to the institutions in which we believe, Building partnerships for the common good, Taking initiatives to create useful synergies, and Acting responsibly where we can affect change.
+
+Your Excellencies,
+
+Despite the challenges because of the Turkish occupation, we remain resilient and steadfast in our faith in the Multilateral system.
+
+Because in the end, the strength of Multilateralism is measured by whether every Member State believes that its voice matters, its rights are protected and its contribution has value.
+
+That is how we restore Trust.
+
+That is how we manage Transformation.
+
+And that is how we build a United Nations that truly delivers for All.
+
+Thank you.

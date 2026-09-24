@@ -1,28 +1,38 @@
 {
   "session": 81,
   "day": "2026-09-23",
-  "scraped_at": "2026-09-23T12:49:41Z",
+  "scraped_at": "2026-09-24T01:56:14Z",
   "speakers": [
     {
       "slug": "syrian-arab-republic",
       "ficha_url": "https://gadebate.un.org/en/81/syrian-arab-republic",
       "country": "Syrian Arab Republic",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Ahmad Al-Sharaa",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_SY_EN.mp3",
+          "filename": "81_SY_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in Arabic",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/sy_ar.pdf",
+          "filename": "sy_ar.pdf",
+          "lang": ""
+        },
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_lr8f2q75",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_lr8f2q75/format/url/protocol/https",
+          "filename": "1_lr8f2q75.mp4"
         }
       },
       "error": null,
@@ -32,22 +42,27 @@
       "slug": "latvia",
       "ficha_url": "https://gadebate.un.org/en/81/latvia",
       "country": "Latvia",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Edgars Rinkēvičs",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_LV_EN.mp3",
+          "filename": "81_LV_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_2iqjlmsr",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_2iqjlmsr/format/url/protocol/https",
+          "filename": "1_2iqjlmsr.mp4"
         }
       },
       "error": null,
@@ -57,22 +72,42 @@
       "slug": "romania",
       "ficha_url": "https://gadebate.un.org/en/81/romania",
       "country": "Romania",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Nicuşor-Daniel Dan",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/ro_en.pdf",
+          "filename": "ro_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
-        "audio_floor": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_RO_EN.mp3",
+          "filename": "81_RO_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement, as delivered",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/ro_fl.pdf",
+          "filename": "ro_fl.pdf",
+          "lang": ""
+        },
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_RO_FL.mp3",
+          "filename": "81_RO_FL.mp3",
+          "lang": ""
+        },
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_0u4kgbu5",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_0u4kgbu5/format/url/protocol/https",
+          "filename": "1_0u4kgbu5.mp4"
         }
       },
       "error": null,
@@ -82,22 +117,32 @@
       "slug": "burundi",
       "ficha_url": "https://gadebate.un.org/en/81/burundi",
       "country": "Burundi",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Évariste Ndayishimiye",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_BI_EN.mp3",
+          "filename": "81_BI_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in French",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/bi_fr.pdf",
+          "filename": "bi_fr.pdf",
+          "lang": ""
+        },
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_7agw9yh3",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_7agw9yh3/format/url/protocol/https",
+          "filename": "1_7agw9yh3.mp4"
         }
       },
       "error": null,
@@ -111,14 +156,29 @@
       "rank": "President",
       "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": null,
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_IR_EN.mp3",
+          "filename": "81_IR_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
-        "audio_floor": null,
-        "video": null
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_IR_FL.mp3",
+          "filename": "81_IR_FL.mp3",
+          "lang": ""
+        },
+        "video": {
+          "entry_id": "1_uoapbd13",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_uoapbd13/format/url/protocol/https",
+          "filename": "1_uoapbd13.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -127,22 +187,32 @@
       "slug": "paraguay",
       "ficha_url": "https://gadebate.un.org/en/81/paraguay",
       "country": "Paraguay",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Santiago Peña Palacios",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_PY_EN.mp3",
+          "filename": "81_PY_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in Spanish",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/py_es_1.pdf",
+          "filename": "py_es_1.pdf",
+          "lang": ""
+        },
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_ez7nlogl",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ez7nlogl/format/url/protocol/https",
+          "filename": "1_ez7nlogl.mp4"
         }
       },
       "error": null,
@@ -152,22 +222,37 @@
       "slug": "czechia",
       "ficha_url": "https://gadebate.un.org/en/81/czechia",
       "country": "Czechia",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Petr Pavel",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/cz_en.pdf",
+          "filename": "cz_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_CZ_EN.mp3",
+          "filename": "81_CZ_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement, as delivered",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/cz_cs.pdf",
+          "filename": "cz_cs.pdf",
+          "lang": ""
+        },
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_ogjwhn9l",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ogjwhn9l/format/url/protocol/https",
+          "filename": "1_ogjwhn9l.mp4"
         }
       },
       "error": null,
@@ -187,17 +272,22 @@
         "transcript_ai": null,
         "audio_en": {
           "label": "english",
-          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_RR_22_EN.mp3",
-          "filename": "81_RR_22_EN.mp3",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_AR_EN.mp3",
+          "filename": "81_AR_EN.mp3",
           "lang": "en"
         },
-        "pdf_other": null,
+        "pdf_other": {
+          "label": "Statement in Spanish",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/ar_es.pdf",
+          "filename": "ar_es.pdf",
+          "lang": ""
+        },
         "audio_floor": null,
         "video": {
-          "entry_id": "1_rgeqk9d8",
+          "entry_id": "1_dxpt8rwj",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_rgeqk9d8/format/url/protocol/https",
-          "filename": "1_rgeqk9d8.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_dxpt8rwj/format/url/protocol/https",
+          "filename": "1_dxpt8rwj.mp4"
         }
       },
       "error": null,
@@ -207,22 +297,32 @@
       "slug": "estonia",
       "ficha_url": "https://gadebate.un.org/en/81/estonia",
       "country": "Estonia",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Alar Karis",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/ee_en.pdf",
+          "filename": "ee_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_EE_EN.mp3",
+          "filename": "81_EE_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_fr7zmbly",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_fr7zmbly/format/url/protocol/https",
+          "filename": "1_fr7zmbly.mp4"
         }
       },
       "error": null,
@@ -232,22 +332,37 @@
       "slug": "timor-leste",
       "ficha_url": "https://gadebate.un.org/en/81/timor-leste",
       "country": "Timor-Leste",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "José Ramos-Horta",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement, as delivered",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/tl_en.pdf",
+          "filename": "tl_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_TL_EN.mp3",
+          "filename": "81_TL_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
-        "audio_floor": null,
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_TL_FL.mp3",
+          "filename": "81_TL_FL.mp3",
+          "lang": ""
+        },
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_vf5oroo3",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_vf5oroo3/format/url/protocol/https",
+          "filename": "1_vf5oroo3.mp4"
         }
       },
       "error": null,
@@ -257,22 +372,37 @@
       "slug": "libya",
       "ficha_url": "https://gadebate.un.org/en/81/libya",
       "country": "Libya",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Mohamed Younis Menfi",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
-        "audio_floor": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_LY_EN.mp3",
+          "filename": "81_LY_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in Arabic",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/ly_ar.pdf",
+          "filename": "ly_ar.pdf",
+          "lang": ""
+        },
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_LY_FL.mp3",
+          "filename": "81_LY_FL.mp3",
+          "lang": ""
+        },
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_y2z8h1wx",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_y2z8h1wx/format/url/protocol/https",
+          "filename": "1_y2z8h1wx.mp4"
         }
       },
       "error": null,
@@ -282,22 +412,32 @@
       "slug": "palau",
       "ficha_url": "https://gadebate.un.org/en/81/palau",
       "country": "Palau",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Surangel Whipps",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/pw_en.pdf",
+          "filename": "pw_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_PW_EN.mp3",
+          "filename": "81_PW_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_jceimfro",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_jceimfro/format/url/protocol/https",
+          "filename": "1_jceimfro.mp4"
         }
       },
       "error": null,
@@ -307,22 +447,37 @@
       "slug": "cyprus",
       "ficha_url": "https://gadebate.un.org/en/81/cyprus",
       "country": "Cyprus",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Nikos Christodoulides",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/cy_en.pdf",
+          "filename": "cy_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_CY_EN.mp3",
+          "filename": "81_CY_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
-        "audio_floor": null,
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_CY_FL.mp3",
+          "filename": "81_CY_FL.mp3",
+          "lang": ""
+        },
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_8ivgbgww",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_8ivgbgww/format/url/protocol/https",
+          "filename": "1_8ivgbgww.mp4"
         }
       },
       "error": null,
@@ -332,22 +487,27 @@
       "slug": "dominican-republic",
       "ficha_url": "https://gadebate.un.org/en/81/dominican-republic",
       "country": "Dominican Republic",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Luis Rodolfo Abinader Corona",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_DR_EN.mp3",
+          "filename": "81_DR_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_llymnd90",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_llymnd90/format/url/protocol/https",
+          "filename": "1_llymnd90.mp4"
         }
       },
       "error": null,
@@ -357,22 +517,32 @@
       "slug": "botswana",
       "ficha_url": "https://gadebate.un.org/en/81/botswana",
       "country": "Botswana",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Duma Gideon Boko",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/bw_en.pdf",
+          "filename": "bw_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_BW_EN.mp3",
+          "filename": "81_BW_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_pwhw9dh8",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_pwhw9dh8/format/url/protocol/https",
+          "filename": "1_pwhw9dh8.mp4"
         }
       },
       "error": null,
@@ -382,22 +552,27 @@
       "slug": "ecuador",
       "ficha_url": "https://gadebate.un.org/en/81/ecuador",
       "country": "Ecuador",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Daniel Roy-Gilchrist Noboa Azin",
+      "rank": "Constitutional President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_EC_EN.mp3",
+          "filename": "81_EC_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_koulzap3",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_koulzap3/format/url/protocol/https",
+          "filename": "1_koulzap3.mp4"
         }
       },
       "error": null,
@@ -411,14 +586,24 @@
       "rank": "President",
       "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": null,
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_UA_EN.mp3",
+          "filename": "81_UA_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_wfvsfkic",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_wfvsfkic/format/url/protocol/https",
+          "filename": "1_wfvsfkic.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -427,22 +612,27 @@
       "slug": "bulgaria",
       "ficha_url": "https://gadebate.un.org/en/81/bulgaria",
       "country": "Bulgaria",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Iliana Iotova",
+      "rank": "President",
+      "speaker_title": "Her Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "pdf_other",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
-        "pdf_other": null,
+        "pdf_other": {
+          "label": "Statement in French",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/bg_fr.pdf",
+          "filename": "bg_fr.pdf",
+          "lang": ""
+        },
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_44w7il1d",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_44w7il1d/format/url/protocol/https",
+          "filename": "1_44w7il1d.mp4"
         }
       },
       "error": null,
@@ -452,22 +642,27 @@
       "slug": "central-african-republic",
       "ficha_url": "https://gadebate.un.org/en/81/central-african-republic",
       "country": "Central African Republic",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Faustin Archange Touadera",
+      "rank": "Head of State",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_CF_EN.mp3",
+          "filename": "81_CF_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_b57pdqyi",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_b57pdqyi/format/url/protocol/https",
+          "filename": "1_b57pdqyi.mp4"
         }
       },
       "error": null,
@@ -477,22 +672,32 @@
       "slug": "panama",
       "ficha_url": "https://gadebate.un.org/en/81/panama",
       "country": "Panama",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "José Raúl Mulino Quintero",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_PA_EN.mp3",
+          "filename": "81_PA_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
-        "audio_floor": null,
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_PA_FL.mp3",
+          "filename": "81_PA_FL.mp3",
+          "lang": ""
+        },
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_5adyuemz",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_5adyuemz/format/url/protocol/https",
+          "filename": "1_5adyuemz.mp4"
         }
       },
       "error": null,
@@ -502,22 +707,32 @@
       "slug": "ethiopia",
       "ficha_url": "https://gadebate.un.org/en/81/ethiopia",
       "country": "Ethiopia",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Taye Atskeselassie Amde",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/et_en.pdf",
+          "filename": "et_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_ET_EN.mp3",
+          "filename": "81_ET_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_g9p40e0n",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_g9p40e0n/format/url/protocol/https",
+          "filename": "1_g9p40e0n.mp4"
         }
       },
       "error": null,
@@ -531,14 +746,34 @@
       "rank": "President",
       "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": null,
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/pl_en.pdf",
+          "filename": "pl_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_PL_EN.mp3",
+          "filename": "81_PL_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
-        "audio_floor": null,
-        "video": null
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_PL_FL.mp3",
+          "filename": "81_PL_FL.mp3",
+          "lang": ""
+        },
+        "video": {
+          "entry_id": "1_mumwi1kc",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_mumwi1kc/format/url/protocol/https",
+          "filename": "1_mumwi1kc.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -547,22 +782,32 @@
       "slug": "namibia",
       "ficha_url": "https://gadebate.un.org/en/81/namibia",
       "country": "Namibia",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Netumbo Nandi-Ndaitwah",
+      "rank": "President",
+      "speaker_title": "Her Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/na_en.pdf",
+          "filename": "na_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_NA_EN.mp3",
+          "filename": "81_NA_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_c3otqedi",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_c3otqedi/format/url/protocol/https",
+          "filename": "1_c3otqedi.mp4"
         }
       },
       "error": null,
@@ -572,22 +817,37 @@
       "slug": "slovakia",
       "ficha_url": "https://gadebate.un.org/en/81/slovakia",
       "country": "Slovakia",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Peter Pellegrini",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/sk_en.pdf",
+          "filename": "sk_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_SK_EN.mp3",
+          "filename": "81_SK_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
-        "audio_floor": null,
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_SK_FL.mp3",
+          "filename": "81_SK_FL.mp3",
+          "lang": ""
+        },
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_vdgmt86h",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_vdgmt86h/format/url/protocol/https",
+          "filename": "1_vdgmt86h.mp4"
         }
       },
       "error": null,
@@ -601,14 +861,29 @@
       "rank": "President",
       "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": null,
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/ke_en.pdf",
+          "filename": "ke_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_KE_EN.mp3",
+          "filename": "81_KE_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_ezbo8jem",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ezbo8jem/format/url/protocol/https",
+          "filename": "1_ezbo8jem.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -621,14 +896,29 @@
       "rank": "President",
       "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": null,
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/rs_en.pdf",
+          "filename": "rs_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_RS_EN.mp3",
+          "filename": "81_RS_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_voq47p89",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_voq47p89/format/url/protocol/https",
+          "filename": "1_voq47p89.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -637,22 +927,37 @@
       "slug": "mozambique",
       "ficha_url": "https://gadebate.un.org/en/81/mozambique",
       "country": "Mozambique",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Daniel Francisco Chapo",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/mz_en.pdf",
+          "filename": "mz_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_MZ_EN.mp3",
+          "filename": "81_MZ_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
-        "audio_floor": null,
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_MZ_FL.mp3",
+          "filename": "81_MZ_FL.mp3",
+          "lang": ""
+        },
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_rrxisieb",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_rrxisieb/format/url/protocol/https",
+          "filename": "1_rrxisieb.mp4"
         }
       },
       "error": null,
@@ -666,14 +971,29 @@
       "rank": "President",
       "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": null,
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_GN_EN.mp3",
+          "filename": "81_GN_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in French",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/gn_fr.pdf",
+          "filename": "gn_fr.pdf",
+          "lang": ""
+        },
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_6ltg0o8r",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_6ltg0o8r/format/url/protocol/https",
+          "filename": "1_6ltg0o8r.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -682,22 +1002,32 @@
       "slug": "eswatini",
       "ficha_url": "https://gadebate.un.org/en/81/eswatini",
       "country": "Eswatini",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "King Mswati III",
+      "rank": "Head of State",
+      "speaker_title": "His Majesty",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/sz_en.pdf",
+          "filename": "sz_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_SZ_EN.mp3",
+          "filename": "81_SZ_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_x13z1uuk",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_x13z1uuk/format/url/protocol/https",
+          "filename": "1_x13z1uuk.mp4"
         }
       },
       "error": null,
@@ -707,22 +1037,32 @@
       "slug": "honduras",
       "ficha_url": "https://gadebate.un.org/en/81/honduras",
       "country": "Honduras",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Nasry Juan Asfura Zablah",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_HN_EN.mp3",
+          "filename": "81_HN_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in Spanish",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/hn_es.pdf",
+          "filename": "hn_es.pdf",
+          "lang": ""
+        },
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_uvsa1av5",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_uvsa1av5/format/url/protocol/https",
+          "filename": "1_uvsa1av5.mp4"
         }
       },
       "error": null,
@@ -736,14 +1076,29 @@
       "rank": "President",
       "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": null,
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/me_en.pdf",
+          "filename": "me_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_ME_EN.mp3",
+          "filename": "81_ME_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_51bixis7",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_51bixis7/format/url/protocol/https",
+          "filename": "1_51bixis7.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -756,14 +1111,29 @@
       "rank": "Acting President",
       "speaker_title": "Her Excellency",
       "speech_date": "2026-09-23",
-      "chosen": null,
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_VE_EN.mp3",
+          "filename": "81_VE_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in Spanish",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/ve_es.pdf",
+          "filename": "ve_es.pdf",
+          "lang": ""
+        },
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_a7g2ghjj",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_a7g2ghjj/format/url/protocol/https",
+          "filename": "1_a7g2ghjj.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -772,22 +1142,32 @@
       "slug": "uganda",
       "ficha_url": "https://gadebate.un.org/en/81/uganda",
       "country": "Uganda",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Jessica Rose Epel Alupo",
+      "rank": "Vice President",
+      "speaker_title": "Her Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/ug_en.pdf",
+          "filename": "ug_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_UG_EN.mp3",
+          "filename": "81_UG_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_02ofz8yh",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_02ofz8yh/format/url/protocol/https",
+          "filename": "1_02ofz8yh.mp4"
         }
       },
       "error": null,
@@ -797,22 +1177,32 @@
       "slug": "rwanda",
       "ficha_url": "https://gadebate.un.org/en/81/rwanda",
       "country": "Rwanda",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Justin Nsengiyumva",
+      "rank": "Prime Minister",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/rw_en.pdf",
+          "filename": "rw_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_RW_EN.mp3",
+          "filename": "81_RW_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_j4kp6cku",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_j4kp6cku/format/url/protocol/https",
+          "filename": "1_j4kp6cku.mp4"
         }
       },
       "error": null,
@@ -822,22 +1212,37 @@
       "slug": "spain",
       "ficha_url": "https://gadebate.un.org/en/81/spain",
       "country": "Spain",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Pedro Sánchez Pérez-Castejón",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
-        "audio_floor": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_ES_EN.mp3",
+          "filename": "81_ES_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in Spanish",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/es_es.pdf",
+          "filename": "es_es.pdf",
+          "lang": ""
+        },
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_ES_FL.mp3",
+          "filename": "81_ES_FL.mp3",
+          "lang": ""
+        },
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_ea1pc4um",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ea1pc4um/format/url/protocol/https",
+          "filename": "1_ea1pc4um.mp4"
         }
       },
       "error": null,
@@ -847,22 +1252,42 @@
       "slug": "andorra",
       "ficha_url": "https://gadebate.un.org/en/81/andorra",
       "country": "Andorra",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Xavier Espot Zamora",
+      "rank": "Head of Government",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/ad_en.pdf",
+          "filename": "ad_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
-        "audio_floor": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_AD_EN.mp3",
+          "filename": "81_AD_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in French",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/ad_fr.pdf",
+          "filename": "ad_fr.pdf",
+          "lang": ""
+        },
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_AD_FL.mp3",
+          "filename": "81_AD_FL.mp3",
+          "lang": ""
+        },
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_dl614mc4",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_dl614mc4/format/url/protocol/https",
+          "filename": "1_dl614mc4.mp4"
         }
       },
       "error": null,
@@ -872,22 +1297,102 @@
       "slug": "democratic-republic-congo",
       "ficha_url": "https://gadebate.un.org/en/81/democratic-republic-congo",
       "country": "Democratic Republic of the Congo",
-      "name": "Nasser Bourita",
-      "rank": "",
-      "speaker_title": "",
+      "name": "Judith Suminwa Tuluka",
+      "rank": "Prime Minister",
+      "speaker_title": "Her Excellency",
       "speech_date": "2026-09-23",
-      "chosen": "video",
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_CD_EN.mp3",
+          "filename": "81_CD_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in French",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/cd_fr.pdf",
+          "filename": "cd_fr.pdf",
+          "lang": ""
+        },
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_xbt6frd2",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_xbt6frd2/format/url/protocol/https",
+          "filename": "1_xbt6frd2.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "italy",
+      "ficha_url": "https://gadebate.un.org/en/81/italy",
+      "country": "Italy",
+      "name": "Antonio Tajani",
+      "rank": "Deputy Prime Minister",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-23",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/it_en.pdf",
+          "filename": "it_en.pdf",
+          "lang": ""
+        },
+        "transcript_ai": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_IT_EN.mp3",
+          "filename": "81_IT_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": null,
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_IT_FL.mp3",
+          "filename": "81_IT_FL.mp3",
+          "lang": ""
+        },
+        "video": {
+          "entry_id": "1_jsgy5dwl",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_jsgy5dwl/format/url/protocol/https",
+          "filename": "1_jsgy5dwl.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "uzbekistan",
+      "ficha_url": "https://gadebate.un.org/en/81/uzbekistan",
+      "country": "Uzbekistan",
+      "name": "Saida Mirziyoyeva",
+      "rank": "Head of Administration of the President",
+      "speaker_title": "Her Excellency",
+      "speech_date": "2026-09-23",
+      "chosen": "pdf_en",
+      "sources": {
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/uz_en.pdf",
+          "filename": "uz_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_8kiw4fqg",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_8kiw4fqg/format/url/protocol/https",
+          "filename": "1_8kiw4fqg.mp4"
         }
       },
       "error": null,

@@ -1,0 +1,90 @@
+---
+session: 81
+slug: uganda
+country: Uganda
+speaker: Jessica Rose Epel Alupo
+title: Vice President
+speaker_title: Her Excellency
+date: 2026-09-23
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/ug_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.186
+---
+
+The President of the UN General Assembly; Excellencies, the Heads of State and Government; The Secretary-General of United Nations; Distinguished delegates; Ladies and Gentlemen.
+
+I wish to express my gratitude for the invitation extended to me to address this 81 st Session of the United Nations General Assembly. I have been unable to attend in person; and delegated Her Excellency, Maj. (Rtd) Jessica Alupo,
+
+Vice President of the Republic of Uganda, to represent me.
+
+I congratulate H.E. Dr. Khalilur Rahman on your election as President of the 81 st Session of the UN General Assembly and assure you of Uganda's full support. I also thank H.E. Ms. Annalena Baerbock for her stewardship of the 80th Session and wish to thank Secretary-General H.E.
+
+António Guterres for his unwavering commitment to the United Nations.
+
+Mr. President,
+
+Eighty-one years ago, the United Nations was established in the aftermath of the Second World War to foster international cooperation and prevent future armed conflicts. As we convene here today, we must confront the reality of living in very uncertain tim es, shadowed by the persistent threat of global conflict. It is imperative that we work together to avert warfare. We must reflect on the founding principles of the UN Charter and recommit ourselves to: saving succeeding generations from the scourge of war, reaffirming faith in fundamental human rights and the dignity of the human person, ensuring equal rights for all nations large and small, establishing conditions for justice and respect for international law and promoting social progress al ongside better standards of life.
+
+Uganda firmly believes that multilateralism and international cooperation remain the most vital mechanisms for addressing our shared challenges.
+
+Accordingly, we reaffirm our commitment to the principles of the UN Charter as the cornerstone of global diplom acy, supporting the interconnected pillars of peace and security, human rights, humanitarian affairs and sustainable development.
+
+We believe the United Nations must remain agile and adaptive to evolving global realities. Uganda is committed to working with the entire membership to build consensus on necessary systemic reforms, particularly within the UN Security Council. We call for a comprehensive reform to render the Council more equitable, transparent, democratic and representative. In this regard, we demand Africa's rightful representation —in both the Permanent and Non -Permanent categories —to correct historical imbalances in line with the Common African Position as articulated in the Ezulwini Consensus and the Sirte Declaration.
+
+Regarding the ongoing UN80 initiative, Uganda commends efforts to streamline the UN system to make it cost effective, efficient and well -coordinated. However, these reform processes must not dilute agreed UN mandates, commitments, or programs, nor should they impede the implementation of the 2030 Agenda.
+
+Mr. President,
+
+When we adopted the 2030 Agenda for Sustainable Development and its 17 Sustainable Development Goals in 2015, we committed to leaving no one behind. Yet, progress remains elusive, with only 36 percent of the 139 targets currently on track.
+
+Numerous obstacles hinder our efforts to accelerate progress, chief among them being limited fiscal space.
+
+Many developing countries lack sufficient financial resources to fund their development needs, with a disproportionate share of revenues directed tow ard debt servicing rather than critical public infrastructure and social services. This challenge requires urgent reform of the International Financial Institutions (IFIs) to afford developing nations a stronger voice in decision -making, alongside the full implementation of the Sevilla Commitment and the Pact for the Future.
+
+Furthermore, equitable taxation is essential for mobilizing domestic resources. An inclusive international tax system is critical for strengthening global cooperation, curbing illicit financial flows and addressing profit shifting by multinational corporat ions. Uganda fully supports the ongoing intergovernmental negotiations on the United Nations Framework Convention on International Tax Cooperation and its protocols on cross-border services and tax dispute resolution and we urge all member states to negotiate constructively.
+
+Mr. President,
+
+Uganda has commenced the implementation of its Fourth National Development Plan (NDP IV 2025/26–2029/30) as part of our national strategy to accelerate economic transformation and achieve sustainable development. This strategy is anchored on four high -impact growth pillars:
+
+Agro-Industrialization, Tourism development, Minerals exploitation and Science, Technology, and Innovation (ATMS). Our goal is to drive double -digit growth over the five-year period and ultimately grow our economy tenfold to a GDP of $50 0 billion by 2040, creating jobs and enhancing the quality of life for all Ugandans.
+
+Mr. President,
+
+The peaceful resolution of conflicts through diplomacy is indispensable for sustainable peace, security, and economic growth. Most conflicts arise from unresolved local or regional grievances and demand comprehensive, politically led and locally owned solu tions rather than purely military responses.
+
+Uganda remains a consistent contributor to regional stability, particularly in the Horn of Africa and the Great Lakes Region. Our security approach is rooted in a Pan African framework that seeks peace through collective alliances and regional cooperation.
+
+Mr. President,
+
+Investing in a healthy population remains a core strategic priority for Uganda. Under NDP IV, we are expanding health investments to ensure accessible, affordable and equitable healthcare. This includes modernizing health centers, upgrading regional referr al hospitals and integrating digital health solutions to improve service delivery and accountability.
+
+We are actively addressing the dual burden of communicable and non -communicable diseases (NCDs).
+
+Our response to HIV/AIDS combines strong political leadership with sustained community involvement, keeping Uganda on track to achieve the UNAIDS 95-95-95 targets and contribute to ending AIDS as a public health threat by 2030.
+
+Having successfully contained outbreaks such as the Bundibugyo Ebola virus, Uganda has built a resilient public health framework. We call upon development partners and multilateral institutions to bridge financing gaps, enhance pandemic preparedness and en sure equitable access to diagnostic tools, medicines and vaccines worldwide.
+
+Mr. President,
+
+As the Chair of the Non-Aligned Movement (NAM), Uganda continues to uphold the principles of unity, peace and solidarity among developing nations. We remain dedicated to advancing the International Covenant on the Right to Development, aiming to transform the 1986 Declaration into a binding operational instrument that tackles structural global inequalities.
+
+We look forward to hosting the Ministers of NAM Member States and Observers at the Ministerial Meeting of the NAM Coordinating Bureau in Kampala from December 2 – 4, 2026.
+
+Mr. President,
+
+As the selection process for the next UN Secretary-General proceeds, Uganda has presented the candidacy of Ambassador Olara Otunnu. Ambassador Otunnu brings over four decades of distinguished service across the UN system, international diplomacy and public administration. As the inaugural Special Representative for Children and Armed Conflict (1998 –2005), he placed the protection of war -affected children firmly on the Security Council agenda and established the monitoring and reporting mechanism under Resol ution 1612 (2005).
+
+His extensive experience, statesmanship and proven capacity for consensus -building make him exceptionally qualified to lead the Secretariat at this critical time.
+
+Mr. President,
+
+In conclusion, for eight decades, the United Nations has stood as a central pillar of international peace, human rights and development. While acknowledging its vital achievements and convening power, we must continue to reform the organization to ensure i t becomes more transparent, cost -effective, efficient and representative.
+
+Through renewed international cooperation, the UN can truly deliver on its founding promises for all humanity.
+
+I thank you.

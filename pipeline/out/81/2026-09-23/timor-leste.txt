@@ -1,0 +1,230 @@
+---
+session: 81
+slug: timor-leste
+country: Timor-Leste
+speaker: José Ramos-Horta
+title: President
+speaker_title: His Excellency
+date: 2026-09-23
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/tl_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.743
+---
+
+Estimado Secretário-Geral António Guterres,
+
+Numa manhã de inverno, a 1 de janeiro de 2017, chegou ao seu gabinete, no 38.o andar do Edifício do Secretariado, plenamente preparado para a missão mais exigente da sua longa e distinta carreira.
+
+Ao longo de todo este percurso, manteve-se fiel a si próprio: um líder compassivo e esclarecido, incansável, humilde e acessível, que não se deixou deslumbrar pela visibilidade do cargo nem intimidar pelo enorme peso de uma agenda permanente, vinte e quatro horas por dia, sete dias por semana. Não trouxe para o cargo um ego que exigisse massagens frequentes, nem uma vaidade que tivesse de ser diariamente maquilhada.
+
+Manteve-se humilde, honesto e fiel aos seus princípios, cuidando dos milhões de mulheres e crianças rejeitadas e esquecidas, apanhadas no turbilhão de guerras desencadeadas por senhores da guerra. À medida que as guerras se prolongam e se tornam demasiado dispendiosas, os bombeiros são responsabilizados por não conseguirem apagar os fogos que os próprios incendiários atearam.
+
+Quando sair deste edifício, a 31 de dezembro de 2026, juntar-se-á ao panteão dos grandes Secretários-Gerais, cujos legados continuarão a inspirar jovens de todo o mundo a seguir o seu exemplo de serviço às pessoas necessitadas.
+
+Excellency President Dr. Khalilur Rahman,
+
+I congratulate you on your election to preside over the 81st session of the General Assembly.
+
+You bring to this house the wisdom of 5 billion people (60% of the world's population), representing some of the world's oldest and most sophisticated civilisations.
+
+Excellencies,
+
+At one time in history, waking up from the horrors of World War II, we were intoxicated with the dreams of a United Nations promising a new dawn for humanity.
+
+After the unimaginable WWII, started by Christian civilised Europe, we could not had hoped for anything less. But it seems that human beings can never really have enough wars, and never really learn lessons of history, never really cared.
+
+After the Holocaust came the glorious birth of the State of Israel. But then we read about the Palestinian Nakba (1948). Over the following years, we read about wars of partition and famines in South Asia, the Korean War (1950-1953), the onslaught in Cambodia, Laos,
+
+Vietnam, the infamous Khmer Rouge genocide, later the Bosnian genocide, the Rwandan genocide, and many, too many other wars in Asia, Africa, Latin America, Europe.
+
+Then came the end of the Cold War, bringing us euphoria, celebrations, new promises of peace. The Berlin Wall collapsed,
+
+Apartheid ended. But the seeds of future wars were sown just as NATO and Mikhail Gorbachev inked the post-Cold War arrangements, the ink had not even dried, and NATO began its fast eastbound expansion.
+
+As expected, for more than 4 years we have had this devastating war in Ukraine, a war that now has backfired into Russia.
+
+We are gathering in this Hall of Nations, countries large and small, some insanely rich, too many shockingly poor. But all enjoying equal voting rights. Yet we know equality is an illusion.
+
+Some possess non-threatening antiquated guns while few others have perfected their nuclear arsenals, now 100 times more destructive than the ones dropped on Hiroshima and Nagasaki in
+
+1945. As primitive as they were then, these experimental bombs incinerated two cities and almost all living beings in them. Those unfortunate ones who survived the blast died long, painful deaths.
+
+Russia, US, China, France and the UK, all members of the Nuclear Non-proliferation Treaty (NPT) were joined by four countries not members of the NPT -- Israel, India, Pakistan.
+
+The Democratic People's Republic of Korea has a nuclear arsenal estimated to be around 100 warheads and North Korean leaders seem to have learned lessons from Libya, Ukraine and the ongoing Iran/Israel/US war.
+
+Dismantle your nuclear capabilities and lose the only deterrence you have against a nuclear power deciding to bomb you into submission. So, let's get used to this reality, a regime like no other in the world, with nuclear weapons.
+
+On June 30th, 2019, President Trump travelled to the DMZ in the Korean peninsula. The mysterious Swiss-educated leader of North Korea, half the age of the American President, walked halfway and the two leaders engaged in an embrace that promised peace.
+
+This is what leaders do to advance peace. They showed courage, audacity. President Trump did the right thing.
+
+Friends are friends. We cherish and embrace our friends, never ignoring them or excluding them from the table. But we talk to adversaries so that we don't become enemies. We talk to enemies to prevent wars, and perhaps we become partners in peace.
+
+Those countries amassing nuclear weapons keep us all living near imminent catastrophe. On any day, by accident, miscalculation, computer error, madness, or foolish strategic design, we could become the last human generation.
+
+All the while, the brandishing of these weapons reinforces adversity and fear, which create a very high barrier to achieving the rational cooperation necessary to fulfil our responsibility to future generations, the imperative to protect the natural world upon which we all depend, and the moral imperative to eliminate the suffering of poverty. Is this the best we can do?
+
+Trillions of dollars are invested in perfecting forms of death instead of investing a fraction of these trillions in clean water, food, schools and clinics for fellow human beings.
+
+No thought was given to the tens of millions of fellow humans pushed back to extreme deprivation by the COVID-19 pandemic, the Ukraine/Russia war, and as if the innocent bystanders on the periphery had not suffered enough, we are presented with another catastrophe: the Iran war and disruption of vital waterways for trade.
+
+We know the madness of the Iranian leaders seeking regional supremacy, pouring fuel into the fire of religious extremism in neighbouring countries to destabilise wealthy, stable, monarchies.
+
+Iranian leaders launched unwarranted attacks against neighbours, destroying civilian industries and infrastructure. Iran's rationale for these attacks is that these countries host American bases. So is Iran going to launch waves of drones and missiles against US bases across Europe?
+
+Can we change course? Can we stop from sleepwalking into wider wars?
+
+President Trump: be audacious, unpredictable, visionary, invite all nuclear powers and all major conventional military powers and industries, without exception, to a Summit in some town in Portugal, to talk on No First Strike, enhanced regular communication between leaders of the nuclear powers, and commitment on reduction of nuclear weapons towards total deactivation and destruction of nuclear arsenals over a decade.
+
+Be you, President Trump, the audacious, the unpredictable one. Do the unthinkable, and you will gain worldwide gratitude and respect.
+
+The humanitarian situation in Cuba is heartbreaking. We understand that the US has provided $100 million in emergency humanitarian assistance to the Cuba people through Caritas. In keeping with US humanitarian tradition, and towards creating an environment conducive to normal, long-term Cuba-US relations, trade relations between Cuba and the US and the rest of the world could be improved.
+
+Regarding the situation in Israeli-occupied territories, Gaza and West Bank, Timor-Leste joins with the vast majority of UN Member States to reaffirm our belief that the Two State Solution is the only viable solution: for Israelis to live in peace with themselves and with the Palestinians, and for the Palestinians to live in peace with themselves and with the Israelis.
+
+The risks are too high to continue an unstable status quo, the opportunity to do better sits before us, and the choice is an international order falling to pieces or rising to peace.
+
+Regarding Western Sahara, we welcome the Moroccan proposal and the recent Security Council resolution as an opportunity for dialogue. As with any situation of this nature, the people most directly interested must be consulted on their future status. We hope that a just and comprehensive settlement is reached between Moroccan authorities and the Polisario front.
+
+Excellencies,
+
+Please take some time to look at the situation in Sudan, the worst humanitarian crisis in the world today; look at the situations in South Sudan, the Democratic Republic of Congo, Afghanistan,
+
+Myanmar, Yemen.
+
+These are not abstracts. They are people, they are women and children, youth in their best years, they are parents, grandparents.
+
+And they are a grand jury of humanity indicting us all, leaders and businesses of death, for you are celebrating the tens of billions of dollars in profits from the wars and deaths that you are accomplices to.
+
+How is it that we can scroll past the end of the world before finishing our coffee?
+
+How is it that a child pulling pieces of his family from the rubble has become a headline we quickly skip, a notification we silence, a Tuesday?
+
+Behind each of the dead is not a statistic — it is a mother who will spend the rest of her life searching for a face in a crowd that will never appear. It is a boy hiding in silence, learning before he can read that the world outside his door wants him dead. It is a girl, pregnant by the men who came to destroy her home, carrying inside her both the violence done to her and a life she never chose.
+
+We tell ourselves we would never look away if we truly saw it. And yet we saw Rwanda and Bosnia happen right under UN watch. We see it every day, live, in our pockets, in vivid colour — and still, somehow, life goes on normally. We finish our meetings. We plan our weekends. We grow inured to the killing of Palestinians.
+
+This is not a lack of information. We are drowning in information. We can live stream it all as it happens. This is a lack of feeling — a numbness we have allowed to settle over us like dust.
+
+All this happens before our eyes, but from the powers that can make the difference between life and death, there is no response. And worse. We witness diplomatic acrobatics to brush off the bombing of a school or a hospital, saying that it does not really violate international law because terrorists may be hiding in the basement of the building.
+
+I am worried. Worried that we have started treating a catastrophe as something we can simply coexist with.
+
+Worried that the killing of civilians is casually being justified.
+
+Worried that total force now sounds more viable than diplomacy.
+
+This very institution was founded on a promise. All through the archives here, resolutions say a ceasefire must hold, a border must not be crossed, a civilian must not be a target. Many of those promises have remained unmet, raising concern that the phrase "never again" has lost all meaning.
+
+I do not have a plan that will end a war by nightfall. But I know this: numbness is not neutral. Silence is not safety.
+
+Every time we let the suffering of people become background noise, we let ourselves forget how small the distance really is — how little separates your daughter, granddaughter, niece, from the girl in the refugee camp you saw on the news last night. How many children, right now, are learning that a world at war is normality.
+
+The more we linger in this fog, the harder it becomes for that hiding child to believe the world is not his enemy.
+
+These tragedies are not somebody else's tragedy. They are what we allowed, what we still allow, and what we will all answer for.
+
+There's a painful cry for a better global order as we witness the weakening into irrelevance of multilateral institutions. No country, regardless of size or power, can address today's interconnected challenges alone.
+
+Excellencies,
+
+Leadership is not merely discovering the angriest instinct of the electorate and amplifying it. Leadership is sometimes telling our own supporters that they are wrong. It is explaining complexity when a slogan would be easier. It is asking people to consider tomorrow when they are angry about today. It is persuading citizens that the humanity of others who may worship differently, speak another language or vote for another party does not diminish their own freedoms.
+
+Statesmanship requires patience, persuasion, courage to compromise. And above all it requires an understanding that power brings responsibility, not exemption.
+
+The Charter of the United Nations was not written to make the strong weak. It was written to prevent the strong from making the world unlivable.
+
+Excellencies,
+
+Soon we will elect a new Secretary-General. The regional rotation precedent must be preserved.
+
+Africa had an unprecedented continuous 3 terms (Boutros BoutrosGhali 1992-1996, Kofi Annan 1997-2006). Now the Security Council will elect a Latin American as our new Secretary-General for 20272032.
+
+And after more than 80 years of men at the helm of our organization, needless to say we ought to have enough wisdom and elect a woman with unquestionable integrity, an unblemished record in defence of human rights, strong advocacy of gender equality and inclusion, rule of law, democracy, solid experience in senior management in national and multilateral institutions.
+
+Mr. President,
+
+For developing countries, particularly Small Island Developing States and Least Developed Countries, efficiency must translate into stronger delivery on the ground, not reduced essential support.
+
+Timor-Leste urges comprehensive reform, expansion in both the permanent and non-permanent categories, so that developing countries and historically underrepresented regions have a stronger voice in decisions concerning international peace and security.
+
+The veto is inconsistent with the sovereign equality of Member States.
+
+Attention is due to the Charter as it stands. For example, Article 27, paragraph 3, requires a party to a dispute to abstain from voting on decisions under Chapter VI and in the circumstances specified under Article 52.
+
+Mr. President,
+
+Timor-Leste reaffirms the principles of climate justice and Common but Differentiated Responsibilities and Respective Capabilities, in the light of different national circumstances.
+
+Greater climate ambition must be accompanied by accessible and predictable finance, adaptation support, technology transfer and capacity-building.
+
+For SIDS and LDCs, vulnerability cannot be measured by income alone. Geography, climate exposure, narrow productive capacity, external shocks and limited access to affordable finance profoundly influence development prospects.
+
+As artificial intelligence and other emerging technologies reshape our societies, developing countries must actively participate in their governance and development—not merely receive technologies designed elsewhere.
+
+The Science for Development Summit 2026, held in Dili in August 2026 under the theme “Science in Service of Life”, reflected this conviction by bringing together scientists, Nobel laureates and other leading thinkers to explore how science, technology and innovation can be placed at the service of humanity and sustainable development.
+
+This same spirit of using knowledge, education and human potential in the service of peace will also guide the Chess for Peace tournament, planned for Dili in January 2027.
+
+Jointly sponsored by my office and Mr. Kirsan Ilyumzhinov, former President of FIDE (International Chess Federation), it will bring together young people with 100 Chess Masters from around the globe, using chess as a tool to promote education, dialogue, friendship and peace among young generations.
+
+Mr. President,
+
+Our accession to ASEAN on 26 October 2025 was a historic moment for our country, marking the culmination of a fourteen-year process that began when Timor-Leste formally applied for membership in March 2011.
+
+Throughout the accession process, fellow ASEAN leaders provided technical assistance, capacity-building and practical guidance.
+
+This requires stronger institutions, capable public servants and effective implementation of ASEAN commitments across the Political-Security, Economic and Socio-Cultural Communities.
+
+Our National ASEAN Economic Community Implementation Roadmap 2026–2030 links regional commitments with national priorities in trade, investment, agriculture, tourism, transport, digital development, human capital and support for micro, small and medium-sized enterprises.
+
+Our foreign policy seeks friendship with all and hostility towards none. We aim to maintain balanced and constructive relations with our neighbours, major powers and development partners.
+
+We do not seek to take sides in major-power competition. We seek to protect our national interests while supporting international law, peaceful cooperation and mutual respect.
+
+Timor-Leste also brings the energy and aspirations of a young population. Our young people are increasingly connected to the region and eager to learn, work and contribute. Their education, skills and regional experience will be central to our success as an ASEAN Member State.
+
+As ASEAN works towards its Community Vision 2045, Timor-Leste will support a united, people-centred and resilient ASEAN. We will also support ASEAN centrality and constructive relations with all external partners.
+
+We are a small island developing State, a Least Developed Country and a nation whose history demonstrates both the necessity and the possibilities of multilateralism.
+
+Last but not least, in parting, I want to share selected messages from children and youth who responded to my invitation to write a few words expressing their worries and dreams:
+
+I selected some. Here it goes: 10 Sentences in Favour of Peace For the United Nations General Assembly Give a Voice to Youth!
+
+Young People ages 11 – 17 From a country that has learned from war, Timor-Leste sends a message to the world. That is: peace is not just a dream, but a decision that we all have to choose By Olgita, 16 We may look different, speak different languages, and come from different places, but we all bleed the same color. So why should our differences divide us?
+
+By Elisabeth, 16 May we build a world where no child learns the sound of war before the sound of laughter, and where no dream is buried because of someone else’s hatred By Emilly, 16 Why would we choose hate and war when love is a choice?
+
+By Irabela, 12 My voice may be small, but my request is simple: Let children grow up knowing the sound of peace, not the sound of war. Let them inherit schools, homes and opportunities—not fear, destruction and hatred. Let the leaders of today give the children of tomorrow a reason to believe in peace.
+
+By Victórya, 12 Let our differences be bridges between hearts, not walls between nations, so that every child can grow up knowing the sound of laughter instead of the sound of war.
+
+By Natalia, 17 Let every weapon fall silent, so every child can grow up knowing the sound of peace.
+
+By Cristian, 16 I always think that peace in the world begins within us. When we learn to love each other unconditionally, forgive sincerely, and respect each other despite our differences, the world will become a place full of peace, hope and love.
+
+By Melkyvido, 12 Peace is not merely the silence after a conflict; rather, it means we overcome everything peacefully. Let peace be the victory that we seek. And create a unity for humanity.
+
+By Carisa, 14 Peace never exists on its own, but begins with you.
+
+By Francisca, 14.
+
+For all the peoples who rule our world: Children should not have to learn about all the wars in our history class; we should learn about the names of the stars, the names of peacemakers and how to reach planet Mars. With deepest respects.
+
+Solomon, 12.
+
+Excelências,
+
+No ano passado, à margem da AGNU, muitos de nós, incluindo Chefes de Estado e laureados com o Prémio Nobel da Paz, reunimonos para lançar a Declaração Global de Compaixão. O PrimeiroMinistro do Butão e eu estivemos entre os primeiros signatários da Declaração, que apela à partilha da responsabilidade moral e a uma maior responsabilização na governação mundial.
+
+Como afirma o meu amigo e também laureado com o Prémio Nobel da Paz, Kailash Satyarthi, globalizámos os mercados e a tecnologia.
+
+Chegou agora o momento de globalizarmos a compaixão. Não como uma emoção passiva, mas como uma força poderosa para alcançar justiça e paz para todos.
+
+End

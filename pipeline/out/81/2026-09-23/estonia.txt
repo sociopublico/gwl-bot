@@ -1,0 +1,178 @@
+---
+session: 81
+slug: estonia
+country: Estonia
+speaker: Alar Karis
+title: President
+speaker_title: His Excellency
+date: 2026-09-23
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/ee_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.012
+---
+
+Mr President,
+
+Mr Secretary General,
+
+Excellencies,
+
+Ladies and gentlemen,
+
+Last year, speaking from this podium, I described the United Nations as an idea of a better world. It is a carefully crafted agreement to safeguard peace and security, promote development, and uphold human rights. I still believe in that promise, enshrined in the United Nations Charter.
+
+But the world around us is changing, and not for the better.
+
+Over the past year in particular, it has become increasingly clear that the multilateral world order, with the UN and its Charter at its core, is at a profound turning point.
+
+Blatant disregard for international law and the principles of the Charter, reinforced by a sense of impunity, too often dominates over adherence to the rule of law and cooperation between countries for a better future. Mutual dependencehas come to be treated as a critical vulnerability. Aggression, wars and conflicts risk becoming the new normal.
+
+Millions of people are suffering in Ukraine, Gaza, Sudan, Haiti,
+
+Myanmar. Sometimes we tend to forget that behind the numbers there are always huma n beings – families separated, children affected, homes destroyed and lives disrupted by conflict.
+
+Over the past three years, more than 1,000 humanitarian workers have lost their lives. And beyond ongoing wars and conflicts there is the looming crisis brought on by climate change; one in which time is running out for us to act. Indeed, the time to act is now. Estonia, for example, is contributing its share: we have reduced our emissions by 66% over the past 35 years while transforming our energy system.
+
+Yes, the world is on fire; troubles and problems are mounting before our eyes. The cooperative spirit in the international relations that emerged after San Francisco and that was clearly present after the end of the Cold War is fading away.
+
+The UN is suffering because of it.
+
+But it is also true that the UN requires profound reforms to be able to tackle the challenges of the 21st century.
+
+As such, the question really is this: do we let the United Nations, together with its aims and founding principles, just slowly fall apart? Or do we start facing these challenges with a sense of common responsibility, and genuinely try to reform the UN and start to use the only global framework we have in a responsible and sensible way? The stakes are high. The choice is ours.
+
+For Estonia, and I believe for the great majority of UN Member States, upholding the principles of the UN Charter is of vital interest. But we are also conscious that in order for those principles to remain valid and respected, we need to invest in them – as much with our words as with our actions.
+
+Ladies and gentlemen,
+
+One of the biggest tests for the UN’s relevance is Russia’s aggression against Ukraine. For more than 12 years now, since the illegal annexation of Crimea and occupation of Eastern Ukraine in 2014, a permanent member of the Security Council – the Russian Federation – has been perpetrating a war of aggression at the very heart of Europe.
+
+That aggression disregards the principles of the UN Charter to its very core: it violates the respect for the sovereignty and territorial integrity of states and the prohibition on the use of force against another state.
+
+The consequences of Russia’s aggression, however, extend far beyond Ukraine and Europe. For example, by increasingly targeting Ukraine’s Black Sea ports, commercial shipping, grain infrastructure and alternative export routes, Russia is putting global food security at grave risk.
+
+As such, this is a concern for all of us, and rightly so.
+
+Russia’s actions have been condemned by a large majority of this Assembly. But condemnation is not enough: we need to collectively force Russia into peace in Ukraine, to force it to the negotiation table by raising the cost of its aggression.
+
+For this we can and should use the diverse instruments at our disposal, be they economic, diplomatic or political.
+
+I strongly encourage more of my fellow heads of state and government to use this occasion to call on Russia to cease its aggression.
+
+Those of you who have done so already, be it in the Global South or North – you have my appreciation. The principles of the UN Charter cannot be trampled on. It is our collective task to stand up for them.
+
+We should also support the efforts of international mechanisms to document war crimes, ensure accountability and provide assistance to those whose rights have been violated.
+
+The International Criminal Court continues to play a vital role in the global fight against impunity in regard to the most serious international crimes.
+
+We call on all Member States to advance and support key accountability initiatives, such as the International Compensation Mechanism for Ukraine and the Special Tribunal for the Crime of Aggression against Ukraine.
+
+Estonia is doing its part: we have completed all national procedures and taken the lead in discussions in Strasbourg to establish the Special Tribunal as soon as possible.
+
+A UN Member State whose armed forces have been repeatedly cited in the UN Secretary-General’s reports for grave violations against children and conflict-related sexual violence should have no place in UN peacekeeping operations.
+
+This is a matter of ensuring that a perpetrator’s actions have consequences. But it is equally a matter of retaining trust in and the integrity of UN peacekeeping. I therefore call on the UN to stop reflecting and instead take appropriate action immediately.
+
+Ukraine requires assistance in defending itself, but also in rebuilding the country. Estonia, together with its partners, has worked closely to support Ukraine’s cybersecurity and resilience, in responding to evolving threats through the Tallinn Mechanism and the IT-Coalition.
+
+Estonia is also proud to be hosting the Ukraine Recovery Conference in 2027, organised in cooperation with our closest friends in the Nordic-Baltic region.
+
+Building on the outcomes of earlier conferences, next year’s event will be advancing in practical terms long -term international support for Ukraine and its recovery.
+
+As such, it will be a multilateral effort and example of true cooperation for international peace and security.
+
+My fellow leaders,
+
+While it is the situation in Ukraine and Ukraine’s security that affects Estonia most directly, we are neither indifferent to nor unaffected by the impact of other wars, threats and conflicts.
+
+The situation in the West Bank and Gaza remains of great concern. Innocent civilians and children must not bear the devastating human cost of the war. Estonia has consistently called for upholding international humanitarian law and ensuring safe, rapid and unhindered access to humanitarian aid for those in need.
+
+We remain a stable donor to UNWRA and are committed to a credible political process leading to a negotiated two -state solution, with Israel and Palestine living side by side in peace, security and dignity. We have provided food aid to hospitals in Gaza and stand ready to offer our digital transition expertise in its future reconstruction.
+
+Estonia has consistently condemned the attacks by Iran against our close partners, the Gulf states, and has shown its readiness to contribute to ensuring freedom of navigation in the region.
+
+This is an issue that affects us all.
+
+We also see the instrumentalization of migration as a means of exerting pressure on countries, whether on the European Union’s eastern and southern borders or elsewhere. Irregular migration is increasingly becoming a security issue, and it requires a coordinated international response.
+
+Ladies and gentlemen,
+
+If we want a United Nations that is more effective in terms of decision -making, more efficient in managing available resources, and up to date on technological developments, we adopt it as our shared task to readjust the structure of the UN around all three pillars, as well as to reassess how the United Nations operates.
+
+Estonia supports the system -wide reform of the UN80 and Humanitarian Reset, which are both well underway and have already delivered some encouraging results.
+
+Now is the time to build on this momentum and to move decisively forward with the reforms. We need ambition.
+
+For example, the humanitarian sector, alongside stronger data harmonization, could move towards a shared interoperability model that allows many systems to coexist while quickly and safely exchanging data.
+
+Estonian humanitarian organizations are already testing these solutions, from Palestine to Sudan. We also need determination.
+
+Above all, we need action – action that strengthens the UN as the main actor responsible for multilateral cooperation and that prepares it for future challenges.
+
+This year, the United Nations is set to make arguably one of its most consequential decisions: the selection and appointment of its next Secretary -General. As an active member of the Accountability, Coherence and Transparency Group,
+
+Estonia has stood for a transparent, fair and inclusive process.
+
+At this challenging time for the organization, we need a strong and principled leader with an impeccable track record in championing and upholding international law, human rights and the principles of the Charter. Estonia also feels that after 81 years, it is time for this organization to be led by a woman.
+
+Allow me to take this opportunity to commend and express our gratitude to the current Secretary-General, Mr António Guterres, for his steadfast commitment to the principles of the UN Charter, including his support for a just and lasting peace in Ukraine.
+
+With regard to the Security Council, it must be said that its inability to take timely and decisive decisions on some of the worst crises we are seeing today risks rendering the United Nations irrelevant.
+
+We have not seen unified and decisive Council action on Ukraine, Sudan or Myanmar. The use of the veto and the threat of its use continue to loom over the Council and paralyze any of its attempts to take action.
+
+Estonia has long advocated for permanent members to refrain from vetoing resolutions aimed at ending mass atrocities, in line with the France-Mexico proposal and the ACT code of conduct.
+
+It is also important to call on the Security Council members to start fully implementing Article 27 (3) of the Charter once again, and to abstain in cases where members of the Council are a party to a dispute.
+
+The General Assembly resolution “United for Peace” gives this most representative and democratic body of the UN a toolbox to act on matters related to international peace and security when the Council is unable to deliver.
+
+In concert, we must reinforce the role of the General Assembly when it comes to peace and security, as this will help us in collectively finding solutions where the Council is powerless.
+
+Ladies and gentlemen,
+
+Estonia firmly believes that respect for human rights is a prerequisite for peace, security and prosperity. We stand firmly behind the United Nations human rights system and will continue to defend and strengthen it.
+
+As one of the first supporters of the Global Alliance for Human Rights, Estonia feels that human rights should once again be at the centre of the world we choose to build.
+
+Estonia is a member of the UN Human Rights Council for the period from 2026 to 2028, and is currently serving as Vice-President of the Council. As a country ranked among the world’s top three for press freedom, we are committed to promoting media freedom, protecting journalists and enhancing media literacy.
+
+We will continue our strong commitment to women’s rights and gender equality, including sexual and reproductive health and rights. Together with New Zealand and Colombia, Estonia is leading negotiations on the Human Rights Council on the resolution on preventing maternal mortality and morbidity. Maternal survival is a question of justice and human rights, not only healthcare.
+
+Estonia stands firmly for ending all forms of violence against children. One of the gravest aspects of Russia’s war against Ukraine is the mass deportation and forced transfer of Ukrainian children, which is a systematic and deliberate attempt to erase their Ukrainian identity.
+
+It is a war crime, and a crime against humanity. We therefore reiterate the call of the General Assembly resolution adopted on 3 December 2025, and demand that the Russian Federation ensure the safe, immediate and unconditional return of all forcibly transferred and deported Ukrainian children.
+
+We thank all of our international partners working to reunite these children with their families, in particular US First Lady Melania Trump for her remarkable humanitarian initiative.
+
+Ladies and gentlemen,
+
+Artificial Intelligence is here to stay, and to be used to assist us, as has been the case with every major new technology throughout human history. Like any new technology,
+
+AI poses risks and brings challenges. But with knowledge, wisdom and unity, we can put it to use in service of humanity.
+
+As a Co -Chair of the first UN Global Dialogue on AI Governance alongside El Salvador, Estonia has proudly brought its knowledge and experience in service of the UN and its Member States.
+
+Personally, I had the honour of becoming one of the Commissioners of the AI for Good Global Commission this summer. For me, this role means both trust and responsibility: to help ensure that AI serves people, that its use is secure and reliable, and that i ts benefits reach as many countries and communities as possible.
+
+As the current president of the UNICEF Executive Board,
+
+Estonia has been paying particular attention to the topic of innovation in education, notably how to advance – in a responsible way – safe, inclusive and child -centred learning with the support of AI.
+
+In Estonia we have introduced a massive educational innovation program we call the “AI Leap”, whose aim is to assist schools – students and teachers alike – to adapt to the age of AI and to foster meaningful learning.
+
+Artificial intelligence should empower teaching and learning, rather than replace them. Under the auspices of the UN, notably through close cooperation with UNICEF, we are bringing our experience and best practice to the global scene, ensuring that AI creates equal opportunities for all humanity.
+
+We know for certain that digitalisation, which has now been reinforced by AI, has enabled our small country to grow, innovate and connect globally. This is why we have shared our experience with around 150 other countries worldwide.
+
+And this is also why Estonia has nominated a candidate for the position of Director of the ITU Development Bureau. You can trust us to work to turn connectivity into lasting capability, and to ensure that no country is left behind in the digital transformation. We hope to count on your valuable support.
+
+Ladies and gentlemen,
+
+The very fact that we are gathered here today should give us hope that we still share a commitment to the UN Charter and to multilateral cooperation. Otherwise, why would we keep coming to New York year after year?
+
+Let us preserve what matters, adapt where we must, and design the future – together. We have a choice: to shape change, or to be shaped by it. And we can only shape it if we stand together.

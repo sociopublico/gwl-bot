@@ -38,3 +38,5 @@ rwanda
 spain
 andorra
 democratic-republic-congo
+italy
+uzbekistan

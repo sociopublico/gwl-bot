@@ -1,0 +1,116 @@
+---
+session: 81
+slug: botswana
+country: Botswana
+speaker: Duma Gideon Boko
+title: President
+speaker_title: His Excellency
+date: 2026-09-23
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/bw_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.848
+---
+
+1. Mr. President, Botswana warmly congratulates you on your election to preside over the 81st Session of the United Nations General Assembly. We assure you of our full support as you shoulder this important responsibility.
+
+2. We also commend the outgoing President for her distinguished stewardship. Her tenure reminds us of an unfinished chapter in the history of this Organisation. Eight decades later, the United Nations has yet to be led by a woman as Secretary-General.
+
+3. Mr. President, the theme of this session, "Restoring Trust, Managing Transformation: A United Nations That Delivers for All", aptly captures the central challenge before us.
+
+• Restoring trust requires fidelity to the UN Charter and international law; • Managing transformation requires institutions capable of adapting to a rapidly changing world; and • Delivering for all requires us to move beyond declarations towards tangible improvements in the lives and livelihoods of our peoples.
+
+4. Ultimately, our declarations, communiqués and resolutions must travel the difficult road from this Assembly Hall to the daily lives of the peoples we represent.
+
+5. Persistent conflicts, geopolitical tensions and growing divisions have tested trust between nations.
+
+Concurrently, our world is undergoing transformation driven by technology, climate change, demographic shifts and changing patterns of economic power.
+
+6. The pertinent question is how we streng then multilateralism so that the United Nations can deliver meaningful results for all Member States.
+
+7. Humanity has travelled far enough to know that on the great challenges of our age, none of us can go it alone.
+
+Whether a nation of a billion people, or, like Botswana, with just over two and a half million people, we share one fragile planet and one imperfect but irreplaceable United Nations.
+
+8. The choices we make will determine whether multilateralism restores trust, manages transformation and delivers for all, or becomes a cautionary tale of promises made and forgotten. Botswana comes to this podium with the power and weight of genuine conviction.
+
+9. When Botswana gained independence in 1966, we carried a founding belief that our security and prosperity would come from disciplined integration into a community of nations governed by rules that all had agreed to honour. We honoured our treaty obligations and opened our economy in accordance with the norms this Organisation exists to uphold. We regarded compliance with international law as one of Botswana’s strongest protections.
+
+10. That is the tradition I bring to this podium representing a nation staking its existence on the promise that shared rules, faithfully observed, remain humanity ’s best instrument for peace and pro sperity. That tradition test s whether trust between nations, large and small, can be restored.
+
+11. Mr. President, restoring trust must begin with restoring respect: respect for sovereignty, territorial integrity, and equal dignity of every nation, regardless of its size, wealth or military power. For smaller States such as Botswana, a rule -based international order is an essential safeguard. It assures us that international relations will be governed by the strength of agreed principles.
+
+12. Botswana believes that rules that bind only the weak are not rules; and principles applied selectively soon cease to command respect. That is why Botswana calls on this General Assembly, the Security Council, and every organ of th e United Nations, to recommit to dialogue as the first instrument of diplomacy.
+
+13. Botswana has sought to live by this principle as a host to the S outhern African Development Community (SADC) Secretariat, through our contributions to regional mediation and election observation, and through our consistent commitment to the peaceful settlement of disputes.
+
+14. Mr. President, even as we work to restore trust, our world is transforming. Climate change is no longer tomorrow’s warning. It is today’s drought in Africa, floods in Asia, rising seas in the Pacific, and wildfires in Europe and the Americas.
+
+15. For Botswana, custodian of the Okavango Delta, (a UNESCO World Heritage Site ) and the K galagadi ecosystem, climate change directly affects livelihoods, water security and biodiversity. Botswana remains committed to the 30-by-30 target and the sustainable management of our natural capital.
+
+16. Mr. President, Africa has the youngest population on Earth. That is an extraordinary asset if we invest in it.
+
+But what is a demographic dividend today can become a demographic crisis tomorrow if opportunity does not keep pace with aspiration.
+
+17. Youth unemployment remains one of the most urgent challenges of our time. Managing it is a shared responsibility. Botswana calls upon the United Nations Development Programme, the International Labour Organisation, and all relevant multilateral institutions to make technology transfer, skills development and capacity-building funded priorities.
+
+18. As we will all agree, the credibility of our multilateral commitments will be properly tested in development finance. When countries have the means to invest in their people, and when international institutions respond effectively to shared threats, trust is strengthened. But when commitments remain out of reach for those who need them most, confidence in the system weakens. Getting these fundamentals right is central to restoring trust, managing transformation, and building a United Nations that delivers for all.
+
+19. The global financial architecture must, therefore, evolve to reflect the economic realities of the 21 st century, including financing demands created by climate change, technological transformation and the imperative for sustainable development. Developing countries frequently face borrowing costs several times higher than those of wealthier nations because the system was not designed with the circumstances of the Global South in mind.
+
+20. Debt sustainability is a question of development and fairness. When nations spend more to service debt than invest in education, job creation, or provision of healthcare, trust in the system erodes. Botswana calls upon this Assembly and the international financial institutions to pursue reform of global financial governance. This would give developing countries a meaningful voice, and provide fair and predictable access to concessional finance.
+
+21. We further call upon the United Nations and its financial partners to mobilise private capital through innovative and blended financing arrangements that de-risk productive investment in developing economies. This is enlightened fairness and sound economics. Capital should help create opportunity where its impact can be felt.
+
+22. Mr. President, health is where the promise of international solidarity is tested most directly, and Botswana speaks from hard-earned experience. Three decades ago, our country faced an HIV/AIDS epidemic of such severity that some questioned our long -term national resilience.
+
+23. Through determined national leadership, bold public investment and sustained global partnership,
+
+Botswana built one of the world’s most comprehensive HIV/AIDS treatment programmes. We achieved the UNAIDS 95-95-95 targets ahead of schedule, and we became the first African country to achieve W orld Health Organisation Silver Tier status for the elimination of mother-to-child transmission of HIV.
+
+24. Our experience demonstrates that when national ownership and international solidarity converge, seemingly impossible challenges can be overcome.
+
+This kind of practical solidarity restore s confidence in multilateralism. We stand ready to share the lessons of this experience through South-South and triangular cooperation.
+
+25. Botswana attaches particular importance to preserving UNAIDS, an indispensable partner in our national response through evidence -based policymaking, technical assistance, resource mobilisation and global advocacy. That partnership helped to mitigate an epidemic by means of one of the world’s most successful national responses, and placed Botswana firmly on the path towards ending HIV/AIDS as a public health threat by 2030.
+
+26. Mr. President, Botswana supports reforms that strengthen the effectiveness, coherence and responsiveness of the United Nations system.
+
+27. We also believe that e fficiency gains should be redeployed to strengthen the capacity of the Organisation to prevent conflict, address emerging security threats and deliver meaningful results in programme countries, in line with the UN80 Vision.
+
+28. It is in this spirit that Botswana accords the highest priority to its partnerships with the United Nations Office of Counter-Terrorism (UNOCT), UN-Habitat, the International Trade Centre (ITC), the International Organisation for Migration (IOM), among others.
+
+29. We particularly recognise UNOCT’s leadership role in strengthening the United Nations’ collective efforts to prevent and counter terrorism and violent extremism, and in translating international commitments into practical support for Member States.
+
+30. Botswana remains committed to further deepening its cooperation with UNOCT and the wider United Nations system through capacity -building, technical assistance, knowledge -sharing and the exchange of good practices. Such partnerships demonstrate that a responsive United Nations can build trust, strength en national capacity, and foster peace and security.
+
+31. Mr. President, no reform agenda, including UN80, is complete without addressing the longstanding inequities within the Security Council. In this regard,
+
+Botswana reaffirms its support for comprehensive Security Council reform, and aligns itself with the Common African Position as articulated in the Ezulwini Consensus and the Sirte Declaration.
+
+32. We believe that a Security Council that continues to exclude Africa and Latin America from permanent membership cannot credibly claim to reflect contemporary geopolitical realities.
+
+33. We also call on th e United Nations to continue to explore the creation of an inclusive international framework on emerging technolog ies, including Artificial Intelligence. We recognise t echnology as a bridge that narrows global inequality. This extends to critical minerals, rare earths and energy resources that power the technological revolution, many of which come from developing countries.
+
+34. Therefore, d eveloping countries must have a meaningful voice in setting the standards and safeguards that w ill govern these technologies, ensuring that they expand opportunities, support decent work, and strengthen public services, while protecting human dignity, rights and security.
+
+35. Mr. President, I wish to reaffirm Botswana’s commitment to multilateralism. We believe that shared challenges require shared solutions. We also believe that implementing the Pact for the Future, together with the UN80 Initiative, offers an opportunity to translate our shared commitments into practical improvements in the functioning of the United Nations.
+
+36. In conclusion, Mr. President, I reemphasise that restoring trust, managing transformation, and delivering for all, are interconnected.
+
+• We restore trust when we uphold our commitments, respect the UN Charter, and apply international law consistently; • We manage transformation when change creates opportunity rather than deepen inequality, when developing countries have a meaningful voice in shaping the systems that affect their future, and when technological and economic progress serve humanity as a whole; and • We deliver for all when our decisions translate into tangible improvements in peace, security, development, health and human dignity.
+
+37. The difference our decisions make in the lives and livelihoods of people is the standard against which the credibility of the UN must be measured.
+
+38. Botswana is ready to work with all Member States. We may be small in size, but we are steady in principle.
+
+We offer partnership in governance that delivers experience in health innovation, responsible stewardship of natural and mineral resources, and an enduring preference for dialogue.
+
+39. Let us ensure that history remembers this 81st Session for the trust we rebuilt, the promises kept, and the future created.
+
+40. I thank you.
+
+END

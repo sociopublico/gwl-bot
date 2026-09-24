@@ -1,0 +1,132 @@
+---
+session: 81
+slug: rwanda
+country: Rwanda
+speaker: Justin Nsengiyumva
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-23
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/rw_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.861
+---
+
+Secretary-General of the United Nations; ● Excellencies,
+
+Heads of Delegation; ● Ladies and Gentlemen; Good evening.
+
+1.
+
+On behalf of the Government of Rwanda, allow me to begin by congratulating His Excellency Dr.
+
+Khalilur Rahman on his election as President of the 81st Session of the United Nations General Assembly.
+
+2.
+
+Rwanda also wishes to commend the Secretary-General,
+
+His Excellency António Guterres, for the steady commitment with which he has led this Organization through a period of extraordinary strain.
+
+We reiterate our full support as he carries through the remainder of his mandate.
+
+3.
+
+Last year, we gathered under the theme of "Better Together," marking eighty years since the Charter was signed.
+
+This year, under a new call to restore trust and deliver for all, we must be honest: we are still far behind.
+
+4.
+
+The United Nations has yet to demonstrate that it can adapt to a changing and uncertain world, and it is up to Member States to make this a reality.
+
+5.
+
+That gap is not abstract to Rwanda.
+
+Three decades ago, our country's future was also deeply uncertain.
+
+Our survival depended on our capacity to rebuild against all odds, and what made that possible was a simple principle that institutions earn legitimacy not by what they promise, but by what they deliver, year after year.
+
+6.
+
+We believe this principle holds for the multilateral system as a whole, and for the United Nations in particular.
+
+It is the standard against which reform must be judged.
+
+Optimism, however, must be matched by a willingness to change how we act.
+
+7.
+
+Too often, the United Nations has been more effective at responding to crises than anticipating them.
+
+This is true of pandemics, of climate shocks, of technological disruption, and it is nowhere more costly than in conflict.
+
+8.
+
+Eastern DRC is a clear example.
+
+For more than three decades, the FDLR has spread genocidal ideology, committed grave abuses in eastern DRC, and directly threatened Rwanda's security, including through cross-border attacks.
+
+9.
+
+It now operates alongside Burundian troops and DRC-sponsored militias and mercenaries, in violation of the 1989 UN Convention and the 1977 OAU Convention against mercenaries.
+
+10.
+
+This did not happen overnight.
+
+The roots of the conflict in Eastern DRC are political, and they lie in longstanding grievances, exclusion, and failures of governance.
+
+The solution, too, therefore, must be political.
+
+11.
+
+Rwanda fully supports the diplomatic efforts underway to reach such a solution.
+
+We commend the Washington Accords between Rwanda and the DRC, and the Doha process between the DRC and the AFC/M23, as steps in the right direction.
+
+12.
+
+We are grateful for the relentless efforts of President Donald Trump,
+
+His Highness the Amir of Qatar,
+
+Sheikh Tamim bin Hamad Al Thani, and the African Union Mediator,
+
+President Faure Gnassingbé of Togo, in advancing these processes.
+
+And we remain committed to a region where all countries can coexist peacefully, trade, and develop together.
+
+13.
+
+Rwanda calls on all actors, including the Security Council, to support these same peace efforts fairly and to encourage all parties to honor their commitments.
+
+There is no lasting peace without confronting the root causes of the conflict and addressing the legitimate concerns of all those affected.
+
+● Excellencies, 14.
+
+The value of prevention extends beyond conflict.
+
+It also means addressing the conditions that leave countries vulnerable to poverty, economic shocks, and exclusion from opportunity.
+
+15.
+
+An international system that gives all countries a fair opportunity to determine their own development pathways must be central to the UN80 reform process.
+
+16.
+
+The question before this Assembly is not whether multilateralism remains relevant.
+
+It is whether our institutions are prepared to adapt to the challenges of our century, and to deliver results that matter.
+
+17.
+
+We welcome this session's emphasis on restoring trust through prevention, inclusion and reform, and we stand ready to work with all Member States toward that end.
+
+18.
+
+Thank you.
