@@ -1,28 +1,38 @@
 {
   "session": 81,
   "day": "2026-09-24",
-  "scraped_at": "2026-09-24T12:48:38Z",
+  "scraped_at": "2026-09-24T16:56:39Z",
   "speakers": [
     {
       "slug": "zimbabwe",
       "ficha_url": "https://gadebate.un.org/en/81/zimbabwe",
       "country": "Zimbabwe",
       "name": "Emmerson Dambudzo Mnangagwa",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_ZW_EN.mp3",
+          "filename": "81_ZW_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
-        "audio_floor": null,
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_ZW_FL.mp3",
+          "filename": "81_ZW_FL.mp3",
+          "lang": ""
+        },
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_jlv9rkhd",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_jlv9rkhd/format/url/protocol/https",
+          "filename": "1_jlv9rkhd.mp4"
         }
       },
       "error": null,
@@ -33,21 +43,36 @@
       "ficha_url": "https://gadebate.un.org/en/81/madagascar",
       "country": "Madagascar",
       "name": "Michaël Randrianirina",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "President of the Refoundation of the Republic",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
-        "audio_floor": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_MG_EN.mp3",
+          "filename": "81_MG_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in French",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/mg_fr.pdf",
+          "filename": "mg_fr.pdf",
+          "lang": ""
+        },
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_MG_FL.mp3",
+          "filename": "81_MG_FL.mp3",
+          "lang": ""
+        },
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_kb833szu",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_kb833szu/format/url/protocol/https",
+          "filename": "1_kb833szu.mp4"
         }
       },
       "error": null,
@@ -58,21 +83,31 @@
       "ficha_url": "https://gadebate.un.org/en/81/ghana",
       "country": "Ghana",
       "name": "John Dramani Mahama",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/gh_en.pdf",
+          "filename": "gh_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_GH_EN.mp3",
+          "filename": "81_GH_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_edh7vak1",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_edh7vak1/format/url/protocol/https",
+          "filename": "1_edh7vak1.mp4"
         }
       },
       "error": null,
@@ -83,21 +118,31 @@
       "ficha_url": "https://gadebate.un.org/en/81/palestine-state",
       "country": "Palestine (State of)",
       "name": "Mahmoud Abbas",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_PS_EN.mp3",
+          "filename": "81_PS_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in Arabic",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/ps_ar.pdf",
+          "filename": "ps_ar.pdf",
+          "lang": ""
+        },
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_3qau3ai9",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_3qau3ai9/format/url/protocol/https",
+          "filename": "1_3qau3ai9.mp4"
         }
       },
       "error": null,
@@ -108,21 +153,31 @@
       "ficha_url": "https://gadebate.un.org/en/81/guyana",
       "country": "Guyana",
       "name": "Mohamed Irfaan Ali",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/gy_en_0.pdf",
+          "filename": "gy_en_0.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_GY_EN.mp3",
+          "filename": "81_GY_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_bqnh9on6",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_bqnh9on6/format/url/protocol/https",
+          "filename": "1_bqnh9on6.mp4"
         }
       },
       "error": null,
@@ -133,21 +188,36 @@
       "ficha_url": "https://gadebate.un.org/en/81/somalia",
       "country": "Somalia",
       "name": "Hassan Sheikh Mohamud",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/so_en.pdf",
+          "filename": "so_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_SO_EN.mp3",
+          "filename": "81_SO_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
-        "audio_floor": null,
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_SO_FL.mp3",
+          "filename": "81_SO_FL.mp3",
+          "lang": ""
+        },
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_nx5z99ho",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_nx5z99ho/format/url/protocol/https",
+          "filename": "1_nx5z99ho.mp4"
         }
       },
       "error": null,
@@ -158,21 +228,31 @@
       "ficha_url": "https://gadebate.un.org/en/81/comoros",
       "country": "Comoros",
       "name": "Azali Assoumani",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": "audio_en",
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_KM_EN.mp3",
+          "filename": "81_KM_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in French",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/km_fr.pdf",
+          "filename": "km_fr.pdf",
+          "lang": ""
+        },
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_974lmd5h",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_974lmd5h/format/url/protocol/https",
+          "filename": "1_974lmd5h.mp4"
         }
       },
       "error": null,
@@ -183,21 +263,31 @@
       "ficha_url": "https://gadebate.un.org/en/81/liberia",
       "country": "Liberia",
       "name": "Joseph Nyuma Boakai",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "President",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/lr_en.pdf",
+          "filename": "lr_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": null,
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_LR_EN.mp3",
+          "filename": "81_LR_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
         "video": {
-          "entry_id": "empty",
+          "entry_id": "1_xor0x8s6",
           "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_xor0x8s6/format/url/protocol/https",
+          "filename": "1_xor0x8s6.mp4"
         }
       },
       "error": null,
@@ -206,26 +296,21 @@
     {
       "slug": "marshall-islands",
       "ficha_url": "https://gadebate.un.org/en/81/marshall-islands",
-      "country": "Marshall Islands",
-      "name": "Hilda Heine",
+      "country": "General Debate",
+      "name": "Yamandú Orsi",
       "rank": "",
       "speaker_title": "",
-      "speech_date": "2026-09-24",
-      "chosen": "video",
+      "speech_date": "",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
-      "error": null,
+      "error": "ficha vacía HTTP 200 135642 bytes title='General Debate | General Debate' body='<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" prefix=\"og: https://ogp.me/ns#\"><head><meta charset=\"utf-8\" /><style>.js img.lazyload:not([src]) { visibility: hidden; }.js img.lazyloaded[data-sizes=auto] { d'",
       "http_status": 200
     },
     {
@@ -236,19 +321,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -261,19 +341,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -286,19 +361,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -311,19 +381,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -336,19 +401,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -357,23 +417,18 @@
       "slug": "gambia-republic",
       "ficha_url": "https://gadebate.un.org/en/81/gambia-republic",
       "country": "Gambia (Republic of The)",
-      "name": "Muhammed Jallow",
+      "name": "Mohammed Jallow",
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -386,19 +441,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -408,8 +458,8 @@
       "ficha_url": "https://gadebate.un.org/en/81/israel",
       "country": "Israel",
       "name": "Benjamin Netanyahu",
-      "rank": "Prime Minister",
-      "speaker_title": "His Excellency",
+      "rank": "",
+      "speaker_title": "",
       "speech_date": "2026-09-24",
       "chosen": null,
       "sources": {
@@ -431,19 +481,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -456,19 +501,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -481,19 +521,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -506,19 +541,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -531,19 +561,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -556,19 +581,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -581,19 +601,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -606,19 +621,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -631,19 +641,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -656,19 +661,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -681,19 +681,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -706,19 +701,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -731,19 +721,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -756,19 +741,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -781,19 +761,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -806,19 +781,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -831,19 +801,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
@@ -856,19 +821,14 @@
       "rank": "",
       "speaker_title": "",
       "speech_date": "2026-09-24",
-      "chosen": "video",
+      "chosen": null,
       "sources": {
         "pdf_en": null,
         "transcript_ai": null,
         "audio_en": null,
         "pdf_other": null,
         "audio_floor": null,
-        "video": {
-          "entry_id": "empty",
-          "partner_id": "2503451",
-          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/empty/format/url/protocol/https",
-          "filename": "empty.mp4"
-        }
+        "video": null
       },
       "error": null,
       "http_status": 200
