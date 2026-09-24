@@ -222,6 +222,24 @@ def _parser() -> argparse.ArgumentParser:
         help="Slugs a re-extraer aunque exista .txt inglés (coma-separados). Combina con --skip-existing.",
     )
 
+    replay_p = sub.add_parser(
+        "replay-alert",
+        help="Mail de alerta de un país desde pdf_en o transcript_ai, sin el monitor",
+        parents=[common],
+    )
+    replay_p.add_argument("--country", required=True, help="País o slug (uruguay)")
+    replay_p.add_argument(
+        "--source",
+        required=True,
+        help="pdf_en o transcript_ai",
+    )
+    replay_p.add_argument("--day", default="", help="YYYY-MM-DD")
+    replay_p.add_argument(
+        "--send",
+        action="store_true",
+        help="Mandar el mail. Sin esto solo lo imprime",
+    )
+
     alerts_p = sub.add_parser(
         "alerts",
         help="Simular cuántos mails de alerta saldrían por día sobre discursos extraídos",
@@ -586,6 +604,30 @@ def main(argv: list[str] | None = None) -> int:
             day=args.day,
             dest=dest,
             dry_run=args.dry_run,
+        )
+
+    if args.cmd == "replay-alert":
+        from pipeline.replay_alert import (
+            load_monitor_keywords,
+            monitor_context_seconds,
+            run_replay,
+        )
+
+        try:
+            keywords = load_monitor_keywords()
+        except ValueError as exc:
+            print(f"error: {exc}", file=sys.stderr)
+            return 1
+        before, after = monitor_context_seconds()
+        return run_replay(
+            config,
+            country=args.country,
+            source=args.source,
+            day=args.day or None,
+            keywords=keywords,
+            send=args.send,
+            before_seconds=before,
+            after_seconds=after,
         )
 
     if args.cmd == "alerts":
