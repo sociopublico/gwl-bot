@@ -1,42 +1,37 @@
-# Auto-exportado desde e-speakers --day 2026-09-23
-# https://e-speakers.e-delegate.un.org/6aa9a60e2a8f905c7035541515092026
+# Auto-exportado desde roster UNGA para el monitor de alertas
 # nombre | país | cargo
-Ahmad Al-Sharaa | Syrian Arab Republic | President of the Syrian Arab Republic
-Edgars Rinkēvičs | Latvia | President of the Republic of Latvia
-Nicuşor-Daniel Dan | Romania | President of Romania
-Evariste Ndayishimiye | Burundi | President of the Republic of Burundi
-Masoud Pezeshkian | Iran (Islamic Republic of) | President of the Islamic Republic of Iran
-Santiago Peña Palacios | Paraguay | President of the Republic of Paraguay
-Petr Pavel | Czechia | President of the Czech Republic
-Javier Gerardo Milei | Argentina | President of the Argentine Republic
-Alar Karis | Estonia | President of the Republic of Estonia
-José Ramos-Horta | Timor-Leste | President of the Democratic Republic of Timor-Leste
-Mohamed Younis Menfi | Libya | President of the Presidential Council of the State of Libya
-Surangel Whipps | Palau | President of the Republic of Palau
-Nikos Christodoulides | Cyprus | President of the Republic of Cyprus
-Luis Rodolfo Abinader Corona | Dominican Republic | President of the Dominican Republic
-Duma Gideon Boko | Botswana | President of the Republic of Botswana
-Daniel Roy-Gilchrist Noboa Azin | Ecuador | Constitutional President of the Republic of Ecuador
-Volodymyr Zelenskyy | Ukraine | President of Ukraine
-Iliana Iotova | Bulgaria | President of the Republic of Bulgaria
-Faustin Archange Touadera | Central African Republic | Head of State of the Central African Republic
-José Raúl Mulino Quintero | Panama | President of the Republic of Panama
-Taye Atskeselassie Amde | Ethiopia | President of the Federal Democratic Republic of Ethiopia
-Karol Nawrocki | Poland | President of the Republic of Poland
-Netumbo Nandi-Ndaitwah | Namibia | President of the Republic of Namibia
-Peter Pellegrini | Slovakia | President of the Slovak Republic
-William Samoei Ruto | Kenya | President of the Republic of Kenya and Commander-in-Chief of the Defence Forces
-Aleksandar Vučić | Serbia | President of the Republic of Serbia
-Daniel Francisco Chapo | Mozambique | President of the Republic of Mozambique
-Mamadi Doumbouya | Guinea | President of the Republic of Guinea
-King Mswati III | Eswatini | Head of State of the Kingdom of Eswatini
-Nasry Juan Asfura Zablah | Honduras | President of the Republic of Honduras
-Jakov Milatović | Montenegro | President of Montenegro
-Delcy Eloina Rodriguez Gomez | Venezuela (Bolivarian Republic of) | Acting President of the Bolivarian Republic of Venezuela
-Jessica Rose Epel Alupo | Uganda | Vice President of the Republic of Uganda
-Justin Nsengiyumva | Rwanda | Prime Minster of the Republic of Rwanda
-Pedro Sánchez Pérez-Castejón | Spain | President of the Government of Spain
-Xavier Espot Zamora | Andorra | Head of Government of the Principality of Andorra
-Judith Suminwa Tuluka | Democratic Republic of the Congo | Prime Minister, Head of Government of the Democratic Republic of the Congo
-Antonio Tajani | Italy | Deputy Prime Ministery
-Saida Mirziyoyeva | Uzbekistan | Head of the Presidential Administration
+Emmerson Dambudzo Mnangagwa | Zimbabwe
+Michaël Randrianirina | Madagascar
+John Dramani Mahama | Ghana
+Mahmoud Abbas | Palestine (State of)
+Mohamed Irfaan Ali | Guyana
+Hassan Sheikh Mohamud | Somalia
+Azali Assoumani | Comoros
+Joseph Nyuma Boakai | Liberia
+Hilda Heine | Marshall Islands
+Rodrigo Paz Pereira | Bolivia (Plurinational State of)
+András Bálint Baka | Hungary
+Yamandú Orsi | Uruguay
+António Costa | European Union
+Teodoro Nguema Obiang Mangue | Equatorial Guinea
+Muhammed Jallow | Gambia (Republic of The)
+José Manuel Restrepo | Colombia
+Benjamin Netanyahu | Israel | Prime Minister
+Luís Montenegro | Portugal
+Bassirou Diomaye Diakhar Faye | Senegal
+Ratu Naiqama Tawakecolati Lalabalavu | Fiji
+Tiémoko Meyliet Koné | Côte d’Ivoire
+Kashim Shettima | Nigeria
+Abdullah Abdulkader Al Alimi-Bawzer | Yemen
+Sheikh Sabah Al-Khaled Al-Hamad Al-Mubarak Al-Sabah | Kuwait
+Mia Amor Mottley | Barbados
+Nikol Pashinyan | Armenia
+Anutin Charnvirakul | Thailand
+Irakli Kobakhidzhe | Georgia
+Tarique Rahman | Bangladesh
+Rob Jetten | Netherlands (Kingdom of the)
+Janez Janša | Slovenia
+Kyriakos Mitsotakis | Greece
+Anthony Albanese | Australia
+Micheál Martin | Ireland
+Balendra Shah | Nepal
