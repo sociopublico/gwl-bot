@@ -89,12 +89,13 @@ class AlertsSiteTest(unittest.TestCase):
             docs = root / "docs"
             cfg = replace(config, root=root)
             payload = generate_alerts_site(cfg, docs_dir=docs, log_dir=logs)
-            self.assertTrue((docs / "alerts.html").is_file())
-            data = json.loads((docs / "data" / "alerts.json").read_text(encoding="utf-8"))
+            self.assertTrue((docs / "80" / "alerts.html").is_file())
+            data = json.loads((docs / "80" / "data" / "alerts.json").read_text(encoding="utf-8"))
             self.assertEqual(data["days"][0]["counts"]["hits"], 1)
             self.assertEqual(payload["days"][0]["speakers"][0]["name"], "Someone")
-            html = (docs / "alerts.html").read_text(encoding="utf-8")
+            html = (docs / "80" / "alerts.html").read_text(encoding="utf-8")
             self.assertIn("data/alerts.json", html)
+            self.assertIn("../81/index.html", html)
             self.assertNotIn("SPEAKER_CHANGED", html)
             self.assertNotIn("HEALTHCHECK", html)
 

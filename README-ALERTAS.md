@@ -270,12 +270,12 @@ No se refresca solo en el browser. En el VPS el bot escribe el jsonl; para verlo
 
 ```bash
 # En el server, con los logs montados
-pipeline/.venv/bin/python -m pipeline alerts-site --session 80 --logs logs --snapshot
-# → docs/alerts.html + docs/data/alerts.json
-# --snapshot copia a pipeline/data/alerts/80/<día>.json para versionar
+pipeline/.venv/bin/python -m pipeline alerts-site --session 81 --logs logs --snapshot
+# → docs/81/alerts.html + docs/81/data/alerts.json
+# --snapshot copia a pipeline/data/alerts/81/<día>.json para versionar
 ```
 
-Commit + push de `pipeline/data/alerts/` dispara GitHub Pages (el workflow corre `alerts-site`). Local: abrí `docs/alerts.html` (junto a `docs/index.html`).
+Commit + push de `pipeline/data/alerts/` dispara GitHub Pages (el workflow arma la 81 y la 80). Local: `docs/index.html` entra a la 81; la 80 está en `docs/80/`.
 
 Latencia típica con chunks de 20 s: **25–55 s** después de que se dijo la palabra (HLS de YouTube + chunk + inferencia).
 

@@ -15,11 +15,6 @@ on:
       - "pipeline/cli.py"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
-    inputs:
-      session:
-        description: "Sesión UNGA (80 o 81)"
-        required: false
-        default: "80"
 
 permissions:
   contents: read
@@ -45,9 +40,10 @@ jobs:
           GITHUB_REPO: ${{ github.repository }}
           GITHUB_BRANCH: ${{ github.ref_name }}
         run: |
-          SESSION="${{ github.event.inputs.session || '80' }}"
-          python -m pipeline progress-site --session "$SESSION"
-          python -m pipeline alerts-site --session "$SESSION"
+          python -m pipeline progress-site --session 81
+          python -m pipeline progress-site --session 80
+          python -m pipeline alerts-site --session 81
+          python -m pipeline alerts-site --session 80
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

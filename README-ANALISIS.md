@@ -179,12 +179,13 @@ Si el scrape de gadebate falla dentro de Docker (WAF/proxy), usá el flujo separ
 
 Sitio estático con accordion por día y timeline por orador (fetch orador → discurso → coding). **No se actualiza solo en el browser**: es HTML generado.
 
-- **GitHub Pages:** el workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml) corre `progress-site` (y `alerts-site`) en cada push a `main` que toque roster/coding/out/alerts. No hace falta correr el comando a mano para que se publique; sí hace falta **commit + push de los datos** (roster, CSV, snapshots). En el repo: **Settings → Pages → Source = GitHub Actions**.
+- **GitHub Pages:** el workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml) corre `progress-site` y `alerts-site` para la sesión 81 y la 80 en cada push a `main` que toque roster/coding/out/alerts. La raíz redirige a la 81. No hace falta correr el comando a mano para que se publique; sí hace falta **commit + push de los datos** (roster, CSV, snapshots). En el repo: **Settings → Pages → Source = GitHub Actions**.
 - **Local (preview):**
 
 ```bash
+pipeline/.venv/bin/python -m pipeline progress-site --session 81
 pipeline/.venv/bin/python -m pipeline progress-site --session 80
-# → docs/index.html + docs/data/progress.json
+# → docs/index.html (entra a la 81), docs/81/index.html, docs/80/index.html
 ```
 
 El hito “análisis/coding” se marca OK si hay filas en `Indicators.csv` del día **o** en el snapshot versionado `pipeline/data/coding/<session>/<day>.json` (lo escribe `coding` al terminar).

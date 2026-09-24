@@ -162,6 +162,7 @@ header h1 { margin: 0 0 0.35rem; font-size: 1.35rem; font-weight: 600; }
 header p { margin: 0; color: var(--muted); font-size: 0.9rem; }
 .nav { margin-top: 0.55rem !important; }
 .nav a { color: var(--accent); }
+.nav .here { color: var(--text); font-weight: 600; }
 main { max-width: 960px; margin: 0 auto; padding: 1rem 1.25rem 3rem; }
 .day {
   border: 1px solid var(--border);
@@ -281,7 +282,7 @@ a { color: var(--accent); }
 <header>
   <h1 id="title">Avance análisis UNGA</h1>
   <p id="subtitle">Cargando…</p>
-  <p class="nav"><a href="index.html">Análisis</a> · <a href="alerts.html">Keywords</a></p>
+  __NAV__
 </header>
 <main id="app"></main>
 <script>
@@ -740,21 +741,97 @@ def build_session_progress(
     }
 
 
+SITE_SESSIONS = (81, 80)
+
+
+def session_nav(session: int) -> str:
+    parts = [
+        '<a href="index.html">Análisis</a>',
+        '<a href="alerts.html">Keywords</a>',
+    ]
+    for other in SITE_SESSIONS:
+        label = f"Sesión {other}"
+        if other == session:
+            parts.append(f'<span class="here">{label}</span>')
+        else:
+            parts.append(f'<a href="../{other}/index.html">{label}</a>')
+    return '<p class="nav">' + " · ".join(parts) + "</p>"
+
+
+def render_site_html(template: str, session: int) -> str:
+    return template.replace("__NAV__", session_nav(session))
+
+
+_HOME_HTML = """<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta http-equiv="refresh" content="0; url=81/index.html"/>
+<title>Avance análisis UNGA</title>
+<style>
+body { margin: 0; font-family: "Segoe UI", system-ui, sans-serif; background: #0f1419; color: #e7ecf1; }
+main { max-width: 40rem; margin: 0 auto; padding: 2rem 1.25rem; }
+a { color: #5b9fd4; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Avance análisis UNGA</h1>
+  <p>La sesión en curso es la <a href="81/index.html">81</a>.</p>
+  <p>La anterior queda en <a href="80/index.html">sesión 80</a>.</p>
+</main>
+</body>
+</html>
+"""
+
+_ALERTS_HOME_HTML = """<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta http-equiv="refresh" content="0; url=81/alerts.html"/>
+<title>Keywords UNGA</title>
+<style>
+body { margin: 0; font-family: "Segoe UI", system-ui, sans-serif; background: #0f1419; color: #e7ecf1; }
+main { max-width: 40rem; margin: 0 auto; padding: 2rem 1.25rem; }
+a { color: #5b9fd4; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Keywords en vivo</h1>
+  <p>La sesión en curso es la <a href="81/alerts.html">81</a>.</p>
+  <p>La anterior queda en <a href="80/alerts.html">sesión 80</a>.</p>
+</main>
+</body>
+</html>
+"""
+
+
+def write_docs_home(docs_dir: Path) -> None:
+    docs_dir.mkdir(parents=True, exist_ok=True)
+    (docs_dir / "index.html").write_text(_HOME_HTML, encoding="utf-8")
+    (docs_dir / "alerts.html").write_text(_ALERTS_HOME_HTML, encoding="utf-8")
+    (docs_dir / ".nojekyll").write_text("", encoding="utf-8")
+
+
 def write_progress_site(
     progress: dict[str, Any],
     docs_dir: Path,
 ) -> tuple[Path, Path]:
-    docs_dir.mkdir(parents=True, exist_ok=True)
-    data_dir = docs_dir / "data"
+    session = int(progress["session"])
+    site_dir = docs_dir / str(session)
+    data_dir = site_dir / "data"
     data_dir.mkdir(parents=True, exist_ok=True)
     json_path = data_dir / "progress.json"
-    html_path = docs_dir / "index.html"
+    html_path = site_dir / "index.html"
     json_path.write_text(
         json.dumps(progress, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    html_path.write_text(_SITE_HTML, encoding="utf-8")
-    (docs_dir / ".nojekyll").write_text("", encoding="utf-8")
+    html_path.write_text(render_site_html(_SITE_HTML, session), encoding="utf-8")
+    write_docs_home(docs_dir)
     return html_path, json_path
 
 

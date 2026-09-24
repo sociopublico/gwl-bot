@@ -10,7 +10,7 @@ from typing import Any
 
 from app.keyword_journal import load_highlights, load_jsonl, merge_records
 from pipeline.config import SessionConfig
-from pipeline.progress import REPO_ROOT, list_roster_days
+from pipeline.progress import REPO_ROOT, list_roster_days, render_site_html, write_docs_home
 from pipeline.roster import load_roster
 
 _SITE_HTML = """<!DOCTYPE html>
@@ -47,6 +47,7 @@ header h1 { margin: 0 0 0.35rem; font-size: 1.35rem; font-weight: 600; }
 header p { margin: 0; color: var(--muted); font-size: 0.9rem; }
 .nav { margin-top: 0.55rem !important; }
 .nav a { color: var(--accent); }
+.nav .here { color: var(--text); font-weight: 600; }
 main { max-width: 960px; margin: 0 auto; padding: 1rem 1.25rem 3rem; }
 .day {
   border: 1px solid var(--border);
@@ -132,7 +133,7 @@ a { color: var(--accent); }
 <header>
   <h1 id="title">Keywords en vivo</h1>
   <p id="subtitle">Cargando…</p>
-  <p class="nav"><a href="index.html">Análisis</a> · <a href="alerts.html">Keywords</a></p>
+  __NAV__
 </header>
 <main id="app"></main>
 <script>
@@ -430,17 +431,18 @@ def build_alerts_payload(
 
 
 def write_alerts_site(payload: dict[str, Any], docs_dir: Path) -> tuple[Path, Path]:
-    docs_dir.mkdir(parents=True, exist_ok=True)
-    data_dir = docs_dir / "data"
+    session = int(payload["session"])
+    site_dir = docs_dir / str(session)
+    data_dir = site_dir / "data"
     data_dir.mkdir(parents=True, exist_ok=True)
     json_path = data_dir / "alerts.json"
-    html_path = docs_dir / "alerts.html"
+    html_path = site_dir / "alerts.html"
     json_path.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    html_path.write_text(_SITE_HTML, encoding="utf-8")
-    (docs_dir / ".nojekyll").write_text("", encoding="utf-8")
+    html_path.write_text(render_site_html(_SITE_HTML, session), encoding="utf-8")
+    write_docs_home(docs_dir)
     return html_path, json_path
 
 

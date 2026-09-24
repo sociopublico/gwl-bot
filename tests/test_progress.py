@@ -229,13 +229,16 @@ class ProgressAggregatorTest(unittest.TestCase):
                 cfg, docs_dir=docs, dest=root / "out", repo_root=root
             )
             self.assertEqual(len(progress["days"]), 1)
-            self.assertTrue((docs / "index.html").is_file())
-            payload = json.loads((docs / "data" / "progress.json").read_text())
+            self.assertTrue((docs / "80" / "index.html").is_file())
+            payload = json.loads((docs / "80" / "data" / "progress.json").read_text())
             self.assertEqual(payload["session"], 80)
             self.assertEqual(payload["days"][0]["speakers"][0]["slug"], "brazil")
-            html = (docs / "index.html").read_text(encoding="utf-8")
+            html = (docs / "80" / "index.html").read_text(encoding="utf-8")
             self.assertIn("progress.json", html)
             self.assertIn("Fetch orador", html)
+            self.assertIn("Sesión 81", html)
+            home = (docs / "index.html").read_text(encoding="utf-8")
+            self.assertIn("81/index.html", home)
 
     def test_write_progress_site_roundtrip(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
