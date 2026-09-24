@@ -55,6 +55,11 @@ class HighlightsFilterTest(unittest.TestCase):
         self.assertTrue(
             self.filter.filter(self._record(logging.INFO, "MONITOR_STALE | no transcript"))
         )
+        self.assertTrue(
+            self.filter.filter(
+                self._record(logging.INFO, "SPEECH_MAIL | speaker=Lula | quotes=2")
+            )
+        )
 
     def test_drops_routine_transcription(self) -> None:
         self.assertFalse(

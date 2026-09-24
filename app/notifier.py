@@ -41,6 +41,16 @@ class NullNotifier:
     def notify(self, events: Sequence[DetectionEvent]) -> None:
         return None
 
+    def send_speech(
+        self,
+        events: Sequence[DetectionEvent],
+        *,
+        name: str,
+        country: str | None,
+        title: str | None,
+    ) -> bool:
+        return False
+
     def notify_status(self, subject: str, body: str) -> bool:
         return False
 
@@ -238,6 +248,75 @@ def build_email(events: Sequence[DetectionEvent]) -> tuple[str, str, str]:
     return subject, text, html
 
 
+def _quote_order(event: DetectionEvent) -> tuple[datetime, float, str]:
+    seconds = event.video_seconds if event.video_seconds is not None else 0.0
+    return (event.timestamp, seconds, event.keyword.casefold())
+
+
+def build_speech_email(
+    events: Sequence[DetectionEvent],
+    *,
+    name: str,
+    country: str | None,
+    title: str | None,
+) -> tuple[str, str, str]:
+    """Un mail por discurso: asunto keywords | persona | país, citas en orden temporal."""
+    if not events:
+        raise ValueError("no hay eventos para armar el email")
+
+    ordered = sorted(events, key=_quote_order)
+    keywords = list(dict.fromkeys(event.keyword for event in ordered))
+    person = (name or "").strip() or "unknown"
+    country_name = (country or "").strip()
+    title_name = (title or "").strip()
+    subject_parts = [", ".join(keywords), person]
+    if country_name:
+        subject_parts.append(country_name)
+    subject = " | ".join(subject_parts)
+
+    lines: list[str] = [f"Speaker: {person}"]
+    html_parts = [
+        f"<p><b>Speaker:</b> {html_escape(person)}</p>",
+    ]
+    if country_name:
+        lines.append(f"Country: {country_name}")
+        html_parts.append(f"<p><b>Country:</b> {html_escape(country_name)}</p>")
+    if title_name:
+        lines.append(f"Title: {title_name}")
+        html_parts.append(f"<p><b>Title:</b> {html_escape(title_name)}</p>")
+    watch = next((event.watch_url for event in ordered if event.watch_url), None)
+    if watch:
+        lines.append(f"YouTube: {watch}")
+        href = html_escape(watch)
+        html_parts.append(f'<p><b>YouTube:</b> <a href="{href}">{href}</a></p>')
+    lines.append("")
+
+    for event in ordered:
+        when_utc, when_ny, when_madrid = _when_lines(event.timestamp)
+        stamp = f"{when_utc} | New York: {when_ny} | Madrid: {when_madrid} | {event.keyword}"
+        quote = mark_keywords_plain(event.context, [event.keyword])
+        lines.append(stamp)
+        lines.append(quote)
+        lines.append("")
+        html_parts.append(
+            f"<p><b>{html_escape(when_utc)}</b>"
+            f" | New York: {html_escape(when_ny)}"
+            f" | Madrid: {html_escape(when_madrid)}"
+            f" | <b>{html_escape(event.keyword)}</b></p>"
+            '<blockquote style="margin:0 0 1em;border-left:3px solid #222;padding:0.2em 0.8em">'
+            + mark_keywords_html(event.context, [event.keyword])
+            + "</blockquote>"
+        )
+
+    text = "\n".join(lines).rstrip() + "\n"
+    html = (
+        '<div style="font-family:sans-serif;max-width:40em;line-height:1.45">'
+        + "".join(html_parts)
+        + "</div>"
+    )
+    return subject, text, html
+
+
 class EmailNotifier:
     def __init__(self, config: Config, clock=time.monotonic) -> None:
         self.config = config
@@ -281,6 +360,36 @@ class EmailNotifier:
             subject,
             creds.slot,
         )
+
+    def send_speech(
+        self,
+        events: Sequence[DetectionEvent],
+        *,
+        name: str,
+        country: str | None,
+        title: str | None,
+    ) -> bool:
+        """Un mail con todas las citas del discurso. No aplica el cooldown por keyword."""
+        if not events:
+            return False
+        subject, body, html = build_speech_email(
+            events, name=name, country=country, title=title
+        )
+        creds = active_smtp_credentials(self.config)
+        try:
+            self._send(subject, body, creds, html=html)
+        except Exception as exc:
+            logger.error("Email alert failed: %s", exc)
+            return False
+        self._emails_sent += 1
+        logger.info(
+            "Email alert sent | to=%s | subject=%s | quotes=%s | smtp_slot=%s",
+            ", ".join(self.config.alert_email_to),
+            subject,
+            len(events),
+            creds.slot,
+        )
+        return True
 
     def notify_status(self, subject: str, body: str) -> bool:
         now = self._clock()

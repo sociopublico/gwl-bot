@@ -27,6 +27,7 @@ class ConfigDefaultsTest(unittest.TestCase):
         self.assertEqual(config.webtv_url, "")
         self.assertEqual(config.alert_text_before_seconds, 75)
         self.assertEqual(config.alert_text_after_seconds, 30)
+        self.assertFalse(config.alert_batch_per_speaker)
 
     def test_webtv_url_from_env(self) -> None:
         env = {
@@ -57,6 +58,15 @@ class ConfigDefaultsTest(unittest.TestCase):
         with patch.dict(os.environ, env, clear=True):
             with self.assertRaises(ValueError):
                 Config.from_env()
+
+    def test_alert_batch_per_speaker_from_env(self) -> None:
+        env = {
+            "STREAM_URL": "https://www.youtube.com/watch?v=KnIFmbdRCi0",
+            "ALERT_BATCH_PER_SPEAKER": "true",
+        }
+        with patch.dict(os.environ, env, clear=True):
+            config = Config.from_env()
+        self.assertTrue(config.alert_batch_per_speaker)
 
     def test_alert_text_window_cannot_be_negative(self) -> None:
         env = {

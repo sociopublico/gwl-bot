@@ -17,6 +17,7 @@ from app.keyword_journal import KeywordJournal
 from app.logger import setup_logging
 from app.notifier import build_notifier
 from app.speaker import Speaker, SpeakerTracker
+from app.speech_batch import SpeakerBatch
 from app.transcriber import Transcriber
 from app.watchdog import check_stale, write_heartbeat
 
@@ -31,6 +32,18 @@ def _install_signal_handlers(stop_event: threading.Event) -> None:
 
     signal.signal(signal.SIGTERM, _handle)
     signal.signal(signal.SIGINT, _handle)
+
+
+def _release_stream(notifier: AlertContext | SpeakerBatch, config: Config) -> None:
+    """Un corte de stream manda el contexto pendiente en modo inmediato.
+
+    En batch las citas siguen en el archivo hasta que cambia el orador
+    o alguien manda el mail a mano.
+    """
+    if config.alert_batch_per_speaker:
+        return
+    notifier.flush()
+    notifier.reset()
 
 
 def _clip(text: str, limit: int = 120) -> str:
@@ -70,11 +83,17 @@ def run(config: Config) -> None:
 
     transcriber = Transcriber(config)
     transcriber.load()
-    notifier = AlertContext(
-        build_notifier(config),
-        before_seconds=config.alert_text_before_seconds,
-        after_seconds=config.alert_text_after_seconds,
-    )
+    mailer = build_notifier(config)
+    if config.alert_batch_per_speaker:
+        notifier = SpeakerBatch(mailer, log_dir=config.log_dir)
+        logger.info("Alert delivery | batch_per_speaker=true")
+    else:
+        notifier = AlertContext(
+            mailer,
+            before_seconds=config.alert_text_before_seconds,
+            after_seconds=config.alert_text_after_seconds,
+        )
+        logger.info("Alert delivery | immediate")
     tracker = SpeakerTracker(config) if config.speaker_tracking else None
     deduper = DetectionDeduper(ttl_seconds=max(config.chunk_overlap_seconds * 2, 8.0))
     journal = (
@@ -105,6 +124,7 @@ def run(config: Config) -> None:
             with AudioStream(config, stop_event) as stream:
                 logger.info("Stream connected")
                 if tracker is not None and not stream.is_live:
+                    notifier.flush()
                     tracker.reset()
                 clock = StreamClock(stream.origin_seconds, config.sample_rate)
                 for window, fresh in stream.chunks():
@@ -128,6 +148,8 @@ def run(config: Config) -> None:
                         if tracker is not None
                         else Speaker()
                     )
+                    if isinstance(notifier, SpeakerBatch):
+                        notifier.note_speaker(speaker)
                     events = detect_keywords(
                         text,
                         config.keywords,
@@ -167,12 +189,10 @@ def run(config: Config) -> None:
             if config.exit_on_eof:
                 break
         except StreamError as exc:
-            notifier.flush()
-            notifier.reset()
+            _release_stream(notifier, config)
             logger.error("Stream error: %s", exc)
         except Exception as exc:
-            notifier.flush()
-            notifier.reset()
+            _release_stream(notifier, config)
             logger.exception("Unexpected error: %s", exc)
 
         if stop_event.is_set():

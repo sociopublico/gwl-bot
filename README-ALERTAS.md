@@ -65,8 +65,9 @@ SMTP (opcional; sin esto solo hay log):
 | `SMTP_FROM` | Remitente (obligatorio para activar email) |
 | `ALERT_EMAIL_TO` | Destinatarios separados por coma |
 | `ALERT_COOLDOWN_SECONDS` | Mínimo entre emails de la **misma** keyword (default `120`) |
-| `ALERT_TEXT_BEFORE_SECONDS` | Segundos de transcripción anteriores a la keyword en el mail (default `75`) |
-| `ALERT_TEXT_AFTER_SECONDS` | Segundos posteriores que el mail espera antes de enviarse (default `30`) |
+| `ALERT_TEXT_BEFORE_SECONDS` | Segundos de transcripción anteriores a la keyword en el mail inmediato (default `75`) |
+| `ALERT_TEXT_AFTER_SECONDS` | Segundos posteriores que el mail inmediato espera antes de enviarse (default `30`) |
+| `ALERT_BATCH_PER_SPEAKER` | `false` (default): mail en el momento. `true`: un mail por orador cuando cambia el siguiente |
 
 ## Correr local
 
@@ -85,6 +86,7 @@ Cada línea se escribe y flushea al toque (no hace falta esperar al fin del proc
 | `logs/full.log` | Igual que la consola |
 | `logs/highlights.log` | Solo `SPEAKER_CHANGED`, `KEYWORD_DETECTED`, email sent/failed/cooldown, `MONITOR_STALE`, errores, inicio/fin de sesión |
 | `logs/keywords.jsonl` | Una línea JSON por `KEYWORD_DETECTED` (para el dashboard) |
+| `logs/speeches.json` | Citas todavía no mandadas, si `ALERT_BATCH_PER_SPEAKER=true` |
 
 Rotación diaria (14 días). Compose monta `./logs` → `/app/logs`.
 
@@ -183,6 +185,24 @@ docker compose up -d
 ```
 
 Al arrancar deberías ver `Email alerts enabled | ...`.
+
+### Un mail por discurso
+
+Por defecto cada keyword sale en el momento (`Alert delivery | immediate`), con el pasaje de antes y después.
+
+`ALERT_BATCH_PER_SPEAKER=true` espera al discurso entero y manda **un solo mail por orador** cuando el chair presenta al siguiente. Cada cita se guarda en `logs/speeches.json`. Cortar el proceso, o que se caiga el stream, no manda el mail: las citas quedan en ese archivo.
+
+Para mandarlo a mano, por nombre o por el slug del país:
+
+```bash
+docker compose exec monitor python -m app.speech_mail --list
+docker compose exec monitor python -m app.speech_mail --country libya
+docker compose exec monitor python -m app.speech_mail --name "Mohamed Younis Menfi"
+```
+
+El slug sale de bajar a minúsculas y sacar el paréntesis: `Libya` → `libya`, `Iran (Islamic Republic of)` → `iran`, `Syrian Arab Republic` → `syrian-arab-republic`. `--list` lo muestra. Un nombre parcial alcanza si hay una sola persona (`Menfi`).
+
+Asunto: `gender, women | Mohamed Younis Menfi | Libya`. Adentro, cada cita con su keyword y su hora (UTC, Nueva York, Madrid), en orden de tiempo. No agrupa por keyword. El cooldown por keyword no aplica a este mail.
 
 Con Gmail: activar 2FA y usar un [App Password](https://myaccount.google.com/apppasswords).
 

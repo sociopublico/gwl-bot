@@ -97,6 +97,7 @@ class Config:
     webtv_url: str = ""
     alert_text_before_seconds: float = 75.0
     alert_text_after_seconds: float = 30.0
+    alert_batch_per_speaker: bool = False
 
     @property
     def email_enabled(self) -> bool:
@@ -241,6 +242,7 @@ class Config:
             alert_cooldown_seconds=cooldown,
             alert_text_before_seconds=text_before,
             alert_text_after_seconds=text_after,
+            alert_batch_per_speaker=_env_bool("ALERT_BATCH_PER_SPEAKER", False),
             smtp_timeout=smtp_timeout,
             watchdog_seconds=watchdog_seconds,
             watchdog_email_cooldown=watchdog_email_cooldown,
