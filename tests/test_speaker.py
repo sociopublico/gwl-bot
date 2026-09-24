@@ -333,6 +333,81 @@ class SpeakerTrackerTest(unittest.TestCase):
         )
         self.assertEqual(still.name, "João Manuel Gonçalves Lourenço")
 
+    def test_whisper_by_title_keeps_country_and_maps_senegal(self) -> None:
+        text = (
+            "The assembly will now hear an address from his Excellency, "
+            "Mr. Basirou Diyama, Jaka, by President of the Republic of Senegal."
+        )
+        speaker = extract_introduction_regex(text)
+        assert speaker is not None
+        self.assertIn("Basirou", speaker.name)
+        self.assertNotIn("President", speaker.name)
+        self.assertIn("Senegal", speaker.country or "")
+
+        tracker = SpeakerTracker(
+            _config(
+                speaker_roster=(
+                    "Luís Montenegro | Portugal | Prime Minister;"
+                    "Bassirou Diomaye Diakhar Faye | Senegal | President;"
+                    "Benjamin Netanyahu | Israel | Prime Minister"
+                )
+            )
+        )
+        intro = tracker.observe(text)
+        self.assertEqual(intro.name, "unknown")
+        speech = tracker.observe("President, on behalf of Senegal, I thank the Assembly.")
+        self.assertEqual(speech.name, "Bassirou Diomaye Diakhar Faye")
+
+    def test_next_sentence_country_confirms_garbled_name(self) -> None:
+        tracker = SpeakerTracker(
+            _config(
+                speaker_roster=(
+                    "Luís Montenegro | Portugal | Prime Minister;"
+                    "Bassirou Diomaye Diakhar Faye | Senegal | President;"
+                    "Benjamin Netanyahu | Israel | Prime Minister"
+                )
+            )
+        )
+        tracker.observe(
+            "The assembly will now hear an address from his Excellency "
+            "Mr. Basirou Diyama Jaka."
+        )
+        speech = tracker.observe("President, on behalf of Senegal, I thank the Assembly.")
+        self.assertEqual(speech.name, "Bassirou Diomaye Diakhar Faye")
+        later = tracker.observe("We also thank the people of Portugal for their support.")
+        self.assertEqual(later.name, "Bassirou Diomaye Diakhar Faye")
+
+    def test_next_sentence_country_does_not_confirm_unrelated_name(self) -> None:
+        tracker = SpeakerTracker(
+            _config(
+                speaker_roster=(
+                    "Bassirou Diomaye Diakhar Faye | Senegal | President;"
+                    "Benjamin Netanyahu | Israel | Prime Minister"
+                )
+            )
+        )
+        tracker.observe(
+            "I now give the floor to His Excellency John Smith, and invite him to address the assembly."
+        )
+        speech = tracker.observe("We condemn the war in Israel and stand with Senegal.")
+        self.assertEqual(speech.name, "unknown")
+
+    def test_glued_prime_minister_of_israel_maps_netanyahu(self) -> None:
+        tracker = SpeakerTracker(
+            _config(
+                speaker_roster=(
+                    "Benjamin Netanyahu | Israel | Prime Minister;"
+                    "Luís Montenegro | Portugal | Prime Minister"
+                )
+            )
+        )
+        tracker.observe(
+            "The assembly will now hear an address from his Excellency "
+            "Mr. Benyamin Netanyahu, by Prime Minister of the State of Israel."
+        )
+        speech = tracker.observe("Mr. President, Israel will defend itself.")
+        self.assertEqual(speech.name, "Benjamin Netanyahu")
+
 
 class SpeakerPersistenceTest(unittest.TestCase):
     def test_restart_restores_speaker_from_the_same_day(self) -> None:

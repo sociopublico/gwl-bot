@@ -5,7 +5,7 @@ import logging
 import re
 import urllib.error
 import urllib.request
-from collections.abc import Callable
+from collections.abc import Callable, Sequence
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -14,7 +14,17 @@ from zoneinfo import ZoneInfo
 
 from app.config import Config
 from app.logger import SPEAKER_CHANGED
-from app.roster import country_from_title, load_roster_file, match_roster, parse_roster
+from app.roster import (
+    RosterEntry,
+    country_from_title,
+    country_keys,
+    country_score,
+    fold_name,
+    load_roster_file,
+    match_roster,
+    parse_roster,
+    roster_score,
+)
 from app.youtube import format_timecode
 
 logger = logging.getLogger(__name__)
@@ -74,6 +84,14 @@ _ROLE_OF_RE = re.compile(
     r"(?=\s+and\s+(?:i\s+)?(?:invite|ask|call)\b|\s+and\s+invite\b|[.,;:]|$)",
     re.IGNORECASE,
 )
+# País en la oración que sigue a una intro, cuando el nombre salió mal.
+_FOLLOWUP_COUNTRY_RE = re.compile(
+    r"\b(?:on behalf of|republic of|people of)\s+(?:the\s+)?(.+?)(?=[,.;:]|$)",
+    re.IGNORECASE,
+)
+_TITLE_JUNK = {"by", "the", "a", "an"}
+# El nombre puede no llegar al umbral si el país de la oración siguiente es único.
+_COUNTRY_CONFIRM_SCORE = 0.4
 
 _STOPWORDS = {
     "the",
@@ -219,6 +237,14 @@ def _starts_with_title(part: str) -> bool:
     return bool(token and _TITLE_WORD_RE.match(token))
 
 
+def _title_word_index(part: str) -> int | None:
+    for index, word in enumerate(part.split()):
+        token = _word_token(word)
+        if token and _TITLE_WORD_RE.match(token):
+            return index
+    return None
+
+
 def _split_by_title_words(rest: str) -> tuple[str, str | None]:
     words = rest.split()
     name_words: list[str] = []
@@ -228,6 +254,8 @@ def _split_by_title_words(rest: str) -> tuple[str, str | None]:
         token = _word_token(word)
         if not in_title and token and _TITLE_WORD_RE.match(token):
             in_title = True
+            if name_words and _word_token(name_words[-1]).casefold() in _TITLE_JUNK:
+                name_words.pop()
         if in_title:
             title_words.append(word)
         else:
@@ -256,8 +284,19 @@ def _split_name_and_title(rest: str) -> tuple[str, str | None]:
         title_parts: list[str] = []
         in_title = False
         for part in parts:
-            if not in_title and _starts_with_title(part):
+            title_at = None if in_title else _title_word_index(part)
+            if title_at is not None:
                 in_title = True
+                words = part.split()
+                prefix = [
+                    word
+                    for word in words[:title_at]
+                    if _word_token(word).casefold() not in _TITLE_JUNK
+                ]
+                if prefix:
+                    name_parts.append(" ".join(prefix))
+                title_parts.append(" ".join(words[title_at:]))
+                continue
             if in_title:
                 title_parts.append(part)
             else:
@@ -280,6 +319,12 @@ def extract_introduction_regex(text: str) -> Speaker | None:
         tokens = _name_tokens(name)
         confidence = "strong" if len(tokens) >= 2 else "weak"
         country = country_from_title(title or "") or None
+        if not country:
+            role = _ROLE_OF_RE.search(text[match.end() :])
+            if role:
+                country = " ".join(role.group(1).split()).strip(" ,;:") or None
+                if not title:
+                    title = " ".join(role.group(0).split()).strip(" ,;:") or None
         speaker = Speaker(
             name=name,
             title=title,
@@ -449,6 +494,49 @@ def _fresh_speaker(raw: object, now: datetime) -> tuple[Speaker, datetime] | Non
     )
 
 
+def _country_mentions(text: str, roster: Sequence[RosterEntry]) -> list[RosterEntry]:
+    """Países de la agenda que aparecen en el texto, por frase o por palabra."""
+    folded = fold_name(text)
+    padded = f" {folded} "
+    phrases = [match.group(1) for match in _FOLLOWUP_COUNTRY_RE.finditer(text)]
+    phrases.extend(match.group(1) for match in _ROLE_OF_RE.finditer(text))
+    hits: list[RosterEntry] = []
+    seen: set[str] = set()
+    for entry in roster:
+        if not entry.country or entry.name in seen:
+            continue
+        keys = [key for key in country_keys(entry.country) if len(key) >= 5]
+        phrase_hit = any(country_score(phrase, entry.country) >= 0.86 for phrase in phrases)
+        word_hit = any(f" {key} " in padded for key in keys)
+        if phrase_hit or word_hit:
+            hits.append(entry)
+            seen.add(entry.name)
+    return hits
+
+
+def confirm_roster_by_country(
+    text: str,
+    waiting: Speaker,
+    roster: Sequence[RosterEntry],
+) -> Speaker | None:
+    """Si la oración nombra un solo país y el nombre se parece, usa esa ficha."""
+    if not roster or not waiting.name or waiting.name.casefold() == "unknown":
+        return None
+    mentions = _country_mentions(text, roster)
+    if len(mentions) != 1:
+        return None
+    entry = mentions[0]
+    if roster_score(waiting.name, entry.name) < _COUNTRY_CONFIRM_SCORE:
+        return None
+    return Speaker(
+        name=entry.name,
+        title=waiting.title or entry.title or None,
+        country=entry.country or waiting.country,
+        confidence=waiting.confidence,
+        source="roster-country",
+    )
+
+
 class SpeakerTracker:
     def __init__(
         self,
@@ -467,6 +555,7 @@ class SpeakerTracker:
         self._current_started_at: datetime | None = None
         self._pending: Speaker | None = None
         self._pending_started_at: datetime | None = None
+        self._awaiting: Speaker | None = None
         self._previous_text = ""
         if self.roster:
             logger.info("Speaker roster loaded | n=%s", len(self.roster))
@@ -481,6 +570,7 @@ class SpeakerTracker:
         self._current_started_at = None
         self._pending = None
         self._pending_started_at = None
+        self._awaiting = None
         self._previous_text = ""
         self._persist()
 
@@ -494,7 +584,32 @@ class SpeakerTracker:
             changed = True
 
         attributed = self._current
+        prior = self._awaiting
+        compact = " ".join(text.split())
+        cue_now = has_introduction_cue(compact)
+        # La intro falló en el chunk anterior. Si esta oración nombra un solo
+        # país de la agenda y el nombre se parece, ese es el orador.
+        if prior is not None and not cue_now:
+            self._awaiting = None
+            confirmed = confirm_roster_by_country(compact, prior, self.roster)
+            if confirmed is not None:
+                logger.info(
+                    "Speaker confirmed by country | asr=%s | canonical=%s | country=%s",
+                    prior.name,
+                    confirmed.name,
+                    confirmed.country or "",
+                )
+                self._current = confirmed
+                self._current_started_at = self._now()
+                changed = True
+                attributed = confirmed
+                self._previous_text = text
+                if changed:
+                    self._persist()
+                return attributed
+
         extracted = self._extract(text)
+        raw = extracted
         if extracted is not None:
             name = apply_alias(extracted.name, self.aliases) if extracted.name else ""
             matched = match_roster(
@@ -521,6 +636,7 @@ class SpeakerTracker:
                     confidence=extracted.confidence,
                     source=extracted.source,
                 )
+                self._awaiting = None
             elif name and not self.roster:
                 extracted = Speaker(
                     name=name,
@@ -537,6 +653,14 @@ class SpeakerTracker:
                         extracted.title or "",
                         extracted.country or "",
                     )
+                if (
+                    cue_now
+                    and self.roster
+                    and raw is not None
+                    and raw.name
+                    and raw.name.casefold() != "unknown"
+                ):
+                    self._awaiting = raw
                 extracted = None
         if extracted is not None:
             if extracted.name.casefold() != self._current.name.casefold():
