@@ -1,0 +1,109 @@
+---
+session: 81
+slug: namibia
+id_speech: M_56
+country: Namibia
+speaker: Netumbo Nandi-Ndaitwah
+title: President
+speaker_title: Her Excellency
+date: 2026-09-23
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/na_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.018
+---
+
+Your Excellency, Khalilur Rahman, President of the General Assembly,
+
+Your Excellencies, Heads of State and Government,
+
+Your Excellency António Guterres, Secretary-General of the United Nations,
+
+Ladies and Gentlemen,
+
+I congratulate you Mr. President, on your election as the President of the 81st Session of the General Assembly. I also thank the President of the 80 th Session of the General Assembly for her commendable leadership.
+
+Mr. President,
+
+1. Confidence in the international system is increasingly declining. International organisations are grappling with reduced capacity. Political and economic impunity is being entrenched. The UN Charter underscores resolving international disputes through peaceful means and the obligation of States to pursue diplomatic solutions, before resorting to e scalation or the use of force. Notwithstanding, we continue to be inundated with images of suffering of innocent civilians, such as in Sudan and Eastern DRC, large-scale internal displacement, cross-border migration, and humanitarian crises across the worl d. These conflicts continue to undermine international mechanisms and structures established to maintain international peace and security. Hence, we commend you, Mr. President for the timely and befitting theme for the 81st Session of the UN General Assembly: “Restoring Trust,
+
+Managing Transformation: A United Nations That Delivers for All.”
+
+2. Namibia’s independence was born out of international solidarity, and is renowned as a UN success story. This is a testimony to the effectiveness of the UN.
+
+Therefore, we shall not be passive observers to efforts aimed at dismantling or weakening the international system, that has served us over 80 years, albeit with some shortcomings. In this regard, we shall continue to call for peace over conflict, dialogue over confrontation, and peaceful coexistence over tensions.
+
+3. In restoring trust, we need to manage transformation of the United Nations Security Council, based on equitable representation, in its decision making processes, to reflect contemporary geopolitical realities. The Common African Position, as articulated in the Ezulwini Consensus and the Sirte Declaration, has also been re -affirmed in the Pact for the Future, which recognizes Africa as a Special Case. The time has come for us to recognize that we have been negotiating for too long. And that it is such stalemates that erode trust in the United Nations.
+
+4. This fairness and justice should extend to the participation of women in decision making, including in the prevention and resolution of conflicts, post -conflict reconstruction and peace building, in line with UN Security Council Resolution 1325 on Women, P eace and Security. The Women, Peace and Security Agenda has contributed positively to rehabilitation, reconciliation and reintegration efforts in conflict-affected regions, serving as a core framework for stabilising post-conflict situations. This is a positive undertaking, which should be emulated by other international and regional organisations and non-governmental organisations that are involved in peace support operations and peacebuilding efforts.
+
+5. Mr. President,
+
+6. Any system needs constant transformation to be effective. As we forge ahead with the SDGs, reform of the international financial architecture is critical to a more equitable and inclusive global economic order. Such reforms should create greater policy spa ce and access to financing, to enable countries to expand their economies through value addition to their natural resources, including critical minerals, for our people to have full benefit of our resource. This will accelerate sustainable development, address inequality, create jobs for our youth and lift our populations out of poverty.
+
+7. In this context, we welcome the creation of the African Credit Rating Agency to be launched in Mauritius in October this year. This development is a building block of Africa taking ownership of her development and prosperity agenda. It demonstrates progress in Africa’s ambition to drive impetus for the reform of the international financial architecture, in order to ensure a level playing field.
+
+8. Middle-Income countries continue to face high borrowing costs, limited fiscal space, debt vulnerabilities, climate -related shocks and persistent inequalities.
+
+Namibia reaffirms the Sevilla Commitments as an important step, towards reforming the internation al financial architecture and strengthening the global partnership for sustainable development. The system must thus become more inclusive, equitable and responsive to the realities of the Middle-Income Countries.
+
+Mr. President,
+
+9. The world is experiencing increasing devastating floods, relentless heatwaves, frequent hurricanes and prolonged periods of drought. At times, it feels that we are at war with Mother Nature. At this point Namibia reiterates its solidarity with the government and people of Nepal following the recent floods in that country.
+
+10. Namibia continues to face significant climatic challenges as a result of climate change, including recurring droughts, rising temperatures, and growing pressures on agriculture and water resources. Yet, Namibia contributes less than 0.01 per cent of global greenhouse gas emissions and it bears a disproportionate share of the impacts of climate change, like other developing countries. In the spirit of climate justice: we call for a greater responsibility by those that have contributed most to global greenhouse gas emissions, including through increased support for countries that are most vulnerable to climate impacts. It is through sustainable climate financing, that we will be able to achieve Sustainable Development Goal 13, to combat climate change.
+
+11. Against this backdrop, it is very important to focus on water in 2026, particularly as climate change intensifies droughts, floods, desertification and land degradation across Africa. As an arid country, Namibia continues to promote the prudent use and conservation of water, integrated water resources management, groundwater recharge and greater investment in sustainable water infrastructure. We also underscore the importance of implementing the Namib Declaration, adopted at COP 11 in Windhoek, as part of o ur collective response to desertification, land degradation and drought. In this regard, we are pleased to inform that Namibia will host the Global Water Partnership Headquarters, first time to be located in the Global South.
+
+12. In our capacity as co-chair with Senegal of the AU International High -Level Panel on the African Water Investment Program, Monday we convened a High-Level Side Event on water investment for Africa and global cooperation. We believe its outcome is a meaning ful contribution to the 2026 UN Water Conference later in the year, and advances stronger global partnerships, investment and action for sustainable water security.
+
+Mr. President,
+
+13. The Pact for the Future, which was co -facilitated by Namibia and Germany, provides an ambitious framework for transforming global governance and addressing contemporary and emerging challenges. While the Pact gives due consideration for the interests and needs of future generations, its implementation has not been as effective as we had wished.
+
+14. For Namibia, effective implementation of the key commitments of the Pact for the Future would be beneficial in accomplishing Namibian’s national priorities, namely:
+
+Agriculture, Sports, Youth Empowerment, Quality Education and Training, Creative Industries, Health and Social Welfare, Land, Housing and Sanitation. I wish to urge all member states to consider the implementation of the Pact for the Future as a crucial international priority for development.
+
+15. As part of our development agenda, we are preparing our young people for the emerging industries such as oil and gas, renewable energy, and Green hydrogen among others. Subsequently, this year we have introduced 100 percent subsidized registration and tu ition fees for Namibian students entering universities and Vocational Training Centers and encourage them to take appropriate courses. The government has established the National Youth Development Fund last year. As a result of this Fund, young people have set up their own medical practices, Law Firms, milling plants, poultry businesses to mention a few. Thus contributing to job creation and poverty reduction.
+
+16. Namibia also takes cognizance of the rapid advancement artificial intelligence (AI) in advancing human progress, in line with the Global Digital Compact. However, we call for the ethical, responsible, inclusive, and human -centered development, and use of a rtificial intelligence, with appropriate safeguards, to ensure that technological advancement complements and enhances human capabilities, rather than undermining them.
+
+Mr. President,
+
+17. A United Nations That “Delivers for All”, must be inclusive. I reaffirm Namibia’s unwavering solidarity with the peoples denied their right to self -determination.
+
+This position is firmly rooted in Namibia’s historical experience of the brutality of colonialism, apartheid and occupation. This is not a position borne out of antagonism, but rather one grounded in Namibia’s longstanding commitment to justice, solidarity, and the rights of peoples to determine their own destiny, in accordance with the UN General Assembly Resolution 1514 of 1960.
+
+18. The United Nations has a responsibility to advance a just and lasting resolution of the question of Western Sahara, consistent with the Charter of the United Nations and the relevant resolutions on decolonisation and self-determination. We support MINURSO’s mandate, and the holding of a UN backed Referendum in Western Sahara, for the Sahrawi people to finally exercise their right to self-determination.
+
+We therefore, call upon the full implementation of the UN Security Council Resolution 2797 of October 2025, which reaffirmed the need for a mutually agreeable lasting pol itical solution between the Polisario and the Kingdom of Morocco.
+
+19. Namibia calls for the Palestinian people’s right to self-determination, freedom, and statehood. We further call for an end to the atrocities being committed in Gaza.
+
+The establishment of an independent Palestinian State living side by side with Israel in peace and security, remains a vital goal that we must collectively pursue.
+
+20. We call for the lifting of the unjustified economic embargo against Cuba, which has had far-reaching consequences for the Cuban economy and the well-being of its people, including access to essential goods and services. We call for the end to the energy s iege on Cuba, and her removal from the unilateral list of States allegedly sponsoring terrorism.
+
+21. From the forgoing and in the spirit of the Charter, for a United Nations that delivers for all, the UN has the responsibility to protect and facilitate the participation of all its members and observers in its work Mr. President,
+
+22. The adoption of the United Nations Resolution on the Transatlantic Slave Trade in March 2026, is the beginning of a journey. A journey towards truth, acknowledgement, healing and justice for millions of Africans and people of African descent, whose lives w ere forever changed by slavery, colonialism and other historic injustices. As we commemorate the 25 th Anniversary of the Durban Declaration and Programme of Action, we are reminded that racial discrimination must not have any place in our societies, and that restorative remedies, including reparations, must be put in place to address these historic injustices.
+
+Mr. President,
+
+23. Namibia congratulates the outgoing Secretary -General, Mr. Antonio Guterres, as he nears the end of his tenure. We commend him for overseeing the largest part of the implementation of the United Nations Sustainable Development Goals, that has energized inte rnational support, i ncluding the actions in the Pact for the Future.
+
+24. Namibia stands ready to work with the incoming Secretary General. However, let me point out that, since the establishment of the United Nations in 1945, no woman has served as Secretary General of the organization. The leadership of the Organisation has yet to reflect the principle of gender equality, that it promotes across the international system. Namibia therefore, believes that it is time that a woman is elected as Secretary General of our Organisation.
+
+Mr. President,
+
+25. The United Nations is the only platform through which all nations can collectively advance shared aspirations, achieve common goals and address global challenges.
+
+Namibia will remain a constructive partner in strengthening multilateral cooperation in restoring trust in the United Nations.
+
+26. Let us therefore, continue to defend our organization. Let us collectively place human dignity at the centre the United Nations, so as to restore trust, effectively manage transformation and deliver for all.
+
+I thank you.

@@ -1,0 +1,167 @@
+---
+session: 81
+slug: italy
+id_speech: M_71
+country: Italy
+speaker: Antonio Tajani
+title: Deputy Prime Minister
+speaker_title: His Excellency
+date: 2026-09-23
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/it_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.242
+---
+
+Mr President,
+
+Last year, from this very podium, Italy’s Prime Minister Giorgia Meloni recalled that 56 conflicts were raging across the world - the highest number since World War II. Today, those same sources put that figure at 61. It is the stark truth of the numbers.
+
+Pope Leo XIV issued a warning that Italy has made its own: we must never grow accustomed to war. Because first we become accustomed to the words, then to images, and finally to the victims. When war be comes something we grow accustomed to – peace itself risks becoming a mirage.
+
+We will not give up.
+
+Against the law of the strongest, we choose the strength of the law. Against the politics of force, we choose the force of politics. This is the message Italy brings to the United Nations.
+
+This is the mission of Italian diplomacy: to build bridges, open new paths, and keep dialogue alive even when it seems impossible. To work for peace, prosperity and growth - because growth creates prosperity, and prosperity, in turn, consolidates peace.
+
+Ukraine, the Middle East, the Gulf, Sudan and the Sahel are not separate crises. Nor are trade wars, AI competition, hybrid attacks and their economic and social repercussions. Nor is terrorism in all of its many forms, which we continue to fight in every corner of the world. These are all different fronts of a single, profound transformation: the world order that emerged after World War II is coming apart. It was an imperfect order. It did not prevent wars, injustice or suffering.
+
+But today the world balance has been disrupted and history, which someone has declared that it has reached its final chapter, is once again moving at a galloping pace.
+
+But every race needs a finish line. Our task cannot be to stand and watch the fragmentation of our world, but it must be to build a new framework of rules, responsibility and cooperation capable of governing change.
+
+Change that can happen only through political will, through dialogue among nations, through the awareness of peoples and through the ability of multilateral institutions to rediscover a mission equal to the challenges of our time.
+
+The United Nations cannot simply record the divisions of today. It must have the ambition to imagine the future. It must recognize its limitations, overcome its paralysis and reform its instruments, without abandoning its deepest raison d’etre: to be the place where conflict gives way to dialogue, confrontation to diplomacy, and fear to the search for shared solutions.
+
+The United Nations remains the most universal place for pursuing this aspiration.
+
+Not because it’s perfect, but because no other institution can bring together, around the same table, such different interests, cultures, religions and visions of the world. It is precisely when the world is divided that the value of dialogue grows rather than diminishes.
+
+Italy believes in this institution, in its value and in its central role. We believe in peace, which remains our guiding star —the guiding principle of Italy’s foreign policy. It is rooted in our history, enshrined in our Constitution, and integral to our identity.
+
+Dialogue, however, is not a sign of weakness, nor does it mean neutrality. Italy knows where it stands: our home is Europe, our alliance is with the West, and our values are freedom, democracy and the dignity of every human being.
+
+Yet belonging to the West does not mean retreating behind fortress walls. It requires us to draw on the strength of our values to engage with others, build partnerships among equals, and mend the fabric of an international system that risks descending into chaos.
+
+The European Union, the G7 and the West —of which we are proud to be part —must not be perceived as walls. They must be bridges. This is the purpose of IMEC, the economic and logistics corridor designed to connect Europe with the broader Indo -Mediterranean region.
+
+The same principle guides our relationship with Africa, a strategic priority for Italy and a major partner for our century.
+
+The Mattei Plan now involves 18 countries and is built on a simple idea: not to decide for Africa, but to decide with Africa. It is not aid handed down from above, but a partnership among equals —in agriculture and energy, education and training, infrastruc ture and pharmaceuticals.
+
+Producing vaccines in Africa saves lives, strengthens health systems, creates jobs and supports growth capable of generating stability.
+
+It is in this spirit, and in defen se of the right not to be forced to migrate, that we fight human traffickers who prey on poverty.
+
+Agreements with countries of origin and transit help us combat irregular migration, while education, training and access to employment support safe and regular migration.
+
+A world as complex as ours can be governed in only two ways: through shared rules, or through the law of the strongest.
+
+Italy has made its choice. Italy stands for rules, dialogue and diplomacy.
+
+That is why we have condemned, and continue to condemn, Russia’s aggression against Ukraine. We will continue to support Ukraine for as long as necessary, while working towards a just peace and towards a future in which Russia can once again be a partner i n dialogue rather than a threat to Europe.
+
+Russia, as a permanent member of the Security Council, cannot evade its responsibilities. A ceasefire is not a concession to the other side; it is the first step towards a European security architecture that protects everyone, including Russia.
+
+This is why we view with grave concern the growing hybrid threats posed by Russia against Europe, and why we have expressed our full solidarity with Germany following the attack on Leipzig Airport.
+
+Peace requires openness, but it also requires resolve.
+
+Dialogue without truth is weakness; resolve without dialogue leads to a dead end.
+
+The same principle guides our approach to the Middle East. Peace can come only through a two -State solution—two peoples, two States.
+
+In Gaza, the truce has slowed the fighting, but it has not yet ended the suffering. There is not a minute to lose. The truce must be consolidated, humanitarian aid must be allowed to enter without obstruction, and the disarmament of Hamas must become a reality.
+
+From the very beginning, Italy has mobilized the very best of its humanitarian capabilities. Through Food for Gaza, we have delivered food and essential supplies provided by our farmers.
+
+We have welcomed and cared for wounded and vulnerable children. We have opened our universities and research centres to young Palestinians, because a future State also needs a future generation of leaders.
+
+In Lebanon, the stakes extend far beyond the country itself and affect the entire region.
+
+The Washington Agreement of 26 June opened a door.
+
+Italy is proud to continue hosting negotiating sessions in Rome that have helped keep that door open.
+
+(Reuters⁠￼) For decades, Italian troops have served the cause of peace in southern Lebanon through UNIFIL and have helped train the Lebanese Armed Forces. We have also recently approved new development projects for the area, and we will continue to play our part even after the mission’s mandate comes to an end.
+
+Dear colleagues,
+
+Sixty-one active conflicts mean that war is advancing even far from the television cameras.
+
+And as war advances, the principles on which we have built eighty years of international relations retreat: the prohibition of the use of force, international humanitarian law, and freedom and security of navigation.
+
+Defending freedom of navigation means defending trade, jobs, growth and dialogue. Because where goods can move freely, weapons are less likely to do so.
+
+The Strait of Hormuz must reopen. Dialogue must be revived in the Gulf, and Iran must be called upon to renounce any nuclear threat and any aggressive policy towards other countries in the region. Attacks on shipping in the Red Sea must cease, as must Russ ia’s reckless attacks in the Black Sea on shipments of Ukrainian grain destined for Africa.
+
+These crises may seem distant, but their effects reach into every household. They drive up the cost of energy, grain, bread and fertilizers. They hurt businesses, agriculture and families.
+
+Food security concerns us all and demands common solutions. Italy is working side by side with the United Nations Rome -based agencies to address this challenge, making available the best of Italian expertise—from agriculture and food production to satellite technologies that help reduce the use of land, water and pesticides.
+
+Food security and water security are part of the same struggle. There can be no harvest without water. There can be no stability without a harvest. Where water disappears, hunger, conflict and migration advance.
+
+Mr President, dear colleagues,
+
+The choice between force and politics is not confined to war. It extends to the economy, resources and technology—to every sphere in which unrestrained power risks prevailing over the human person. Politics must once again take the lead in shaping change.
+
+We stand at the dawn of a technological revolution that is already reshaping the way we live, work, produce and make decisions: the artificial intelligence revolution.
+
+The great inventions of the past took centuries to transform the world. Artificial intelligence is doing so in a matter of years. Those who control these technologies will enjoy an enormous advantage over those who are left behind.
+
+The risk is that new inequalities, new dependencies and new concentrations of power —or even new forms of domination—will emerge.
+
+Entire professions may disappear or be transformed.
+
+Falsifying and manipulating reality will become easier.
+
+Automated systems operating without human oversight may produce extremely dangerous decisions.
+
+Pope Leo XIV, in the encyclical Magnifica Humanitas, reminded us that no algorithm can take the place of human conscience, and that any technology capable of striking without seeing the face of another person lowers the moral threshold for conflict. Italy shares this vision.
+
+But governing innovation does not mean demonizing it.
+
+Artificial intelligence can open up possibilities that today are unimaginable —in medicine, research, education, manufacturing and environmental protection. Every major technological advance has generated fears, but it has also created opportunities and, over time, greater prosperity.
+
+Turning back is neither possible nor desirable. But neither can we hand over our future to technology without rules.
+
+We do not need bureaucratic cages that only some would respect. What we need is a balance between transparency, oversight, security and the protection of intellectual property. We need to share the benefits of innovation and build mechanisms of mutual oversight.
+
+This is precisely the task of the United Nations: to establish common rules before events—or the strongest actors—impose their own.
+
+The United Nations was born in 1945 out of a world in ruins, a world that had learned a simple truth: when each of us stands alone, we all lose.
+
+Eighty-one years later, that lesson is more relevant than ever. The United Nations was created to prevent violence from becoming the only law. But to remain faithful to that mission, it must regain its ability to make decisions and, above all, to act.
+
+With this conviction, Italy will continue to advocate for a universal moratorium on the death penalty—a cause rooted in civilization, in the defence of life and human dignity, which we have championed for years here, in this very building.
+
+We are also on the front line in defending individual freedom and women’s rights, and in fighting, among other things, the abhorrent practice of female genital mutilation.
+
+We must have the courage to say it: too often, this Organization appears powerless. For far too long, its reform has been held back by competing interests.
+
+Italy wants a Security Council that is more legitimate, more representative and more accountable to all Member States.
+
+Not an even more exclusive club, but one of the pillars of the far-reaching renewal of the United Nations that we hope the new Secretary -General will pursue — making this Organization capable of deciding and acting while there is still time to change the cou rse of events.
+
+Italy has always done its part, and it will continue to do so. We are among the leading contributors to the United Nations budget and among the countries with the largest military presence in international missions. We place our men and women, our resource s and our expertise at the service of peace —in UNIFIL and in every mission in which we participate.
+
+To all our men and women in uniform go the gratitude of the Government, our institutions and the Italian people.
+
+Mr President, dear colleagues,
+
+My generation was born on a continent that had endured two world wars and then went on to experience the longest period of peace in its history.
+
+That was not a miracle. It was a choice —the result of political action.
+
+Amid the ruins, men and women decided to pool coal and steel rather than use them to build new guns.
+
+From that choice emerged an unprecedented endeavor: a Union founded on common institutions, peace, freedom, democracy, prosperity, human rights and the rule of law.
+
+This is the message Italy brings to New York today: peace is not an inheritance secured once and for all. It is a responsibility we must shoulder every day.
+
+It must be defended with resolve. It must be built with patience. And it must be pursued without ever giving up.

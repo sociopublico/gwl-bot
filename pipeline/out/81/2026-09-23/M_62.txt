@@ -1,0 +1,51 @@
+---
+session: 81
+slug: eswatini
+id_speech: M_62
+country: Eswatini
+speaker: King Mswati III
+title: Head of State
+speaker_title: His Majesty
+date: 2026-09-23
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/sz_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.752
+---
+
+23rd September, 2026 KING’S OFFICE DESTINY.
+
+SOLVES THEM.
+
+FUTURE.
+
+GOALS.
+
+ISSUES.
+
+MEDIATION.
+
+OUR CITIZENS.
+
+BORDERS.
+
+LIVELIHOODS.
+
+GROWTH.
+
+STRATEGY.
+
+STABILITY.
+
+JUSTICE.
+
+YET UNBORN.
+
+FARMERS.
+
+STAGE.
+
+CONCLUSION

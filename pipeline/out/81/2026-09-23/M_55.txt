@@ -1,0 +1,203 @@
+---
+session: 81
+slug: poland
+id_speech: M_55
+country: Poland
+speaker: Karol Nawrocki
+title: President
+speaker_title: His Excellency
+date: 2026-09-23
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/pl_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.541
+---
+
+Mr. President, Excellencies, Distinguished Delegates!
+
+The 81st session of the UN General Assembly begins at one of the most difficult—in my view—moments since the Organization’s founding. Poland was, in fact, a founding member of the UN. From the very beginning of the UN’s existence, we have been faced with a question —a question about the foundations of the international order that we help shape within our Organization. Despite many achievements, we must not forget that at the very root of its creation lies a fundamental flaw that continues to undermine the system’s credibility to this day. The UN was established in response to the greatest tragedy in human history — World War II—but it was not founded on a simple and fundamental principle: that every wrongdoing must be met with accountability, and sometimes with just punishment.
+
+For Poland, this is not an abstract issue. At the very moment the foundations of the UN were being laid, my nation —a victim of two totalitarian regimes —was under the domination of one of them —Soviet Russia—and, after several years of devastating occupation, of the other — Germany. Thousands of Polish heroes who fought for the freedom of Europe and the entire world were, at that time, imprisoned, tortured, and sentenced to death. The UN already existed at that time. At the same time, the state responsible for these crimes had a say in shaping the postwar order as a permanent member of the Security Council. Poland has never received redress for that period and those wrongs.
+
+The failure to hold anyone accountable for these crimes was not merely a historical oversight. It sent a signal that violations of international law, aggression, and imperialist policies could go unpunished.
+
+It is precisely this lack of justice —this sort of original sin of the postwar order—that creates space for the return of old aggressive ambiti ons and methods of operation.
+
+The aggressive policies of certain states today are therefore not a phenomenon detached from history. They are a direct consequence of it. A state that has not been held accountable for its actions is more likely to resort to the same tools again.
+
+That is why it is so important that we today —as the international community—restore the full meaning of the principle of accountability.
+
+Without it, there will be no lasting peace, and international law will remain nothing more than a declaration devoid of real power.
+
+Ladies and Gentlemen,
+
+Today we must show courage, while remembering, that sometimes courage alone is not enough; that without prudence, courage can lead to disaster. True leadership requires both. Prudence in this case means not only knowing what we want —a return to principles, a return to peaceful cooperation among free and sovereign states —but also courageously pursuing that goal, calling aggression by its name and condemning those who disrupt the world order, without turning a blind eye when they violate the rules.
+
+Ladies and Gentlemen,
+
+For many years, representatives of my country have been trying, in this chamber and in the Security Council, to point out that a situation in which a permanent member of the Council—Russia —attempts, unsuccessfully but with ruthless persistence, to conquer a neighboring state and destabilize the entire region—is a violation of the principles we all uphold as signatories to the Charter of the United Nations.
+
+Russia is destabilizing the situation in Europe through open aggression, hybrid operations, acts of subversion and sabotage, and by ignoring successive resolutions of this Assembly.
+
+It displays the same imperial arrogance that in the past led to unimaginable suffering and the tragedies of two world wars.
+
+Contempt for international law, however, must not become the norm.
+
+Violence by one state against another and the imposition of its will on weaker nations should be unacceptable to us, the highest representatives of UN member states.
+
+It is not too late to restore the primacy of international law and strengthen the foundations of a system in which principles matter and in which the international community, acting jointly and in solidarity, opposes aggression, which is prohibited by the Charter of the United Nations.
+
+Ladies and Gentlemen,
+
+The Russian Federation, guided by an imperial and neocolonial vision of the world, is attempting to impose its will on others. In doing so, it is effectively challenging the right of every nation to determine its own destiny. Neo imperial and neocolonial policies are, in essence, an attempt to return to a world in which the borders, security, and future of states and nations would be decided not by the states and nations themselves, but by other states that consider themselves stronger and predestined to dominate, and where might would replace right —it is an attempt to return to the concert of powers. This cannot be accepted. It is the force of law that should decide, not the law of force.
+
+Poland is particularly aware of the consequences of Russian colonialism and imperialism. History has taught us that freedom and sovereignty cannot defend themselves. That is why we are determined to counter the threats that the Kremlin’s aggressive policies are posing to us with increasing audacity.
+
+As a representative of a country neighboring Russia, I want to make it clear: we are not the ones seeking confrontation. We are strengthening our alliances, developing our military, and modernizing its equipment—not to wage war, but to prevent it. Our goal is deterrence and defense—the defense of two values that also form the foundation of the United Nations Charter: freedom and sovereignty.
+
+We continue to view the North Atlantic Alliance as the guarantor of European security. NATO remains united in the overarching goal of defending our community on both sides of the Atlantic Ocean —in Europe and America, on its eastern flank and along its northern border. We therefore welcome with satisfaction the strengthening of security in t he Arctic region, which is now a reality thanks to the agreement signed yesterday between our allies.
+
+Ladies and Gentlemen, we must, however, make it clear: modern security threats are not limited to conventional military actions.
+
+Russia is carrying out actions aimed at undermining the foundations of international stability, striking at global food security through attacks on ports and ships transporting grain, as well as by deliberately provoking crises that affect millions of people outside of Europe.
+
+At the same time, a large-scale hybrid war is being waged, involving sabotage, cyberattacks, and destabilization operations on an unprecedented scale —including an artificially induced migration crisis.
+
+These are planned, coordinated, and consistently executed actions. Their goal is to weaken states, undermine pu blic trust, and shatter the unity of the international community.
+
+We are not dealing with isolated incidents, but with a sustained, well-thought-out strategy. And that is precisely why the response to these actions cannot be ad hoc or half -hearted. It must be firm, consistent and united.
+
+For if aggression—whether military or hybrid in nature—is not met with an adequate response, it becomes an invitation to repeat it.
+
+Ladies and Gentlemen,
+
+Even if today we have reservations about the effectiveness of the Security Council, we respect the achievements of the United Nations in maintaining and building peace in many parts of the world. The role of UN peacekeeping operations in preventing the resurgence of con flicts is undeniable. Poland advocates for stable funding of peacekeeping missions and for granting them more transparent mandates that also take into account tasks related to the protection of the population and support for the reconstruction of state institutions.
+
+Poland also fulfills its commitment to global security through its participation in UN peacekeeping operations. Polish “blue helmet” soldiers are currently serving in Lebanon, carrying out their duties with dignity despite the difficult security situation throughout the region.
+
+We will support efforts to de-escalate conflicts, protect civilians, and uphold international humanitarian law, and work toward the implementation of a two-state solution ensuring the peaceful coexistence of Israel and Palestine.
+
+Ladies and Gentlemen,
+
+This is precisely why the response to contemporary threats cannot be limited solely to reacting to crises. It must be based on clear principles and reliable partnerships.
+
+Poland has no colonial past. Our historical experience is different— marked by the struggle for our own freedom and resistance to domination imposed by force.
+
+In international relations, we advocate an approach based on mutual respect, sovereignty, and the equality of states. Poland does not seek an advantage over others. On the contrary —it builds cooperation that strengthens all participants. In a world of growing geopolitical rivalry, we need more partnerships that create real value rather than deepening dependencies.
+
+That is why Poland consistently works toward a model of international cooperation that gives countries room to develop, strengthens their resilience, and allows them to make sovereign decisions. This approach is reflected both in our regional policy and in our global engagement.
+
+We propose partnership instead of dependence. It is in this spirit that we view our role in the global economy and our engagement in international initiatives.
+
+Ladies and Gentlemen,
+
+Today Poland is the world’s 20th -largest economy. Our path to becoming a developed nation was not a matter of chance, but the result of consistent reforms —including the fight against corruption —responsible policies, and the efforts of the entire society. We view this experience not as a reason for compl acency, but as a commitment to share with others.
+
+As we engage in the work of the G20, we view this forum as key to rebuilding trust in international relations and developing responses to the most important challenges of the modern world —from economic security, through supply chain resilience, to the stability of the trading system.
+
+In this context, an important step toward a more representative governance structure was the decision to expand this format so that every region could be represented. In 2023, the African Union was admitted to the G20. This was a good decision. It has strengthened the voice of the African continent and better reflects the actual processes taking place in the global economy and the real needs of partners, rather than just the interests of the most powerful.
+
+Now is the time for the voice of Central Europe —which has been absent from this forum until now —to be heard in the G20 as well.
+
+This is a region that is developing dynamically and has a slightly different perspective and set of experiences compared to its Western partners.
+
+Poland wants to be the voice of this region—as a country that understands both the challenges of development and the importance of stable rules of the game in the international economy.
+
+Central Europe, a co -founder of the Three Seas Initiative, is not merely a region catching up with the more developed parts of the continent. It is a region of dynamic growth, rising innovation, and exceptional drive. It is one of the most promising areas for economic development in the world.
+
+The foundation of this dynamism is cooperation —including in the areas of infrastructure and energy. Strengthening transportation links, developing north-south corridors, and investing in security and the diversification of energy sources directly contribute to the resilience of our economies.
+
+Energy sovereignty is not a choice today —it is a prerequisite for security and political independence. The experiences of recent years have clearly shown that countries capable of freeing themselves from energy pressures are also more resilient to blackmail and destabilization.
+
+That is why we view the development of regional cooperation as an essential contribution to building a more stable and predictable global economic order.
+
+We believe that we must respond jointly to the challenges of the 21st century. For us, natural partners in this effort also include countries in Africa, Asia, and Latin America, with whom we share the experience of development, the ambition to modernize, a nd the drive to strengthen sovereignty. I believe that everyone will benefit from Poland’s membership in the G20.
+
+This year, we are participating in the Group’s work at the invitation of the current presidency, the United States. I would like to thank President Donald Trump for inviting us to the G20 summit. We are actively participating in preparations for this event, which will take place in Miami this December.
+
+At the same time, we must be aware that sustainable economic development and international stability are not possible without addressing the structural challenges that affect many regions of the world today.
+
+One of these is the demographic crisis. This is not merely a matter of statistics, but a challenge to civilization itself. Aging societies, falling birth rates, and the erosion of social bonds are undermining the foundations of our nations. The response cannot consist solely of economic measures.
+
+We also need to rebuild our institutions and culture. We need to protect and value the family and strengthen the social significance of parenthood. Yes, the family—mother and father—and an appreciation for their roles are the first step toward overcoming the demographic crisis! Without enduring communities and strong families, there will be neither stable development nor long -term security. Let us do everything we can to ensure that culture and the mass media promote having children, not aborting them!
+
+I believe that the UN can be an organization where we can work together to develop ways to gradually overcome the demographic crisis, as well as other related challenges, such as illegal migration, which often takes the form of human trafficking. However, illegal migration itself cannot be the answer to demographic challenges —for it breeds misery, tensions, and unrest. That is not the way forward!
+
+Ladies and Gentlemen,
+
+Polish aid embodies global solidarity with those in need. That is why, for years, we have consistently supported international efforts to resolve the crisis in the Middle East. We are committed to providing humanitarian aid in this region and to development initiatives for Palestine and Lebanon, which are priority countries for “Polish Aid.” We focus on areas critical to sustainable development and building resilience by strengthening entrepreneurship and healthcare.
+
+In Palestine, we continue to support the operation of mobile clinics providing medical care in the West Bank and are strengthening employment and professional skills, particularly among women. In Lebanon, Poland is developing the operational capabilities o f the Lebanese Civil Defense units in the area of disaster and natural disaster response. In providing humanitarian aid, we focus on distributing food, ensuring access to water and hygiene supplies, and supporting the healthcare sector.
+
+Ladies and Gentlemen, strengthening the resilience of nations and building stability, however, cannot overlook one more dimension of responsibility—the responsibility for the world we will leave to future generations.
+
+It is our duty to future generations to leave them a clean, safe environment.
+
+Poland supports environmental protection efforts, recognizing their impact on security, including food security.
+
+Caring for the natural environment is undoubtedly our duty, but fulfilling this duty must not lead to the weakening of our economies or the shifting of problems beyond our borders. Pushing for ambitious environmental policies without considering their global consequences may result in deindustrialization, longer supply chains, and the relocation of production to countries that do not apply comparable standards. This path does not lead to genuine climate protection —it merely leads to the export of emissions to other parts of the same globe, accompanied by job losses in the country of origin and the erosion of production capacity.
+
+We need solutions that combine environmental responsibility with economic competitiveness and economic security. In this spirit, it is worth recalling the message of St. Francis of Assisi, who saw nature not as a resource to be exploited, but as a gift entrusted to humankind —“our common home”—for which we are responsible as its guardians and stewards. We cannot leave the protection of our environment to fanatics. Care for nature is much older than left-wing concepts; it stems from an ethic that took shape long before the emergence of post-Marxist ideologues.
+
+For concern for creation and concern for humanity are inextricably linked.
+
+That is why humanity and human dignity must remain at the center of our reflection on the future of the world.
+
+Ladies and Gentlemen,
+
+Human rights are not an afterthought in international politics. They are its foundation and also stem from ethical principles older than our Organization.
+
+Violating them always leads to violence, destabilization, and conflict.
+
+History—including the history of my country—teaches us this unequivocally.
+
+The social movement that led to the fall of the communist government imposed on Poland was called “Solidarity.” It was an expression of the courage of people who —despite repression and the lack of freedom—refused to live under a system based on lies and violence.
+
+We may differ in our assessments of the extent to which the crimes of the communist system have been addressed. This debate is still ongoing in my country. But that is precisely why we should pay tribute to all those people, especially the workers, thanks to whom we have a free world today, and who do not boast of their wealth and status —gained at the expense of others—but remain faithful to their values and commitments. They are the ones who showed that freedom begins with courage.
+
+Ladies and Gentlemen,
+
+Too many people around the world still face persecution because of their faith. This applies to many different religious communities, but today we must speak in particular about the plight of Christians in regions affected by conflict and persecution. Until recently, Christian communities were a natural part of social life there —present for two thousand years, helping to shape the culture, language, and identity of entire regions. Today, in many places, t heir numbers have dwindled dramatically—sometimes only traces of their former presence remain.
+
+Along with these people, a living tradition is disappearing —the heritage of the first centuries of Christianity, communities that endured for centuries despite the successive storms of history. In many places, this heritage has been irrevocably severed—and perhaps lost.
+
+Attacks on places of worship, discrimination, violence, and even the loss of life—this is a reality that cannot go unanswered by the international community.
+
+Ladies and Gentlemen,
+
+What is happening today to persecuted religious communities shows just how fragile freedom can be if it is not effectively protected. But this same truth also applies to new dimensions of our reality.
+
+For threats to human dignity no longer belong exclusively to the physical world. They are increasingly emerging in places where, until recently, neither the law nor accountability extended—in the digital realm, shaped by the development of new technologies.
+
+New technologies, such as artificial intelligence or superintelligence, should always serve humanity as they develop, rather than exploit people or their weaknesses. This raises the question of whether, in a world of advancing artificial intelligence, humans will remain subjects or become merely objects of algorithmic influence.
+
+I am fully aware that groundbreaking technologies bring not only enormous opportunities but also serious risks. As early as the 1980s, the eminent Polish writer Stanisław Lem, in his novel *Fiasco*, warned that the moment we teach machines to think, we will face questions not only about their capabilities but also about their ambitions. For if they begin to imitate humans in their thinking, a natural consequence may be the drive to surpass them.
+
+Today, this challenge takes on a special dimension. It is precisely the development of technology that is playing a decisive role in shaping the realities of the 21st century.
+
+That is why we need a serious conversation about the limits of artificial intelligence development. But debate alone is not enough.
+
+We need rules that will actually be enforced and that clearly define where innovation ends and the threat to humanity begins. Artificial intelligence must not be used as a tool for destabilization, manipulation, or undermining the international order.
+
+We should therefore consider developing an international agreement—clear, specific, and enforceable—that sets limits on the use of such technologies. One that One that will not allow for the undermining of national security, the integrity of democratic processes, or fundamental rights.
+
+Technology must serve humanity and the truth, not chaos and manipulation.
+
+Ladies and Gentlemen,
+
+A rules-based order —rooted in our Constitution and stemming from our historical experience—remains Poland’s priority.
+
+That is why we view the United Nations not merely as a forum for discussion, but as an institution that must be capable of taking action. The world has changed—the UN must change as well. We need an organization that can respond to violations of the law, enforce principles, and prevent impunity.
+
+UN reform cannot be reduced to mere declarations. It must mean real effectiveness and accountability —including in the face of new challenges, such as the demographic crisis or the development of artificial intelligence, which is outpacing existing rules and testing the limits of our responsibility.
+
+We are at a turning point. On the one hand, the logic of force and impunity is making a comeback. On the other, there are technologies that can either reinforce this logic or halt it.
+
+It depends on our decisions whether the law will prevail over force, and whether humanity will remain more important than the tools it has created.
+
+Poland will stand on the side of the law, responsibility, humanity, and freedom.
+
+Thank you.

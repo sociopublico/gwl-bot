@@ -1,0 +1,183 @@
+---
+session: 81
+slug: kenya
+id_speech: M_58
+country: Kenya
+speaker: William Samoei Ruto
+title: President
+speaker_title: His Excellency
+date: 2026-09-23
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/ke_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.679
+---
+
+Mr President of the General Assembly,
+
+Mr Secretary-General,
+
+Excellencies,
+
+1. Eighty-one years ago, the nations gathered in San Francisco spoke from the ruins of war. They resolved to save succeeding generations from its scourge. They reaffirmed faith in human dignity and in the equal rights of nations, large and small. And they ple dged social progress, better standards of life and the economic and social advancement of all peoples.
+
+2. These were not mere words. They were the foundations of a new global order: peace over war, law over force, sovereign equality over dependency, cooperation over division, and human dignity over the ambitions of power.
+
+3. On 16 December 1963, four days after our independence, Kenya took its seat in this Assembly.
+
+We arrived with one vote and the same sovereign rights as every other State. The promise made in San Francisco now belonged to us as well.
+
+4. And that promise changed the world. When the United Nations was founded, some 750 million people lived under colonial rule. At San Francisco, only four African countries were represented while most of our continent remained under colonial rule.
+
+Decolonisation transformed the map of the world, replacing colonial subjugation with self determination as peoples once governed from afar took their place in this Assembly as sovereign equals.
+
+5. The United Nations also made a difference where peace had been broken. It helped Namibia achieve independence, supported Cambodia’s transition from conflict, disarmed combatants in Sierra Leone and Liberia, and helped Timor-Leste take its place among sovereign nations. More than two million peacekeepers have served under the UN flag, proving that peace can be built, protected and sustained.
+
+6. Its impact reached further into the lives of ordinary people. The United Nations system helped eradicate smallpox, vaccinate generations of children, fight hunger and disease, expand access to education and bring clean water and humanitarian assistance to communities across the world. Since the year 2000, deaths among children under five have fallen by more than half.
+
+7. These achievements matter. They changed borders, ended wars, defeated disease and transformed lives.
+
+They tell us that multilateralism works when nations summon the will to make it work. The United Nations has not fulfilled every promise of its Charter.
+
+But without it, our world would have been poorer, more dangerous and less free.
+
+8. That is why Kenya speaks today not from despair in this institution, but from conviction in its possibilities.
+
+Yet conviction in what this institution can be requires us to confront what it has become.
+
+Distinguished Delegates,
+
+9. Last year, the world recorded 65 state -based armed conflicts; the highest number documented in eight decades of global conflict data. Thirteen reached the scale of war. Nearly a quarter of a million people were killed in organised violence. Interstate conflicts doubled for the second consecutive year; in just two years, their number quadrupled from two to eight.
+
+One-sided violence against civilians reached levels not witnessed since 1994, the year of the genocide in Rwanda.
+
+10. From Europe to the Middle East, from the Sahel to the Horn of Africa, civilians are paying the price.
+
+Cities are destroyed. Families are displaced. Hunger deepens. Supply chains are disrupted, driving up the cost of food, fuel and essential goods far beyond the battlefield. Children inherit wars they did not begin and cannot understand. Too many disputes are no longer being settled; they are being frozen, de ferred or decided by force.
+
+11. This is precisely what the Charter was created to prevent. It did not ask the United Nations merely to describe war, count its victims and organise relief after diplomacy had failed. It gave this Organisation a duty to prevent conflict, defend peace and make collective security real. It also charged it to advance the economic and social wellbeing of all peoples. Peace and prosperity were never two mandates. They were one promise.
+
+12. Today, both sides of that promise are under strain. The crisis of multilateralism is not a shortage of commitments, institutions or rules. It is the widening distance between the equality this system proclaims and the inequality that is inherent in its structures.
+
+That is precisely why we cannot accept its present limitations.
+
+13. On peace and security, the contradiction is increasingly difficult to ignore. Every nation in this hall has one vote. Every nation is sovereign and equal under the Charter. Yet on the gravest questions of war and peace, five nations possess a permanent power that the other 188 do not. The equality proclaimed in this Assembly ends at the doors of the Security Council.
+
+14. That imbalance might have reflected the world of 1945. It does not reflect the world of today. Africa has 54 Member States, more than a quarter of this Assembly, yet no permanent voice in the body entrusted with the primary responsibility for international peace and security. We are frequently the subject of its decisions, permanently discussed but permanently excluded.
+
+15. The problem is not that the world lacks law. It is that confidence in its consistent application is weakening. International l aw cannot be invoked loudly in one crisis, cautiously in another and disregarded when convenient. Every perceived double standard carries a price, and that price is trust.
+
+Trust cannot be restored by declaration. It must be earned by consistency.
+
+16. But the cost of failure is measured in more than lost trust. It is measured in children driven from their classrooms, children who go to sleep hungry, children who learn the sound of gunfire before they know the safety of peace. When collective security breaks down, schools close, hospitals collapse, families flee and economies are consumed by war. Peace is not separate from development. It is its first condition.
+
+When the institutions entrusted with peace fail, i t is too often the youngest who inherit the consequences.
+
+Excellencies,
+
+17. Africa exposes this contradiction most clearly. In 1945, most of our continent could not speak for itself at San Francisco because it remained under colonial rule. Only four African States were represented. The architecture of collective security was there fore designed at a moment when most Africans had neither a nation at the table nor a voice in shaping the institutions that would govern the peace.
+
+18. The world has transformed. The Council has not.
+
+We cannot manage transformation with institutions that refuse to transform themselves.
+
+19. The test of equality does not end with the institutions that govern peace. It extends to the institutions that shape prosperity. The same question confronts us there: does the international system give every nation a fair opportunity to secure the wellbeing of its people?
+
+20. The Charter did not conceive development as charity. It pledged social progress, better standards of life and economic and social advancement for all peoples. Yet for too many countries, the resources required to fulfil that promise are being consumed before they can reach their people.
+
+21. Global public debt reached a record 102 trillion dollars in 2024. Developing countries accounted for less than a third of that debt, yet paid about a trillion dollars in interest in that year alone. Forty -six developing countries now spend more on interest than on either health or education. Behind these numbers lies a simple reality: the hospital competes with the creditor, the classroom competes with debt service, and too often the creditor is paid first.
+
+22. And it is our children who inherit the consequences. Today, 251 million children and young people remain out of school. Millions more enter classrooms without the teachers, books, meals and facilities they need to learn. When debt service displaces investment in education, we are not merely balancing budgets. We are transferring the cost of today’s financial system to the next generation.
+
+23. Kenya has chosen to invest in that generation.
+
+Over the last four years, we have spent an additional $5.3 billion in education: recruited 100,000 additional teachers, built more than 23,000 classrooms and are developing 1,600 laboratories, while expanding support for our universities and technical institutions. We do this because education is not consumption. It is the infrastructu re of opportunity, productivity and national transformation.
+
+24. But national effort can only go so far when the international financial system makes development itself more expensive. The countries that most need capital frequently pay the highest price to obtain it.
+
+Developing countries have recently borrowed at rates two to four times higher, on average, than the developed nations. The question, therefore, is not simply whether finance is available. It is who can access it, at what price, for how long and under whose assessment of risk.
+
+25. Africa knows the cost of that assessment.
+
+Sovereign credit ratings shape perceptions of risk, the interest countries pay and even the volume of finance available to them. UNDP estimates that subjectivities in credit ratings have cost African countries approximately 75 billion dollars through excessive interest and foregone lending. Risk must be measured.
+
+But it must also be measured fairly.
+
+26. We cannot build a fair global economy if the nations with the greatest development needs face the highest cost of development finance. A road that is commercially viable should not become unviable merely because it crosses an African border. A power project should not cost more simply because of the passport of the country building it. Capital must price risk; it must not price prejudice.
+
+27. Reform of the international financial architecture must therefore begin with the cost and availability of capital. The charter envisaged multilateral development banks that lend more, lend longer and mobilise private capital at scale. It further contemplated guarantees and risk-sharing instruments that reduce the cost of viable investments. And we need greater access to long -term and local -currency finance so that countries are not forced to build long term infrastructure with short -term, expensive money.
+
+28. This is not an argument against responsibility.
+
+Governments must also do their part to manage debt prudently, strengthen institutions, prepare credible projects, deepen domestic capital markets, honour contracts and confront corruption without equivocation. A fairer international system requires responsibility on both sides. Reform abroad cannot substitute for accountability at home.
+
+Distinguished Delegates,
+
+29. Africa does not come to plead. We come to propose. Our continent holds vast mineral wealth, immense agricultural potential, extraordinary renewable-energy resources and the world’s youngest population. We are a market of more than 1.5 billion people, incre asingly connected through the African Continental Free Trade Area. These are not merely African assets. Properly developed, they are part of the answer to the world’s search for food security, clean energy, resilient supply chains and new sources of growth.
+
+30. Africa’s resources must become the beginning of African industry, not the end of Africa’s contribution to the value chain. Extraction defined too much of our past. Investment must underpin our future.
+
+31. This transition is already taking shape. Cocoa producing nations are moving from bean to brand.
+
+Cotton producers are building garment value chains.
+
+And Africa has made its position clear: the clean energy transition must not become another extractive transition. The African Continental Free Trade Area must be more than a market for what Africa already produces; it must become the platform on which Africa makes more of what it now imports.
+
+32. Kenya intends to be part of that transformation.
+
+In one week, we expect to break ground on the East Africa refinery in Lamu, capable of processing 700,000 barrels of oil a day, an investment of approximately 16 billion dollars. Its significance extends bey ond one project or one country. It represents the Africa we seek to build: adding value at home, creating jobs for our people and building industries capable of serving continental and global markets.
+
+33. That transformation should be financed using foreign and domestic resources; including the more than four trillion dollars in domestic capital across pension funds, insurance assets, sovereign wealth funds, banks and other institutions in Africa. The task is to mobilise more of that capital for productive investment while building the safeguards, credible projects and financial instruments that long -term investors require.
+
+34. Nor is the imbalance only about money. It is also about voice. Africa’s 54 nations are home to nearly one in every five people on Earth, yet our influence in the institutions that govern global finance remains disproportionately small. We cannot carry substantial obligations under a system while remaining marginal in shaping its rules. If Africa has a stake in the burden,
+
+Africa must have a share in the decisions.
+
+35. This is not a plea for special treatment. It is a proposition for shared prosperity. A more industrialised Africa expands global demand. A more food-secure Africa strengthens global stability. A better-connected Africa diversifies global supply chains. And an Africa able to finance more of its own development becomes a stronger partner to the world.
+
+Excellencies,
+
+36. This brings us back to the central question before this Assembly. Whether in the Security Council or in the international financial system, institutions built for another age are being asked to govern a transformed world. Restoring trust requires more than defending those institutions. It requires having the courage to reform them.
+
+37. Nor is this a conversation we are beginning today. For decades, Member States have debated how to make the Security Council more representative, legitimate and effective. In 2008, after years of discussion, this General Assembly moved Security Council refo rm into intergovernmental negotiations. Those negotiations began the following year. Seventeen years later, we are still negotiating.
+
+38. The central questions remain before us: membership, the veto, regional representation, the size and working methods of the Council, and its relationship with this General Assembly. The world has not stood still while we have debated them.
+
+39. In the Pact for the Future, Member States agreed that redressing the historical injustice against Africa must be a priority in Security Council reform.
+
+40. We should not accept that reform is impossible because it is difficult. This Organisation has changed its architecture before. In 1963, this General Assembly adopted amendments to enlarge the Security Council.
+
+The Council grew from eleven members to fiftee n because Member States recognised that the institution had to respond to a changing membership. What was possible then is possible again.
+
+41. Reform must delive er equitable and permanent representation, with all the prerogatives and privileges of permanent membership.
+
+42. Political reform and financial reform are not separate projects. They ask the same fundamental question: whether the institutions that govern our common future will reflect the sovereign equality they proclaim, or preserve inequalities inherited from another age.
+
+43. More than half a century ago, this General Assembly called for a New International Economic Order founded on sovereign equality, interdependence and cooperation among States. We need not recreate the debates of another era. But we must answer the question they left unfinished: what does equality among nations require in the world of today?
+
+44. It requires a world in which no continent is permanently excluded from the highest decisions on peace and security. A world in which international law does not change with the identity of the State to which it is applied. And a world in which a nation’s prospects are not determined by how expensive the world has decided its capital should be.
+
+45. It requires that no child lose a classroom because debt service came first; that no mother find an empty clinic because essential investment became unaffordable; and that the resources of developing countries become foundations for their prosperity, rather than pathways for extraction.
+
+Distinguished Delegates,
+
+46. Eighty-one years ago, the founders of this Organisation looked upon a broken world and chose not to preserve the order that had failed them. They built another.
+
+47. Our responsibility is no less consequential. We must not wait for another catastrophe to reform institutions whose weaknesses we can already see. We must not ask our children to inherit wars we could have prevented, debts we could have made sustainable, inequalities we could have corrected and institutions we knew no longer reflected their world.
+
+48. If we are serious about restoring trust, then rules must apply consistently. If we are serious about managing transformation, then our institutions must themselves transform. And if we seek a United Nations that delivers for all, then all must have a meaningful voice, a fair opportunity and a stake in the system.
+
+49. Let ours be the generation that completes the unfinished work of San Francisco: that makes sovereign equality real in our institutions, makes international law consistent in its application, makes capital serve development and makes cooperation stronger than division.
+
+50. Not a United Nations of some nations. Not a system in which power determines whose voice matters. But a United Nations worthy of its name, where every nation has a voice, every people has a stake and every child has a future.
+
+51. That is the United Nations Kenya believes in.
+
+That is the multilateralism Africa is ready to build.
+
+And that is the promise our generation must now keep.
+
+I thank you.
