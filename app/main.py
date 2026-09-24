@@ -85,7 +85,12 @@ def run(config: Config) -> None:
     transcriber.load()
     mailer = build_notifier(config)
     if config.alert_batch_per_speaker:
-        notifier = SpeakerBatch(mailer, log_dir=config.log_dir)
+        notifier = SpeakerBatch(
+            mailer,
+            log_dir=config.log_dir,
+            before_seconds=config.alert_text_before_seconds,
+            after_seconds=config.alert_text_after_seconds,
+        )
         logger.info("Alert delivery | batch_per_speaker=true")
     else:
         notifier = AlertContext(

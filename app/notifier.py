@@ -294,7 +294,8 @@ def build_speech_email(
     for event in ordered:
         when_utc, when_ny, when_madrid = _when_lines(event.timestamp)
         stamp = f"{when_utc} | New York: {when_ny} | Madrid: {when_madrid} | {event.keyword}"
-        quote = mark_keywords_plain(event.context, [event.keyword])
+        quote_text = event.mail_context or event.context
+        quote = mark_keywords_plain(quote_text, keywords)
         lines.append(stamp)
         lines.append(quote)
         lines.append("")
@@ -304,7 +305,7 @@ def build_speech_email(
             f" | Madrid: {html_escape(when_madrid)}"
             f" | <b>{html_escape(event.keyword)}</b></p>"
             '<blockquote style="margin:0 0 1em;border-left:3px solid #222;padding:0.2em 0.8em">'
-            + mark_keywords_html(event.context, [event.keyword])
+            + mark_keywords_html(event.mail_context or event.context, keywords)
             + "</blockquote>"
         )
 

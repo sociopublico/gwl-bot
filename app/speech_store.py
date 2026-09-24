@@ -6,10 +6,11 @@ import logging
 import re
 import unicodedata
 from collections.abc import Callable, Sequence
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from datetime import datetime, timezone
 from pathlib import Path
 
+from app.alert_context import _Line, passage_between
 from app.detector import DetectionEvent
 from app.keyword_journal import event_to_record
 from app.speaker import Speaker
@@ -57,6 +58,7 @@ class StoredSpeech:
     country: str | None
     title: str | None
     quotes: list[DetectionEvent] = field(default_factory=list)
+    lines: list[tuple[float, float, str]] = field(default_factory=list)
 
     @property
     def slug(self) -> str:
@@ -125,6 +127,28 @@ class SpeechStore:
 
         self._update(mutate)
 
+    def add_lines(
+        self,
+        speaker: Speaker,
+        lines: Sequence[tuple[float, float, str]],
+    ) -> None:
+        fresh = [(start, end, text) for start, end, text in lines if text]
+        if not fresh:
+            return
+
+        def mutate(speeches: list[StoredSpeech]) -> None:
+            speech = _find_name(speeches, speaker.name)
+            if speech is None:
+                speech = StoredSpeech(
+                    name=speaker.name,
+                    country=speaker.country,
+                    title=speaker.title,
+                )
+                speeches.append(speech)
+            speech.lines.extend(fresh)
+
+        self._update(mutate)
+
     def update_meta(self, speaker: Speaker) -> None:
         def mutate(speeches: list[StoredSpeech]) -> None:
             speech = _find_name(speeches, speaker.name)
@@ -186,6 +210,10 @@ class SpeechStore:
             if speech.title and not current.title:
                 current.title = speech.title
             current.quotes = list(speech.quotes) + list(current.quotes)
+            seen = set(speech.lines)
+            current.lines = list(speech.lines) + [
+                line for line in current.lines if line not in seen
+            ]
 
         self._update(mutate)
 
@@ -246,7 +274,15 @@ class SpeechStore:
                 for record in quotes_raw:
                     if isinstance(record, dict) and record.get("keyword"):
                         quotes.append(event_from_record(record))
-            speeches.append(StoredSpeech(name=name, country=country, title=title, quotes=quotes))
+            speeches.append(
+                StoredSpeech(
+                    name=name,
+                    country=country,
+                    title=title,
+                    quotes=quotes,
+                    lines=_parse_lines(item.get("lines")),
+                )
+            )
         return speeches
 
     def _write_file(self, speeches: list[StoredSpeech]) -> None:
@@ -259,9 +295,13 @@ class SpeechStore:
                     "title": speech.title or "",
                     "slug": speech.slug,
                     "quotes": [event_to_record(event) for event in speech.quotes],
+                    "lines": [
+                        {"start": start, "end": end, "text": text}
+                        for start, end, text in speech.lines
+                    ],
                 }
                 for speech in speeches
-                if speech.quotes
+                if speech.quotes or speech.lines
             ]
         }
         text = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
@@ -276,4 +316,52 @@ def _copy(speech: StoredSpeech) -> StoredSpeech:
         country=speech.country,
         title=speech.title,
         quotes=list(speech.quotes),
+        lines=list(speech.lines),
     )
+
+
+def _parse_lines(raw: object) -> list[tuple[float, float, str]]:
+    if not isinstance(raw, list):
+        return []
+    lines: list[tuple[float, float, str]] = []
+    for item in raw:
+        if not isinstance(item, dict):
+            continue
+        text = " ".join(str(item.get("text") or "").split())
+        if not text:
+            continue
+        try:
+            start = float(item["start"])
+            end = float(item["end"])
+        except (KeyError, TypeError, ValueError):
+            continue
+        lines.append((start, end, text))
+    return lines
+
+
+def quotes_with_context(
+    speech: StoredSpeech,
+    *,
+    before_seconds: float,
+    after_seconds: float,
+) -> list[DetectionEvent]:
+    """Reemplaza cada cita por el pasaje de transcripción alrededor del hit."""
+    if not speech.lines or (before_seconds <= 0 and after_seconds <= 0):
+        return list(speech.quotes)
+    timeline = [_Line(start, end, text) for start, end, text in speech.lines]
+    expanded: list[DetectionEvent] = []
+    for event in speech.quotes:
+        hit = event.video_seconds
+        if hit is None:
+            expanded.append(event)
+            continue
+        passage = passage_between(
+            timeline,
+            hit - max(before_seconds, 0.0),
+            hit + max(after_seconds, 0.0),
+        )
+        if passage:
+            expanded.append(replace(event, mail_context=passage))
+        else:
+            expanded.append(event)
+    return expanded

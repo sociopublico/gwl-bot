@@ -8,6 +8,7 @@ from pathlib import Path
 from app.detector import DetectionEvent
 from app.notifier import build_speech_email
 from app.speaker import Speaker
+from app.transcript import TranscriptSegment
 from app.speech_batch import SpeakerBatch
 from app.speech_mail import send_saved
 from app.speech_store import SpeechStore, country_slug
@@ -90,6 +91,23 @@ class BuildSpeechEmailTest(unittest.TestCase):
         self.assertNotIn("Player", body)
         self.assertNotIn("UN Web TV", body)
 
+    def test_prefers_the_long_passage_over_the_short_snippet(self) -> None:
+        event = _event("women", seconds=1, video_seconds=80, context='"women"')
+        event = DetectionEvent(
+            timestamp=event.timestamp,
+            keyword=event.keyword,
+            transcript=event.transcript,
+            context=event.context,
+            video_seconds=event.video_seconds,
+            mail_context="the long preamble about women in the region",
+        )
+        _subject, body, html = build_speech_email(
+            [event], name="Lula", country="Brazil", title=None
+        )
+        self.assertIn("long preamble", body)
+        self.assertIn("long preamble", html)
+        self.assertNotIn('"women"', body)
+
     def test_omits_country_when_missing(self) -> None:
         subject, body, _html = build_speech_email(
             [_event("women", seconds=1, video_seconds=1)],
@@ -126,6 +144,26 @@ class SpeakerBatchTest(unittest.TestCase):
         pending = batch.store.list_speeches()
         self.assertEqual(pending[0].name, "Luiz Inacio Lula da Silva")
         self.assertEqual([event.keyword for event in pending[0].quotes], ["multilateralism"])
+
+    def test_quote_includes_transcript_before_the_keyword(self) -> None:
+        recorder = _Recorder()
+        batch = SpeakerBatch(recorder, before_seconds=75, after_seconds=5)
+        batch.note_speaker(Speaker(name="Lula", country="Brazil"))
+        batch.add_window(
+            0,
+            30,
+            "",
+            [
+                TranscriptSegment(0, 15, "a long preamble about the region and its history"),
+                TranscriptSegment(15, 25, "and then women must be included"),
+            ],
+        )
+        batch.notify([_event("women", seconds=20, video_seconds=20, context='"women"')])
+        batch.note_speaker(Speaker(name="Menfi", country="Libya"))
+        self.assertEqual(len(recorder.speeches), 1)
+        passage = recorder.speeches[0].events[0].mail_context or ""
+        self.assertIn("long preamble", passage)
+        self.assertIn("women must be included", passage)
 
     def test_same_speaker_does_not_send(self) -> None:
         recorder = _Recorder()

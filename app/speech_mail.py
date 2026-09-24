@@ -16,7 +16,7 @@ import sys
 from app.config import Config
 from app.notifier import build_notifier
 from app.speech_batch import SpeechSender
-from app.speech_store import SpeechStore, StoredSpeech
+from app.speech_store import SpeechStore, StoredSpeech, quotes_with_context
 
 
 def send_saved(
@@ -25,13 +25,19 @@ def send_saved(
     *,
     name: str | None = None,
     country: str | None = None,
+    before_seconds: float = 75.0,
+    after_seconds: float = 30.0,
 ) -> str:
     """'ok', 'missing', 'ambiguous' o 'failed'. Si el envío falla, devuelve las citas al archivo."""
     status, speech = store.take_match(name=name, country=country)
     if status != "ok" or speech is None or not speech.quotes:
         return status if status != "ok" else "missing"
     sent = notifier.send_speech(
-        speech.quotes,
+        quotes_with_context(
+            speech,
+            before_seconds=before_seconds,
+            after_seconds=after_seconds,
+        ),
         name=speech.name,
         country=speech.country,
         title=speech.title,
@@ -79,6 +85,8 @@ def main(argv: list[str] | None = None) -> int:
         notifier,
         name=args.name or None,
         country=args.country or None,
+        before_seconds=config.alert_text_before_seconds,
+        after_seconds=config.alert_text_after_seconds,
     )
     if status == "ok":
         print("Mail enviado.")

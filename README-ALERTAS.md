@@ -202,7 +202,7 @@ docker compose exec monitor python -m app.speech_mail --name "Mohamed Younis Men
 
 El slug sale de bajar a minúsculas y sacar el paréntesis: `Libya` → `libya`, `Iran (Islamic Republic of)` → `iran`, `Syrian Arab Republic` → `syrian-arab-republic`. `--list` lo muestra. Un nombre parcial alcanza si hay una sola persona (`Menfi`).
 
-Asunto: `gender, women | Mohamed Younis Menfi | Libya`. Adentro, cada cita con su keyword y su hora (UTC, Nueva York, Madrid), en orden de tiempo. No agrupa por keyword. El cooldown por keyword no aplica a este mail.
+Asunto: `gender, women | Mohamed Younis Menfi | Libya`. Adentro, cada cita con su keyword y su hora (UTC, Nueva York, Madrid), en orden de tiempo. No agrupa por keyword. Cada cita incluye el mismo pasaje que el mail inmediato: `ALERT_TEXT_BEFORE_SECONDS` antes de la keyword (default 75 s) y `ALERT_TEXT_AFTER_SECONDS` después (default 30 s). El cooldown por keyword no aplica a este mail.
 
 Con Gmail: activar 2FA y usar un [App Password](https://myaccount.google.com/apppasswords).
 
