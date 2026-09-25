@@ -36,3 +36,5 @@ norway
 guatemala
 sweden
 togo
+# morning
+liechtenstein
