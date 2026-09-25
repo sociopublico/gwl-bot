@@ -199,8 +199,8 @@ docker compose -f docker-compose.pipeline.yml run --rm pipeline list --session 8
 docker compose -f docker-compose.pipeline.yml run --rm pipeline refresh-slugs --session 81 --write
 docker compose -f docker-compose.pipeline.yml run --rm pipeline refresh-protocol
 
-# Todos los discursos de la sesión en un JSON [{name, country, date, speech}]
-# → pipeline/out/81/speeches.json (--day, --english-only, --output archivo.json o -)
+# Todos los discursos de la sesión en un único .txt, uno a continuación del otro con su encabezado
+# → pipeline/out/81/speeches.txt (--day, --english-only, --output archivo.txt o -)
 pipeline/.venv/bin/python -m pipeline merge --session 81
 ```
 
