@@ -257,6 +257,23 @@ def _parser() -> argparse.ArgumentParser:
     )
     alerts_p.add_argument("--json", action="store_true", help="Salida JSON")
 
+    merge_p = sub.add_parser(
+        "merge",
+        help="Juntar todos los discursos .txt en un JSON (name, country, date, speech)",
+        parents=[common],
+    )
+    merge_p.add_argument("--day", default="", help="Solo un día YYYY-MM-DD (default: todos)")
+    merge_p.add_argument(
+        "--output",
+        default="",
+        help="Archivo JSON de salida (default: pipeline/out/<sesión>/speeches.json; '-' = stdout)",
+    )
+    merge_p.add_argument(
+        "--english-only",
+        action="store_true",
+        help="Solo discursos en inglés",
+    )
+
     pub = sub.add_parser(
         "publish",
         help="Versionar txt en GitHub y/o append a Google Sheets (Metadata)",
@@ -639,6 +656,23 @@ def main(argv: list[str] | None = None) -> int:
             english_only=not args.all_languages,
             as_json=args.json,
         )
+        return 0
+
+    if args.cmd == "merge":
+        from pipeline.merge import default_merge_path, merge_speeches, write_merged
+
+        records = merge_speeches(
+            config,
+            speech_date=args.day or None,
+            dest=dest,
+            english_only=args.english_only,
+        )
+        if args.output == "-":
+            print(json.dumps(records, ensure_ascii=False, indent=2))
+            return 0
+        path = Path(args.output) if args.output else default_merge_path(config, dest=dest)
+        write_merged(records, path)
+        print(f"{len(records)} discursos → {path}", file=sys.stderr)
         return 0
 
     if args.cmd == "fetch":

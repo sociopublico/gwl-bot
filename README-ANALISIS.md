@@ -198,6 +198,10 @@ Para que GitHub Pages cuente bien: commit + push de `docs/` no es obligatorio (A
 docker compose -f docker-compose.pipeline.yml run --rm pipeline list --session 81
 docker compose -f docker-compose.pipeline.yml run --rm pipeline refresh-slugs --session 81 --write
 docker compose -f docker-compose.pipeline.yml run --rm pipeline refresh-protocol
+
+# Todos los discursos de la sesión en un JSON [{name, country, date, speech}]
+# → pipeline/out/81/speeches.json (--day, --english-only, --output archivo.json o -)
+pipeline/.venv/bin/python -m pipeline merge --session 81
 ```
 
 ## Recursos y tiempos
