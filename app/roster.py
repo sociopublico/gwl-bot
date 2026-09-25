@@ -100,6 +100,10 @@ _COUNTRY_SKIP = {
     "international",
 }
 
+# Compartidas por varios países (Marshall/Solomon Islands, Saint Lucia/Kitts):
+# siguen en las frases ("marsh islands") pero solas no identifican a nadie.
+_COUNTRY_GENERIC = {"islands", "island", "saint", "st"}
+
 # ASR / short names → forma canónica plegada.
 _COUNTRY_ALIASES = {
     "brasil": "brazil",
@@ -302,7 +306,10 @@ def has_country_words(text: str) -> bool:
     tokens = [
         token
         for token in fold_name(text).split()
-        if token not in _COUNTRY_SKIP and len(token) >= 4 and token.isalpha()
+        if token not in _COUNTRY_SKIP
+        and token not in _COUNTRY_GENERIC
+        and len(token) >= 4
+        and token.isalpha()
     ]
     return bool(tokens)
 
@@ -391,22 +398,33 @@ def country_score(extracted: str, canonical: str) -> float:
     overlap = {
         key
         for key in left & right
-        if len(key) >= 4 and key not in _COUNTRY_SKIP
+        if len(key) >= 4 and key not in _COUNTRY_SKIP and key not in _COUNTRY_GENERIC
     }
     if overlap:
-        # "united" de United Nations no puede casar con United States.
-        distinctive = [
-            key for key in overlap if " " in key or len(key) >= 5
+        # Nombre completo o varias palabras gana a una palabra suelta:
+        # "Papua New Guinea" es PNG antes que Guinea-Bissau.
+        canonical_folded = fold_name(canonical)
+        canonical_tokens = [
+            token for token in canonical_folded.split() if token not in _COUNTRY_SKIP
         ]
-        if distinctive:
+        full = {
+            canonical_folded,
+            _alias_country(canonical_folded),
+            " ".join(canonical_tokens),
+            _alias_country(" ".join(canonical_tokens)),
+        }
+        if any(" " in key or key in full for key in overlap):
             return 1.0
+        # "united" de United Nations no puede casar con United States.
+        if any(len(key) >= 5 for key in overlap):
+            return 0.95
         return 0.92
     best = 0.0
     for left_key in left:
-        if left_key in _COUNTRY_SKIP or len(left_key) < 5:
+        if left_key in _COUNTRY_SKIP or left_key in _COUNTRY_GENERIC or len(left_key) < 5:
             continue
         for right_key in right:
-            if right_key in _COUNTRY_SKIP or len(right_key) < 5:
+            if right_key in _COUNTRY_SKIP or right_key in _COUNTRY_GENERIC or len(right_key) < 5:
                 continue
             best = max(best, _ratio(left_key, right_key))
     return best
@@ -458,6 +476,9 @@ def _country_hits(
         if score >= threshold:
             hits.append((score, entry))
     hits.sort(key=lambda item: item[0], reverse=True)
+    if hits:
+        top = hits[0][0]
+        hits = [item for item in hits if item[0] >= top - 1e-9]
     return hits
 
 

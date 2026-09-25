@@ -280,6 +280,14 @@ pipeline/.venv/bin/python -m pipeline alerts-site --session 81 --logs logs --sna
 # --snapshot copia a pipeline/data/alerts/81/<día>.json para versionar
 ```
 
+Si un hit quedó con el orador equivocado (el tracker no vio el cambio), `app.keyword_fix` lo corrige por ventana UTC en `keywords.jsonl`, `highlights.log*` y los snapshots a la vez (el dashboard deduplica por orador). Sin `--apply` solo muestra los cambios:
+
+```bash
+docker compose exec monitor python -m app.keyword_fix \
+  --fix "2026-09-25T14:30:00Z..2026-09-25T14:47:20Z=Christophe Mirmand|Monaco"
+# snapshots: correrlo en el host con --log-dir logs --snapshots pipeline/data/alerts/81
+```
+
 Commit + push de `pipeline/data/alerts/` dispara GitHub Pages (el workflow arma la 81 y la 80). Local: `docs/index.html` entra a la 81; la 80 está en `docs/80/`.
 
 Latencia típica con chunks de 20 s: **25–55 s** después de que se dijo la palabra (HLS de YouTube + chunk + inferencia).

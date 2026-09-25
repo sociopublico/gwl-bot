@@ -145,6 +145,31 @@ class CountryAliasTest(unittest.TestCase):
         assert hit is not None
         self.assertEqual(hit[0].name, "Nawaf Salam")
 
+    def test_shared_words_do_not_make_countries_ambiguous(self) -> None:
+        roster = parse_roster(
+            "Hilda Heine | Marshall Islands;"
+            "Matthew Cooper Wale | Solomon Islands;"
+            "James Marape | Papua New Guinea;"
+            "Ilídio Vieira Té | Guinea-Bissau;"
+            "Philip Pierre | Saint Lucia;"
+            "Geoffrey Hanley | Saint Kitts and Nevis;"
+            "Godwin Friday | Saint Vincent and the Grenadines"
+        )
+        cases = {
+            "Republic of the Marsh Islands": "Hilda Heine",
+            "Solomon Islands": "Matthew Cooper Wale",
+            "Papua New Guinea": "James Marape",
+            "Republic of Guinea-Bissau": "Ilídio Vieira Té",
+            "St Lucia": "Philip Pierre",
+            "Federation of Saint Kitts and Nevis": "Geoffrey Hanley",
+            "Saint Vincent and the Grenadines": "Godwin Friday",
+        }
+        for country, expected in cases.items():
+            hit = match_roster("", roster, 0.62, title=f"President of {country}", country=country)
+            assert hit is not None, country
+            self.assertEqual(hit[0].name, expected, country)
+        self.assertLess(country_score("Marsh Islands", "Solomon Islands"), 0.86)
+
     def test_has_country_words(self) -> None:
         self.assertTrue(has_country_words("Council of Ministers of the Lebanese Republic"))
         self.assertTrue(has_country_words("South Africa"))
