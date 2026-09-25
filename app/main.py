@@ -99,7 +99,11 @@ def run(config: Config) -> None:
             after_seconds=config.alert_text_after_seconds,
         )
         logger.info("Alert delivery | immediate")
-    tracker = SpeakerTracker(config) if config.speaker_tracking else None
+    tracker = (
+        SpeakerTracker(config, on_roster_stale=mailer.notify_status)
+        if config.speaker_tracking
+        else None
+    )
     deduper = DetectionDeduper(ttl_seconds=max(config.chunk_overlap_seconds * 2, 8.0))
     journal = (
         KeywordJournal(Path(config.log_dir) / "keywords.jsonl")

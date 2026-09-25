@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import logging
 import re
+import time
 import urllib.error
 import urllib.request
 from collections.abc import Callable, Sequence
@@ -20,8 +21,11 @@ from app.roster import (
     country_keys,
     country_score,
     fold_name,
+    has_country_words,
     load_roster_file,
+    load_roster_json,
     match_roster,
+    merge_rosters,
     parse_roster,
     roster_score,
 )
@@ -31,10 +35,12 @@ logger = logging.getLogger(__name__)
 
 LlmCall = Callable[[str, str | None], dict[str, Any] | None]
 NowFn = Callable[[], datetime]
+StatusFn = Callable[[str, str], object]
 
 _NY = ZoneInfo("America/New_York")
 SPEAKER_MAX_AGE = timedelta(minutes=90)
 _SPEAKER_STATE = "speaker.json"
+ROSTER_CHECK_SECONDS = 60.0
 
 _HONORIFIC = r"(?:his|her)\s+(?:royal\s+)?(?:excellency|majesty|highness)"
 
@@ -494,6 +500,24 @@ def _fresh_speaker(raw: object, now: datetime) -> tuple[Speaker, datetime] | Non
     )
 
 
+def _mtime(path: Path | None) -> float | None:
+    if path is None:
+        return None
+    try:
+        return path.stat().st_mtime
+    except OSError:
+        return None
+
+
+def _unverified_ok(raw: Speaker | None, name: str, cue_now: bool) -> bool:
+    """Intro clara del chair (nombre completo + país) aunque no esté en la agenda."""
+    if raw is None or not cue_now or not name:
+        return False
+    if raw.source != "regex" or raw.confidence != "strong":
+        return False
+    return bool(raw.country) and has_country_words(raw.country or "")
+
+
 def _country_mentions(text: str, roster: Sequence[RosterEntry]) -> list[RosterEntry]:
     """Países de la agenda que aparecen en el texto, por frase o por palabra."""
     folded = fold_name(text)
@@ -543,27 +567,105 @@ class SpeakerTracker:
         config: Config,
         llm_call: LlmCall | None = None,
         now: NowFn | None = None,
+        *,
+        on_roster_stale: StatusFn | None = None,
+        monotonic: Callable[[], float] | None = None,
     ) -> None:
         self.config = config
         self.aliases = parse_aliases(config.speaker_aliases)
-        self.roster = parse_roster(config.speaker_roster)
-        if config.speaker_roster_file:
-            self.roster = self.roster + load_roster_file(config.speaker_roster_file)
+        self._inline_roster = parse_roster(config.speaker_roster)
+        self.roster: tuple[RosterEntry, ...] = self._inline_roster
         self._llm_call = llm_call
         self._now = now or (lambda: datetime.now(timezone.utc))
+        self._monotonic = monotonic or time.monotonic
+        self._on_roster_stale = on_roster_stale
+        self._roster_stamp: tuple[str, float | None, float | None] | None = None
+        self._roster_checked_at: float | None = None
+        self._stale_warned_day: str | None = None
         self._current = Speaker()
         self._current_started_at: datetime | None = None
         self._pending: Speaker | None = None
         self._pending_started_at: datetime | None = None
         self._awaiting: Speaker | None = None
         self._previous_text = ""
-        if self.roster:
-            logger.info("Speaker roster loaded | n=%s", len(self.roster))
+        self.refresh_roster(force=True)
         self._load()
 
     @property
     def current(self) -> Speaker:
         return self._current
+
+    def refresh_roster(self, *, force: bool = False) -> bool:
+        """Relee el roster si cambió el día (NY) o el mtime de los archivos."""
+        checked = self._monotonic()
+        if (
+            not force
+            and self._roster_checked_at is not None
+            and checked - self._roster_checked_at < ROSTER_CHECK_SECONDS
+        ):
+            return False
+        self._roster_checked_at = checked
+        day = self._now().astimezone(_NY).date().isoformat()
+        day_path = self._day_roster_path(day)
+        file_raw = (self.config.speaker_roster_file or "").strip()
+        file_path = Path(file_raw) if file_raw else None
+        stamp = (day, _mtime(day_path), _mtime(file_path))
+        if not force and stamp == self._roster_stamp:
+            return False
+        self._roster_stamp = stamp
+
+        day_entries = load_roster_json(day_path) if day_path is not None else ()
+        # El JSON del día manda; speakers.txt puede ser de otro día.
+        if day_entries:
+            file_entries: tuple[RosterEntry, ...] = ()
+            source = str(day_path)
+        else:
+            file_entries = load_roster_file(file_raw) if file_raw else ()
+            source = file_raw or "inline"
+        self.roster = merge_rosters(self._inline_roster, day_entries, file_entries)
+        if self.roster:
+            logger.info(
+                "Speaker roster loaded | n=%s | day=%s | source=%s",
+                len(self.roster),
+                day,
+                source,
+            )
+        if day_path is not None and not day_entries:
+            self._warn_roster_stale(day, day_path)
+        return True
+
+    def _day_roster_path(self, day: str) -> Path | None:
+        raw = (self.config.speaker_roster_dir or "").strip()
+        if not raw:
+            return None
+        return Path(raw) / f"{day}.json"
+
+    def _warn_roster_stale(self, day: str, path: Path) -> None:
+        if self._stale_warned_day == day:
+            return
+        self._stale_warned_day = day
+        fallback = self.config.speaker_roster_file or "ninguno"
+        logger.warning(
+            "ROSTER_STALE | day=%s | missing=%s | fallback=%s | n=%s",
+            day,
+            path,
+            fallback,
+            len(self.roster),
+        )
+        if self._on_roster_stale is None:
+            return
+        subject = f"ROSTER_STALE | falta el roster de oradores del {day}"
+        body = (
+            f"El monitor no encontró {path}.\n"
+            f"Está usando {fallback} ({len(self.roster)} oradores), que puede ser de otro día.\n"
+            "Los oradores que no estén ahí van a quedar sin verificar o como unknown.\n\n"
+            f"Corré `python -m pipeline roster --session 81 --day {day}`, subí el JSON "
+            "y hacé git pull en el servidor. El monitor lo toma solo en ~1 minuto."
+        )
+        try:
+            self._on_roster_stale(subject, body)
+        except Exception as exc:
+            logger.warning("Roster stale mail failed: %s", exc)
 
     def reset(self) -> None:
         self._current = Speaker()
@@ -575,6 +677,7 @@ class SpeakerTracker:
         self._persist()
 
     def observe(self, text: str, video_seconds: float | None = None) -> Speaker:
+        self.refresh_roster()
         changed = False
         if self._pending is not None:
             self._current = self._pending
@@ -645,6 +748,22 @@ class SpeakerTracker:
                     confidence=extracted.confidence,
                     source=extracted.source,
                 )
+            elif _unverified_ok(raw, name, cue_now):
+                # Sin esto el orador anterior se queda con las citas del nuevo.
+                logger.info(
+                    "SPEAKER_UNVERIFIED | asr=%s | title=%s | country=%s | not in agenda",
+                    name,
+                    extracted.title or "",
+                    extracted.country or "",
+                )
+                extracted = Speaker(
+                    name=name,
+                    title=extracted.title,
+                    country=extracted.country,
+                    confidence=extracted.confidence,
+                    source="asr-unverified",
+                )
+                self._awaiting = None
             else:
                 if self.roster and (name or extracted.title or extracted.country):
                     logger.info(

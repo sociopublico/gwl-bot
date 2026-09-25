@@ -5,6 +5,7 @@ services:
       - .env
     environment:
       OMP_NUM_THREADS: ${CPU_THREADS:-4}
+      SPEAKER_ROSTER_DIR: ${SPEAKER_ROSTER_DIR:-/roster}
     restart: unless-stopped
     # HEALTHCHECK lo define el Dockerfile (logs/.heartbeat).
     # unhealthy no reinicia el contenedor: mirá `docker compose ps` y el mail MONITOR_STALE.
@@ -14,6 +15,8 @@ services:
       - whisper-models:/root/.cache/huggingface
       # Lista de oradores (nombre | país | cargo):
       - ./speakers.txt:/speakers.txt:ro
+      # Roster del pipeline ({día}.json); se relee solo cuando cambia:
+      - ./pipeline/data/roster/81:/roster:ro
       # Logs duales (full + highlights), flush inmediato:
       - ./logs:/app/logs
       # Cookies Netscape de YouTube (yt-dlp puede reescribirlas; no montar :ro):

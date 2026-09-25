@@ -48,6 +48,7 @@ KEYWORDS=women,gender,refugees
 | `CPU_THREADS` | `4` | Threads de Whisper en CPU |
 | `SPEAKER_TRACKING` | `true` | Rastrea orador por presentaciones de protocolo |
 | `SPEAKER_ROSTER_FILE` | vacío | Archivo con un orador por línea (Compose monta `speakers.txt`) |
+| `SPEAKER_ROSTER_DIR` | `/roster` en Compose | Carpeta con `{día}.json` del pipeline. Si está el del día (hora NY), manda sobre `SPEAKER_ROSTER_FILE`. Se relee sola cuando cambia; si falta, log + mail `ROSTER_STALE` |
 | `LOG_LEVEL` | `INFO` | `DEBUG` para ver stderr de FFmpeg |
 | `LOG_DIR` | `logs` | Directorio de `full.log` + `highlights.log` (flush inmediato) |
 | `WATCHDOG_SECONDS` | `180` | Mail `MONITOR_STALE` + HEALTHCHECK si no hay chunk transcrito. `0` = apagado |
@@ -211,6 +212,10 @@ Con Gmail: activar 2FA y usar un [App Password](https://myaccount.google.com/app
 El monitor detecta cambios de orador desde el ASR cuando el chair presenta (`His Excellency…`, `give the floor`, etc.). En el chunk de la intro las keywords quedan como `unknown`; el nombre nuevo aplica en el chunk siguiente (cuando arranca a hablar la persona). El orador actual queda en `logs/speaker.json`. Un `docker compose up --build` lo retoma, salvo que haya empezado el día anterior (hora de Nueva York) o hace más de 90 minutos.
 
 Eso **no** es lo mismo que el pipeline de análisis: ahí Whisper solo transcribe un discurso ya aislado y el nombre viene del roster gadebate.
+
+Roster del día: Compose monta `pipeline/data/roster/81` en `/roster`. Si existe `/roster/{día}.json` (día de Nueva York), el monitor usa ese roster y lo relee solo cuando cambia (se chequea cada ~60 s). Alcanza con correr `python -m pipeline roster --day ...`, subir el JSON y hacer `git pull` en el servidor, sin reiniciar. Si falta el JSON del día, usa `speakers.txt` y avisa con `ROSTER_STALE` (log y mail).
+
+Si el chair presenta con nombre completo y país a alguien que no está en el roster, el monitor lo acepta igual (`SPEAKER_UNVERIFIED`, `source=asr-unverified`) para cerrar el discurso anterior y no mezclar citas. Un nombre suelto sin país sigue ignorándose.
 
 Para mejorar el fuzzy match del monitor, bajá nombres, país y cargo desde e-speakers:
 

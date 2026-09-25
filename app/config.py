@@ -89,6 +89,7 @@ class Config:
     speaker_aliases: str = ""
     speaker_roster: str = ""
     speaker_roster_file: str | None = None
+    speaker_roster_dir: str | None = None
     speaker_roster_threshold: float = 0.62
     speaker_llm_api_key: str = ""
     speaker_llm_base_url: str = "https://api.openai.com/v1"
@@ -252,6 +253,7 @@ class Config:
             speaker_aliases=_env("SPEAKER_ALIASES"),
             speaker_roster=_env("SPEAKER_ROSTER"),
             speaker_roster_file=_env("SPEAKER_ROSTER_FILE") or None,
+            speaker_roster_dir=_env("SPEAKER_ROSTER_DIR") or None,
             speaker_roster_threshold=speaker_roster_threshold,
             speaker_llm_api_key=os.getenv("SPEAKER_LLM_API_KEY", "") or "",
             speaker_llm_base_url=_env("SPEAKER_LLM_BASE_URL", "https://api.openai.com/v1")

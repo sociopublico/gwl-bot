@@ -5,11 +5,16 @@ import unittest
 from pathlib import Path
 
 from app.roster import (
+    RosterEntry,
     country_from_title,
     country_score,
+    has_country_words,
     load_roster_file,
+    load_roster_json,
     match_roster,
+    merge_rosters,
     parse_roster,
+    parse_roster_json,
 )
 
 
@@ -108,6 +113,79 @@ class MatchRosterTest(unittest.TestCase):
             country="Erie First Session of the United Nations General Assembly",
         )
         self.assertIsNone(hit)
+
+
+class CountryAliasTest(unittest.TestCase):
+    def test_demonyms_and_official_forms(self) -> None:
+        pairs = [
+            ("Council of Ministers of the Lebanese Republic", "Lebanon"),
+            ("Hellenic Republic", "Greece"),
+            ("Swiss Confederation", "Switzerland"),
+            ("French Republic", "France"),
+            ("Argentine Republic", "Argentina"),
+            ("Kirgis Republic", "Kyrgyzstan"),
+            ("Republic of Maltives", "Maldives"),
+            ("Principality of Endora", "Andorra"),
+        ]
+        for extracted, canonical in pairs:
+            self.assertGreaterEqual(country_score(extracted, canonical), 0.86, extracted)
+
+    def test_demonym_does_not_match_other_country(self) -> None:
+        self.assertLess(country_score("Lebanese Republic", "Libya"), 0.86)
+
+    def test_lebanon_country_only_match(self) -> None:
+        roster = parse_roster("Nawaf Salam | Lebanon;Ali Falih Al-Zaidi | Iraq")
+        hit = match_roster(
+            "Nawab Salaam",
+            roster,
+            0.62,
+            title="President of the Council of Ministers of the Lebanese Republic",
+            country="Council of Ministers of the Lebanese Republic",
+        )
+        assert hit is not None
+        self.assertEqual(hit[0].name, "Nawaf Salam")
+
+    def test_has_country_words(self) -> None:
+        self.assertTrue(has_country_words("Council of Ministers of the Lebanese Republic"))
+        self.assertTrue(has_country_words("South Africa"))
+        self.assertFalse(has_country_words("General Assembly"))
+        self.assertFalse(has_country_words("81st"))
+        self.assertFalse(has_country_words("the"))
+
+
+class RosterJsonTest(unittest.TestCase):
+    def test_parses_pipeline_payload_and_drops_leaked_names(self) -> None:
+        payload = {
+            "speakers": [
+                {"country": "Kiribati", "name": "Taneti Maamau", "rank": "President"},
+                {"country": "Iraq", "name": "Ali Falih Al-Zaidi", "speaker_title": "His Excellency"},
+                {"country": "Chad", "name": "Widget Name"},
+                {"country": "Togo", "name": "Widget Name"},
+                {"country": "Norway", "name": "Widget Name"},
+                {"country": "Monaco", "name": ""},
+            ]
+        }
+        entries = parse_roster_json(payload)
+        self.assertEqual(entries[0], RosterEntry("Taneti Maamau", "Kiribati", "President"))
+        self.assertEqual(entries[1].title, "")
+        names = [entry.name for entry in entries]
+        self.assertNotIn("Widget Name", names)
+        self.assertIn("Chad", names)
+        self.assertIn("Monaco", names)
+
+    def test_load_missing_or_broken_file(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            self.assertEqual(load_roster_json(Path(tmp) / "nope.json"), ())
+            broken = Path(tmp) / "broken.json"
+            broken.write_text("{", encoding="utf-8")
+            self.assertEqual(load_roster_json(broken), ())
+
+    def test_merge_dedupes_by_folded_name(self) -> None:
+        merged = merge_rosters(
+            parse_roster("Micheál Martin | Ireland"),
+            parse_roster("Micheal Martin | Ireland;Robert Abela | Malta"),
+        )
+        self.assertEqual([entry.name for entry in merged], ["Micheál Martin", "Robert Abela"])
 
 
 if __name__ == "__main__":

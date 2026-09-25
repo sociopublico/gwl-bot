@@ -265,7 +265,7 @@ class SpeakerTrackerTest(unittest.TestCase):
         self.assertTrue(has_introduction_cue("The Assembly will hear an address by Her Royal Highness"))
         self.assertFalse(has_introduction_cue("Her Royal Highness"))
 
-    def test_agenda_only_ignores_excellency_not_in_roster(self) -> None:
+    def test_agenda_only_ignores_excellency_without_country(self) -> None:
         tracker = SpeakerTracker(
             _config(
                 speaker_roster=(
@@ -274,19 +274,46 @@ class SpeakerTrackerTest(unittest.TestCase):
                 )
             )
         )
-        first = tracker.observe(
-            "I now give the floor to His Excellency Gabriel Boric, President of Chile."
-        )
+        first = tracker.observe("I now give the floor to His Excellency Gabriel Boric.")
         self.assertEqual(first.name, "unknown")
         self.assertEqual(tracker.observe("Chile remains committed.").name, "unknown")
 
         tracker.observe(LULA_INTRO)
         tracker.observe("The speech begins.")
         later = tracker.observe(
-            "I now give the floor to Her Excellency Claudia Sheinbaum Pardo, "
-            "President of Mexico."
+            "I now give the floor to Her Excellency Claudia Sheinbaum Pardo."
         )
         self.assertIn("Lula", later.name)
+        self.assertIn("Lula", tracker.observe("We continue.").name)
+
+    def test_full_intro_not_in_agenda_is_unverified(self) -> None:
+        tracker = SpeakerTracker(
+            _config(
+                speaker_roster=(
+                    "Luiz Inacio Lula da Silva | Brazil | President;"
+                    "Emmanuel Macron | France | President"
+                )
+            )
+        )
+        tracker.observe(LULA_INTRO)
+        tracker.observe("The speech begins.")
+        intro = tracker.observe(
+            "I now give the floor to His Excellency Gabriel Boric, President of Chile."
+        )
+        self.assertEqual(intro.name, "unknown")
+        speaker = tracker.observe("Chile remains committed.")
+        self.assertEqual(speaker.name, "Gabriel Boric")
+        self.assertEqual(speaker.source, "asr-unverified")
+
+    def test_pga_mention_is_not_unverified_speaker(self) -> None:
+        tracker = SpeakerTracker(
+            _config(speaker_roster="Luiz Inacio Lula da Silva | Brazil | President")
+        )
+        tracker.observe(LULA_INTRO)
+        tracker.observe("The speech begins.")
+        tracker.observe(
+            "I give the floor to His Excellency Khalilur Rahman, President of the General Assembly."
+        )
         self.assertIn("Lula", tracker.observe("We continue.").name)
 
     def test_agenda_majesty_maps_roster(self) -> None:
@@ -479,6 +506,140 @@ class SpeakerPersistenceTest(unittest.TestCase):
             tracker.reset()
             again = SpeakerTracker(_config(log_dir=tmp), now=lambda: now)
             self.assertEqual(again.current.name, "unknown")
+
+
+# Intros reales del 25/09/2026 (Whisper base) y la de Sudáfrica del 24/09.
+KIRIBATI_INTRO = (
+    "The Assembly will hear an address by his excellency, tenety, mama, "
+    "president and minister for of the Republic of Kiribati."
+)
+MALDIVES_INTRO = (
+    "The Assembly will hear an address by his excellency Hussain Muhammad Latif, "
+    "Vice President of the Republic of Maltives. I request Protocol to escort his "
+    "excellency and invite him to address the Assembly."
+)
+IRAQ_INTRO = (
+    "I wish to thank the Vice President of the Republic of Maltes. The Assembly will now "
+    "hear an address by his excellency Ali Fali al-Zahidi, Prime Minister of the Republic "
+    "of Iraq. I request protocol to escort his excellency and invite him to address the Assembly."
+)
+LEBANON_INTRO = (
+    "The Assembly will hear an address by his Excellency Nawaf Salam, President of the "
+    "Council of Ministers of the Lebanese Republic. I request Protocol to escort his "
+    "Excellency and invite him to address the Assembly."
+)
+LAMOLA_INTRO = (
+    "I now give the floor to his Excellency Ronald Aziz-Lomola, Minister for International "
+    "Relations and Cooperation of South Africa."
+)
+
+DAY_ROSTER = {
+    "session": 81,
+    "day": "2026-09-25",
+    "speakers": [
+        {"country": "Kiribati", "name": "Taneti Maamau", "rank": "", "speaker_title": ""},
+        {"country": "Maldives", "name": "Hussain Mohamed Latheef", "rank": "", "speaker_title": ""},
+        {"country": "Iraq", "name": "Ali Falih Al-Zaidi", "rank": "", "speaker_title": ""},
+        {"country": "Lebanon", "name": "Nawaf Salam", "rank": "", "speaker_title": ""},
+        {"country": "Monaco", "name": "Christophe Mirmand", "rank": "", "speaker_title": ""},
+        {"country": "South Africa", "name": "Ronald Ozzy Lamola", "rank": "", "speaker_title": ""},
+    ],
+}
+STALE_TXT = "Balendra Shah | Nepal\nHilda Heine | Marshall Islands\n"
+TODAY = datetime(2026, 9, 25, 14, 0, tzinfo=timezone.utc)
+
+
+class _Clock:
+    def __init__(self) -> None:
+        self.value = 0.0
+
+    def __call__(self) -> float:
+        return self.value
+
+
+class DayRosterTest(unittest.TestCase):
+    def _dirs(self, tmp: str, *, with_json: bool) -> tuple[Path, Path]:
+        roster_dir = Path(tmp) / "roster"
+        roster_dir.mkdir()
+        if with_json:
+            (roster_dir / "2026-09-25.json").write_text(json.dumps(DAY_ROSTER), encoding="utf-8")
+        speakers_txt = Path(tmp) / "speakers.txt"
+        speakers_txt.write_text(STALE_TXT, encoding="utf-8")
+        return roster_dir, speakers_txt
+
+    def test_day_json_maps_todays_real_intros(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            roster_dir, speakers_txt = self._dirs(tmp, with_json=True)
+            tracker = SpeakerTracker(
+                _config(speaker_roster_dir=str(roster_dir), speaker_roster_file=str(speakers_txt)),
+                now=lambda: TODAY,
+            )
+            names = [entry.name for entry in tracker.roster]
+            self.assertNotIn("Balendra Shah", names)
+            expected = [
+                (KIRIBATI_INTRO, "Taneti Maamau"),
+                (MALDIVES_INTRO, "Hussain Mohamed Latheef"),
+                (IRAQ_INTRO, "Ali Falih Al-Zaidi"),
+                (LEBANON_INTRO, "Nawaf Salam"),
+            ]
+            for intro, name in expected:
+                tracker.observe(intro)
+                speaker = tracker.observe("Mr. President, Secretary-General, excellencies.")
+                self.assertEqual(speaker.name, name)
+                self.assertNotEqual(speaker.source, "asr-unverified")
+
+    def test_missing_day_json_falls_back_warns_once_and_reloads(self) -> None:
+        calls: list[tuple[str, str]] = []
+        clock = _Clock()
+        with tempfile.TemporaryDirectory() as tmp:
+            roster_dir, speakers_txt = self._dirs(tmp, with_json=False)
+            tracker = SpeakerTracker(
+                _config(speaker_roster_dir=str(roster_dir), speaker_roster_file=str(speakers_txt)),
+                now=lambda: TODAY,
+                on_roster_stale=lambda subject, body: calls.append((subject, body)),
+                monotonic=clock,
+            )
+            self.assertEqual([entry.name for entry in tracker.roster], ["Balendra Shah", "Hilda Heine"])
+            self.assertEqual(len(calls), 1)
+            self.assertIn("2026-09-25", calls[0][0])
+            tracker.refresh_roster(force=True)
+            self.assertEqual(len(calls), 1)
+
+            (roster_dir / "2026-09-25.json").write_text(json.dumps(DAY_ROSTER), encoding="utf-8")
+            clock.value = 30.0
+            self.assertFalse(tracker.refresh_roster())
+            clock.value = 61.0
+            tracker.observe(IRAQ_INTRO)
+            self.assertEqual(tracker.observe("Mr. President.").name, "Ali Falih Al-Zaidi")
+
+    def test_stale_roster_still_switches_on_full_intro(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            roster_dir, speakers_txt = self._dirs(tmp, with_json=False)
+            tracker = SpeakerTracker(
+                _config(speaker_roster_dir=str(roster_dir), speaker_roster_file=str(speakers_txt)),
+                now=lambda: TODAY,
+            )
+            tracker.observe(
+                "The assembly will hear an address by his Excellency Balendra Shah, "
+                "Prime Minister of Nepal."
+            )
+            self.assertEqual(tracker.observe("Mr. President.").name, "Balendra Shah")
+            tracker.observe(LAMOLA_INTRO)
+            speaker = tracker.observe("South Africa remains committed to multilateralism.")
+            self.assertEqual(speaker.name, "Ronald Aziz-Lomola")
+            self.assertEqual(speaker.source, "asr-unverified")
+            tracker.observe(LEBANON_INTRO)
+            self.assertEqual(tracker.observe("Mr. President.").name, "Nawaf Salam")
+
+    def test_lamola_maps_to_roster_when_listed(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            roster_dir, speakers_txt = self._dirs(tmp, with_json=True)
+            tracker = SpeakerTracker(
+                _config(speaker_roster_dir=str(roster_dir), speaker_roster_file=str(speakers_txt)),
+                now=lambda: TODAY,
+            )
+            tracker.observe(LAMOLA_INTRO)
+            self.assertEqual(tracker.observe("Mr. President.").name, "Ronald Ozzy Lamola")
 
 
 if __name__ == "__main__":

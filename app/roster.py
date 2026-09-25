@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import logging
 import re
 import unicodedata
@@ -145,6 +146,25 @@ _COUNTRY_ALIASES = {
     "congo kinshasa": "democratic republic of the congo",
     "gambia": "gambia",
     "micronesia": "micronesia",
+    # Gentilicios y formas oficiales que usa el chair ("Lebanese Republic").
+    "lebanese": "lebanon",
+    "hellenic": "greece",
+    "swiss": "switzerland",
+    "swiss confederation": "switzerland",
+    "french": "france",
+    "argentine": "argentina",
+    "kirgis": "kyrgyzstan",
+    "kyrgyz": "kyrgyzstan",
+    "kyrgyz republic": "kyrgyzstan",
+    "commonwealth of australia": "australia",
+    "iraqi": "iraq",
+    "maldivian": "maldives",
+    "maltives": "maldives",
+    "philippine": "philippines",
+    "onjuras": "honduras",
+    "endora": "andorra",
+    "kotevoire": "cote d ivoire",
+    "timolleste": "timor leste",
 }
 
 _OF_COUNTRY_RE = re.compile(r"\bof\s+(?:the\s+)?(.+)$", re.I)
@@ -208,6 +228,83 @@ def load_roster_file(path: str) -> tuple[RosterEntry, ...]:
         logger.warning("Speaker roster file not found: %s", path)
         return ()
     return parse_roster(file_path.read_text(encoding="utf-8"))
+
+
+def _json_title(speaker: dict) -> str:
+    rank = str(speaker.get("rank") or "").strip()
+    if rank:
+        return rank
+    title = str(speaker.get("speaker_title") or "").strip()
+    if title.casefold() in {"his excellency", "her excellency"}:
+        return ""
+    return title
+
+
+def parse_roster_json(payload: object) -> tuple[RosterEntry, ...]:
+    """Roster del pipeline (`speakers[].name/country`), igual que export-speakers."""
+    speakers = payload.get("speakers") if isinstance(payload, dict) else None
+    if not isinstance(speakers, list):
+        return ()
+    rows = [item for item in speakers if isinstance(item, dict)]
+    # Un mismo "nombre" en 3+ países es basura del widget de gadebate.
+    countries_by_name: dict[str, set[str]] = {}
+    for item in rows:
+        name = str(item.get("name") or "").strip().casefold()
+        country = str(item.get("country") or "").strip().casefold()
+        if name and country:
+            countries_by_name.setdefault(name, set()).add(country)
+    leaked = {name for name, countries in countries_by_name.items() if len(countries) >= 3}
+    entries: list[RosterEntry] = []
+    seen: set[str] = set()
+    for item in rows:
+        country = str(item.get("country") or "").strip()
+        name = str(item.get("name") or "").strip()
+        if name.casefold() in leaked:
+            name = ""
+        name = name or country
+        if not name:
+            continue
+        key = fold_name(name)
+        if key in seen:
+            continue
+        seen.add(key)
+        entries.append(RosterEntry(name=name, country=country, title=_json_title(item)))
+    return tuple(entries)
+
+
+def load_roster_json(path: str | Path) -> tuple[RosterEntry, ...]:
+    file_path = Path(path)
+    if not file_path.is_file():
+        return ()
+    try:
+        payload = json.loads(file_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        logger.warning("Speaker roster JSON unreadable | path=%s | %s", path, exc)
+        return ()
+    return parse_roster_json(payload)
+
+
+def merge_rosters(*groups: Sequence[RosterEntry]) -> tuple[RosterEntry, ...]:
+    merged: list[RosterEntry] = []
+    seen: set[str] = set()
+    for group in groups:
+        for entry in group:
+            key = fold_name(entry.name)
+            if key in seen:
+                continue
+            seen.add(key)
+            merged.append(entry)
+    return tuple(merged)
+
+
+def has_country_words(text: str) -> bool:
+    """Distingue "Lebanese Republic" de restos como "General Assembly" o "81st"."""
+    tokens = [
+        token
+        for token in fold_name(text).split()
+        if token not in _COUNTRY_SKIP and len(token) >= 4 and token.isalpha()
+    ]
+    return bool(tokens)
 
 
 def _as_entry(item: RosterEntry | str) -> RosterEntry:
