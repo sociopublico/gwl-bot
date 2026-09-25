@@ -101,6 +101,26 @@ class ParsePageTest(unittest.TestCase):
         )
         self.assertEqual(page.transcript_ai.filename, "81-brazil-en-transcript.txt")
 
+    def test_parses_ai_transcript_button_prepare_url(self) -> None:
+        config = load_session("81")
+        html = """
+        <title>Palestine (State of) | 81st session</title>
+        <button class="download-transcript btn btn-secondary" type="button"
+           data-un-gad-transcript-download
+           data-prepare-url="/en/node/81134/transcript/en/prepare-download">
+           Transcript (AI generated)</button>
+        """
+        page = parse_speaker_page(
+            config, "https://gadebate.un.org/en/81/palestine-state", html
+        )
+        assert page.transcript_ai is not None
+        self.assertEqual(page.transcript_ai.lang, "en")
+        self.assertTrue(
+            page.transcript_ai.url.endswith(
+                "/en/node/81134/transcript/en/prepare-download"
+            )
+        )
+
     def test_cascade_skips_missing_pdf_en(self) -> None:
         page = SpeakerPage(
             slug="brazil",

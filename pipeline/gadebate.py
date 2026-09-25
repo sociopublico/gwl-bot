@@ -150,7 +150,7 @@ def _pick_audios(audios: list[FileRef]) -> tuple[FileRef | None, FileRef | None]
 
 
 _TRANSCRIPT_PREPARE = re.compile(
-    r'href="([^"]+/transcript/([^/]+)/prepare-download)"',
+    r'(?:href|data-prepare-url)="([^"]+/transcript/([^/]+)/prepare-download)"',
     re.I,
 )
 

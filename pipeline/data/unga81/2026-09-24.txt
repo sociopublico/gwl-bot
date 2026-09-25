@@ -36,3 +36,5 @@ greece
 australia
 ireland
 nepal
+austria
+south-africa

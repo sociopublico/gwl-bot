@@ -1,0 +1,38 @@
+# Schedule gadebate /en 2026-09-25
+# morning
+kiribati
+maldives
+iraq
+lebanon
+monaco
+marshall-islands
+malta
+lesotho
+tuvalu
+north-macedonia
+solomon-islands
+saint-lucia
+albania
+pakistan
+papua-new-guinea
+niger
+bahamas
+haiti
+# afternoon
+guinea-bissau
+egypt
+saint-vincent-and-grenadines
+tonga
+samoa
+saint-kitts-and-nevis
+bahrain
+azerbaijan
+kazakhstan
+mauritania
+mexico
+mauritius
+chad
+norway
+guatemala
+sweden
+togo
