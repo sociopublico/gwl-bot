@@ -180,6 +180,17 @@ class CodebookHelpersTest(unittest.TestCase):
         self.assertIn("Annalena Baerbock", API_INSTRUCTIONS)
         self.assertIn("UN80", API_INSTRUCTIONS)
 
+    def test_methodology_covers_woman_sg_by_context(self) -> None:
+        from pipeline.coding import DEFAULT_PROMPT_PATH, API_INSTRUCTIONS
+
+        text = DEFAULT_PROMPT_PATH.read_text(encoding="utf-8")
+        for source in (text, API_INSTRUCTIONS):
+            self.assertIn("the highest level", source)
+            self.assertIn("no woman has held the office", source)
+            self.assertIn("Her or him", source)
+        self.assertIn("has never been led by a woman Secretary-General", text)
+        self.assertIn("no woman has ever led the UN as SG", API_INSTRUCTIONS)
+
     def test_rows_from_payload_fills_eight_and_skips_unknown_topic(self) -> None:
         speech = _speech()
         path = Path("M_1.txt")
