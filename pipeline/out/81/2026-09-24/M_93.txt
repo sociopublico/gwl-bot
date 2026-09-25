@@ -1,0 +1,103 @@
+---
+session: 81
+slug: nigeria
+id_speech: M_93
+country: Nigeria
+speaker: Kashim Shettima
+title: Vice President
+speaker_title: His Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/ng_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.666
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Excellencies, Heads of State and Government,
+
+Distinguished Delegates,
+
+I extend my warmest congratulations to you, Mr. President, on your election as President of the Eighty -First Session of the United Nations General Assembly and assure you of Nigeria’s full cooperation and support. I commend your predecessor’s stewardship o f this Assembly. I also salute the Secretary General, His Excellency António Guterres, for steering the United Nations through storms that have sharpened our awareness of the cost of inaction.
+
+2. None of us can pretend that conflicts within our borders or in lands far beyond them do not exact a price from us. Such is the reach of our interdependence. Such is the urgency of this session’s sacred duty to restore trust in the international institutions we established to reconcile our differences and advance our common interests.
+
+3. The persistence of conflict across the world recalls the purpose for which the United Nations was founded: to spare succeeding generations the devastation of war. We must therefore return to the founding principles of dialogue, mutual respect and collectiv e responsibility. Nigeria stands by the Charter and its promise of a world in which diplomacy prevails over coercion, cooperation over isolation and international law over the arbitrary exercise of power.
+
+Mr. President,
+
+4. The reform of this institution must begin with the reconstitution of the Security Council, for the world of 2026 cannot remain captive to the distribution of power in 1945. Africa cannot continue to fill the Council’s agenda while remaining absent from its permanent membership. Nigeria demands, in accordance with the Ezulwini Consensus and the Sirte Declaration, at least two permanent seats for Africa, with all the rights and responsibilities of permanent membership, including the veto for as long as it exists, and five non permanent seats in total. The authority to speak for humanity carries an obligation to represent it.
+
+5. Nigeria stands ready to assume greater responsibility on the strength of obligations honoured and sacrifices made over decades in the service of peace. From Liberia and Sierra Leone to Darfur, Mali and The Gambia, we have committed personnel and resources when international solidarity required action. Through ECOWAS, the African Union and our Gulf of Guinea partnerships, we continue to advance mediation, democratic governance, counter -terrorism and maritime security.
+
+Mr. President,
+
+6. Our foreign policy rests on the same conviction that guides our economic reforms. Through sound macroeconomic management, stronger institutions, private -sector development and strategic public investment, we seek to give practical meaning to our sustainabl e development commitments. This purpose binds our national advancement to our continent’s progress and to our responsibility to contribute to a peaceful, equitable and prosperous world.
+
+7. We understand that governments and multilateral institutions earn trust when their decisions improve lives. Yet none of these gains will matter if we turn a deaf ear to the threats gathering around our borders and farther afield. We inhabit the only planet known to sustain human life, and as long as that scientific fact holds, we cannot pretend that we are insulated from conflicts elsewhere. Geography offers no exemption from the consequences of a fractured world.
+
+Mr. President,
+
+8. We reject the false choice between development and climate action. Developing countries must industrialise, eradicate poverty and expand energy access through low -carbon pathways supported by technology transfer, capacity building and climate finance. Africa contributes less than four per cent of greenhouse gas emissions, yet bears disproportionate consequences. Nigeria remains committed to the Paris Agreement and an equitable energy transition that reflects historical responsibility and capacity while protecting people’s right to development.
+
+9. Under our Energy Transition Plan, we are working towards net-zero emissions by 2060 while expanding access to affordable, reliable and sustainable energy. This effort combines renewable energy, clean cooking and gas as a transitional fuel with climate -smart agriculture and nature based solutions. Finance must be governed by equity and shared responsibility rather than charity, with international commitments translated into accessible, predictable and adequately funded mechanisms enabling developing countries to pursue climate action without compromising development objectives.
+
+Excellencies,
+
+10. We refuse to surrender our technological future to paranoia.
+
+An invention can be destructive or beneficial, depending on the purposes it serves and the judgement of those who use it.
+
+A knife can take a life in the hands of an assailant and save one in the hands of a surgeon. We can deploy artificial intelligence t o wage war or use it to transform healthcare, education, agriculture, governance and economic productivity.
+
+Much of the anxiety surrounding AI reflects the distrust we have allowed to grow among us.
+
+11. Nigeria is investing in digital public infrastructure, broadband connectivity, innovation ecosystems, research institutions and technology entrepreneurship. We invite the world to work with our inventive, resourceful and enterprising young people to direct AI towards humanity’s advancement rather than its destruction.
+
+12. Mr. President,
+
+13. One of the greatest obstacles to sustainable development is inadequate financing. Many developing countries devote substantial resources to debt servicing at the expense of education, healthcare and infrastructure. Nigeria therefore calls for reform of the international financial architecture, wider access to concessional financing and debt sustainability frameworks that recognise developmental needs. We also support innovative financing through private capital, blended finance, South-South cooperation and strategic partnerships for sustainable development, climate adaptation and resilient infrastructure.
+
+14. Nigeria further recognises the African Continental Free Trade Area as one of the continent’s most transformative opportunities. It can strengthen regional value chains, expand intra-African trade, promote industrialisation and attract investment. Africa must move beyond its historical role as an exporter of raw materials towards greater value addition, manufacturing, technological innovation and knowledge driven growth. Our abundant natural resources must become engines of shared prosperity rather than sources of perpetual dependency.
+
+Mr. President,
+
+15. No nation, however formidable its defences, can secure itself completely against dangers sustained beyond its borders. Terrorism, organised crime, cyberattacks and illicit finance exploit the gaps between our national responses, drawing strength from the d ivisions that weaken collective action. Nigeria’s prolonged struggle against Boko Haram,
+
+ISWAP and other armed groups has taught us that military victories require enduring foundations in education, economic opportunity, accountable governance and communities whose rights and dignity are protected. Development cannot take root where violence repeatedly uproots livelihoods, and peace cannot endure where injustice and exclusion replenish the ranks of those who threaten it.
+
+16. Our common security therefore demands cooperation equal to the reach of the threats before us. We must exchange intelligence, strengthen institutional capacity, interrupt the financing of violence and prevent weapons from crossing borders that our responses too often fail to cross. The turmoil in the Sahel illustrates how insecurity in one territory can imperil its neighbours, displace populations and frustrate commerce, regional integration and democratic governance.
+
+As a founding member of ECOWAS, Nigeria upholds regional solidarity and African leadership in resolving these challenges, reinforced by principled international partnerships. No country can claim lasting safety while the forces capable of destabilising it retain sanctuary, resources and recruit s elsewhere.
+
+Excellencies,
+
+17. Nigeria remains committed to the peaceful settlement of disputes under the United Nations Charter. The conflicts in Sudan and other war-torn countries demand urgent diplomacy to address their humanitarian, economic and geopolitical consequences. All parties must uphold international humanitarian and human rights law, protect civilians and facilitate humanitarian access. Negotiated settlements must respect sovereignty and territorial integrity. Within and beyond our continent, no claim to security can justify starving children, denying relief to civilians or erasing communities from the land they call home.
+
+18. We should all be afraid of a world in which we can no longer tell the victim from the aggressor. When our investment in propaganda shields perpetrators from justice to the point that telling the truth becomes a crime, the promise of this institution stands betrayed.
+
+19. We place our faith in diplomacy because military victories alone cannot secure lasting peace. Dialogue, reconciliation and inclusive political processes must give people a stake in ending violence and preserving the agreements that follow.
+
+The United Nations must therefore strengthen peacekeeping and give greater attention to peacebuilding, mediation, institution-building and sustainable development. Prevention must command greater resources and political attention.
+
+Mr. President,
+
+20. Africa is ready for the future. Our resilience, our ingenuity, our youthful population, our natural wealth and our expanding markets can make us a major driver of global growth in this century. The African Continental Free Trade Area offers exceptional scope to deepen regional integration, accelerate industrialisation and strengthen our place in global value chains. De veloping countries must be recognised as indispensable partners whose contributions to global solutions and shared prosperity extend far beyond their need for assistance.
+
+21. Such a partnership requires a United Nations that evolves with the aspirations of present and future generations.
+
+Institutions that adapt preserve their relevance; those that resist change imperil it. Nigeria remains optimistic because history shows that countries acting with common purpose and determination can overcome obstacles once considered insurmountable. Our generation has the privilege of shaping the future and the responsibility to answer for it. Those who follow us will judge our courage in reforming outdated institutions, building cooperation across divisions, protecting the planet and directing technology responsibly.
+
+Mr. President, Excellencies, Distinguished Delegates,
+
+22. Nigeria pledges to choose cooperation over confrontation, dialogue over division, hope over fear and partnership over isolation. These choices must shape institutions that respond to the legitimate aspirations of all nations. Restoring trust requires us to honour our obligations to one another and to manage the changes before us with justice, wisdom and compassion.
+
+23. The world looks to this Assembly for leadership, and our debates must lead to action worthy of that expectation. Nigeria believes that the humanity we share is stronger than the divisions we have made and that cooperation remains wiser than conflict. A ref ormed, inclusive and effective United Nations is indispensable to the peaceful, just and sustainable world that future generations deserve. Whatever our differences, we must remember that humanity is our oldest citizenship, and peace is the inheritance we owe every child.
+
+24. I thank you for your kind attention.

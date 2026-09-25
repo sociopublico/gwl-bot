@@ -1,0 +1,243 @@
+---
+session: 81
+slug: bangladesh
+id_speech: M_100
+country: Bangladesh
+speaker: Tarique Rahman
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/bd_en.pdf
+language: en
+original_language: bd
+transformation: none
+via: pypdf
+elapsed_s: 0.813
+---
+
+Mr President, 1.
+
+I congratulate you on your election as President of the 81st Session of the United Nations General Assembly. I assure you of our full support and cooperation as you discharge your responsibilities as President. At the same time, I extend my gratitude to the outgoing President, Madam Annalena Baerbock, for her able leadership.
+
+2.
+
+Let me begin by paying my deepest respect to all the martyred freedom fighters of Bangladesh. I respectfully remember the contributions of those who have made the ultimate sacrifice in the struggle to establish democracy, justice and people's rights in our country since independence. I also pay my sincere respect to all those who were martyred and injured in the mass uprising of courageous students and people in July–August 2024 against fascism.
+
+3.
+
+After more than a decade and a half of movement and struggle against fascist rule and exploitation, and through the sacrifice of thousands of lives, Bangladesh is now free from fascism. In a free, fair and impartial national election held on 12 February this year, the people entrusted the Bangladesh Nationalist Party (BNP) with the responsibility of governing the country. I congratulate the democracy-loving people of Bangladesh. We believe that the people are the source of all our political power.
+
+4.
+
+Mr President,
+
+Standing on this world stage of the United Nations, I am somewhat nostalgic at this moment. It was from this very world stage that my father, Shaheed President Ziaur Rahman, the proclaimer of Bangladesh's independence, and my mother, former Prime Minister late Begum Khaleda Zia, addressed the world on behalf of the country and its people. Today, I too stand here to speak for the interests of my country and its people, and in the hope of a peaceful world community.
+
+5.
+
+In this age of globalisation, whatever happens in any part of the world has, to varying degrees, a negative impact on every country. Human -made conflicts have created situations of unrest in many countries. Vast numbers of people are being displaced, giving rise to humanitarian crises. Wars and conflicts are placing immense pressure on the global economy. Energy security concerns, disruptions to global energy supply systems and rising inflation are worsening the economic situation.
+
+6.
+
+We believe that every conflict should be resolved through dialogue, diplomatic processes and mutual cooperation.
+
+Equality, fairness, protection of mutual interests, and respect and dignity among disputing states should form the basis of bilateral and multilateral relations. We aspire to a peaceful world, a humane global community where, rather than weapons of destruction, reason and debate, diplomacy, education and humanity become the instruments of change. Bangladesh sees the United Nations as the centrepiece for establishing an accommodative global community based on mutual respect for one another's independence and sovereignty.
+
+7.
+
+Mr President,
+
+The tendency to divert development budgets towards military expenditure in different parts of the world reverses the direction of our journey towards global peace. As a peace -loving nation, Bangladesh remains committed to the goals of complete and general disarmament, preventing the proliferation of nuclear weapons, and arms control.
+
+I reiterate Bangladesh’s support for any initiative at the United Nations dedicated to establishing world peace and serving humanity.The people of Bangladesh, who believe in democracy, remain deeply concerned about the plight of the freedom seeking Palestinian people. Bangladesh once again reaffirms its unwavering support for their legitimate demands, including their right to self -determination and their right to establish an independent State of Palestine.
+
+8.
+
+Mr President,
+
+In the prevailing global circumstances, the theme of the 81st Session of the United Nations General Assembly, “Restoring Trust, Managing Transformation: A United Nations that Delivers for All”, is highly relevant and timely. Bangladesh remains steadfast in its commitment to multilateralism in maintaining international peace and security.
+
+As Vice-Chair of the Peacebuilding Commission, Bangladesh continues to serve as a strong voice for sustainable peace, conflict prevention and inclusive peace. As a consistent contributor to United Nations peacekeeping missions, Bangladeshi peacekeepers are serving humanity in different parts of the world.
+
+9.
+
+The courageous participation of Bangladeshi women in peacekeeping missions, even under adverse circumstances, reflects our strong commitment to advancing the agenda of “Women, Peace and Security”.
+
+This year, Bangladesh is observing the 40 th anniversary of the Declaration on the Right to Development and the 25 th anniversary of the Durban Declaration and Programme of Action.
+
+Migration is as old as human civilisation. In many countries around the world, migrants make important contributions to the economies of both their countries of origin and their countries of destination. The government of Bangladesh is committed to ensurin g regular, safe and orderly migration. Bangladesh expects stronger global cooperation to ensure the rights, dignity and well-being of migrants.
+
+10.
+
+Mr President,
+
+For more than nine years, Bangladesh has been sheltering more than 1.2 million forcibly displaced Rohingya from Myanmar. This has placed immense pressure on our resources, environment, security and local communities.
+
+As a densely populated country, Bangladesh believes that the source and origin of the Rohingya crisis lie in Myanmar; therefore, its solution also lies there. The only solution to this problem is the early safe return of the displaced Rohingya people to their homeland, Myanmar.
+
+11.
+
+For a lasting solution to this crisis, Bangladesh expects firm and effective support from the United Nations and the international community. At the same time, I call upon the United Nations and the international community to continue life -saving assistance programmes for the displaced Rohingya people until they can be repatriated to their own country, Myanmar.
+
+If the international community fails to ensure justice for the displaced Rohingya people, this could turn into a humanitarian crisis in the near future.
+
+12.
+
+Mr President,
+
+Bangladesh is one of the countries most vulnerable to the adverse impacts of climate change. Although Bangladesh has contributed little to global carbon emissions, it is bearing the adverse consequences of climate change.
+
+In these circumstances, Bangladesh has chosen the path of building resilience and developing the capacity to survive and adapt. Therefore, Bangladesh expects stronger global action at COP31 on climate justice, climate finance and adaptation support.
+
+13.
+
+The government of Bangladesh has strengthened its programmes for environmental protection. As part of these efforts, the government has launched a programme to plant 250 million trees across the country over the next five years.
+
+Emphasis has been placed on the use of clean energy and solar energy. With the aim of freeing the country from the scourge of floods and droughts, the government has also launched a programme to excavate 20,000 kilometres of canals across the country.
+
+14.
+
+The government has also begun work on the Teesta Master Plan and the Padma Barrage project to increase freshwater flows into the world's largest mangrove forest, the Sundarbans, and to conserve water through large reservoirs.
+
+At the same time, while strengthening domestic measures for water conservation and pollution prevention, the Government has reaffirmed its commitment to cooperation on transboundary water management by signing the 1992 Water Convention.
+
+15.
+
+Mr President,
+
+After ending more than a decade and a half of fascist rule and exploitation,
+
+Bangladesh became free from fascism in 2024. Having been freed from the scourges of enforced disappearances, killings, abductions, corruption, plunder and money laundering that ha d become the norm under fascist rule, Bangladesh is now once again embarking on the path of democracy.
+
+To repair a Bangladesh battered by fascist rule and exploitation, the Government is pursuing a 3-R strategy: Recovery, Restoration and Reconstruction.
+
+16.
+
+A vast horizon of opportunities has now opened before Bangladesh. Taking advantage of the demographic dividend, the Government has begun implementing extensive programmes to transform the country's working -age population into a skilled human resource.
+
+The Govenrment has also undertaken some forward -looking i nitiatives to create large-scale employment opportunities and transform Bangladesh into a ‘Manufacturing Hub’.In this endeavour, Bangladesh wants its development partners by its side. To create opportunities for young entrepreneurs, researchers and innovators in the country to pursue start-up initiatives, the Government has allocated US$4 billion in the current fiscal year.
+
+17.
+
+Mr President,
+
+More than half of the country's population is female. Therefore, women are at the forefront of all government plans for socio-economic transformation.
+
+The government is giving priority to women's education, women's employment and the creation of women entrepreneurs. To promote women entrepreneurship, particularly in the small and medium -sized industrial sector, the Government has expanded opportunities for cash financing for women.
+
+Free education opportunities up to the undergraduate level have been opened to women.
+
+18.
+
+The government seeks to ensure not only electoral democracy but also the democratisation of the economy, so that the benefits of economic growth and prosperity reach every family and every citizen.
+
+To achieve this goal, the government has already launched assistance programmes for economically disadvantaged people through various social protection programmes, including the Family Card, Farmers’ Card, Sports Card and e -Health Card.
+
+19.
+
+The government considers the Family Card, issued in the name of the female head of each household, a symbol of women's economic empowerment.
+
+It is also in the government's plans to introduce a Universal Card by integrating the various cards introduced to provide support in different sectors.
+
+20.
+
+Mr President,
+
+The government is implementing the 31 -point programme presented to the people before the national election of 12 February 2026.
+
+At least 73 per cent of the activities under the Government's 31 -point programme have a direct alignment, and 27 per cent an indirect alignment, with the United Nations Sustainable Development Goals and their guiding principle of “Leave No One Behind.”
+
+21.
+
+The government hopes that through the implementation of these programmes, development disparities between urban and rural areas will be reduced, while accountability and inclusive, sustainable development will be advanced across all areas of the 2030 Agenda.
+
+The government of Bangladesh has accorded special importance to education, health and sports.
+
+The highest budgetary allocation in the country's history have been made in the education sector. Our plan is to increase budgetary allocation to education to 5% of GDP within next five years.
+
+A curriculum has been developed with emphasis on technical and practical education to ensure an employment-oriented education system with strong ethical values.
+
+22.
+
+From the first grade, primary -school students are being provided with schoolbags and clothing, that is, school uniforms, as well as free lunch.
+
+The government hopes that this will increase school enrolment and improve the quality of education.
+
+To establish sports as a profession, sports has been included as a subject in the education curriculum for the first time.
+
+As part of this initiative, more than 2 million students participated in a month -long nationwide football tournament for school students held last June.
+
+23.
+
+Mr President,
+
+Science and technology will shape the future of the world. We are entering a new era of artificial intelligence, biotechnology and science.
+
+Technology is advancing very rapidly, but its opportunities are still not equally accessible to all. Bangladesh's large young population and growing digital capabilities have created new possibilities for us.
+
+To harness these opportunities, access to advanced technology, knowledge and research must be brought within everyone's reach.
+
+24.
+
+We do not want today's digital divide to become tomorrow's artificial intelligence divide.
+
+Bangladesh respects innovation and intellectual property. At the same time, it is essential to ensure technology transfer, skills development and affordable access to modern technologies for developing countries.
+
+25.
+
+No country should be left behind in this scientific advancement. Bangladesh stands ready to work together to build a fair and prosperous future for all.
+
+It is now time for the United Nations to adopt an effective policy framework so that the benefits of the development and rapid expansion of artificial intelligence and social media can be harnessed positively across countries.
+
+26.
+
+Mr President,
+
+Bangladesh is awaiting graduation from the list of Least Developed Countries (LDCs).
+
+For Bangladesh, as well as for all other countries undergoing this process, sustained support in areas such as assured financing, greater market access, technology transfer and capacity -building is essential to make the graduation process sustainable.
+
+27.
+
+In the present world order, all countries are interdependent. Bangladesh believes that, particularly at the regional level, we can help one another achieve prosperity through the facilitation and expansion of trade, effective connectivity and meaningful cooperation.
+
+The COVID-19 pandemic claimed the lives of millions of people around the world.
+
+But it also sent a message to the world: for the global community to survive, mutual assistance, empathy and cooperation are indispensable.
+
+It is essential to ensure sustainable production of vaccines, therapeutics and diagnostic equipment in developing countries so that these are readily accessible to all.
+
+28.
+
+Mr President,
+
+A state can never become strong by keeping its citizens powerless.
+
+Through ensuring the political and economic empowerment of the people, we want to build a prosperous, self-reliant, welfare-oriented democratic state where everyone, irrespective of political affiliation, religion or ethnicity, can live with security and peace, and with equal rights, honour and dignity.
+
+29.
+
+Mr President,
+
+Bangladesh continues to make progress in all areas, including democracy, human rights, good governance, accountability, political stability and the investment environment.
+
+The government is working to establish a safe and stable Bangladesh with a business- and investment-friendly environment.
+
+In today's democratic Bangladesh, we welcome partnership, innovation, and both domestic and foreign investment.
+
+30.
+
+We want to build a Bangladesh where young people can pursue their dreams without fear or hindrance; where women can lead their lives with confidence; where every child grows up with the opportunity to realise their full potential; and, above all, where people are assured of a safe and peaceful life.
+
+That is why we say: “Bangladesh First — Bangladesh for All.”
+
+I conclude my address by reaffirming Bangladesh’s unwavering commitment to the values and principles of the United Nations in order to build a peaceful world.
+
+31.
+
+Mr President,
+
+Thank you.
+
+Bangladesh Zindabad.

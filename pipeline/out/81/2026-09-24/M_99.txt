@@ -1,0 +1,121 @@
+---
+session: 81
+slug: georgia
+id_speech: M_99
+country: Georgia
+speaker: Irakli Kobakhidzhe
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/ge_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.657
+---
+
+Distinguished Delegates, Dear Friends of Georgia, ● It is a privilege to stand before this Assembly on behalf of Georgia - a nation shaped by centuries of history, resilience, and engagement with a changing world.
+
+● We meet at a time of considerable change in the international environment.
+
+● Developments in different parts of the world are challenging existing arrangements and raising questions about the future of the international order.
+
+● In this context, maintaining peace and strengthening international cooperation remain key priorities.
+
+● In light of the growing number of global challenges, сoordinated responses to common obstacles, conflict prevention and the achievement of the 2030 Agenda for Sustainable Development are possible only through strengthened international cooperation and a sh ared commitment to collective action.
+
+● Lasting peace cannot be imposed by force; it must be built through communication and mutual respect.
+
+● Few countries understand the value of peace, stability, and sovereignty as deeply as Georgia does.
+
+● For centuries, we stood at the crossroads of civilizations open to diverse cultures, peoples, and ideas, while steadfastly preserving our own distinct identity and character.
+
+● Georgia’s statehood has been tested more than once, but these challenges have only strengthened our determination to choose our own path.
+
+● The trials of history have also taught us that sovereignty can never be taken for granted, that stability must be protected, and that the strength of the international order ultimately depends on the same principles being upheld for every nation.
+
+● Our commitment to these principles carries particular meaning for Georgia.
+
+● Twenty percent of our country remains under the occupation of the Russian Federation, while hundreds of thousands of our citizens continue to live in displacement, unable to return to their homes.
+
+● While restoring trust is the major theme of this year’s session,
+
+I would like to address our Abkhaz and Ossetian brothers and sisters.
+
+● We have shared a homeland and a history for centuries.
+
+● The divisions of today cannot erase that history, nor should they determine the future of our children.
+
+● We believe that the dividends of peace and economic growth of Georgia should know no artificial boundaries.
+
+● It must reach the people living in our occupied historic regions as well – who remain, and will always remain, part of our shared future.
+
+● The challenges facing our country also remind us that national stability and success cannot be separated from the wider regional context.
+
+● We believe that the South Caucasus should not be defined by the divisions of the past.
+
+● We have consistently sought to act as an honest broker in regional initiatives, fostering cooperation and contributing to peaceful solutions.
+
+● Today, we see a genuine opportunity to turn a new page and build a more peaceful and interconnected region based on shared commitment to a better future.
+
+● This spirit of cooperation must also translate into tangible economic opportunities for the region.
+
+● As an integral part of the South Caucasus and the Middle Corridor, Georgia is well positioned to strengthen connectivity between Central Asia and Europe.
+
+● Our strategic location and direct access to the Black Sea facilitate trade and investment, linking landlocked countries in our wider region to global supply chains.
+
+● Our network of free trade agreements provides access to a market of approximately 2.3 billion consumers.
+
+● To support and further advance connectivity agenda, Georgia plans to invest USD 7 billion by 2032 in major transport infrastructure - modernizing the railway, developing the Anaklia Deep Sea Port, building a new international airport in Tbilisi, and expanding the highway network.
+
+● At the same time, we believe that physical and digital connectivity are two parts of the same strategic agenda.
+
+● Through a Black Sea submarine fiber -optic connection and next-generation data infrastructure, Georgia aims to strengthen secure, resilient, and diversified digital links between Europe and Asia.
+
+● These ambitions are underpinned by Georgia’s strong economic performance.
+
+● Over the past five years, our economy has grown by an average of 9.3 per cent annually, and this momentum has continued in 2026, with growth reaching 7.9 per cent in the first seven months of the year.
+
+● As the International Monetary Fund projects, Georgia will deliver one of the fastest growth rates in the medium term among regional and European countries, averaging 5.4%.
+
+● With one of the fastest-growing economies worldwide, we are actively building an innovation -oriented, business -friendly environment that supports both local and foreign enterprises.
+
+● Despite the global uncertainty, Georgia’s FDI to GDP ratio is one of the highest among peer countries and averaged over 6% of GDP in 2021–2025, highlighting the confidence of investors in the country’s growth potential.
+
+● Georgia’s FDI outlook is supported by a pipeline of large, multi-year investment projects across transport and logistics, energy infrastructure, tourism and real estate.
+
+● Yet the true measure of success is how it improves people’s lives.
+
+● Strong economic performance must translate into tangible social outcomes - higher output per person, rising real wages, declining poverty, better employment opportunities, and greater economic resilience.
+
+● We are already seeing these outcomes reflected in measurable improvements, including a triple decline in Georgia’s poverty rate, which dropped from 21.3 to 7.1 percent since 2020.
+
+● Yet this achievement is only part of the broader transformation we seek to achieve.
+
+● Over the next five years, our focus will therefore be on narrowing disparities between urban and rural communities, expanding opportunities across every region, and ensuring that the benefits of economic growth are shared widely and that no one is left behind.
+
+● These priorities are fully aligned with Georgia’s commitment to the Sustainable Development Goals and are reflected in our new United Nations Sustainable Development Cooperation Framework for 2026–2030.
+
+● Looking further ahead, our ambition for the coming decade is to transform Georgia from an upper -middle-income country into a high -income economy, underpinned by greater economic diversification, a growing share of knowledge based activities, and broad-based prosperity.
+
+● Excellences, Ladies and Gentlemen, ● The progress we seek at home is inseparable from the cooperation we build beyond our borders.
+
+● Georgia remains open to meaningful engagement with every international partner prepared to engage with us on the basis of mutual respect and sovereign equality.
+
+● We believe that lasting partnerships are built through dialogue and never through pressure or coercion.
+
+● The principles of respect and cooperation are also at the heart of effective multilateralism.
+
+● At a time of growing global uncertainty, the United Nations remains indispensable as a forum for dialogue and collective action.
+
+● In this regard, the UN80 Initiative provides a valuable opportunity to strengthen the effectiveness and capacity of the United Nations, while further enhancing its transparency and accountability.
+
+● Georgia stands ready to work constructively with international partners and contribute actively to this process.
+
+● We firmly support reforms that will strengthen the Organization’s capacity to deliver better and become more results-oriented.
+
+● The choice we make today will shape the world we leave to future generations.
+
+● Let us ensure that we leave them a world that is more peaceful, secure and united than the one we know today.

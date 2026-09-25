@@ -1,0 +1,221 @@
+---
+session: 81
+slug: fiji
+id_speech: M_91
+country: Fiji
+speaker: Ratu Naiqama Tawakecolati Lalabalavu
+title: President
+speaker_title: His Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/fj_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.036
+---
+
+The President of the United Nations General Assembly,
+
+Your Excellency Dr. Khalilur Rahman,
+
+The Secretary-General, Mr. António Guterres,
+
+Fellow Heads of State and Government,
+
+Excellencies,
+
+Ladies and Gentlemen,
+
+Ni sa bula vinaka, and a very good afternoon to you all.
+
+I bring warm greetings from the people of Fiji, and from the Blue Pacific Continent.
+
+Mr. President,
+
+I congratulate you on assuming the Presidency of the Eighty-First Session of the United Nations General Assembly. Fiji assures you of our full support as you guide this Assembly through a period of profound uncertainty and transformation. Our Prime Ministe r, the Honourable Sitiveni Rabuka, joins me in wishing you and all Member States a peaceful, productive and successful session.
+
+I acknowledge your predecessor, Her Excellency Annalena Baerbock, for her stewardship of the Eightieth Session.
+
+I pay tribute also to Secretary-General António Guterres, who addresses this general debate for the last time in that office.
+
+Through a decade of turbulence he has defended multilateralism and stood with Small Island Developing States. Fiji thanks him.
+
+Mr. President,
+
+The theme of this session — “Restoring Trust, Managing Transformation: A United Nations that Delivers for All” — speaks directly to the condition of our world.
+
+We face deepening geopolitical rivalry, armed conflict, climate and environmental crises, economic uncertainty, disrupted supply chains, rapid technological change, and an information environment corroded by disinformation.
+
+These crises do not remain where they begin. Conflict raises the cost of fuel and food far beyond its borders.
+
+Carbon emitted far from the Pacific takes our shorelines, our homes and our sacred places.
+
+For Small Island Developing States, distance no longer insulates us from global shocks. Too often, it magnifies their cost.
+
+Trust, therefore, is not restored by declarations alone. It is restored when commitments are kept, when international law is applied consistently, when institutions listen, and when people can see and feel the results of multilateral action in their daily lives.
+
+Mr. President,
+
+Fiji reaffirms an enduring principle: international law is not optional, and peace cannot be secured by power alone.
+
+For small States, the principles of the Charter — sovereign equality, territorial integrity, the peaceful settlement of disputes — are the safeguard against a world in which size or military strength decides whose rights matter.
+
+When the world asks small States to choose between competing power blocs, Fiji chooses principles. We choose the Charter. We choose international law.
+
+We choose dialogue over coercion, human dignity over domination, and cooperation over confrontation.
+
+Fiji calls for the peaceful settlement of conflicts wherever they occur.
+
+We urge all parties to protect civilians, respect international humanitarian law, and return to the negotiating table.
+
+The Charter does not apply differently according to who is involved, or where. Fiji asks the same of every party, in every theatre.
+
+Energy, food security and supply chains are inseparable from peace. The freedoms of navigation guaranteed under international law, including the United Nations Convention on the Law of the Sea, must be respected.
+
+Fiji will continue to serve in United Nations peace operations. We ask only that they be properly mandated, properly financed and properly supported — and we support renewed investment in prevention, mediation and the quiet diplomacy that stops wars before they begin.
+
+We carry a simple Pacific conviction: the life of a stranger is worth protecting, dialogue is worth pursuing, and peace, however difficult, is always worth building.
+
+COOPERATION Mr. President,
+
+The Pacific knows the cost of militarization and nuclear testing.
+
+Our ocean carries the memory of decisions made elsewhere but suffered by Pacific peoples. That memory strengthens our determination that the Blue Pacific remain a region of peace.
+
+The Ocean of Peace Declaration expresses a regional vision grounded in sovereignty, international law and the rejection of coercion.
+
+Our message to all partners is clear: the Pacific welcomes friendship, investment and genuine cooperation — but our ocean must not become a theatre in which others settle their rivalries.
+
+For Small Island Developing States, regional cooperation is not an optional layer of diplomacy.
+
+It is a practical necessity. Separated by vast distances, with small populations and narrow economic bases, what is difficult alone becomes possible together. We must take it further still — through connectivity, food and energy security, and Pacific -led f inancing such as something the Pacific has built. The Pacific Resilience Facility is the first climate and disaster financing facility owned, governed and hosted by the States it serves.
+
+Its treaty entered into force in May, it is seated in Tonga, and its first grants are already reaching our communities.
+
+It exists because a village seawall does not need a threeyear accreditation process. It needs money that arrives.
+
+Its initial capitalisation target is five hundred million United States dollars by December, of which one hundred and seventy-three million has been pledged.
+
+I thank those who have come forward, and I ask those able to close that gap to do so.
+
+Cooperation of this kind does not diminish our sovereignty. It strengthens our ability to exercise it.
+
+RENEWAL Mr. President,
+
+The call to restore trust must also apply within our own nations. Fiji's democratic journey has not been easy. We have known political upheaval, constitutional change and periods of deep division. We cannot change that history, but we can learn from it.
+
+This year Fiji undertook a national review of the 2013 Constitution, informed by consultations across the country. On 1 September the Commission presented its report to me as Head of State. That did not end the process; it began the next stage.
+
+The report must now proceed through Parliament and the democratic processes, transparently and in accordance with the rule of law.
+
+What Fiji seeks is not a Constitution for a government, a party or one generation, but a settlement that every Fijian recognizes as their own. Alongside it, our Truth and Reconciliation process continues. Renewal strengthens institutions; reconciliation heals divisions.
+
+Together they can carry Fiji from memory to understanding, and from division to trust.
+
+Mr. President,
+
+If the United Nations is to restore trust, it must also be willing to reform itself.
+
+Fiji supports the UN80 reform agenda to make the Organisation more coherent, efficient and effective. But reform must be judged by a single test: what it improves for people and for Member States.
+
+For Pacific Small Island Developing States, efficiency must not mean distance. The Multi -Country Offices serving our region are essential bridges between global commitments and island realities.
+
+Reform must strengthen, not thin, our capacity to deliver where need is greatest.
+
+This Assembly will also select the next Secretary General. Fiji asks for a process that is transparent and merit-based — and for a Secretary -General who understands the realities of small island States and will act on them. For too long our circumstances h ave been well diagnosed and poorly addressed.
+
+The promise to “deliver for all” must also be measured in development. With 2030 approaching, too many Sustainable Development Goals remain off track.
+
+National income alone cannot capture remoteness, disaster exposure and the repeated burden of rebuilding.
+
+The Multidimensional Vulnerability Index must move from adoption to application.
+
+There is one measure of delivery that reaches Fijian households directly. Remittances are now Fiji’s third largest source of foreign exchange. They pay school fees, rebuild homes after cyclones, and sustain families between harvests. They are not aid. They are the earnings of Fijians abroad, sent home.
+
+Yet Pacific corridors remain among the most expensive in the world through which to send money. In May, in this Hall, we recommitted ourselves to bring transfer costs below three per cent, and to eliminate corridors costing more than five. Pacific corridors are among those. Fiji asks that this be treated as an obligation and not an aspiration.
+
+Labour mobility must also not become a one -way transfer of the people we have trained.
+
+Fiji does not begrudge any Fijian the chance to build a life abroad. We ask only that those who recruit our nurses and teachers invest in the systems that produced them.
+
+And this belongs beside what I have said of reconciliation. Not every Fijian abroad left in search of work. Some left in seasons of upheaval, when they did not feel that the country was theirs. They are Fijians still, and so are their children.
+
+A supreme law that belongs to every citizen must belong to them also. Fiji’s door is open.
+
+This month, Fiji declared a national HIV emergency.
+
+One in sixty of our adults is now estimated to be living with the virus. Fewer than four in ten know it.
+
+I say this plainly, because stigma and silence are how this epidemic grew — and because the late Ratu Epeli Nailatikau, our former Head of State and UNAIDS Goodwill Ambassador for the Pacific, spent his last years telling us so.
+
+This is also a security question. Methamphetamine trafficked into our region by transnational criminal networks is now driving transmission through injecting drug use. Our borders are ocean, our populations are small, and the profits at stake exceed our national budgets. A country of under a million people cannot interdict a global supply chain alone.
+
+So Fiji asks three things: that treatment and diagnostics reach small States at prices we can pay; that the Global Fund and UNAIDS be resourced at a level that does not force triage between regions; and that our partners treat Pacific narcotics interdiction as the shared security interest it is.
+
+These are the same loss. A nurse who emigrates is a nurse Fiji trained and will not have. A Fijian who dies at thirtyfive of a treatable virus is the same subtraction, made permanent, with the cost of care left behind. Small States are not losing workers at the margin. We are losing the capacity to staff our own future.
+
+Mr. President,
+
+Nowhere is the gap between promise and delivery more consequential than in the climate crisis.
+
+For the Pacific, climate change is not a future scenario.
+
+It is saltwater entering farmland, coastal erosion moving closer to homes, stronger storms damaging schools and roads, pressure on fisheries and food security, and communities facing relocation.
+
+This is a question of science. It is also a question of justice.
+
+This Assembly has this week addressed the threats posed by sea-level rise. For Fiji the legal consequences are not abstract. Statehood, once established, continues.
+
+Maritime zones, once lawfully established and deposited with the United Nations, must remain — notwithstanding the physical changes brought by sea -level rise. No State should lose its rights, its identity or its seat in this Hall because others have altere d its coastline. Fiji urges this Assembly to carry that principle from declaration into settled international law.
+
+Fiji welcomes the Advisory Opinion of the International Court of Justice on the obligations of States in respect of climate change. It confirms that climate responsibility is not only political or moral — it is legal.
+
+The task now is implementation: obligations recognised by the Court must be reflected in national commitments, in the conduct of States, and in the outcomes of our negotiations.
+
+Climate finance must move from promise to access, and from announcement to disbursement. The Loss and Damage Fund must operate at a scale that reflects actual need, and access must be simplified — for small administrations, the cost of applying should never exceed the capacity to apply.
+
+In November, the world gathers in Antalya for COP31.
+
+Before that, Fiji hosts the Pre -COP, and Tuvalu a Leaders’ event, in early October.
+
+To every delegation in this Hall: come to the Pacific. See what a rising sea means to a village that has nowhere to move. Then let us go to Antalya and deliver — on adaptation, on finance, on loss and damage, and on the transition away from fossil fuels.
+
+As a Large Ocean State, Fiji’s identity, economy and future are inseparable from the ocean. Illegal fishing, pollution, biodiversity loss and warming, acidifying seas do not respect national boundaries — and no island nation can meet them alone.
+
+This year, the Agreement on marine biodiversity beyond national jurisdiction entered into force — a genuine achievement of multilateralism. Fiji calls for universal ratification, for a first Conference of the Parties that delivers a functioning institution, and for capacity building and technology transfer that are real rather than aspirational.
+
+And in the deep sea we ask of others only the discipline we ask of ourselves: that no exploitation proceed until the science is sufficient and the rules are sound. The common heritage of humankind is an obligation owed to those not yet born.
+
+Mr. President,
+
+Fiji comes to this Assembly as a small island State, but not with a small vision.
+
+Our size does not diminish our voice.
+
+Our vulnerability does not diminish our agency.
+
+And our distance from the centres of power does not distance us from its consequences.
+
+Transformation will happen whether we manage it or not. The real question is what kind of transformation we choose.
+
+Will it be governed by law, or by power?
+
+And will this Assembly remain a place where we describe crises — or become an institution that solves them?
+
+Let this Eighty-First Session be remembered not for the depth of our concern, but for the courage of our decisions.
+
+Let us build a United Nations that is trusted because it is fair; relevant because it adapts; and respected because it delivers.
+
+Let us build a Pacific that remains an Ocean of Peace — united in purpose, confident in its identity, and strong enough to shape its own future.
+
+And let us remember that the measure of what we do here will not be found in our speeches. It will be found in whether a coastal community can remain on the land of its ancestors, and whether a young person can trust democracy and find a future at home.
+
+That is the United Nations Fiji believes in.
+
+And that is the trust we must restore — together.
+
+Vinaka vakalevu.
+
+I thank you.

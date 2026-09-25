@@ -1,0 +1,151 @@
+---
+session: 81
+slug: slovenia
+id_speech: M_102
+country: Slovenia
+speaker: Janez Janša
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/si_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.637
+---
+
+Mr. President, excellencies, distinguished delegates,
+
+At the outset, let me congratulate His Excellency Mr. Khalilur Rahman on his election as President of the 81st session of the General Assembly, and I wish him every success in guiding this session.
+
+Allow me to begin my speech by quoting the sentences that I delivered on behalf of Slovenia, on behalf of vast number of current and former heads of states and governments who signed our declaration for this rostrum in 2012. I quote: » This year's theme of the United Nations Assembly is peaceful resolution of disputes... Last year we celebrated the sixtieth anniversary of the entry into force of the Convention on prevention and punishment of the crime of genocide. The Convention was the fruit of the tire less efforts of the Polish jurist of Jewish descent,
+
+Raphael Lemkin...
+
+I would like to remind you that since the end of the Second World War alone; there have been more than 80 countries witnessing mass atrocities. At least 53 million innocent people lost their lives. Behind these numbers are concrete men and women, as well as children. They had a future, but they were not allowed to live that future.
+
+For this reason, I call on the Member States of the United Nations, regional organizations and the Uni ted Nations system to develop a new approach and a strategy for the prevention of genocide and other mass atrocities...
+
+In addition, an intergovernmental forum of like -minded states should be established in order to propose a United Nations resolution that would give a clear mandate for preparation and adoption of an appropriate legal mechanism – legal mechanism that would give the concept of the "responsibility to protect" a new tool, a legal mechanism that will enforce the prevention of crime, a mechanism that will enable a faster and more effective response to acts of genocide and other mass atrocities...
+
+I would like to inform you that this initiative also comes from international civil society.
+
+The Institute for Cultural Diplomacy has gathered thousands of supporters at international non-governmental organizations, among lawyers, students, journalists and others...
+
+As early as 1946, Raphael Lemkin declared: "Our heritage is the result of the contribution of all nations." All nations, as well as the United Nations as a whole, have great responsibility, as well as an enormous opportunity to prevent atrocities in the future. We cannot escape history, but we can learn something from it... I firmly believe that the mistakes we made yesterday we do not want to repeat tomorrow. We took responsibility for this world from our fathers, and we have a great responsibility to make it better for our children. I call on you to improve it by joining all our efforts for a world free from genocide and other mass atrocities." End of quote.
+
+After 14 years, I note that, despite the great initial support, our initiative has not been realized. It has been drowned in new crises, in the incompetence and ignorance of the individuals and institutions responsible, and in the double standards that have further marked the behavior of our United Nations. Today, we are even further away from the goal we tried to achieve 14 years ago.
+
+The theme of this year's session is therefore actually very well chosen. Restoring trust. A United Nations that is here for everyone. Because: Trust begins with a simple question: do we apply our principles consistently, or only when it is politically convenient?
+
+The United Nations was founded on universal principles: sovereignty, equal dignity, the rule of law, the peaceful settlement of disputes, and the protection of human rights.
+
+But principles lose their meaning when they are applied selectively.
+
+Mr. President, distinguished delegates,
+
+Let us be concrete.
+
+For decades, the United Nations has devoted significant institutional attention to the question of Palestine. The General Assembly has adopted resolution after resolution, while the Security Council and Human Rights Council have repeatedly addressed the situation.
+
+Let me be clear: the search for peace and security in the Middle East is of profound importance, and the suffering of Palestinian and Israeli civilians deserves serious and sustained consideration. Every civilian life matters.
+
+But are we applying the same standard of urgency when victims are elsewhere?
+
+Last year alone, over four thousand eight hundred Christians were killed because of their religion. More than three hundred million Christians around the world suffer discrimination and persecution. In Iran, the criminal theocratic regime has brutally murdered tens of thousands of its own citizens this year alone.
+
+After 1948, more than one million Jews fled or were expelled from Arab countries, many amid persecution and violence.
+
+Or consider Nigeria.
+
+For more than a decade, Nigerian communities have faced mass killings, kidnappings, the destruction of villages and places of worship, and the displacement of hundreds of thousands of people. In return, this body produced a single Security Council resolution. Not seventy. Not seventeen. One.
+
+So, we must ask: if every civilian life matters, why does our urgency seem so different from one crisis to another? This does not mean caring less about one crisis but caring more consistently about all of them.
+
+We must also be willing to ask difficult questions about how Palestine is discussed and used politically. A majority position does not, by itself, determine what is right.
+
+The right of a democratic state and its people to defend themselves against terrorism must be recognized and upheld. Civilian suffering is tragic and must be addressed, but it can never justify terrorism or the pursuit of political objectives through violence.
+
+At the same time, criticism of government policy must never become a cover for antisemitism.
+
+If civilian lives are equal, our attention should be guided by the scale, duration and severity of suffering - not primarily by geography, political alliances, media visibility or political influence.
+
+These principles must also guide our approach to Belarus. We condemn the authorities’ systematic repression, arbitrary detention and persecution of political opponents, human rights defenders and independent voices. All political prisoners must be released immediately and unconditionally, and those responsible for human rights violations must be held accountable. Slovenia stands with the Belarusian people and supports a peaceful democratic transformation founded on free and fair elections, the rule of law and full respect for human rights. Belarus belongs in a free and democratic Europe.
+
+Mr. President, distinguished delegates,
+
+Selectivity does more than distort our attention. Over time, it destroys institutions themselves. The United Nations cannot defend the rule of law while silently watching its own mandates, procedures and institutions become instruments of political convenience.
+
+The rule of law must never become merely rule by law. It requires rules to be applied impartially, consistently and transparently.
+
+When the same principles are invoked strictly in one case and conveniently overlooked in another, we do not strengthen international law. We hollow it out.
+
+And when institutions created to protect universal standards are instrumentalized for political purposes, we weaken the very multilateral system they were created to defend.
+
+This inconsistency is particularly difficult to ignore when we consider Iran. Executions, including those involving political prisoners, young intellectuals and others who oppose the regime, demand serious attention. Yet there is often no sufficiently serious condemnation of these executions or of the broader violations of human rights under a system that seeks complete control over social, political and economic life.
+
+The abuse of religion to justify or reinforce such control is another example of how principles can be distorted when institutions and political power are placed above the rights and dignity of individuals. Human rights cannot depend on whether the victims are politically convenient to defend.
+
+The United Nations must therefore defend not only its institutions, but also the integrity of the principles those institutions exist to serve.
+
+Mr. President, distinguished delegates,
+
+Russia’s war of aggression against Ukraine is a flagrant violation of the United Nations Charter and a direct assault on the sovereignty and territorial integrity of a Member State.
+
+Russia's occupation and attempted illegal annexation of Crimea in 2014 challenged a fundamental rule of our international order: territory cannot be acquired by force.
+
+As Mustafa Dzhemilev, the leader of the Crimean Tatars, reminded us at yesterday's Crimea Platform Summit, the international response to Russia's aggression in 2014 was too little, too late. Russia was never effectively stopped. Its impunity began in Crimea. The full-scale invasion of 2022 was the consequence.
+
+The Russian leadership chose this war. Russia is the aggressor. Ukraine is defending its people and its independence.
+
+For Slovenia, sovereignty and territorial integrity are fundamental to our own security.
+
+If a powerful state can seize its neighbour's territory by force, every smaller state becomes less secure.
+
+The United Nations has documented torture and executions of Ukrainian prisoners of war by Russian forces, as well as grave abuses in occupied territory. Those responsible must face justice.
+
+Prisoners of war and civilian detainees must return home. Ukrainian children forcibly transferred or deported must return to their families.
+
+Our goal must remain a just and lasting peace, based on the United Nations Charter and Ukraine's sovereignty and territorial integrity. Ukraine must participate fully in decisions concerning its future. Any settlement must provide credible security guarantees against renewed aggression.
+
+Slovenia will continue to support Ukraine on its European path. Ukraine's future belongs in the European Union.
+
+A permanent member of the Security Council, entrusted with a special responsibility for international peace, is waging a war of aggression against another Member State.
+
+Russia's permanent seat cannot place it above the Charter. Its veto cannot erase aggression or responsibility for international crimes.
+
+If this Organization wants to restore trust, it should begin by applying its own principles consistently.
+
+I therefore propose two things.
+
+First, this Organization should strengthen transparency around its responses to crises. We should establish an independent mechanism, answerable to this Assembly as a whole, that annually compares the scale, duration and severity of major crises with the scale and nature of the international response. Not to dictate political verdicts, but to make it impossible for us to remain unaware of our own patterns of selectivity.
+
+Second, we should strengthen safeguards against the political instrumentalization of United Nations mandates and institutions. Their credibility depends on transparent procedures, consistent criteria and equal standards of scrutiny for all Member States.
+
+Mr. President, distinguished delegates,
+
+The multilateral system was created to prevent power from replacing principle. We must not allow political convenience to reverse that relationship - so that principle becomes merely a language used by institutions when it serves political interests.
+
+The answer is not to weaken multilateralism. It is to protect it from instrumentalization.
+
+A United Nations that delivers for all cannot mean an organization that responds loudly to some crises and quietly to others.
+
+If we want to speak credibly of the United Nations that delivers for all, then we must be prepared to ask a difficult question: does it really deliver for all?
+
+For those living through war. For those displaced by violence. For states whose concerns receive little international attention. For families struggling to build a future.
+
+We will restore trust when a crisis matters because human beings are suffering, not because the politics surrounding it are convenient.
+
+And we will restore trust when the institutions of multilateralism are strong enough to serve universal principles rather than political convenience.
+
+But restoring trust is not only about correcting what is wrong today. It is about deciding what kind of international system we are willing to pass on to those who come after us.
+
+Mr. President,
+
+A United Nations that cannot uphold its own principles has no standing to ask the world for its trust.
+
+What we owe the people of the world is not sentiment. It is an institution consistent enough, and far-sighted enough, to be worthy of their trust.
+
+Thank you.

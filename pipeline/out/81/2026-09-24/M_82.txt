@@ -1,0 +1,127 @@
+---
+session: 81
+slug: hungary
+id_speech: M_82
+country: Hungary
+speaker: András Bálint Baka
+title: President
+speaker_title: His Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/hu_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.697
+---
+
+Mr President, Mr Secretary-General, Excellencies,
+
+It is a special honour to address this Assembly on behalf of Hungary. I speak here to the nations of the world, but also to my fellow citizens watching at home.
+
+For much of my life, I served as a judge, in Hungary and at the European Court of Human Rights. That work taught me a simple lesson: The law must apply even to those in power.
+
+Law does not weaken a state by placing limits on power. It gives citizens a reason to trust the state.
+
+This belief will guide me as President. I will protect the Constitution, the freedom of our institutions and the dignity of every Hungarian citizen.
+
+The state belongs to those who support the government, to those who oppose it and to those who have lost trust in politics altogether. A new political majority must not become the new owner of the state.
+
+This April, the people of Hungary voted for democratic renewal. They expected more than a change of government. They expect public life to change: a state that serves rather than controls, courts that decide without pressure, a press that challenges power and public money that is used for the public good.
+
+There must be accountability for corruption and abuse of power. But there must be no revenge. Justice cannot become a political weapon. A democratic state cannot repair past wrongs by repeating them with new people in charge. The same law must apply to those who governed yesterday, those who govern today and those who may govern tomorrow.
+
+A republic begins where power accepts its limits. That is the republic Hungary must now rebuild.
+
+Trust from our partners will not return because of one election or one speech. Hungary asks to be judged by what we do.
+
+We will be a reliable member of the European Union, a committed NATO ally and an active member of the United Nations. These partnerships do not take away our freedom. They protect it.
+
+Hungary will defend its national interests, but it will do so as a partner. We believe that national interest and international cooperation do not have to stand against each other.
+
+For Hungarians, the reasons are part of our own history.
+
+Seventy years ago, the revolution of 1956 expressed our people's determination to govern themselves. Soviet tanks crushed that hope.
+
+Our appeals reached the United Nations, but the international community could not prevent our defeat.
+
+Many countries represented here opened their doors to Hungarians who fled their country after the revolution. We remember both the cost of losing our independence and the help that allowed our people to start again.
+
+Today, Ukraine is fighting to preserve its independence. Hungary condemns Russia's full-scale war of aggression as a violation of the United Nations Charter and international law.
+
+We affirm Ukraine's right to self-defence, its sovereignty and territorial integrity within its internationally recognised borders, and the right of its people to decide their own future.
+
+The freedom Hungarians demanded for themselves in 1956 is a freedom we must uphold for Ukrainians today.
+
+We remember those who have lost their lives in this war, and we want diplomacy to bring the killing to an end. But a lasting peace must respect Ukraine's sovereignty.
+
+If taking territory by force becomes an accepted way of settling disputes, every smaller country will have reason to worry about its own future.
+
+The principles of the Charter therefore matter to all of us.
+
+Human suffering cannot wait for diplomacy to succeed. People in conflict need food, medicine and protection now. Hungary will continue to provide humanitarian aid to people in danger, especially the most vulnerable.
+
+In the Middle East, we call for full respect for international humanitarian law and for aid to reach those who need it safely and without interruption.
+
+Israelis and Palestinians must be able to live in security and dignity. A lasting peace must give their families reason to believe that their children can grow up without the fear that has marked so many lives.
+
+For people forced from their homes by war or persecution, protection may first mean finding safety in another country. Hungary's own history gives us reason to understand that need.
+
+At the same time, every state has the right to protect its borders.
+
+Hungary will do so in accordance with international law. We will fight illegal migration and the criminal networks that profit from it, while respecting human dignity and the protection given to refugees.
+
+But security is not only about borders and wars.
+
+People also need the chance to build a future where they live. They need homes, schools, health care and ways to earn a living. Poverty and the lack of opportunity can drive people from their countries just as conflict can.
+
+Hungary will continue to support development that helps communities build that future, based on their own needs and priorities.
+
+We are ready to share our experience in education, health and digital development.
+
+Water is another area where our interests meet. Drought can destroy crops, threaten food and energy supplies and take away people's income. Climate change is making these pressures greater.
+
+Rivers also cross borders. What one country does can affect the water available to another. This makes cooperation essential.
+
+Hungary has experience in water management, sustainable agriculture and climate adaptation, and we are ready to share it.
+
+For many countries represented in this hall, food, energy, education, health and jobs are immediate concerns. We must give these issues the same serious attention that we ask others to give European security.
+
+International cooperation works best when it responds to people's real needs and when every country has a voice.
+
+Excellencies,
+
+The United Nations faces a crisis of trust.
+
+Too often, it fails to act when powerful states or their friends break the rules. No country should be above the law. We cannot have one rule for our friends and another for others.
+
+But the answer is not to turn away from the United Nations.
+
+We need it, and we need it to work.
+
+It must be able to act, treat all its members fairly and apply the same principles to everyone.
+
+Hungary is ready to do its part. We will stand for human rights, support peacekeeping and work with countries across the world to protect people and help diplomacy succeed.
+
+We must also look beyond the problems of today.
+
+Many of the decisions we make now will shape the lives of people who are not yet born. A school, a strong institution or a safe water system can benefit people for many years.
+
+Future generations must therefore have a place in the decisions we make today.
+
+Hungary supports stronger international action to protect their interests, including the appointment of a United Nations Special Envoy for Future Generations.
+
+The United Nations cannot demand trust. It must earn it.
+
+The same is true of every state and every public institution.
+
+The Hungarian people have asked us to restore their confidence in the future. We will honour that choice by rebuilding trust at home and by becoming a country others can trust when their own future is at stake.
+
+For Hungary, this is a new beginning. But the principle behind it is not new:
+
+Power earns trust only when it accepts the law.
+
+That is the responsibility Hungary accepts, and the work we are ready to undertake with you.
+
+Thank you for your attention.

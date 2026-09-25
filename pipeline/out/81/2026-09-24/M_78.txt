@@ -1,0 +1,139 @@
+---
+session: 81
+slug: somalia
+id_speech: M_78
+country: Somalia
+speaker: Hassan Sheikh Mohamud
+title: President
+speaker_title: His Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/so_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.941
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Excellencies,
+
+Distinguished delegates,
+
+Ladies and gentlemen,
+
+It is a great honour to address the eighty -first session of the United Nations General Assembly at a moment of profound uncertainty in our world.
+
+I congratulate His Excellency Khalilur Rahman on his election as President of this session and assure him of Somalia’s full support and cooperation. I also commend Secretary -General António Guterres for his continued service to the United Nations and his steadfast defence of multilateralism. He will be missed very much after he concludes his term as the Secretary General this year. Indeed, his successor will have extremely large boots to fill going forward.
+
+For generations, the United Nations has represented humanity’s shared determination to replace conflict with dialogue, domination with cooperation and despair with hope. Yet today, many of the ideals and values we once collectively defended are being questioned and challenged.
+
+جمهورية الصومال الفيدرالية البعثة الدائمة لدى الأمم المتحدة نيويورك Jamhuuriyada Federalka Soomaaliya Ergada Joogtada ah ee Qaramada Midoobey - New York Federal Republic of Somalia New York 369 Lexington Ave, Suite 14B New York, N.Y. 10017 Tel: (212) 659-5014 Fax: (212) 659-5016 Respect for international law is becoming increasingly selective. Multilateral cooperation is weakening. Conflict, geopolitical rivalry and mistrust are becoming defining features of our time. Uncertainty, unfortunately, has become the new normal.
+
+I remember the sense of optimism that accompanied the transition from the Millennium Development Goals to the Sustainable Development Goals in 2015. There was genuine hope that we were beginning a new chapter -one in which no person, no community or no country would be left behind. Eleven years later, we must have the courage to admit that the world is not where we expected it to be.
+
+Progress towards achieving the Sustainable Development Goals by 2030 stands at 36%. This is far too slow. Conflicts between and within States are increasing. Humanitarian needs are rising while the resources available to meet them are rapidly declining. Nationalism, intolerance and political polarisation are weakening the spirit of international cooperation.
+
+At the same time, the climate crisis continues to destroy lives, livelihoods and public infrastructure, particularly across the developing world.
+
+According to the United Nations, over 40% of the global population are vulnerable to the destructive effects of Climate change and governments in developing countries spend over 10% of their GDP to respond to this. These painful fiscal trade -offs come at the expense of investment in education and health which should never be the case.
+
+For millions of vulnerable people, global development can sometimes appear to be moving from one framework to another, from one set of promises to the next, without sufficient transformation in their daily lives. New declarations and targets have value, but they cannot become a substitute for effective implementation.
+
+This is why this year’s theme is both timely and necessary. Trust in the UN will not be restored through declarations alone. It will be restored when our institutions act consistently, uphold international law and produce results that people can see and experience.
+
+Excellencies, Ladies and Gentlemen,
+
+The United Nations Charter is founded on sovereign equality, territorial integrity, peaceful coexistence, human rights and the dignity of every person. The most important word in this year’s theme is “ALL.” Not some people. Not a select group of nations. Not only those with the greatest economic or military might.
+
+The promise of the Charter belongs equally to every human being and every Member State. Yet, the United Nations has increasingly become associated with political gridlock in the Security 369 Lexington Ave, Suite 14B New York, N.Y. 10017 Tel: (212) 659-5014 Fax: (212) 659-5016 Council, prolonged negotiations without tangible outcomes and a weakening capacity to mobilise collective action in response to threats to international peace and security.
+
+This should concern all of us, not because the United Nations is not important, but precisely because it is indispensable and appears absent from the global solutions for peace and stability in this dangerous and unpredictable time.
+
+The Security Council must become more representative, transparent and effective. Africa remains unrepresented in the permanent category and not represented enough in the non permanent category. This historical injustice against 54 sovereign states cannot be postponed indefinitely.
+
+Somalia supports the Common African Position and meaningful African representation in both categories of the Council. Given that many of the discussions directly concern African States, they have the right to full representation on equal par with all other Permanent Security Council members.
+
+Reform is not an attack on the United Nations. Reform is necessary to protect its legitimacy, renew confidence in its institutions and ensure that it remains capable of responding to the realities of our time.
+
+Somalia currently proudly serves as a non -permanent member of the United Nations Security Council and as a member of the African Union Peace and Security Council. We carry these responsibilities with great seriousness, humility and determination. In both institutions,
+
+Somalia works to uphold the principles of the United Nations Charter and the Constitutive Act of the African Union, strengthen cooperation between the United Nations and the African Union, prevent conflict and support peaceful, African-led solutions with global benefits.
+
+Respect for national sovereignty, unity and territorial integrity is not an abstract principle for Somalia: It is a foundation for peace and stability in our country, our region and the wider international community. Therefore, Somalia firmly rejects unilateral actions that undermine its sovereignty, unity and internationally recognised borders. Disagreements between nations must be resolved through dialogue and in accordance with international law and not through actions that create new tensions or threaten regional stability.
+
+Somalia stands firmly with the Palestinian people and their legitimate right to self determination and statehood. We reaffirm our support for a just and lasting peace based on the two-State solution, with an independent and viable Palestinian State along the 1967 borders.
+
+A just resolution of the Palestinian question remains essential to lasting peace and stability in the Middle East and beyond.
+
+369 Lexington Ave, Suite 14B New York, N.Y. 10017 Tel: (212) 659-5014 Fax: (212) 659-5016 Excellencies, Ladies and Gentlemen,
+
+UN Political reform must be accompanied by institutional administrative and operational renewal.
+
+For nearly two decades, we have discussed the need to make United Nations operations more agile, coordinated, cost -effective and capable of delivering measurable results. Some progress has been made, and we recognise the dedication of the many United Nations personnel working under difficult conditions around the world. However, we must also be honest: the results have not yet matched our collective expectations.
+
+In countries like mine, where the United Nations has maintained a substantial presence for more than three decades, operations can become more effective by aligning more closely with our national priorities and using credible national systems.
+
+The majority of UN assistance continues to be delivered through parallel structures, fragmented projects and off -budget arrangements in Somalia. This makes it difficult for governments to plan, coordinate resources, measure results and build the institutions required for long-term stability.
+
+Let us be clear: Somalia is not calling for the United Nations to withdraw. We are simply calling for a more accountable, strategic and result oriented partnership where Somali institutions are in the lead when it comes to implementation. Indeed, Somalia wants a partnership in which international assistance reinforces rather than replaces national leadership. This partnership is one in which national institutions are strengthened rather than bypassed and both governments and international organisations are mutually accountable for results.
+
+The base argument of past UN agencies development thinking that countries like Somalia lack capacity must be condemned permanently to the dustbin of history. It is where it belongs. We now have capable people, institutions and policies that are proudly guiding our national transformation.
+
+We must also ask ourselves why we continue to mobilise vital resources to respond to crises while investing far less in preventing them. The UN office for Disaster Risk Reduction estimates that every $1 invested in proactive measures, resilient infrastructure, or early anticipatory action saves between $3 and $15 in future damages and response costs. Therefore, we cannot remain trapped in a cycle of financing the consequences of conflict while neglecting peacebuilding or responding to humanitarian emergencies while under -investing in resilience and anticipatory action. Prevention is more cost -effective. It is more humane. It is much more sustainable.
+
+369 Lexington Ave, Suite 14B New York, N.Y. 10017 Tel: (212) 659-5014 Fax: (212) 659-5016 El Niño is strengthening and is likely to bring another period of significant climate stress across the world with disproportionate impact on nations like Somalia. We must learn from what happened before and be better prepared and not simply respond after the destruction it leaves in its wake as a community of nations.
+
+Mr. President, Ladies and Gentlemen,
+
+Somalia is successfully leading on its own national development. Our government is implementing the National Transformation Plan, strengthening public financial management, expanding domestic revenue, and investing in the capabilities of our national institutions.
+
+For over five decades, our people have dreamed of choosing their leaders through their votes.
+
+The last such election was held in 1969. Today, we are determined to change that history.
+
+Through constitutional reform, we are laying the foundation for universal suffrage, accountable institutions, and a multi-party-political system that allows every Somali citizen to have a voice.
+
+We engaged all Somali political leaders, Federal Member states, civil society, women, youth, and the diaspora to take part constructively in our hopeful political transition. Our aim is to become an effective democracy where differences are resolved through dialogue, law, and elections, not violence.
+
+We invite the United Nations and our international partners to support this transition by helping to strengthen democratic institutions but always respecting our ownership of Somali democracy. This is a new progressive chapter where political power is determined by citizens guided by constitutional law and safeguarded by the rule of law.
+
+That is how we are building a durable Somali state. Ours is a democracy where every citizen has a voice, where every vote has value, and where every government is accountable. That is our commitment to our people and to the world.
+
+Somalia also continues to confront international terrorism with determination and with the support of our international partners. We are strengthening our national security institutions, improving force generation, developing intelligence capabilities and expanding security cooperation with our neighbours and the rest of the world. But the fight against terrorism in Somalia must not be understood as Somalia’s responsibility alone. We stand on the front line of a struggle that directly affects regional and international security.
+
+We therefore call for predictable and sustainable support for Somalia’s security transition, including adequate financing for the African Union Mission in Somalia. The transition towards full Somali security responsibility must be properly resourced, phased and firmly anchored in capable Somali institutions.
+
+Following debt relief, Somalia’s economy continues to grow on the foundation of strong reforms. Our real GDP growth this year is 3.1% despite all the global shocks we are 369 Lexington Ave, Suite 14B New York, N.Y. 10017 Tel: (212) 659-5014 Fax: (212) 659-5016 experiencing. We also continue to strengthen public financial management, increase domestic revenue, enhance budget transparency and deepen our financial sector.
+
+We are actively working to improve the investment environment to create opportunities for all our people. We also continue to strategically increase investment in education, health and human capital despite the pressures created by geopolitical tensions, recurrent climate shocks and rising global prices.
+
+A serious example of regional tensions negatively impacting Somalia’s development is the issue of the Strait of Hormuz. For Somalia, disruptions in the Strait of Hormuz have serious economic and humanitarian consequences.
+
+As an import-dependent country reliant on the Middle East for much of our food, fuel and trade,
+
+Somalia is already facing rising prices, inflation and increased transport and insurance costs while drought linked to climate change is affecting over 6 million people. The disruption has also contributed to an estimated 40% decline in our customs -based domestic revenue, a critical source of financing for Somalia's economic reforms, growth, and poverty reduction.
+
+Ensuring free and fair navigation through the Strait is therefore essential to protecting vulnerable economies like Somalia and sustaining stability, advancing development, and delivering basic services.
+
+Sustainable development requires strong institutions. In Somalia, we have created institutions capable of translating international commitments into national results. These include the National Climate Fund through which Somalia is mobilising and coordinating urgently needed climate finance, the Independent National Human Rights Commission, established to strengthen the protection and promotion of human rights and the Somali Disaster Management Agency which is on the frontline of responding to humanitarian crises.
+
+Somalia’s membership of the East African Community, our leadership in the Horn of Africa Initiative, our ratification of the Agreement Establishing the African Continental Free Trade Area and our continuing efforts towards accession to the World Trade Organization demonstrate Somalia’s commitment to regional integration and a rules -based international order.
+
+Excellencies, Ladies and Gentlemen,
+
+Financing is pivotal to development. Therefore, the promise of sustainable development cannot be fulfilled without reform of the international financial architecture. In the same way that the Security Council must reflect today’s political realities, international financial institutions must effectively respond to today’s economic and environmental realities with relevant, affordable and accessible financial products which can be disbursed in a timely manner.
+
+369 Lexington Ave, Suite 14B New York, N.Y. 10017 Tel: (212) 659-5014 Fax: (212) 659-5016 In conclusion, Somalia is proudly playing an active role in global stability both at home and within the key existing multilateral structures of global governance. We are also rebuilding our economy and unwaveringly committing to democracy and people centred, people led and people owned development. As we march forward with purpose and determination, we invite Africa and the rest of the world to remain our steadfast companions on this journey.
+
+On the UN, indeed the UN remains vital to global governance and multilateralism. Yet:
+
+Restoring trust requires consistency.
+
+Managing transformation requires courage and cooperation.
+
+Delivering for all requires fair representation, accessible resources and measurable results especially for developing countries.

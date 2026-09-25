@@ -1,0 +1,181 @@
+---
+session: 81
+slug: austria
+id_speech: M_107
+country: Austria
+speaker: Beate Meinl-Reisinger
+title: Federal Minister for European and International Affairs
+speaker_title: Her Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/at_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.562
+---
+
+24. September 2026 Mr President,
+
+Mr Secretary-General,
+
+Excellencies, Ladies and Gentlemen,
+
+There are 193 countries represented in this hall today. 193 States that have signed up to the UN Charter. That have signed up to one essential principle: That relations between States are not governed by sheer power, but by rules.
+
+Today, this commitment is being tested. By conflicts. By shifts in power. By new technologies. And our global institutions are struggling to keep pace.
+
+So, let me ask question that I believe sits underneath everything we are discussing this week:
+
+Who decides?
+
+Who decides whether a border is a line to be respected or a target to be crossed?
+
+Who decides whether a human being or a machine pulls the trigger?
+
+Who decides who gets heard, and who is left waiting outside the room?
+
+For more than eighty years, this organisation has stood for one answer: power must be bound by rules agreed together. That answer secured Austria's sovereignty and our prosperity. It still does.
+
+We are a nation of nine million people. An open, liberal democracy, and we are proud of it. Alone, we cannot keep trade routes open, stabilise energy markets, or prevent wars. Like most countries in this hall, we depend on a world in which borders are respected, agreements are kept, and strength is bound by law.
+
+When that order weakens, the gravest price is paid by those least able to bear it: by countries already in crisis, by populations heavily dependent on food imports and by people caught in conflict. In Austria we are fortunate to live in peace. But the consequences reach us, too: energy prices rise, factories close, and families forced to flee war and seek safety in Europe.
+
+This is why the United Nations matters. It is our life insurance. This is why we are a proud host country of the Organization. Why we - successfully - campaigned for a seat on the UN Security Council.
+
+I would like to thank you wholeheartedly for your support at the elections in June.
+
+Austria will be a reliable partner in the Security Council during the next two years.
+
+Austria – throughout its campaign – has made a promise:
+
+To spare no effort on the Security Council to protect our common rules.
+
+To engage in dialogue with everyone.
+
+And to rebuild trust in our global order that has been eroded by a dangerous zero-sum logic.
+
+But for all of us the road ahead is not easy. Because today, that order is being tested, in conflict after conflict.
+
+For more than four years, Russia’s war of aggression against Ukraine has violated the UN Charter, and it still does. During my last visit to Kyiv, I witnessed the pain it causes firsthand.
+
+Austria’s position remains clear: we will not accept a change of borders by force. We need an urgent ceasefire to create a credible path to negotiations between the parties.
+
+In the Middle East, the continuous escalation teaches us a similar lesson. After years of bloodshed and suffering, it is obvious: no one can bomb their way to peace.
+
+We want a prosperous and safe Israel. But the same applies to the Palestinians and to Israel’s neighbours. Israelis and Palestinians deserve to live side by side in peace and security, with a credible path to a two-state solution. Any unilateral actions that undermine this prospect – including the continued settlement expansions in the West Bank – only perpetuate the conflict and must be firmly rejected by all of us.
+
+Palestinians in Gaza desperately need peace and stability, with Hamas disarmed and the IDF withdrawing from the Strip.
+
+Iran and the United States must come back to the negotiating table: to end the suffering, to credibly revive the nuclear talks and to stop holding global supply chains hostage to political ends. Especially when there are bilateral deadlocks and conflicts are impacting the whole world, we must pursue for multilateral solutions.
+
+In Lebanon, we need a sustainable arrangement to support the LAF in disarming Hezbollah. The withdrawal of UNIFIL must not create a vacuum that will leave the region worse off than before.
+
+The same set of international rules must protect civilians in Sudan, in the Democratic Republic of the Congo, in Yemen, Haiti, Myanmar, Ethiopia and other conflicts that receive far too little international attention.
+
+International law must apply to all states.
+
+It must protect all civilians.
+
+And where violations occur, there must be responsibility and accountability.
+
+This is why Austria will also continue to stand firm in protecting the International Court of Justice and the International Criminal Court.
+
+Rules do not defend themselves. They need institutions capable of upholding them.
+
+And today, the United Nations too often falls short. Not because it has failed – because we have let it stand still.
+
+There is no alternative to the UN.
+
+There is only the work of making it work.
+
+The United Nations was not created to discuss international problems.
+
+It was created to solve them.
+
+Yet as conflicts and injustice multiply, the UN too often fails to act.
+
+Inside this building, that failure can look like another meeting without a decision.
+
+Outside these walls, it means that wars continue, help does not arrive, and more families bury their dead.
+
+For these families, UN procedures do not matter. What matters to them is whether food arrives, whether a doctor reaches them, whether peacekeepers protect them.
+
+Reform must therefore pass a simple test: does it make the United Nations more able to deliver when people need it?
+
+Austria has been a strong supporter of the reform efforts of the Secretary-General.
+
+And, as an incoming member of the Security Council, we are committed to protect the principles of the Charter. To show to the world, that the Council can act. And to work towards making the decisions we take there more inclusive.
+
+Because it matters who decides.
+
+The United Nations was built to confront the dangers of 1945.
+
+Today, we must face new and rapidly emerging dangers: one of the most urgent threats today is the loss of human control over weapons.
+
+Every Austrian knows the Terminator movies, about a machine, sent to kill humans.
+
+This killer robot was played by a famous Austrian-born, Arnold Schwarzenegger. In the movies, Skynet learns to choose its own targets and starts a war.
+
+In 1984, that was science-fiction.
+
+Today, it is not fiction any more.
+
+Today, weapons with increasing autonomy are already used on the battlefield. The direction is clear: machines are gaining more freedom to find and strike targets.
+
+But a machine cannot understand surrender or mercy. It cannot face a court or answer for a death. It must never have the final say over who lives and who dies.
+
+We therefore need international rules for autonomous weapons, built around one clear principle: no machine may decide to take a human life.
+
+Some will say that agreement is impossible when technology moves so quickly and major powers distrust one another. History says otherwise.
+
+Imagine this hall in December 1953. Austria was still occupied, while the superpowers were testing hydrogen bombs. And yet, from this podium, Eisenhower named two things that did not yet exist: negotiations to restore Austria’s independence and: an international agency that would bring nuclear technology under international oversight. To serve, as Eisenhower said: “the needs rather than the fears of mankind”.
+
+In 1955, Austria was free again. Two years later, the IAEA began its work and Vienna became its home.
+
+The world did not ban atomic energy. It built rules for its peaceful use. But those rules came only after Hiroshima and Nagasaki had shown the terrible cost of waiting.
+
+We cannot afford to wait for a catastrophe to happen.
+
+With artificial intelligence, we can still act first.
+
+For this reason, Austria joins the UN Secretary-General and the President of the ICRC in calling for a legally binding instrument with clear prohibitions and restrictions on autonomous weapons.
+
+Voluntary guidelines are not enough.
+
+We need binding rules that keep human beings in control and ensure accountability.
+
+And we must not drag this out.
+
+Every rule and reform I have spoken about serves one purpose: peace.
+
+During our Security Council term, Austria will make emerging technologies, the protection of civilians, children in armed conflict, and women’s full participation in peace processes priorities. Children must never be treated as collateral damage.
+
+Women must have a real voice at the negotiating table, as leaders and peacebuilders, not as an afterthought.
+
+Peace also requires dialogue. Dialogue is not weakness. It is the refusal to give violence the last word. During the Cold War, states that deeply distrusted one another still met in Vienna. Austria will keep that door open whenever dialogue can prevent bloodshed.
+
+And peace rests on human rights. In Vienna in 1993, the United Nations affirmed that those rights belong to every person, everywhere. That principle is not settled history.
+
+It is a responsibility we must defend today.
+
+I began by asking who decides. Let me end with Austria’s answer.
+
+The strongest voice in the room must not decide alone. Neither should the fastest algorithm. Nor should those with the most tanks or the deepest pockets.
+
+There are 193 countries in this hall. Most of us cannot impose our will on others.
+
+Most of us do not want to live in a world where some can.
+
+Power must answer to rules.
+
+Technology must remain under human control.
+
+Responsibility must always be owned by us, by humans.
+
+And, ultimately: Nations must speak so weapons remain silent.
+
+That is Austria’s answer.
+
+Thank you!

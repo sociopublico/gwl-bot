@@ -1,0 +1,221 @@
+---
+session: 81
+slug: south-africa
+id_speech: M_108
+country: South Africa
+speaker: Ronald Ozzy Lamola
+title: Minister for International Relations and Cooperation
+speaker_title: His Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/za_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.747
+---
+
+President of the 81st Session of the United Nations General Assembly,
+
+Mr Khalilur Rahman,
+
+Secretary-General, Mr Antonio Guterres,
+
+Excellencies, Heads of State and Government,
+
+Ladies and Gentlemen,
+
+Mr President Suggestion: This day the 24 th of September is a national day immense significance in South Africa.
+
+We call it Heritage Day. It is a day upon which recommit to not just a United but also a diverse nation. A day where we reassert that diversity is not a cause for division but celebration. Our strength is in our diversity.
+
+In that spirit allow me Mr President to congratulate you in my mother tongue.
+
+(Eka vuyimeri bya Riphabliki ya Afrika Dzonga, ndzi ku amukelesa eku hlawulweni ka wena ku rhangela Nhlengeletano Hikwayo ya vu -81. Ndzi ku tiyisekisa hi nseketelo wa hina hinkwawo loko u ri karhi u hetisisa vutihlamuleri bya wena bya nkoka.)
+
+On behalf of the Republic of South Africa, I congratulate you on your election to preside over the 81st General Assembly. I assure you of our full support as you discharge your important responsibilities.
+
+At the same time, Mr. President, with this being the valedictory UN General Assembly session for Secretary-General Antonio Guteress permit me to salute him for his numerous accomplishments at a time of unprecedented global challenges.
+
+Mr President,
+
+Sixty years ago, in the chambers of this Assembly, the United Nations adopted a resolution condemning apartheid as a crime against humanity.
+
+The demise of apartheid freed the people of South Africa from racial segregation and slaughter, domination and deprivation, humiliation and exploitation.
+
+But it was not only the people of South Africa who were unchained when apartheid collapsed.
+
+The end of apartheid also marked the end of a system that exported violence and instability across southern Africa.
+
+Indeed, the fall of apartheid is a glorious story that attests to what multilateralism can deliver.
+
+Since democratic South Africa took its place in this Assembly, we have pursued a foreign policy anchored in Ubuntu and international law, dialogue and multilateralism, and in the understanding that our fate is tied to the fortunes of our region and continent.
+
+Millions more South Africans have access to education, electricity, water and sanitation, housing and social protection than they did at the dawn of our democracy.
+
+We have built a united nation of a diverse people, steeled in their determination to never let history repeat itself.
+
+In November 2025, South Africa classified gender-based violence and femicide as a national disaster, recognising that dealing with this scourge demands exceptional measures.
+
+We have built a vibrant democracy capable of self-correcting and stepping back from the brink. A democracy strong enough to withstand and resist attempts at external supervision and tutelage.
+
+After the 2024 election, political parties put national stability above narrow interests and formed a government of national unity within two weeks of the announcement of the results.
+
+Since the dawn of our democracy, we have held no fewer than seven free and fair national elections.
+
+As we speak, South Africans are preparing once again to exercise their democratic right, this time in local government elections.
+
+Again, the will of the people will prevail.
+
+Mr President,
+
+The promise of democracy and international cooperation wanes when we cannot demonstrate that they can address inequality and insecurity. Compelled by our unenviable position as the world’s most unequal society, South Africa made inequality a key focus of our G20 Presidency in 2025.
+
+Today, the top 10 percent own roughly 75 percent of global wealth, while the bottom 50 percent own only 2 percent.
+
+This extreme concentration of wealth at the top and poverty at the bottom is neither inevitable nor insurmountable.
+
+Together with Brazil, Norway and Spain, South Africa calls on this Assembly to throw its weight behind the establishment of an International Panel on Inequality.
+
+Mr President,
+
+We know that inequality is at the heart of the rising appeal of politics founded on hate and exclusion. Across the world, citizens who have seen little improvement in their economic fortunes are turning to ideas diametrically opposed to the values of the UN Charter.
+
+As we mark the 25th anniversary of the Durban Declaration and Programme of Action, South Africa reaffirms its commitment to confronting racism, racial discrimination, xenophobia and all forms of intolerance.
+
+We are determined to confront racism, racial discrimination, xenophobia and all forms of intolerance through our Constitution, our laws and our institutions.
+
+Dealing with the root causes and challenges of irregular migration is a shared responsibility of all countries of the world.
+
+Mr President,
+
+We approach our leadership of a regional bloc that is home to a quarter of Africa’s population – the Southern African Development Community (SADC) – with a firm resolve to champion greater regional integration, industrialisation and trade.
+
+We want to increase trade among our countries so that our citizens can share in the prosperity of our region and our economies are better prepared to absorb the shocks of unilateralism.
+
+If multilateralism works at regional level, then citizens have greater reason to believe it can work globally.
+
+Mr President,
+
+Our governments face a difficult choice: whether to meet the needs of their citizens or satisfy the expectations of creditors.
+
+In the last year alone, African countries spent roughly the same amount on servicing debt as is needed to close our infrastructure financing gap.
+
+This grim reality inspired South Africa’s G20 Presidency to focus on debt sustainability.
+
+The Africa Expert Panel report calls for an end to incrementalism.
+
+It supports multilateral efforts to establish a Borrowers’ Club to counter-balance the power of creditors and calls for greater debt transparency and greater scrutiny of credit rating agencies.
+
+To us, Mr President, unsustainable debt betrays the promise of development and destroys the prospects for democracy.
+
+With only 36 percent of the Sustainable Development Goals showing sufficient progress, we are running out of time!
+
+Africa and much of the Global South need multilateral action to free resources absorbed by debt service and redirect them towards development.
+
+We must close the financing gap for the 2030 Agenda and meaningfully advance implementation of the African Union’s Agenda 2063.
+
+Mr President,
+
+Climate disasters and extreme weather patterns threaten our people, our prosperity, and our hard-won development gains.
+
+In the last year, two million people in SADC suffered the combined and debilitating impact of floods, cyclones, wildfires, and disease outbreaks.
+
+Our responses are severely constrained by a climate finance architecture stacked against developing nations.
+
+Global action on disaster resilience and predictable financing for a just energy transition is essential if international cooperation is to deliver for all.
+
+Mr President,
+
+Our continent has the world’s largest reserves of critical minerals.
+
+These critical minerals can help bridge the g ap between wealthy and poor nations and overcome the indignities of poverty and underdevelopment.
+
+We insist, Mr President, that indeed Africa must have a stake in shaping the rules that govern the development and deployment of Artificial Intelligence.
+
+We have a youthful population ready to play a key role in the beneficiation at source of critical minerals and on research and innovation for artificial intelligence.
+
+Mr President,
+
+Restoring trust in multilateralism demands that we demonstrate, as the United Nations, that the peaceful resolution of conflicts is still our mantra.
+
+Unfortunately, much of what we see runs counter to this.
+
+In the last two years, the world spent more on military budgets than on resourcing this important body tasked with maintaining global peace.
+
+We are reminded that meeting the SDGs by 2030, including ending hunger and expanding access to safe water and sanitation, would require no more than 5 percent of the 2.9 trillion US dollars spent on arms.
+
+The result of the choice we are making is an arms race and a world as divided as it is dangerous.
+
+We see the consequences in Sudan, which is today the worst humanitarian crisis in the world.
+
+We see the consequences in the Eastern Democratic Republic of Congo, Iran,
+
+Ukraine and elsewhere.
+
+Humanitarian workers are caught in the crosshairs of today’s conflicts. When they are not being obstructed from reaching civilians in need, they are being killed in the line of duty.
+
+To restore respect for international law, we must protect those who deliver humanitarian assistance. That is why South Africa endorsed the Declaration for the Protection of Humanitarian Personnel, supported by nearly 120 states from all regions of the world.
+
+Mr President Eighty years ago, the first resolution of the General Assembly called for the elimination of nuclear weapons.
+
+Later this year, South Africa will preside over the First Review Conference of the Treaty on the Prohibition of Nuclear Weapons.
+
+As the only country in the world to have voluntarily dismantled its nuclear weapons programme, South Africa stands ready to share this experience as a demonstration that, with political will, credible and verifiable nuclear disarmament is achievable.
+
+In our view, restoring trust in multilateralism will not happen without meaningful reform of global governance, principally the UN Security Council.
+
+African citizens are growing weary of their continent being consigned to the periphery of global governance.
+
+Africa is home to nearly one-fifth of the world’s population and African countries together account for more than a quarter of UN member states.
+
+Yet over the past decade, 70 percent of UN Security Council resolutions have concerned conflicts on the African continent.
+
+If the future belongs to the young, then surely a continent that will be home to one in four of the world’s youth by 2030 deserves a bigger seat at the table.
+
+South Africa therefore reaffirms its support for the Ezulwini Consensus and its call to end Africa’s relegation to the margins of global decision-making.
+
+Permanent seats for Africa in the Security Council, with all the prerogatives of permanent membership, are long overdue.
+
+Mr President,
+
+Nowhere is the need to uphold our shared humanity more urgent than in Palestine.
+
+The rights, dignity and humanity of Palestinians cannot be treated as conditional.
+
+The State of Israel’s continued violations of international and humanitarian law constitute genocide, and we remain steadfast in our view that the international community must act decisively to end this impunity.
+
+In our support for a just and lasting peace and a two -state solution, in accordance with UN resolutions, South Africa is unwavering.
+
+We are steadfast in our longstanding solidarity with the people of Western Sahara.
+
+We reaffirm their inalienable right to self -determination and support a just, lasting and mutually acceptable political solution consistent with international law and the principles of the United Nations Charter.
+
+Mr President,
+
+We are also deeply concerned by the wielding of economic weapons to coerce countries into abandoning their chosen development trajectories.
+
+The suffering of the Cuban people should command our deepest solidarity.
+
+We reiterate our call for an end to the blockade on the Cuban people.
+
+The designation of Cuba as a State sponsor of terrorism, is similarly unfounded, and it should be removed from that list.
+
+Unilateral coercive measures have negative spillover effects that seriously undermine third countries.
+
+Similarly, we also call for the urgent removal of sanctions against Zimbabwe.
+
+Our current reality demands that we act collectively to protect existing international institutions of justice from sanctions and intimidation. These institutions fulfil important mandates for the benefit of humanity.
+
+As I conclude, Mr President,
+
+South Africa leaves this podium with an important refrain:
+
+The South African nation is the creation and heritage of the international community.
+
+South Africa today stands tall in the family of nations because the United Nations delivered on the promise of its Charter.
+
+As Member States we must continue to support this organisation, our organisation, because as President Nelson Mandela said in his inaugural “The millions across our globe who stand expectant at the gates of hope look to this Organisation to bring them peace, to bring them life, to bring them a life worth living” I thank you.
+
+END

@@ -1,0 +1,131 @@
+---
+session: 81
+slug: guyana
+id_speech: M_77
+country: Guyana
+speaker: Mohamed Irfaan Ali
+title: President
+speaker_title: His Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/gy_en_0.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.951
+---
+
+Mr. President,
+
+I extend my congratulations on your election as President of the eighty-first session of the General Assembly. I wish you every success as you undertake this important responsibility at a moment when multilateralism, and indeed the United Nations, faces profound challenges.
+
+I also express my sincere appreciation to your predecessor for her stewardship over the past year.
+
+I take this opportunity to record Guyana’s gratitude to the Secretary-General, His Excellency António Guterres, for his distinguished service to the United Nations and to the cause of humanity. His place in the history of this institution is assured, not merely by the office he has occupied, but by the principles he has steadfastly upheld, the courage and profundity with which he has spoken when silence would have been easier, and his rare ability to hold before the world a clear mirror of the perils that confront our age and the possibilities that still beckon beyond them.
+
+The challenges of our time Mr. President,
+
+One year ago, I stood at this very podium and reminded this Assembly that if the United Nations is to remain humanity’s surest hope for a just and peaceful world, it must have the courage to confront aggression and the wi ll to engage fully with the defining questions of our age. I also argued that we must be bold enough to undertake the institutional reforms necessary to strengthen the Organization, enhance its credibility and enable it to meet the challenges of a changing world.
+
+Indeed, I am pleased that the theme of this year’s assembly, “Restoring Trust, Managing Transformation: A United Nations That Delivers for All” acknowledges the need for this organization to be made fit for purpose to respond to the challenges and to seize the possibilities of our time.
+
+Today, we confront a climate catastrophe; an energy crisis; food insecurity; biodiversity loss; armed conflicts and geopolitical tensions; the horror of genocide; a spiralling cost-of-living crisis; a mounting debt crisis; widening inequalities within and among nations; and, perhaps most troubling of all, a weakening of multilateralism itself.
+
+Yet if history has taught us anything, it is that even when the world seemed to stand at the precipice, humanity has never been entirely without the means to draw it back from the brink. We have ended wars that seemed without end. We have confronted economic calamities that threatened the foundations of societies.
+
+We have overcome dangers that presented existential threats.
+
+Time and again, it has been our inventiveness, our courage and, above all, our willingness to act together that have opened a path where none seemed to exist.
+
+The possibilities of our age This is why I do not wish to linger or lament further upon the difficulties before us. I wish instead to turn our gaze toward the possibilities that lie beyond them. For within every crisis lies a summons to solutions, within every disruption an opportunity for renewal, and within every uncertainty the possibility of shaping a better future.
+
+The possibilities before us are immense.
+
+We have the possibility of silencing the guns through dialogue and diplomacy. The world does not need more sophisticated instruments of destruction; it needs a more sophisticated capacity for peace.
+
+In this regard, I reiterate Guyana’s call for a just and lasting solution to the crisis in the Middle East, one that brings an end to the suffering of innocent civilians and recognises the Palestinian people’s legitimate right to self-determination and to a secure homeland of their own. We reiterate our support for the two-State solution.
+
+We call as well for an end to the Russia-Ukraine war and the war in Sudan, and for peaceful resolution of all conflicts that continue to consume lives, uproot families and extinguish the hopes of millions in other parts of our world.
+
+We reiterate our call for a viable solution for Cuba, one that is peaceful, people centered, development -focused and allows for the full aspirations of the Cuban people to be realized. Guyana reiterates CARICOM’s offer to play a meaningful role in achieving this objective.
+
+In Haiti, resolving the multidimensional challenges remains central to achieving democracy, stability, peace and prosperity for the Haitian people. The sustained support of the international community through the provision of key financial and material resources is critical to realizing t hese objectives.
+
+Ultimately, the future of Haiti must be Haitian-led and Haitianowned.
+
+Mr. President Turning to my own country - Guyana has always advanced the peaceful settlement of the controversy in relation to our border with Venezuela. Despite the historical truth - clearly outlined in the Arbitral Award of 1899 that determined the full, perfect and final settlement of our bord er with Venezuela, we endured long and repeated provocations and aggression.
+
+The matter was referred to the International Court of Justice by the Secretary General, acting pursuant to the Geneva Agreement, and the Court twice pronounced on its jurisdiction to hear the matter. Recourse to the ICJ came after decades of efforts to resolve the controversy bilaterally, including through a mixed commission and the Good Offices of the UN Secretary General.
+
+In full respect for international law, Guyana participated and encouraged Venezuela to participate in the proceedings of the ICJ.
+
+Now that we have both participated in the hearings which were completed in May 2026, we urge Venezuela to abide by the forthcoming ruling in accordance with their obligation under the UN Charter, as Guyana will do.
+
+We look forward to a new era of neighbourly relations in the interest of our peoples, the development of our countries and the stability and prosperity of our region.
+
+Mr. President In pursuit of a stronger and safer region, Guyana is honoured to be a founding member of the Shield of the Americas, launched by President Trump in March 2026.
+
+Since the founding of this initiative, Guyana has worked closely with the United States and thirteen other like -minded nations that believe in building a Western Hemisphere that value s freedom, peace, economic prosperity and have a shared responsibility and commitment to fight ing transnational crime and criminal networks.
+
+It is our collective responsibility to never allow our region to be overtaken by gangs or criminal networks.
+
+We understand that it is only through partnership, shared intelligence, and cooperation that we can effectively tackle the threats they pose to our economies and the livelihoods of our citizens.
+
+This week, I was pleased to join members of the Shield of Americas in adopting a Joint Communique which underscores our collective resolve to strengthen the resilience of our region in Economic, Security and Multilateral Coordination.
+
+Mr. President We stand at the threshold of a new era of technological advancement. Artificial intelligence, biotechnology, digital communications and other extraordinary breakthroughs offer the prospect of transforming health, education, agriculture, productivity and public services on a scale scarcely imaginable a generation ago. But the true measure of technological progress will not be how powerful our machines become, but how much more empowered our people become. Technology must not become the privilege of the few; it must become the servant of all humanity.
+
+Mr. President,
+
+We have before us a new opportunity for sustainable development. Development must not merely make our economies richer; it must make our societies better. We must not allow further slippage in our pursuit of the Sustainable Development Goals. We must renew our commitment to them — not as an inventory of promises, but as a covenant with our peoples and a practical blueprint for ensuring that development reaches every citizen, protects generations yet unborn and creates lasting, inclusive prosperity.
+
+One way to arrest this slippage is, as Guyana is doing, to mainstream the Goals into our national development strategies, public policies and budgets, so that they become embedded in the priorities we set and the resources we commit, rather than remaining aspirations. The SDGs must not only guide our ambitions; they must shape our choices and our national priorities.
+
+In Guyana, we have made significant advances including universal health care, free education, modern infrastructure, accelerated access to affordable housing, opportunities for full employment, acceleration of financing for small and medium sized enterprises, and digitizing service delivery.
+
+Mr. President Two years ago, at this very podium I committed Guyana to provide global leadership on biodiversity. In July 2025, under Guyana’s leadership, the Global Biodiversity Alliance was established as an inclusive platform. In just over one year, the Alliance expanded from 17 to 138 members, bringing together governments, international organization, including the UN, development banks, Indigenous Peoples, local communities, scientists, universities and the private sector.
+
+The second conference of the Alliance, to be held on October 2026, will begin to mobilize the resources and partnerships to deliver its ambitions.
+
+At the same time, w e continue to advance our national Low Carbon Development Strategy focused on turning forest stewardship and climate action into a new model for sustainable development.
+
+Mr. President As we commence this 81 st Session, w e have the opportunity to build a United Nations that is truly fit for purpose.
+
+The crisis confronting multilateralism can become the catalyst for its renewal. The United Nations must not be a monument to the past; it must become an instrument for the future. We need a Security Council that reflects the geopolitical realities of the twenty-first century, not the power structures of 1945; a Council that embraces the emerging multipolarity of our world, including permanent representation from Africa, and Latin America and the Caribbean.
+
+A new multilateralism Mr. President If the United Nations is to remain humanity’s best hope, then this is not the hour to retreat from multilateralism. This is the hour to reclaim and to renew it. For it is in times such as these— when wars rage across borders, when the shadow of existential threats falls across the future of human civilisation, when the old certainties are dissolving before our eyes —that multilateralism must rise.
+
+Multilateralism rests upon the proposition that our destinies are bound together, that the security of one cannot be at the insecurity of another, and that in an interdependent world, cooperation is a necessity; and where t here can be no enduring prosperity where inequality deepen s, and no just international order where rules are applied selectively.
+
+It is to that truth that this eighty -first session of the General Assembly must recommit itself. But recommitment cannot mean merely repeating the language of yesterday. The world has changed, and multilateralism must change with it.
+
+We need a new and invigorated multilateralism —one equal to the turbulence of our age, sufficiently courageous to confront its trials, sufficiently imaginative to navigate its transformations, and sufficiently principled to defend the rule of international law.
+
+To make the United Nations fit for purpose we must make it more transparent, accountable and responsive. We must strengthen the General Assembly and give greater weight to its deliberative and representative authority. We must bring greater coherence to a system too often divided by institutional rivalries, bureaucratic silos and competing mandates. We must ensure that the resources of the UN match the responsibilities we have entrusted to it.
+
+Leadership But institutions do not reform themselves. They require leadership capable of seeing beyond the present and imagining the institution the future demands.
+
+The United Nations needs leadership that can bring its different organs, agencies and programmes into a greater unity of purpose. Leadership that can build bridges where division has become habitual; leadership that can defend the principles of the Charter without fear or favour.
+
+The United Nation s needs its next Secretary-General to work with all member States to restore confidence in the Organization, mobilise its energies, and turn the language of multilateralism from aspiration into action. The reform of the United Nation s, the restoration of trust and the need to manage transformation is, therefore, inseparable from the question of leadership. And the choice of its next Secretary -General will be, in no small measure, a choice about the kind of United Nations we wish to leave to the generations that follow.
+
+Guyana’s nominee for UN Secretary General It is in this spirit that Guyana has put forward the candidature of Her Excellency Carolyn Rodrigues Birkett for the office of Secretary-General of the United Nations. She has served her country, represented the developing world, and worked within the multilateral system with a deep understanding of both its promise and its imperfections.
+
+We believe that her experience, her convictions and her record of service speak directly to the kind of leadership this moment demands.
+
+Her candidature, therefore, acquires special significance amid the profound challenges confronting the United Nations and the international order. We need leadership capable of restoring trust without compromising principle; of listening without surrendering conviction; of building bridges across the widening chasms between North and South, between large states and small, between the developed and developing worlds.
+
+We need a Secretary -General who will defend the Charter not only when it is politically convenient, but precisely when its principles are under pressure.
+
+The responsibility for recommending the next Secretary-General rests, in the first instance, with the Security Council, and we therefore respectfully place before its members the candidature of Carolyn Rodrigues Birkett. Endorsed by the Caribbean Community (CARICOM), we invite all to consider her candidacy on its merits and to judge whether her vision, experience, expertise and record can help restore confidence in the United Nations at this critical moment.
+
+Conclusion Mr. President,
+
+The United Nations was conceived in hope —and that hope remains alive in the pursuit of peace, security and human progress over the perpetuation of division and war. This is why we must not abandon multilateralism because it is imperfect; we must renew it because humanity still needs it.
+
+Let us therefore build a United Nations that does not merely reflect the world as it is, but helps create the world as it ought to be—a world where law restrains power, cooperation overcomes division, and every human being can look to the future with hope.
+
+Guyana believes that the choice remains ours as to whether the divisions of our age will define the future, or whether nations can summon the will to build a more peaceful, secure and prosperous international order. The United Nations must be at the heart of that endeavour—not as an institution looking back at the world it was created to serve, but as one helping humanity shape the world that is yet to come.
+
+I thank you

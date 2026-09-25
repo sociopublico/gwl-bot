@@ -1,0 +1,297 @@
+---
+session: 81
+slug: ghana
+id_speech: M_75
+country: Ghana
+speaker: John Dramani Mahama
+title: President
+speaker_title: His Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/gh_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 3.524
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Excellencies,
+
+Distinguished Delegates,
+
+Ladies and Gentlemen,
+
+I congratulate you, Mr President, on your election to preside over the Eighty-First Session of the United Nations General Assembly.
+
+You assume this solemn stewardship at a time of intense geopolitical fragmentation, deepening inequality, and eroded trust in our multilateral system.
+
+Ghana is confident that your proven commitment to inclusive, consultative, and principled dialogue will guide this Assembly well. You have our full support.
+
+I also commend outgoing UN Secretary-General António Guterres for his dedicated service to our world body over the last 10 years.
+
+Mr. President,
+
+Ghana’s national anthem contains a profound petition. It asks God to make us "bold to defend forever the cause of freedom and of right."
+
+Those words give my compatriots and I the courage to uphold the PanAfrican and anti-colonial heritage bequeathed to us by our forebears.
+
+Another line petitions God to fill our hearts with true humility and make us cherish fearless honesty.
+
+That prayer inspires me today to follow in the footsteps of Kwame Nkrumah, Haile Selassie, Nelson Mandela, and the global icons who have stood at this podium before me and spoken boldly and fearlessly about the state of affairs in our world.
+
+The world may not transform overnight because of the speeches delivered in this August Assembly. But history faithfully records the truth we choose to speak, and the silence we choose to keep, when we are granted the privilege of addressing this global town hall.
+
+Allow me, therefore, to begin by reintroducing myself to the General Assembly.
+
+I stand before you as President of the Republic of Ghana. Yet, we too often ascend these heights draped only in the robes of our titles, forgetting that alongside each of us stands a history, a people, and a legacy.
+
+I was born in Damongo, then a modest town in northern Ghana and now the capital of the Savannah Region.
+
+I was born to Mr Emmanuel Adama Mahama of Bole and Madam Abiba Nnaba Suluwu of Busunu, both of blessed memory.
+
+I belong to them.
+
+I belong to the foremothers and forefathers who birthed them, who named them, nurtured them, and passed down the enduring values by which I live.
+
+I grew up at the crossroads of several Ghanaian cultures.
+
+I speak Gonja, a Guan language.
+
+I speak Akan and Ga.
+
+I am fluent in Hausa, spoken across the West African savannah and Sahel.
+
+I understand some Ewe.
+
+And I speak English.
+
+In a very real sense, I belong to all these peoples because their tongues have become my tongue.
+
+Language creates kinship, regardless of the historical complexities through which the kinship was forged.
+
+Mr. President,
+
+Every person in this Chamber, and every global citizen listening to these words, possesses an origin. We carry inherited memories, values, rich cultures, and distinct identities.
+
+Belonging anchors us; it reminds us that we are part of a human story far larger than ourselves. It is a vital wellspring of dignity and pride.
+
+But belonging also has a dark side.
+
+When weaponised by political expediency, it transforms into nativism, chauvinism, xenophobia and the dangerous prejudices extended to those who are deemed different.
+
+It becomes the pretext for discrimination, displacement, persecution, and war. Yet for this Organisation, the United Nations, the founding principle remains immutable: Every human being belongs to the human family.
+
+No race is superior.
+
+No nation is inferior.
+
+No child’s life is worth less because of the language they speak, the faith they profess, the colour of their skin, or the land of their birth.
+
+This is the unyielding moral foundation upon which the United Nations must stand. I will return to this issue of belonging at the end of my speech.
+
+Mr. President,
+
+Last year, from this podium, I made a solemn pledge on behalf of Ghana, Africa, and the global African diaspora to secure full international recognition of the transatlantic trafficking and racialised chattel enslavement of Africans as the gravest crime against humanity in human history.
+
+Some cautioned that we were reopening old wounds. But we came not to provoke division or render empty judgment. We came to seek healing. True healing requires truth; truth requires acknowledgement; and acknowledgement must lead to meaningful repair.
+
+For centuries, this tragedy was rendered in the passive voice as though millions of African men, women, and children vanished into the shadows of time.
+
+They did not vanish. They were hunted, captured, trafficked, bought, sold, exploited, and exchanged for profit. They were ripped from the families and communities they belonged to.
+
+Their unpaid labour built the cities, industries, banking institutions, and empires of the modern Western world. Meanwhile, the African continent was left depopulated, with split families, structural disruption, and generational trauma.
+
+On 25 March 2026, the International Day of Remembrance of the Victims of Slavery and the Transatlantic Slave Trade, Ghana had the honour of tabling Resolution A/RES/80/250 in this very August Assembly.
+
+One hundred and twenty-three (123) nations voted to affirm this fundamental truth: the transatlantic slave trade and chattel enslavement were the gravest crimes against humanity.
+
+We thank every nation that voted for justice, and I am deeply grateful to our brothers and sisters in the African Union, CARICOM, CELAC, and our partners across the Global South.
+
+That resolution was not a mere gesture. It was adopted because the structural legacies of those historic crimes continue to fuel systemic racism, economic marginalisation, and a global financial architecture weighted against Africa and people of African descent.
+
+Since the passage of the historic resolution, we welcome the positive overtures from many countries and institutions to join the dialogue on reparatory justice and restitution.
+
+The Netherlands, Germany and France have made positive moves to join the conversation on reparatory justice.
+
+But real repair demands structural transformation. It requires dismantling the persistent engines of exploitation: unfair global trade regimes, predatory resource extraction, discriminatory credit ratings, unsustainable debt burdens, and the continued expo rt of raw materials from Africa while real value addition and job creation occur elsewhere.
+
+Mr. President,
+
+The injustices of the past remain embedded in today's power structures.
+
+Africa is home to 1.5 billion people, over 18 per cent of humanity, and constitutes the largest regional voting bloc in this General Assembly.
+
+Yet, Africa remains without a single permanent seat on the United Nations Security Council.
+
+This is fundamentally unacceptable in the 21st century.
+
+Africa must be granted permanent representation on the UN Security Council, complete with all the rights, responsibilities, and veto powers of such membership.
+
+We cannot credibly champion the sovereign equality of nations while preserving a global governance structure designed for the post-war geopolitical realities.
+
+Security Council reform is not a favour to Africa; it is an imperative for the legitimacy, credibility, and survival of the United Nations.
+
+The same systemic inequality permeates the international financial architecture. Developing nations borrow at interest rates up to eight times higher than industrialised nations.
+
+African and Caribbean nations struck by climate disasters are forced to take on crippling debt to rebuild from floods and droughts they did not cause.
+
+Governments are forced into a tragic choice: to service predatory debt or serve their people.
+
+We demand reform. We need long-term, affordable, and accessible concessionary financing that enables developing economies to invest in human capital, industrialisation, and climate adaptation.
+
+Africa does not seek charity. Africa seeks equal partnership anchored in mutual respect. Our continent possesses the world’s youngest population, vast arable land, unparalleled cultural vitality, and the critical minerals required to drive the global green energy transition.
+
+But Africa will not remain a passive arena for a new scramble for resources. Critical mineral extraction must not replicate colonial-era exploitation.
+
+We will process our minerals at home, build local industries, create dignified jobs for our youth, and retain the value of our natural resources.
+
+The African Continental Free Trade Area (AfCFTA), whose Secretariat Ghana is proud to host in Accra, is our engine for intra-African trade, structural transformation, and industrial growth.
+
+Mr. President,
+
+As we heal historical wounds, we must address the alarming breakdown of global order today.
+
+We are witnessing a dangerous drift toward unilateralism, lawlessness, and the erosion of multilateral norms. The United Nations must learn from the lessons of the League of Nations. The UN Charter must reign supreme over the cynical doctrine that "might makes right."
+
+The veto power must never serve as a license for impunity. Sovereign equality cannot be a privilege reserved only for nations aligned with global superpowers.
+
+Nowhere is this crisis of credibility more painful than in the ongoing persecution of the Palestinian people in Gaza, the West Bank, and the occupied territories.
+
+We must stop using diplomatic euphemisms to veil the human carnage taking place in Gaza.
+
+How many more innocent lives must be lost before the world acts with decisive moral authority? The blood of five-year-old Hind Rajab, and the more than 20,000 children killed in this brutal conflict, cries out to the conscience of the world.
+
+Collective punishment, enforced starvation, and mass displacement are flagrant violations of international law. Ghana remains unwavering in its recognition of the sovereign State of Palestine and its steadfast support for a viable Two-State solution, where Israel and Palestine live side-by-side in peace, security, and guaranteed borders.
+
+At the same time, we condemn all acts of terrorism by Hamas that triggered this conflict. We insist that all parties unconditionally respect international humanitarian law. Our moral standards cannot be selective.
+
+In that same spirit of international legality and human solidarity,
+
+Ghana reiterates its call for the immediate lifting of the decades-long economic, commercial, and financial embargo imposed on Cuba. The world must support Cuba’s new Economic and Social Programme.
+
+Measures that inflict collective economic hardship on ordinary citizens run counter to our shared commitment to human dignity and international law.
+
+We must likewise elevate our global response to the catastrophic conflict in Sudan, which is reported to be the world’s worst humanitarian crisis. We must also exercise solidarity with nations facing the terrorist scourge, especially the Alliance of Sahel States.
+
+The current Middle East crisis is having a deleterious effect on the world economy. We call for a return to the negotiating table. And let me add that no human civilisation deserves to be annihilated, certainly not a member state of the United Nations.
+
+I believe that dialogue can resolve even the most intractable of problems. Across every conflict, whether in Europe, the Middle East, or Africa, the standard must remain uniform: respect sovereign integrity, protect civilians, ensure unhindered humanitarian access, and hold perpetrators of war crimes accountable.
+
+Mr. President,
+
+For those who have declared climate change a hoax perpetrated by geopolitical opponents, the warnings of recent times cannot have been clearer.
+
+Melting glaciers, flash flooding, droughts, record-breaking heatwaves, brush fires, hurricanes and other extreme weather phenomena are unmistakable signals of an overburdened planet.
+
+Climate change is the ultimate test of global equity. Africa contributes less than 4 per cent of global greenhouse gas emissions, yet bears some of the heaviest burden of climate devastation.
+
+We face erratic rainfall, our coastal towns suffer relentless erosion, and our Sahelian regions face accelerating desertification. On 29 June this year, Ghana and coastal West Africa faced an unprecedented deluge.
+
+Torrential rain, exceeding 160 millimetres, was dumped on seven coastal regions within 24 hours, resulting in 39 deaths and one still missing.
+
+Climate justice demands that developed nations fulfil their long overdue financial commitments. Mitigation support must be operationalised with predictable, non-debt-creating grants, not loans that further indebt fragile economies.
+
+Similarly, global health security demands true solidarity. Pathogens do not respect national borders or GDP.
+
+We must build an equitable global health architecture that guarantees regional manufacturing of vaccines and therapeutics, strengthens epidemic surveillance, and funds resilient public health infrastructure across the Global South in accordance with the demands of the Accra Reset.
+
+Mr President, Excellencies,
+
+I agree that even as we demand a place at the table and call for a more equitable and just global order, as African leaders, we must also do what is required to put our own houses in order.
+
+As the legal maxim goes: “Whoever comes into equity must come with clean hands.”
+
+African leadership must be transparent and accountable. We must fight corruption and ensure that every dollar of our people’s money counts and is used efficiently in their interest.
+
+Ghana is arguably the most stable democracy in Africa. We believe in the rule of law and have respect for human rights. We are determined to demonstrate that democracy works.
+
+While progress in a democracy may be slow because it must follow constitutional processes, it is more sustainable because it is built through popular participation and consensus-building.
+
+As Ghana addresses these global imperatives, we are leading by example at home through our transformative "Resetting Ghana Agenda."
+
+Less than two years into my administration, through disciplined governance, fiscal prudence, and an uncompromising fight against corruption, Ghana has achieved a dramatic economic turnaround.
+
+Indeed, some circles describe it as the “Ghanaian miracle.”
+
+Our macroeconomic stabilisation measures have restored growth, drastically reduced inflation, stabilised our national currency, and significantly lowered our public debt burden.
+
+This remarkable economic recovery story has been independently validated by multilateral financial institutions and major international credit rating agencies—all of which affirm that Ghana has moved from economic vulnerability to sustained recovery, resilience, and growth.
+
+But macroeconomic indicators mean little if they do not translate into real improvements in our people's daily lives. Economic growth must have a human face.
+
+That is why we are pursuing an aggressive national infrastructure agenda under our Big Push Programme to build roads, expand digital connectivity, and construct schools and health facilities.
+
+This strategic investment is opening up the length and breadth of our country, bridging the rural -urban divide, unlocking agricultural potential, and guaranteeing equitable access to basic services for every Ghanaian, no matter where they live.
+
+Through our flagship 24-Hour Economy and Accelerated Export Development Programme, and the soon-to-be-launched ‘New Ghana,
+
+New Economy’ policy, we are transforming Ghana into an industrial, high-productivity hub.
+
+We are incentivising round-the-clock commercial operations, driving value addition in agriculture and mining, and creating sustainable, dignified jobs for our vibrant youth and women.
+
+Central to our national reset is a revolutionary expansion of social protection and universal healthcare, delivering on the Sustainable Development Goals, specifically SDG 1 (No Poverty), SDG 3 (Good Health and Well-Being), and SDG 10 (Reduced Inequalities).
+
+Ghana has officially launched a historic Free Primary Health Care Programme, ensuring that every Ghanaian can access essential primary healthcare services at the community level at zero cost.
+
+Hailed by the World Health Organisation (WHO) and the United Nations as a benchmark paradigm shift for the Global South, this model is currently being studied by other nations seeking to achieve true Universal Health Coverage.
+
+Alongside our National Health Insurance Scheme (NHIS), we have introduced a specialised fund officially named the Ghana Medical Trust Fund (and popularly referred to as Mahama Care) that guarantees Ghanaians suffering from Non-Communicable Diseases (NCDs) such as renal failure, cancer, cardiovascular diseases, and diabetes receive subsidised, affordable, and life-saving care.
+
+I have always believed that democracy must deliver tangible social benefits. Citizens must experience democracy not only through the ballot box every four years, but through improved access to food, quality education, decent housing, accessible healthcare, and economic opportunity.
+
+Democracy loses its soul when it protects elite privileges while abandoning the vulnerable.
+
+Ghana remains an uncompromising beacon of constitutional democracy, media freedom, the rule of law, and peaceful transitions of power on the African continent.
+
+These domestic achievements set the stage for two historic milestones ahead. In March 2027, Ghana will celebrate its 70th Anniversary of Independence as the first nation in sub-Saharan Africa to break the shackles of colonial rule. And in January 2027, Ghana will proudly assume the Chairmanship of the African Union.
+
+We will use our AU Chairmanship to champion continental integration, accelerate the implementation of the AfCFTA, push for peace and security in conflict zones, and ensure that Africa speaks on the global stage with one resolute, undivided, and confident voice.
+
+Mr. President,
+
+The daunting crises confronting our world are not insurmountable.
+
+What we lack is not resources or intellect; we lack the political courage to see one another as part of a single human family.
+
+We must see each other not as strategic rivals, economic targets, or demographic threats, but as human beings who belong.
+
+The refugee fleeing violence belongs.
+
+The migrant seeking opportunity belongs.
+
+The child in Gaza, Sudan, or Ukraine belongs.
+
+The descendants of enslaved Africans seeking justice belongs.
+
+The indigenous community protecting its ancestral environment belongs.
+
+The small island state threatened by rising oceans belongs.
+
+The poor, the vulnerable, and the marginalised belongs.
+
+They belong to our common human family. And because they belong, we must safeguard their dignity, enforce their rights, and hear their voices.
+
+When Osagyefo Dr Kwame Nkrumah stood on the eve of Ghana’s independence in 1957, he declared that "the independence of Ghana is meaningless unless it is linked up with the total liberation of the African continent."
+
+Today, from this respected global podium, we must expand that historic truth: The freedom of any nation is insecure unless it is linked to the freedom of all humanity. Our national prosperity is fragile unless it is shared.
+
+Our global peace is unviable unless it is anchored in justice. Let this General Assembly recommit itself to a world where belonging is used not to erect walls, but to build bridges; not to exclude, but to unite; not to degrade humanity, but to exalt it.
+
+Let us speak truth with humility.
+
+Let us act with courage.
+
+And let us cherish fearless honesty in the statements we deliver today, and in the choices we make tomorrow.
+
+May God bless our shared world.
+
+May God bless my homeland, Ghana.
+
+And may God bless the United Nations.
+
+I thank you.

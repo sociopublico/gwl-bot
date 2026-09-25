@@ -1,0 +1,307 @@
+---
+session: 81
+slug: ireland
+id_speech: M_105
+country: Ireland
+speaker: Micheál Martin
+title: Taoiseach
+speaker_title: His Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/ie_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.644
+---
+
+Secretary-General,
+
+Excellencies,
+
+A chairde, friends,
+
+The United Nations is entering its ninth decade at a moment of great uncertainty and challenge for the global community.
+
+Conflicts are having devastating effects on the most vulnerable.
+
+The impacts of the climate crisis are felt in every corner of our world.
+
+Hard won rights are being rolled back.
+
+Narrow self-interest is breaking the bonds of solidarity which have so often lifted us to meaningful progress.
+
+The international legal order is under tremendous strain.
+
+New and emerging technologies that offer unlimited potential could also, without human intervention, create unprecedented dangers.
+
+In such moments of uncertainty, it can be easy to question our foundations.
+
+To retreat.
+
+To turn inward.
+
+To say that international cooperation is too difficult, that multilateralism does not work, that the problems of others are not our problems.
+
+But that would be the wrong conclusion.
+
+Because the answer to a world under strain is not less international cooperation.
+
+It is more.
+
+The answer to the weakening of principles is not to abandon them.
+
+It is to defend them.
+
+And if our multilateral system is not working effectively, the answer is not to walk away from it.
+
+It is to make it stronger, fairer and fit for the world we live in.
+
+That is Ireland’s position.
+
+And that is what all of us as members of the United Nations need to deliver on.
+
+We should also remember what our collective commitment to the United Nations has achieved.
+
+The multilateral system, anchored in the United Nations Charter, has been the foundation of many of humanity’s greatest achievements.
+
+It has driven advances in poverty alleviation, healthcare, education, social protection, and food and nutrition security.
+
+It has championed human rights and dignity and insisted that accountability matters.
+
+It has given voice to the marginalised.
+
+Mr President,
+
+The people of Ireland understand that we live in an interdependent world; that the challenges we face are interconnected, cross borders, and require collective solutions.
+
+Ireland currently holds the Presidency of the Council of the European Union.
+
+Our stewardship of the EU’s agenda is deeply rooted in the principle of strength with unity.
+
+And this principle is at the heart of our vision for the United Nations.
+
+As well as our unwavering commitment to the pillars which guide its work: peace and security, human rights, and development.
+
+These pillars equally bear the weight of our shared ambition for a better, fairer and peaceful world.
+
+Collectively, however, we are not delivering on their ambition. We are not staying the course.
+
+At a time when global needs are increasing and becoming more complex, our responsibility to act does not diminish.
+
+Mr. President,
+
+The denial of the fundamental human rights of millions of people around the world remains one of the defining challenges of our time.
+
+Renewed pressure on women's rights and gender equality is putting hard-won progress at risk.
+
+Women and girls are being told that their ambitions, their education, their voices and their very presence in public life are unacceptable.
+
+The situation in Afghanistan is one of the clearest examples.
+
+The systematic exclusion of women and girls from education, employment and public life is not something that the international community can simply observe from a distance.
+
+It is a profound human rights crisis.
+
+Girls are being denied the education that should shape their futures.
+
+Women are being denied the ability to work, to participate fully in society and to contribute to the economic and social life of their country.
+
+Their freedoms are being progressively erased.
+
+And the world must not become inured to it.
+
+We must not allow the absence of headlines to become an absence of action.
+
+The women of Afghanistan have not disappeared.
+
+And neither should our solidarity.
+
+The same is true elsewhere.
+
+Across the world, women and girls face conflict-related sexual violence, forced displacement, trafficking and discrimination.
+
+Across the world, LGBTQI+ people face growing threats to their rights, safety and dignity.
+
+Ireland remains firmly committed to the universality, indivisibility and equal application of human rights.
+
+These principles are beyond question.
+
+That commitment is why Ireland is seeking election to the Human Rights Council for the 2027–2029 term.
+
+And if elected, we will use that seat to defend the principle that human rights belong to everyone everywhere.
+
+Mr. President,
+
+Today, Russia’s illegal war in Ukraine is more deadly for civilians than at any point since the start of their full-scale invasion.
+
+Russia’s reckless drone and missile attacks, on Ukrainian towns and cities, continue to intensify. These are not the actions of a country interested in peace.
+
+Russia could halt its brutal attacks at any time. Yet it refuses to do so.
+
+Russia’s actions have already had direct global impact, in increased food and energy costs.
+
+This time last year, a bushel of wheat was just over five dollars; this year it is more than seven dollars.
+
+The fact that a permanent member of the Security Council is seeking to change borders by force, in clear violation of the UN Charter, is utterly unacceptable.
+
+Sovereignty and territorial integrity apply equally to all States.
+
+The international community must remain steadfast in our response, in support of the UN Charter and of a comprehensive, just and lasting peace.
+
+Ireland stands in solidarity with Ukraine and will continue to do so.
+
+We will continue to support efforts to hold Russia accountable for its actions.
+
+There can be no impunity for war crimes, not in Ukraine, not anywhere.
+
+That is why Ireland is a steadfast supporter of the International Criminal Court.
+
+Ireland strongly opposes efforts to undermine the Court. All measures against it should be immediately withdrawn.
+
+The international legal order, founded on our agreements to make the world a safer and more secure place is being challenged.
+
+International law represents the collective lessons drawn from conflict, suffering and atrocity.
+
+The rules and institutions that we have built over generations exist to protect the rights, security and sovereignty of all states and all peoples.
+
+When these principles are disregarded, the consequences extend far beyond any single conflict. We all become less secure.
+
+Mr. President,
+
+Twenty years ago, the commission on war crimes and crimes against humanity in Darfur saw the international community come together to fulfil our collective responsibility to protect.
+
+Despite the extraordinary efforts of the Sudanese people, the cycle of violence has continued.
+
+The conflict has been inflamed and prolonged by harmful outside interference. All States and external actors must cease arming, financing and enabling the war in Sudan.
+
+15 million Sudanese people are displaced from their homes.
+
+Over 19.5 million face crisis levels of hunger.
+
+33 million need urgent humanitarian assistance.
+
+Violations of international law, including targeting on the basis of ethnicity, deliberate destruction of the means of survival, killing, torture, and sexual violence, are again being used as weapons of war.
+
+We need to act decisively to support the people of Sudan to end this conflict. We must support their aspirations for democracy, justice, and development.
+
+Sudan has become a forgotten war, despite its devastating impact.
+
+We must not allow the absence of daily headlines to become a licence for inaction.
+
+The people of Sudan deserve the same attention, urgency and solidarity that we rightly extend to crises elsewhere.
+
+Mr President,
+
+Despite its prevalence, we cannot ever allow ours to become indifferent to conflict and the human suffering it brings.
+
+To do so would deny the shared humanity of its victims.
+
+The peace plan on Gaza agreed last October was welcome, but it has not fundamentally changed the reality on the ground.
+
+Israeli strikes continue. Humanitarian aid remains blocked. Civilians continue to suffer.
+
+We, the collected international community, have failed Palestine.
+
+Ireland, like most gathered here, believes that the only viable solution to the decades of conflict, misery and wasted human lives, is a situation where a State of Palestine and a State of Isreal live side-by-side in peace, security and dignity.
+
+There are modest signs of progress.
+
+More countries have recognised the State of Palestine. An overwhelming majority of UN member states has endorsed the New York Declaration.
+
+More of us have taken steps to push back against the illegal and violent settler occupation of Palestinian land in the West Bank.
+
+But time is running out.
+
+What we are witnessing on the ground is a deliberate attempt by some to make the prospect of a two-state solution impossible.
+
+This is not some mad conspiracy theory – it is the stated intent of the Prime Minister of Israel who said clearly that “we are going to fulfil our promise that there will be no Palestinian state. This place belongs to us” as he permitted the E1 illegal development in East Jerusalem.
+
+And the situation in Gaza remains an affront to all that is decent.
+
+How can we tolerate a situation where civilians are so desperate for shelter that they have to make their homes in war-damaged and unsafe buildings?
+
+Where eight children died because one of them collapsed?
+
+Where the most basic humanitarian aid – food and shelter – is deliberately impeded?
+
+When the full truth of what has happened - what is still happening - in Gaza is finally known, when the evidence is gathered, when the testimonies are heard, when the true horrors are finally and fully revealed, it will shame the world.
+
+Nobody will be able to say that we did not know.
+
+Let it not be said that we did not act.
+
+In the West Bank, the relentless expansion of settlements has reached a scale without precedent, further eroding the prospects for a just and lasting peace.
+
+Violent settlers continue to act with near-total impunity, while Palestinian communities face a sustained campaign of displacement and destruction – amounting to ethnic cleaning.
+
+Entire villages have been razed, homes and vital infrastructure demolished, and thousands of Palestinian families driven from the places they have called home for generations and exposed to intimidation and violence.
+
+The United Nations reports that this year there have been almost 200 attacks against Palestinians every month, a stark reminder of a reality that is deepening conflict, suffering, and despair.
+
+The International Court of Justice has been clear: settlements in occupied Palestinian territory are illegal.
+
+Ireland has acted, alongside others, to prohibit the import of settlement goods.
+
+It is never too late to uphold international law.
+
+Mr President,
+
+The conflict in the Gulf remains deeply concerning and is having a serious impact around the world.
+
+We need to get back to meaningful good faith negotiations by all sides.
+
+Ireland has consistently stated that Iran must cease its attacks on its neighbours and also end its destabilising activities across the region; including strikes on ships in the Strait of Hormuz.
+
+Vessels must be allowed to transit the Strait safely and without tolls, in line with international law.
+
+If we are to build greater stability, Iran must never have a nuclear weapon. Iran’s destabilising influence across the region must cease.
+
+We need dialogue to achieve a negotiated settlement.
+
+Mr. President,
+
+Since 1978 Irish soldiers have served with distinction in Lebanon in the UNIFIL peacekeeping operation. Ireland will continue to work with Lebanon, EU and international partners to support Lebanon’s future peace and security.
+
+We have consistently condemned Hezbollah's attacks on Israel, which must cease immediately.
+
+Israel must withdraw its military presence from southern Lebanon and bring an end to its military operations there. Israel's response has been wholly disproportionate.
+
+We honour the courage, professionalism and dedication of all peacekeepers who have served under the UN.
+
+We remember with particular respect those who lost their lives in the cause of peace.
+
+We welcome the Secretary General’s report on the future of peacekeeping, and Ireland will work with others to ensure that this essential tool adapts to the twentyfirst century.
+
+Ireland also welcomes wider reform efforts in the UN system. These are necessary if we are to meet the challenges of our rapidly changing world.
+
+But it is also necessary to point out that no reform process can succeed unless member states are prepared to support the United Nations politically, financially and through their actions.
+
+We need the Security Council to live up to its mandate and respond to the crises around us.
+
+Too long the veto has stymied the Council and eroded its legitimacy.
+
+The Council’s membership must also finally be made representative of the world we live in; starting with the historic under-representation of African countries and ensuring that the voices of small and the most vulnerable states are heard.
+
+Mr President,
+
+I conclude by thanking Secretary-General António Guterres for his principled leadership and steadfast commitment to the United Nations over the past decade.
+
+I especially commend his courage in tackling the climate crisis, the fundamental issue of our time.
+
+From devastating floods in Nepal to wildfires across Europe, communities are increasingly experiencing the consequences of a changing climate.
+
+The Paris Agreement remains a powerful example of what can be achieved when countries work together. Secretary Guterres has been a vital voice in calling Member States to action.
+
+We look forward to working with the next Secretary-General in advancing the Charter's principles and strengthening this institution.
+
+As the leader of a country that fought for its independence and its place among nations, I am deeply conscious of the inheritance we have received.
+
+The United Nations, for all its imperfections, remains one of humanity's greatest achievements: a testament to the belief that peace, dignity and progress are best secured when nations work together.
+
+At a time when that belief is under strain, it is our shared responsibility to renew it, strengthen it, and ensure it endures for generations to come.
+
+Thank you.
+
+ENDS

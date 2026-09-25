@@ -1,0 +1,191 @@
+---
+session: 81
+slug: greece
+id_speech: M_103
+country: Greece
+speaker: Kyriakos Mitsotakis
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/gr_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.973
+---
+
+Monsieur le Président,
+
+Heads of State and Government,
+
+Ladies and Gentlemen,
+
+It is a great honor to address the General Assembly for the eighth time as Prime Minister of Greece.
+
+I do so at a moment of particular importance, as Greece reaches the end of our second year on the UN Security Council and is preparing to assume its Presidency next month.
+
+12 months ago, as we marked the 80th anniversary of the United Nations, we spoke of the need to reinvigorate multilateralism.
+
+One year later, that need has only become more urgent as we are living through perilous times. Conflicts are multiplying. Tensions are deepening.
+
+And perhaps most alarmingly, we are witnessing a further erosion of restraint in international affairs.
+
+The rules and understandings that have long provided a degree of stability in relations between states are increasingly being tested.
+
+Secretary-General António Guterres has steered the United Nations through this exceptionally turbulent decade with a steadfast commitment to its Charter and the values it embodies.
+
+The selection of the tenth Secretary -General presents a historic opportunity for the reinvigoration of the Organization when it is most needed.
+
+Ladies and gentlemen,
+
+The first step in restoring confidence in multilateralism is acknowledging where it has actually succeeded.
+
+Few examples are more powerful than the United Nations Convention on the Law of the Sea. With 172 parties, UNCLOS provides the binding legal framework within which disputes can be managed peacefully rather than through force.
+
+From the Strait of Hormuz and the Red Sea to the Indo -Pacific, strategic maritime routes are increasingly becoming arenas of geopolitical confrontation. Commercial vessels are being targeted and vital trade routes used as instruments of pressure, with grave consequences for supply chains, energy markets and food security worldwide.
+
+Freedom of navigation and uninhibited passage through international straits, as guaranteed by international law, must be championed globally.
+
+It is our collective responsibility to uphold these principles in practice, and to safeguard commercial shipping. As a leading maritime nation, Greece actively contributes to maritime security through the European Union's Operation ASPIDES in the Red Sea.
+
+This topic will remain a high priority when Greece assumes the Presidency of the Security Council next month, with particular attention being placed to the challenges posed by emerging technologies.
+
+Ladies and gentlemen,
+
+Greece’s geography grants it the natural role of serving as a bridge between Europe and its wider neighborhood to the east and south.
+
+We literally sit at the intersection of the shrinking space between the East and West.
+
+My country is a pillar of stability, connectivity, and peace across the Eastern Mediterranean, the Middle East and the Gulf.
+
+Greece has developed strong strategic partnerships with key countries in the region, including Israel, Egypt, Saudi Arabia, the United Arab Emirates, Bahrain and Qatar.
+
+We are a bridgebuilder not a troublemaker. Yet, putting this vision into practice is rarely simple at a time of tectonic geopolitical changes.
+
+In the Middle East, the Gaza Peace Plan, agreed last year, must be effectively implemented. It is of paramount concern to ensure that Hamas surrenders its arms. It can have no role in Gaza’s future.
+
+At the same time, reconstruction needs to move forward, with Palestinians themselves taking ownership of Gaza’s future.
+
+Greece will continue to advocate for a two-state solution, with Israel and Palestine living side by side in peace and security.
+
+However, developments in the West Bank remain a source of deep concern. Actions that are illegal under international law and undermine the viability of a future Palestinian state cannot be allowed to continue.
+
+We strongly argue that t his is also to the benefit of the long term security of Israel itself. Greece has established a durable strategic partnership with Israel, while maintaining strong ties with the Arab world. It is precisely the strength of this partnership that allows us to engage in an open and candid dialogue.
+
+In Lebanon, there is now a real opportunity to lay the foundations for lasting peace. The US-facilitated negotiations with Israel are an important step forward and should be sustained. Greece strongly supports a sovereign, resilient and united Lebanon, and the Government’s efforts to restore the state’s monopoly over arms.
+
+Ultimately, a stronger Lebanese state will serve both domestic security and regional stability. Therefore, we will continue to deliver concrete assistance to the country, including to the Lebanese Armed Forces. With the UNIFIL’s mandate ending, joint action is crucial to avoid a security vacuum and maintain an effective international and European presence.
+
+Syria is another key part of the region. Lasting stability in the Middle East requires a stable Syria. A Syria that is inclusive, free from foreign interference and regional rivalries, and where every citizen can feel secure.
+
+The new Syrian authorities have taken steps in this direction. Yet further concrete progress must be demonstrated, particularly when it comes to protecting the rights and security of all religious and ethnic communities. This includes the Orthodox Christian minority, which continues to face the violence of Islamist extremists.
+
+This search for stability extends to Libya, a neighbor with whom we share many common interests. We praise all reunification efforts. A stable Libya, free from foreign interference, would benefit not only the Libyan people, but our entire region.
+
+Greece is ready to support Libyan institutions in border protection and migration. We remain committed to reaching an agreement on the delimitation of our maritime zones.
+
+Dear colleagues,
+
+Let me now turn to our relations with our neighbor, Türkiye.
+
+Over the past three years, we have made a sustained effort to improve our relationship, rebuild trust and keep channels of communication open in order to prevent the escalation of tensions that could lead to unwanted crises. It is a delicate relationship, and one that carries the weight of history.
+
+Indeed, given the broader regional challenges, the situation urgently calls for a common understanding o n how we move forward. An understanding grounded in full respect for international law and the principles of good neighborly relations. After all, we cannot change our geography and we are destined to live side by side.
+
+Let me repeat that t he UN Convention on the Law of the Sea provides the only institutional framework to solve our only long standing dispute concerning the delimitation of our continental shelf and exclusive economic zones.
+
+Dialogue is essential for peace and prosperity. But meaningful dialogue cannot coexist with unilateral actions that challenge the international legal order. Nor can meaningful progress be made when faced with threats of war in response to the exercise of lawful rights according to international law. Such actions do not resolve differences. They only deepen them.
+
+And they risk undermining the stability of our wider region. A region which, we should not forget, still bears an open wound: the unresolved Cyprus issue. Fifty-two years have passed since Türkiye’s illegal invasion and the continuing occupation of part of the island. A flagrant violation of international law, whose consequences persist to this day.
+
+For the United Nations, Cyprus remains a litmus test of its credibility: of its ability to uphold its own resolutions and the principles of its Charter.
+
+Greece fully supports the efforts of Secretary -General Guterres to create the conditions for the resumption of substantive negotiations.
+
+We sincerely hope that progress can be achieved during his remaining time in office. And we expect these efforts to continue under his successor with the same objective: the reunification of Cyprus, free of occupation forces, in accordance with the relevant UN Security Council resolutions.
+
+The principles at stake in Cyprus are being tested elsewhere too.
+
+Today, two other major conflicts continue to challenge our ability to defend the values upon which this Organization was founded.
+
+The war in Ukraine is now in its fifth year. Five years since Russia’s full-scale aggression brought war back to European soil.
+
+The Ukrainian people have shown extraordinary courage defending their freedom. Greece continuously stands with them. We strongly condemn attacks against civilians and civilian infrastructure.
+
+Diplomacy must now deliver an immediate ceasefire and a lasting peace, anchored in the principles of the United Nations Charter.
+
+Ukraine must have a decisive say in its own future and Europe cannot be absent from negotiations.
+
+Against this backdrop, another devastating war demands our urgent attention. In Sudan, the nearly four-year conflict has resulted in a staggering humanitarian catastrophe. Reports of atrocious war crimes continue to emerge, while the conflict is fueling instability far beyond Sudan’s borders. We should not permit this tragedy to endure.
+
+Foreign interference must also cease with no impunity for war crimes. Ultimately, the way forward lies in a credible, Sudanese-led political process that reflects the aspirations of the citizenry. The European Union ought to leverage its capacity to play a more active role in supporting that proc ess and assisting in bringing this destructive conflict to an end.
+
+After all, it has real skin in the game. Should the devastating war continue, our continent will be the first to suffer from a possible massive new migratory wave.
+
+Ladies and gentlemen,
+
+Greece’s confidence abroad rests on a profound transformation at home. At a time when the effectiveness of governments all over the world is being challenged by populists and extremists and public trust is being eroded in the echo chambers of social media, Greece serves as an example that sound reform-oriented policies can deliver real results for people and improve their lives Of course, significant challenges remain, but the progress Greece has made is impossible to overlook. Seven years ago, my country was still emerging from the most painful economic crisis in its modern history, having lost more than 25% of its GDP. Today, the economy is growing much faster than the European average, while Greece is attracting significant foreign direct investment.
+
+Public finances are solid and our fiscal performance has become a positive example in Europe. Public debt is declining faster than in any other OECD country. Structural reforms and the digitalization of the state, which has helped reduce bureaucracy, have transformed the public administration and restored confidence among investors.
+
+A few days ago, two leading rating agencies upgraded their outlook of the Greek economy. At a time of great turbulence in the global bond markets, this says a lot about the progress that Greece has made. Not many people would have bet a few years ago that today Greece’s borrowing cost would be lower than that of four G7 countries.
+
+This transformation was not easy. It was made possible by the hard work, resilience and determination of the Greek people.
+
+Economic growth is vital because it expands a nation's strategic leverage. It enables a state to bolster its defense, a core commitment this government is proud to adhere to, modernize its infrastructure and invest in innovation, all while safeguarding social cohesion. Economic resilience is, therefore, inherently intertwined with robust institutions and credible deterrent capabilities.
+
+Greece’s ambition is to serve as a nexus through which lasting partnerships are forged. I was reminded of this vision earlier this year when I welcomed President Emmanuel Macron at the Roman Agora in Athens, to discuss Europe’s place amid a shifting geopolitical landscape. The setting was particularly meaningful.
+
+The Agora was a place where commerce, law and public life once converged. There, we reflected on how Europe can transform the crisis into an opportunity for its strategic autonomy and improve its competitiveness.
+
+As we prepare to assume the Presidency of the Council of the European Union in the second half of 2027, we will work for a Europe that is more competitive, more secure, more capable of defending itself and more effective in protecting its external borders.
+
+Another lesson, however, is becoming increasingly clear: connectivity is the tangible face of geopolitics.
+
+The region’s energy landscape is fundamentally transformed.
+
+Electricity grids, energy and digital corridors, ports and shipping routes are levers of power. Geography matters.
+
+Our ambition is to translate our unique position into stronger links between Europe, the Middle East, the Gulf and North Africa.
+
+Therefore, we are investing in a new generation of connectivity projects, such as GREGY, which will bring clean electricity from Egypt to Europe, and the Great Sea Interconnector, which will connect the European electricity grid with Cyprus and Israel.
+
+At the same time, we leverage our unique geographic position to become a provider of energy security to our northern neighbors.
+
+And as the prime min ister of a leading shipping nation, it is worth remembering a stark fact: More than 90% of global trade is conducted by sea. If we systematically threaten the freedom of navigation and do not protect vital sea routes, the global economy risks coming to a grinding halt. And this is something that should be of great interest to every single country represented in th is great Assembly Ladies and gentlemen,
+
+I would like to conclude with a few thoughts on the topic of artificial intelligence. One of my favorite bands when I was growing up was Talking Heads. Little did I know at the time that David Byrne’s iconic song “we are on a road to nowhere” would ring so prescient four decades later.
+
+For the first time in the history of our species, we have created a technology that openly challenges t he supremacy of the human mind as the pinnacle of our evolutionary development. I will not dwell on the transformational potential of this revolutionary technology, w hether in disease eradication, productivity enhancement, or fighting climate change.
+
+However, it is simply impossible to ignore the fact that, at present, the risks of an unchecked and unregulated advance in artificial intelligence could greatly outweigh its potential benefits.
+
+When the people developing the technology tell us openly that, “left unchecked AI could outrun our ability to control these systems” and admit that “we only understand a tiny fraction of what goes on in these models”, alarm bells should ring very loudly for all of us.
+
+In simple words, AI bosses are telling us that they have no idea how recursive self -improvement, the ability of AI to constantly create better versions of itself, actually works.
+
+Add to that the possibility of massive job destruction, the likelihood of unprecedented wealth creation in the hands of very few, and the impact that AI may have on the very nature of human relationships, especially for our kids, and you have all the ingre dients of an unprecedented political and social upheaval.
+
+The idea that the big tech companies will find some voluntary arrangement to self-regulate the development of AI is naive. It flies in the face of everything we know about the history of capitalism.
+
+The prize for the winners is simply too great to believe that benign consideration for the wellbeing of humanity will outweigh the relentless drive of capital to constantly seek better returns.
+
+Given that the leading AI models are being developed here in the United States, this is primarily an issue for the US government to address. Fortunately, t here are prece dents from which to draw lessons.
+
+In the 1940s and 50s, the American government heavily regulated another technology so powerful that its creators believed it could bring about either a golden age in human flourishing or the end of the world. That technology was nuclear.
+
+The same needs to happen now. And it needs to happen fast. AI companies need to be li censed based on specific requirements: adherence to human values, transparency and, most importantly, safety. In order for a new plane to fly, it has to undergo a myriad of rigorous tests approved by the regulator. But the same is not true for a frontier artificial intelligence model.
+
+At the same time, I take the call by leading AI executives for a voluntary pause in the development of their models very seriously.
+
+But only as a temporary measure to buy time for a powerful regulatory authority to be set up.
+
+Liberal capitalism has a history of rei ning in market excesses, whether it was breaking up powerful monopolies or setting rules and standards to allow the market to operate with an eye on the common good. The same needs to happen now.
+
+And as much as the cooperation of China and the rest of the world is necessary to address this huge challenge, the fate of artificial intelligence and the impact it will have on humanity as a whole will not be decided in Brussels, Tokyo, or Brasilia, but primarily here, in the United States.
+
+With great power comes great responsibility. Let us hope our host country will rise to the occasion.
+
+Thank you.

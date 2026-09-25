@@ -1,0 +1,303 @@
+---
+session: 81
+slug: netherlands-kingdom
+id_speech: M_101
+country: Netherlands (Kingdom of the)
+speaker: Rob Jetten
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/nl_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.469
+---
+
+Mr President,
+
+Your Excellencies,
+
+Ladies and gentlemen,
+
+Anne Frank was a teenage girl without power or influence.
+
+But she had a pen and a diary.
+
+A diary that would make its way into the world, and inspire millions of people.
+
+I think that one of the reasons people are so inspired by Anne, is that she had an unshakeable belief in the power of people to turn the tide so that good prevails.
+
+She wrote, ‘How wonderful it is that nobody need wait a single moment before starting to improve the world’.
+
+Those words are just as powerful and true today.
+
+This week is the perfect example of that.
+
+I realise that the United Nations does not carry the most positive associations for everyone.
+
+And indeed, there is much that can and must be improved.
+
+But let us not forget what lay behind the founding of the UN, over 80 years ago: the realisation that doing nothing had led to the darkest chapters in human history.
+
+We now live in a different time.
+
+New generations have arisen.
+
+And we face new challenges.
+
+But when we look at the world today, we see similar challenges as which preceded the founding of the UN.
+
+AVT/AZ-260915-002 2 We see that the international legal order is under pressure in more and more places, even though it is the very foundation of our freedom and prosperity.
+
+We see the unending human suffering in Gaza, Sudan and so many other places in the world.
+
+We see violations of international law and of human rights, which are in stark contrast to the UN’s aims.
+
+And we see institutions being undermined.
+
+Institutions that were established to protect people and populations.
+
+We must not be naive about the causes.
+
+These constant threats and attempts to dismantle the legal order are fuelled by people and groups with their own agenda.
+
+One that runs counter to the interests of everyone else.
+
+Yes: everyone.
+
+Even those who don’t feel directly threatened, because they think it doesn’t affect them.
+
+Sooner or later, everyone is affected.
+
+As we saw in the time before the UN.
+
+When major powers choose to pursue only their own interests, it is tempting to respond defensively.
+
+But as Mahatma Gandhi taught us, ‘An eye for eye will only make the whole world blind.’
+
+And so, it is time for us, the global community, to choose to pursue the common interest.
+
+Not by trying to build an entirely new world order.
+
+But simply by working together.
+
+The middle powers must take the lead in fostering such international cooperation.
+
+And everyone must be able to participate, including those countries who are currently too often left on the sidelines.
+
+AVT/AZ-260915-002 3 It is time that countries in Africa, Asia and Latin America had a fullyfledged place.
+
+Not only on the Equal Earth Map, but in the real world too.
+
+To start with, here in the UN, with improved African representation in the Security Council at the very least.
+
+Because if we want to preserve the UN for the future, we must change the balance of power in line with the changing times, and modernise our institutions.
+
+This means that we must focus on core tasks and stable financing, but also that we must work to protect the multilateral order with all our strength.
+
+Because international law either works for everyone, or for no one.
+
+Take the attempts we’ve seen to undermine the International Criminal Court- which is based in my country, in my city.
+
+This undermines the international legal order as a whole.
+
+And that affects us all.
+
+This court was established to protect us against impunity.
+
+This court was built on the foundations of the Nuremberg and Tokyo Trials.
+
+In the words of the Nuremberg chief prosecutor, Robert H. Jackson, ‘one of the greatest tributes that power has ever paid to reason.’
+
+Now, with the ICC under attack, the writing is truly on the wall.
+
+After all, how can you possibly be opposed to prosecuting the very worst crimes?
+
+I believe there can be only one response.
+
+To say: hands off the ICC, and all those other institutions that protect the international legal order.
+
+Because the reality is that we still need to fight impunity.
+
+Not least through the Special Tribunal for the Crime of Aggression against Ukraine, which the Netherlands has offered to host in The Hague.
+
+Let me be absolutely clear: we cannot accept impunity.
+
+AVT/AZ-260915-002 4 In this fight, Ukraine has no choice but to defend itself.
+
+But Russia makes a choice every day to wage war.
+
+Russia must be held to account for its flagrant violations of the UN Charter.
+
+For the immeasurable suffering inflicted on so many victims and families in this senseless war.
+
+Since the downing of flight MH17, the Netherlands has come to understand this only too well.
+
+Many others understand it too, with Russia threatening global food security, and millions of people experiencing the consequences.
+
+History teaches us that the only way to resolve conflicts, is through justice.
+
+That was the idea underpinning the establishment, 80 years ago, of the International Court of Justice, the principle judicial organ of the United Nations.
+
+And it’s a conviction that is widely shared, as illustrated by the fact that more and more countries are finding their way to the ICJ.
+
+So let us all continue to stand up for what we have built, and strengthen it further as we go forward.
+
+Ladies and gentlemen,
+
+Cooperation is the cornerstone of our history.
+
+And cooperation is what the world expects of us, now and in the future.
+
+Take the question of how we handle AI.
+
+We face a choice: do we let a small group of companies and countries take all the decisions, while the rest of us simply look on?
+
+Or do we decide, together – within the logical setting of the UN – what our future should look like.
+
+AVT/AZ-260915-002 5 It is also time for us to press forward together and tackle that other great challenge of our age: climate change.
+
+Nowhere on earth is the planet warming faster than in Western Europe.
+
+But in the Caribbean part of our Kingdom – including the countries of Aruba, Curaçao and St. Maarten – the effects of climate change have already been felt for much longer.
+
+And the same is true of many of your countries, as well.
+
+For too long, the consequences of climate change have been trivialised or simply denied.
+
+But after the horrors experienced by Nepal, and a long series of forest fires, the truth should be clear to everyone: the climate crisis will not just disappear if we pretend it doesn’t exist.
+
+We are living on borrowed time.
+
+And the generations that come after us will pay the price.
+
+If we want to prevent that, we must commit now to both mitigation and adaptation.
+
+We all know what needs to be done.
+
+Countless reports are agreed on that.
+
+We have all the technology we need.
+
+And fortunately, we are making progress.
+
+Last year the electric vehicle market grew by 20 per cent.
+
+Wind power capacity grew by 14 per cent, and solar power by more than 30 per cent.
+
+This growth in renewable energy has exceeded even the most optimistic projections from 10 years ago.
+
+The challenge now is to accelerate this transition in all sectors and all parts of the world.
+
+And, at the same time, to reduce carbon emissions and phase out fossil fuels.
+
+AVT/AZ-260915-002 6 That is why the Netherlands and Colombia jointly organised the world’s first conference on ‘Transitioning Away from Fossil Fuels’.
+
+This event in Colombia was attended by 57 countries.
+
+Together, these countries account for one-third of global GDP, one-third of energy demand and one-fifth of supply.
+
+And together, we worked to find concrete, practical solutions to take the transition forward.
+
+But climate action requires everyone to contribute.
+
+In November we will gather at the COP in Türkiye.
+
+And I know that many of you don’t have high expectations.
+
+In my view, this can only be explained by the pessimistic idea that we are somehow powerless.
+
+But that is not true.
+
+We have the knowledge and technology to combat climate change.
+
+A better world really is within reach.
+
+Thanks to our joint efforts on the Sustainable Development Goals, 92 per cent of the world’s population now has access to electricity.
+
+Since 2015, we have doubled the amount of renewable energy we generate.
+
+And child mortality has dropped sharply, too.
+
+Climate action can be a catalyst for everyone to work together on solutions that concern us all.
+
+AVT/AZ-260915-002 7 We don’t need to reinvent the wheel.
+
+A lot of good things are happening already.
+
+For decades, the Netherlands has been working with partners around the world to develop climate-smart agriculture and future-proof watermanagement solutions.
+
+We are keen to share our knowledge and know-how, and we want to learn from what other countries are doing.
+
+There are so many great initiatives under way.
+
+But I also know there is much more to be done.
+
+The need to accelerate and scale-up our efforts is only too clear.
+
+And that demands our common commitment.
+
+The Netherlands wants to build practical partnerships with other countries.
+
+So we are once again making funding available for this purpose.
+
+At the same time, we need to adapt to climate shocks that can no longer be avoided.
+
+And these adaptations will require major investment – both public and private.
+
+Because here too: we cannot do it alone.
+
+Today I call on all countries to stick to these ambitions.
+
+Because one way or another, a climate transition is coming.
+
+But we can decide how it will unfold.
+
+It can be chaotic, or it can be carefully planned – with an inclusive approach and economic benefits for all.
+
+Ladies and gentlemen,
+
+As I come to the end of my remarks, I have an even stronger sense of what Anne Frank was telling us.
+
+Because what she wrote is true: we have everything we need to change the world for the better and we don’t have to wait another minute.
+
+We aren’t starting from scratch.
+
+We’ve already come a long way.
+
+And the journey will continue, under the leadership of a new SecretaryGeneral.
+
+AVT/AZ-260915-002 8 Secretary-General Guterres, thank you for all your years of hard work.
+
+You are leaving the UN at a turbulent time.
+
+But we can all take pride in the fact that, as we speak, more than 150 thousand men and women are serving under the blue flag.
+
+Giving vaccinations, providing food aid and serving in peace missions.
+
+Even in these difficult times, when darkness seems to be descending in many places on the high ideals of the UN.
+
+But the light has not gone out.
+
+The torch of peace and justice still flickers and guides us.
+
+Just as it did in my country, more than 80 years ago.
+
+Liberation from the tyranny of unbridled nationalism, racism and fascism came too late for Anne Frank.
+
+In my country, when it did finally come, it was brought by American,
+
+Canadian, British, Polish and other Allied soldiers, many of them not much older than Anne.
+
+Among their many resting places, far from their homes, is an American cemetery in Margraten, in the south of the Netherlands.
+
+A wall stands watch over their graves.
+
+And on it is inscribed a simple epitaph: 'To you from failing hands we throw the torch. Be yours to hold it high.'
+
+Let us pledge, as a new generation, to always hold it high.
+
+Thank you.

@@ -1,0 +1,271 @@
+---
+session: 81
+slug: gambia-republic
+id_speech: M_86
+country: Gambia (Republic of The)
+speaker: Mohammed Jallow
+title: Vice President
+speaker_title: His Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/gm_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.471
+---
+
+Mr. President, Dr. Khalilur Rahman Excellency Mr. António Guterres, Secretary -General of the United Nations,
+
+Your Majesties, Excellencies, Heads of State and Government,
+
+Heads of Delegation,
+
+Distinguished Delegates,
+
+Ladies and Gentlemen,
+
+It is a distinct honour for me to address this Assembly on behalf of His Excellency Mr. Adama Barrow, President of the Republic of The Gambia.
+
+I bring to this Hall the warm greetings of the Government and people of The Gambia, together with our enduring friendship, solidarity and goodwill to all nations represented here.
+
+Mr. President, allow me, at the outset, to congratulate you most warmly on your election as President of the eighty -first session of the General Assembly.
+
+The Gambia assures you of our full support and constructive cooperation as you guide our collective work under the timely theme you have chosen: restoring trust and managing transformation so that the United Nations can deliver for all. That theme speaks directly to the moment in which we meet.
+
+Permit me also to express our profound appreciation to your predecessor, Ms. Annalena Baerbock, for the dedication, dignity and determination with which she presided over the eightieth session of the General Assembly.
+
+I also wish to place on record The Gambia's appreciation for SecretaryGeneral, Mr. António Guterres, and Deputy Secretary -General Amina Mohammed, whose steady and principled leadership through years of compounding global crises has done much to keep the flame of multilateral cooperation alight, even as the winds against it have grown fiercer. We wish them well as they complete their tenure at the end of this year.
+
+Mr. President,
+
+Few institutions embody the principle of sovereign equality as visibly as this Assembly. Within these walls, differences in power, wealth and influence may shape the realities our nations confront, but they do not confer a greater claim to membership or participation.
+
+And, perhaps more than anywhere else, this Assembly reminds us of a simple truth: Our differences are real. But so is our interdependence.
+
+That is why this Organization was created with the understanding that disputes must be resolved through dialogue, human dignity must be protected, and that nations must work together if development, peace, and human rights are to be sustained. In other words, our common future requires common institutions.
+
+Eight decades later, we must ask ourselves whether we have remained faithful to that insight. And perhaps more importantly: Do we still trust one another enough to act on it?
+
+Because today, Mr. President, trust is being tested. Geopolitical divisions are widening. Wars have become more protracted with devastating humanitarian consequences.
+
+Respect for the United Nations Charter and international law is under visible strain, with developing countries facing intensifying debt burdens, climate vulnerabilities, huge gaps between commitments made and implementation, and a feeling of marginalization and inadequate representation in the global system.
+
+Therefore, the task before us is building a stronger, better equipped, representative, responsive, and effective multilateral system and global financial architecture that delivers for all nations and regions.
+
+Mr. President,
+
+The Gambia’s own experience within this Organization gives us grounds for optimism. We have seen, within this very institution, that multilateralism can still deliver.
+
+During the eightieth session of the General Assembly, The Gambia had the honour of chairing the Second Committee at a time of profound disagreement over some of the most consequential economic and development issues before us.
+
+That experience reminded us that multilateralism does not require unanimity on every issue. It requires the willingness to remain at the table, to listen, to negotiate, and to have the courage to compromise.
+
+Our experience demonstrated that even in periods of deep disagreement, progress remains possible when Member States approach negotiations with political will, mutual respect and a shared sense of responsibility.
+
+Mr. President,
+
+The stakes are perhaps greatest in international peace and security, one of the foremost purposes for which this Organization was created.
+
+If diplomacy can bring countries together to find common ground on difficult questions of global development, then surely, we can summon the same political courage to prevent conflicts, resolve wars and build lasting peace.
+
+The Gambia speaks on this not merely from principle, but from experience. In 2017, our country stood at a moment of acute constitutional uncertainty. The democratic choice of the Gambian people faced a grave challenge. At that critical moment, the United N ations' preventive diplomacy, working in partnership with the African Union and ECOWAS, helped uphold the will of the Gambian people and support a peaceful democratic transition.
+
+We have not forgotten that solidarity. It taught us that preventive diplomacy is not an abstract concept. It is a practical instrument for preventing confrontation, creating space for dialogue and protecting institutions. Sometimes, it can change the course of a nation.
+
+That experience also gives us an obligation. If the international community could stand with The Gambia at a moment of fragility, then countries facing similar moments should be able to count on the same solidarity.
+
+Across the world, however, conflicts continue to destroy lives, displace populations and reverse decades of development. Civilians bear the greatest cost, while humanitarian workers operate under increasingly dangerous conditions and the resources availabl e to respond to crises remain far below what is required.
+
+The protection of civilians, respect for international humanitarian law and humanitarian access are not political conveniences. They are legal obligations and expressions of our shared humanity.
+
+We need stronger early-warning systems that enable us to act before crises escalate, timely mediation before positions become entrenched, and peacebuilding that addresses the conditions that allow conflict to take root. The question before us must therefore not only be how to end the ongoing wars, but how to prevent the next war from beginning.
+
+Prevention should not have to wait for a crisis to become sufficiently destructive to attract international attention. It is infinitely less costly, in human, political and financial terms, to prevent conflict than to manage its consequences after violence has begun.
+
+We therefore welcome the Secretary -General’s continued good offices and preventive diplomacy and call for these efforts to be matched with predictable and sustained resources.
+
+Mr. President,
+
+Peace must be built and nurtured through institutions that command public confidence, societies in which trust can be restored and justice pursued, and a future in which women and young people have a meaningful voice and economic opportunity is within reach.
+
+The Gambia has experienced the value of peacebuilding firsthand.
+
+Since our democratic transition, the Peacebuilding Commission and the Secretary-General’s Peacebuilding Fund have been steadfast partners in our nationally led efforts to strengthen instituti ons, advance transitional justice and consolidate peace.
+
+We therefore support a stronger and more responsive Peacebuilding Commission, adequately resourced to support countries emerging from conflict or navigating delicate political transitions.
+
+The implementation of the outcomes of the Peacebuilding Architecture Review must translate into stronger prevention, greater national ownership and closer coordination across the United Nations system.
+
+We also reaffirm our support for United Nations peacekeeping operations and pay tribute to the men and women who serve under the UN flag, including Gambian military and police personnel who have contributed with distinction to international peace and security.
+
+Their safety and security must remain a priority, alongside performance, accountability and strict adherence to international law.
+
+Partnerships between the United Nations and regional organizations, particularly the African Union, must also be deepened with sustained and predictable funding.
+
+Mr. President,
+
+The ongoing conflict in Sudan remains a matter of profound concern to The Gambia. Together with continuing instability across parts of the Sahel, it reminds us that peace cannot be separated from development and governance.
+
+The suffering of civilians in the affected conflict zones globally demands sustained international attention and renewed diplomatic efforts towards de-escalation, dialogue and a durable political settlement.
+
+In the Sahel and other conflict zones, o ur response s must be comprehensive and holistic. Security measures are necessary, but they must be accompanied by increased support for democratic governance, institution-building, education, job creation, development and climate resilience.
+
+Mr. President,
+
+For millions of people around the world, poverty, lack of human rights, democratic governance, etc. continues to pose great insecurity.
+
+The absence of education, healthcare, decent employment, and the loss of homes and livelihoods to climate change leave communities as vulnerable as conflict itself. Our understanding of security must therefore extend beyond the absence of war to include the conditions that allow people to live with dignity, opportunity and hope.
+
+Mr. President,
+
+In The Gambia, this understanding has guided our democratic journey from 2017 to date. We have undertaken the difficult work of rebuilding institutions, strengthening the rule of law, expanding access to justice and confronting the legacy of past human rights violations.
+
+Our transitional justice process continues through implementation of the recommendations of the Truth, Reconciliation and Reparations Commission (TRRC). We have strengthened institutional accountability and established the Special Prosecutor's Office to advance investigations and prosecutions arising from the TRRC process.
+
+We are proud of the progress we have made, but we remain conscious that democracy is never a finished project and requires continuous institutional strengthening, adherence to the rule of law, constitutional order, dialogue, and consensus-building.
+
+On 5 December 2026, the Gambian people will again exercise their sovereign democratic right to choose their President. This will be another important milestone in our democratic journey, and we need the support of the international community in this regard.
+
+My Government is committed to ensuring that the elections are peaceful, transparent, credible, and inclusive, and are conducted in accordance with our Constitution, national laws, and democratic standards.
+
+This is the democratic path The Gambia remains committed to pursuing: a path in which institutions are strengthened, citizens are heard, differences are resolved peacefully, and democratic gains are consolidated for future generations.
+
+Mr. President,
+
+On development, The Gambia's Recovery -Focused National Development Plan, YIRIWA 2023 –2027, provides the framework for accelerating our socio-economic transformation.
+
+We are investing in roads, energy, schools, healthcare, agriculture and digital infrastructure, while promoting economic diversification, private-sector investment and value addition.
+
+We are expanding opportunities for women and young people, improving lives and strengthening the human capital upon which our future depends. I seize this opportunity to thank all the bilateral and multilateral partners of The Gambia for your continuous support and partnership.
+
+Mr. President,
+
+The global economic environment remains particularly difficult for developing countries, with declining Official Development Assistance, high borrowing costs, disruptions to international trade, inflationary pressures, food and energy insecurity, narrowing fiscal space, and threats to development gains.
+
+With only a few years remaining to achieve the 2030 Agenda, the time for implementation is now. Following the Fourth International Conference on Financing for Development, we must translate the Sevilla Commitments into tangible action.
+
+Developing countries need greater access to affordable, long -term finance; meaningful reform of the multilateral development system; sustainable solutions to debt; stronger international tax cooperation; and decisive action against illicit financial flows.
+
+We also need stronger, more resilient supply chains, greater investment in productive capacity, and a global economic system that gives developing countries a fair opportunity to transform their economies.
+
+Trade must remain an engine of development, and developing countries must be enabled to participate more effectively in regional and global value chains.
+
+This would enable developing countries to invest in education, health, agriculture, climate resilience, and other productive sectors to holistically address their interconnected challenges.
+
+Mr. President,
+
+Climate change presents another test of our collective credibility and for The Gambia, it is not a distant threat.
+
+Coastal erosion, changing rainfall patterns, pressure on water resources, food insecurity and environmental degradation are already affecting our communities and livelihoods.
+
+However, w e are responding with determination by investing in renewable energy, coastal resilience, mangrove restoration, disaster risk reduction, early warning systems, water security and nature -based solutions.
+
+National electricity access has reached 90 per cent, with universal access targeted by the end of 2026.
+
+We are expanding solar energy in schools and health facilities, modernizing our electricity network and advancing a 150-megawatt solar park.
+
+We have also adopted our first National Disaster Risk Mitigation Plan and are restoring and sustainably managing more than 100,000 hectares of mangroves.
+
+But we urged that our national ambition be supported by international action to make climate finance accessible, predictable and adequate, including through the sustained implementation of the New Collective Quantified Goal on Climate Finance and effective arrangements to address loss and damage, build climate resilience and a fairer international order in which those who have contributed least to the climate crisis are not left to bear its greatest burdens.
+
+Mr. President,
+
+Artificial intelligence and emerging technologies offer extraordinary opportunities, but opportunity without inclusion can become another source of inequality. The digital divide must not become the next development divide.
+
+Developing countries must not remain passive consumers of technologies designed elsewhere. We need the capacity to participate in research, innovation, entrepreneurship, standard -setting and global technology governance.
+
+Technology must serve humanity, and the governance of artificial intelligence must be inclusive, responsible and grounded in international cooperation.
+
+This is particularly important for the world's Least Developed Countries. As The Gambia prepares to assume greater leadership within the Global Coordination Bureau of the LDC Group, we do so with a clear sense of responsibility.
+
+LDCs continue to face structural constraints, including limited productive capacity, high debt burdens, climate vulnerability, narrow export bases, technological gaps and restricted access to affordable finance.
+
+We will continue to advocate for full implementation of the Doha Programme of Action, with particular attention to productive capacity, structural transformation, industrialization, science and technology, climate resilience and human capital development.
+
+Graduation from LDC status must be a pathway to sustained prosperity and resilience, not a cliff edge leading to the premature withdrawal of essential international support.
+
+South-South and Triangular Cooperation should also remain important complements to North -South cooperation, particularly in knowledge sharing, technology transfer, capacity building and mutually beneficial development partnerships.
+
+Mr. President,
+
+Migration is another area where our collective response must be guided by human dignity and shared responsibility. Migration contributes significantly to economic development, cultural exchange and human progress. Yet irregular migration continues to expos e young people and vulnerable populations to exploitation, trafficking, abuse and tragic loss of life.
+
+We must strengthen cooperation for safe, orderly and regular migration, protect the rights and dignity of migrants and expand lawful pathways for labour mobility as well as investment in young people, women, education, health and social protection to safeguard sustainable development and lasting peace.
+
+With Africa having the world's youngest population, youth employment must remain a development priority. We need greater investment in education, technical and vocational training, entrepreneurship, digital skills and productive employment. Young people must also have a meaningful voice in the decisions that shape their future.
+
+The same is true of women's empowerment, which is essential to peaceful, inclusive and prosperous societies. The Gambia remains committed to expanding women's economic opportunities, strengthening women's leadership and addressing the barriers that limit their meaningful participation in political and public life. We are also strengthening support for women entrepreneurs, survivors of gender -based violence and vulnerable households.
+
+Ensuring food security, building strengthened and resilient health systems, and pandemic preparedness remain equally urgent. The Gambia is investing in agricultural productivity, mechanization, irrigation and climate-smart agriculture, while expanding access to improved seeds, fertilizers, credit and support for farmers. At the global level, we must build food systems capable of withstanding climate, economic and geopolitical shocks.
+
+Mr. President,
+
+The Gambia welcomes the calls for reform of the United Nations.
+
+We recognize the constraints facing the organization with limited resources and increasing demands.
+
+Nevertheless, reforms would strengthen the United Nations' capacity to better serve its Member States and the people of the world and correct the historical injustice that continues to prevail.
+
+We need to embark on reforms that strengthen delivery, protect the universal character of the Organization and enable developing countries to participate meaningfully in decisions that shape their future.
+
+The General Assembly must remain at the centre of global deliberation and policymaking, and the structures of the Organization must also reflect the world as it exists today.
+
+For the Security Council, its reform is not simply about expanding membership. It is about restoring legitimacy and strengthening trust. We need a Council that is more representative, transparent, accountable, effective and responsive to contemporary geopolitical realities.
+
+The Gambia therefore reaffirms its support for the Common African Position reflected in the Ezulwini Consensus and the Sirte Declaration and commends the position of African leaders in this regard.
+
+Mr. President,
+
+The General Assembly's decision to move towards a convention on the prevention and punishment of crimes against humanity is an important contribution to addressing a longstanding gap in the international legal framework.
+
+The Gambia is proud of its leading role, alongside Mexico, in advancing this process through more than three years of patient negotiations.
+
+Our conviction is simple: the gravest crimes cannot be met with silence. Victims cannot be forgotten, and impunity cannot become an accepted feature of international relations.
+
+Prevention, accountability and justice are indispensable to reconciliation, healing and sustainable peace.
+
+The rule of law is one of the foundations upon which trust is built.
+
+The continued development of multilateral treaties and the entry into force of the agreement on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction also demonstrate what is possible when States negotiate in good faith and persevere.
+
+The Gambia commends Ghana for its historic resolution on the Declaration of Trafficking of Enslaved Africans and Racialized Chattel Enslavement of Africans as the Gravest Crime against Humanity and Togo for the Resolution on Correcting the Map at the General Assembly.
+
+Mr. President,
+
+Our credibility is ultimately tested by how we respond to conflicts and crises that remain unresolved for years. The suffering of the Palestinian people remains a profound test of the credibility of the international system.
+
+The Gambia reiterates its call for the protection of civilians, respect for international humanitarian law, and unhindered humanitarian assistance.
+
+We reaffirm the legitimate and inalienable rights of the Palestinian people, including their right to self -determination, membership of the United Nations, and our support for a just, comprehensive and lasting twoState solution, with Israel and Palestine living side by side in peace, security and dignity.
+
+Furthermore, t he plight of the Rohingya people must also not disappear from the international agenda. The Gambia remains committed to accountability, justice and the protection of their fundamental rights and would continue to need the support of you all in this shared collective endeavour.
+
+On Cuba, we reiterate our longstanding call for an end to the economic, commercial and financial sanctions. Dialogue, engagement and cooperation remain important instruments for improving people's well-being and strengthening peaceful relations among nations.
+
+The Gambia also reaffirms its adherence to the One China Policy and values its partnership with the People's Republic of China, including in development cooperation, infrastructure, South-South and Triangular Cooperation and Partnership.
+
+The leaders of our two countries have raised our bilateral relationship to Strategic Level, and we would continue to grow and deepen this important partnership.
+
+On the question of the Moroccan Sahara, The Gambia supports sustained international efforts towards a peaceful resolution through the United Nations -led political process, and we encourage all concerned parties to engage constructively and in good faith.
+
+The Royal Initiatives of Moroccan Autonomy, the Morocco -Nigeria Gas Pipeline, the Atlantic African Initiative, among others, have provided realistic pathways to a lasting political solution to the dispute over the Moroccan Sahara by giving people the development, human rights, security, and stability they need.
+
+Furthermore, The Gambia welcomes the Kingdom of Morocco’s continued commitment to the ceasefire, full cooperation with MINURSO, and all stakeholders, in line with Resolution 27 97 (2025) and other relevant processes.
+
+We urged all stakeholders, i.e., Polisario, the Kingdom of Morocco,
+
+Algeria, and the Islamic Republic of Mauritania, to continue working to achieve a sustainable political solution to the conflict, and we support the various initiatives of the United Nations in this regard.
+
+Mr. President,
+
+In conclusion, t he United Nations and the m ultilateral system continue to be challenged, but they remain the most reliable guarantor of our collective peace and security and proven mechanisms to confront the challenges facing humanity. Therefore, the task before us is to make the United Nations and the multilateral system more responsive, more representative and better able to deliver for the people that we serve.
+
+What we leave behind should be a legacy of renewed multilateralism, a reformed United Nations, increased international cooperation and solidarity, and an increased trusted global system that sustains peace, advances development, human rights, democracy, and opens the way to a more secure future for all.
+
+The Gambia stands ready to work with every Member State to renew the promise that brought the nations of the world together. My country's journey has taught us that countries and institutions can recover from moments of profound uncertainty and further build trust and confidence.
+
+That is the message we bring to this Assembly.
+
+I thank you, Mr. President.

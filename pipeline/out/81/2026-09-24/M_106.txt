@@ -1,0 +1,267 @@
+---
+session: 81
+slug: nepal
+id_speech: M_106
+country: Nepal
+speaker: Balendra Shah
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/np_en_0.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.564
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Excellencies,
+
+Distinguished delegates,
+
+Ladies and gentlemen,
+
+I come before you from Nepal - a distant country in the Himalayas - carrying a close warning for humanity.
+
+I wish I could stand here today simply to speak about development, democracy, peace and the hopes of a young nation.
+
+Instead, I must speak about death and destruction of epic proportions.
+
+About families waiting for loved ones who will never come home.
+
+About communities searching through mud, rocks and water for people whose bodies may never be recovered.
+
+About bridges, roads, schools, homes and livelihoods swept away in minutes.
+
+And about a country whose steady progress to achieve Sustainable Development Goals has been interrupted.
+
+==== Four weeks ago, the world saw the shocking images of the catastrophic flash floods that swept through Nepal’s mountain communities with ferocity many have called a “Himalayan Tsunami.”
+
+The Bhotekoshi-Trishuli disaster was not just a local tragedy, it was a warning to the world.
+
+And I ask you today: have we really heard that warning?
+
+Nearly three years ago, standing in the shadow of our Mount Everest, the Secretary-General of the United Nations warned humanity about the madness of an impending climate disaster.
+
+That cry from the rooftop of the world was not heard loudly enough.
+
+We in Nepal heard it. Our communities heard it.
+
+Scientists around the world heard it. They repeated it with evidence.
+
+But we, the political leaders of the world, have been negligent to translate those warnings into action at the speed and scale that vulnerable people require.
+
+Last month, we saw the tragic consequences.
+
+=============== A warming climate is destabilizing the fragile Himalayan ecology.
+
+Melting permafrost are fracturing mountain slopes beneath the glaciers and accelerating the risks of ice-rock avalanche, floods, landslides and other cascading hazards.
+
+The resulting devastation unleashed havoc on both sides of the Nepal-China border. The flood continued downstream towards India.
+
+This tells us something fundamental:
+
+Climate change does not recognize borders.
+
+Glaciers and floods do not travel with a visa stamped on passports.
+
+=============== Excellencies,
+
+I am not here to complain but to share some suggestions.
+
+First, I wish to express Nepal's deep gratitude to all those who came to our aid in the aftermath of the deluge.
+
+Our immediate neighbors, India and China, offered prompt and generous assistance.
+
+Other friendly countries, the United Nations system, humanitarian agencies, philanthropies and people around the world stood with Nepal.
+
+To all of them, I say: thank you on behalf of the grateful people of Nepal.
+
+Nepal now faces a massive task of recovery and reconstruction.
+
+After at least 1400 confirmed deaths and over 6,000 people still missing, our rapid assessments peg physical recovery needs at about 10 percent of GDP.
+
+As in rebuilding after past disasters like the 2015 Gorkha earthquake, we count on your solidarity and support.
+
+But we must also understand why this disaster matters beyond Nepal.
+
+Nepal contributes less than 0.1 percent of global greenhouse-gas emissions.
+
+We did not create this crisis. Yet we are paying a colossal price for it.
+
+Our glaciers are retreating. Our mountain slopes are becoming unstable. Our rivers are becoming less predictable.
+
+And every major disaster threatens to erase years of development.
+
+For Nepal, climate catastrophe is not just a humanitarian event, but a development emergency.
+
+It destroys roads, bridges, schools, homes, farms and livelihoods.
+
+It destroys clean energy infrastructure that we need to fuel our future.
+
+And it forces a poor country to borrow money to repair damage it did not cause.
+
+=============== But we are not here to blame any country or continent.
+
+We are not here to turn climate change into another geopolitical battlefield.
+
+We are here to ask everyone to recommit to shared responsibility and solidarity.
+
+Through the United Nations Framework Convention on Climate Change, the international community has already agreed to the principle of common but differentiated responsibilities and respective capabilities.
+
+Those who have historically contributed more to the problem, and those with greater capacity to respond, must do more.
+
+Climate Justice cannot just remain a beautiful phrase in a United Nations Document.
+
+People of our country be allowed to build their future instead of constantly rebuilding their past.
+
+=============== Excellencies,
+
+The Hindu Kush Himalaya is home to nearly two billion people. These mountains provide water, ecosystems, agriculture and livelihoods to populations far beyond Nepal.
+
+The Himalayas are not peripheral to the planet. They are part of the planet's life-support system.
+
+That is why, as an urgent first step, we propose that we establish a Himalayan Climate Resilience Mechanism, led by Nepal, India and China.
+
+Through this mechanism, let us share satellite data and expertise.
+
+Let us monitor dangerous glacial lakes.
+
+Let us strengthen joint early-warning systems.
+
+And when disaster strikes, let us coordinate assistance across borders.
+
+Let the Himalayas become a laboratory of international cooperation, rather than a frontier of fragmented information.
+
+Remarkable for a least developed country, Nepal is already playing a global role exceeding its ecological share.
+
+We have restored forests to cover nearly half our territory.
+
+We are installing hydro power at a pace enough to power all our clean energy needs and displace dirty sources abroad.
+
+We are promoting electric mobility with an adoption rate to match parts of Europe.
+
+We are strengthening climate adaptation at the local level. And we shall do more to withstand increased intensity and frequency of climate disasters.
+
+=============== But, Nepal cannot build resilience alone against a crisis made worse by the failure of global governance.
+
+That is why this Assembly must note six words:
+
+Relief. Rehabilitation. Reconstruction.
+
+And also:
+
+Responsibility. Reparation. Resilience.
+
+The first three are what we need after disaster.
+
+The second three are what we need to ensure that disaster does not become a permanent condition.
+
+When a climate-driven disaster destroys the infrastructure of a poor country, the answer cannot simply be another mega loan or a patchwork of small grants.
+
+We need adequate grant-based support from the world. The Loss and Damage Fund, the Global Environment Facility and other relevant financing mechanisms remain grossly inadequate.
+
+Climate finance must not become a bureaucratic maze through which vulnerable countries spend years proving that they need help.
+
+When the house is burning, we do not ask the family to complete fifty forms.
+
+We act.
+
+That is what climate justice must mean.
+
+=============== Excellencies,
+
+This brings me to a larger question:
+
+What kind of international order do we want?
+
+The United Nations was born from humanity's experience of horrific World Wars.
+
+Its promise was that sovereignty would matter.
+
+International law would matter.
+
+The dignity of every human being would matter.
+
+And the weak would not simply have to accept whatever the powerful decide.
+
+Today, that international system is under strain.
+
+Too often, military and economic power determines whose voice is heard.
+
+Nepal believes we need a much fairer global economic order.
+
+=============== In 1994, UNDP’s Human Development Report conceptualized the notion of human insecurity.
+
+It equated security with people rather than territories, and with development rather than arms. It called for the peace dividend to secure freedoms from fear and want.
+
+The new majority government in Nepal, elected through the fairest and most peaceful elections in our history this March, has had to weather many international adversities since.
+
+When a poor farmer in Nepal went to sow her seeds this monsoon, fertilizers didn’t reach her on time. When we wanted to pave a new highway, there was no bitumen. When a family sat down for an evening meal, there was shortage of cooking fuel.
+
+On the one hand, there are melting glaciers and failing harvests to floods arriving without warning. On the other, a global supply chain punishes poor people for causes beyond reason.
+
+Inter-continental missiles arrive on time. Rifles and ammunition cross borders, clear every bottleneck, meet each deadline. But a peasant in Nepal cannot procure his fertilizer or fuel at market price at a time of need.
+
+We have built a world with flawless logistics for war and broken logistics for food.
+
+And this is not Nepal's private misfortune. Ask Bangladesh. Ask Bhutan. Ask India. Ask the Maldives. Ask Pakistan. Ask Sri Lanka. Ask any other country in our region and you will hear the same account: hit by the climate we did not warm, and hit again by the wars we did not start.
+
+This tells us there is a lot more broken than meets the eye in the present order of global cooperation.
+
+Excellencies,
+
+I am told I am the youngest Head of Government to address this Assembly this year.
+
+I did not come here to make that the story.
+
+I came to make sure that whatever else is said from this podium, one thing is said plainly: a country that is willing to pay should be able to buy, and a world that can deliver a weapon anywhere in seventy-two hours has no excuse for leaving a farmer without means for a decent livelihood.
+
+This is why we continue to believe in multilateralism. This is why we need a United Nations in which the presence of small poor countries is felt, and we can work together towards just outcomes.
+
+Climate justice is, therefore, not only about money.
+
+It is about distributive justice - who bears the costs.
+
+It is about procedural justice - who has a voice.
+
+It is about whether the future of mountain communities, small island states, landlocked and least-developed countries, and generations yet unborn count equally.
+
+Starting tomorrow at the “Sagarmatha to the Sea” side-event right here at the United Nations, Nepal is ready to help lead this conversation.
+
+=============== Mr. President & Excellencies,
+
+We are at this General Assembly at a moment of profound global uncertainty — and with a renewed democratic mandate that reflects the aspirations of a new generation.
+
+Our youth have demanded a politics of integrity and accountability.
+
+This generational shift is not only a national story. It is part of a global awakening against conflicts, inequities, and lack of opportunities.
+
+The commitment of my government is clear: to build a state that delivers — decent jobs, social protection, and a fair chance for every Nepali to thrive at home.
+
+The Nepal floods signal a future shaped by rising climate extremes. Our baselines are no longer relevant. And we must move from a d-hoc responses to a culture of preparedness.
+
+Let us finance resilience, and invest in insurance and innovation.
+
+Let us build stronger infrastructure and institutions.
+
+Let us reduce fossil-fuel dependence.
+
+Let us build systems that warn, alert and save lives.
+
+Let us reform the order that leaves the weakest with the least power.
+
+And when the next warning comes from the rooftop of the world:
+
+Let us be ready to hear it, and ready to act.
+
+भगवान पशुपतिनाथले तवश्वको कल्याण गरुन्। (May Lord Pashupatinath bless the world.)
+
+यो तवश्व बुद्धले देखाएको बाटोमा त िंड्न सकोस्। (May this world walk the path illuminated by Lord Buddha.)
+
+धन्यवाद, नमस्िे । (Thank you, Namaste.)

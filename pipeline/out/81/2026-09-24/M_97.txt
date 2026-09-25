@@ -1,0 +1,105 @@
+---
+session: 81
+slug: armenia
+id_speech: M_97
+country: Armenia
+speaker: Nikol Pashinyan
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/am_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.601
+---
+
+Excellencies, Ladies and Gentlemen; The peace between Armenia and Azerbaijan, established on August 8, 2025, with the support and personal engagement of US President Donald Trump, has opened up new opportunities for our region, the South Caucasus.
+
+On this occasion, I would firstly like to address what President Trump referred to from this podium two days ago. I have said it and I reiterate it now: the breakthrough in the establishment of peace between Armenia and Azerbaijan simply would not have been possible without President Trump’s personal engagement and his resolute commitment to establishing peace.
+
+President Trump’s personal presence, by the way, has practical and symbolic expressions on the ground as well.
+
+The fourth paragraph of the Peace Declaration adopted at the Peace Summit held at the White House on August 8, 2025 states (quote): “The Republic of Armenia will work with the United States of America and mutually determined third parties, to set forth a framework for the “Trump Route for International Peace and Prosperity” (TRIPP) connectivity project in the territory of the Republic of Armenia. We confirm our determination to pursue efforts in good faith to achieve this goal in the most expeditious manner.”
+
+The implementation of the TRIPP project is thus becoming a reality with tangible steps.
+
+The Framework Agreement on Strategic Cooperation on the “Trump Route for International Peace and Prosperity” project signed between Armenia and the United States of America will soon be ratified by the National Assembly of the Republic of Armenia.
+
+We are currently working with the United States government to establish the TRIPP development company and sign a shareholders agreement.
+
+Accordingly, Armenia will initially have a 26 percent stake in the TRIPP development company, and the United States will have a 74 percent stake. The agreement provides that in the event of its extension, in the 50th year, the Republic of Armenia’s share will become 49 percent, without additional investment.
+
+One of the practical expressions of the TRIPP project will be the implementation of paragraph 3 of the Peace Declaration, adopted by me and the President of Azerbaijan on August 8, 2025, and signed by the President of the United States as a witness.
+
+Paragraph 3 of the Declaration states (I quote): “We reaffirmed the importance of the opening of communications between the two countries for intra-state, bilateral, and international transportation for the promotion of peace, stability, and prosperity in the region and in its neighborhood on the basis of respect for the sovereignty, territorial integrity, and jurisdiction of the States.
+
+These efforts are to include unimpeded connectivity between the main part of the Republic of Azerbaijan and its Nakhchivan Autonomous Republic through the territory of the Republic of Armenia with reciprocal benefits for international and intrastate connectivity for the Republic of Armenia.”
+
+The implementation of the TRIPP project will be of historic importance for the Republic of Armenia. For the first time since the early 1990s, Armenia will get railway connection with Azerbaijan, and thus with Russia, Central Asia and China. However, it should be emphasized that after the Peace Summit on August 8, 2025, Azerbaijan opened its railway to Armenia, and now we have a railway connection with Azerbaijan through the territory of Georgia.
+
+The implementation of the TRIPP project will create a direct railway connection between Armenia and Azerbaijan, as well as a railway connection from Azerbaijan to Azerbaijan through the territory of Armenia and from Armenia to Armenia through the territory of Azerbaijan, because Armenia does not have a railway connection between its northern and southern regions, and this is practically possible only through the territory of the Nakhchivan Autonomous Republic of the Republic of Azerbaijan, while Azerbaijan does not have a railway connection with its Nakhchivan Autonomous Republic and this is practically possible only through the territory of Armenia.
+
+In the near future, we will restore the railway sections of Meghri and Yeraskh in the Republic of Armenia that existed during the Soviet Union and were later destroyed, and the railway connections I mentioned will be opened.
+
+But this will also have a huge international significance, because in parallel with the construction of the aforementioned railways, we are waiting for the opening of the Armenia-Turkey railway.
+
+Together with the TRIPP project, this could become one of the most important events in the field of international logistics in recent decades, because thus a new railway connection will be opened between China, Central Asia, Turkey and the European Union.
+
+All this opens up another crucial opportunity for international logistics, because the restoration of the railway connection between Armenia and the Nakhchivan Autonomous Republic of the Republic of Azerbaijan restores the railway connection between the Persian Gulf and the Black Sea. This is an important nuance, because it shows why and how the implementation of the TRIPP project promises great benefits to all countries in our region, and these potential benefits can become a cornerstone of long-term stability and peace.
+
+Especially between Armenia and Azerbaijan. After almost 35 years of conflict, we are now discussing issues of building pipelines, power lines, and roads in addition to the east-west railway within the framework of the TRIPP project, and this will enable not only the Republic of Armenia, but also the entire South Caucasus to become a Crossroads of Peace.
+
+Honorable President of the 81st session of the UN General Assembly, Excellencies,
+
+Ladies and Gentlemen; All of this reflects the optimism that has been established in our region and in the Republic of Armenia since the Washington Peace Summit on August 8, 2025.
+
+The citizens of Armenia reaffirmed their optimism in the parliamentary elections held on June 7 of this year, where the overwhelming majority of voters voted in favor of the slogan “Own up the peace,” enabling the “Civil Contract” party to form a parliamentary majority.
+
+The elections took place under special circumstances of external information manipulation, and a number of external and internal forces were developing and implementing a plan to seize the state, using mass disinformation, hybrid and other tools, as well as the distribution of mass voter bribes.
+
+But the democratic and institutional reforms we have implemented in recent years proved their strength, and Armenia's state institutions demonstrated high resilience, preventing state capture and giving the people of Armenia the opportunity to have their say.
+
+The people of Armenia have owned up the peace, and we must consistently engage in the further strengthening and institutionalization of peace.
+
+In the relations between Armenia and Azerbaijan, the clarification of the fate of several thousand missing persons is a matter that needs to be addressed, on which we have reached an agreement to cooperate with Azerbaijan. Armenia is ready to continue and deepen cooperation with Azerbaijan on the issue of demining. And of course, people in the Republic of Armenia are waiting for the return of Armenians who were detained in Azerbaijan as a consequence of the conflict.
+
+Along with these issues still being unresolved, another reason that fuels pessimists is the use of conflict rhetoric from time to time in certain circles of Armenia and Azerbaijan, sometimes at the official level. I think that we, I mean Armenia and Azerbaijan, have achieved more than sufficient results, which should be more valuable for us than the use of conflict rhetoric, whether it is about history or historical-cultural monuments or anything else.
+
+Nurturing the peace, strengthening and making it institutional should be the main theme of cooperation between Armenia and Azerbaijan. For two and a half years now, there have been no casualties or injuries as a result of cross -fire between Armenia and Azerbaijan, and I believe this is the greatest value that has been created as a result of the recent years.
+
+We have never had such a period in the relations between independent Armenia and independent Azerbaijan before, even though Armenians and Azerbaijanis have centuries of experience of peaceful coexistence.
+
+Our task, however, is not to restore that historical experience, but to build interstate relations on the basis of that experience of the peoples, based on respect for each other's territorial integrity, sovereignty, and political independence. This, by the way, is exactly the rhetoric that Armenia and Azerbaijan have already agreed upon and initialed in the text of the agreement on establishing peace and interstate relations between the two countries.
+
+The signing and ratification of the agreement, which was initialed at the Washington Peace Summit, is the next major topic in the joint agenda of Armenia and Azerbaijan, and we will consistently continue to work in this direction.
+
+Ladies and Gentlemen; The balanced and balancing foreign policy adopted by Armenia stems from the logic of multipolarity, which is one of the key principles of the United Nations. In recent years, we have established strategic relations with Georgia, France, China, the Netherla nds,
+
+Kazakhstan, Germany, Luxembourg, the United Kingdom, Bulgaria, Croatia, Lithuania, the United States of America, and the European Union.
+
+Today, by the way, the European Commission approved the decision to adopt autonomous trade measures for Armenia, which is yet another manifestation of the new quality of Armenia-EU relations.
+
+Our relations with Russia are in a transformation phase, and this is a natural process, because throughout the entire preceding period, the largest factor influencing relations between Armenia and Russia was the Armenia-Azerbaijan conflict.
+
+Now that we have established peace with Azerbaijan, Armenia -Russia relations will naturally change, and it is our desire that these relations develop on the basis of the principles of friendship and mutual respect.
+
+We will, of course, continue to develop our relations with our partners located closer to or farther from Armenia, and in this regard, I would like to highlight the countries of Central Asia, with which our relations are also highly dynamic.
+
+But I also cannot but emphasize that the normalization and deepening of relations with our neighbors are nevertheless of key importance for our foreign policy vision. I have already spoken about the dynamics of our relations with Azerbaijan.
+
+We have a high-level dialogue with Turkey, and I want to confirm the words expressed by President Erdogan from this podium the other day, that we are resolutely pushing forward the process of normalizing Armenia-Turkey relations.
+
+Our relations with our two other neighbors, the Islamic Republic of Iran and Georgia, remain of exceptional importance to us, and our good neighborliness continues to develop and deepen.
+
+The Republic of Armenia considers its contribution to the region’s stability and development to be our key task in international peace, stability, and development.
+
+Honorable President of the 81st session of the UN General Assembly, Excellencies,
+
+Ladies and Gentlemen; This October, Armenia will host the 17th Conference of the Parties to the Convention on Biological Diversity, and I invite you all to participate in this very important event for Armenia and for the international biodiversity agenda.
+
+Dear ladies and gentlemen, this is what I wanted to share with you in my speech today.
+
+Thank you for your attention.

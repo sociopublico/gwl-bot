@@ -1,0 +1,115 @@
+---
+session: 81
+slug: european-union
+id_speech: M_84
+country: European Union
+speaker: António Costa
+title: President of the European Council
+speaker_title: His Excellency
+date: 2026-09-24
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/eu_en.pdf
+language: en
+original_language: fr
+transformation: none
+via: pypdf
+elapsed_s: 1.195
+---
+
+European Council Council of the European Union Speech by President António Costa at the 81st United Nations General Assembly European Council | Speech | 24 September 2026 19:25 about:blank 1/7 Multilateralism is not an ideal of the past. It is the only realistic way to address the problems of today.
+
+Alone, no country can prevent a pandemic, stabilise the climate, secure resilient supply chains, regulate Artificial Intelligence, ensure financial stability or deliver sustainable development. Alone, no country, however powerful, can build lasting peace.
+
+This is why our message is clear: we need multilateralism.
+
+Multilateralism that is strong, effective, representative and capable of delivering for people. Multilateralism that protects human rights, strengthens democracy and advances gender equality.
+
+Multilateralism equipped to address the defining challenges of today: peace, the climate emergency, economic insecurity and Artificial intelligence.
+
+On artificial intelligence and its governance, we need an accountable, transparent and regulated architecture. We need an AI that serves humanity, not controls it. We must always be in the driving seat. Setting a safe and secure pace of innovation and development. The AI industry cannot be regulated by a few major global companies.
+
+The United Nations must play a central role in setting global standards through the UN Global Digital Compact, the Independent International Scientific Panel and the Global Dialogue on AI Governance.
+
+The United Nations must remain at the centre of the multilateral system.
+
+The United Nations is under pressure from geopolitical polarisation, financial constraints and institutional shortcomings.
+
+But the answer is not withdrawal. The answer is to reform, renew and reinvest. The UN80 initiative offers an opportunity to make the United Nations more efficient and more effective.
+
+The European Union also continues to call for a comprehensive reform of the UN Security Council to make it more effective, inclusive, democratic and accountable. The European Union will continue to contribute to strengthening the United Nations politically, financially and through concrete action.
+
+Because the best argument for multilateralism is what it delivers: On peace and security – with the Treaty on the Non-Proliferation of nuclear about:blank 2/7 weapons. On climate action – with the Paris Agreement. On poverty and health – with the Global Response to Covid-19.
+
+The truth is: when we act together, multilateralism delivers for people.
+
+That is why, this week the European Union has launched, together with Australia, Barbados, Brazil, Canada, India and Kenya, the P4M: Partners for Multilateralism, International Law, Peace and Prosperity.
+
+Our initiative aims to be an open platform for partners from all parts of the world who are ready to defend common principles and work towards practical solutions. It is a network for dialogue, coalition-building and practical cooperation. It will support the work of the United Nations and other multilateral formats.
+
+It will help to build bridges across regions. And it will contribute to advancing the reform and modernisation of the United Nations and the multilateral system. Helping to turn shared commitments into concrete action. And I invite all the nations in this chamber to join this initiative and endorse the P4M declaration.
+
+There can be no double standards when it comes to international law.
+
+And the facts are clear: we are witnessing deliberate violations of international law. Upholding international law is not optional. It is our responsibility.
+
+That means safeguarding the institutions that give full meaning to these principles. Especially the International Court of Justice and the International Criminal Court. We stand firmly behind them and will uphold their independence, their integrity and their ability to fully exercise their mandate.
+
+It is unacceptable to threaten or attack the International Criminal Court, its officials and its staff. Accountability cannot depend on political convenience.
+
+International law applies everywhere. International humanitarian law applies everywhere. Human rights apply everywhere. In Ukraine, in the Middle East, in Africa, in Asia and in Latin America.
+
+We know that conflicts are never confined to one place. They have implications for food security, energy markets, migration, development and global stability. We are seeing this with Russia’s war of aggression against Ukraine. about:blank 3/7 A war that Russia chose to wage but which is having global consequences. A devastating act of aggression against a sovereign state, committed by a permanent member of the Security Council of the United Nations. In breach of the Charter of the United Nations and international law.
+
+Russia’s attacks on Ukraine also threaten the security of civilian populations beyond Ukraine’s borders. It is unacceptable that, over the past 12 months, Russia has repeatedly threatened the security of the EU’s member states. Russia must stop this dangerous escalation.
+
+The international community must use every lever at its disposal with regard to Russia in order to put a stop to this war and create the conditions for negotiating a comprehensive, fair and lasting peace. This war must end.
+
+The same applies to the Middle East. We regret the current stalemate in Gaza, and in Palestine more broadly, which is prolonging the suffering of millions of civilians, despite the momentum to end the conflict which seemed to be emerging last year.
+
+The EU and its member states have a clear position: the two-state solution, which is the only solution that can ensure lasting peace in the Middle East. With the state of Israel and an independent and democratic state of Palestine, living side by side in peace and security.
+
+We also support all efforts to find a solution to the conflict in Iran. The ceasefire must be fully observed. Freedom of navigation in the Strait of Hormuz must be preserved, unconditionally and without hindrance.
+
+For a sustainable solution, the security of the countries in the region must also be ensured. Iran must never be allowed to acquire a nuclear weapon. We hope that in the future the Iranian people will finally be able to live in peace and security, as free men and women.
+
+The UN needs an ambitious leader, firmly committed to the principles of the UN Charter and to respect for international law, like António Guterres.
+
+I would like to pay tribute here to the Secretary-General. His tireless efforts to ensure respect for the UN Charter, the defence of human rights, reform of the global financial architecture, sustainable development and resolute action on climate change have been a real beacon, illuminating our path and guiding our collective engagement. about:blank 4/7 The next Secretary-General will have to continue to fully mobilise all instruments at their disposal to prevent conflicts, mediate in crises and build peace, with a particular focus on Ukraine, the Middle East and Sudan. The strength of tomorrow’s multilateral system will depend on this commitment. Thank you, António Guterres.
+
+A stronger multilateral system also requires stronger alliances. The European Union does not seek to impose a model or to establish spheres of influence. The European Union aims to create spaces for progress, peace and shared prosperity together with partners from all regions.
+
+That is why we are continuing to build the world’s largest network of trade agreements, covering 84 countries worldwide. Over the past 12 months, we have concluded negotiations or signed trade agreements with India, Australia, the Philippines, Indonesia, Mercosur and Mexico, benefiting billions of people.
+
+But the value of what we can do with our partners must go beyond trade.
+
+And in no area is action more urgent than in that of sustainable development.
+
+Agenda 2030 is in danger. The funding gap is widening, the climate crisis is worsening and geopolitical divisions are holding back progress. We must continue to work on reforming the global financial architecture.
+
+The European Union remains strongly committed to the Paris Agreement, the Pact for the Future and the Sustainable Development Goals, funded in line with the Sevilla Commitment.
+
+Together, the European Union and its member states account for more than 40 % of official development assistance at international level. And through our Global Gateway initiative, we are investing in all areas, from sustainable infrastructure and connectivity to health, education and poverty eradication.
+
+We cannot afford to lose any more time. That is why the 2027 Sustainable Development Goals Summit must be a turning point: to correct course, to regain momentum and to meet the targets for 2030 and beyond.
+
+The European Union is clear about its choice.
+
+Cooperation over confrontation. about:blank 5/7 Law over power.
+
+Partnership over isolation.
+
+Action over paralysis.
+
+We are ready to work together with all those who share this conviction.
+
+Let us reform.
+
+Let us renew.
+
+Let us reinvest.
+
+And let us act. Together.
+
+Visit the meeting page about:blank 6/7 Beatriz Navarro Deputy spokesperson for the European Council President +32 471 33 22 92 +32 2 281 51 50 @beanavarro Maria Tomasik Spokesperson for the European Council President +32 470 88 23 83 +32 2 281 51 50 @maria_tomasik If you are not a journalist, please send your request to the public information service.
+
+Last review: 24 September 2026 Press contacts about:blank 7/7
