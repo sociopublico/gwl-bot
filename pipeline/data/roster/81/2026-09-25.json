@@ -1,7 +1,7 @@
 {
   "session": 81,
   "day": "2026-09-25",
-  "scraped_at": "2026-09-25T20:15:53Z",
+  "scraped_at": "2026-09-26T03:22:48Z",
   "speakers": [
     {
       "slug": "kiribati",
@@ -251,9 +251,14 @@
       "rank": "Prime Minister",
       "speaker_title": "His Excellency",
       "speech_date": "2026-09-25",
-      "chosen": "transcript_ai",
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/mt_en.pdf",
+          "filename": "mt_en.pdf",
+          "lang": ""
+        },
         "transcript_ai": {
           "label": "transcript ai",
           "url": "https://gadebate.un.org/en/node/81110/transcript/en/prepare-download",
@@ -615,14 +620,24 @@
           "filename": "81-niger-en-transcript.txt",
           "lang": "en"
         },
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_NE_EN.mp3",
+          "filename": "81_NE_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": {
           "label": "Statement in French",
           "url": "https://gadebate.un.org/sites/default/files/gastatements/81/ne_fr.pdf",
           "filename": "ne_fr.pdf",
           "lang": ""
         },
-        "audio_floor": null,
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_NE_FL.mp3",
+          "filename": "81_NE_FL.mp3",
+          "lang": ""
+        },
         "video": {
           "entry_id": "1_75l0vpth",
           "partner_id": "2503451",
@@ -655,7 +670,12 @@
           "filename": "81-bahamas-en-transcript.txt",
           "lang": "en"
         },
-        "audio_en": null,
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_BS_EN.mp3",
+          "filename": "81_BS_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
         "video": {
@@ -676,11 +696,21 @@
       "rank": "Prime Minister",
       "speaker_title": "His Excellency",
       "speech_date": "2026-09-25",
-      "chosen": "pdf_other",
+      "chosen": "transcript_ai",
       "sources": {
         "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81076/transcript/en/prepare-download",
+          "filename": "81-haiti-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_HT_EN.mp3",
+          "filename": "81_HT_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": {
           "label": "Statement in French",
           "url": "https://gadebate.un.org/sites/default/files/gastatements/81/ht_fr.pdf",
@@ -688,7 +718,12 @@
           "lang": ""
         },
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_aqkfr04t",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_aqkfr04t/format/url/protocol/https",
+          "filename": "1_aqkfr04t.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -698,17 +733,37 @@
       "ficha_url": "https://gadebate.un.org/en/81/guinea-bissau",
       "country": "Guinea-Bissau",
       "name": "Ilídio Vieira Té",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Prime Minister",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "transcript_ai",
       "sources": {
         "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81074/transcript/en/prepare-download",
+          "filename": "81-guinea-bissau-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_GW_EN.mp3",
+          "filename": "81_GW_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
-        "audio_floor": null,
-        "video": null
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_GW_FL.mp3",
+          "filename": "81_GW_FL.mp3",
+          "lang": ""
+        },
+        "video": {
+          "entry_id": "1_1pmj5sy2",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_1pmj5sy2/format/url/protocol/https",
+          "filename": "1_1pmj5sy2.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -718,17 +773,37 @@
       "ficha_url": "https://gadebate.un.org/en/81/egypt",
       "country": "Egypt",
       "name": "Moustafa Kamal Madbouly",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Prime Minister",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "transcript_ai",
       "sources": {
         "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81054/transcript/en/prepare-download",
+          "filename": "81-egypt-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_EG_EN.mp3",
+          "filename": "81_EG_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in Arabic",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/eg_ar.pdf",
+          "filename": "eg_ar.pdf",
+          "lang": ""
+        },
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_mh5dy3g3",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_mh5dy3g3/format/url/protocol/https",
+          "filename": "1_mh5dy3g3.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -738,17 +813,37 @@
       "ficha_url": "https://gadebate.un.org/en/81/saint-vincent-and-grenadines",
       "country": "Saint Vincent and the Grenadines",
       "name": "Godwin Friday",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Prime Minister",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/vc_en.pdf",
+          "filename": "vc_en.pdf",
+          "lang": ""
+        },
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81152/transcript/en/prepare-download",
+          "filename": "81-saint-vincent-and-grenadines-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_VC_EN.mp3",
+          "filename": "81_VC_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_nykprq5h",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_nykprq5h/format/url/protocol/https",
+          "filename": "1_nykprq5h.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -758,17 +853,37 @@
       "ficha_url": "https://gadebate.un.org/en/81/tonga",
       "country": "Tonga",
       "name": "Lord Fakafanua",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Prime Minister",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/to_en.pdf",
+          "filename": "to_en.pdf",
+          "lang": ""
+        },
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81182/transcript/en/prepare-download",
+          "filename": "81-tonga-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_TO_EN.mp3",
+          "filename": "81_TO_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_kajrkutm",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_kajrkutm/format/url/protocol/https",
+          "filename": "1_kajrkutm.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -778,17 +893,37 @@
       "ficha_url": "https://gadebate.un.org/en/81/samoa",
       "country": "Samoa",
       "name": "Mulipola Anarosa Ale Molioo",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Deputy Prime Minister",
+      "speaker_title": "Her Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/wc_en.pdf",
+          "filename": "wc_en.pdf",
+          "lang": ""
+        },
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81153/transcript/en/prepare-download",
+          "filename": "81-samoa-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_WS_EN.mp3",
+          "filename": "81_WS_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_2b84kjbt",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_2b84kjbt/format/url/protocol/https",
+          "filename": "1_2b84kjbt.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -798,17 +933,37 @@
       "ficha_url": "https://gadebate.un.org/en/81/saint-kitts-and-nevis",
       "country": "Saint Kitts and Nevis",
       "name": "Geoffrey Hanley",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Deputy Prime Minister",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/kn_en.pdf",
+          "filename": "kn_en.pdf",
+          "lang": ""
+        },
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81150/transcript/en/prepare-download",
+          "filename": "81-saint-kitts-and-nevis-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_KN_EN.mp3",
+          "filename": "81_KN_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_1on6liup",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_1on6liup/format/url/protocol/https",
+          "filename": "1_1on6liup.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -818,17 +973,42 @@
       "ficha_url": "https://gadebate.un.org/en/81/bahrain",
       "country": "Bahrain",
       "name": "Abdullatif bin Rashid Al Zayani",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Minister for Foreign Affairs",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/bh_en.pdf",
+          "filename": "bh_en.pdf",
+          "lang": ""
+        },
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81013/transcript/en/prepare-download",
+          "filename": "81-bahrain-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_BH_EN.mp3",
+          "filename": "81_BH_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in Arabic",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/bh_ar.pdf",
+          "filename": "bh_ar.pdf",
+          "lang": ""
+        },
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_p0cpqcbl",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_p0cpqcbl/format/url/protocol/https",
+          "filename": "1_p0cpqcbl.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -838,17 +1018,37 @@
       "ficha_url": "https://gadebate.un.org/en/81/azerbaijan",
       "country": "Azerbaijan",
       "name": "Jeyhun Aziz oglu Bayramov",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Minister for Foreign Affairs",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/az_en.pdf",
+          "filename": "az_en.pdf",
+          "lang": ""
+        },
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81011/transcript/en/prepare-download",
+          "filename": "81-azerbaijan-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_AZ_EN.mp3",
+          "filename": "81_AZ_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_f276vk1s",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_f276vk1s/format/url/protocol/https",
+          "filename": "1_f276vk1s.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -858,17 +1058,37 @@
       "ficha_url": "https://gadebate.un.org/en/81/kazakhstan",
       "country": "Kazakhstan",
       "name": "Mukhtar Tileuberdi",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Minister for Foreign Affairs",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/kz_en.pdf",
+          "filename": "kz_en.pdf",
+          "lang": ""
+        },
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81091/transcript/en/prepare-download",
+          "filename": "81-kazakhstan-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_KZ_EN.mp3",
+          "filename": "81_KZ_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_xh5712eh",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_xh5712eh/format/url/protocol/https",
+          "filename": "1_xh5712eh.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -878,17 +1098,32 @@
       "ficha_url": "https://gadebate.un.org/en/81/mauritania",
       "country": "Mauritania",
       "name": "Mohamed Salem Merzoug",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Minister for Foreign Affairs, African Cooperation and Mauritanians Abroad",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "transcript_ai",
       "sources": {
         "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81112/transcript/en/prepare-download",
+          "filename": "81-mauritania-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_MR_EN.mp3",
+          "filename": "81_MR_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_w23fbyyx",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_w23fbyyx/format/url/protocol/https",
+          "filename": "1_w23fbyyx.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -898,17 +1133,32 @@
       "ficha_url": "https://gadebate.un.org/en/81/mexico",
       "country": "Mexico",
       "name": "Roberto Velasco Álvarez",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Minister for Foreign Affairs",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "transcript_ai",
       "sources": {
         "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81114/transcript/en/prepare-download",
+          "filename": "81-mexico-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_MX_EN.mp3",
+          "filename": "81_MX_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_0ye4kr1h",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_0ye4kr1h/format/url/protocol/https",
+          "filename": "1_0ye4kr1h.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -918,17 +1168,42 @@
       "ficha_url": "https://gadebate.un.org/en/81/mauritius",
       "country": "Mauritius",
       "name": "Dhananjay Ramful",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Minister of Foreign Affairs, Regional Integration and International Trade",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/mu_en.pdf",
+          "filename": "mu_en.pdf",
+          "lang": ""
+        },
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81113/transcript/en/prepare-download",
+          "filename": "81-mauritius-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_MU_EN.mp3",
+          "filename": "81_MU_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
-        "audio_floor": null,
-        "video": null
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_MU_FL.mp3",
+          "filename": "81_MU_FL.mp3",
+          "lang": ""
+        },
+        "video": {
+          "entry_id": "1_s095g3bi",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_s095g3bi/format/url/protocol/https",
+          "filename": "1_s095g3bi.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -938,17 +1213,37 @@
       "ficha_url": "https://gadebate.un.org/en/81/chad",
       "country": "Chad",
       "name": "Abdelmadjid Abdelrahim Mahamat",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Minister of Public Health and Prevention",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "transcript_ai",
       "sources": {
         "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81034/transcript/en/prepare-download",
+          "filename": "81-chad-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_TD_EN.mp3",
+          "filename": "81_TD_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in French",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/td_fr.pdf",
+          "filename": "td_fr.pdf",
+          "lang": ""
+        },
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_eqng4c4l",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_eqng4c4l/format/url/protocol/https",
+          "filename": "1_eqng4c4l.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -958,17 +1253,37 @@
       "ficha_url": "https://gadebate.un.org/en/81/norway",
       "country": "Norway",
       "name": "Espen Barth Eide",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Minister for Foreign Affairs",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/no_en.pdf",
+          "filename": "no_en.pdf",
+          "lang": ""
+        },
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81130/transcript/en/prepare-download",
+          "filename": "81-norway-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_NO_EN.mp3",
+          "filename": "81_NO_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_usbrdmgx",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_usbrdmgx/format/url/protocol/https",
+          "filename": "1_usbrdmgx.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -978,17 +1293,37 @@
       "ficha_url": "https://gadebate.un.org/en/81/guatemala",
       "country": "Guatemala",
       "name": "Carlos Ramiro Martínez Alvarado",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Minister for Foreign Affairs",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "transcript_ai",
       "sources": {
         "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
-        "pdf_other": null,
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81072/transcript/en/prepare-download",
+          "filename": "81-guatemala-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_GT_EN.mp3",
+          "filename": "81_GT_EN.mp3",
+          "lang": "en"
+        },
+        "pdf_other": {
+          "label": "Statement in Spanish",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/gt_es.pdf",
+          "filename": "gt_es.pdf",
+          "lang": ""
+        },
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_3arady9r",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_3arady9r/format/url/protocol/https",
+          "filename": "1_3arady9r.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -998,17 +1333,37 @@
       "ficha_url": "https://gadebate.un.org/en/81/sweden",
       "country": "Sweden",
       "name": "Maria Malmer Stenergard",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Minister for Foreign Affairs",
+      "speaker_title": "Her Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/se_en.pdf",
+          "filename": "se_en.pdf",
+          "lang": ""
+        },
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81174/transcript/en/prepare-download",
+          "filename": "81-sweden-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_SE_EN.mp3",
+          "filename": "81_SE_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_hha51ort",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_hha51ort/format/url/protocol/https",
+          "filename": "1_hha51ort.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -1018,17 +1373,37 @@
       "ficha_url": "https://gadebate.un.org/en/81/togo",
       "country": "Togo",
       "name": "Robert Komlan Edo Dussey",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Minister of Foreign Affairs, Regional Integration, and Togolese Abroad",
+      "speaker_title": "His Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "transcript_ai",
       "sources": {
         "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81181/transcript/en/prepare-download",
+          "filename": "81-togo-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_TD_EN.mp3",
+          "filename": "81_TD_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
-        "audio_floor": null,
-        "video": null
+        "audio_floor": {
+          "label": "original language",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_TD_FL.mp3",
+          "filename": "81_TD_FL.mp3",
+          "lang": ""
+        },
+        "video": {
+          "entry_id": "1_4fq89kop",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_4fq89kop/format/url/protocol/https",
+          "filename": "1_4fq89kop.mp4"
+        }
       },
       "error": null,
       "http_status": 200
@@ -1038,17 +1413,37 @@
       "ficha_url": "https://gadebate.un.org/en/81/liechtenstein",
       "country": "Liechtenstein",
       "name": "Sabine Monauni",
-      "rank": "",
-      "speaker_title": "",
+      "rank": "Deputy Prime Minister",
+      "speaker_title": "Her Excellency",
       "speech_date": "2026-09-25",
-      "chosen": null,
+      "chosen": "pdf_en",
       "sources": {
-        "pdf_en": null,
-        "transcript_ai": null,
-        "audio_en": null,
+        "pdf_en": {
+          "label": "Statement in English",
+          "url": "https://gadebate.un.org/sites/default/files/gastatements/81/li_en.pdf",
+          "filename": "li_en.pdf",
+          "lang": ""
+        },
+        "transcript_ai": {
+          "label": "transcript ai",
+          "url": "https://gadebate.un.org/en/node/81102/transcript/en/prepare-download",
+          "filename": "81-liechtenstein-en-transcript.txt",
+          "lang": "en"
+        },
+        "audio_en": {
+          "label": "english",
+          "url": "https://s3.amazonaws.com/downloads.unmultimedia.org/radio/library/ltd/mp3/ga/2026/81_LI_EN.mp3",
+          "filename": "81_LI_EN.mp3",
+          "lang": "en"
+        },
         "pdf_other": null,
         "audio_floor": null,
-        "video": null
+        "video": {
+          "entry_id": "1_nf8dixme",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_nf8dixme/format/url/protocol/https",
+          "filename": "1_nf8dixme.mp4"
+        }
       },
       "error": null,
       "http_status": 200

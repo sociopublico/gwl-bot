@@ -1,0 +1,807 @@
+{
+  "session": 81,
+  "day": "2026-09-26",
+  "scraped_at": "2026-09-26T12:51:54Z",
+  "speakers": [
+    {
+      "slug": "china",
+      "ficha_url": "https://gadebate.un.org/en/81/china",
+      "country": "China",
+      "name": "Han Zheng",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "micronesia-federated-states",
+      "ficha_url": "https://gadebate.un.org/en/81/micronesia-federated-states",
+      "country": "Micronesia (Federated States of)",
+      "name": "Aren Palik",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "belize",
+      "ficha_url": "https://gadebate.un.org/en/81/belize",
+      "country": "Belize",
+      "name": "John Briceño",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "cabo-verde",
+      "ficha_url": "https://gadebate.un.org/en/81/cabo-verde",
+      "country": "Cabo Verde",
+      "name": "Francisco Avelino Vieira de Carvalho",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "republic-moldova",
+      "ficha_url": "https://gadebate.un.org/en/81/republic-moldova",
+      "country": "Republic of Moldova",
+      "name": "Vasile Tofan",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "holy-see",
+      "ficha_url": "https://gadebate.un.org/en/81/holy-see",
+      "country": "Holy See",
+      "name": "His Eminence Cardinal Pietro Parolin",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "lao-peoples-democratic-republic",
+      "ficha_url": "https://gadebate.un.org/en/81/lao-peoples-democratic-republic",
+      "country": "Lao People’s Democratic Republic",
+      "name": "Thongsavanh Phomvihane",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "cambodia",
+      "ficha_url": "https://gadebate.un.org/en/81/cambodia",
+      "country": "Cambodia",
+      "name": "Sokhonn Prak",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "russian-federation",
+      "ficha_url": "https://gadebate.un.org/en/81/russian-federation",
+      "country": "Russian Federation",
+      "name": "Sergey Lavrov",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "philippines",
+      "ficha_url": "https://gadebate.un.org/en/81/philippines",
+      "country": "Philippines",
+      "name": "Ma. Theresa Lazaro",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "cuba",
+      "ficha_url": "https://gadebate.un.org/en/81/cuba",
+      "country": "Cuba",
+      "name": "Bruno Eduardo Rodríguez Parrilla",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "brunei-darussalam",
+      "ficha_url": "https://gadebate.un.org/en/81/brunei-darussalam",
+      "country": "Brunei Darussalam",
+      "name": "Prince 'Abdul Mateen",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "saudi-arabia",
+      "ficha_url": "https://gadebate.un.org/en/81/saudi-arabia",
+      "country": "Saudi Arabia",
+      "name": "Prince Faisal bin Farhan Al Saud",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "singapore",
+      "ficha_url": "https://gadebate.un.org/en/81/singapore",
+      "country": "Singapore",
+      "name": "Vivian Balakrishnan",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "iceland",
+      "ficha_url": "https://gadebate.un.org/en/81/iceland",
+      "country": "Iceland",
+      "name": "Thorgerdur Katrín Gunnarsdóttir",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "nicaragua",
+      "ficha_url": "https://gadebate.un.org/en/81/nicaragua",
+      "country": "Nicaragua",
+      "name": "Valdrack Ludwing Jaentschke Whitaker",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "india",
+      "ficha_url": "https://gadebate.un.org/en/81/india",
+      "country": "India",
+      "name": "Subrahmanyam Jaishankar",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "germany",
+      "ficha_url": "https://gadebate.un.org/en/81/germany",
+      "country": "Germany",
+      "name": "Johann Wadephul",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "tajikistan",
+      "ficha_url": "https://gadebate.un.org/en/81/tajikistan",
+      "country": "Tajikistan",
+      "name": "Sirodjiddin Muhriddin",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "san-marino",
+      "ficha_url": "https://gadebate.un.org/en/81/san-marino",
+      "country": "San Marino",
+      "name": "Luca Beccari",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "djibouti",
+      "ficha_url": "https://gadebate.un.org/en/81/djibouti",
+      "country": "Djibouti",
+      "name": "Abdoulkader Houssein Omar",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "belarus",
+      "ficha_url": "https://gadebate.un.org/en/81/belarus",
+      "country": "Belarus",
+      "name": "Maxim Ryzhenkov",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "malaysia",
+      "ficha_url": "https://gadebate.un.org/en/81/malaysia",
+      "country": "Malaysia",
+      "name": "Mohamad Haji Hasan",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "oman",
+      "ficha_url": "https://gadebate.un.org/en/81/oman",
+      "country": "Oman",
+      "name": "Sayyid Badr bin Hamad bin Hamood Albusaidi",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "tunisia",
+      "ficha_url": "https://gadebate.un.org/en/81/tunisia",
+      "country": "Tunisia",
+      "name": "Mohamed Ali Nafti",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "canada",
+      "ficha_url": "https://gadebate.un.org/en/81/canada",
+      "country": "Canada",
+      "name": "Anita Anand",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "gabon",
+      "ficha_url": "https://gadebate.un.org/en/81/gabon",
+      "country": "Gabon",
+      "name": "Marie-Édith Tassyla-Ye-Doumbeneny",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "jamaica",
+      "ficha_url": "https://gadebate.un.org/en/81/jamaica",
+      "country": "Jamaica",
+      "name": "Kamina Johnson Smith",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "sao-tome-and-principe",
+      "ficha_url": "https://gadebate.un.org/en/81/sao-tome-and-principe",
+      "country": "Sao Tome and Principe",
+      "name": "Ilza Maria dos Santos Amado Vaz",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "zambia",
+      "ficha_url": "https://gadebate.un.org/en/81/zambia",
+      "country": "Zambia",
+      "name": "Mulambo Hamakuni Haimbe",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "indonesia",
+      "ficha_url": "https://gadebate.un.org/en/81/indonesia",
+      "country": "Indonesia",
+      "name": "Sugiono",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "cameroon",
+      "ficha_url": "https://gadebate.un.org/en/81/cameroon",
+      "country": "Cameroon",
+      "name": "Lejeune Mbella Mbella",
+      "rank": "",
+      "speaker_title": "",
+      "speech_date": "2026-09-26",
+      "chosen": "video",
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": {
+          "entry_id": "1_ltbxstlu",
+          "partner_id": "2503451",
+          "url": "https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_ltbxstlu/format/url/protocol/https",
+          "filename": "1_ltbxstlu.mp4"
+        }
+      },
+      "error": null,
+      "http_status": 200
+    }
+  ]
+}

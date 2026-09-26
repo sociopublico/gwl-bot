@@ -1,37 +1,34 @@
 # Auto-exportado desde roster UNGA para el monitor de alertas
 # nombre | país | cargo
-Taneti Maamau | Kiribati
-Hussain Mohamed Latheef | Maldives
-Ali Falih Al-Zaidi | Iraq
-Nawaf Salam | Lebanon
-Christophe Mirmand | Monaco
-Hilda Heine | Marshall Islands
-Robert Abela | Malta
-Samuel Ntsokoane Matekane | Lesotho
-Feleti Teo | Tuvalu
-Hristijan Mickoski | North Macedonia
-Matthew Cooper Wale | Solomon Islands
-Philip Pierre | Saint Lucia
-Edi Rama | Albania
-Muhammad Shehbaz Sharif | Pakistan
-James Marape | Papua New Guinea
-Lamine Zeine Ali Mahaman | Niger
-Philip Edward Davis | Bahamas (the)
-Alix Didier Fils-Aimé | Haiti
-Ilídio Vieira Té | Guinea-Bissau
-Moustafa Kamal Madbouly | Egypt
-Godwin Friday | Saint Vincent and the Grenadines
-Lord Fakafanua | Tonga
-Mulipola Anarosa Ale Molioo | Samoa
-Geoffrey Hanley | Saint Kitts and Nevis
-Abdullatif bin Rashid Al Zayani | Bahrain
-Jeyhun Aziz oglu Bayramov | Azerbaijan
-Mukhtar Tileuberdi | Kazakhstan
-Mohamed Salem Merzoug | Mauritania
-Roberto Velasco Álvarez | Mexico
-Dhananjay Ramful | Mauritius
-Abdelmadjid Abdelrahim Mahamat | Chad
-Espen Barth Eide | Norway
-Carlos Ramiro Martínez Alvarado | Guatemala
-Maria Malmer Stenergard | Sweden
-Robert Komlan Edo Dussey | Togo
+Han Zheng | China
+Aren Palik | Micronesia (Federated States of)
+John Briceño | Belize
+Francisco Avelino Vieira de Carvalho | Cabo Verde
+Vasile Tofan | Republic of Moldova
+His Eminence Cardinal Pietro Parolin | Holy See
+Thongsavanh Phomvihane | Lao People’s Democratic Republic
+Sokhonn Prak | Cambodia
+Sergey Lavrov | Russian Federation
+Ma. Theresa Lazaro | Philippines
+Bruno Eduardo Rodríguez Parrilla | Cuba
+Prince 'Abdul Mateen | Brunei Darussalam
+Prince Faisal bin Farhan Al Saud | Saudi Arabia
+Vivian Balakrishnan | Singapore
+Thorgerdur Katrín Gunnarsdóttir | Iceland
+Valdrack Ludwing Jaentschke Whitaker | Nicaragua
+Subrahmanyam Jaishankar | India
+Johann Wadephul | Germany
+Sirodjiddin Muhriddin | Tajikistan
+Luca Beccari | San Marino
+Abdoulkader Houssein Omar | Djibouti
+Maxim Ryzhenkov | Belarus
+Mohamad Haji Hasan | Malaysia
+Sayyid Badr bin Hamad bin Hamood Albusaidi | Oman
+Mohamed Ali Nafti | Tunisia
+Anita Anand | Canada
+Marie-Édith Tassyla-Ye-Doumbeneny | Gabon
+Kamina Johnson Smith | Jamaica
+Ilza Maria dos Santos Amado Vaz | Sao Tome and Principe
+Mulambo Hamakuni Haimbe | Zambia
+Sugiono | Indonesia
+Lejeune Mbella Mbella | Cameroon

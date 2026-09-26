@@ -1,0 +1,35 @@
+# Schedule gadebate /en 2026-09-26
+# morning
+china
+micronesia-federated-states
+belize
+cabo-verde
+republic-moldova
+holy-see
+lao-peoples-democratic-republic
+cambodia
+russian-federation
+philippines
+cuba
+brunei-darussalam
+saudi-arabia
+singapore
+iceland
+nicaragua
+india
+germany
+tajikistan
+# afternoon
+san-marino
+djibouti
+belarus
+malaysia
+oman
+tunisia
+canada
+gabon
+jamaica
+sao-tome-and-principe
+zambia
+indonesia
+cameroon
