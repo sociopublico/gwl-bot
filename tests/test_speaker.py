@@ -642,5 +642,106 @@ class DayRosterTest(unittest.TestCase):
             self.assertEqual(tracker.observe("Mr. President.").name, "Ronald Ozzy Lamola")
 
 
+EVENING_ROSTER = {
+    "session": 81,
+    "day": "2026-09-25",
+    "speakers": [
+        {"country": "Guatemala", "name": "Carlos Ramiro Martínez Alvarado", "rank": "", "speaker_title": ""},
+        {"country": "Sweden", "name": "Maria Malmer Stenergard", "rank": "", "speaker_title": ""},
+        {"country": "Togo", "name": "Robert Komlan Edo Dussey", "rank": "", "speaker_title": ""},
+    ],
+}
+GUATEMALA_INTRO = (
+    "And I'll give the floor to his excellency Carlos Ramero Martinez Alvarado, "
+    "Minister of Foreign Affairs of Guatemala."
+)
+TOGO_INTRO = (
+    "I thank the Minister of Foreign Affairs of Sweden. I now give the floor to his excellency "
+    "Robert Comlan Edo Ducey, Minister of Foreign Affairs, Regina Integrations"
+)
+
+
+class SpeechEndTest(unittest.TestCase):
+    """Secuencia real del 25/9 a la noche (Guatemala → Suecia → Togo → réplicas → cierre)."""
+
+    def setUp(self) -> None:
+        self._tmp = tempfile.TemporaryDirectory()
+        roster_dir = Path(self._tmp.name) / "roster"
+        roster_dir.mkdir()
+        (roster_dir / "2026-09-25.json").write_text(json.dumps(EVENING_ROSTER), encoding="utf-8")
+        self.now = datetime(2026, 9, 26, 0, 46, tzinfo=timezone.utc)
+        self.tracker = SpeakerTracker(
+            _config(speaker_roster_dir=str(roster_dir)),
+            now=lambda: self.now,
+        )
+
+    def tearDown(self) -> None:
+        self._tmp.cleanup()
+
+    def _say(self, text: str, *, after: float = 30.0) -> str:
+        self.now += timedelta(seconds=after)
+        return self.tracker.observe(text).name
+
+    def _start_guatemala(self) -> None:
+        self._say(GUATEMALA_INTRO)
+        self.assertEqual(self._say("Mr. President."), "Carlos Ramiro Martínez Alvarado")
+
+    def test_intro_without_her_after_chair_thanks(self) -> None:
+        self._start_guatemala()
+        closing = (
+            "that none of us could achieve alone. Thank you very much. "
+            "I thank the Minister of Foreign Affairs of Guatemala. I now"
+        )
+        self.assertEqual(self._say(closing, after=900), "Carlos Ramiro Martínez Alvarado")
+        self._say(
+            "We are Excellency Maria Malma Stena-Gad, Minister of Foreign Affairs, or Sweden. "
+            "Mr. President, Excellencies, I want to begin"
+        )
+        self.assertEqual(self._say("Growing up in rural Sweden."), "Maria Malmer Stenergard")
+
+    def test_last_speaker_replies_and_adjournment(self) -> None:
+        self._start_guatemala()
+        self._say(TOGO_INTRO, after=900)
+        self.assertEqual(self._say("Togo leads abroad of Togo."), "Robert Komlan Edo Dussey")
+        closing = (
+            "Thank you for your kind attention. I thank the Minister of Foreign Affairs, "
+            "Regional Integration and Togolese Abroad of Togo."
+        )
+        self.assertEqual(self._say(closing, after=1200), "Robert Komlan Edo Dussey")
+        self.assertEqual(
+            self._say("the last speaker in the general debate for this meeting will continue tomorrow"),
+            "unknown",
+        )
+        self._say("I call on the representative of India. Thank you, Mr. President.")
+        self.assertEqual(self._say("This context, Mr. President."), "India (right of reply)")
+        self._say("I call on the representative of Pakistan. Thank you, Mr. President.")
+        self.assertEqual(self._say("Hindutva ideology."), "Pakistan (right of reply)")
+        self._say("Can fight but in peace. The meeting is adjourned.")
+        self.assertEqual(self._say("half are women and girls."), "unknown")
+
+    def test_meeting_end_alone_closes_speaker(self) -> None:
+        self._start_guatemala()
+        self._say("The meeting is adjourned.", after=600)
+        self.assertEqual(self._say("women and girls"), "unknown")
+
+    def test_thanking_own_president_mid_speech_does_not_close(self) -> None:
+        self._start_guatemala()
+        self._say("I thank the President of Guatemala, Bernardo Arévalo, for his leadership.", after=300)
+        self.assertEqual(self._say("women"), "Carlos Ramiro Martínez Alvarado")
+
+    def test_thanks_right_after_intro_does_not_close(self) -> None:
+        self._start_guatemala()
+        self._say("Thank you. I thank the people of Guatemala.")
+        self.assertEqual(self._say("women"), "Carlos Ramiro Martínez Alvarado")
+
+    def test_your_excellency_in_speech_is_not_an_intro(self) -> None:
+        speaker = extract_introduction_regex(
+            "I now give the floor to His Excellency Carlos Ramero Martinez Alvarado, Minister of "
+            "Foreign Affairs of Guatemala. Your Excellency Secretary-General Antonio Guterres,"
+        )
+        assert speaker is not None
+        self.assertEqual(speaker.name, "Carlos Ramero Martinez Alvarado")
+
+
 if __name__ == "__main__":
     unittest.main()

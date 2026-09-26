@@ -71,6 +71,62 @@ _NOT_INTRO_RE = re.compile(
 
 _HONORIFIC_RE = re.compile(r"^(?:mr|mrs|ms|miss|dr|sir|madam|sheikh)\.?\s+", re.IGNORECASE)
 _HONORIFIC_AT_RE = re.compile(rf"{_HONORIFIC}\s*[,:]?\s*", re.IGNORECASE)
+# El ASR pierde el "Her": "We are Excellency Maria Malma Stena-Gad, Minister ...".
+_BARE_HONORIFIC_AT_RE = re.compile(
+    r"(?<!your\s)\b(?:excellency|majesty|highness)\b\s*[,:]?\s*",
+    re.IGNORECASE,
+)
+# El chair cierra el discurso: agradece al orador o levanta la sesión.
+_ASSEMBLY_THANKS_RE = re.compile(
+    r"\bon\s+behalf\s+of\s+the\s+(?:general\s+)?assembly,?\s+i\s+(?:wish\s+to\s+)?thank\b",
+    re.IGNORECASE,
+)
+_CHAIR_THANKS_RE = re.compile(
+    r"\bi\s+(?:wish\s+to\s+)?thank\s+the\s+(.{3,160}?)(?=[.;!?]|\bi\s+now\b|$)",
+    re.IGNORECASE,
+)
+_THANK_YOU_RE = re.compile(r"\bthank\s+you\b", re.IGNORECASE)
+_MEETING_END_RE = re.compile(
+    r"\b(?:"
+    r"(?:the|this)\s+meeting\s+(?:is|stands)\s+(?:now\s+)?(?:adjourned|suspended|closed)|"
+    r"(?:heard\s+)?the\s+last\s+speaker\s+in\s+the\s+general\s+debate\s+for\s+this\s+meeting"
+    r")\b",
+    re.IGNORECASE,
+)
+_REPLY_RE = re.compile(
+    r"\bi\s+(?:now\s+)?(?:call\s+(?:up)?on|give\s+(?:the\s+)?floor\s+to)\s+the\s+"
+    r"(?:distinguished\s+)?(?:representative|delegate|delegation)\s+of\s+(?:the\s+)?"
+    r"(.+?)(?=[.,;:!?]|\s+(?:to|who|in|for|on|and)\b|$)",
+    re.IGNORECASE,
+)
+_THANK_JUNK = {
+    "foreign",
+    "affairs",
+    "minister",
+    "prime",
+    "president",
+    "deputy",
+    "council",
+    "government",
+    "defence",
+    "defense",
+    "national",
+    "security",
+    "cooperation",
+    "international",
+    "relations",
+    "development",
+    "integration",
+    "integrations",
+    "regional",
+    "public",
+    "general",
+    "assembly",
+}
+# Tras un cierre, la intro puede llegar sin "give the floor" (cortada entre chunks).
+_AFTER_END_SECONDS = 150.0
+# "I thank the President of Kenya" dentro del discurso no cierra a nadie recién empezado.
+_MIN_SPEECH_SECONDS = 120.0
 _INVITE_CUT_RE = re.compile(
     r"\s+and\s+(?:i\s+)?(?:invite|ask|call)\b|\s+and\s+invite\b",
     re.IGNORECASE,
@@ -316,9 +372,18 @@ def _split_name_and_title(rest: str) -> tuple[str, str | None]:
 
 
 def extract_introduction_regex(text: str) -> Speaker | None:
+    best = _extract_honorific(text, _HONORIFIC_AT_RE)
+    if best is None:
+        best = _extract_honorific(text, _BARE_HONORIFIC_AT_RE)
+    if best is not None:
+        return best
+    return extract_role_country(text)
+
+
+def _extract_honorific(text: str, pattern: re.Pattern[str]) -> Speaker | None:
     best: Speaker | None = None
     best_at = -1
-    for match in _HONORIFIC_AT_RE.finditer(text):
+    for match in pattern.finditer(text):
         name, title = _split_name_and_title(text[match.end() :])
         if not _looks_like_person_name(name):
             continue
@@ -341,9 +406,7 @@ def extract_introduction_regex(text: str) -> Speaker | None:
         if match.start() >= best_at:
             best = speaker
             best_at = match.start()
-    if best is not None:
-        return best
-    return extract_role_country(text)
+    return best
 
 
 def extract_role_country(text: str) -> Speaker | None:
@@ -561,6 +624,67 @@ def confirm_roster_by_country(
     )
 
 
+def speech_end_cue(
+    text: str,
+    current: Speaker,
+    roster: Sequence[RosterEntry] = (),
+    previous: str = "",
+) -> str | None:
+    """Motivo si el chair cierra el discurso de `current` o la sesión."""
+    if _MEETING_END_RE.search(text):
+        return "meeting end"
+    if not _named(current):
+        return None
+    if _ASSEMBLY_THANKS_RE.search(text):
+        return "chair thanks"
+    # El país del tracker viene del ASR ("Foreign Affairs of Guatemala"): manda el de la agenda.
+    countries = [
+        entry.country
+        for entry in roster
+        if entry.country and entry.name.casefold() == current.name.casefold()
+    ]
+    if not countries and current.country:
+        countries = [current.country]
+    targets = {
+        key
+        for country in countries
+        for key in country_keys(country)
+        if len(key) >= 4 and not set(key.split()) <= _THANK_JUNK and has_country_words(key)
+    }
+    surname = _name_tokens(current.name)[-1:] if current.name else []
+    targets.update(fold_name(token) for token in surname if len(token) >= 4)
+    cue = has_introduction_cue(text)
+    for match in _CHAIR_THANKS_RE.finditer(text):
+        thanked = f" {fold_name(match.group(1))} "
+        if "general assembly" in thanked:
+            continue
+        if not any(f" {target} " in thanked for target in targets if target):
+            continue
+        # El orador cierra con "Thank you" y recién ahí agradece el chair; así
+        # "I thank the President of Guatemala" dentro del discurso no corta.
+        before = f"{previous[-200:]} {text[: match.start()]}"
+        if cue or _THANK_YOU_RE.search(before):
+            return "chair thanks"
+    return None
+
+
+def reply_speaker(text: str) -> Speaker | None:
+    """'I call on the representative of India' (derecho a réplica)."""
+    match = _REPLY_RE.search(text)
+    if not match:
+        return None
+    country = " ".join(match.group(1).split()).strip(" ,;:")
+    if not has_country_words(country):
+        return None
+    return Speaker(
+        name=f"{country} (right of reply)",
+        title="Right of reply",
+        country=country,
+        confidence="strong",
+        source="reply",
+    )
+
+
 class SpeakerTracker:
     def __init__(
         self,
@@ -588,6 +712,7 @@ class SpeakerTracker:
         self._pending_started_at: datetime | None = None
         self._awaiting: Speaker | None = None
         self._previous_text = ""
+        self._ended_at: datetime | None = None
         self.refresh_roster(force=True)
         self._load()
 
@@ -674,7 +799,20 @@ class SpeakerTracker:
         self._pending_started_at = None
         self._awaiting = None
         self._previous_text = ""
+        self._ended_at = None
         self._persist()
+
+    def _end_reason(self, compact: str) -> str | None:
+        reason = speech_end_cue(compact, self._current, self.roster, self._previous_text)
+        if reason != "chair thanks" or self._current_started_at is None:
+            return reason
+        elapsed = (self._now() - self._current_started_at).total_seconds()
+        return reason if elapsed >= _MIN_SPEECH_SECONDS else None
+
+    def _recently_ended(self) -> bool:
+        if self._ended_at is None:
+            return False
+        return (self._now() - self._ended_at).total_seconds() <= _AFTER_END_SECONDS
 
     def observe(self, text: str, video_seconds: float | None = None) -> Speaker:
         self.refresh_roster()
@@ -690,6 +828,21 @@ class SpeakerTracker:
         prior = self._awaiting
         compact = " ".join(text.split())
         cue_now = has_introduction_cue(compact)
+        # Este chunk todavía es del orador saliente; desde el próximo, unknown
+        # (así sale su mail y lo que siga no se le pega).
+        end_reason = self._end_reason(compact)
+        if end_reason is not None and _named(self._current):
+            logger.info(
+                "SPEECH_END | %s | reason=%s",
+                self._current.name,
+                end_reason,
+            )
+            self._pending = Speaker()
+            self._pending_started_at = self._now()
+            self._ended_at = self._now()
+            self._awaiting = None
+        elif end_reason == "meeting end":
+            self._ended_at = self._now()
         # La intro falló en el chunk anterior. Si esta oración nombra un solo
         # país de la agenda y el nombre se parece, ese es el orador.
         if prior is not None and not cue_now:
@@ -781,6 +934,8 @@ class SpeakerTracker:
                 ):
                     self._awaiting = raw
                 extracted = None
+        if extracted is None:
+            extracted = self._reply(compact)
         if extracted is not None:
             if extracted.name.casefold() != self._current.name.casefold():
                 self._pending = extracted
@@ -803,6 +958,27 @@ class SpeakerTracker:
         if changed:
             self._persist()
         return attributed
+
+    def _reply(self, compact: str) -> Speaker | None:
+        reply = reply_speaker(compact)
+        if reply is None:
+            return None
+        matched = match_roster(
+            "",
+            self.roster,
+            self.config.speaker_roster_threshold,
+            country=reply.country or "",
+        )
+        if matched is not None:
+            entry = matched[0]
+            return Speaker(
+                name=entry.name,
+                title=entry.title or None,
+                country=entry.country or reply.country,
+                confidence="strong",
+                source="roster-country",
+            )
+        return reply
 
     def _state_path(self) -> Path | None:
         raw = (self.config.log_dir or "").strip()
@@ -878,6 +1054,11 @@ class SpeakerTracker:
         if _NOT_INTRO_RE.search(compact) and not cue_now:
             return None
         if not cue_now and not cue_window:
+            if not self._recently_ended():
+                return None
+            regex_speaker = extract_introduction_regex(window)
+            if regex_speaker is not None and regex_speaker.confidence == "strong":
+                return regex_speaker
             return None
         source = compact if cue_now else window
         regex_speaker = extract_introduction_regex(source)

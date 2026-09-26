@@ -217,6 +217,8 @@ Roster del día: Compose monta `pipeline/data/roster/81` en `/roster`. Si existe
 
 Si el chair presenta con nombre completo y país a alguien que no está en el roster, el monitor lo acepta igual (`SPEAKER_UNVERIFIED`, `source=asr-unverified`) para cerrar el discurso anterior y no mezclar citas. Un nombre suelto sin país sigue ignorándose.
 
+El discurso también se cierra sin intro nueva (`SPEECH_END`, sale el mail y lo que sigue queda en `unknown`): cuando el chair agradece al orador actual después de su "Thank you" ("I thank the Minister … of Togo", "On behalf of the Assembly, I wish to thank …") o al levantar la sesión ("the meeting is adjourned", "the last speaker in the general debate for this meeting"). "I call on the representative of India" abre un orador `India (right of reply)`.
+
 Para mejorar el fuzzy match del monitor, bajá nombres, país y cargo desde e-speakers:
 
 ```bash
