@@ -1,0 +1,169 @@
+---
+session: 81
+slug: mauritius
+id_speech: M_138
+country: Mauritius
+speaker: Dhananjay Ramful
+title: Minister of Foreign Affairs, Regional Integration and International Trade
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/mu_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.597
+---
+
+Mr. President,
+
+Allow me to congratulate you on your election to the Presidency of the General Assembly and assure you of the support of my delegation.
+
+I also wish to pay tribute to H is Excellency António Guterres for his outstanding dedication and commitment to this Organisation during his two terms as Secretary General. He will be remembered as a leader with a steady hand always guided by principles of fairness, compassion, and dignity for all.
+
+Mr. President,
+
+The United Nations has now completed the first eight decades of its existence.
+
+Eight decades replete with resolutions, declarations and action on decolonization, development, new international order, the new constitution for the oceans, as well as climate and the environment, technology, human rights, international law and peacekeeping.
+
+81st Session of the UN General Assembly Created in the aftermath of the Second World War, the immediate focus was obviously on peace and security. But the UN system has evolved significantly over the decades to expand its scope and sphere of influence, within the confines of its Charter.
+
+However, the UN must now look to the future, building on its record of achievements as well as from lessons learned from what it could not achieve.
+
+UN Reform As we look to the next eighty years, we must ask ourselves a searching question: is the UN fit for the purpose for the 21 st century— not the world of 1945, but the world of today and beyond?
+
+We are entering a new era of international relations defined by unprecedented technological developments.
+
+Often absent from the table where the rules of tomorrow are being adopted, developing countries risk being left further behind.
+
+The same exclusion afflicts the international financial architecture, which remains skewed against the Global South.
+
+Developing nations must have a seat at the table as equal stakeholders.
+
+81st Session of the UN General Assembly We all acknowledge that the three pillars of the UN Charter are: Peace and Security; Development and Human Rights. The twin institutional pillars provided in the Charter were, and still are, the Security Council and ECOSOC as the apex bodies for achieving these purposes. However, over the years, optimal use has been made primarily of only one of these organs.
+
+We need to enhance and accelerate the revitalisation of the General Assembly and that of ECOSOC so that they are not merely forums for debate, but engines of action.
+
+This must be done as we bring about the reform of the Security Council.
+
+The historical injustice regarding the composition of the Council was acknowledged in Action 39 of the Pact for the Future but the process for reform is still stalled. Mauritius fully supports the Common African Position — the Ezulwini Consensus and the Sirte Declaration — calling for no fewer than two permanent and five non -permanent African seats on the Council. Mauritius also supports the call for SIDS to have a seat on a reformed Council.
+
+On the question of the veto, Mauritius aligns itself with the position of a growing number of States that in the event the veto is retained, any new permanent member must have the same rights as the original permanent members.
+
+Mauritius also supports the Franco -Mexican Initiative on the suspension of the veto in cases of mass atrocities.
+
+81st Session of the UN General Assembly We support the positions of the G4 and of L69 on Council reform, and we reiterate our support for India's candidature for a permanent seat, commensurate with its constructive role in global affairs.
+
+Mr. President,
+
+Mauritius welcomes the increasing recourse to the International Court of Justice as a mechanism for the peaceful settlement of disputes and determination of issues of international law. We call upon Member States which have not yet done so to accept the compulsory jurisdiction of the ICJ.
+
+We welcome the landmark, unanimous Advisory Opinion of the ICJ on the obligations of States in respect of climate change. This was a vindication of the tireless advocacy of Vanuatu and the Core Group of States. Mauritius was proud to stand among them.
+
+We call for the full operationalization of this Advisory Opinion, including through the follow -up action requested by this Assembly, in accordance with the UN General Assembly landmark resolution of 20 May 2026, welcoming the Advisory Opinion of the International Court of Justice on the obligations of States in respect of climate change.
+
+We also support the legal principle — affirmed by the ICJ - that States are under no obligation to update their maritime baselines or zones to account for climateinduced sea level rise. Mauritius calls for th e principle that statehood and sovereignty are not impacted by sea level rise, to be formally codified.
+
+81st Session of the UN General Assembly Mr President,
+
+Water stands at the frontline of the climate crisis. Water is a major concern globally, and Mauritius welcomes the holding of the UN Water Conference in December this year. We look forward to this crucial global issue being addressed by the international community as a matter of urgency.
+
+We also call for enhanced, accessible, and predictable climate finance accompanied by comprehensive capacity-building and disaster -risk management for the most vulnerable.
+
+I also wish to highlight that Mauritius is currently conducting a constitutional review exercise which will include giving constitutional protection to the Rights of Nature.
+
+Development Financing Mr. President,
+
+The crisis in development financing is deepening. Concessional financing for developing countries is declining precisely when the need is greatest.
+
+The graduation of countries, including Small Island Developing States, should be encouraged and supported and not prejudice access to affordable finance.
+
+Mauritius calls for a review of the criteria for access to concessional financing, that reflect vulnerability rather than income per capita alone.
+
+81st Session of the UN General Assembly We also call for the strengthening of the rules -based multilateral trading system and for fair, transparent, and equitable mechanisms for resolving trade disputes.
+
+Mr. President,
+
+New Technologies The rapid evolution of digital and emerging technologies, including artificial intelligence, is already shaping economic, social, and institutional developments across the globe. We support the GA resolution establishing the Global Dialogue on AI Governance and welcome the work being done by the Independent International Scientific Panel on AI.
+
+For Mauritius, digital innovation is a developmental imperative. We have launched, with UN support, a National Artificial Intelligence Strategy 2025 –2029 and a National Fintech Strategy 2026–2030.
+
+We need an open, transparent and inclusive dialogue on governance of the new technologies which ensures that the benefits of technological progress are shared equitably and that the risks are managed collectively.
+
+Mr. President,
+
+Oceans As a coastal state with an EEZ of 2.2 million square kilometres — that is, more than one thousand times our land mass — Mauritius is profoundly connected to the ocean.
+
+81st Session of the UN General Assembly We reaffirm our unwavering commitment to UNCLOS as the legal framework governing all activities in the oceans including the seabed and subsoil beyond national jurisdiction.
+
+We welcome the decisions of the UN Commission on the Limits of the Continental Shelf approving the submission lodged by Mauritius in December 2008 and approved in March 2011 as well as the second one filed in May 2009 and approved in July 2026.
+
+We welcome the 100th ratification of the BBNJ Agreement and calls for its prompt and effective implementation. We look forward to its first Conference of the Parties advancing the institutional, financial, and procedural arrangements necessary for the effective implementation of the Agreement.
+
+Collaboration is key to effective maritime security, maritime surveillance and Domain Awareness. We call on the international community to support regional and sub-regional initiatives in this regard. I am pleased to inform that Mauritius, with the support of the European Union and the Commission de l’Océan Indien, will host a Ministerial Conference on Cybercrime and Sea Cables security in the Western Indian Ocean in the first quarter of 2027.
+
+Mr. President,
+
+Mauritius welcomes the major developments taking place across Africa with regard to gre ater integration and pooling of resources particularly in relation to capacity building. I n this regard, Mauritius has initiated action at the UN for 81st Session of the UN General Assembly promoting enhanced regulatory frameworks in developing countries namely through pooling of resources.
+
+Mauritius attaches great importance to the elimination of all forms of racism, racial discrimination, and xenophobia. We welcome the High -Level Meeting on this subject and reaffirm our commitment to the International Decade for People of African Descent.
+
+Mauritius is fully committed to supporting the Convention on the Elimination of All Forms of Discrimination against Women and the Beijing Declaration and Platform for Action. Earlier this year, Mauritius adopted new legislation to further enhance the protection of women’s rights.
+
+Mr. President,
+
+SDGs We are deeply concerned by the effects of regional conflicts and instability on development, economic growth, food security and the achievement of SDGs.
+
+The crisis in the Gulf and threats to freedom of navigation have sent shockwaves across the global economy. For a small, open economy such as Mauritius, which depends on maritime trade routes for over 90% of its primary energy imports and more than 70% of its food supply, these effects are felt acutely.
+
+We call for restraint, for dialogue, and for a durable diplomatic resolution.
+
+81st Session of the UN General Assembly Palestine Mauritius reaffirms its longstanding position in support of the inalienable right of the Palestinian people to self -determination and to an independent, sovereign state, with East Jerusalem as its capital, living in peace and security alongside its neighbours. The cycle of violence must end. Too many people have suffered for far too long. We note with deep concern that the establishment of unlawful settlements may be a major obstacle to peace.
+
+Mr. President,
+
+Chagos Archipelago I now come to an issue which for Mauritius is non -negotiable, it concerns our sovereignty over the Chagos Islands. The agreement on the Chagos Archipelago, signed by Mauritius and the United Kingdom in May 2025, stands as living proof that trust in multilateralism and UN judicial organs can achieve the peaceful settlement of disputes and the completion of our nation's decolonisation and restore the rights of Mauritians of Chagossians origin by force of law.
+
+Trust especially amongst neighbours and in the region is reinforced when there is the respect for the rule of law, for the resolutions of the United Nations General Assembly, the ruling of the International Tribunal on the Law of the Sea, and the ICJ’s Advisory Opinion on the Chagos Archipelago, which carries authoritative obligations.
+
+81st Session of the UN General Assembly We trust that States which laid the foundation of the new post war legal order will recommit to full respect and compliance with international law and correct this historical injustice without delay, as William Ewart Gladstone, four -term British Prime Minister and great campaigner for peace and freedom put it, “Justice delayed is justice denied.”
+
+Monsieur le Président,
+
+Tromelin L’île de Tromelin fait partie intégrante du territoire de la République de Maurice.
+
+Nous avons constamment maintenu notre position concernant la souveraineté de la République de Maurice sur cette île.
+
+Nous réitérons notre appel à la France à s’engager de manière constructive en vue du règlement du différend relatif à l’île de Tromelin, dans l’esprit d’amitié qui caractérise les relations entre nos deux pays.
+
+Mr. President,
+
+Social Development Mauritius is committed to uphold ing the pledges made at the Social Summit in Doha last year.
+
+Nowhere is that promise to universal social protection more concrete than in our health services. As Non-Communicable Diseases and a rapidly ageing population place growing pressure on our health system, we are strengthening public healthcare through major investments, improved service delivery, 81st Session of the UN General Assembly expanded specialised care and a greater focus on prevention. Mauritius will continue to offer free and quality public healthcare to each and every citizen. We thus welcome the holding of the 2027 High -Level Meeting on Universal Health Coverage, and Mauritius stands ready to contribute to that global effort.
+
+High-Level Meeting on Pandemic Prevention, Preparedness, and Response Today, t he High-Level Meeting on Pandemic Prevention, Preparedness, and Response met at a decisive moment, and decisive moments demand more than mere intentions. Mauritius supports the conclusion of the terms of BenefitSharing guaranteeing vulnerable countries, real access to affordable, safe, effective and quality medicines, including generics, vaccines, diagnostics and health technologies. It is of crucial importance to widen pandemic financing eligibility, including with the Pandemic Fund, to formally incorporate the Multidimensional Vulnerability Index.
+
+Road Safety Mauritius also welcomes UN initiatives on R oad safety – an issue to which we attach the highest importance, and which acts as a silent epidemic that continues to claim far too many lives, disproportionately in developing countries.
+
+We call for greater international attention and resources for this critical issue.
+
+81st Session of the UN General Assembly Monsieur le Président,
+
+Nous nous trouvons à un tournant décisif dans l’histoire des Nations Unies.
+
+L’organisation fait face à des défis majeurs, tant sur le plan interne que sur le plan externe.
+
+En interne, le processus engagé par le Secrétaire général pour réactualiser la structure administrative et financière de l’organisation pourra permettre à notre organisation d’être mieux équipée pour relever les défis futurs.
+
+Sur le plan externe le rôle et les fonctions de l’organisation ainsi que la composition de ses principaux organes sont remis en question et sont appelés à être redéfinis.
+
+La volonté affichée par la communauté internationale après la guerre, de se doter d’un instrument de collaboration en vue d’instaurer un nouvel ordre mondial est toujours présente. Le fait que le nombre d’acteurs a it plus que triplé durant les huit dernières décennies, reflète un engagement encore plus grand et plus diversifié qu’au moment de la création de l’ONU.
+
+Nous sommes confiants que la communauté internationale, dont environ la moitié est composée de jeunes qui aspirent à protéger la planète, à mieux partager les richesses et à utiliser les nouvelles technologies à bon escient, saura relever les nouveaux défis.
+
+81st Session of the UN General Assembly Nous renouvelons notre attachement au multilatéralisme aussi bien que notre confiance dans sa capacité à répondre aux attentes des peuples.
+
+Je vous remercie, Monsieur le Président.

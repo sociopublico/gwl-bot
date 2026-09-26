@@ -1,0 +1,103 @@
+---
+session: 81
+slug: lesotho
+id_speech: M_116
+country: Lesotho
+speaker: Samuel Ntsokoane Matekane
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/ls_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.483
+---
+
+Mr. President of the 81 st Session of the General Assembly,
+
+Excellencies, Heads of State and Government,
+
+Mr. Secretary-General of the United Nations,
+
+Distinguished Delegates,
+
+Mr. President,
+
+At the outset, allow me to extend my warm and heartfelt congratulations to you, on your election as President of the Eighty -First Session of the General Assembly. Your election reflects the confidence of Member States in your steadfast commitment to multilateralism and your vision for a United Nations that is responsive, effective, and capable of delivering for humanity. As you embark on this important journey, my delegation reaffirms its unwavering commitment to working closely with you and all Member States to ensure a productive and successful session.
+
+On behalf of the Government and the people of Lesotho,
+
+I also pay tribute to your predecessor, Her Excellency Ms.
+
+Annalena Baerbock, President of the Eightieth Session of the General Assembly, with whom my delegation had the honour to serve as Vice Preside nt. Her dedicated leadership, zeal, and tenacity of purpose in strengthening multilateral cooperation during a period of profound global uncertainty gave us hope that the future of this Organization can be secured when all nations work together for the common goal of leaving no one behind.
+
+To the Secretary -General, Mr. António Guterres, whose tenure is approaching its end, my delegation commends his exemplary leadership and fidelity to the ideals of the United Nations. During his term, the world confronted unprecedented challenges; from the COVID-19 pandemic to the eruption of new conflicts, the catastrophic effects of climate change and unstable trade regimes.
+
+Throughout these crises, he remained the moral force and steady anchor of the Organization.
+
+We salute him for his distinguished service and will fondly cherish his historic visit to the Mountain Kingdom in December 2024, during which he witnessed firsthand the dividends of the UN’s contributions to Lesotho.
+
+Mr. President,
+
+The theme for this Session, “Restoring Trust,
+
+Managing Transformation: A United Nations that Delivers for All,” resonates deeply with Lesotho’s aspirations for a more inclusive, transparent, and results-oriented multilateral system; capable of advancing respect for international law, maintaining global peace and security, accelerating sustainable development, protecting human rights, driving climate action and implementing long-overdue institutional reforms.
+
+Lesotho has restored national peace and security following successive episodes of political and security unrest. With the support of the United Nations, the African Union, SADC, and other friendly nations, we have reclaimed our rightful place among the comity of nations as a stable and peaceful country. We therefore attest that preventive diplomacy remains the most effective means of averting conflict and ensuring sustainable peace.
+
+To create an environment conducive to inclusive growth and development, we continue to advance public sector reforms aimed at strengthening democratic governance and the rule of law. We remain committed to accountability, professionalism and respect for hu man rights across all of society. We recognize that sustainable peace requires strong institutions, restored public trust, and an independent judiciary capable of delivering justice impartially and efficiently.
+
+Mr. President,
+
+We must acknowledge that climate change is no longer a future threat but a present reality. Lesotho is increasingly experiencing severe floods and droughts, resulting in unparalleled land degradation and extensive damage to critical infrastructure. Despite contributing minimally to global greenhouse gas emissions, Least Developed Countries like Lesotho bear a disproportionate brunt of climate impact. Global warming and rising sea levels pose existential threats, particularly to small island developing states. We stand in solidarity with these nations and call for greater global action.
+
+To cope with these climate -related challenges, we call upon developed countries to hono ur their commitments by providing new, adequate, predictable and accessible climate finance. Further, we urge developed countries to transfer environmentally sound technology and to strengthen capacity of developing countries to effectively mitigate and ada pt to the adverse effects of climate change. Climate justice demands nothing less.
+
+Just Energy Transition is therefore an imperative if humanity is to be spared from the existential threat of climate change. Under the visionary leadership of His Majesty King Letsie III, Lesotho has launched the ’’His Majesty King Letsie III Just Energy Transition Fund’’, designed not only to decarbonize our economy but to transform it from one historically reliant on migrant labour to one rooted in renewable energy exports. The Fund seeks to attract investment to build new energy generation capacity, unlock energy independence and lay a new foundation for national prosperity that benefits every Mosotho. We therefore call for partnerships to mobilise the requisite resources for clean energy projects, which can create significant employment opportunities for our youth and women.
+
+Our unique topography also presents opportunities for investment in data centres, which underpin the global digital economy. We are proud that Lesotho is the first country to pilot the United Nations Blueprint for National AI Strategies and Data Centres, positioning our nation on a pathway to achieve its AI ambitions for economic development. We are grateful for the UN’s continued support in this digital transformation journey.
+
+Mr. President,
+
+The Kingdom of Lesotho remains committed to the 2030 Agenda. We have accelerated reforms in business development, trade facilitation, public financial management, youth empowerment, and renewable energy. Yet challenges persist: economic diversification remains limited, youth unemployment stands at 38%, and climate -related shocks and inequality continue to constrain inclusive transformation. With only three years remaining until 2030, we appeal to the international community to honour their official development assistance commitments which is an essential step in restoring trust.
+
+We further call for reform of the international financial architecture to make it more equitable, fit for purpose, and responsive to the needs of developing countries, as agreed at the Fourth Summit for Financing for Development (FFD4) held in Seville, Spain. We also urge full implementation of the outcomes of the Third Summit of Landlocked Developing Countries (LLDC3), held in Awasa, Turkmenistan, in August 2025. The unconditional implementation of these outcomes, tog ether with the Pact for the Future, will undoubtedly help restore eroded trust.
+
+Mr. President, Universal health coverage remains central to our development agenda. While investments have been made, we continue to face serious public health challenges, including a high burden of communicable and non-communicable diseases and inequalities in access to healthcare. Lesotho is undertaking reforms to strengthen our healthcare system and invites partnerships to ensure universal access to quality primary healthcare, medicines, vaccines, diagnostics, and robust disease surveillance and pandemic preparedness.
+
+The social and economic costs of cancer are profound.
+
+With support from the International Atomic Energy Agency (IAEA), Lesotho is developing its first radiotherapy and nuclear medicine facility to provide domestic oncology services. We therefore call for enhanced cooperation in technology sharing, capacity building, and sustainable health financing to build resilient health systems capable of responding to current and emerging challenges.
+
+Mr. President,
+
+Migration is not an abstract concept for the people of Lesotho; it is a daily lived reality. It is woven into our social fabric as human ambition rooted dignity, opportunity and aspiration. Migration benefits both home and host countries, contributing to skills development, cultural exchange and shared economic growth. We must therefore strengthen international cooperation to ensure migration contributes meaningfully to deeper human understanding and sustainable developm ent. Guided by the Universal Declaration of Human Rights, we must guarantee the full enjoyment of human rights by migrants, regardless of status. Protecting their dignity and fundamental freedoms is not only a legal obligation, it is a moral imperative.
+
+Mr. President,
+
+We welcome progress under the UN80 Initiative and appreciate efforts to enhance efficiency, effectiveness, and coherence within the UN system. As deliberations continue, reforms must remain guided by intergovernmental agreed mandates and Member State priorities. Any measures undertaken should preserve the UN’s capacity to deliver across all pillars of its work and maintain meaningful impact on the ground.
+
+Mr. President,
+
+As we contemplate the future of multilateralism, we must renew our collective commitment to a United Nations that is more inclusive, effective, and responsive to contemporary global challenges and one in which developing countries, particularly African nations, have a stronger voice in global decision-making. We reiterate our support for comprehensive reform of the Security Council, in line with the Ezulwini Consensus, to make it more representative, equitable, and reflective of current geopolitical realities.
+
+The Kingdom of Lesotho reaffirms its unwavering commitment to the Charter of the United Nations, multilateralism, and the rule of law. International law remains the cornerstone of sovereign equality, peaceful coexistence, and sustainable development.
+
+Mr. President,
+
+The rise in regional conflicts is cause for deep concern.
+
+We call for sustainable diplomatic solutions to secure lasting peace in Ukraine, the Middle East, Sudan and Eastern DRC. We welcome the ceasefire framework and stabilization arrangements in Gaza and call for sustained engagement to achieve a lasting solution based on the 1967 borders, where Israelis and Palestinians coexist in peace and harmony. Regarding the broader conflict in the Gulf, we urge all parties to intensify efforts toward a speedy reso lution, as its economic impact is dire and devastating. For humanity cannot continue to bear the high cost of these wars.
+
+We should draw inspiration from the wisdom of Chief Mohlomi, one of our renowned diplomats, who advised Morena Moshoeshoe, the founding father of the Basotho Nation, that “it is better to thrash corn than sharpen the spear.” As the United Nations, we must continue investing in conflict prevention and building strong democratic institutions grounded in good governance and respect for international law.
+
+Mr. President,
+
+My delegation continues to call for the lifting of longstanding unilateral coercive measures on Cuba and Zimbabwe. These measures are unjust and deprive innocent civilians of their right to development.
+
+In conclusion, Lesotho firmly believes that cooperation, solidarity, and shared responsibility are the only viable path toward a peaceful, prosperous, and sustainable future. Let us recommit ourselves to a multilateral system that delivers tangible results for humanity, protects our planet, promotes peace and international security and ensures that no one is left behind.
+
+I thank you.

@@ -1,0 +1,119 @@
+---
+session: 81
+slug: marshall-islands
+id_speech: M_114
+country: Marshall Islands
+speaker: Hilda Heine
+title: President
+speaker_title: Her Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/mh_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.669
+---
+
+Mr. President, Mr. Secretary-General, Excellencies,
+
+I ask every nation here - are we still willing to work together?
+
+The principles in the UN Charter, affirmed by each one of us taking our seat in this hall, are now tested not by argument - but by neglect or ill intention.
+
+The credibility and effectiveness of multilateral institutions is imperative for small nations. It is past time to better turn the urgency expressed in political declarations and resolutions into results, not repetition.
+
+We speak from our own experience when we underscore the importance of acting together. An institution that takes decisions collectively must also be accountable, collectively.
+
+Mr. President,
+
+The United Nations is long overdue to reflect and renew the same spirit with which our Marshallese people first came to the UN, by delivering an apology and acknowledgement of the harm caused by impacts from the 67 nuclear weapons tested on our islands during our time as a UN Strategic Trust Territory - between 1946 and 1958. The sacred trust of the UN Trusteeship to ensure our well-being was jeopardized by these tests and the lack of due acknowledgement remains a moral failing.
+
+For generations, our families have testified to displacement, illness, contamination and loss, all of them impacts to our core human rights. As our survivors would say, “this is a song that has been sung far too many times”.
+
+It was in this same building that the UN Trusteeship Council sat in session and voted on Resolutions 1082 and 1493, in 1954 and 1956 respectively, to effectively authorize further nuclear testing over the demands of our local leaders and many citizens.
+
+The United Nations ultimately allowed the testing to continue, but the shock and tragedy of nuclear exposure in the Marshall Islands was a profound driver of the 1963 global ban on atmospheric testing of nuclear weapons.
+
+We acknowledge the ongoing actions, dialogue and complex legacy of the UN’s administering authority, the United States. But the role of the United Nations cannot pass without comment For us – and for fellow member states – this apology is an opportunity to reflect upon the past, to bring healing and closure to the Marshallese people.
+
+We carry no larger agenda – other than to ensure that the United Nations will do better.
+
+Mr. President,
+
+As we face a world in which scientists tell us overshooting the 1.5 degree temperature limit that we agreed in Paris is increasingly likely, we all need to to wake up and act.
+
+Our focus now must be on preventing or minimizing the overshoot, shortening the time we spend above 1.5, and doing everything possible to fight our way back.
+
+As we gather in Tuvalu, Fiji and Turkiye for this year’s climate pre-COP and COP, our response to the threat of overshoot must be overwhelming. A much accelerated transition away from fossil fuels is the only logical response. Continued investment in fossil fuels is not only immoral but irrational. Technologies exist which provide secure, stable, zero-emissions energy. We are employing them in my own country, where, in the next 18 months, renewable energy will cut fossil fuel use in our remote outer atolls by 88%, giving many access to electricity for the first time. We must do everything in our power to accelerate the deployment of renewables, and to reduce fossil fuel production and consumption with equal speed.
+
+This includes shipping, where we have the opportunity at the International Maritime Organisation to adopt binding regulations that will place international shipping on a clear path to net zero by 2050 and generate the revenue required to ensure a just and equitable transition.
+
+Mr President,
+
+The denials and delays that have slowed the transition away from fossil fuels mean that countries like mine are already experiencing grave challenges. We have developed our national adaptation plan, working across ministries and with our people to determine how to make a safe future. Adapting is costly, and takes time, even as we’ve seen schools destroyed by rising seas, salt water poisoning our wells, and disease outbreaks linked to environmental change. This injustice must be addressed. Our communities deserve restitution.
+
+The Marshall Islands, and vulnerable people everywhere, need sufficient, timely and accessible finance for adaptation and loss and damage. Those who have profited to the detriment of the many must pay. We have created home grown institutions that are ready and willing to respond, like the Pacific Resilience Facility
+
+- a regionally managed platform, and the Marshall Islands Adaptation and Resilience Trust Fund, designed to enable donors to support our adaptation efforts.
+
+Mr. President This crisis has the power to divide us, or to prove that we all remain willing to achieve common goals.
+
+This week the Marshall Islands convened the High Ambition Coalition, a diverse group of countries committed to a rigorous response to the climate crisis. We are united in the view that the best available science must lead the decisions we make, the importance of a 1.5 degree celcius temperature limit, an urgent transition away from fossil fuels, and the need for adequate and accessible climate finance, especially for adaptation and loss and damage.
+
+Mr. President,
+
+As a low-lying atoll nation with no higher ground, sea-level rise is an immediate and stark reality. This week’s UN High Level Meeting on Sea-Level Rise has helped achieve new understandings in international law.
+
+It is the seas that are rising around us, and not our islands which are sinking. Our boundaries and baselines of today - the political footprint on the map - will endure in the face of aggressive sea-level rise scenarios. Our collective stability - and security - as Pacific Islands Forum members, and as a UN member state - will be now better addressed.
+
+As an atoll nation - our tide gauge is proof enough that far more action is needed.
+
+And we are acting. Confronted with rising seas on our most vulnerable shorelines, we completed the Ebeye Seawall and Footpath last week, 1.8 kilometers of oceanside protection built with support from the World Bank, the Green Climate Fund, and our own resources. Engineered for rising seas, it now protects 8,400 people and critical energy infrastructure, reduces annual coastal -flooding losses, and anchors resilient future development on Ebeye, including schools, housing, and the proposed new hospital, while providing a safe public space that strengthens community wellbeing. It cost $75 million dollars, took 70,000 tonnes of rocks, took more than a decade to do - and it is just one island of over a thousand. We are taking action, and we urgently need strengthened partnership to better protect our islands, before sea-level rise overtakes us.
+
+Mr. President,
+
+My nation underscores the importance of the Law of the Sea as a key legal pillar of our future. Even before we were a UN member, we fought closely both to participate in UN Law of the Sea negotiations, and to secure these rights in our Constitution. Pacific island leadership, and that of all small island developing states, has defined every multilateral milestone for oceans and fisheries and, we will continue to do so.
+
+As an ocean people, the consequences of getting it wrong are not from distant impacts, but adjacent to our waters - particularly in the North Pacific, both within the International Seabed Authority and unilateral actions. Collectively- the peoples and voices of Micronesia must be heard - we are joined by Guam, Northern Marianas, Federated States of Micronesia, and Palau - in expressing our alarm at seabed mining actions where the decisions are made before impacts are wellunderstood, and where adequate safeguards remain undefined. The Marshall Islands joins 45 nations seeking a moratorium on seabed mining. Responsible and science-driven regulations need to be in place. Going on guesswork for global oceans is beyond dangerous. There are no do-overs.
+
+The Marshall Islands looks forward to the first Conference of Parties to the Biodiversity Beyond National Jurisdiction- to work across silos to advance high seas protection. We urge wide ratification of the Agreement. The Marshall Islands looks forward to supporting its Secretariat in a host nation committed to upholding the Law of the Sea as a matter of both principle and law, in words and in actions.
+
+Mr. President,
+
+Too often the word geopolitics is considered to refer only to the whims of superpowers, and not the reality of our fragile place between them. As a region of vulnerable island nations, we rightly define our own security priorities- and they deeply cut across every sector, placing a safe future for our youngest generations beyond grasp.
+
+As fuel and energy costs are rising beyond our ability to respond, impacts from bigger power plays halfway around the world are amplified tenfold in small, remote economies. The international community is not listening closely to small island developing states, and it is not responding fast enough. Too often, the purported solutions for island nations don’t seem to know the problems.
+
+Mr. President,
+
+The Marshall Islands faces complex challenges in tackling the SDGs, but we are committed with all of our effort to ensure no one is left behind. Our national planning is now firmly linked to SDG goals and targets and our action proves our commitment. We have developed direct assistance to vulnerable groups including mothers and early childhood development- and we are also reaching our entire incountry population with quarterly supplemental income and improved access to digital finance tools. Our aspirations must be better matched by partnership and island-scaled investment and policy innovation.
+
+I must underscore the direct need for data capacity support to measure progress and effectiveness for small island developing states. If we can’t assess the SDGs, we can’t correct course.
+
+Mr. President,
+
+The Marshall Islands affirms the recent Pacific Islands Forum Communique position regarding West Papua, including the 2018 invitation by Indonesia to the UN Human Rights Commissioner.
+
+Further, the Marshall Islands strongly welcomes recent calls for a ministerial summit between ASEAN and the Pacific Islands Forum to take forward our 2023 agreement. Our two regions can stand united as neighbors and close friends.
+
+The Marshall Islands affirms its longstanding support for Japan - and its G4 partners - to achieve permanent membership on the UN Security Council.
+
+Mr, President,
+
+The Marshall Islands expresses its grave concern over increased efforts to spread dangerous disinformation in these halls. Taiwan, and its 23 million people, are an objective reality, and only its democratically-elected government can represent it.
+
+Appropriate ways must be found for Taiwan’s substantive participation in UN meetings - if the UN is to be truly inclusive and effective.
+
+In years to come, every nation in this hall may be told that aggression or coercion upon Taiwan is an internal matter, somehow justified by an ancient UN seating chart resolution - a resolution which doesn’t even reference Taiwan. In years to come, we may all be told that it is futile for a small nation to resist a larger one and that might makes right regardless of the rule book. We all will experience pressure to accept a false narrative, that UN General Assembly resolution 2758 somehow serves as a legal pretext under the UN Charter for coercion or war, impairing freedom of navigation in one of the world’s busiest shipping lanes. We will be asked, politely and impolitely, to turn a blind eye and look away.
+
+It is vital that every nation here, including our close partners in our own region, know that appeasement never satisfies an aggressor’s wider agenda, and one taste is never enough. How the UN addresses this very real security dilemma will be a test of its strength and relevance.
+
+Excellencies,
+
+The Marshall Islands stands firm in investing ourselves in this multilateral institution with clear sight of its frustrations and grave errors. Two years ago, I concluded my coral reef where different species of fish congregate to feed and seek shelter.
+
+Today, we are not only being called upon to revitalize this 81 year-old institution created from the ashes of global conflict, but we are being challenged to address the complexities of a rapidly changing world. This United Nations must continue to serve as our primary Wod in Kanol to ensure that no one is left behind.
+
+Thank you and Kommol Tata.

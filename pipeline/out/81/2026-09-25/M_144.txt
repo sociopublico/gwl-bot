@@ -1,0 +1,77 @@
+---
+session: 81
+slug: liechtenstein
+id_speech: M_144
+country: Liechtenstein
+speaker: Sabine Monauni
+title: Deputy Prime Minister
+speaker_title: Her Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/li_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.561
+---
+
+NEW YORK President,
+
+Liechtenstein joined the United Nations 36 years ago as its 160th member. We did so driven by the conviction that we, as one of the smallest members of the international community, should be part of the most important conversation on global governance, with the participation of all States, big or small, in developing international norms and standards – and also in upholding respect for them. Sovereignty was a key theme of our domestic discussions resulting in our UN membership. We joined out of enlightened self-interest - the belief that we need the UN to secure respect for our sovereignty, through upholding international law, as the basis for our security and prosperity. To this end, we also decided to make our own contribution, to make best use of the opportunity offered to us as a small State, to be an active part of the biggest peace project in the history of humankind.
+
+President,
+
+Our belief in the United Nations remains steadfast. This is the place where we can make our voice heard, where we can put ideas forward, and where we can gather to try to solve the issues that affect us all. We have greatly benefitted from our membership, and the UN has consistently been a key platform for our foreign policy. Our membership has consistently enjoyed high levels of support in our population.
+
+But today we also find ourselves in a moment where instability and uncertainty dominate the conversation. Our organization no longer seems able to deliver on the key promise of the UN Charter – to save future generations from the scourge of war. It can no longer count on the unconditional support of its most powerful Members for the guiding rules of international law. It is increasingly ignored or sidelined in efforts to address both the traditional and new challenges, such as the regulation of Artificial Intelligence. It is permanently squ eezed financially. Legal obligations to pay are turned into tools to exercise political leverage. As a result, the United Nations has moved down the foreign policy agenda even of States who have a strong history of supporting it. We can no longer take it for granted that our people will continue their strongly positive views of our organization.
+
+President,
+
+This is the difficult moment in which we find ourselves. But rather than engaging in doomsday scenarios, we have to find the opportunities hidden in the challenge. The overwhelming majority of the States present in this room believe in the United Nations. They want to see positive change, for the UN to emerge stronger, more effective, more relevant. But we all have to be prepared to be part of the change that we want to see. Resisting the temptation of collective inertia and of waiting for positive change to happen on its own will require our active political investment.
+
+We are grateful to Secretary -General Guterres for his service to the organization and for his proposals to adapt the organization to the needs of today. On the basis of his ideas, our delegations here have done good work that will show positive results over time. This is important. It shows that we can come together also during times of deep political division. It is also not enough. The steps we have taken are just the beginning of what we need - a political agreement that combines significant structural change with a reliable financial commitment and firm support for the UN Charter from all. This is also the vision we are looking for in the person that will be appointed as the next Secretary -General. We hope that this decision will come very soon, in order to give the new Secretary-General the time she needs to prepare for this most unique of jobs. And we remain convinced that having a woman at the helm of the United Nations is long overdue for an organization that prides itself on its role in gender equality.
+
+President,
+
+At its core, the United Nations is a peace organization. This is the promise of the UN Charter, and this is what our people expect from the UN – and the reason why they hold it in high esteem. Over the past year, we have seen a record number of armed conflicts around the world – and a rapidly diminishing role of the United Nations in ending them. In the Middle East, the UN’s role has been further reduced, in contrast to the central position it has taken up over the years. In Ukraine, there are few prospects for a peace process even though the aggression has now lasted longer than World War I, without even a nominal role for the United Nations. In Sudan, the role of the UN is limited to alleviating the enormous suffering of the civilian population, with no prospect of a political solution and an end to the conflict.
+
+We are well aware of the political dynamic in the Security Council, primarily tasked with matters of peace and security – which severely limits the options for UN action. But the conversation must not end there. There are alternatives for action. This Assembly in particular has wide authority over matters of peace and security – and it is universal in composition. A glance at its history demonstrates its authority in peacekeeping, conflict termination and accountability. It is time that we make better use of this authority. The Veto Initiative, which we were proud to spearhead, provides a platform for such action. What is required is the will to spend our political capital here in this room – on peace rather than force, by dealing with conflict through diplomacy rather than through war.
+
+The United Nations must not accept being reduced to a crisis mitigation organization that distributes States ’ contributions to a skyrocketing humanitarian assistance bill. Instead, we need to see a return to the UN doing political work to prevent, contain and end conflict, through the wide range of peace operations available, and through a strong interplay between a Secretary -General who is proactive and offers creative solutions, backed by the UN membership.
+
+President,
+
+Any successful community must be grounded in the rule of law. And so it is with the international community: our commitment to the law as the foundation for the conduct of international affairs is grounded both in principle and pragmatism. The biggest stre ngth of the United Nations is that it is firmly grounded in rules we have all agreed on – and that we have all agreed apply to all of us. This foundational agreement is increasingly challenged, with alarming trends to dismiss and ignore international law altogether which can only result in a world where might makes right. This would result in catastrophic human cost, a further proliferation of conflict and have devastating effects on development and on human security. We hope that both small and medium -sized States will come together in our common interest for a strong multilateral system, on the basis of respect for international law. This is the moment for us to unify in support of what the United Nations is built on.
+
+President,
+
+Naturally, we are also strong supporters of international courts, the indispensable enforcement mechanisms of international law.
+
+Liechtenstein joined the jurisdiction of the International Court of Justice four decades before we joined the UN. We have made more submissions to the Court over the past decade than in its entire history before. We strongly support its work and its competence in both its advisory and dispute settlement functions. We encourage all to join us in submitting to the compulsory jurisdiction of the Court.
+
+Liechtenstein is also strongly committed to the International Criminal Court, the first permanent international court with jurisdiction over the most serious crimes under international law – genocide, crimes against humanity, war crimes and the crime of aggression. We will continue to support the Court and its mandate to ensure acco untability and its central message - that nobody is above the law. In joining the ICC, we have exercised our sovereignty and delegated the jurisdiction we have ourselves to an international Court which we have helped create. We are proud of the way the Court has addressed the challenges to its resilience over the past year, in the face of relentless political attacks and unprecedented sanctions. We hope that more States will join this project, which is one of the landmark achievements in the history of international treaty-making.
+
+The Rome Statute also criminalizes the supreme international crime – the crime of aggression, which complements the prohibition of the illegal use of force, the core piece of the UN Charter. At the international level, by signing the UN Charter we have all agreed to refrain from the threat or use of force against the territorial integrity or political independence of another State. This is the most ambitious collective commitment to end war that has ever existed. Amidst accelerating human suffering the world over, it has never been more important for us to implement this commitment.
+
+President,
+
+It has now been many decades since scientists first war ned us of the dangers of Climate Change. Nevertheless, we have continued to run into the climate abyss, leaving the coming chaos for our children and their children. It is almost impossible to believe that we need to reiterate the facts: the climate crisis is real. We are seeing its effects every day, from heatwaves that bake the soil, to heavy rains that turned the parched ground into mud. People are starving in the heat and drowning in the floods. Crops can no longer be sustainably harvested; animals and pollinators are dying out. Liechtenstein commits to working with all States to address these harms and to reverse these trends as much as we still can.
+
+We support the Advisory Opinion of the International Court of Justice on Climate Change. And this week we were proud to join the adoption of a High-Level Declaration on Sea-Level Rise, including a commitment to the continuity of Statehood for all UN Member States. Only a few years ago,
+
+Member States in this debate wondered aloud if their nameplates would be ‘switched off’. The commitment we made this week is to guarantee that this will not happen. In the face of seas which inundate whole territories, standing up for self-determination is the least we can do for those most affected.
+
+President,
+
+This week has also seen an intense debate on harnessing the potential of Artificial Intelligence. But perhaps what we are discovering in these conversations are our own limits to understanding what that potential might be. Reporting from the most powerful and well -capitalized AI companies tell us that we are on a precipice either of a technology-fueled utopia or an apocalypse. Whether we achieve one or the other, unfortunately, has been treated as a secondary priority to the ‘AI race’ – one that has no clear finish line – and, for that matter, a dubious prize.
+
+Liechtenstein supports the regulation of Artificial Intelligence. Unless we have a clear understanding of the methods, processes, and purposes of the huge variety of AI systems, how can we risk the consequences to human rights, to our environment, to the l ong-term capacities for our critical thinking and ultimately to the future of the human species? We are already seeing the impacts on civilians as armed forces increasingly integrate AI capabilities into their targeting systems in warfare. AI tools have to be made for humanity, lest we become the source material for AI systems to use - or merely the victims in its crosshairs.
+
+President,
+
+Many of us standing here this week have mused about the UN’s imperfections or expressed our concerns about its diminished relevance.
+
+The UN is, indeed, in a fragile place. But very few of us want to live in a world in which the United Nations is rendered obsolete. On the contrary, we realize how much we need the UN. In the often-repeated quote, the UN was not built to take us to heaven. But in an era where it may not even be able to save us from hell, this universal organization retains the unparalleled ability to meet us where we are. It is up to us to do what we can to bring it closer to carrying out its mission under the UN Charter.
+
+Liechtenstein commits to doing our part with you all in service of multilateralism and of the peoples we serve. I thank you.

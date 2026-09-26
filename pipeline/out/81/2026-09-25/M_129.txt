@@ -1,0 +1,149 @@
+---
+session: 81
+slug: saint-vincent-and-grenadines
+id_speech: M_129
+country: Saint Vincent and the Grenadines
+speaker: Godwin Friday
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/vc_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.075
+---
+
+Mr. President Excellencies, Friends I bring greetings from the Government and people of Saint Vincent and the Grenadines.
+
+Mr. President, we congratulate you on your election to preside over this session of the General Assembly. You can count on our support and cooperation.
+
+Secretary-General, António Guterres, we are extremely grateful to you for your bold leadership and determined advocacy for human rights, justice and peace.
+
+We thank you for standing up for small and vulnerable nations.
+
+Support for Multilateralism The theme "Restoring Trust, Managing Transformation: A United Nations that Delivers for All" speaks directly to the anxieties of our time and also to the hopes of small states like mine.
+
+As we have heard from many speakers in this chamber, trust in the multilateral system is broken. Hope has retreated while cynicism and doubt have grown.
+
+Nevertheless, we hear the insistent calls for justice, peace, and for a rulesbased international order that applies to all nations.
+
+Mr. President, I come here for the first time representing my country Saint Vincent and the Grenadines with a clear mandate and a commitment that governance must be transparent; that individual actions must consistently reflect integrity; and that public resources must be used to improve the lives of ordinary people.
+
+We are a small, democratic, multi-island Caribbean nation committed to multilateralism and the peaceful resolution of disputes. Those principles serve us well and we believe should bind us all in this chamber.
+
+Vulnerability We in St. Vincent and the Grenadines e xperienced firsthand the vulnerability of living on the frontlines of climate change, having experienced only two years ago the sudden destructive power of a category 5 hurricane.
+
+We also feel the enormous strains imposed on our small, open econom y by distant wars that have disrupted supply chains, and by decisions made in places where our voice is never heard.
+
+Yet, we will not let vulnerability define us or limit our ambitions. We will be resilient and will work individually and collectively to transcend our vulnerability.
+
+So, Mr. President, we come to this august Assembly not as mere petitioners, but as partners seeking to play our part in making our world a better place.
+
+I come at this point in the debate having had the privilege of listening to other leaders who spoke before me. And Mr. President I must tell you, I was moved by the hopeful vision, fiery passion and boundless generosity and caring of many of the speakers.
+
+They lifted my spirit and, I am determined that that is where my spirit shall remain. I owe it to the people who sent me here to be hopeful. I owe it also to people whom I have never met, who come from places I have never been but who, nevertheless, are my brothers and sisters.
+
+And so that brings us to the task at hand.
+
+We all know that t he United Nations has its flaws. But we must not seek to abandon it like a motherless child.
+
+It is what we have made it.
+
+Some, no doubt, are more culpable than others, but in one way or another, we are all involved. We speak of culpability not merely to point a finger of blame, but to understand better where the solutions may lie.
+
+We believe profoundly that more than ever, humanity needs the United Nations. Try to i magine a world without it. Where would we go to have the conversations we are having now and had earlier in the week?
+
+And that is only the beginning!
+
+As a global institution, the United Nations is fundamentally an inclusive space where every nation can play a role in addressing our common problems. A retreat from m ultilateralism undermines the interests of small States and, indeed, of everyone.
+
+But we acknowledge that our support for the United Nations must be matched by our willingness to embrace reform to make it more effective.
+
+Trust cannot be built or restored by declarations alone. It is only when ordinary people see that cooperation makes their lives safer, richer and happier that trust will be restored!
+
+UN REFORM Mr. President, let us restore trust through organizational reform and greater inclusiveness.
+
+The U nited Nations governance model designed in 1945 cannot adequately address the security and economic challenges of today. Therefore, we join with other nations in calling for reform, specifically of the Security Council, to include a permanent member from the continent of Africa with all the attendant rights and privileges. Failure to do so would only confirm that the current composition is not about governance and fairness, but about power.
+
+Further, as we proceed with selecting our next Secretary -General, let us be more open and inclusive.
+
+Saint Vincent and the Grenadines is pleased to join other Caribbean Community members in endorsing the candidacy of Her Excellency Carolyn Rodrigues-Birkett of Guyana and of the region of Latin America and the Caribbean. We know her as a distinguished dipl omat, a principled multilateralist and a compelling advocate for developing countries and small states.
+
+Mr. President, as this is my first visit here, like a tourist I walked the halls of this historic building and admired on the walls the impressive portraits of the nine men who have served as Secretary -General since 1946. And while I appreciated the outstanding caliber and service of those men I, nevertheless, could not resist thinking that after eight decades, surely the time has come for an equally capable woman to be Secretary -General. We believe Ambassador Carolyn Rodrigues-Birkett is well-suited to be that person.
+
+Climate Finance Reform Mr. President, for Small Island Developing States (SIDS), climate change is not a distant forecast. It is a present danger and recurring financial emergency. We suffer the scourge of sargassum seaweed that damages our tourism, and we worry about the growing problem of Sahara dust that seriously degrades air quality across the Caribbean islands. And we worry constantly about hurricanes!
+
+In July 2024, Hurricane Beryl struck SVG and demonstrated once again how a few hours of extreme weather can destroy homes, livelihoods and infrastructure built over many years, and set back a country.
+
+Small states cannot continue borrowing merely to replace what climate related disasters repeatedly destroy. We cannot continue to walk up the down escalator, pretending it is development.
+
+Mr. President, we renew our call for the full operationalization of the Multidimensional Vulnerability Index, so that access to concessional financing is not constrained by per capita income but reflects the real climate risks small island states face and their limited capacity to respond to such large events.
+
+We also call for the swift implementation of reforms set out in the Antigua and Barbuda Agenda for SIDS.
+
+Further, we support the continuing work of the Bridgetown Initiative to reform the international financial architecture, including automatic debt -service suspension clauses when disaster strikes, expanded and re -channeled Special Drawing Rights, and multilateral development banks that lend like development partners rather than like commercial creditors.
+
+Mr. President, we must also accept that affordable, patient, concessional capital is not charity to small states; it is justice for states that contribute the least to the climate crisis yet bear the highest costs.
+
+Peace and Security Mr. President, let us restore trust through the pursuit of peace and security.
+
+Trust in the international system begins with the conviction that every one matters, and that the security of small states is as precious as that of great powers.
+
+International conflicts far from our shore s--in Ukraine and the Middle East -- continue to have devastating consequences for our daily lives, disrupting agricultural trade and global food stability and driv ing up fuel prices and shipping premiums.
+
+We therefore join with others here and call for an immediate end to the war in Ukraine with full respect for state sovereignty and territorial integrity under the UN Charter. And Likewise, we call for a permanent ceasefire in the Middle East, the protection of civilians, and the realization of a two -state solution guaranteeing peace and security for Palestine and Israel.
+
+Mr. President, Saint Vincent and the Grenadines does not stand alone. We stand with our brothers and sisters of the Caribbean Community, CARICOM, which is not just a trading bloc but a family whose members in these uncertain times need each other more than ever.
+
+For us in the Ca ribbean, peace and security are paramount concerns in our diplomatic efforts.
+
+Therefore, as we seek to restore trust, we reaffirm that Latin America and the Caribbean must remain a Zone of Peace, where disputes are settled through peaceful means with adherence to international law and the UN Charter. We urge that the territorial dispute between Venezuela and Guyana be resolved in this manner.
+
+Within our hemisphere, other unresolved challenges require immediate, principled engagement.
+
+HAITI Haiti remains our urgent concern.
+
+Nearly four decades ago, the Trinidadian c alypsonian, David Rudder, sang a lament to Haiti. His words are still relevant today. I quote: “When there is anguish in Port-au-Prince, it’s still Africa crying.
+
+We’re outing fires in faraway places when our neighbors are burning.
+
+I refuse to believe that we good people will forever turn our hearts and our eyes...away.
+
+Haiti, I’m sorry.” And the song goes on.
+
+The insecurity of the Haitian people, plagued by gang violence and political uncertainty is a pain felt across our region. We support the efforts of CARICOM and of this organization to help fund and provide security, to build up critical institutions, and create a viable path to general elections. We must confront the reality of arms trafficking, including assault weapons that are terrorizing Haitian communities, and communities across the Caribbean. We don’t make these weapons in the Caribbean. They are manufactured in industrial nations and smuggled across borders into our region and countries. We, therefore, call on all countries to take decisive actions to stem the illicit flow of weapons and ammunition across borders and into the Caribbean.
+
+CUBA Mr. President, Cuba has long been a valued member of our Caribbean family.
+
+For more than three decades, this Assembly has said that the economic embargo imposed on Cuba must end.
+
+Whatever disagreements exist, the collective punishment of an entire population, denying medicine, denying trade, denying fuel, denying ordinary development, cannot be reconciled with the Charter we all signed. My government adds its voice to the call, renewed year after year in this very hall, for that embargo to end.
+
+VENEZUELA When devastating earthquakes struck Venezuela earlier this year, claiming thousands of lives, Saint Vincent and the Grenadines stood up in solidarity, contributing emergency assistance through a coordinated CARICOM relief effort.
+
+Mr. President, when tragedy strikes, we must act as our brothers' and sisters' keepers. This too builds and restores trust among nations and strengthens the UN.
+
+TAIWAN Mr. President, friendship is also a form of trust, and I wish in this august body to recognize our country’s 45 year s of diplomatic ties and friendship with Taiwan that has seen us work together i n development, in disaster response, education and in public health. Taiwan has shown time and again that they are prepared to be a responsible member of the international community. We renew our call for Taiwan's meaningful participation in the United Nations system and its specialized agencies.
+
+Reparatory Justice Mr. President let us also restore trust through support for Reparatory Justice.
+
+The past is not past when its consequences still shape who is rich and who is poor in the world today.
+
+The Caribbean Community has, for over a decade, advanced a Ten-Point Plan for Reparatory Justice, seeking acknowledgment, repair, and genuine partnership to address the historic injustices of the enslavement of African people and the near -annihilation of our indigenous populations. We are encouraged that in March 2026, this assembly strongly adopted a resolution sponsored by Ghana and supported by the African Union and CARICOM, declaring “The Trafficking of Enslaved Africans and Racialized Chattel Enslavement of Africans as the Gravest Crime against Humanity”.
+
+This is a hopeful and historic event, and after the follow-up conference in Accra in June, momentum grows, so necessary actions must follow.
+
+When the continent from which our enslaved ancestors were taken and the islands to which they were brought in chains spoke with one voice, th is Chamber listened—the world listened. We expect that more steps will follow from discussions that will be held as part of the Commonwealth Heads of Government Meeting (CHOGM) in Antigua and Barbuda in November.
+
+CONCLUSION Mr. President, we ask how the United Nations can restore trust while managing transformation.
+
+In summary, trust is restored when the smallest and most vulnerable nations feel they are included and that their concerns met; Trust is restored when a national debt is restructured to be fairer; It is restored when hurricane response arrives in time and when the benefits of new technology such as Artificial Intelligence is shared rather than hoarded or priced out of reach; it is restored when an embargo denounced in this chamber is finally lifted; when peace in a conflict is secured; and when an historical wrong is made right.
+
+Mr. President, we remain hopeful that, with necessary changes in the organization and in the mindset of those of us who shape its work, the UN will live up to its name.
+
+However, we must manage this era of transformation with courage, honesty, and fairness, and including equally the concerns of all the people s of the world, who despite our individual protestations, are inevitably part of our shared humanity.
+
+Thank you. May God bless us all.

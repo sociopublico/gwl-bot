@@ -1,0 +1,103 @@
+---
+session: 81
+slug: bahrain
+id_speech: M_133
+country: Bahrain
+speaker: Abdullatif bin Rashid Al Zayani
+title: Minister for Foreign Affairs
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/bh_en.pdf
+language: en
+original_language: ar
+transformation: none
+via: pypdf
+elapsed_s: 0.479
+---
+
+Your Excellency Dr. Khalilur Rahman, President of the United Nations General Assembly,
+
+Your Excellency Mr. António Guterres, Secretary -General of the United Nations,
+
+Ladies and Gentlemen,
+
+Peace be upon you.
+
+Allow me to congratulate you, Excellency, on your election as President of the eighty-first session of the General Assembly. I wish you every success in conducting the work of this session, and express the Kingdom of Bahrain’s appreciation to your brotherly country, the People’s Republic of Bangladesh, as well as to the Secretary-General for his tireless efforts in the service of international peace and security, and the Sustainable Development Goals.
+
+It is my honour to convey to this distinguished gathering the greetings of His Majesty King Hamad bin Isa Al Khalifa, King of the Kingdom of Bahrain, and of His Royal Highness Prince Salman bin Hamad Al Khalifa, Crown Prince and Prime Minister, and their b est wishes for the success of this session.
+
+Mr. President,
+
+You have chosen for this session a theme that speaks directly to the challenges before us: “Restoring Trust, Managing Transformation: A United Nations that delivers for All.” Trust is not restored through statements or by repeating appeals. It is restored by upholding the law and translating the decisions of this Organization into effective protection for people’s lives, rights and livelihoods.
+
+We meet at a time when the Arabian Gulf is facing a security situation of a severity not witnessed in decades. The States of the Gulf Cooperation Council and the Hashemite Kingdom of Jordan have been subjected to waves of unjustified Iranian attacks involv ing ballistic missiles and drones, targeting civilian infrastructure, residential areas, ports, airports and energy facilities, in flagrant violation of international law and the Charter of the United Nations. These are indiscriminate attacks without justification under any law.
+
+My country also condemns the attacks carried out by the Iran -backed terrorist Houthi militia against civilian objects and Islamic holy sites in the brotherly Kingdom of Saudi Arabia, and their threats to freedom of navigation in the Bab Al Mandab and the Red Sea.
+
+Allow me to put the facts before you in numbers. Our countries have been subjected to nearly 7000 attacks, involving 1,700 ballistic missiles, 80 cruise missiles and 5,220 drones.
+
+Two thousand cargo vessels and tankers, with 20,000 seafarers on board, have also been detained, while 72 commercial vessels have been targeted, resulting in the deaths of 2 2 seafarers. These are not merely numbers. Behind every figure is a ship, a port, a market, and families waiting for those that provide for them to return home.
+
+Commercial vessels have been targeted in the Strait of Hormuz, mines have been laid in an international shipping lane, and restrictions on passage have been imposed in contravention of international law. The consequences extend far beyond the Arabian Gulf, affecting energy and food prices, shipping and insurance costs, and supply chains across the world.
+
+As the Kingdom renews its full solidarity with the brotherly countries subjected to these attacks, it commends the professionalism and readiness of the Bahrain Defence Force, and the air defence forces of brotherly countries, in confronting these attacks. It reaffirms the right of these States to take all lawful measures to defend their sovereignty and territorial integrity, in accordance with Article 51 of the Charter of the United Nations and the Joint Defence Agreement of the Gulf Cooperation Council States, while continuing to exercise the utmost restraint and seeking to ensure that security and peace prevail for the benefit of the people of the region.
+
+Mr. President,
+
+The position of the Kingdom of Bahrain is grounded in law, not in taking sides. The Strait of Hormuz is an international strait, and the right of transit passage through it is established for the vessels of all States under the United Nations Convention on the Law of the Sea.
+
+That right may not be suspended or obstructed, nor may conditions be imposed upon it unilaterally by any State. Accordingly, the Kingdom categorically rejects any permit or fee regime imposed on passage. It rejects the use of international waterways as instruments of pressure, economic coercion or the seizure of vessels. Such actions would set an extremely dangerous precedent, because what is accepted today in one strait may be demanded tomorrow in every international waterway upon which global trade depends.
+
+Alternative routes cannot be treated as a solution to conduct that violates international law.
+
+Mitigation measures are an emergency response. They should not be used as a pretext to claim that the Strait is no longer necessary, or to accept a new status quo. The right of passage does not cease to exist because alternatives are available, nor does a violation cease to be a violation because those affected have found ways to reduce their losses.
+
+This threat is not confined to the Strait of Hormuz. Security Council resolution 2817 also referred to the Bab Al Mandab, recognizing that a threat to one waterway is a threat to navigation through all waterways. The security of navigation in the Red Sea, the Gulf of Aden and the Bab Al Mandab forms part of a single system. We are not defending a regional interest, but a rule that applies to every international waterway, and if it applies to our strait alone, it would cease to be a rule.
+
+The Kingdom of Bahrain has not confined itself to stating its position in principle. On behalf of the Gulf Cooperation Council States and the Hashemite Kingdom of Jordan, and by virtue of its current presidency of the Gulf Cooperation Council and its non -permanent membership of the Security Council, Bahrain led efforts resulting in the adoption of Security Council resolution 2817, with the historic and unprecedented support of 136 states, which condemned the attacks against our countries, reaffirmed their sovereignty, and rejected any action intended to close the Strait or obstruct navigation through it. The Kingdom also introduced a draft resolution under Chapter VII of the Charter to protect commercial navigation. The resolution adopted by the Council of the International Maritime Organization on 19 March, together with Human Rights Council resolution 61/1, further demonstrated that the international rejection of such conduct extends b eyond the Security Council. We stress the need for the full implementation of these resolutions in a manner that ensures those responsible are held accountable and compensation for the damage caused.
+
+On the seventeenth of this month, the Kingdom convened an Arria-formula meeting of the Security Council dedicated to freedom of navigation. We heard from 53 affected States, the maritime transport sector and relevant international bodies. All delegations expressed one clear conclusion: freedom of passage through international straits is a prerequisite for global economic prosperity.
+
+The Kingdom contributes to the protection of a rules -based maritime order across an area exceeding three million square miles through its hosting in Manama of the headquarters of the Combined Maritime Forces, comprising 47 nations. In this context, the Kingdom welcomes the establishment of the Multinational Maritime Defence Alliance led by the brotherly Kingdom of Saudi Arabia and is proud to participate as a founding member, in support of efforts to safeguard international trade routes and global energy supplies, in accordance with international law.
+
+As efforts continue in the Security Council, this General Assembly has an equally important role to play as the forum in which all States stand as equals. From this podium, we call upon Member States to support a firm, collective position which upholds freedom of navigation and the right of transit passage in accordance with international law, and which affirms that the security of maritime passages is a collective responsibility that cannot be made subject to bilateral arrangements. This is what restoring trust means in practice.
+
+This is not a call dictated by the present crisis. From this very podium two years ago, His Royal Highness Prince Salman bin Hamad Al Khalifa, Crown Prince and Prime Minister, said that the systems established to safeguard the international order were under severe strain, and that this Organization must evolve to confront growing threats. He called for comprehensive, consensus -based reform encompassing all decision -making bodies, including the Security Council. What has happened since then has not altered that conviction. It has reinforced it.
+
+Mr. President,
+
+The test of the United Nations ’ credibility is not only confined to our waters. The Palestinian cause remains at the heart of our concerns. The Kingdom reaffirms its steadfast position in support of the establishment of an independent and geographically contiguous State of Palestine, living alongside the State of Israel in peace and security. The Kingdom has also joined the Board of Peace as a founding member, pursuant to Security Council resolution 2803, reaffirming its unwavering support for the rights of the brotherly Palestinian people.
+
+The Kingdom also reaffirms its support for the unity, sovereignty and territorial integrity of the Syrian Arab Republic, as well as for efforts to lift sanctions in a manner that enables the brotherly Syrian people to rebuild their country. In Sudan, we call for an immediate ceasefire, the protection of civilians, unhindered humanitarian access, and a political solution that preserves Sudan’s unity and the institutions of the State. In Yemen, we renew our support for a political solution under United Nations auspices, led by the legitimate Government, and express our appreciation for the efforts of the Kingdom of Saudi Arabia in this regard.
+
+Our position on other conflicts, including the conflict in Ukraine, is guided by the same principles, regardless of the parties involved: adherence to the Charter, respect for sovereignty and territorial integrity, and the peaceful settlement of disputes.
+
+Mr. President,
+
+The Kingdom of Bahrain, where mosques, churches and temples have stood side by side for generations, believes that tolerance and coexistence are not simply policies to be adopted. They are part of the identity of Bahraini society and a foundation of our na tional unity. It was in this spirit that the Kingdom introduced the initiative adopted by the General Assembly designating 28 January as the International Day of Peaceful Coexistence. His Majesty the King also issued the Kingdom of Bahrain Declaration on religious freedom and freedom of belief; the King Hamad Global Center for Coexistence and Tolerance was established; and the King Hamad Award for Coexistence and Tolerance was launched.
+
+The same approach underpins our development journey. The Kingdom continues to advance its Economic Vision 2030, pursue its commitment to achieving the Sustainable Development Goals, and strengthen the status and advancement of Bahraini women. The Kingdom embraces the Women, Peace and Security agenda, and the Youth, Peace and Security agenda, and both are priorities during its membership of the Security Council.
+
+No discussion of development today is complete without addressing the technology that is reshaping it. From this podium two years ago, His Royal Highness the Crown Prince and Prime Minister called for the adoption of an international treaty governing the development of artificial intelligence, to ensure that this technology contributes to peace rather than exacerbating conflict. Since then, the General Assembly has taken positive steps. Dialogue can bring positions closer, but it does not create obligations. The aim is not to halt a technology that no one has the power to halt, but to ensure that its growth is surrounded by safeguards, just as the international community surrounded nuclear energy with safeguards that preserved its benefits without preventing it. This technology recognizes no borders; a safeguard adopted by a single state is no safeguard, just as a rule that applies in a single strait is no rule. We therefore renew our call for a binding international framework to ensure that this technology becomes a driver of innovation rather than division. And this, in our view, is what it means to manage the transformation that you chose as the theme of your session.
+
+Mr. President,
+
+However far apart they seem, all these issues are bound by one fundamental truth: security and prosperity are not parallel objectives. They are a single objective pursued along two paths. There can be no prosperity without security, and no sustainable security without interconnected economies and societies at ease. This is not a Gulf perspective dictated by geography. It is a lesson humanity has learned from its wars, and one Europe learned when it built its peace not through treaties alone, but on interests so intertwined that separating them became costlier than preserving them.
+
+It is in this light that we view freedom of navigation. A waterway is not merely a security issue of concern for coastal States. It is an artery of development through which the food, medicine and energy of nations flow. When a single waterway is disrupted, the cost is felt by a family in a country that does not have a coastline.
+
+An economy that is difficult to disrupt is difficult to coerce, and interdependence, once firmly established, becomes a shield against coercion.
+
+This approach is not a position shaped by the circumstances of the moment. It is what His Majesty King Hamad bin Isa Al Khalifa, King of the Kingdom of Bahrain, has consistently advocated for, out of a conviction that the security and prosperity of this region are two faces of a single truth, and that a just peace and lasting stability are the path towards a dignified life for all the peoples of the region, whatever their faiths and cultures.
+
+It is on this basis that we reaffirm that what the United Nations needs today is not more resolutions, but a greater capacity to implement them. A resolution adopted but not implemented has no value, and a right that is recognized but not protected has no meaning.
+
+I conclude by saying that the Kingdom of Bahrain continues to be guided by His Majesty’s vision. For peace, as His Majesty sees it, is not declared but built. It can rest only on respect for human beings in their dignity and their beliefs, and on dialogue that is not a concession, but a strength.
+
+The Kingdom will remain faithful to its international commitments and covenants, committed to international law, freedom of navigation, and a just, comprehensive and lasting peace, true to His Majesty’s approach and to the conviction that the security of our region and the prosperity of its peoples are a shared responsibility that can only be safeguarded through our collective efforts.
+
+We pray to Almighty God to grant this session every success, and to bestow upon our peoples and all humanity security, peace, development and prosperity.
+
+Thank you and peace be upon you.

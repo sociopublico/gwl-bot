@@ -1,0 +1,71 @@
+---
+session: 81
+slug: guinea-bissau
+id_speech: M_127
+country: Guinea-Bissau
+speaker: Ilídio Vieira Té
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-25
+source: transcript_ai
+source_url: https://gadebate.un.org/en/node/81074/transcript/en/prepare-download
+language: en
+original_language: en
+transformation: none
+via: ai_transcript
+elapsed_s: 0.640
+---
+
+The Assembly will hear an address by His Excellency Eliseu Vieira de Prime Minister of the Republic of Guinea-Bissau.
+I request protocol two to escort His Excellency and invite him to address the Assembly.
+Mr. president, distinguished Heads of State and Government.
+Mr. Secretary general, ladies and gentlemen.
+
+I have the honour of addressing this August Assembly on behalf of the government and the people of the Republic of Guinea-Bissau.
+Allow me to congratulate Mr. Khalilur Rahman on his election as president of the General Assembly of the United Nations.
+I am confident that his governmental and diplomatic experience will help guide the work of this Assembly with balance and in a spirit of dialogue.
+I also commend Miss Annalena Barbosa Barbosa for the dedication she demonstrated during her term of office, and for her efforts to strengthen multilateralism and international cooperation.
+
+It is a particular pleasure for me to express our appreciation to the Secretary General of the United Nations, Mr. Antonio Guterres, for his tireless commitment to the defense of peace and to the search for solutions to the many challenges facing humanity.
+Ladies and gentlemen, yesterday September 24th, the people of Guinea-Bissau celebrated the 53rd anniversary of our national independence.
+This date of profound significance for our people invites us to reflect on the value of freedom sovereignty, and the dignity of peoples.
+It is in this spirit that I bring to this assembly a message of peace, freedom, and fraternity to all the nations of the world in the firm hope that every people may live in peace, fully exercise its rights, and freely chart its own path towards development and prosperity.
+
+We live in an interdependent world marked by growing uncertainty and by challenges that transcend borders climate change, transnational organized crime, terrorism, structural inequalities, the burden of debt, and insufficient financing for development continue to undermine our efforts towards sustainable development.
+Devastating conflicts also persist in several regions of the world, as do security challenges, particularly in the Sahel.
+In this context, Guinea-Bissau considers it essential to strengthen the international community's support to the most affected countries in the region.
+Ladies and gentlemen, the United Nations remains an essential pillar of multilateralism and a privileged forum for dialogue, cooperation and the search for collective solutions to the challenges facing humanity.
+
+It must be acknowledged, however, that in certain circumstances, the expectations that people have placed in it have not always been met with a response commensurate with their aspirations.
+This reality should not lead us to question the foundations of the multilateral system, but rather to strengthen the effectiveness representativeness and capacity for action of international institutions.
+It is incumbent upon Member States to renew their commitment to multilateralism that is more effective, more inclusive and more responsive to the aspirations of peoples.
+We also consider it urgent to reform the architecture of global governance, so that it reflects the geopolitical realities of the 21st century.
+
+It is essential that Africa have more adequate and effective representation in the international institutions that play a central role in shaping responses to the challenges of peace, security and development The reform of United Nations Security Council Council must reflect the legitimate aspirations of the African continent and ensure fairer, permanent and effective representation.
+In keeping with the principle of a more inclusive, equitable and representative international order, Guinea-Bissau welcomes the efforts of the United Nations to achieve achieve a lasting political solution to the question of Western Sahara.
+We welcome the adoption of Security Council Resolution 2797 of 2025 and view favourably the Autonomy Initiative presented by the Kingdom of Morocco as a basis for resolving this dispute.
+Ladies and gentlemen, on November 26th, 2025, during the electoral process, the constitutional order in Guinea-Bissau was interrupted and transitional bodies were established.
+
+A one year transition period was set with the aim of creating the conditions necessary for the restoration of constitutional order.
+Within this framework, the constitutional review process has been completed and the new constitution of the Republic was approved by Popular Referendum on August 30th, 2026.
+This process is an important milestone in the transition and in the restoration of constitutional order in the country.
+The government is committed to creating the conditions necessary for the presidential and legislative elections scheduled for December 6th of this year, to be held in an inclusive, free, transparent and credible manner.
+
+I take this opportunity to express our gratitude to the Economic Community of West African States, ECOWAS, the African Union, the United Nations and our other institutions international partners for their engagement and support in the efforts to ensure a return to constitutional normalcy in our country.
+Ladies and gentlemen, three decades ago, Guinea-Bissau had the honor of serving as a non-permanent member of the United Nations Security Council.
+Today, as we reaffirm our commitment to the purposes and principles of the charter of the United Nations and to the promotion of international peace and security, I wish to reiterate that Guinea-Bissau is a candidate for non-permanent membership of the Security Council for the term 2028 2029.
+Our vision of the world rests fundamentally on four key words prevention, dialogue, cooperation, peace.
+
+We will work with all Member States to advance essential consensus based priorities for Guinea-Bissau as a developing country, multilateralism and respect for international law are not mere concepts.
+They are an existential necessity.
+Ladies and gentlemen, Guinea-Bissau follows with concern the humanitarian consequences of the measures imposed against Cuba.
+We therefore reiterate our call for the lifting of the economic commercial and financial embargo, as well as other restrictive measures that affect the Cuban people and essential sectors of that country's economy.
+
+Over the past decades, this assembly has built consensus and undertaken numerous commitments towards the achievement of common goals Many of these commitments, however, remain unfulfilled.
+Enormous gaps persist in financing for development and climate action, alongside high levels of poverty and social inequality, and a growing and unsustainable debt burden on the economies of developing countries in the face of this reality.
+We need more multilateralism, effective international cooperation, and more united and determined collective action.
+No country, however powerful, can face today's challenges alone.
+
+It is in this spirit of cooperation, solidarity and peace that Guinea-Bissau will continue to work with all member states to uphold the principles enshrined in the charter of the United Nations and to build a better future, a future of peace, development and well-being for present and future generations.
+Guinea-Bissau thanks you and God bless all.
+Thank you.

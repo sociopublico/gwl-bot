@@ -1,0 +1,159 @@
+---
+session: 81
+slug: azerbaijan
+id_speech: M_134
+country: Azerbaijan
+speaker: Jeyhun Aziz oglu Bayramov
+title: Minister for Foreign Affairs
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/az_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.580
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Excellencies,
+
+Ladies and Gentlemen,
+
+At the outset, I warmly congratulate His Excellency Mr. Khalilur Rahman on assuming the Presidency of the 81st session of the General Assembly, and wish him every success in this important position.
+
+I also thank His Excellency Mr. Antonio Guterres, Secretary -General of the United Nations, for his endeavors.
+
+Ladies and gentlemen,
+
+As global challenges become increasingly complex, no country can address them alone. And yet, the growing limitations of multilateral mechanisms continue to undermine our collective ability to respond effectively to current and emerging threats.
+
+Meeting these realities requires joint action, but true transformation is impossible without first restoring trust in the international order and demonstrating that multilateralism can once again deliver tangible results for all.
+
+In an era marked by division, growing intolerance and stark double standards,
+
+Azerbaijan advocates for a reinvigorated and reformed multilateral system, underpinned by strict adherence to consistent and non -selective application of universally accepted norms and principles of international law.
+
+Azerbaijan supports a more effective UN capable of delivering tangible results for Member States, especially in peace and security, development, climate resilience, and humanitarian action.
+
+Through inclusive multilateralism, all States, large or small, particularly developing countries, must have the opportunity to participate equally in global decision -making.
+
+In this context, reform of the UN Security Council is essential to make it more representative, effective, and responsive.
+
+Ladies and Gentlemen,
+
+Restoring global trust begins, first and foremost, with respecting international law, sovereign equality, and peaceful coexistence. It is exactly these principles that are guiding our efforts for peace and stability in the South Caucasus.
+
+Even though the decades-long conflict with Armenia brought immense tragedy to our people and left deep scars across our land, Azerbaijan has chosen to look ahead and turn the page of enmity.
+
+We offered Armenia peace fully in line with norms and principles of international law, based on mutual recognition of and respect for each other’s sovereignty and territorial integrity.
+
+Our normalization efforts produced historic results at the Washington Peace Summit last August, where the leaders of Azerbaijan and Armenia signed a Joint Declaration witnessed by President Trump of the United States of America. Through this Declaration, both sides confirmed the end of the conflict and their will to jointly chart a peaceful and prosperous future. The sides also initialed the Agreement on Establishment of Peace and Inter-State relations.
+
+Today, we have achieved de facto peace. Moreover, by unilaterally lifting transit restrictions, Azerbaijan facilitates transportation of goods to and from Armenia. We have also established bilateral trade. Azerbaijan provides strategically important oil products to Armenia on a regular basis despite increased volatility in markets and growing international demand for these commodities.
+
+As we proceed with the peace agenda initiated by Azerbaijan, our entire region is now turning into a promising anchor of stability, connectivity, and tangible economic dividends.
+
+To make this process irreversible, it is of crucial importance to eliminate the remaining obstacle, which will allow finalization of the normalization process through the signing of the already initialed bilateral agreement.
+
+Excellencies,
+
+Complementing the regional normalization process, Azerbaijan’s post -conflict rehabilitation agenda aims to ensure that hundreds of thousands of Azerbaijanis can eventually exercise their right to a safe and dignified return to their homes.
+
+Due to large-scale reconstruction efforts taken by the Government, life is now returning to our liberated territories. Azerbaijan is rebuilding the entire region through “smart cities” and “smart villages” powered by green technology. Areas that were once rubble and ashes are now rising as modern settlements. Today, more than 90,000 people live, study, and work in the liberated territories.
+
+Regrettably, a massive contamination of the territories of Azerbaijan with landmines and other explosive devices remains a serious obstacle. This significantly obstructs the reconstruction and return process. Since the liberation of occupied territories in 2020, more than 400 individuals, including women and children, became victim to landmines. The cumulative toll of landmines over the past 30 years exceeded 3500 persons.
+
+Given the scale of the problem, Azerbaijan considers mine action an essential prerequisite for fulfilling human rights and has formally declared humanitarian demining its 18th National Sustainable Development Goal.
+
+Similarly, the need to clarify the fate and whereabouts of nearly 4000 Azerbaijanis who went missing due to the conflict is essential, not only for accountability and the rights of the victims and their families, but also for post -conflict reconciliation a nd normalization.
+
+Mr. President,
+
+In the face of increasingly complex global challenges, our collective response must be inclusive, equitable and universal.
+
+Azerbaijan’s own experience reflects these principles. Our society is inherently multicultural and multi -confessional, shaped by centuries of peaceful coexistence of diverse ethnic, cultural and religious communities.
+
+This tradition is reflected in Azerbaijan’s international initiatives, including the World Forum on Intercultural Dialogue. Launched in 2008, in the framework of the “Baku Process”, the Forum has evolved into a prominent global platform for advancing intercultural dialogue and cultural diversity, receiving international recognition, including through a series of United Nations General Assembly resolutions.
+
+Building upon these values, under the leadership of the President of the Republic of Azerbaijan, H.E. Mr. Ilham Aliyev, Azerbaijan has taken important steps to strengthen international solidarity, to build bridges and to mobilize collective responses.
+
+This commitment has also been demonstrated through successful hosting and steering of major global gatherings, including COP29, the 13th session of the World Urban Forum, results -oriented chairmanships of the Non -Aligned Movement, the Organization of Turki c States and the Conference on Interaction and Confidence Building Measures in Asia, and Azerbaijan’s increasingly active engagement across other international platforms. Azerbaijan’s full-fledged membership in the Consultative Meeting of Heads of State of Central Asia and the C6 format will enhance our contribution to cooperation and connectivity within the region and beyond.
+
+COP29 provided a good example of this approach in practice. As host and Presidency,
+
+Azerbaijan guided negotiations towards ambitious and balanced outcomes while working to ensure that all voices were heard. The conference delivered several historic agreements, including the tripling of the global climate finance goal, full operationalization of Article 6 carbon -market mechanisms, and further advancement of arrangements supporting the Loss and Damage Fund for vulnerable communities affected by climate change.
+
+Our efforts to advance climate action likewise did not end with COP29. Azerbaijan continues to build on its legacy, with particular focus on translating negotiated outcomes into practical implementation. This September, for the first time, Baku hosted the UNFCCC Climate Week, bringing together governments, international organizations, the private sector and other stakeholder s to advance implementation and practical solutions.
+
+Azerbaijan’s commitment to international solidarity and cooperation is equally reflected in our development and humanitarian assistance. In recent years, Azerbaijan has significantly expanded the scope of its international aid, with particular attention to Small Island Developing States and African partner countries. Since 2020, we have provided humanitarian, economic and technical assistance worth approximately USD 400 million to more than 140 countries.
+
+As we mark the 40th anniversary of the Declaration on the Right to Development,
+
+Azerbaijan reaffirms its commitment to partnership -based approaches founded on solidarity, mutual respect and shared development priorities.
+
+Ladies and Gentlemen,
+
+As we inch closer to 2030, it is becoming ever more apparent that the world remains off track in implementing the Sustainable Development Goals.
+
+Azerbaijan is firmly committed to the 2030 Agenda for Sustainable Development, having integrated the SDGs into its national development strategies, institutional frameworks, and Voluntary National Review processes, while placing particular emphasis on conn ectivity, green growth, digitalization, and sustainable urban development.
+
+In less than two decades, Azerbaijan’s GDP has increased threefold, while the poverty rate has declined from 49% to around 5%. At the same time, Azerbaijan maintains one of the lowest levels of public external debt globally.
+
+Our commitment also extends to advancing sustainable development through effective and accountable institutions. At Azerbaijan’s initiative, on 30 March 2026, the UN Human Rights Council adopted by consensus, for the third time, the resolution entitled “Promoting Human Rights and the Sustainable Development Goals through Transparent, Accountable and Efficient Public Service Delivery.” Co -sponsored by more than 100 Member States, the resolution underscores the essential role of citizencentered, transparent and efficient public institutions in advancing human rights and accelerating progress towards the SDGs.
+
+Azerbaijan’s innovative ASAN and DOST models of transparent, accessible and citizen-centered public service delivery have gained international recognition and are increasingly being adopted by dozens of partner countries.
+
+Sustainable urbanization is another important pillar of our approach to the 2030 Agenda. Resilient cities are essential to improving quality of life, strengthening communities and promoting inclusive economic and social development. In this context, Azerbaijan’s successful hosting of the 13th session of the World Urban Forum marked an important contribution to the global urban agenda. The key outcomes of the Forum – the Baku Call to Action and the Chair’s Summary – subsequently contributed to the High -level Meeting of the General Assembly on midterm review of the New Urban Agenda, held in New York in July this year.
+
+At the same time, environmental protection remains an important national and regional priority. We are particularly concerned by continuing decline of the Caspian Sea, with serious implications for biodiversity, livelihoods and economic activity across the region. As a challenge shared by all Caspian littoral States, it requires a coordinated, collective and sustained response.
+
+Excellencies,
+
+While remaining firmly committed to our climate goals, we must also recognize that, in the immediate term, development cannot realistically proceed without traditional energy sources.
+
+Energy security, moreover, is closely intertwined with peace, regional connectivity, and sustainable economic development.
+
+As a reliable natural gas supplier to 16 countries, Azerbaijan ranks among the leading pipeline gas suppliers globally and plays a strategic role in strengthening energy security and diversifying supply routes across Europe and beyond.
+
+Azerbaijan’s contribution to global energy security is increasingly complemented by its growing role in the clean energy transition. We are investing in renewable energy, commissioning major solar and wind projects, expanding hydropower capacity and developing new clean energy initiatives together with leading international partners.
+
+Agreements already signed envisage around 6 GW of additional solar and wind capacity by 2030.
+
+By 2030, renewables are expected to generate almost 40% of Azerbaijan’s electricity.
+
+Expansion of renewable power generation will create new opportunities for Azerbaijan to export green electricity to European markets.
+
+This way, our role as a reliable energy partner is evolving alongside the global energy transition.
+
+Energy connectivity is part of Azerbaijan’s broader vision of connecting regions, markets and economies.
+
+Azerbaijan has emerged as a key transport and logistics hub between Europe and Asia, contributing to major trans -regional connectivity initiatives, investing in modern transport infrastructure and expanding cooperation with regional partners.
+
+Since 2022, we have witnessed an increase in cargo volumes along the Middle Corridor by almost 90%. Strategic infrastructure projects along the Middle Corridor spearheaded by Azerbaijan, including the Baku International Sea Trade Port and the Baku-Tbilisi-Kars railway, are helping to create more resilient, diversified and sustainable supply chains between Asia and Europe.
+
+This growth demonstrates the Middle Corridor’s considerable potential as a key driver of regional connectivity, trade facilitation and sustainable economic development.
+
+Our connectivity agenda extends beyond energy and transport. Digital connectivity offers another important area for regional cooperation. Azerbaijan is advancing new digital links across the region through ambitious initiatives, such as the Digital Silk Way. This project envisages an advanced fiber-optic network across the Caspian Sea, further strengthening Azerbaijan’s role as a regional digital hub and a key link between Europe and Asia.
+
+This broader connectivity agenda is also closely linked to the emerging peace architecture in the South Caucasus.
+
+The “Trump Route for International Peace and Prosperity” (TRIPP), another key outcome of the 2025 Washington Summit, is expected to facilitate unimpeded multimodal connectivity between the main part of Azerbaijan and its Nakhchivan Autonomous Republic and unlock new opportunities for regional trade, economic integration and prosperity as part of the Zangazur corridor.
+
+Mr. President,
+
+Ladies and Gentlemen,
+
+In conclusion, I wish to reiterate that our shared challenges demand renewed global solidarity, more effective and trusted multilateralism grounded in international law, and a reinvigorated system of cooperation.
+
+Trust, however, must be restored through concrete actions. Peace must be built on the ground, commitments must be translated into real outcomes, and sustainable development must deliver meaningful improvements in people’s lives.
+
+Azerbaijan has consistently upheld the purposes and principles of the UN Charter and demonstrated its firm adherence to international law, including respect for sovereignty and territorial integrity, non -interference in the internal affairs of States, sove reign equality, dialogue and cooperation, as well as the faithful, consistent and non-selective implementation of agreed commitments.
+
+This is the multilateralism we believe in – principled, inclusive and, above all, capable of delivering tangible results.
+
+I thank you.

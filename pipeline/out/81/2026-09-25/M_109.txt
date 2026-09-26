@@ -1,0 +1,133 @@
+---
+session: 81
+slug: kiribati
+id_speech: M_109
+country: Kiribati
+speaker: Taneti Maamau
+title: President
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/ki_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.337
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Excellencies,
+
+Distinguished Heads of State and Government,
+
+Ladies and Gentlemen,
+
+In the name of the Almighty God, in whom we place our trust in, Kam na bane ni Mauri.
+
+On behalf of the Government and people of Kiribati, I extend our warmest congratulations to you, Mr. President, on your election to preside and lead the Eighty-First (81st) session of the United Nations General Assembly.
+
+Kiribati assures you of our full support and cooperation as you undertake this important responsibility.
+
+The United Nations — Our Family of Nations Mr. President,
+
+We meet today at a difficult moment.
+
+Conflicts continue to claim lives and displace communities. Human rights continue to be violated. Humanitarian crises persist. Development gains are being reversed in many parts of the world. Inequality remains entrenched, while climate change plac es additional pressure on communities already confronting significant development challenges.
+
+We therefore support efforts to strengthen the effectiveness, representativeness and accountability of the United Nations, including its Security Council. Reform should not weaken the organisation, it must enable the UN to fulfil the purposes for which it was created.
+
+We also welcome the UN80 Initiative as an important opportunity to strengthen the effectiveness of the United Nations and acknowledge the work under Workstream 2 on Mandate Implementation Review, and recognise the leadership and contribution of Member States, including New Zealand and Jamaica, in advancing this important process.
+
+Mr. President,
+
+It is therefore fitting that the theme of this eighty-first session is: “Restoring Trust, Managing Transformation: A United Nations That Delivers for All.”
+
+This theme is both timely and relevant.
+
+Trust cannot be restored by words alone. It must be strengthened through implementation, accountability and results that improve the lives of our people. For Kiribati, the theme reaffirms our shared duty to strengthen the United Nations and ensure it serves everyone.
+
+Ocean Management & Fisheries Mr. President,
+
+Kiribati is an ocean nation. We are a Big Ocean Sustainable State.
+
+Our economy, food security, livelihoods, culture and way of life depend on healthy, sustainable marine resources. Sustainable management is essential to our long -term development and we call for increasing efforts and partnerships to aggregable progress towards SDG 14 “ Conserve and sustainably use the oceans, seas and marine resources for sustainable development.
+
+The 2026 Sustainable Development Goals Report reminds us that our oceans and fisheries continue to face mounting pressures from overfishing, illegal, unreported and unregulated fishing, pollution, warming and acidification.
+
+The entry into force of the B iodiversity Beyond National Jurisdiction Agreement marks an important step towards stronger and more equitable ocean governance. Kiribati is proud to have signed and ratified this Agreement and calls on Member States to recognise the vital importance of our shared ocean and to work collectively to translate the Agreement’s historic ambition into meaningful global action.
+
+Mr. President,
+
+The sustainability of our oceans and fisheries is closely linked to the changing climate, and the pressures we face on our marine resources are increasingly compounded by its impacts.
+
+Climate change remains one of the most pressing challenges to our development and way of life. Sea -level rise, coastal erosion, saltwater intrusion and extreme weather events continue to place pressure on our communities, infrastructure, water security and livelihoods. The Intergovernmental Panel on Climate Change Sixth Assessment Report reinforces the urgency of these challenges and particular ly the risks faced by small island States.
+
+Through our long-term national development vision, the Kiribati Vision for 20 years, and our national priorities under Te Motinnano policies, we continue to invest in resilient infrastructure, water security, coastal protection, disaster preparedness, renewable energy and community -based adaptation. Our objective is clear: to continue building a wealthy, healthy and peaceful Kiribati, where our people can live with dignity, in peace and with opportunities.
+
+Renewable energy is increasingly important to Kiribati’s development and energy access. We therefore see greater investment in renewable energy as an important opportunity to reduce our reliance on imported fossil fuels and strengthen the resilience and sustainability of our energy sector.
+
+But national action must be matched by international action. We call for greater ambition, stronger support for adaptation and climate finance that is adequate, predictable and accessible, particularly for Small Island Developing States.
+
+Kiribati recognises the importance of international law in addressing climate change. The International Court of Justice Advisory Opinion on climate change advances climate justice by affirming that all States have binding duties to protect the climate system and achieve deep, rapid, and sustained greenhouse gas reductions consistent with limiting warming to 1.5 degrees Celsius.
+
+We welcome growing recognition that climate resilience must be locally owned and driven. The Pacific Resilience Facility is a Pacific -led, Pacificowned mechanism that strengthens the region’s capacity to finance climate and disaster resilience. The Pacific’s co-hosting of COP31 with Türkiye later this year further demonstrates the value of local action. These initiatives also show that strong, genuine partnerships can sustain locally led development.
+
+Mr. President,
+
+Partnership continues to shape international cooperation as we believe that we are stronger when we work together. At a time when multilateralism faces growing challenges, partnership remains one of our most powerful affirmations, of what we can achieve, collectively.
+
+Kiribati reaffirms its support for frameworks that embody this spirit of partnership, including the Antigua and Barbuda Agenda for SIDS (ABAS) and the Pact for the Future, which provide important foundations for strengthened international cooperation, solidarity and collective action.
+
+As the 2030 Agenda enters its final years, partnership must remain central to accelerating SDG progress.
+
+Kiribati recently presented its Second Voluntary National Review (VNR), reaffirming our commitment to the 2030 Agenda. We value our longstanding diplomatic relations with traditional partners and welcome countries seeking new partnerships based on mutual respect, shared interests, transparency, sovereign equality and respect for our national priorities.
+
+This year, following the submission of our second VNR, my Government convened its first “Development Partners Forum” on Kiritimati Island, which we highly value as the world’s largest coral atoll and the first island to see each new day’s sunrise. The Foru m strengthened partnerships between Kiribati and its Development Partners and showcased two flagship projects critical to accelerating economic growth and sustainable development.
+
+Participants included Australia, the People’s Republic of China, the European Union, New Zealand, Japan, the United States of America, the World Bank, the Asian Development Bank, and UN agencies. We thank our partners and look forward to advancing our shared interests under the Forum’s Outcome document, the “Kiritimati Partnership Accord 2026”.
+
+Mr. President,
+
+Ultimately, development depends on people, our most valuable resource, making education a vital investment. Kiribati is committed to expanding access to quality, inclusive, relevant education while strengthening skills development, vocational training, dig ital learning, and opportunities for young people.
+
+Health is equally fundamental. We continue to strengthen our health systems across our widely dispersed and remote islands, improve access to essential services and address both communicable and non-communicable diseases.
+
+A healthy and educated population is the foundation upon which every other national priority rests.
+
+Mr. President,
+
+We cannot speak about development without speaking about women and youth.
+
+Kiribati remains committed to gender equality and empowering women and girls. Our election earlier this year to the Commission on the Status of Women—the first time Kiribati has secured a seat on this UN body —is a significant milestone, reflecting our determination to advance women’s rights nationally and globally. We will expand opportunities, prevent violence, and promote women’s economic empowerment and leadership.
+
+Our youth, meanwhile, represent not simply the future of Kiribati. We must provide them with education, employment, skills, technology, leadership opportunities and spaces where they can contribute. And one of those spaces is sport.
+
+Kiribati will host the 2030 Micronesian Games, which we intend to use to leave a lasting legacy for our young people. We invite our regional and international partners to join us in this endeavour.
+
+Mr. President,
+
+Kiribati is a peaceful nation, yet distance does not make us indifferent to the suffering caused by war and conflict elsewhere. The people of every nation deserve peace. We reaffirm that disputes must be resolved peacefully, in accordance with internationa l law and the principles of the United Nations Charter. For island nations such as Kiribati, respect for international law is fundamental to our security, sovereignty and the stability of the international system.
+
+Kiribati is proud to contribute in our own way to international peace and security, through the service of our police officers under the United Nations flag.
+
+For Kiribati, this is an expression of our belief that even the smallest country can contribute to global peace.
+
+For Pacific peoples, the consequences of nuclear weapons are not merely historical. Our region still bears the human and environmental legacy of nuclear testing. As States Parties to the Treaty on the Prohibition of Nuclear Weapons (TPNW), we remain committed to advancing the Treaty’s and the humanitarian objectives and establishing an international trust fund for nuclear-weapons victims. As Co -Chairs with Kazakhstan of the recent International Meeting on Victim Assistance and Environmental Remediation, we thank the Secretary-General for convening this important meeting and for keeping the needs of affected communities at the center of our collective efforts.
+
+Peace and security must also keep pace with emerging threats in the digital domain.
+
+The East Micronesia Cable landed in Tarawa last year, connecting Kiribati with Nauru and the Federated States of Micronesia, transforming our connectivity and digital development. However, it also creates vulnerabilities.
+
+With limited redundancy and technical capacity, island States face threats including cybercrime, critical infrastructure attacks, ransomware and online harms that can undermine security and development.
+
+CONCLUSION Your Excellencies,
+
+Kiribati comes to this Assembly not simply to speak of the challenges we face.
+
+We come to speak of the future we choose.
+
+Mr. President Allow me to close by bestowing upon the United Nations and all its members and all its staff our traditional blessings of Te Mauri, Te Raoi ao Te Tabomoa meaning Abundant Health, Peace and Prosperity.

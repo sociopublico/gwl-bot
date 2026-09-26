@@ -1,0 +1,231 @@
+---
+session: 81
+slug: solomon-islands
+id_speech: M_119
+country: Solomon Islands
+speaker: Matthew Cooper Wale
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/sb_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.603
+---
+
+Mr. President,
+
+Secretary-General of the United Nations,
+
+Excellencies,
+
+Distinguished Delegates,
+
+I stand before this Assembly conscious that I speak on behalf of a nation and a people whose future is being shaped in halls like this one.
+
+I bring warm greetings from the people and Government of Solomon Islands, a nation of nearly one thousand islands stretching across as many miles of the Blue Pacific. Our people hold the same hopes as people in every land: to live in peace, and to raise th eir children in dignity.
+
+Mr. President, I congratulate you on your election and assure you of the full support of Solomon Islands. I also commend your predecessor, Her Excellency Ms. Annalena Baerbock, for her determined leadership of the eightieth session.
+
+I pay special tribute to Secretary -General António Guterres as he takes part in his final General Debate in office. Mr. Secretary General, you have been a true champion of multilateralism and of Small Island Developing States. Your unwavering advocacy on climate action and your repeated visits to our region told the world a simple truth: that the Pacific matters, and that our challenges, and how the world responds to them, remain a litmus test for us all.
+
+We meet at a time when multilateralism is under serious strain, and when the notion that might is right appears to be making a return.
+
+Yet we continue to gather, in forums and dialogues around the world and here in the General Assembly, the pinnacle of mul tilateralism.
+
+That, in itself, is cause for hope.
+
+National Priorities Mr. President,
+
+For my people, what is said in this hall is measured not in declarations but in results: classrooms with teachers and books, clinics with medicines, roads that reach markets, and villages that thrive. That is the lens through which Solomon Islands engages with the world.
+
+My government is delivering a programme of national transformation.
+
+We are providing universal free education, so that no child is turned away from school because their family cannot afford the fees. We are strengthening our health system, with a renewed f ocus on tackling the scourge of non-communicable diseases, eradicating malaria and building a new national referral hospital.
+
+We are prioritizing energy and other transformative infrastructure, expanding roads, ports, airports and telecommunications to connect our scattered islands into one national economy. We are reforming our public finance systems so that every dollar delivers for our people. And we are pursuing constitutional amendments to strengthen our democracy. This is the agenda by which our people will judge my government.
+
+International Peace and Security Mr. President,
+
+Over the past year, the international community has faced many challenges. Protracted armed conflicts, an energy crisis and disruptions to global trade have been compounded by destabilization orchestrated by those who pursue their own selfish ambitions.
+
+For small island economies, these are not distant events. Every rise in the price of fuel is felt in the cost of shipping, electricity, food and essential services, placing a heavy burden on communities that have no buffer against external shocks.
+
+These tensions confirm what Solomon Islands has long understood: peace and security are inseparable from development. Neither can be secured without the other.
+
+There are no winners in war, only graves, orphans and the long labour of rebuilding what conflict has torn down.
+
+There is no substitute for dialogue, diplomacy and peaceful negotiation. Solomon Islands calls on all parties to armed conflicts to protect civilians, return to the negotiating table and act in full respect of international law.
+
+And it is why the world needs a stronger, more agile United Nations, one equipped to respond to the realities of today.
+
+Transnational Crime, Illicit Drugs and Ocean of Peace Mr. President,
+
+The Pacific faces a grave and growing threat. Transnational criminal networks are using our ocean as a highway for illicit drugs, undermining our sovereignty and national security, destroying young lives and tearing at the fabric of our communities. Behind every statistic stands a family, a community, and a young life robbed of its promise.
+
+We will not allow criminal networks to profit from the vulnerability of our people. We are amending our Dangerous Drugs Act to introduce stiffer penalties as a deterrent, and we are strengthening law enforcement to prevent and detect these crimes and to ho ld perpetrators accountable.
+
+In August this year, Solomon Islands acceded to the United Nations Convention against Transnational Organized Crime, a clear demonstration of our resolve to confront this threat.
+
+These are costly and demanding undertakings, and no Pacific country can win this fight alone. We call for stronger international cooperation, greater information sharing, sustained investment in the capacity of our law enforcement agencies, and support for prevention and rehabilitation.
+
+Our vision of a peaceful and secure Pacific extends beyond transnational crime. As enshrined in the Ocean of Peace Declaration, our region must remain free of nuclear weapons and free from destabilizing external influence.
+
+In keeping with that vision, my government has proposed a treaty that would bind Pacific Island countries and like-minded partners to a firm, shared commitment to keep the Pacific an Ocean of Peace.
+
+Artificial Intelligence and Emerging Technologies Mr. President,
+
+Artificial intelligence and emerging technologies present both unprecedented opportunities and serious risks. They can accelerate sustainable development, transform education and health care, strengthen disaster preparedness, and open new economic pathways for developing countries.
+
+But a widening digital divide threatens to leave developing countries further behind. For my government, digital transformation is not about technology for its own sake; it is about connecting our scattered islands and opening the modern economy to every Solomon Islander. The completion of 161 telecommunication towers across the country will lift national broadband coverage from 56 to 86 per cent, expanding access to information, education and digital financial services.
+
+The benefits of AI must be shared by all, not concentrated among a few. Its risks, including its use for non -peaceful purposes, must be governed by all, not left to a few. Solomon Islands therefore recognizes the need for an inclusive and transparent inter national governance framework on AI.
+
+Climate Change Mr. President,
+
+Year after year, Pacific leaders have stood at this podium and urged the world to act on climate change. And yet global action continues to fall short of what the science demands.
+
+With every passing COP, the impacts grow more severe. Our islands are being lost to the sea. Disasters are more frequent and more devastating. Food and water security is under threat, and communities are being forced from their ancestral lands.
+
+Solomon Islands knows this reality first -hand. This year, Tropical Cyclone Maila, a Category 5 storm, tore through our communities, destroying homes, schools, infrastructure and livelihoods. My government has just approved US$9.38 million for shelter recovery.
+
+That is money our essential services urgently need, now diverted to deal with the impacts of this climate extreme.
+
+Like many Pacific Island countries, we are trapped in a relentless cycle of response, recovery and rebuilding.
+
+This is not sustainable, nor is it just. My people did the least to cause this crisis, yet they pay its earliest and heaviest price. That is the moral ledger that lies before this Assembly.
+
+Last year, the International Court of Justice confirmed in its landmark advisory opinion that States have legal obligations to protect the climate system.
+
+Major emitters must make deep emission cuts and transition away from fossil fuels. Climate finance, including support for loss and damage, must be grant -based and channelled through our national budget systems. Project -based financing of climate action is unsustainable and out of step with the scale of a crisis we did least to cause.
+
+Vulnerable countries should not have to choose between climate action and educating their children, caring for the sick or securing food and water. Yet that is the choice we face with every dollar we spend. We therefore call for the full capitalization of the Pacific Resilience Facility and an ambitious and timely third replenishment of the Green Climate Fund.
+
+Our region has long led on climate action, and we will continue to lead. The Pre-COP31 meeting, to be hosted in the Pacific by Australia in partnership with Fiji and Tuvalu, will bring the reality of climate change directly into the heart of the global process. I call on all Parties and partners to come to that meeting, and to COP31, with stronger commitments and concrete action. The communities on the frontline of the climate crisis deserve nothing less.
+
+Sea-Level Rise Solomon Islands welcomes the convening of the Second High -Level Meeting on Sea -Level Rise and the adoption of the first political declaration on sea-level rise.
+
+Every day, our people are defending their coastlines, strengthening their resilience, protecting their food and water security and their cultural heritage, and, where there is no other choice, relocating.
+
+But we cannot do this alone.
+
+I call on this Assembly to match the courage of our Pacific communities with collective international resolve: to scale up adaptation and resilience finance and to support communities facing climate mobility needs.
+
+Solomon Islands reaffirms that maritime boundaries, once established and deposited in accordance with UNCLOS, together with the rights and entitlements that flow from them, shall continue to apply notwithstanding any physical changes caused by climate change-related sea-level rise.
+
+Ocean The ocean is not simply a resource; it is our identity, our heritage and our future. It sustains our livelihoods, our culture and our economy. We do not own the ocean; we belong to it. We hold it in solemn trust for generations not yet born.
+
+Yet our ability to benefit fully from our own ocean is undermined by illegal, unreported and unregulated fishing, which costs our region US$300 million every year. Solomon Islands is fighting back, working with the Forum Fisheries Agency and partners inclu ding Australia,
+
+France, New Zealand and the United States to strengthen surveillance and enforcement across our waters.
+
+Mr. President,
+
+SDG 14 remains among the least funded of all the Sustainable Development Goals. With just four years left until 2030, the fourth United Nations Ocean Conference must raise the bar on ocean finance and secure the ocean's place in the development agenda beyond 2030.
+
+Solomon Islands welcomes the entry into force of the BBNJ Agreement and the preparations for the first Conference of the Parties in January. We look to that Conference to establish, without delay, the Secretariat and the institutional arrangements to implement the Agreement.
+
+Plastic pollution is poisoning our ocean and our food. As negotiations resume in Bangkok, Solomon Islands calls for an ambitious, legally binding treaty that addresses the full life cycle of plastics, from production to disposal.
+
+Youth, Women and Persons with Disabilities Mr. President,
+
+Our people are our greatest asset. With more than half of our population under the age of 25, my government is prioritizing legal frameworks that empower young people, advance gender equality, and strengthen the protection of women and children against domestic violence.
+
+We welcome global progress in advancing the rights and full participation of women and persons with disabilities in the economy, and Solomon Islands is committed to accelerating that progress at home.
+
+There can be no sustainable development without equal opportunity for all.
+
+International and Domestic Cooperation Our development partnerships play an indispensable role in expanding infrastructure, maritime connectivity, health and education, and in improving the lives of Solomon Islanders. I thank the Governments and people of Australia, China, Japan, New Zealand, the Republic of Korea and the United States, as well as the European Union, for their contributions to our national development.
+
+South-South cooperation remains an important complement to Official Development Assistance. Partnerships among developing countries have enabled us to share expertise, technology, innovation and practical solutions suited to our circumstances. The support of Papua New Guinea, Indonesia, India and our Pacific family embodies the true spirit of South-South solidarity, and we value it deeply.
+
+We also acknowledge the partnership of multilateral organizations, non-governmental organizations and our private sector in supporting development work in Solomon Islands.
+
+At home, my government is working hand in hand with our churches to build stronger and more inclusive communities.
+
+Cooperation and partnership, at every level and across borders, are critical to nation building, and my government remains fully committed to them.
+
+Financing for Development As a Small Island Developing State, our vulnerability remains a fundamental reality. A single natural disaster can erase years of investment and progress and push a nation backwards.
+
+The Multidimensional Vulnerability Index captures the special circumstances of SIDS in a way that income measures alone cannot.
+
+We call on international financial institutions to integrate the MVI into their financing decisions for SIDS without further delay.
+
+Mr. President,
+
+Last year, the world spent more than US$2.9 trillion on its militaries.
+
+That is more than sixteen times all official development assistance.
+
+In less than 18 days, the world spends more on arms than developed countries provide in a full year of climate finance.
+
+In the same year that military spending reached its highest share of global output since 2009, development aid had its steepest fall on record. Bilateral aid to the least developed countries fell by a quarter.
+
+This imbalance must be corrected. Redirecting even a small share of this spending would fully capitalize the Pacific Resilience Facility and the Loss and Damage Fund, secure the Green Climate Fund's third replenishment, and meet the ODA targets. The resources exist. What is missing is the will. The time to act is now.
+
+LDC Graduation Solomon Islands is due to graduate from Least Developed Country status in 2027.
+
+As part of our preparations, my government is pursuing an ambitious and proactive agenda that uses public-private partnerships to unlock investment in transformative projects, special economic zones and key sectors. A second tuna cannery at Bina Harbour, u pgraded airports, agricultural treatment facilities to support trade, and expanded road networks and maritime ports will shift the trajectory of our economy.
+
+At the same time, my government is strengthening our financial institutions and frameworks to improve revenue collection and accountability, so that we can sustain our development priorities.
+
+These reforms reflect our commitment to a strong and resilient economy that delivers decentralized, people -centred development across the country.
+
+Our ambition is clear: to graduate from LDC status with confidence, to strengthen the foundations of our economy, and to ensure that development delivers lasting opportunities for every Solomon Islander.
+
+UN Reform Mr. President,
+
+As the United Nations marks its eighty -first anniversary, it must continue to evolve to meet today's challenges while remaining faithful to its founding principles. The UN80 reform process must strengthen the Organization's effectiveness and relevance with out diminishing its presence, services or support in the most vulnerable regions, where assistance is needed most. Reform must enhance delivery, not reduce it.
+
+The United Nations is not perfect, but it remains the cornerstone of multilateral diplomacy and the indispensable platform through which nations preserve peace, advance sustainable development, uphold international law and protect human rights.
+
+Solomon Islands looks to the next Secretary -General to lead with vision and to ensure that the Secretariat is accountable to all Member States, serving the interests of small and large States on an equal footing.
+
+Security Council Reform Solomon Islands reiterates its support for comprehensive reform of the Security Council to make it more representative, transparent, accountable and reflective of today's realities. A Council with a dedicated seat for Small Island Developing States would s trengthen the legitimacy and effectiveness of the entire multilateral system.
+
+The veto is a relic of 1945. Too often, it has been used to shield violations of international law and to entrench the double standards that fuel conflict. At a minimum, the veto must never again be used in situations of genocide, crimes against humanity or war crimes.
+
+Ultimately, it should be abolished.
+
+Peacekeeping Mr. President,
+
+It is with great pride that Solomon Islands is once again contributing personnel to United Nations peacekeeping in South Sudan. Despite our small size, our participation reaffirms our enduring commitment to the Charter, to international peace and security, and to the noble work of peacekeepers serving communities affected by conflict.
+
+I thank our partners, including Australia and the United Nations Police, for their support. Solomon Islands looks forward to increasing its peacekeeping contribution in the coming year.
+
+Decolonization Mr. President,
+
+Leaving no one behind demands that we complete the unfinished work of decolonization. Solomon Islands reaffirms its longstanding support for the right to self-determination of the Kanak people of New Caledonia and the Maohi nui people of French Polynesia. The United Nations decolonization process must offer more than hope; it must provide practical pathways to the full emancipation of peoples in Non-Self-Governing Territories, and to their freedom to determine their own political future and development aspirations.
+
+In the same spirit, I turn to West Papua, whose people are our Melanesian brothers and sisters.
+
+Solomon Islands respects the sovereignty and territorial integrity of the Republic of Indonesia, and we value our friendship with its Government and people. It is precisely because of that friendship that we speak with candour. Reports of human rights viol ations in West Papua have persisted for far too long. They must be independently verified, not left in dispute.
+
+We therefore renew the call of Pacific Islands Forum Leaders for the Government of Indonesia to facilitate, without further delay, the longawaited visit of the United Nations High Commissioner for Human Rights to West Papua. Such a visit is an act of conf idence between friends, and an affirmation that there is nothing to fear from the light.
+
+Closing Mr. President, in closing, the challenges of our time demand renewed solidarity, stronger multilateralism and genuine commitment to the principles of the UN Charter. But institutions do not have hearts; people do. Charters do not keep the peace; the men and women who honour them do. Beyond every declaration and commitment, each of us carries a profound responsibility: to be agents of peace, champions of goodwill, and keepers of the fragile bonds of friendship among nations. The world has never needed that s pirit more than it does today.
+
+Mr. President, permit me a word from the Christian faith that has shaped my people. Our Constitution was established "under the guiding hand of God," by a people "conscious of our common destiny." We believe that is true not only of Solomon Islands, but of this whole family of nations.
+
+We live in a time when division has become the calling card of the day. Nations are sorted into camps. Neighbours are asked to choose sides. Small States are too often treated as prizes to be won rather than partners to be heard. But the destiny of nations does not finally rest in this general assembly, nor in any capital, however powerful.
+
+King Solomon, among the wisest rulers of antiquity, wrote: "There are many devices in a man's heart; nevertheless, the counsel of the Lord, that shall stand."
+
+That truth does not make us passive. It makes us humble, and it makes us accountable. So I call on my fellow leaders to do three things.
+
+First, let us ask for wisdom before we ask for advantage. When Solomon was offered anything he wished, he did not ask for riches, or long life, or the defeat of his enemies. He asked for "an understanding heart," so that he might judge his people well. I c an think of no better prayer for every leader in this room.
+
+Second, let us stay at the table. The same king taught that "in the multitude of counsellors there is safety." That is the oldest case I know for what this Organization is meant to be: many nations, large and small, sitting together, because none of us sees far enough alone.
+
+Third, let us measure greatness rightly. "Righteousness exalteth a nation." Not its arsenal, not its alliances, but its justice: how it treats the poor, the displaced, and the small.
+
+Nations rise and nations fall. The purposes of God endure. Let us choose cooperation over division, dialogue over confrontation, peace over hostility, and action over inaction. And let us lead as people who know we will answer for it one day.
+
+Our national motto teaches us that “to lead is to serve”. In that spirit of service, Solomon Islands stands ready to do its part, as a willing partner and a committed Member of this Assembly.
+
+May God bless you all, and may God bless our shared family of nations.
+
+I thank you.

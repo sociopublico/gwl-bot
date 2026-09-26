@@ -1,0 +1,121 @@
+---
+session: 81
+slug: samoa
+id_speech: M_131
+country: Samoa
+speaker: Mulipola Anarosa Ale Molioo
+title: Deputy Prime Minister
+speaker_title: Her Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/wc_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.517
+---
+
+Let me begin by warmly congratulating His Excellency, Mr. Khalilur Rahman, on his election as President of the 81st Session of the General Assembly. The chosen theme for the general debate, “ Restoring Trust,
+
+Managing Transformation: A United Nations that Delivers for All,” could not be more timely. It speaks to the reality of the world we face today; a world shaped by uncertainty, disruption and rapid change, but also by hope, innovation and opportunity.
+
+For Samoa, the theme is a promise the world must keep; Can trust be restored? Can transformation protect the vulnerable? The answer lies in the first words of our UN Charter - WE THE PEOPLES. We must always put PEOPLE at the centre of our decisions. For u s, this is underpinned by the core values of our Samoan culture the fa ́asamoa and our faith, such as respect, dignity, love, protection and service.
+
+Excellencies,
+
+Every decision in this Hall shapes the world that every child inherits.
+
+We meet at a pivotal moment in history. Profound and transformative changes are not only necessary, but inevitable. Across many societies, people are increasingly asking whether global institutions are delivering on the promises made to them. We must prepare ourselves to face the challenges ahead with resolve, and use the opportunity to herald in much needed reforms for the benefits of all and leaving no one behind.
+
+For Samoa, multilateralism remains the cornerstone of our international engagement. Only through genuine cooperation and mutual trust can we craft solutions that no single nation could achieve alone.
+
+The UN80 initiative has merits but also its risks, if not fully assessed and understood. Any r eform must strengthen delivery on the ground, by eliminating duplication, improving coherence, and accelerating impact.
+
+Critically, such reforms must not weaken the operations of the UN Multi Country Office s or the Resident Coordinator system. Whilst Samoa reaffirms its unwavering commitment to the United Nations as the premier forum to address global crises, we also caution against premature decisions taken without the full consideration and endorsement by member states.
+
+Excellencies Climate change remains the single greatest threat to Samoa and the global community. Its impacts are more extensively felt by SIDS due to our special circumstances. As the ICJ advisory opinion puts it, climate change is not merely an environmental concern, but “an existential problem of planetary proportions” that requires urgent global action. The United Nations General Assembly welcomed the unanimous ICJ Advisory Opinion, and affirmed its importance as an authoritative contribution to the clarification of existing international law.
+
+Climate finance is the bridge between ambition and action. It must be scaled up, easily accessible, devoid of burdensome conditions, and responsive to the needs of the most climate vulnerable. Resources intended for education, health, water and social protection are now diverted to disaster recovery.
+
+Small nations are being asked to finance both development and survival. No nation should have to borrow its way out of a crisis it did so little to create.
+
+Excellencies,
+
+The world is facing a growing development financing crisis. The gap between commitments and delivery continues to widen. Too often, we simply rebrand and recycle old ideas while failing to deliver tangible progress. Meanwhile multilateralism is under siege, and international financial commitments are being eroded.
+
+The current international financial architecture was designed for a different era. It struggles to adequately recognise vulnerability and fails to fully account for the realities faced by SIDS.
+
+A fairer financial system is not only in the interests of developing countries.
+
+It is in the interests of global stability and shared prosperity.
+
+The implementation of the M ultidimensional Vulnerability Index (MVI) in financing decision -making is essential if we are to genuinely address the financial challenges facing developing countries. We thank the Secretary General and UN DESA for their proactive efforts in moving this issue forward with International Financial Institutions (IFIs). We look forward to the pilot project to demonstrate the MVI can help developing countries in their financing challenges.
+
+On debt, we need to build a sustainable, equitable, and fair debt regime, starting with a robust mechanism for debt restructuring. Debt forgiveness must be linked to measurable progress on resilience -building. Investment in resilience today will reduce the costs of disasters tomorrow. Samoa supports the incorporation of state -contingent clauses in debt instruments, allowing for suspension during crises.
+
+Excellencies,
+
+Energy is both a driver and accelerator for Samoa’s sustainable development ambition. Energy security has become a defining issue for many small island nations.
+
+While we have one of the highest shares of renewable electricity in the Pacific, Samoa remains heavily dependent on imported fuels. Successive energy crises, and the 2026 fuel crisis exposed the economic cost of our energy dependence. We are working towards a whole -of-system transformation that delivers electricity that is reliable and affordable, reduces our dependence on imported fuels, strengthens resilience and supports sustainable development.
+
+The clean energy transition is also an opportunity for Samoa to build a smarter, more resilient and investment-ready energy system.
+
+The digital transformation – including AI and data analytics – offers real opportunities to drive an inclusive, just energy transition, particularly through off-grid solutions and smarter energy planning.
+
+Excellencies The ocean defines who we are as Pacific people. It connects us. Sustains us.
+
+And shapes our identity. Yet our ocean faces increasing pressures from pollution, biodiversity loss, overexploitation and the impacts of climate change.
+
+Pursuing economic growth has c ome at a grave cost to our marine ecosystems. Coupled with the unchecked exploitation of deep seabed mineral resources, our oceans face a crisis of limitless proportions. These planetary changes leave no middle ground. Weak governance frameworks threaten what remains.
+
+Without urgent action, small island states face a future without land and no usable ocean.
+
+It is time to transform how we value and interact with the ocean - from a resource we exploit to one we protect and cherish. We must do more on this front.
+
+Samoa has ratified the BBNJ Agreement, and we remain actively engaged in negotiations towards a global treaty on plastic pollution, particularly to protect our marine environment.
+
+We remain committed to implementing the Apia Commonwealth Ocean Declaration, the 2026 Pacific Islands Forum Leaders’ Ocean Statement, and our own Samoa Ocean Strategy. These are critical to the implementation of SDG14.
+
+Our maritime domain is increasingly exploited by transnational criminal networks involved in illegal trafficking, including illicit drugs moving through our region. Illicit drugs enter homes, harm young people, fuel violence and place increasing pressure on communities and essential services.
+
+Excellencies,
+
+Non-communicable diseases represent one of the most serious development challenges to Samoa ́s public health and economic productivity. In response, we are shifting towards prevention through strengthening health literacy, reforming school nutrition and food environments and early intervention programmes. This includes our Early Childhood development framework, a multisectorial roadmap to ensure every child from pregnancy to age five receives nurturing care, protection and early learning.
+
+Excellencies,
+
+In many of our Pacific countries, our water systems are highly vulnerable to disruption. These realities demand that the global water agenda fully recognize the special circumstances of SIDS.
+
+Samoa’s priorities are four-fold.
+
+First, climate-resilient water systems must be scaled up urgently Second, access to finance must be significantly improved.
+
+Third, capacity and partnerships must be strengthened.
+
+Finally, we need a transnational water governance regime informed by the outcomes of the various water conferences held over the last 8 years.
+
+Excellencies,
+
+Samoa remains a peaceful country, steadfast in our commitment to human rights and justice. We remain concerned by the ongoing wars in Ukraine,
+
+Gaza, and Iran. The terrible loss of civilian lives, displacement of people as well as the destruction of infrastructure and the environment is something we do not condone. The continued supply of weapons to fuel conflicts must end. We also reiterate our longstanding call for meaningful reform of the Security Council to ensure that it remains effective, credible and representative of today’s realities. It is imperative that the UN resolv es disputes peacefully and strengthens international peace and security.
+
+The world needs a stronger commitment to peace. Not more division. Not more conflict. And not more suffering.
+
+Excellencies,
+
+At its heart, Samoa’s development journey is about investing in people. We are strengthening social protection, investing in youth, supporting women and persons with disabilities, and building a resilient economy. These efforts are championed through our District Development Program, delivered across all fifty one districts. Empowering our communities.
+
+Our greatest source of resilience will not be our infrastructure or our institutions alone. It will be our people: healthy, skilled, educated and empowered. This is why the Aiga or family is at the heart of our pathway for development of Samoa.
+
+Excellencies,
+
+I pay tribute to our outgoing Secretary-General, António Guterres, for his steadfast leadership and enduring commitment to the United Nations. His legacy will continue to guide our collective efforts in advancing peace, dignity, and sustainable development for all.
+
+Excellencies,
+
+Before I am a leader, I am first and foremost a mother. History may record our titles, but our children will inherit our choices. This is why, now more than ever, the United Nations matters. We must continue to stan d, as One United Nations Family.
+
+God bless, soifua ma ia manuia.

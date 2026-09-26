@@ -1,0 +1,295 @@
+---
+session: 81
+slug: maldives
+id_speech: M_110
+country: Maldives
+speaker: Hussain Mohamed Latheef
+title: Vice President
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/mv_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.949
+---
+
+Mr President,
+
+Mr Secretary-General,
+
+Excellencies,
+
+Ladies and Gentlemen.
+
+And a very good morning.
+
+I congratulate you, Mr. President, on your election as President of the eighty-first Session. You can count on the full support of the Maldives as you lead this Assembly.
+
+I also thank the former President of the General Assembly, Her Excellency Annalena Baerbock, for her leadership of the eightieth Session.
+
+This year’s theme, “Restoring trust, managing transformation: a United Nations that delivers for all”, captures the task before us.
+
+Trust will not be restored by words alone. It will be restored by what this Organization delivers for every country, large or small.
+
+Thirty-seven years ago, the Maldives asked this Assembly to face a simple truth:
+
+That “Small States can be highly vulnerable to external threats and acts of influence.”
+
+In response, this Assembly adopted Resolution forty -four, fiftyone an initiative led by the Maldives, affirming the importance of protecting the sovereignty and territorial integrity of small States.
+
+That was true then and it is true even today. But the threats have evolved.
+
+Insecurity now travels through sea lanes, supply chains, financial markets, digital networks and new technologies.
+
+Today, sovereignty can be weakened without a single border being crossed. It can be undermined when external powers limit a State’s freedom to choose.
+
+This is why the Maldives comes before this Assembly with a clear message: “Every State, large or small must have the freedom and capacity to shape its own future.”
+
+A sovereign future.
+
+And that future begins with peace.
+
+The Indian Ocean must remain peaceful. It must remain as a region where trade can flow and where States can prosper.
+
+Regional competition among major powers must not limit the choices of smaller States.
+
+Conflict does not have to reach our shores to affect us.
+
+In today’s interconnected world, a crisis far away can quickly become a crisis at home.
+
+Interruption to maritime traffic through the Strait of Hormuz raises fuel prices. It affects food supplies and air travel. The consequences of this are felt across tourism and public finances in the Maldives.
+
+The Maldives condemns the closure of the Strait of Hormuz.
+
+The Strait must remain open and safe.
+
+The Maldives further condemns the attacks on Saudi Arabia,
+
+United Arab Emirates, Bahrain, Qatar, Kuwait, Oman and Jordan.
+
+The Maldives appreciates the diplomatic efforts of Oman,
+
+Pakistan and Qatar to de-escalate the crisis and bring the parties to dialogue.
+
+The right to a sovereign future must belong to all.
+
+And nowhere is that right more brutally denied than in Palestine.
+
+Israel's genocide and war crimes against Palestinians continue.
+
+And their actions are not confined to Gaza.
+
+Its military attacks across the region have violated the sovereignty of other States.
+
+Security cannot be built by exporting insecurity.
+
+Nor can any country demand respect for its sovereignty while violating the sovereignty of others.
+
+No State should be shielded from accountability by its power or political alliances.
+
+But condemnation alone is not enough.
+
+Every Member State must ask: What have we done to end this violence?
+
+The United Nations must ask itself the same question.
+
+The problem is not a lack of law. The rules are clear. What is absent, is equal application.
+
+International law cannot bind the weak and bend for the powerful. The same rules. The same standard. No exceptions.
+
+Israel’s genocide in Gaza must end.
+
+Israel’s illegal occupation of Palestine and other Arab lands must end.
+
+Illegal settlements must end.
+
+Humanitarian assistance must reach Palestinians safely, rapidly and at scale.
+
+And the decisions of international courts and the resolutions of this Organization must be respected and implemented.
+
+For the Palestinian people, a sovereign future means freedom dignity.
+
+Self-determination.
+
+And the right to live with security in their own State.
+
+The Maldives will always stand with the Palestinian people and their undeniable right for that future.
+
+That is why I reiterate our call for the recognition of an independent and sovereign State of Palestine, based on the pre1967 borders, with East Jerusalem as its capital.
+
+And if this Organisation is to restore trust and deliver for all,
+
+Palestine must become a full Member of the United Nations.
+
+Conflict is not the only threat to sovereignty. Forces beyond our borders can also limit a State’s freedom to shape its own future.
+
+For SIDS like the Maldives, none is more consequential than climate change.
+
+For SIDS, climate change is altering the very physical foundations of our nations.
+
+Sea level rise is therefore not simply an environmental concern.
+
+It is a matter of national planning and national security.
+
+It is a matter of sovereignty.
+
+Let there be no doubt.
+
+Rising seas may alter our shores.
+
+But they will not erase our statehood.
+
+They will not reduce our rights.
+
+They will not weaken our maritime entitlements.
+
+And they will not diminish our national agency.
+
+Our response must be to adapt innovate and build.
+
+But resilience demands the means to act.
+
+That means finance must reach those who need it.
+
+At the scale.
+
+At the speed.
+
+And on the terms needed to build resilience.
+
+That is why COP31 in Antalya must be a COP of delivery.
+
+Implementation must be the measure of commitment.
+
+We must move faster. We must speed up the 2030 Agenda. And we must turn ABAS into measurable progress for SIDS.
+
+For island nations, that progress cannot be separated from a healthy and sustainably managed ocean. Therefore, the first Conference of the Parties to the BBNJ Agreement must deliver from day one.
+
+Ultimately, global commitments matter only when they enable progress at home.
+
+His Excellency President Dr Mohamed Muizzu has set a clear ambition: for the Maldives to become a developed country by 2040.
+
+We are pursuing that goal by raising productivity, diversifying our economy, building resilient infrastructure, expanding renewable energy and investing in our people.
+
+Our future will be built by Maldivians.
+
+But the international system can widen or narrow our choices.
+
+Technology transfer, resilient supply chains and accessible finance expand choice. Technological dependence, external shocks and unsustainable debt limits it.
+
+This is why reform of the international financial architecture matters.
+
+We must implement the Sevilla Commitment and deliver on its promises on finance, debt, and reform.
+
+Earlier this year, the Maldives joined other developing countries in launching the Borrowers’ Platform.
+
+It must become a lasting mechanism that gives developing countries not just a place in the financial system, but a voice in shaping it.
+
+But for SIDS, greater agency also depends on progress at home.
+
+We must build our institutions, improve stability, and attract responsible investment and meaningful partnerships.
+
+And these partnerships must build national capacity and support national ambitions.
+
+Partnerships must serve national needs strengthen what we have and leave us more capable than before.
+
+Our shared challenges can become shared opportunities.
+
+This is the spirit of President Dr Muizzu’s Maldives First policy.
+
+Partnerships built around respect national interests and mutual contribution.
+
+And the same principl e must guide the technological transformation before us.
+
+Artificial intelligence offers significant opportunities.
+
+For small States, AI can close distance. It can help overcome scale.
+
+And it can put better health care, education, and public services within reach.
+
+But these opportunities must be shared.
+
+Every country must have a voice in shaping the global rules for AI. The digital future should strengthen our ability to serve our people better. Not create new forms of dependence.
+
+And as the world transforms, so must the United Nations.
+
+The UN80 Initiative is an opportunity to reduce duplication, improve accountability, and focus resources on results.
+
+But efficiency must not be measured simply by what we cut. It must be measured by what we deliver.
+
+And the United Nations must not retreat from the countries that need it most, in the name of efficiency.
+
+Reform must preserve a meaningful UN presence on the ground, particularly in SIDS.
+
+The UN Development System must respond to the needs of programme countries and remain guided by relevant international frameworks. The reform process must be MemberState-led. It must be inclusive and transparent.
+
+This is how reform will restore trust. By bringing the United Nations closer to the people and the countries it serves.
+
+Reform must also confront one of this Organization’s oldest weaknesses: Unequal representation.
+
+The Security Council cannot reflect the world of 1945 while deciding for the world of today.
+
+It must be expanded in both permanent and non -permanent categories.
+
+SIDS must have a rotating seat.
+
+Africa must receive the representation long denied to it.
+
+And the veto must be abolished.
+
+After all, representation is not merely symbolic. Who sits at the table shapes what the table sees.
+
+Small States understand how closely climate, finance, trade supply chains and security are connected.
+
+We also know that international law is our strongest safeguard against unequal power. That principle must remain at the heart of the international system.
+
+The Maldives will take its seat on the Economic and Social Council for the 2027 to 2029 term.
+
+We are seeking election to the Human Rights Council for the 2028 to 2030 term.
+
+And we seek the support of Member States for a seat on the UN Security Council for the 2033 to 2034 term.
+
+We do so because small States must be decision -makers, not decision-takers.
+
+Representation matters not only within the bodies of this Organization. But also, in its leadership.
+
+As Secretary-General Guterres approaches the end of a decade of service, The Maldives thanks him for his leadership and commitment to international cooperation. Thank you Secretary General Guterres.
+
+The process to choose his successor must be transparent and based on merit. It must draw from the full breadth of talent available to this Organization.
+
+For more than eight decades, every Secretary-General has been a man. It is time for a woman to lead this Organisation.
+
+A leader who will defend the Charter, without exception. Who can turn reform into delivery. And who will listen to all Member States, including the smallest.
+
+The task ahead is immense. The choice we make must meet it.
+
+So, what should this Assembly do?
+
+The Maldives proposes a simple test for a sovereign future.
+
+When we act on conflict, climate, finance, technology, or institutional reform, let us ask:
+
+Does this decision expand a State’s freedom to choose?
+
+Does it build national capacity and reduce dependence?
+
+Does it protect sovereignty and independent decision-making?
+
+If the answer is no, we must change course.
+
+And we must hold every State to the same standard.
+
+Let this be the measure of international cooperation. Not what we promise, but what we make possible. That is the measure of a United Nations that delivers for all.
+
+In 1989, the Maldives asked this Assembly to protect small States from external threats. Today, we ask it to protect something just as fundamental: Every State’s freedom to choose its own future.
+
+A future chosen by its people.
+
+A future grounded in international law.
+
+A sovereign future for every State.
+
+I thank you.

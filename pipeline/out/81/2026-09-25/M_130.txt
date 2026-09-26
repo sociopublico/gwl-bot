@@ -1,0 +1,141 @@
+---
+session: 81
+slug: tonga
+id_speech: M_130
+country: Tonga
+speaker: Lord Fakafanua
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/to_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.528
+---
+
+Mr President of the General Assembly,
+
+Excellencies,
+
+Ladies and Gentlemen,
+
+I bring you greetings from His Majesty, King Tupou VI and the people of the Kingdom of Tonga.
+
+Nine months into my service as Prime Minister, I stand here mindful that many Pacific leaders have come before me, raising the same warnings and making the same appeals.
+
+Today, I am compelled to make them again.
+
+The question before us is not whether the world has heard our message. It is why it has still not acted?
+
+[Sovereignty and the United Nations] We live in a world more connected than ever. But greater connection has not brought greater unity. We meet amid deepening division, geopolitical competition and rising conflict.
+
+For Tonga, navigating such stormy currents is not new. As descendants of voyagers, “we have been in the survival business much longer than most appreciate.”
+
+Under King George Tupou I, Tonga preserved its independence during an era of colonial expansion. Our Constitution of 1875 secured Tongans’ rights and freedoms more than seven decades before the Universal Declaration of Human Rights. It reflects our fierce determination to chart our own course.
+
+That is the essence of our sovereignty. Multilateralism allows us to project the power of our ideas, rather than the might of our power. Tonga participates as an equal under the founding principle of the United Nations Charter: the sovereign equality of states.
+
+This is how we must approach our theme, “Restoring Trust, Managing Transformation: A United Nations that Delivers for All.” Enduring trust is restored when commitments produce results.
+
+True transformation is realised when our communities, economies and ecosystems can anticipate change and recover with greater strength. Small Island Developing States must not bear disproportionate costs for challenges they did little to create.
+
+[United Nations Reforms] Mr President,
+
+Too much of the international architecture still reflects the world of 1945 rather than today’s realities. If the United Nations is to remain the principal vehicle through which sovereign nations confront global challenges, it must transform.
+
+We need a United Nations that enables innovation and expands meaningful access to investment and technology, especially for Small Island Developing States too often excluded from both. We need a stronger General Assembly and institutions that respond effectively to the needs of the majority of their members.
+
+We cannot keep negotiating climate, biodiversity and the ocean in separate processes when they form an interconnected ecosystem requiring coherent solutions. Global processes must recognise the ocean–climate nexus and address these challenges together. International commitments must also be capable of implementation nationally.
+
+We need a more inclusive and representative Security Council, equipped for today’s challenges and prepared to recognise the triple planetary crisis as a profound threat to peace and security. We need an international financial architecture that delivers timely, accessible financing to those most in need. Internationally pledged commitments must be acted upon urgently. Sovereign equality must be reflected in how these institutions listen, decide and deliver.
+
+The next Secretary General must understand these realities. It is in this spirit that Tonga has nominated Ambassador Ivonne Baki of Ecuador. Her vision for a renewed and reformed United Nations speaks to the needs of vulnerable states. To restore trust, every Member State, large or small, must have a voice in shaping this Organisation’s future and a stake in its success.
+
+[The Blue Pacific and an Ocean of Peace] Mr President,
+
+The Pacific region spans one third of the Earth’s surface. It is our home. Through the 2050 Strategy for the Blue Pacific Continent, we have set our own course and identified our priorities. Our Blue Pacific must be defined by those who call it home.
+
+For Tonga, investing in the ocean and nature is foundational to our development ambition.
+
+Protecting and restoring them builds climate resilience, strengthens food security and enables a sustainable blue economy. The financing and partnerships we build around ocean and nature based solutions will help determine our future and sustain our people.
+
+We declared our region an Ocean of Peace in 2025. It sends a clear message: the Pacific must not become a staging ground for military escalation or a battleground for major power rivalry.
+
+Our Ocean of Peace is more than the absence of conflict.
+
+Our most pressing threats are already reaching our shores: transnational crime, illicit drugs, illegal, unreported and unregulated fishing, cyber threats, and the unresolved consequences of nuclear testing and radioactive contamination. We will use innovative technologies and work closely with trusted security partners to confront these threats, including through stronger regional cooperation and maritime awareness.
+
+We are committed to protecting the rights of marginalised people and ending violence against women and girls. This year, Tonga ratified the United Nations Convention on the Rights of Persons with Disabilities, reaffirming our commitment to dignity and equal participation for persons with disabilities.
+
+Tonga also acceded to the Treaty on the Prohibition of Nuclear Weapons and ratified the Comprehensive Nuclear Test Ban Treaty. In doing so, we completed the universalisation of the latter treaty in the Pacific.
+
+[Climate Action and Resilience] Mr President,
+
+On climate, the Pacific is already drowning in a crisis that others continue to postpone addressing. The United Nations Environment Programme’s Limiting Overshoot report warns that exceeding 1.5 degrees Celsius could occur within the next few years. Crossing that threshold must not become an excuse for abandoning it. We must limit the extent and duration of any overshoot, peak as low as possible and return below 1.5 degrees as quickly as possible. Every fraction of a degree matters.
+
+The Pacific loses an estimated US$500 million each year from cyclones and floods. Early warning systems give communities time to prepare and can reduce these losses. This sum may seem modest in global terms, but it is a heavy burden for Pacific nations. The financing to prevent such losses still falls short.
+
+The Pacific Resilience Facility, our own mechanism for financing community resilience, needs a further US$328 million in pledges to reach its initial capitalisation target of US$500 million. Weather Ready Pacific, our regional mechanism supporting Early Warnings for All, needs a further US$160 million to reach its target. Tonga’s Climate Trust Fund, which provides funding directly to communities and disbursed its first grants this year, also needs significant support. We call on partners to invest in these Pacific-designed and Pacific-owned solutions.
+
+Tonga stands behind the 2026 Pacific Islands Forum Leaders’ Belau Declaration and calls on all major emitters to act urgently. Climate action is a legal obligation. Meeting those obligations will require difficult decisions rooted in science. Climate leadership is not a popularity contest.
+
+Seven of the nine planetary boundaries have been breached by human activity. Climate inaction is not an option. Tonga is accelerating its transition away from fossil fuels, expanding renewable energy and encouraging the shift to electric vehicles. For us, decarbonisation also means greater energy security and protection from global fuel price shocks. Explicit fossil fuel subsidies, estimated by the International Monetary Fund at US$725 billion, must be phased out.
+
+International financial institutions and multilateral development banks must recognise the Multidimensional Vulnerability Index in eligibility and allocation decisions. The index must help unlock affordable and timely support before disasters strike. By any credible index,
+
+Tonga is among the world’s most vulnerable countries.
+
+We call on all nations, especially the world’s largest emitters, to attend the Pre COP31 meetings in Fiji and Tuvalu this October. Come to the Pacific and confront what 1.5 degrees means for our water, our food, our homes and our people.
+
+We welcome the General Assembly’s Declaration on Sea Level Rise, a significant achievement for the preservation of sovereignty and the first common text on sea level rise agreed by all Member States.
+
+Our resilience must account for every hazard confronting our islands. In recent years Tonga has endured cyclones, flooding, earthquakes, volcanic eruptions and tsunamis. The developing El Niño intensifies weather patterns and strains water and food security. We need integrated warning, preparedness and response systems that protect communities against the full range of these risks.
+
+[Protecting Our Ocean, Unlocking Prosperity] Mr President,
+
+Tonga has committed to protecting at least 30 per cent of our ocean by 2030. Our ratification of the Agreement on Biodiversity Beyond National Jurisdiction extends that commitment beyond our waters, supporting the protection of marine biodiversity on the high seas. Its implementation must be fair and take account of the circumstances of Small Island Developing States.
+
+Our task is to navigate a course that safeguards the ocean and unlocks its value for our people. This principle underpins Tonga’s Ocean Strategy: responsible management of ocean resources, stronger marine protection and a sustainable blue economy whose benefits reach our communities.
+
+It is in this spirit that we intend to convene a Polynesian Ocean Summit in Tonga in May 2027, moving from shared ambition to practical action. We will bring governments, communities, scientists and partners together to strengthen ocean governance and generate lasting benefits for our people.
+
+Our responsibility does not stop at the boundaries of our Blue Pacific Continent. Consider the humpback whale. Born in Tonga’s warm waters, it migrates to Antarctica to feed on krill before returning to the Pacific to breed. Tonga’s sanctuary protects whales here, but their survival depends on healthy ecosystems at both ends of that journey. What happens in the Southern Ocean near Antarctica is felt in Tonga’s waters. We invite partners to join us with practical commitments that recognise the interconnectedness of these ocean corridors.
+
+[Energy Security and Technological Change] Mr President,
+
+The same principle extends across our development: interconnection must not become dependency. For Tonga, resilience means taking greater control of the forces shaping our future and turning the resources within our geography into greater self sufficiency.
+
+When we import fossil fuels, we also import their volatility. Moving away from them is both a climate imperative and an energy security necessity. We are expanding renewable generation, improving energy storage and strengthening our electricity grid while exploring sources suited to our islands, including geothermal energy.
+
+Tonga is not short of ambition: 70 per cent renewable electricity by 2030 and 100 per cent by
+
+2035. We welcome partnerships that help turn these goals into reliable and affordable power.
+
+The forces shaping our future are increasingly technological. Digital connectivity and rapid technological advancement are transforming how we live. They offer significant opportunities for large ocean sovereign states, but risk creating new inequalities and dependencies.
+
+Those who benefit last from global change often bear its highest costs. We continue to live with that injustice through climate change. We cannot again be asked to adapt only after the systems have been built and the rules written.
+
+For Tonga, submarine cables and satellite links are foundational infrastructure connecting our islands to global opportunities. Connectivity alone is not enough. Digital skills and secure, resilient systems must support it. We will protect children online and retain sovereignty over our national data.
+
+Tonga does not need to be first in artificial intelligence, quantum computing or every technology that follows. But we will not simply endure global transformation. We will exercise sovereignty by helping shape the rules and norms that govern it.
+
+We are looking beyond conventional development models, seeking new forms of finance through the responsible valuation of our natural and ocean assets while exploring the potential of frontier technologies. We will form the right partnerships and direct innovation towards our priorities in climate forecasting, public health, ocean management, clean energy and disaster preparedness.
+
+The Pacific’s data, ocean, biodiversity, critical minerals and traditional knowledge must not power the next technological revolution while returning only a fraction of their value to our people. Small Island Developing States need meaningful access to emerging capabilities and a voice in how these technologies are governed and shared.
+
+[Conclusion] Mr President,
+
+From experience, Tonga knows its challenges, and we will meet them with the determination that has always defined our people. We also know our strengths as a large ocean sovereign state. We are not asking for charity.
+
+We will do our part. We simply ask that others do theirs: uphold the 1.5C degree threshold; help us protect the planet we all share and the ocean that connects us; ensure that everyone benefits from technological advancement; recognise the imbalance between the funds committed to our collective development challenges and those prepared for conflict; and uphold the rules and institutions that allow every nation to participate as an equal sovereign.
+
+That is the promise at the heart of the United Nations. Not that all nations would be equal in power, but that no nation, however powerful, is more sovereign than another.
+
+That is the multilateral system Tonga believes in: an international rules based order founded on the United Nations Charter and the equality of nations. That is the multilateral system we must preserve.
+
+Mr President, I so submit.
+
+Malo ‘aupito.

@@ -1,0 +1,287 @@
+---
+session: 81
+slug: bahamas
+id_speech: M_125
+country: Bahamas (the)
+speaker: Philip Edward Davis
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/bs_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.480
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Excellencies, Distinguished Delegates:
+
+Congratulations, Your Excellency, Khalilur Rahman, on your election. The Bahamas pledges to you, its full support.
+
+Mr. President:
+
+Every generation inherits a promise it did not make.
+
+The promise of our generation was made eighty-one years ago, with the founding of this United Nations, from the ashes of the worst war in human history.
+
+Its ideals have proven its worth.
+
+No nation is too small to be sovereign.
+
+No people too poor to be equal.
+
+And the strong should be bound by the same law as the weak.
+
+Sad to say, the United Nations has drifted away from its promise.
+
+The Bahamas comes today to insist on it.
+
+Mr. President:
+
+All week we have been told this is an age of uncertainty.
+
+With respect, I do not agree.
+
+Uncertainty is the language of those who have already decided, and do not wish to say so.
+
+Treaties are being torn up. Institutions are being starved. Rules are giving way to deals, and the benefits of the deals go to whoever holds the most leverage.
+
+Once again, we hear the language of Spheres of Influence. Of Backyards and Hemispheres. For 500 years, the Caribbean was somebody's backyard.
+
+We did not win our freedom to once again become somebody's backyard.
+
+The message to small nations is very clear.
+
+Be as sovereign as we allow you to be.
+
+Mr. President:
+
+A sovereignty that must ask permission is not sovereignty. It is a lease.
+
+Our ancestors did not break their chains so that their children could become tenants.
+
+These are not uncertain times.
+
+These times are very certain.
+
+The only uncertain thing is how we respond to the opportunities and challenges of this time.
+
+Mr. President:
+
+People often say that the world lacks political will.
+
+I do not agree.
+
+The world has never lacked political will.
+
+In 2008, when the banks of the richest nations were failing, trillions of dollars were found in a matter of weeks.
+
+When a global pandemic reached the capitals of the powerful, the political will returned.
+
+The will exists. It is simply pointed elsewhere.
+
+Somewhere, a bank is always too big to fail. But a nation should never be too small to be left behind.
+
+What the world lacks is not political will for change. It is political change.
+
+A change in who writes the rules. A change in whose suffering counts. A change in who decides, and who pays.
+
+Political will is a feeling. Political change is a decision about who holds power.
+
+And Mr. President:
+
+That is what I have come to speak about today: Power!
+
+Two and a half thousand years ago, the envoys of Athens stood before the small island of Melos and told its people a simple truth about power.
+
+The strong do what they can. The weak suffer what they must.
+
+Eighty-one years ago, in San Francisco, humanity wrote a different law. The sovereign equality of nations. Not equality of size or wealth. Equality of standing.
+
+The United Nations was the world's answer to Melos.
+
+But in 1945, nearly one in three people on earth still lived under colonial rule, the people of my islands among them.
+
+The Bahamas was not in that room. But we were on the map.
+
+Then came political change. Not granted from above. Demanded from below.
+
+On the eighteenth of September 1973, The Bahamas took its seat in this Assembly.
+
+Then in 1985, Commonwealth leaders met in my own capital and agreed The Nassau Accord against apartheid. We were told pressure would never work. Less than five years later, Nelson Mandela walked free.
+
+None of that happened because the powerful suddenly found their conscience. It happened because the balance of power in the room was changed.
+
+That is the lesson of history. Change is not given, it is organised.
+
+Mr. President:
+
+It is not the small states who are dismantling the rules-based order.
+
+Small countries cannot dismantle a rules-based world. But we will be the first to be crushed beneath its collapse.
+
+Great powers can survive the end of the rules. Small states cannot. For us, a rules based world is our shield.
+
+The rules have not always been applied fairly. But the answer is not a world without rules. It is rules that bind the strong as firmly as the weak.
+
+International order, where rules apply only to the weak, is not order. It is a hierarchy.
+
+When The Bahamas defends multilateralism, we are not defending a bureaucracy. We are defending the only successful arrangement in which a nation of four hundred thousand people can stand at this podium as the sovereign equal of a nation of a billion people.
+
+A world without rules is not a free world. It is Melos.
+
+Mr. President:
+
+I do not appeal to conscience. Small states have done that for decades. Today, I appeal to your interests.
+
+What is in your best interest?
+
+No wall is high enough to keep out rising warming seas. No border strong enough to stop a pandemic.
+
+Narrow self-interest asks what you can take today. Enlightened self-interest asks what kind of world you will have to live in tomorrow.
+
+The international, rules-based order benefits all. They are not arbitrary having been arrived at through lived experience.
+
+Every rule you break today is a rule you will need tomorrow. Every institution you starve is one you will one day call upon. Every small nation you abandon is a crisis you will one day inherit.
+
+Defending the rules is not a favour to the small. It an insurance for the strong.
+
+Mr. President:
+
+Nowhere is that truer than the climate crisis.
+
+Here too, we are told there is uncertainty. There is none.
+
+The sea does not negotiate. It does not read communiqués. And it does not recognise a veto.
+
+In 2024, for the first time, the world was more than one and a half degrees warmer for an entire year. The line which small island states fought to write into the Paris Agreement, has already been crossed.
+
+A new report released only days ago warns that the El Niño phenomenon, now heating the planet, is likely to cost some four hundred and fifty thousand lives by next February.
+
+In 2019, Hurricane Dorian inflicted damage and losses on The Bahamas equal to roughly a quarter of our national output. Families watched the sea take the only land they had.
+
+Most of my country sits barely above sea level. For us, a rising ocean is not a forecast.
+
+It is a boundary inching towards our doorsteps.
+
+That is why The Bahamas proudly endorses yesterday's Declaration on Sea-Level Rise, which affirms that our statehood, our boundaries and our seat in this Assembly will not be washed away by the sea The science is certain. Last year, the International Court of Justice made clear that the law is also certain.
+
+The injustice is certain too. The people who bear least responsibility are asked to adapt first, pay more, and recover from disasters they did not cause.
+
+And the self-interest is certain. People who lose their homes do not disappear. They move, and they arrive at someone's border. Prevention costs less than rebuilding or relocating.
+
+The Bahamas is taking action. But no nation, acting alone, can hold back the tides.
+
+Nor can we build resilience inside a financial system designed at Bretton Woods in 1944, which still declares us too prosperous to help, until the next storm makes us poor.
+
+The Vulnerability Index exists. The Loss and Damage Fund exist. What is missing is the power shift to make them operational and real.
+
+Mr. President:
+
+The next contest for power will not only be fought over land and sea. It will be fought over data.
+
+Our citizens’ data crosses the world without a visa and without a vote. It leaves our shores as raw material, and returns as products we must buy.
+
+We have seen this pattern before. My islands once exported salt, sponge and sisal.
+
+Others set the price. Others kept the profit.
+
+The commodity has changed. The pattern has not.
+
+This is colonisation by data.
+
+It does not arrive with ships and flags. It arrives in a box on a screen and a button that says, I agree.
+
+I am talking about the capacity of a people to govern their own digital lives.
+
+People whose daily lives and histories are being mined, should decide where their data lives, who may use it and on what terms.
+
+Those people should be able to share in the value which their data creates.
+
+It means building artificial intelligence that understands our languages, our laws and our lives, not only the lives of those in the wealthy North and dominate languages and cultures.
+
+And it means taking part in the digital age on our own terms, not as consumers of other people's systems, but as builders of our own.
+
+Data is the newest raw material in the global economy.
+
+The old empires took our lands, plundered them and renamed them. The new ones seek to take our data, and hand us back a picture of ourselves, one we did not paint.
+
+In this modern age, are we expected to be simply the unquestioning suppliers of data, or can we not rightfully expect to participate in processing our own data so as to refine it, govern it and profit from it?
+
+We do not think it outrageous to demand that small states help write the rules of this new age, not simply be shown where to sign.
+
+That is why The Bahamas asks you to support the nomination of Mr. Stephen Bereaux for Deputy Secretary-General of the International Telecommunication Union.
+
+Mr. President:
+
+The Security Council was designed by the victors of a war that ended eighty-one years ago. The world has changed. The Council has not.
+
+Five nations still hold a veto over the peace of one hundred and ninety-three. Most of the nations in this Hall did not exist when that arrangement was made. None of us was asked.
+
+An institution that cannot reform itself cannot hope to reform the world.
+
+Power without legitimacy is not order. It is control. And a peace kept only by the powerful is not peace. It is permission.
+
+That is why The Bahamas seeks a seat on the Council for the 2032–2033 term.
+
+The Bahamas does not seek a seat on the Council to sit quietly inside that arrangement.
+
+We seek it to help change it: a Council that reflects the world as it is, and that gives small island states a dedicated seat at the table where our survival is decided.
+
+Change must also reach the leadership of this Organization.
+
+The Bahamas supports the candidature of Her Excellency Carolyn Rodrigues-Birkett of Guyana for Secretary-General.
+
+A former Foreign Minister who has presided over the Security Council, she understands what rules mean for nations with no other protection.
+
+In eighty-one years, this Organization has had nine Secretaries-General. All of them men. None has come from the Caribbean. The Bahamas believes the time has come for both to change.
+
+Mr. President:
+
+In our own hemisphere, The Bahamas again calls for the lifting of the strengthened blockade against Cuba, an end to the fuel blockade, and Cuba's removal from the unilateral list of alleged state sponsors of terrorism. The Cuban people are suffering.
+
+We call on all states to respect Latin America and the Caribbean as a Zone of Peace.
+
+And we must speak of Haiti.
+
+Haiti was the first nation on Earth born from a successful revolt by enslaved people. For that act of courage, it was made to pay. In 1825, under the guns of a foreign fleet,
+
+Haiti was compelled to compensate its former colonisers for its own freedom. It took Haiti more than a century and a half to pay that compensation.
+
+If you want to see what sovereignty costs when it is only allowed, and never respected, look at Haiti.
+
+When the Security Council meets on the 30th of September, we urge it to renew the mandate under Resolution 2793, and to give the Gang Suppression Force the resources to deliver, in a partnership that respects Haitian sovereignty.
+
+Mr. President:
+
+The injustice of this century has a history. And history presents its bill.
+
+This month, CARICOM advanced its Ten-Point Plan for reparatory justice, building on this Assembly's recognition, in March, of the trafficking and racialised enslavement of Africans, as crimes against humanity.
+
+The wealth of empires was built on the stolen lives of our ancestors, including enslaved children. It is important that the former colonisers have recognised this atrocity, as recognition was a vital step. But recognition without repair is only a sentence on a page.
+
+We call on the nations that profited to engage seriously with reparatory justice: truth, apology, restoration and development.
+
+Mr. President:
+
+The founders of this Organization made their promise in the ruins of war.
+
+We should not need ruins to find our own courage.
+
+The United Nations was not created to manage the decline of its own promise. It was created to build on it.
+
+These are not uncertain times. The only uncertain thing is how we respond.
+
+I challenge you, I dare you, I encourage you, I demand of you:
+
+Let history record that we responded through change.
+
+Thank you.
+
+ENDS

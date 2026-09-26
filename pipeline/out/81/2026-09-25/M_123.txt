@@ -1,0 +1,437 @@
+---
+session: 81
+slug: papua-new-guinea
+id_speech: M_123
+country: Papua New Guinea
+speaker: James Marape
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/pg_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.611
+---
+
+Mr. President,
+
+Secretary-General,
+
+Excellencies,
+
+Distinguished delegates,
+
+I bring you greetings from Papua New Guinea, a nation of extraordinary diversity, with more than 800 languages and cultures, united under one flag.
+
+Mr. President,
+
+Papua New Guinea comes to this Assembly with profound respect for the Charter of the United Nations and for the principles and purposes upon which this great institution was founded.
+
+The United Nations reminds us that whether we are big or small nations, rich or poor, developed or developing, powerful or less powerful, we are all members of one international community.
+
+The challenges confronting humanity do not recognise the size of our economies, the strength of our militaries or the boundaries on our maps.
+
+No nation can address them alone.
+
+We must therefore continue to work together, respecting the sovereignty of nations, upholding international law and the United Nations Charter, resolving our differences peacefully, and recognising that every nation, regardless of its size or economic strength, has a voice and a place in this Assembly.
+
+For Papua New Guinea, and for the small island nations of the Pacific, multilateralism matters.
+
+The United Nations provides a place where the smallest nations can sit alongside the largest, where our voices can be heard, and where we can work together on the common challenges facing humanity.
+
+Mr. President,
+
+At this time, I also wish to acknowledge Secretary -General António Guterres as he approaches the completion of his tenure.
+
+On behalf of the Government and people of Papua New Guinea, I thank Secretary General Guterres for his strong and consistent advocacy for humanity.
+
+At a time when our world has confronted war, displacement, poverty, inequality, climate change and many other challenges, he has consistently called for peace, human dignity, international cooperation and respect for the principles of the United Nations He has demonstrated the qualities of a global statesman and has used his office to speak for humanity, including those whose voices are too often unheard.
+
+Secretary-General Guterres, Papua New Guinea thanks you for your service to the United Nations and to humanity.
+
+Your advocacy reminds us that beyond our national borders, political differences, cultures and beliefs, we belong to one human family and share one Earth.
+
+Mr. President,
+
+It is in that spirit of our common humanity that I wish to speak about human rights, human freedom and, particularly, freedom of conscience, thought, religion and belief.
+
+At the heart of human rights is a simple truth: every human being has inherent dignity and is entitled to fundamental freedoms.
+
+From my Christian perspective, these freedoms are not gifts bestowed upon humanity by governments, institutions or powerful nations. They are God-given rights inherent in every human life.
+
+And because these rights belong equally to every person, we have a responsibility to respect and protect the rights of others, including those who may not look like us, speak like us, worship like us or believe what we believe.
+
+The strength of a nation, a government, an economy, a technology or a religion should never be used to suppress the fundamental rights of another human being.
+
+The might of military power must not suppress the weak.
+
+The might of economic power must not suppress the poor.
+
+The might of technology must not diminish human dignity or freedom.
+
+And the might of a religious majority must never be used to suppress those who belong to a religious minority.
+
+Human rights have their greatest meaning when they protect those with less power, minorities, vulnerable communities and individuals whose beliefs may differ from those of the majority.
+
+We must therefore learn to live together with mutual respect.
+
+We do not have to agree on everything.
+
+We do not have to share the same religion, culture, political system or worldview.
+
+But we must respect the humanity and fundamental freedoms of one another.
+
+Mr. President,
+
+This principle is especially important when we speak about religion.
+
+Papua New Guinea is a Christian nation, believing that Jesus Christ is our Lord, Saviour and soon-coming King. Christian principles have profoundly influenced our country, our communities and our institutions.
+
+But our Christianity must never become an excuse to deny another human being freedom of conscience.
+
+Section 45 of our Constitution guarantees every person freedom of conscience, thought and religion, and the practice of his or her religion and beliefs.
+
+Our Constitution also protects people against being compelled to participate in religious observance and against attempts to force religion or irreligion upon another person.
+
+Mr. President,
+
+Faith that is forced is no longer faith.
+
+I believe freedom of choice is a God -given right, implanted in the conscience of every human being. Our moral consciousness comes from God.
+
+God does not compel worship. He calls people through love while allowing every person to exercise the freedom of choice He has given them.
+
+True faith therefore cannot be imposed by force, fear, law or persecution.
+
+A person must be free to believe.
+
+A person must be free to worship.
+
+A person must be free to change his or her belief.
+
+And a person must also be free not to profess a religion.
+
+The Universal Declaration of Human Rights recognises this principle in Article 18, the right to freedom of thought, conscience and religion.
+
+Mr. President,
+
+History teaches us what happens when governments, institutions or majorities use religion to suppress those who believe differently.
+
+Human beings have been persecuted, expelled, imprisoned and killed because of their faith.
+
+Humanity must learn from this history.
+
+A Christian-majority nation must protect people of other religions.
+
+A Muslim-majority nation must protect people of other religions.
+
+A Hindu-majority nation must protect people of other religions.
+
+A Buddhist-majority nation must protect people of other religions.
+
+And every society must respect the rights of those who choose not to profess a religion.
+
+The size of a majority does not diminish the human rights of the minority.
+
+The United States of America, where this Assembly meets, expressed this principle more than two centuries ago through its First Amendment, which prohibits laws “respecting an establishment of religion, or prohibiting the free exercise thereof.”
+
+Government should neither impose faith upon its people nor prevent people from practising their faith.
+
+Papua New Guinea supports this principle.
+
+We are proudly Christian.
+
+But the strength of our Christianity should not be demonstrated by suppressing another person’s beliefs.
+
+It should be demonstrated by having the confidence to allow every human being freedom of conscience.
+
+Humanity can be diverse in culture, religion and thought, yet we must be united in respecting and tolerating our differences.
+
+Mr. President,
+
+Papua New Guinea knows something about diversity.
+
+We have more than 800 languages and many different cultures and traditions.
+
+Yet for 51 years as an independent nation, we have remained together as one Papua New Guinea.
+
+We have disagreements and challenges. We do not claim perfection.
+
+But our experience demonstrates something important:
+
+Diversity does not have to mean division.
+
+People can speak different languages and still belong to one nation.
+
+People can come from different cultures and live under one Constitution.
+
+And people can worship differently and still be neighbours, colleagues and fellow citizens.
+
+Mr. President,
+
+Papua New Guinea therefore calls upon all Member States to defend freedom of conscience, thought, religion and belief.
+
+And I respectfully extend this call to every nation that calls Papua New Guinea a friend, every nation with which we have a bilateral partnership, and every nation that seeks friendship and engagement with us.
+
+Look within your own borders.
+
+Ensure that religious minorities are not persecuted, suppressed, intimidated or discriminated against because they practise a religion different from that of the majority.
+
+Whether a country is predominantly Christian, Muslim, Hindu, Buddhist or follows another religious tradition, the faith of the majority must never become an instrument for persecuting the minority.
+
+This message is not directed at one country, one religion or one region.
+
+It is a principle that must apply equally to all of us.
+
+Because human rights cannot be selective.
+
+We cannot demand respect for our own rights while denying those same rights to others.
+
+And we cannot ask the world to respect our beliefs while refusing to respect the freedom of conscience of another human being.
+
+Mr. President,
+
+But there is a wider principle here.
+
+This is ultimately about human dignity.
+
+If we recognise the dignity of every human being, then we must also consider the conditions in which people live — and the Earth we will leave to our children.
+
+The United Nations General Assembly has recognised the human right to a clean, healthy and sustainable environment.
+
+What value is freedom if a child has no clean water to drink?
+
+What value is development if we destroy the environment that sustains human life?
+
+And what inheritance are we leaving our children if our forests disappear, our oceans become polluted and our climate becomes increasingly unstable?
+
+There is one reality that transcends every political, economic and religious difference between us:
+
+We have only one Earth.
+
+There is no other known habitable planet presently within the practical reach of humanity to which billions of people can simply relocate if we destroy this one.
+
+This Earth is our common home.
+
+Whatever our religion, nationality or political system, we breathe the same atmosphere.
+
+We share the same oceans.
+
+We depend upon the same global climate.
+
+And ultimately, we share the consequences of what humanity does to this planet.
+
+Mr. President,
+
+Think about the children of the world.
+
+A child born today did not create climate change.
+
+That child did not choose the wars of this generation.
+
+That child did not create pollution or environmental destruction.
+
+Yet that child will inherit the consequences of the decisions we make today.
+
+We must therefore be custodians not only of the present, but also of the future.
+
+Future generations cannot stand before this General Assembly today and argue for themselves.
+
+We must consider them when we make decisions about war and peace, development, energy, forests, oceans, minerals and the global economy.
+
+Papua New Guinea understands this responsibility.
+
+We are custodians of great tropical forests, extraordinary biodiversity and a vast ocean space.
+
+For us, the environment is not an abstract international discussion.
+
+It is where we live.
+
+It is where we grow our food.
+
+It is where we fish.
+
+And it is the inheritance we must pass to our children.
+
+Mr. President,
+
+In our interconnected world, decisions made in one country can affect people thousands of kilometres away.
+
+Greenhouse gases do not recognise national borders.
+
+Pollution carried by oceans does not stop at immigration checkpoints.
+
+Wars can disrupt food, fuel, energy, trade and supply chains far from the battlefield.
+
+Economic decisions made in the world’s largest economies can reach an ordinary family in a small developing country.
+
+A mother buying food can feel the consequences.
+
+A farmer buying fuel can feel the consequences.
+
+A small business facing higher transport costs can feel the consequences.
+
+And developing countries trying to build roads, schools and hospitals can feel the consequences.
+
+This is why leadership in powerful nations carries responsibilities beyond national borders.
+
+With greater power comes greater responsibility.
+
+Papua New Guinea respectfully asks the leaders of the world’s major powers to remember the ordinary people whose lives can be affected by decisions made far away from them.
+
+When wars disrupt food, fuel and trade, families far from the battlefield can experience higher prices and economic uncertainty.
+
+When the climate changes, communities that have contributed relatively little to global greenhouse-gas emissions can nevertheless face rising seas, extreme weather, threats to food security and damage to livelihoods.
+
+Mr. President,
+
+My appeal to leaders everywhere is simple:
+
+Put human welfare ahead of war.
+
+Put humanity ahead of narrow geopolitical interests.
+
+Choose dialogue and peaceful settlement wherever possible.
+
+Remember ordinary families when making major economic decisions.
+
+Balance commercial interests with the welfare of people.
+
+Use technology to advance human dignity, not diminish it.
+
+Protect our planet while pursuing development.
+
+And place the interests of our children and future generations at the heart of the decisions we make today.
+
+Leadership is not measured only by the power a nation possesses.
+
+Leadership is also measured by the responsibility with which that power is exercised.
+
+Papua New Guinea does not claim to have all the answers.
+
+We are a developing nation with challenges of our own.
+
+But perhaps our position as a Pacific nation allows us to remind the larger powers of a simple reality:
+
+No nation is so powerful that it can live apart from the Earth.
+
+And no nation is so small that its people should be forgotten when decisions affecting humanity are made.
+
+The military strength of a nation does not make the rights of another nation less important.
+
+The size of an economy does not make the dignity of a poorer person less important.
+
+Technological advancement does not diminish our obligation to protect human freedom.
+
+And the size of a religious majority does not reduce the rights of a minority.
+
+Power in all its forms must be exercised with responsibility.
+
+Mr. President,
+
+We are many tribes.
+
+Many languages.
+
+Many churches.
+
+Many cultures.
+
+But one nation.
+
+And perhaps Papua New Guinea can offer one simple thought to this Assembly:
+
+You do not have to believe what I believe in order for me to defend your human rights.
+
+Let governments govern for people.
+
+Let churches preach.
+
+Let mosques call their faithful to prayer.
+
+Let temples welcome their worshippers.
+
+Let people search their own consciences.
+
+Let economies serve humanity.
+
+Let technology serve humanity.
+
+Let powerful nations exercise their power responsibly.
+
+Let nations resolve their differences peacefully wherever possible.
+
+And let no State compel the human soul.
+
+Mr. President,
+
+We may have different religions, political systems, cultures and national interests.
+
+We may be big nations or small nations.
+
+We may be rich or poor.
+
+We may possess different levels of military, economic and technological power.
+
+But beneath those differences, we share something greater.
+
+We share our humanity.
+
+And we share one Earth.
+
+This is our home.
+
+We must protect it.
+
+We must protect each other.
+
+And we must leave our children a world better than the one we inherited.
+
+Papua New Guinea will remain proudly Christian.
+
+But we will also remain committed to freedom of conscience, thought and religion.
+
+For ultimately, faith cannot be commanded by government.
+
+Faith must come from the heart.
+
+God has given humanity the capacity to choose, and that freedom must be respected.
+
+And God has entrusted this Earth to our generation only for a time.
+
+Let us use our leadership wisely.
+
+Let us pursue peace.
+
+Let us uphold the Charter of the United Nations.
+
+Let us respect the rights and dignity of every human being.
+
+Let us work together — big nations and small.
+
+Let us ensure that power, whether military, economic, technological or religious, is never used to suppress the rights of others.
+
+Let us protect our common home.
+
+And let us remember always the generations who will follow us.
+
+Mr. President,
+
+On this note, I want to thank the United Nations and all those who have stood with Papua New Guinea over the last 51 years of our nationhood.
+
+Amid the challenges we face as a developing nation, we are growing our economy, opening our country through enabling infrastructure, working to provide quality education and health services for all, moving towards cleaner energy, conserving our forests and oceans, strengthening our independent judiciary and free-market economy, and opening our doors to genuine foreign investment.
+
+I want to assure this Assembly that my Government is working to ensure that none of our 11 million people is left behind as we pursue development, opportunity and a better quality of life in our God-given homeland.
+
+May God bless Papua New Guinea.
+
+May God bless all nations and all peoples.
+
+May God protect our children and the generations yet unborn.
+
+And may the United Nations continue to defend peace, human dignity, freedom and the Earth that we all share.
+
+Thank you.

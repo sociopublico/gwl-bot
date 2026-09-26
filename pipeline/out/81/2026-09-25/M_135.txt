@@ -1,0 +1,199 @@
+---
+session: 81
+slug: kazakhstan
+id_speech: M_135
+country: Kazakhstan
+speaker: Mukhtar Tileuberdi
+title: Minister for Foreign Affairs
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/kz_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.534
+---
+
+Mr. President,
+
+Distinguished Delegates,
+
+I congratulate His Excellency Mr. Khalilur Rahman on his election as President of the eighty -first session of the General Assembly and assure him that he can count on Kazakhstan’s full support throughout this session.
+
+Excellencies,
+
+Kazakhstan remains firmly committed to the purposes and principles of the Charter of the United Nations and to effective multilateral cooperation.
+
+Guided by a pragmatic and proactive foreign policy, we continue our efforts to strengthen international peace and security and to advance pragmatic solutions to our shared global challenges.
+
+For Kazakhstan, multilateralism is a key instrument for building trust, finding common gro und, and delivering results for our citizens and future generations. It is a key component of our own long-term social economic development.
+
+Kazakhstan has embarked on profound political transformation in response to societal demand and emerging challenges.
+
+Our new Constitution reinforces the foundations of national sustainable development by placing greater emphasis on human dignity, human capital, education, innovation, and environmental responsibility.
+
+We have also continu ed to strengthen the rule of law, public accountability and the protection of human rights. Elections last month to the new Kuryltai brought into parliament a diverse set of voices, including a historic high 34% of women.
+
+Mr. President,
+
+I express my country’s grave concern as the world continues its slide toward uncertainty and division.
+
+The erosion of trust among nations is rapidly reshaping the international order. Our collective inability to prevent conflicts, our collective indiffere nce toward humanitarian crises, and our collective reluctance to seek common solutions to shared challenges are all becoming normalized.
+
+Trust cannot be restored when international law is applied selectively and commitments remain unfulfilled.
+
+Our response must be grounded in the fundamental values we have affirmed together: freedom, equality, justice, and respect for human dignity.
+
+President Tokayev has repeatedly underscored the indispensable role of the United Nations as a single universal platform, uniquely capable of bringing the States together to address the challenges we face.
+
+But to fulfil its potential, UN must be able to act, adapt, and deliver.
+
+We fully support the UN-80 initiative.
+
+The success of the reform should be measured not by what is cut or reorganized, but by whether the United Nations prevents conflict more effectively, responds more rapidly to crises and delivers better results for all member States.
+
+Central to this renewal is reform of the Security Council. Broader representation of Asia, Africa and Latin America in the Council, as well as a greater voice for developing countries and for middle powers is a moral imperative.
+
+Equitable geographical representation must apply throughout the United Nations system as a condition of legitimacy and credibility.
+
+The selection of the next Secretary-General will be one of the defining moments of this session.
+
+Kazakhstan supports a tran sparent, inclusive and merit-based process conducted in full accordance with the Charter.
+
+Mr. President,
+
+The international security environment continues to deteriorate. World military expenditure s reached a record 2.9 trillion dollars in 2025. Our small planet is home to more than twelve thousand nuclear weapons, each one capable of untold damage and sorrow. Every year, we seem to lose more biodiversity yet gain more armaments.
+
+For Kazakhstan, nuclear disarmament in particular is not an abstract doctrine. It is a responsibility born of national experience.
+
+This year marks thirty-five years since the closure of the Semipalatinsk nuclear test site, thirty years since the CTBT opened for signature, and twenty years since the signing of the Semipalatinsk Treaty on a Nuclear-Weapon-Free Zone in Central Asia.
+
+Our experience of renouncing the world’s fourth largest nuclear arsenal d id not weaken our State. To the contrary through international trust, it strengthens sovereignty, enhance s security and promotes development.
+
+Today, that trust is again in danger. New START has expired, while the 2026 NPT Review Conference ended without substantive outcome for the third consecutive cycle.
+
+Nuclear weapon states must never confuse the absence of agreement with a vacuum of obligation.
+
+They remain responsible until we secure a world free of nuclear weapons.
+
+Kazakhstan advocates the relaunch of high-level dialogue among nuclear powers and is ready to host one of their next meetings.
+
+We will also continue advancing our earlier proposal to strengthen the BWC through establishing an International Agency for Biological Security.
+
+Distinguished Delegates,
+
+Peace and stability are a prerequisite for sustainable development. We stand firmly for diplomacy and dialogue, and against the escalation of tension and the use of force.
+
+We remain deeply concerned by the Ukrainian crisis, which continues to take lives, erode global trust and undermine international security.
+
+Even the most difficult conflicts must ultimately be resolved through diplomacy and negotiation.
+
+Beyond the tragic loss of life, Kazakhstan strongly condemns the repeated drone attacks against Kazakh crude oil export infrastructure, including against commercial vessels in the Black Sea basin.
+
+Such incidents endanger civilian navigation, disrupt international trade, and threaten the stability of global energy supplies.
+
+We call on all parties to uphold international law and take all necessary measures to protect critical infrastructure and ensure the safety and continuity of civilian commerce.
+
+Political and diplomatic means remain the only viable path towards ending hostilities and achieving a sustainable resolution of the Middle East crisis.
+
+The ongoing escalation carries serious implications for regional and international peace and security, as well as for economic stability, transport connectivity and energy security.
+
+A just and lasting peace in the Middle East requires an independent, sovereign, and viable State of Palestine living side by side with Israel in peace and security.
+
+We support the New York Declaration as a framework for tangible, time -bound and irreversible steps towards the two-State solution.
+
+My country stands ready to support every effort aimed at maintaining unhindered humanitarian assistance, protection of civilians and the recovery of Gaza.
+
+Kazakhstan calls for the full and good -faith implementation of the Comprehensive Plan to End the Gaza Conflict and Security Council resolution 2803.
+
+As a member of the Board of Peace, President Tokayev has committed to contribute to the stabilization of Gaza, by supporting civilian reconstruction, ensuring food security, and providing digital gover nment solutions.
+
+Kazakhstan’s peacekeepers in UNDOF and UNIFIL reflect our readiness to assume practical responsibility and contribute to the internationally mandated stabilization forces in Gaza.
+
+Kazakhstan formally announced its intention to join the Abraham Accords. We see them as an additional platform to reinforce the UN-brokered political process towards a two-State solution.
+
+The long -term stability of Afghanistan remains inseparable from the security and sustainable development of Central Asia. Humanitarian assistance remains indispensable, but it cannot by itself break the cycle of poverty, displacement and dependency.
+
+Kazakhstan supports pragmatic, coordinated and step-by-step international engagement with Afghanistan, with the UN playing the central role.
+
+Finally, we have watched with growing concern in recent years the erosion of the protection of civilians in conflict zones. In response, together with Brazil, China,
+
+France, Jordan, South Africa and the ICRC,
+
+Kazakhstan is advancing the Global Initiative to Galvanize Political Commitment to International Humanitarian Law.
+
+Mr President,
+
+The growing role of middle powers in global affairs is opening new avenues for practical cooperation to achieve SDGs.
+
+Kazakhstan is working with the United Nations to operationalize the United Nations Regional Centre for the Sustainable Development Goals for Central Asia and Afghanistan in Almaty.
+
+Its success should be measured by what it delivers. I thank my colleagues, the Foreign Ministers of Central Asia, for helping s hape a practical and focused agenda for the Centre.
+
+Reaffirming our commitment to (Declaration of AlmaAta and the Declaration of Astana ) advancing primary health care as the cornerstone of universal health coverage, we call upon UN Member States to join the Global Coalition on Primary Health Care.
+
+2026 has been designated by this body as the International Year of Volunteers for Sustainab le Development. This initiative, originally at President Tokayev’s suggestion, has given new impetus to volunteerism as a force for stronger communities, youth engagement, and environmental action.
+
+In Kazakhstan and elsewhere, hundreds of thousands of people have joined volunteer activities.
+
+Excellencies,
+
+Environmental challenges are among the defining issues of our time. Climate change, biodiversity loss, land degradation and the growing frequency of natural disasters are placing increasing pressure on our societies and economies.
+
+The Regional Ecological Summit, held in Astana in April, reaffirmed that climate, water, food and health challenges cannot be addressed in isolation.
+
+Its declaration «Environmental Solidarity of Central Asia», provides a strong foundation for advancing regional cooperation on environmental protection and sustainable development.
+
+On the same day, the Heads of State of the founding countries of the International Fund for Saving the Aral Sea (IFAS) declared an International Day of the Aral Sea and the Amu Darya and Syr Darya rivers, with the aim of raising global awareness of the region’s environmen tal challenges and mobilizing greater international support for their preservation.
+
+We are grateful for the support of UN Member States and partners for President Tokayev’s proposal to proclaim 22 April as the International Day of Greening of the Planet, aimed at amplifying global efforts to restore ecosystems.
+
+Kazakhstan pursues a human-centered approach to contemporary challenges, emphasizing peacebuilding, dialogue, and cooperation as an essential response to the complex global challenges of our time.
+
+This approach is underpinned by a broader mental shift towards environmental stewardship, civic engagement, and care for the public good.
+
+It is reflected in nationwide efforts to improve public spaces, advance large -scale greening, and promote the values of respect for the rule of law, active and responsible patriotism, volunteerism, and compassion as integral elements of everyday life and civic culture.
+
+This brings us to another critical to pic of our days. Healthy ecosystems depend on water. Water security is fundamental to the well-being and resilience of our societies.
+
+Water underpins public health, food and energy security, climate resilience and peace. Yet, despite its fundamental importance, global water governance remains fragmented.
+
+The recent devastating floods in the mountainous regions of Nepal and China remind us of the growing risks associated with water - and climate -related disasters.
+
+In this context, President Tokayev has proposed the establishment of an International Water Organization under the auspices of the United Nations. The purpose is to make international water governance more coherent, accountable and capable of effective implementation.
+
+Kazakhstan calls for an inclusive, Member Stateled process to explore options for strengthening the institutional architecture for water within the United Nations.
+
+We will continue to advance this discussion in the lead-up to the 2026 United Nations Water Conference in Abu Dhabi.
+
+Kazakhstan stands ready to work with all Member States and partners to advance this common agenda.
+
+Distinguished Delegates,
+
+Artificial intelligence and rapid technological change present another area where urgent international cooperation is needed.
+
+At home, we are investing in computing capacity, digital infrastructure and AI skills. We are forging new trusted partnerships on AI governance and emerging technologies. And we have recently adopted a Law on Artificial Intelligence and a new Digital Code.
+
+But without effective governance at all levels, it will also deepen inequality, create new security risks – as we have seen very recently – and widen the digital divide.
+
+We also should not let ethical norms fall behind this rapid evolution. AI must remain human -centered, safe and subject to meaningful human oversight.
+
+These risks are particularly serious in the military domain, where the use of AI in warfare and cyber operations could have far-reaching consequences for international stability.
+
+Kazakhstan supports stronger international rules and cooperation, including through the United Nations Global Mechanism on ICT Security and UN Global Dialogue on AI Governance.
+
+At the regional level, we invite partners to engage with the UN ESCAP Asia -Pacific Digital Solutions Centre in Almaty as a platform for sharing expertise and advancing regional digital cooperation.
+
+Ladies and Gentlemen,
+
+One thing is clear: there is a g lobal trust deficit.
+
+Restoring trust will take time. But greater trust will not just appear like magic, it is the result of increased, not decreased, international cooperation. We must build it.
+
+That system of international cooperation we call multilateralism, in whose famous hall we stand today, depends on us, just as we depend on it. True, the institutions of multilateralism must deliver tangible benefits, but equally true, we the member states must honor our commitments, adhere to global standards, and work together.
+
+Kazakhstan will remain a reliable partner for peace, security and sustainable development. We will continue to choose cooperation over confrontation and work with all Member States to strengthen the United Nations and turn our shared commitments into meaningful action.
+
+I thank you.

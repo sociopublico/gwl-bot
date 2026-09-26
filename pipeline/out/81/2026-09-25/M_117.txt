@@ -1,0 +1,247 @@
+---
+session: 81
+slug: tuvalu
+id_speech: M_117
+country: Tuvalu
+speaker: Feleti Teo
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/tv_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.634
+---
+
+Mr. President.
+
+Excellencies.
+
+Distinguished delegates.
+
+1. It is an honour, once again, to address this august Assembly on behalf of the Government and people of Tuvalu.
+
+2. I congratulate His Excellency Khalilur Rahman of Bangladesh on assuming the role of the President for the 81st Session.
+
+3. President Rahman, you can count on the full support of Tuvalu.
+
+4. I also congratulate the outgoing President Her Excellency Annalena Baerbock of Germany for her exceptional and exemplary leadership.
+
+5. Mr President.
+
+Message of condolences
+
+6. Tuvalu extends its deepest sympathies and condolences to all communities worldwide that are affected by ongoing armed conflicts and recent natural disasters, including the devastating floods in Nepal and Myanmar, the earthquake in Colombia, and the tragic loss of lives at sea in Vanuatu.
+
+7. Tuvalu reiterates its hope for peace, stability, and unimpeded humanitarian relief, and reaffirms its solidarity with all those facing violence, insecurity, and loss.
+
+8. Mr President.
+
+Tuvalu’s commitment to multilateralism
+
+9. In less than a week, Tuvalu will celebrate its 48th anniversary of independence, a significant milestone as Tuvalu approaches its golden jubilee of independence.
+
+10. On this month, Tuvalu also celebrates its 26th anniversary of UN membership.
+
+11. Tuvalu reaffirms its strong commitment to the values and principles of the UN Charter and to international law and to a multilateral system that protects the dignity and security of all peoples.
+
+12. This year also marks the historical and first deployment of Tuvalu police officers to serve in the UN mission in South Sudan.
+
+13. A deployment that confirms that even the smallest member of the UN can contribute meaningfully to international peace and security.
+
+14. Mr President.
+
+Restoring Trust, Managing Transformation: A United Nations that deliver for all
+
+15. The theme for this session “restoring trust, managing transformation: a United Nations that delivers for all”, resonates well with the moment of time we find ourselves in right now.
+
+16. There is no denying that the architecture of multilateralism and international law founded on the UN Chater is under enormous stress.
+
+17. And restoring trust in that architecture is critical, particularly for small island developing states like Tuvalu, whose sovereignty and future are anchored in that very architecture.
+
+18. Tuvalu therefore stands in solidarity with fellow Member States in contributing to the restoration of that trust and advancing the necessary reforms and transformations that will enable the United Nations to deliver for all.
+
+19. Mr President.
+
+Managing Transformation: Protecting Our Land,
+
+Preserving Who We Are
+
+20. Tuvalu, like other countries, is being challenged by various enforced transformations that threaten our land, values, knowledge and cultures.
+
+21. Climate change is transforming our physical environment.
+
+22. Technology is transforming how we communicate, govern and preserve knowledge.
+
+23. Artificial intelligence is changing the way economies and society function.
+
+24. The challenge is not to stop transformation.
+
+25. Rather, the challenge is to manage transformation in a manner that protect people, preserve what is valuable, and give every country the capacity to determine its own future.
+
+26. In response to the transformation to Tuvalu’s physical environment caused by rising seas, the Tuvalu coastal adaptation project (TCAP) has already reclaimed on the capital island of Funafuti, 15.3 hectares of elevated and flood free land as part of the reinforcement of the island’s coastal areas.
+
+27. A further 10 hectares is being reclaimed which is significant adjustment for a country with only around 26 square kilometres of land area.
+
+28. While we work to protect our physical territory, we are also contemplating preserving the intangible foundations of our nation, our traditional values, knowledge and cultures.
+
+29. In that regard, we have two digital initiatives.
+
+30. The first is the Tuvalu Digital Nation Initiative that utilizes digital technologies to sustain our sovereignty, institutions and our capacity to deliver services to ensure that our national identity is not lost in the transformation.
+
+31. The second is the Tuvalu Digital Ark Initiative which seeks to preserve Tuvalu’s culture and historical heritage in digital form.
+
+32. Mr. President UN Political Declaration on Sea-Level Rise
+
+33. Less than twenty -four hours ago, Member States endorsed in this very building, the landmark United Nations Political Declaration on Sea-Level Rise.
+
+34. A monumental and gratifying achievement for Tuvalu, because Tuvalu was at the forefront of global efforts demanding for such a declaration.
+
+35. For Tuvalu, sea-level rise is not a future threat, it is a present reality.
+
+36. Tuvalu is therefore overwhelmed with joy and warmly welcome the commitments the Declaration entails namely: (i) It affirms the continuity of statehood and sovereignty despite sea-level rise.
+
+(ii) It safeguards the permanence of maritime zones and rights established under UNCLOS.
+
+(iii) It recognises and protects the rights, dignity, culture, identity, and heritage of affected peoples.
+
+(iv) It commits to strengthened adaptation and resilience.
+
+(v) It calls for accessible, predictable, and needs-based climate finance.
+
+(vi) And it supports science, technology, data, and knowledge systems that enable informed decisionmaking and long-term planning for vulnerable countries.
+
+37. The Declaration affirms that Tuvalu’s nationhood is not negotiable, that our maritime rights are not erasable, and that our people should never be forced to choose between their homeland and their future.
+
+38. Mr. President Sustainable Development Goals
+
+39. For the sustainable development goals (SDGs), Tuvalu is seriously concerned that the world is not on track to achieve them, because the consequences of such shortfall will be acutely felt by small island developing states.
+
+40. Of the SDGs, Tuvalu underscores the urgent need to accelerate progress on SDG 14, Life Below Water which is the least funded and progressed, yet it is the most fundamental to the survival and prosperity of small island developing states.
+
+41. Tuvalu calls on Member States to expedite implementation of the commitments of the Third United Nations Ocean Conference and to build momentum towards the fourth conference in the Republic of Korea in 2028.
+
+42. Mr President Climate Change and the Global Response
+
+43. Climate change is and remains the single greatest existential threat to Tuvalu’s survival, security, and sustainable development.
+
+44. Tuvalu acknowledges the efforts of the international community to address the climate crisis, but the pace and scale of global actions remain insufficient.
+
+45. With a temporary overshoot of the 1.5°C target now inevitable, a fast, fair, just, and orderly transition away from fossil fuels is even more urgent and require serious attention.
+
+46. Although the science may be clear that methane mitigation is the only scalable, near-term solution capable of rapidly slowing global temperature rise and buying time for longterm CO2 decarbonization strategies to take effect.
+
+47. Tuvalu would insist that CO2 mitigation must also remain a top priority and that both methane mitigation and CO2 mitigation should be vigorously pursued simultaneously.
+
+48. Therefore, the Tassiriki Call for a Fossil Fuel Free Pacific and the Funafuti Call for Climate Justice and Climate Action are critical Pacific -led instruments championing Pacific regional survival and global climate actions.
+
+49. Towards that objective, Tuvalu is determined to play its part in driving greater ambition, including hosting the Leaders’ Segment of the Pre -COP31 next month, and co hosting with Ireland in Tuvalu next year the Second Conference on Transitioning Away from Fossil Fuels.
+
+50. Tuvalu reminds states of their legal obligations to take appropriate action to protect the climate system from greenhouse gas (GHG) emissions, as failure to do so constitute an internationally wrongful act as confirmed by the ICJ Advisory Opinion.
+
+51. Tuvalu welcomes the operationalisation of the Loss and Damage Fund and call on countries to honour their pledges and commitments.
+
+52. Adequate, predictable, and timely financing is essential to ensure the Fund can fully deliver on its mandate and provide meaningful support to those most vulnerable to climate related loss and damage including non -economic loss and damage.
+
+53. Finance, therefore, must be provided as grants at the scale required to address the climate impacts already unavoidable and the increasing loss and damage caused by further warming.
+
+54. Tuvalu stands ready to work with all nations to advance climate ambitions, strengthen resilience, and ensure that no country is left behind.
+
+55. Tuvalu’s message is clear: the world must act now decisively, collectively, and with urgency to protect the future for generations to come.
+
+56. Mr President.
+
+Ocean Governance and the Blue Pacific
+
+57. The ocean is central to Tuvalu’s identity and sustainable development.
+
+58. The ocean has sustained Tuvalu for generations and remains at the heart of our existence, our future and our resilience.
+
+59. Tuvalu may have only 26 square kilometres of land, but we are custodians of some 750,000 square kilometres of ocean, which makes Tuvalu a large ocean state.
+
+60. This year, Tuvalu soft -launched its first ever National Ocean Policy, a comprehensive framework to strengthen our stewardship of marine resources, affirms the permanence of our maritime zones, protect biodiversity, and place the ocean at the centre of our resilience and sustainable development.
+
+61. We thank all our partners whose invaluable support helped turn this national vision into reality.
+
+62. For Tuvalu, ocean governance is not simply an environmental policy.
+
+63. It is also an issue of economic security, food security and climate security.
+
+64. Tuvalu has ratified the BBNJ Agreement and looks forward to contributing to the first Conference of the Parties of the Agreement next year.
+
+65. Tuvalu’s objective towards the implementation of the BBNJ is simple in that the ocean areas beyond national jurisdiction belong to our shared future and must be governed responsibly based on science, equity, the precautionary approach and effective international cooperation.
+
+66. Mr. President Financing Resilience at the Speed of the Crisis
+
+67. Tuvalu, like other small island developing states, is highly vulnerable to climate and economic shocks, but the international financing architecture is ill -equipped to respond effectively to those shocks.
+
+68. Earlier this year, Tuvalu declared a national state of emergency due to prolong electrical power disruptions caused by fuel shortages, escalating energy costs and infrastructural deficiencies.
+
+69. Although, Tuvalu did receive with gratitude external assistance, the timing and scale of those responses were slow and insufficient, and this is why access to rapid disbursement and crisis -response financing is essential for the stability and resilience of small island developing sates.
+
+70. Tuvalu, therefore, continues to urge the international community to adopt financial approaches that match the urgency of the crisis with simpler and faster access to climate finance, scaled-up adaptation funding, accessible loss and damage finance, and rapid -disbursement crisis mechanisms.
+
+71. Mr President.
+
+72. In the Pacific, Pacific Leaders have adopted the Pacific Resilience Facility as a regional financing mechanism to help our communities respond effectively to the growing impacts of climate change.
+
+73. Tuvalu calls on the international community and our development partners to support the full capitalisation of the Pacific Resilience Facility, to enable Pacific -led and Pacific-owned solutions to build resilience where it matters most.
+
+74. Mr. President Mobility with dignity
+
+75. Adaptation and building resilience against the impacts of climate change will reduce the severity of climate change but will not eliminate all consequences of climate change.
+
+76. One of those consequences is people deciding to migrate and set up home elsewhere.
+
+77. Although relocation is not part of Tuvalu’s climate change strategy, it is inevitable that some Tuvaluan may decide to migrate and it is incumbent on the Government to ensure that they do so with dignity.
+
+78. Tuvalu has therefore endorsed the Global Principles for Climate Mobility, which are rights-based, people -centred and grounded in international law.
+
+79. We invite all Member States and partners to join us in advancing this framework of cooperation and common ambition.
+
+80. Mr. President Call for support of and condemnations
+
+81. As we call for a multilateral system that delivers for all nations, we must also uphold the principles of dignity, inclusion, and equality for all peoples.
+
+82. Yet too many communities remain outside the structures designed to serve all humanity.
+
+83. Tuvalu therefore calls for arrangements that enable the meaningful participation of the 23.3 million people of Taiwan in the UN and its specialized agencies and mechanisms.
+
+84. Taiwan has consistently demonstrated that it is an able, trustworthy, and a constructive partner in addressing global challenges, and its exclusion undermines both the spirit and effectiveness of multilateral cooperation.
+
+85. Tuvalu is also gravely concerned by the escalating military activities around Taiwan, which threaten stability across the Taiwan Strait, disrupt international transportation and trade, and jeopardize peace and security in the Pacific and beyond.
+
+86. We commend Taiwan for its calm and principled adherence to the values of the UN Charter, and we urge all Member States to uphold those same principles.
+
+87. At the same time, Tuvalu remains troubled by the long standing unilateral economic measures imposed on Cuba.
+
+88. These restrictions continue to inflict hardship on the Cuban people, contravene the human -rights commitments of the UN, and run counter to the cooperative spirit of the 2030 Agenda for Sustainable Development.
+
+89. The continuation of those economic sanctions deprives Cuba of essential development partnerships and support needed for recovery and future progress, and we call for the lifting of those sanctions.
+
+90. Tuvalu also supports the call for necessary reform of the UN Security Council to ensure that it is more representative, inclusive, transparent, and accountable, and better align with the reality of the twenty -first geo-political landscape.
+
+91. Mr. President Conclusion
+
+92. To conclude, I wish to assure this Assembly that Tuvalu stands in solidarity with the rest of the Member States to play its part in restoring trust and managing transformations to ensure the United Nations delivers for all.
+
+93. Tuvalu has shown that small nations can lead in climate adaptation and resilience, ocean stewardship, digital innovation, mobility with dignity, and the advancement of international law.
+
+94. Tuvalu’s ability to lead is not determined by the extent of our vulnerabilities but national leadership cannot substitute for global responsibility.
+
+95. The United Nations and its charter are the bedrock of international cooperation and multilateralism, and they must be guarded with all seriousness and integrity.
+
+96. Tuvalu will continue to stand firm in its efforts to safeguard its sovereignty, the health of the ocean, and the integrity of its people despite climate change and other global transformations because they are worth fighting for.
+
+97. And Tuvalu invites this Assembly to stand with us in that fight.
+
+98. Tuvalu thanks the outgoing Secretary General for his exceptional and exemplary leadership and wish him well in his retirement and other future endeavours.
+
+99. Thank you and fafetai lasi.
+
+100. Tuvalu mo te Atua, Tuvalu for God.
+
+END

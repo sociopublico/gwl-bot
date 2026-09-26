@@ -1,0 +1,125 @@
+---
+session: 81
+slug: norway
+id_speech: M_140
+country: Norway
+speaker: Espen Barth Eide
+title: Minister for Foreign Affairs
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/no_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.487
+---
+
+Secretary-General that firmly advocates the principles of the UN Charter, with integrity and authority.
+
+In a time of geopolitical tension, the Secretary General’s «Good offices» function becomes more important than ever before.
+
+The next Secretary-General will face the formidable task of helping us lead the UN out of its current crises.
+
+We need someone bold and transformative.
+
+She must be able to build trust, to implement our decisions, lead meaningful reform, and improve effectiveness.
+
+A true reform of this organisation must also address the composition and functioning of the Security Council. That is the common call of the majority in this room. The absence of Africa among the permanent seats in the Council is but one striking example.
+
+Whilst striving to improve legitimacy, we must ensure that we do not reduce efficiency. We need a Security Council that is open, transparent and accountable in its deliberations. A Security Council that is both legitimate and effective, measured in its ability to actually take meaningful action.
+
+President,
+
+There is no lack of challenges to be tackled:
+
+While wars and geopolitical tensions dominate the agenda, we must not lose sight of our most important shared responsibility: to take better care of the planet on which we all depend.
+
+Climate change, biodiversity loss and rampant pollution threatens life, property and prosperity everywhere.
+
+The catastrophic floods that struck the Himalayas last month is yet another stark reminder of the growing risks associated with a changing climate.
+
+The good news is that reducing emissions, and ensuring a more responsible management of the world’s natural resources is possible.
+
+We already have the insights and technologies to make this transition possible.
+
+And they are increasingly competitive from an economic perspective, as seen by the fast falling cost of renewable energy.
+
+But we can only succeed if we cooperate. We can not put fences around our own climate, biosphere, or deal with the ills of our oceans on our own.
+
+President,
+
+We live in the era of artificial intelligence. As Secretary-General Guterres phrased it in his speech: “We must control AI before it controls us”. I agree.
+
+Colleagues, we should not panic.
+
+But we must be determined.
+
+There is nothing inevitable in this development. Artificial Intelligence is developed by humans and must remain under human direction, oversight and control.
+
+It is becoming an integral part of our infrastructure. A part of almost all aspects of society and economy.
+
+And as we have done so many times before, we must maximise the positive benefits of emerging technologies while curbing its darker potentials.
+
+This week, Finland and Norway are appealing to businesses, governments and the UN alike to cooperate for responsible management of the opportunities and risks of AI.
+
+...
+
+Defence of essential human values goes beyond regulating technology.
+
+For decades, we saw a growth in democratic governance, respect for rule of law and for human rights.
+
+Sadly, this trend has now turned. Democratic backsliding, polarisation and weakening of our democratic shields challenges past achievements. Increasing economic inequality in countries exacerbates this trend.
+
+We should take democratic backsliding very seriously. While these may seem to be domestic concerns, we know that the way states behave internationally reflects on their domestic politics. Authoritarian and exclusivist sentiments within member states would therefore also affect our capacity to address our shared concerns.
+
+...
+
+President,
+
+The United Nations is one of humanity's greatest achievements.
+
+Not because it created a perfect world.
+
+It did not.
+
+But because it helped spare us from a far worse fate.
+
+For eighty years it has provided a space where nations can negotiate instead of fight, cooperate instead of confront, and build rules instead of yielding to raw power.
+
+The world we know today is safer, more prosperous and more just because the United Nations exists.
+
+The founders of the United Nations had witnessed two world wars and a global economic collapse.
+
+They knew something we must never forget:
+
+When law gives way to force, everyone loses.
+
+When cooperation collapses, everyone pays.
+
+When institutions fail, chaos follows.
+
+They did not build the United Nations because they believed mankind was perfect.
+
+They built it because they understood mankind is not.
+
+They built it because they knew that without rules, without dialogue, without cooperation, history has a habit of repeating its darkest chapters.
+
+That responsibility is now ours. Not only the Secretary-Generals.
+
+Ours.
+
+The United Nations belongs to the Member States.
+
+We decide whether it succeeds or fails.
+
+We decide whether reform advances or stalls.
+
+The time for reports has passed.
+
+The time for action is now.
+
+It’s our turn to face the monsters of our time.
+
+(END)

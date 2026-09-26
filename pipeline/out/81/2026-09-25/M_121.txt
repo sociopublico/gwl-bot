@@ -1,0 +1,287 @@
+---
+session: 81
+slug: albania
+id_speech: M_121
+country: Albania
+speaker: Edi Rama
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/al_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.862
+---
+
+Mr. President, Dear representatives of the Peoples of the United Nations,
+
+Gunpowder changed the battlefield. Nuclear fission changed the meaning of human survival.
+
+Artificial intelligence is changing something even more intimate: who can enter the mind of a citizen, imitate a trusted voice, manufacture a reality calibrated to one person’s fears, and do so millions of times at once.
+
+Albania is not a developer of frontier models.
+
+But we are a nation that has already lived the future others are still debating.
+
+And I have come here with a simple message:
+
+The greatest immediate danger is not that artificial intelligence will stop obeying humanity.
+
+The greatest danger is that it will obey the wrong human beings perfectly.
+
+The challenge comes in three layers: what artificial intelligence does instead of us, what it does to us, and who gains the power to reach us.
+
+First, what it does instead of us. The public debate imagines machines that awaken, acquire ambitions and turn against their creators.
+
+But the systems confronting us today do not wake up with hatred in their hearts.
+
+They multiply ours.
+
+They have no ambition of their own.
+
+They serve the ambitions of others.
+
+They carry no flag. But they can be deployed by a state.
+
+They tell no lie for their own benefit. But they can tell a billion lies on our behalf.
+
+The machine has no conscience, but it can borrow the reach of a government, the precision of a weapon and the intimacy of a friend.
+
+At the same time, the economic incentives surrounding artificial intelligence increasingly reward the replacement of human effort, rather than the enlargement of human capacity.
+
+Write the code so that I do not have to understand it.
+
+Draft the report so that I do not have to think through it.
+
+Make the judgment so that I do not have to assume responsibility for it.
+
+When success is measured only by how much work the machine removes from the human being, we may create more efficient institutions but less capable people.
+
+A civilisation that outsources effort may eventually outsource knowledge.
+
+A civilisation that outsources knowledge may eventually outsource judgment.
+
+And a civilisation that outsources judgment will discover that it has also outsourced responsibility.
+
+This is not inevitable. It is a choice. We can build artificial intelligence that teaches rather than merely answers, guides rather than commands, and strengthens the human being instead of making the human being dependent upon it.
+
+The question cannot be only: How quickly did the machine complete the task?
+
+We must also ask: What did the human being learn?
+
+Who understood the decision?
+
+Who can challenge it?
+
+And who answers when it is wrong?
+
+Albania became the first country to bring an artificial intelligence instrument into the architecture of government through Diella, our artificial intelligence minister.
+
+We did not do this to transfer sovereignty from people to a machine.
+
+We did it to make public services more accessible, procedures more transparent and the state more accountable.
+
+No machine possesses democratic legitimacy.
+
+No algorithm inherits constitutional responsibility.
+
+Behind every consequential public decision there must remain a legal mandate, a human institution and a name that can be called to answer.
+
+The second layer is what artificial intelligence can do to us.
+
+Artificial intelligence inside an accountable state can reduce the distance between citizens and public services.
+
+Artificial intelligence outside accountability can eliminate the distance between a lie and the human mind.
+
+Albania experienced this directly.
+
+A fabricated narrative of an Israeli invasion of the Albanian coast, an invasion that had never occurred, was manufactured, personalised and delivered through voices, pages and channels citizens already trusted.
+
+One citizen received a story of national betrayal.
+
+Another received a story of religious provocation.
+
+Another received a conspiracy of foreign occupation.
+
+Different fabrications entered different emotional worlds, all serving the same strategic lie.
+
+The consequences were real. Citizens protested against a phantom enemy.
+
+Antisemitic tropes entered our public discourse.
+
+Fear became anger, anger became mobilisation, and fabrication became political reality.
+
+This was not a laboratory experiment. It was not science fiction.
+
+It was a Tuesday in Tirana. The algorithm did not invent the objective.
+
+A human actor did.
+
+The algorithm did not develop hatred. It discovered how to activate ours.
+
+This is systematic fraud as a service. Election interference no longer requires one television station or one piece of propaganda repeated to an entire population.
+
+It can now operate at the resolution of one voter.
+
+Two neighbours may stand in the same street, vote in the same election and inhabit entirely different realities, each manufactured specifically for them.
+
+When that happens, democracy does not merely lose a debate.
+
+It loses the common ground on which debate is possible.
+
+Sovereignty no longer erodes only at the border.
+
+It erodes in the feed.
+
+In the twentieth century, sovereignty meant control over land, territorial waters and national airspace.
+
+In the twenty first century, it must also mean the capacity of a free society to defend the conditions under which its citizens form their own judgments.
+
+And then comes the third layer: reach. For centuries, the great threat to freedom of speech was censorship.
+
+Today, freedom of speech is also threatened by the weaponisation of freedom of reach.
+
+Speech is the right to express an idea. Reach is the power to place that idea before millions of people.
+
+Speech belongs to human beings. Reach can be purchased, automated, manipulated and secretly assigned by platforms, corporations, criminal networks and foreign states.
+
+The right to speak is universal. But there is no universal right to anonymous, unlimited and artificially amplified reach.
+
+When one lie can be multiplied a billion times, truth does not need to be censored.
+
+It can simply be buried.
+
+The citizen remains formally free to speak, but speaks into a storm that no human voice can match.
+
+Freedom of speech can therefore be defeated without banning a single book, imprisoning a single journalist or deleting a single post.
+
+The answer to bad speech remains more speech.
+
+But the answer to covert, industrial amplification must be exposure.
+
+Who created the message? Who paid for it? Was it spread by people or machines? Why was this citizen targeted?
+
+Was the apparent public reaction authentic, coordinated or foreign-directed?
+
+Defending democracy does not mean controlling what people are allowed to think.
+
+It means revealing the hidden powers seeking to control what people are made to see.
+
+If we protect freedom of speech while leaving the control of reach completely opaque, we defend the door while surrendering the room.
+
+Some respond by demanding that artificial intelligence be slowed or stopped.
+
+Albania respectfully disagrees. A pause by democracies will not produce a pause by dictatorships.
+
+A moratorium observed by responsible states will not restrain hostile powers, criminal networks or industries of manipulation.
+
+We cannot regulate ourselves into helplessness.
+
+On this essential strategic question,
+
+President Donald Trump is right: we cannot stop.
+
+We must accelerate.
+
+But acceleration must have a direction. We need artificial intelligence that is verifiable, transparent and accountable, built by free societies, shared among allies and placed in the service of citizens.
+
+The answer to weaponised automation is not technological surrender.
+
+It is democratic capacity. It is sovereign capability. It is better artificial intelligence in the hands of those who remain accountable under law.
+
+Sovereign artificial intelligence does not mean isolation.
+
+It means that no nation should be helpless before systems it cannot understand, inspect or challenge.
+
+Every country must be able to protect its language, authenticate public communications, detect coordinated manipulation, preserve evidence and inform its citizens without depending entirely on the commercial priorities of a distant corporation.
+
+This is why Albania is building an artificial intelligence based digital Mirror.
+
+The Mirror will identify manipulation in real time, test claims against authoritative information, reveal coordinated patterns and help citizens understand not only what they are seeing, but also how and why it reached them.
+
+It will not tell citizens what they must think.
+
+Truth cannot be decreed by a government.
+
+It must be evidenced, sourced, tested, challenged and defended in the open.
+
+The Mirror is not intended to become an arbiter of opinion.
+
+It is intended to become an infrastructure of transparency.
+
+It does not seek to create a ministry of truth.
+
+It seeks to defend society against an industry of lies.
+
+Albania therefore calls for an international compact for sovereign and democratic artificial intelligence.
+
+First, citizens must know when politically consequential content has been artificially generated or materially manipulated.
+
+Second, the architecture of reach must become transparent.
+
+Citizens and states must be able to know who created, financed, targeted and artificially amplified consequential political content.
+
+Third, every consequential use of artificial intelligence by a public institution must preserve a clear chain of human and legal accountability.
+
+Fourth, democracies must create a shared early warning system so that evidence of artificial intelligence driven manipulation can travel between allies as quickly as the manipulation itself.
+
+And smaller nations and smaller languages must not be abandoned outside this protective architecture.
+
+Digital sovereignty cannot become a privilege reserved for the richest states.
+
+Lies travel without visas. Algorithms cross borders without passports.
+
+Those attacking our societies already cooperate across jurisdictions.
+
+Our democracies must learn to do the same.
+
+This is not ultimately a contest between humanity and machines.
+
+It is a contest between different human purposes, each amplified by machines.
+
+Between those who use artificial intelligence to enlighten and those who use it to obscure.
+
+Between those who use it to empower citizens and those who use it to manipulate them.
+
+Between those who accept responsibility and those who hide behind automation.
+
+We should not fear that machines will become too human.
+
+We should fear that human beings will become invisible behind machines.
+
+Excellencies, Every generation is called upon to defend freedom in the territory where freedom is most threatened.
+
+For one generation, that territory was the battlefield.
+
+For another, it was the ballot box. For ours, it will increasingly be the human mind.
+
+Let us ensure that no citizen is left alone before an algorithmic army.
+
+Let us ensure that no small nation is forced to rent its understanding of reality from beyond its borders.
+
+Let us ensure that no democracy wakes up after an election to discover that its people exercised their freedom of choice inside a world secretly designed for them by someone they could not see.
+
+Artificial intelligence will not decide whether this century belongs to liberty or manipulation.
+
+We will.
+
+The machine will obey. The question is whom it will obey, under what law and in the service of what human purpose.
+
+Albania has made its choice. We choose acceleration, but not surrender.
+
+We choose innovation, but not abdication.
+
+We choose augmentation, not the atrophy of human capability.
+
+We choose sovereignty, but not isolation.
+
+We choose freedom of speech. And precisely because we choose it, we refuse to confuse it with the unchecked freedom of machines, money and foreign powers to reach everyone, everywhere, without disclosure.
+
+We choose truth, not because truth is always easy or comfortable, but because without a shared commitment to reality, there can be no shared public life.
+
+And without a shared world, there can be no United Nations.
+
+Thank you.

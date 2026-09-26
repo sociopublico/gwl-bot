@@ -1,0 +1,267 @@
+---
+session: 81
+slug: pakistan
+id_speech: M_122
+country: Pakistan
+speaker: Muhammad Shehbaz Sharif
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/pk_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.525
+---
+
+Mr. President,
+
+Excellencies,
+
+Ladies and Gentlemen,  I am honoured to address this august Assembly, for the fourth time, on behalf of the 240 million, resilient and peace-loving people of Pakistan.
+
+ I congratulate you, Mr. Khalil ur Rahman, on your election as President of the 81st GENERAL Assembly session, and I assure you, of Pakistan’s full support.
+
+ I thank Her Excellency Ms. Annalena Baerbock, for her able stewardship of the 80th session.
+
+ I also convey Pakistan’s sincere appreciation to UN Secretary-General, Mr. Antonio Guterres, for his dynamic leadership and his strong advocacy, for the UN and the Global South.
+
+Mr. President,  The pursuit of peace is among the noblest of human endeavors.
+
+ The Holy Quran commands: “If the enemy is inclined towards peace, make peace with them.”
+
+(Surah-Al-Anfal, Verse 61)  Pakistan’s founding father, Quaid-e-Azam Muhammad Ali Jinnah, had famously declared: “We stand by the United Nations Charter, and will gladly make our full contribution to the peace and prosperity of the world.”
+
+ These pearls of wisdom have shaped Pakistan’s national ethos and guided our conduct at home and abroad.
+
+ The unanimous adoption of Resolution 2788, on strengthening mechanisms for peaceful settlement of disputes, under Pakistan’s UN Security Council Presidency, demonstrated our unwavering commitment to global peace.
+
+Mr. President,  Unfortunately, In February this year, conflict engulfed the Gulf and the wider Middle East.
+
+ Precious lives were lost.
+
+ Economies suffered.
+
+ Critical maritime routes — particularly the Strait of Hormuz — came under severe pressure.
+
+ At this critical moment, Pakistan chose to act. swiftly!
+
+ Through concerted efforts, Pakistan successfully brought Washington and Tehran under one roof — in Islamabad.
+
+ From the Islamabad Talks to the Islamabad Memorandum of Understanding, many historic steps were taken to bring an end to this conflict.
+
+ I deeply appreciate Field Marshal Syed Asim Munir, Pakistan’s Chief of Defence Forces and Chief of the Army Staff, whose relentless efforts, helped create, space for diplomacy under exceptionally difficult circumstances.
+
+ Regrettably, recently we have witnessed a dangerous surge of hostilities.
+
+ Yet, amid the roar of missiles, drones and guns,  the voices for diplomacy must echo even louder.
+
+Mr. President  The Strait of Hormuz and Bab-al-Mandeb are arteries of the global economy.
+
+ They must remain open —  connecting nations, not becoming choke-points of confrontation.
+
+ These waters must carry the promise of prosperity —  not the perils of war.
+
+Excellencies,  We once again condemn, in the strongest possible terms, the recent deplorable attacks by the Houthis against the Kingdom of Saudi Arabia.
+
+ The attempted drone attack on the Holy City of Makkah Al-Mukarramah has outraged,
+
+Muslims across the world.
+
+ Any threat to the safety and sanctity of the Haramain Sharifain is a red line that must never be crossed.
+
+ No Muslim can even dare to think of committing such a heinous act.
+
+ Pakistan stands, in complete solidarity with the brotherly people of Saudi Arabia, as we always have throughout our history.
+
+Ladies and Gentlemen,  Our enduring commitment to peace is also reflected by the historic Makkah Joint Defence Agreement among the brotherly countries Saudi Arabia, Türkiye and Pakistan.
+
+ This Alliance is not directed against any country.
+
+ It is a collective commitment for defence, stability and peace in the region.
+
+SOUTH ASIA Mr. President,  A year ago, Pakistan faced external aggression from India under a false pretext.
+
+ Pakistan exercised, its inherent right of self-defence under Article 51 of the UN Charter.
+
+ Our brave and valiant Armed Forces, under the courageous leadership of Field Marshal Syed Asim Munir, responded, with precision and professionalism,  They silenced the enemy, repulsed its attacks, and taught it a lesson, it shall, never ever, forget.
+
+ Thanks to President Donald Trump’s resolute and visionary leadership, hundreds of millions of lives in South Asia were saved  His timely intervention came at a decisive juncture when two nuclear-armed neighbours stood, at the brink of an all-out war.
+
+ Who knows, the extent of devastation that could have taken place had President Trump, not stepped in at that critical moment?
+
+Mr. President,  We must therefore ensure that South Asia never reaches that precipice again.
+
+ But this requires, a just and fair solution of the Jammu and Kashmir dispute.
+
+ For eight decades, the Kashmiri people have waited for the United Nations to fulfil, its solemn commitment of a free and impartial plebiscite under its auspices.
+
+ Generations have endured illegal occupation, arbitrary detention, extra-judicial killings, enforced disappearances, sexual violence and collective punishment.
+
+ More recently, there have been attempts to alter, the legal status of Jammu and Kashmir, through demographic re-engineering / and other illegal measures.
+
+ Helpless Kashmiri mothers and fathers yearn for their sons and daughters who never return.
+
+ Their homes lie silent —  under curfew and in grief.
+
+ For many, there is no closure —  only a lifetime spent searching for graves that bear no names.
+
+Mr. President,  From this podium, I assure my Kashmiri brothers and sisters, with fullest authority at my command, that we shall continue to extend our full diplomatic, political, and moral support to them till they are granted their inalienable right to self-determination.
+
+ Kashmir has, and always will be, Pakistan’s jugular vein!
+
+INDUS WATERS Mr. President,  Another foundation of stability in South Asia is now under strain.
+
+ The shared waters of the Indus River system are the lifeblood, not only for the people of Pakistan, but for the entire region.
+
+ India’s unilateral decision, to hold the existing Treaty in abeyance has no legal basis whatsoever.
+
+ In fact, both its claims and actions have been rejected by UN experts and, more recently, by the Court of Arbitration.
+
+ Our legitimate stand that the Treaty remains valid, binding, and fully operative- has been vindicated!
+
+ Water must never be weaponized.
+
+ Rivers should nourish nations —  not divide them.
+
+ Therefore, any attempt to stop, impede, or divert Pakistan’s share of the waters will be treated as an act of war.
+
+ India must, make no mistake about it.
+
+PALESTINE Mr. President,  For generations, Palestinians — particularly women, children and the elderly — have been subjected to occupation, eviction, suffering and death.
+
+ Last year, I had shared with you, the heart-wrenching story of Hind Rajab.
+
+ An innocent Palestinian girl who was brutally shot by Israeli soldiers.
+
+ This year, another tragedy weighs heavy on the heart.
+
+ This time, it is the deafening cries of the sobbing mother of eight-year-old Wafaa Akila, who embraced martyrdom in this senseless aggression.
+
+ What should have been the first day of her school,  Alas, became the last day of her life.
+
+Mr. President  Does not a child born in Gaza deserve the same life, and the same future, as a child anywhere else in the world.
+
+ The tragedies of Hind Rajab, Wafaa Akila, and countless others will echo through history —  As an indictment, of our collective silence and inaction!
+
+Excellencies,  It is deeply worrying, that Israeli violence, has now spread to the West Bank, where the forcible eviction of Palestinians, clearly reflects Israel’s genocidal agenda, which continues, unabated.
+
+ Pakistan believes, that the only, just and lasting solution is the creation of an independent, sovereign, viable and contiguous State of Palestine, based on the pre-1967 borders, with Al-Quds Al-Sharif as its capital.
+
+ We also condemn continued Israeli aggression against Lebanon and Syria.
+
+ This, too, must stop immediately.
+
+Mr. President,  Terrorism remains one of the gravest threats to international peace and security.
+
+ As a frontline state in combating the menace of terrorism, we have fought terrorists in our own cities, in our own mountains, and along our frontiers.
+
+ Pakistan has sacrificed, almost 100,000 precious lives and suffered, economic losses, exceeding 150 billion dollars.
+
+ The world is safer today thanks to the valuable sacrifices of our valiant Armed Forces, and brave civilians who took on these terrorists.
+
+ The peace-loving world must never forget this reality.
+
+ Afghan territory continues to be exploited, by the TTP, Fitna-al-Khawarij and the BLA,
+
+Fitna-al-Hindustan.
+
+ These foreign-funded groups, operate from sanctuaries inside Afghanistan with the aim of, destabilizing Pakistan.
+
+ All such attacks including incursions from the territory of Afghanistan must come to a grinding halt.
+
+ The Afghan authorities must fulfil their international commitments and take verifiable, decisive action to ensure, that Afghan soil, is never again used against Pakistan or any other country.
+
+ Fundamental rights of the Afghan people — especially women and girls; must be respected.
+
+Mr. President,  United Nations peacekeeping remains, one of the strongest expressions of collective security.
+
+ For decades, Pakistani men and women have served under the blue flag, protecting civilians and helping countries emerge from conflict.
+
+ We are proud of their valuable, sacrifices.
+
+Ladies and Gentlemen,  The alarming rise in Islamophobia is deeply worrying, as Muslims face hate speech, discrimination, attacks on mosques and desecration of the Holy Quran.
+
+ Just across our border, RSS-driven Hind-dut-va ideology, is fanning religious hatred, leading to lynching, communal violence, attacks on places of worship and restrictions, upon religious freedom.
+
+ The demolition of the 150-year-old mosque in Saharanpur, earlier this month is case in point.
+
+ Religious hatred must have no place in this world.
+
+Mr. President,  Pakistan’s economic revival, remains a defining responsibility of my Government and a mission that is very close to my heart.
+
+ Through difficult, and long-overdue, structural reforms, and stringent fiscal discipline.
+
+ we have restored macroeconomic stability and begun the journey towards sustainable, and inclusive growth.
+
+ We are modernizing agriculture and industry, developing mineral resources, digitalizing our economy and equipping our youth, with modern AI and IT skills.
+
+ We are opening new pathways with China, through the China-Pakistan Economic Corridor, as well as with the Gulf, Central Asia, and beyond.
+
+ Here, I pay tribute, to the visionary leadership of President Xi Jinping for spearheading the Global Development Initiative, the Global Security Initiative, the Global Civilization Initiative and the Global Governance Initiative.
+
+ On these pillars, we can surely build a shared future for mankind.
+
+Mr. President,  Developing countries are in dire need of timely debt relief, affordable long-term financing, and a stronger voice, in global financial institutions.
+
+ Development must receive the same urgency as security.
+
+Ladies and Gentlemen,  Is it not an irony of fate that Pakistan contributes, less than one per cent of global emissions, yet repeatedly bears the horrific consequences of climate change?
+
+ Developed countries must therefore, honour their climate-finance commitments, without delay, fund loss and damage speedily and ensure, support for adaptation and resilience.
+
+Mr. President,  The theme of this session calls upon us to restore trust.
+
+ But trust cannot be restored by words alone.
+
+ It must be earned through action.
+
+ We will restore trust when rivers, become lifelines of cooperation — not fault-lines of conflict.
+
+ We will restore trust when those who fuelled, the climate crisis protect those who suffer most from its devastating consequences.
+
+ And above all —  Trust will be restored when the guns are silenced —  and replaced by handshakes and embraces.
+
+Mr. President,  The UN80 Initiative, should make the United Nations stronger, more coherent and more effective.
+
+ The Security Council, must become more representative, democratic and accountable.
+
+ Reform, must reflect, the interests and aspirations of the overwhelming majority of Member States, not the ambitions of a select few.
+
+ Our motto remains: “Reform for All — Privilege for None!”
+
+Ladies and Gentlemen,  We live at a dangerous moment.
+
+ But our future is not predetermined.
+
+ War is a choice.
+
+ Peace is also a choice.
+
+ And sometimes —  the greater courage, lies, not in starting a war —  but in preventing one.
+
+ Pakistan has made its choice.
+
+ We have chosen dialogue over confrontation.
+
+ We have chosen cooperation over coercion.
+
+ We have chosen peace over war.
+
+ Let this eighty-first General Assembly make it unanimous choice.
+
+ For ourselves.
+
+ For our children.
+
+ And for generations yet unborn.
+
+ Let us restore trust.
+
+ Let us preserve peace.
+
+ And let us prove that even in a divided world —  humanity can still choose to stand together.
+
+I thank you.

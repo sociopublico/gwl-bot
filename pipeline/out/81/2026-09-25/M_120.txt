@@ -1,0 +1,135 @@
+---
+session: 81
+slug: saint-lucia
+id_speech: M_120
+country: Saint Lucia
+speaker: Philip J. Pierre
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/lc_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.525
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Excellencies,
+
+Distinguished Delegates,
+
+In 1979, thirty -four (34) years after the creation of this United Nations, my country, Saint Lucia, though small in geography, but large in courage, dignity and conviction, took its seat among the community of nations brimming with hope, optimism and trust in the promise and goals of this body.
+
+Today we meet at a moment of profound international uncertainty. Conflict is spreading, trust is eroding, development gains are being reversed, and the rules intended to protect humanity are too often applied selectively.
+
+For small island developing states, these crises are not abstract. They are lived realities.
+
+Climate change threatens our homes, livelihoods, and very existence. Debt limits our ability to invest in people. Digital technologies are transforming our societi es, but without safeguards, they can reproduce old patterns of domination in a new form. And in our own Caribbean neighbourhood, the people of Haiti continue to endure a humanitarian and security catastrophe that demands more than statements of concern.
+
+The theme before us, “ Restoring trust, managing transformation: a United Nations that delivers for all,” must not remain a slogan. Trust will be restored only when promises are matched by action, when commitments are honoured, and when the United Nations delivers meaningful results for every nation, and when there is due regard for multilateral principles not only for the most powerful, but also for the weakest of us as well.
+
+This Assembly should not be a place where the world expresses sympathy without accepting responsibility.
+
+We need action. We need justice. And we need a renewed international compact based not on power, but on principle; we need multilateralism, not unilateralism. In the words of a former UN Secretary General, “The United Nations was not created in order to bring us to heaven, but in order to save us from hell.”
+
+Climate Change and Climate Finance For Saint Lucia, climate change is not a distant environmental issue. It is a direct threat to national security, economic stability, food and water security, and human survival.
+
+Whilst the world focuses on headline -grabbing events like monster hurricanes, melting glaciers and tidal waves, climate change is affecting Saint Lucia daily in small but significant ways, such as the unusual bouts of drought in the rainy season, unprecede nted floods in the dry season, and the stifling of our beaches and coastlines by sargassum.
+
+Our people contribute little to global emissions, yet these events constantly set back our people’s development and livelihoods and demand that we find the resources to reverse the damage.
+
+Saint Lucia calls for climate finance that matches the scale of the crisis: expanded grants and concessional funding, faster and simpler access, full support for loss and damage, meaningful debt relief, and financing that reaches vulnerable communities directly.
+
+Eligibility for finance must reflect not only income, but climate vulnerability.
+
+Climate finance is not charity. It is about justice, responsibility, and survival.
+
+We must stop confusing loans with solidarity. A loan is not justice when a small vulnerable nation is forced to borrow to repair damage it did not cause.
+
+A United Nations that delivers for all must deliver for those on the front lines of climate change through accessible finance, concrete support and measurable results, not merely through declarations.
+
+International Crises Saint Lucia laments the continued conflicts and human suffering across the globe, including Ukraine, Sudan and the wider Middle East, including Gaza, and calls for renewed efforts towards peace, stability and respect for international law.
+
+In accordance with their right to self -determination and UN resolutions, in particular Resolution 3236 of 1974, the People of Palestine should be allowed their own State and full membership of the UN, alongside the state of Israel.
+
+Haiti: Responsibility to a Sister Nation We also speak today about Haiti.
+
+Member states of this organisation must act in a manner that will restore the trust of the people of Haiti in the United Nations. Some member states have failed to meet their commitments and pledges to the Gang Suppression Force in Haiti, whose one-year mandate ends this month.
+
+The Security Council is urged to renew the Force's mandate, and member states to provide the necessary resources to operate effectively and successfully.
+
+While gang violence is the main factor to be resolved in Haiti, the crisis in this country is multidimensional. The international response must include long -term social and economic assistance that will help restore an acceptable quality of life for the people of Haiti.
+
+That is why the Caribbean Community has been actively engaged in Haiti, a Caribbean Community member state, to assist with a solution to the political and governance dimensions of the crisis. Through its Eminent Persons Group, comprising three former Prime Ministers, it will continue to facilitate dialogue amongst Haiti’s political and civil society stakeholders as they work towards holding the first round of General Elections this year.
+
+Trust in the United Nations will be restored if the daily lives of the people of Haiti are transformed and enhanced.
+
+CUBA It is in a similar quest for trust and transformation that Saint Lucia believes there should be dialogue and the removal of all obstacles that hinder the true development of the people of Cuba.
+
+Cuba has long been celebrated for its continued contribution to health, education and development across our region and beyond. Saint Lucia stands with the Cuban people in their hope for a better future, supported by the friendship and solidarity of the in ternational community.
+
+Republic of China (Taiwan) In the same spirit of transformation and consistent with our commitment to the right of all people to self -determination, Saint Lucia supports Taiwan ’s full membership in the United Nations.
+
+Reform of the Security Council Saint Lucia believes that a truly inclusive United Nations must ensure that its decision-making bodies reflect the world that they serve.
+
+Saint Lucia advocates for a comprehensive reform of the Security Council to enhance its legitimacy and effectiveness in addressing contemporary global challenges, thereby restoring trust and a more inclusive multilateral system.
+
+Mr. President A 21st -century United Nations Security Council could have been more successful in its responsibility for international peace and security had it not been anchored in the world of 1945.
+
+The prolonged reform process must be concluded quickly to include expanded permanent and non-permanent membership for Africa, the Asia -Pacific, and Latin America and the Caribbean regions. This reform is essential to restore trust in the United Nations and ensure it delivers peace and security for all. Saint Lucia pledges its commitment and dedication to work with like-minded nations to achieve the stated reforms.
+
+Secretary General I wish to take this opportunity to thank the outgoing Secretary General, Antonio Guterres, for his sterling service, especially his steadfast solidarity with the Caribbean through the many challenges and disasters our region has faced. We commend him for h is sincere and positive leadership of this organisation. Saint Lucia wishes to express its endorsement of the candidate of the Republic of Guyana, Ms. Caroline Rodrigues-Birkett, for the post of Secretary General.
+
+Her distinguished record of public and international service speaks directly to the kind of leadership this moment demands.
+
+Reparations and Historical Justice Mr. President,
+
+On the 25 th of March, 2026, the General Assembly approved one of its most historic and consequential resolutions that declared the trafficking of enslaved Africans and racialised chattel enslavement of Africans as the greatest crime against humanity. This resolution and the subsequent establishment of the High Level Global Advisory Council on Reparatory Justice is a very significant step in the search for reparations for the transatlantic slave trade and the enslavement of Africans in the Americas and the Caribbean.
+
+I want to thank the President of Ghana for spearheading and championing the resolution.
+
+Saint Lucia congratulates the Government of Jamaica on its successful petition to the British monarch for him to refer three questions to the Judicial Committee of the Privy Council over the legality of the enslavement of Africans in Jamaica.
+
+Mr. President,
+
+Reparations are not about vengeance. They are about truth, acknowledgement, repair and transformation.
+
+Reparations are not about seeking charity or revisiting history for its own sake. History is not behind us when its consequences remain embedded in wealth, power, institutions and opportunity.
+
+Reparations are about addressing the continuing effects of slavery and colonial exploitation, restoring dignity, advancing development and building more equitable relationships with the states and institutions that benefited from these systems.
+
+Digital Colonisation and Digital Sovereignty Digital technology is a new form of power that is rapidly transforming the world, and while it offers enormous opportunities for mankind, it can also create a new hierarchy in which a small number of corporations and powerful states control the systems on which the rest of humanity depends.
+
+We must ensure that artificial intelligence does not widen the gap between the powerful and the vulnerable. Technology must strengthen aspirations, not quietly erode them.
+
+Saint Lucia therefore calls for strong global standards on data protection, privacy and artificial intelligence; equitable access to digital infrastructure, cybersecurity and affordable connectivity; fair technology transfer; transparent algorithms; protec tion from surveillance, disinformation and cyber exploitation; and meaningful participation by small states in shaping global digital rules.
+
+The digital future must not be owned by a few. It must be governed for the benefit of all.
+
+Managing transformation means ensuring that no nation is left powerless in the face of technological change.
+
+A United Nations That Delivers for All Mr. President, my country, Saint Lucia, is small, open, and vulnerable, but our people refuse to impose limits on their aspirations. History has blessed us with unimaginable natural beauty, ambitious, friendly people, and two Nobel Laureates. However, an unfair international financial system threatens the very existence of small island states like Saint Lucia. The rules governing global finance affect our development, and our attempt at economic diversification is hindered by unfair and unequally applied rules.
+
+Oceans of water separate us from the global powers, but our challenges are mainly connected to decisions made in their capitals. Emissions released from these countries affect our climate.
+
+Weapons and drugs trafficked through international networks instiga te violence and gang warfare in our region.
+
+Lack of access to affordable technology slows our development. Mr. President, Saint Lucia refuses to give up. We are educating our people to ensure that their skills are relevant. We are modernising agriculture to ensure our food security. We are dealing with the scarcity of water due to climate change by exploring new sources of groundwater supply and encouraging the harvesting of rainwater. We are reducing youth unemployment through the creation of the successful Youth Economy Agency. We are encouraging t he spirit of entrepreneurship by supporting small and micro enterprises, especially women -owned businesses. We are promoting healthy lifestyles and universal healthcare for the provision of equitable, accessible and affordable healthcare for our citizens.
+
+Mr President, Saint Lucia continues to insist that governance must be about the improvement of the lives of the people. We have maintained fiscal discipline, reduced unemployment as we continue to create new opportunities and an enabling environment for in vestment in tourism and other productive sectors.
+
+Saint Lucia believes that a better world is within our reach if we choose cooperation over coercion and ensure that justice and fairness prevail for all.
+
+The 81st Session of the UN General Assembly must be remembered for turning its laudable theme into actionable commitments and those commitments into meaningful change. As Mahatma Gandhi says, “In a gentle way you can shape the world.”
+
+The people of Saint Lucia remain confident in our collective capacity to shape that better world, even as Saint Lucian Nobel Laureate, Sir Derek Walcott reminds us that “the future happens no matter how much we scream.”
+
+Our task is to meet that future with courage and purpose. Our other Nobel Laureate Sir Arthur Lewis said, “Economic development requires taking risks and embracing change.” And with the speed of Julien Alfred, let us embrace that responsibility together and act with the resolve this moment demands.
+
+I thank you.

@@ -1,0 +1,247 @@
+---
+session: 81
+slug: north-macedonia
+id_speech: M_118
+country: North Macedonia
+speaker: Hristijan Mickoski
+title: President of the Government
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/mk_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.625
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Excellencies,
+
+Ladies and Gentlemen,
+
+A child who will sit at a school desk for the first time this autumn will, in 2040, be a young person just entering adulthood. We do not know exactly what the world in which that young person will live will look like. But we already know that it will be different from our own.
+
+Artificial intelligence will transform professions, industries and the ways in which decisions are made. Energy will be governed by a new configuration and a new logic of operation. Climate change will affect economies, agriculture, cities and the movement of people. Demographic change will reshape labour markets and social protection systems. Security will no longer depend on armies and borders, but also on power grids, data centres, cables, satellites, algorithms and trust in the information we receive every day.
+
+And yet today, as we prepare for that future, millions of people are living through war or under the threat of war. More than one hundred million people have been forcibly displaced. More than 270 million children and young people are not in school.
+
+This is the paradox of our time. Humanity has never possessed such immense scientific and technological capabilities. And yet, it has never been more evident that technological capability does not automatically produce political wisdom.
+
+That is why the real question before this Assembly is not simply how we will manage the crises of 2026. The real question is this: what kind of international order will we leave to the generation that is entering school today?
+
+For a small country like mine, this is not an academic question. It is a question of survival.
+
+Thirty-three years ago since we became part of the United Nations the world looked very different. The Cold War had ended. There was hope that a new era was beginning; an era in which cooperation would gradually replace confrontation.
+
+Our region, however, was living through a very different reality. Yugoslavia was disintegrating in bloodshed. Wars were being fought just beyond our borders. The fear that the violence might spread was real.
+
+And yet, my country chose peace. It chose stability. It was in those circumstances, on our territory, that the United Nations did something it had never done before: it established the first preventive peacekeeping mission in the history of the Organization.
+
+That experience left a profound lesson in our national memory, a lesson to which I will return towards the end of my address.
+
+Peace does not begin when war ends. Peace begins when politics is wise enough to prevent war from beginning.
+
+Perhaps that is why small countries sometimes see international politics differently.
+
+Great powers have room for strategic shifts that small sized states simply do not have. For a great power, a mistaken geopolitical calculation may mean a change of strategy. For a small sized country, the same mistake can mean a lost decade.
+
+That is why we cannot afford to be indifferent to the rules. Nor can we afford to believe that the rules will defend themselves.
+
+The world taking shape before us is a world of sharper competition. Power is being redistributed. Relations among the major powers increasingly shape trade, technology, energy, critical raw materials, transport routes and digital infrastructure.
+
+What we called economic interdependence only yesterday, we increasingly see today also as a matter of national security. Globalization is not disappearing. It is being reshaped. Supply chains are changing. Production is once again becoming a geopolitical question.
+
+States are asking not only where something can be produced most cheaply, but who can be trusted; not only where energy comes from, but whether it will be available when a crisis strikes; not only who develops the next generation of technology, but who will set the rules under which it will operate.
+
+Alliances, too, are changing under the pressure of this same world.
+
+Macedonian citizens know where they belong. We are a NATO Ally. The United States is our strategic partner. Full membership in the European Union is our strategic commitment.
+
+These are not three separate policies. They are one geopolitical orientation, an orientation grounded in democracy, collective security, the rule of law and an open economy.
+
+In a time of uncertainty, our response is not strategic ambiguity. Our response is clarity.
+
+But clarity in our alliances does not mean turning away from the world. Quite the opposite. It is precisely a state that is confident in its democratic and strategic choices that can engage and cooperate with greater confidence with countries that have different histories, different interests and different political perspectives.
+
+The world does not need yet another division into permanent camps. It needs competition with limits and rules that all must respect. Alliances that take responsibility. And international institutions that remain a space for dialogue precisely when dialogue is most difficult.
+
+That is why the United Nations matter.
+
+Not because they can resolve every conflict. Clearly, they cannot. Not because every resolution is given effect. Clearly, that is not always the case.
+
+And that should not discourage us; it should strengthen our determination to protect these United Nations and the rules upon which they are founded, and to stand for multilateralism grounded in values, mutual respect and rules.
+
+Because a world without a place where all states, regardless of their size, can sit under the same roof and invoke the same principles would be even more dangerous than the world we see today.
+
+In 1954, Dag Hammarskjöld reminded us of a thought: The United Nations were not created to take us to heaven, but to save us from hell.
+
+Seven decades later, it is worth understanding the essence of that statement. We should not demand perfection from the United Nations. We should demand relevance.
+
+The capacity to prevent and to mediate. The capacity to protect human dignity. And, ultimately, the capacity to uphold principles even when applying them is politically inconvenient.
+
+Today, trust in the international system is being jeopardized precisely because too many people have a justified sense that the rules do not apply equally. That power sometimes takes precedence over principle. That commitments are conditional.
+
+That agreements last only as long as interests remain unchanged.
+
+For small sized states, this is an especially dangerous world.
+
+Our own history has taught us that international compromises are very difficult, and that peace, stability and integration require political courage and hard sacrifices.
+
+And without wishing to sound patronising, if anyone wants to see an example of a country that has repeatedly given up something that naturally belongs to it as a fundamental right—something that many take for granted—all they need is to look at the recent history of my country.
+
+A history marked by challenges, by security risks of regional proportions, by constant compromises and concessions made in the name of peace and cooperation and the higher goals of integration—often at the expense of our most basic understanding of dignity and justice.
+
+We have taken truly difficult decisions. We have continued forward even when processes lasted longer than one generation of citizens could reasonably have expected.
+
+But precisely for that reason, with the benefit of distance from those decisions and with a clear awareness of reality, I can responsibly say today that trust cannot be a one-way obligation indefinitely.
+
+If small sized states are expected to comply with the rules, then the rules must also provide them with predictability. If candidates for membership in an organization are required to meet certain criteria, then meeting those criteria must lead to progress. If we ask citizens to trust institutions, then institutions must demonstrate that their word has value and that their commitments endure.
+
+The rule that applies today cannot be different tomorrow simply because the balance of power has changed. And a commitment undertaken cannot be a temporary political convenience. It must be a foundation on which people can plan their future.
+
+We ask our citizens to believe in cooperation, in good neighbourly relations, in compromise, and in mutual respect.
+
+We tell them that lasting peace is worth more than a short-term political victory; that respecting agreements is a sign of strength and wisdom, and that it is the right thing to do, not a sign of weakness; that European and Euro-Atlantic integration means accepting rules that apply equally to all.
+
+But that argument becomes much harder to sustain when citizens see that, in international relations, principle sometimes gives way to power; that criteria can change while the process is already under way; or that some are expected to demonstrate consistency that others do not always demand of themselves.
+
+We cannot tell people, “Trust the rules,” when they can see that the rules do not apply equally. We cannot convince them that compromise is a virtue, if every compromise produces a new demand. And we cannot expect trust in international institutions if citizens come to believe that their fate is created more often by the political weight of their state than by the strength of an agreed principle.
+
+This is a question of legitimacy.
+
+Because our authority as elected leaders does not derive from the office itself. It derives from the people who elect us, who hold us to account, and who every day compare what we tell them with what they see.
+
+And today, they see more than ever before.
+
+We live in an age in which information travels around the world in seconds. Never before has humanity had access to so much knowledge. But never before has it been exposed to so much manipulation, half-truths, fabricated images, propaganda and organized disinformation.
+
+That is precisely why politics is entering a new, more difficult and more complex era.
+
+Our task is no longer simply to inform our citizens. We must earn their trust.
+
+It is not enough to tell them what is true. We must build institutions they can trust when the truth is uncomfortable for everyone. It is not enough to speak to them about values. We must show that those values have meaning and carry a cost—even when defending them requires patience, political capital, or choosing the more difficult path.
+
+We are called upon to convince our societies that cooperation is better than isolation, that the rule of law is better than unilateral behavior, that compromise is better than conflict, and that institutions are better than the rule of sheer force.
+
+But for that conviction to carry weight, we ourselves must be consistent.
+
+Values are not sustained by speeches. They are sustained when they are upheld precisely at the moment when it is easiest to abandon them.
+
+And this may be the greatest challenge of our time.
+
+The world is changing at extraordinary speed. The centres of power are shifting.
+
+Technology is changing. Economic relations are changing. Security doctrines are changing. Alliances are changing. History is accelerating once again.
+
+In such periods, there is always a temptation to declare that old principles are no longer practical; that the law must adapt to power; that values are a luxury that can wait until the crisis has passed.
+
+But that is precisely when we need them most.
+
+Because if, in times of change, we abandon the rules that protected us in times of stability, we will not gain greater freedom. We will inherit a world in which every subsequent decision depends on who has more power at that particular moment.
+
+And such a world is especially dangerous for small sized states.
+
+That is why our duty as leaders is not to promise our people a world without injustice, without disappointment, and without conflicting interests. Such a world does not exist.
+
+Our duty is far more demanding.
+
+To preserve faith in the rules even when it is clear that the rules are being broken.
+
+To defend cooperation even when confrontation appears more popular. To sustain trust in institutions not by asking people to look less closely and ask fewer questions, but by making institutions more worthy of their trust.
+
+And not to allow disappointment with the imperfections of the international order to lead us towards something far worse: a world in which there is no order at all.
+
+That, in my view, is one of the greatest political and moral responsibilities of our generation.
+
+It applies to the international system. And it applies to Europe.
+
+We will not abandon the European idea because the European path has been difficult. The European Union remains, for us, our natural political, economic and institutional home.
+
+And we have work to do at home. We must strengthen the rule of law. Build more effective institutions. Build a more competitive economy. And strengthen our citizens ’confidence in their own state.
+
+That is our responsibility, and we will not shift it to Brussels.
+
+At the same time, we expect European integration to remain a merit based-process based on measurable criteria—not a process in which bilateral issues can continually move the goalposts.
+
+We are not asking for an easier path. We are asking for a path governed by rules.
+
+We are not asking for lower standards. We are asking for standards to remain standards.
+
+This is equally important for Europe’s credibility at a time when its geopolitical weight will increasingly depend on its ability to translate its commitments into tangible political outcomes, and on its resolve to uphold the values it espouses and to remain steadfast in advancing them, despite the many challenges it faces.
+
+Excellencies,
+
+The future international order will not be shaped only on battlefields or in diplomatic halls. It will also be shaped in laboratories. In schools. In factories. In energy grids. In data centres. And in the ability of societies to make sense of the changes that technology is bringing.
+
+Artificial intelligence is no longer a subject of the future. It is infrastructure for the present.
+
+Today, the world is once again recognizing the value of resilience. Of reliable energy.
+
+Of infrastructure. Of diversified transport routes. Of nearby and trusted supply chains.
+
+For us, the intensive development of Corridors VIII and X is part of a broader European vision: to better connect the Adriatic, the Black Sea, the Aegean and Central Europe; to provide goods, energy and people with more routes and greater connectivity; and to ensure that the region becomes interconnected in infrastructure rather than remaining on the geopolitical periphery.
+
+Our geography does not have to be our destiny. It can become our advantage if we build the institutions and infrastructure that transform our geographical position into connectivity.
+
+At the same time, we must also approach migration differently.
+
+Migration begins where there is no security, no employment, no education, no access to water, no prospects, or no confidence that tomorrow will be better than today. It is not simply a matter of borders. Responsible policy must bring together security, human dignity, development and the real needs of labour markets.
+
+Climate policy, too, will have to become more grounded in reality.
+
+The green transition is essential. But if we make it socially unsustainable, we will lose the political support that is necessary to implement it. If we make it technologically dependent on a handful of sources, we will create new challenges while addressing old ones. If we expect poorer countries to move at the same pace without providing them with equal access to capital and technology, we will create injustice instead of a transition.
+
+That is why future climate policy must, at the same time, be environmental policy, economic policy and social policy.
+
+Mr. President,
+
+All of this brings us back to the central theme of this session: trust.
+
+Trust is not a sentiment that can be created by adopting a resolution. It is an outcome. It is built when an institution delivers on the purpose for which it was established.
+
+That is why reform of the United Nations is necessary. So that the Organization can become more capable. So that it can deliver greater results. And certainly not to replace the responsibility of national states. But to act where collective action is needed.
+
+Multilateralism does not begin in New York. It begins with the quality of the states that come to New York.
+
+Excellencies,
+
+We are a small sized country. But we refuse to let the smallness of our territory define the scale of our ambition.
+
+Our ambition is to become a serious state. A state that its allies can trust. A state in which young people can plan their future. A state that respects the diversity and multicultural character of its society. A state confident enough to defend its own identity without denying the identity of others. A state that knows its history but is not imprisoned by it. And a state that does not expect others to build it in its place.
+
+That, to me, is modern sovereignty. Not isolation. Capability.
+
+This year, Secretary-General António Guterres reminded us that the Charter begins with the words: “We, the peoples.” And he added: “Not we, the powerful. Not we, the victors.”
+
+In those few words lies the reason why a small sized European country continues to believe in this Organization, even when it is disappointed by it.
+
+Because the alternative to a world governed by rules is not a world in which everyone is free. It is a world in which the strongest are the freest. And everyone else depends on their goodwill.
+
+Such a world may appear effective for a moment. But it is never stable.
+
+Some three decades ago, the United Nations came to our country with a new idea: that the international community does not have to wait for violence to begin before it acts.
+
+Today, we once again need that same political wisdom.
+
+We must not wait for technology to create new inequalities before we establish rules. We must not wait for young people to leave before we build societies in which they see a future worth staying for. We must not wait for institutions to lose all public trust before we reform them. And we must not wait for the world to become fully divided into opposing blocs before we rediscover the value of dialogue.
+
+That child with whom I began will be fourteen years older when the world enters 2040.
+
+None of us today can promise that child a peaceful world. Nor a world without crises. Nor a world without competition.
+
+But we can leave that child something else.
+
+A world in which power is not the only argument. A world in which knowledge is not the privilege of the few. A world in which alliances create security, rather than new lines of fear. A world in which technology serves humanity. And a world in which a small state has the right to the same dignity, the same rules and the same voice as a great power.
+
+That is the promise worth renewing.
+
+Not because we are naive about the world as it is. But because we are realistic enough to understand what happens when the world is left to power alone.
+
+Macedonians and the Macedonian citizens will share their burden of responsibility.
+
+Thank you.

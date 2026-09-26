@@ -1,0 +1,117 @@
+---
+session: 81
+slug: saint-kitts-and-nevis
+id_speech: M_132
+country: Saint Kitts and Nevis
+speaker: Geoffrey Hanley
+title: Deputy Prime Minister
+speaker_title: His Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/kn_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.708
+---
+
+Mr. President, Secretary-General, Excellencies, distinguished delegates, friends, and my fellow Kittitians and Nevisians at home and throughout the diaspora, I bring greetings from the proud twin-island Federation of Saint Kitts and Nevis and our Prime Minister, The Hon. Dr. Terrance Drew.
+
+Mr. President, we extend my congratulations on your election as president of the 81st session of the General Assembly.We also express sincere appreciation o your predecessor for her stewardship over the past year.
+
+I rise before this Assembly at a time when the world is not short of promises, declarations or commitments. What we need is proof that our institutions can respond to the realities people face. For Small Island Developing States like ours, that question is immediate. Saint Kitts and Nevis therefore comes with a clear proposition: trust will be restored not by what we promise, but by what we deliver. The time has come to move from promise to proof.
+
+I come not only to speak about what the world must do, but to account for what we are doing.
+
+National Delivery Under SISA Mr. President, last year our Prime Minister, the Hon. Dr. Terrance Drew, spoke of our Sustainable Island State Agenda (SISA), our national blueprint for transforming Saint Kitts and Nevis into a more resilient, sustainable, inclusive and prosperous society by 2040. Today, we return to demonstrate that it is becoming a record of delivery.
+
+Earlier this year, our second Voluntary National Review to the United Nations High-Level Political Forum showed stronger government coordination, closer alignment with the Sustainable Development Goals, and tangible progress for our people.
+
+Water provides one of the clearest measures of that progress.
+
+One year ago, our two-million-gallon-per-day solar-powered desalination plant was nearing completion. In February, we commissioned it. Through semi airborne drone surveys, we also identified seventeen new potential groundwater sources and, in August, completed drilling at the first rural site. Together with distribution upgrades, these investments are strengthening water security.
+
+In 2022, only about 25 percent of households had 24 -7 water; today, approximately 75 percent do. This is transformation!
+
+On the island of Nevis, we are advancing a 30 -megawatt geothermal power development, with drilling expected by early 2027 and Icelandic Drillers contracted to begin the process. In Saint Kitts, plans for a 50-megawatt solar PV and battery storage project are well advanced. These investments will reduce dependence on imported fossil fuels and strengthen economic resilience.
+
+We are also strengthening food security through climate -smart support for farmers and healthcare through our locally developed National Digital Health Information System at the Joseph N. France General Hospital. Sustainability must be practical, people-centred and built to last.
+
+Mr. President, there is more to do. But our experience proves that small states are not powerless. With investment, partnership and political will, small nations can deliver big solutions. Saint Kitts and Nevis is not seeking pity; we are advancing partnership.
+
+A Sustainable Island State is not a distant ambition. We are building it today.
+
+Climate Change Yet even as we advance, the climate crisis is moving the goalposts. This year, our Federation and the wider Caribbean face severe drought; by the end of May, rainfall was 44 percent below the long-term average. We are investing in resilient infrastructure, but no Small Island Developing State can adapt indefinitely to a crisis the world continues to intensify. Adaptation cannot excuse inaction elsewhere.
+
+Distinguished colleagues, the science is unequivocal. The years 2015 to 2025 were the warmest on record, and in 2025 global average temperature remained about 1.43 degrees Celsius above the pre-industrial baseline, while global mean sea level stood approximately eleven centimetres higher than in 1993. For island nations, this is a question of sovereignty and statehood. If our coastlines retreat, our sovereignty must not.
+
+Climate-induced sea-level rise must never erase a State's international legal personality, extinguish its UN membership, deprive its people of nationality, or diminish lawfully established maritime zones and sovereign rights. The International Law Commission has laid foundations for continuity of statehood, sovereignty and maritime entitlements. This Assembly must turn them into firm guarantees.
+
+International law has spoken with increasing clarity. Saint Kitts and Nevis welcomed the International Court of Justice Advisory Opinion on States' climate obligations. Clarification must now become compliance, commitments must become conduct, and promises must become performance. States must reduce emissions, strengthen adaptation, honour climate-finance responsibilities and cooperate with countries bearing consequences vastly disproportionate to their contribution to this crisis.
+
+Those who contributed least must not pay the greatest price.
+
+Our oceans must also move from promises to protection. Saint Kitts and Nevis ratified the BBNJ in 2025. Implementation now matters: large ocean states need access to capacity-building, marine technology, scientific knowledge and financing, while benefits from marine genetic resources must be shared fairly.
+
+For island nations, the ocean is not the space between us and the world; it is our highway, heritage, livelihood and lifeline.
+
+MVI - From Recognition to Application Across climate action, sea-level rise and ocean governance, one reality remains: resilience has a cost. For decades, Small Island Developing States have argued that income is not the same as resilience. Per capita income cannot show exposure to hurricanes, drought, pandemics, shipping disruption, energy shocks, conflict or tourism collapse, nor how quickly one shock can erase years of investment.
+
+This year, Saint Kitts and Nevis stood before the United Nations and completed a pilot Vulnerability and Resilience Country Profile under the Multidimensional Vulnerability Index Framework. And what did we learn? We learnt what our grandparents always knew. A house can look strong from the road and still have rot in the rafters. Vulnerability is not a statistic, it is a roof that was destroyed in hurricane Beryl. It is the school that became a shelter. It is the family rebuilding for the 3rd time in a decade because storms have no patience for GNI per capita.
+
+We are not asking that Gross National Income be discarded; we are asking that it stop being expected to tell a story it was never designed to tell. GNI can count our coconuts and our cruise ships. It cannot count our courage and it cannot count the price we pay to simply remain. It cannot capture the cost of rebuilding the same bridge, clinic or seawall again and again, while nations twice our size and half our vulnerability borrow cheaper than we do.
+
+We therefore call on the World Bank, the IMF, development banks, climate funds and every partner here to incorporate MVI into the architecture of financing. Not as charity, but as arithmetic and justice made real. If vulnerability can be measured, it must be considered.
+
+Artificial Intelligence and the Emerging Digital Divide Mr. President, the next great divide between nations must not be digital. Artificial intelligence offers extraordinary possibilities. Saint Kitts and Nevis intends to participate. But we must ask who will shape this new age and who will live with decisions made elsewhere.
+
+At the end of 2025, some 2.2 billion people remained offline. But the AI divide also concerns computing power, data, research, skills, energy, cybersecurity and capital. With the global AI market projected to reach about US 4.8 trillion dollars by 2033, developing countries cannot simply consume technologies designed and governed elsewhere. We must have a place where AI's future is decided.
+
+Saint Kitts and Nevis welcomes the Independent International Scientific Panel on Artificial Intelligence and the Global Dialogue on AI Governance. Inclusion must lead to capability. Developing countries need affordable computing power, infrastructure, skills and safeguards for privacy, data sovereignty, cybersecurity and rights. At home, we are advancing a Whole-of-Government Technology Strategy, securing digital identity and digital public services. Regionally, the Caribbean AI Task Force supports cooperation on governance, innovation and responsible adoption.
+
+Artificial intelligence is already transforming the world.
+
+Saint Kitts and Nevis chooses to help shape that transformation!
+
+CARICOM, Diplomacy and Global Peace As small states, we know a simple truth: alone, we are small; together, we are formidable. The Caribbean's declaration as a Zone of Peace must retain its force as geopolitical competition moves closer to our shores. Our response must remain anchored in sovereignty, territorial integrity, international law, peaceful settlement of disputes and diplomacy. CARICOM supports the International Court of Justice as the lawful path for resolving the Guyana-Venezuela dispute and the judicial process concerning Belize and Guatemala.
+
+We defend international law because, for small states especially, the alternative is a world where power becomes the rule. Across Gaza, Ukraine, Sudan, Yemen,
+
+Chad and the Democratic Republic of the Congo, civilians continue to bear an unconscionable burden. Saint Kitts and Nevis affirms one standard: international law applied consistently, not selectively; and conscience applied evenly, not conveniently.
+
+There can be no hierarchy of human suffering.
+
+Mr. President, the future of multilateralism also depends on its leadership.
+
+Saint Kitts and Nevis proudly joins CARICOM in endorsing Her Excellency Carolyn Rodrigues-Birkett of Guyana for the office of United Nations SecretaryGeneral. Her distinguished record of service, commitment to multilateralism and understanding of the challenges facing developing nations reflect the leadership this moment demands. Her candidature, as an Indigenous woman from a small developing state, also reaffirms that global leadership must be defined not by the size of a nation, but by the vision, integrity and capacity of those called to serve.
+
+Africa - Caribbean Cooperation Mr. President, few bridges carry greater historical meaning or future potential than that between Africa and the Caribbean. The Atlantic, once a passage of forced displacement and separation, is becoming a pathway of return and reconnection. Africa-Caribbean cooperation must move beyond sentiment; our shared history must help build a shared future through capital, trade, technology, knowledge, culture and coordinated diplomacy.
+
+South-South cooperation must be felt in jobs, businesses, knowledge transfer and opportunity. It complements, not replaces, North-South cooperation and the obligations of developed countries.
+
+Greater agency must also include justice. At the Second Africa -CARICOM Summit, our leaders signed the Addis Ababa Declaration, and this year, the African Union's reparations mechanisms and the CARICOM Reparations Commission held their first joint meeting, establishing permanent coordination.
+
+On 25 March 2026, this General Assembly adopted Resolution 80/250, declaring the trafficking of enslaved Africans and racialised chattel enslavement of Africans as the gravest crime against humanity. Saint Kitts and Nevis welcomed this historic recognition, but recognition cannot be the destination. Reparatory justice must move from recognition to remedy and from words to action.
+
+Haiti, Cuba & Taiwan Distinguished colleagues, when we speak of reparatory justice, sovereignty and solidarity, Haiti cannot be an afterthought. Approximately 1.47 million people are internally displaced, while nearly half the population faces acute food insecurity. In the very near future, the first round of presidential and legislative elections will take place. The Haitian people must choose their leaders freely, credibly and safely. Saint Kitts and Nevis joins CARICOM in calling for the full deployment of the United Nations-authorised Gang Suppression Force and the timely renewal of its mandate, alongside Haitian-led recovery and governance.
+
+Mr. President, we remain deeply concerned about the humanitarian situation in Cuba. St. Kitts and Nevis has contributed humanitarian relief to the Cuban people, and our very own Nationals studying there. We welcome the recent measures undertaken by the Cuban Government to improve the well-being of its people and encourage further meaningful action. We urge constructive dialogue between the Governments of Cuba and the United States. Engagement, mutual respect and cooperation offer the best path towards improving the lives of the Cuban people and advancing peace and stability throughout our region.
+
+Saint Kitts and Nevis remains steadfast in its friendship with the Republic of China (Taiwan) and support for its meaningful international participation. Earlier this year, we joined other Member States in requesting Taiwan's observer participation in the Seventy-ninth World Health Assembly. We continue to support its meaningful participation in the World Health Organization, the International Civil Aviation Organization and other relevant mechanisms, and reiterate that differences across the Taiwan Strait must be resolved peacefully.
+
+To The Young People, The Unseen Majority Mr. President, no generation has a greater stake in our decisions than young people. Half of the world's population is under thirty, yet 67 million young people were unemployed last year and more than a quarter of a billion were neither in employment, education nor training. AI, the green transition and climate change are reshaping their future jobs. We must prepare them.
+
+Last year, our Prime Minister introduced this Assembly to our ASPIRE Programme - Achieving Success through Personal Investment, Resources and Education - for citizens aged 5 to 18. Built on savings, investment and financial education, ASPIRE has opened more than four thousand savings accounts, with our Government committing more than US 2 million dollars to give children a financial foundation for adulthood. We are now piloting our financial education curriculum in schools and training teachers for national rollout. We are not simply giving children money; we are giving them the knowledge to make money work for them. Financial independence must not be reserved for those born into wealth.
+
+Conclusion Mr. President, distinguished colleagues, for eighty-one years this institution has represented a bold conviction: that despite our differences, nations can come together around common rules, responsibilities and human dignity. That conviction is worth defending. But institutions cannot live indefinitely on their founding promises. They must be judged by what those promises produce.
+
+Saint Kitts and Nevis remains ready to do its part and to work with every nation here towards a more peaceful, sustainable, equitable and humane world.
+
+Trust is not something we can demand. It must be earned: by promising less, delivering more, and letting the proof speak where our words once stood alone.
+
+Let this Assembly be remembered not for what was said here, but for what was done after.
+
+The tide is rising. Let our resolve rise faster still.
+
+Thank you.

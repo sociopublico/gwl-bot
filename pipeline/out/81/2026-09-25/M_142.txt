@@ -1,0 +1,147 @@
+---
+session: 81
+slug: sweden
+id_speech: M_142
+country: Sweden
+speaker: Maria Malmer Stenergard
+title: Minister for Foreign Affairs
+speaker_title: Her Excellency
+date: 2026-09-25
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/se_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.455
+---
+
+Madam/Mister President, Excellencies I want to tell you about my grandmother, Alice.
+
+Growing up in rural Sweden, as the seventh of eleven siblings, her opportunities were very different from those of her brothers. Her parents expected her to focus first and foremost on family life. Yet she was curious, capable and determined to build a life of her own.
+
+A job at a local bank gave her not only an income, but also independence and confidence. There, at the bank, she met many women with little to no experience with finances and were left vulnerable when circumstances changed.
+
+She wrote in her diary about some of the women she met – many of whom were recently widowed – coming to the bank in tears because they didn’t know anything about their own family finances. Some didn’t know how to fill out a withdrawal slip. One woman came to the bank holding two safe-deposit keys without knowing which bank they belonged to.
+
+My grandmother was as independent as a woman in that time and place could be. But she worried deeply about the consequences for the women who were not.
+
+During her life she witnessed extraordinary progress. But two generations later, far too many women are still entirely economically dependent on men.
+
+Madam/ Mister President 80 years ago, when Sweden joined the United Nations, the foundations of our modern society were being laid.
+
+2(12) In the 1940s and 50s, Swedish women joined the labour market in large numbers. This was not only a matter of principle – it also came from the realisation that our economy needed women in the work force.
+
+Women’s economic empowerment is a matter of freedom. When women work and earn their own money, their self-determination grows.
+
+Gender equality is not only the right thing to do, it’s the smart thing to do. When women work, economies grow.
+
+Madam/Mister President,
+
+Each generation must fight for equality.
+
+In 1919, the same year my grandmother was born, Sweden decided that women should have the same right as men to vote. That very same year, women in Afghanistan were also granted the right to vote.
+
+More than a century later, the contrast between women’s freedoms in our two countries is as striking as it is saddening. It is a painful reminder that progress is never irreversible. Rights once gained can be lost.
+
+Freedoms do not defend themselves. It is up to us to protect them, for women and girls everywhere – and for generations to come.
+
+Madam/Mister President,
+
+When Sweden joined the UN in 1946, the world was emerging from the devastation of war. The lesson from that catastrophe was clear: peace must not be taken for granted.
+
+Defence of sovereignty and territorial integrity have been at the heart of Swedish foreign policy ever since.
+
+Eight decades later, these principles are once again being challenged. Bad faith, conflict and utter contempt for our common rules are weakening the institutions that we built together. These are times of upheaval.
+
+3(12) The number of armed conflicts is growing. And civilians are paying the price. In Ukraine, Sudan,
+
+Yemen, Palestine, Lebanon, Myanmar, the Democratic Republic of the Congo and many other conflict zones, millions are suffering.
+
+Madam/Mister President,
+
+Russia’s aggression against Ukraine is a blatant violation of international law. It strikes at the heart of the very principles upon which the United Nations was founded.
+
+Sweden’s support for Ukraine is felt deeply throughout our entire society. It comes from our people, our civil society and the business community. We will support Ukraine for as long as it takes.
+
+Russia has not only violated the UN Charter, it has repeatedly violated international humanitarian law and human rights law. Attacks targeting civilians, forcible transfer and deportation of children, conflict-related sexual violence and torture – the list is far too long.
+
+Ensuring accountability for these violations is crucial. If there is anything that we have learnt from history, it is that there cannot be a just and lasting peace without accountability.
+
+Sweden stands firmly behind the ICC, its independence and integrity, and recognises its vital role not least in Ukraine.
+
+Russia must also be held accountable for its breaches of the Chemical Weapons Convention, both on and off the battlefield.
+
+Russia’s war of aggression against a peaceful neighbour is one of the biggest strategic mistakes and moral failures of the 21st century.
+
+Four and a half years after launching its full-scale invasion, Russia has failed to achieve its objectives. Its economy is under strain, and its casualty numbers are devastating. Ordinary Russians are withdrawing their funds from the bank, and a substantial share of Russia’s young people are dying on the front lines.
+
+The impact of Russia’s war of aggression extends far beyond Ukraine. Russia intensified its systematic attacks on civilian infrastructure and on vessels in the Black Sea this summer. This has 4(12) once again disrupted global food supply chains, exacerbating an already dire situation for vulnerable people across the globe.
+
+To President Putin and Mr Lavrov I say this: the path to peace is clear, the choice should be easy.
+
+Withdraw your troops. End this war.
+
+Madam/Mister President,
+
+Sweden has been an active contributor to the United Nations for 80 years. And we remain committed. But as a staunch partner, we will continue to push for a UN that is more effective, more transparent and better equipped to uphold the principles of its charter. A UN that is resolute.
+
+Sweden’s first peacekeepers, 300 of them, served this organisation during the Suez Crisis in 1956.
+
+Since then, more than 80 000 Swedes have followed in their footsteps.
+
+We have a long tradition of supporting mediation through the UN. It began in 1948 with the UN’s first mediator, Sweden’s Folke Bernadotte.
+
+We have long been a major donor of development assistance. And we remain devoted to tackling global development challenges and contributing to urgent humanitarian efforts.
+
+Sweden remains a generous donor. But development assistance alone will not be enough to meet the challenges before us.
+
+Madam/Mister President,
+
+Reducing emissions to curb climate change is a common and global challenge, and is necessary to safeguard and increase development gains in the coming decades.
+
+Sweden will continue to promote climate action based on urgency and opportunity – urgency based on what science tells us, opportunity based on the economic growth, jobs and strengthened competitiveness that climate transition brings.
+
+Given the state of the world, changes are necessary to ensure the UN’s central role in international affairs and its ability to address today’s challenges.
+
+5(12) An efficient, effective, nimble and well-coordinated UN is urgently needed. Sweden strongly supports the Secretary-General’s UN80 initiative and expects all UN entities to engage fully, with a clear focus on improving delivery at country level.
+
+We also expect Member States to give the UN adequate resources. Assessed contributions must be paid in full and on time. As members, we also need to carefully consider institutional reforms and align mandates with available resources.
+
+UN80 is an opportunity to strengthen the UN’s impact across all three pillars, and to reinforce the international system firmly grounded in the UN Charter and international law.
+
+Madam/Mister President,
+
+Sweden remains firm in its defence of the UN’s normative mandates on human rights, gender equality and sexual and reproductive health and rights.
+
+Everyone has the right to live freely and with dignity. To be who they are and to love whom they choose. Sweden will always stand up for that freedom, and for equal rights of all.
+
+Madam/Mister President,
+
+A balanced expansion of the Security Council would strengthen its credibility and the legitimacy of its decisions.
+
+Sweden would like to see permanent and non-permanent seats added, and a fairer representation of all continents on the Council.
+
+Africa, home to 1.3 billion people and the largest regional bloc in the United Nations, has no permanent seat. This is neither logical nor fair.
+
+Furthermore, the veto should never be used to prevent the UN from acting against serious violations of international law or in humanitarian disasters.
+
+Madam/Mister President,
+
+We must continue to strengthen our United Nations. To make this organisation stronger and better equipped to prevent conflict and meet the challenges of tomorrow.
+
+6(12) We must continue to find common agreements, based on the fundamentals. Every country’s sovereignty and territorial integrity. Prohibition of the use of force. Respect for international law, human rights and humanitarian principles.
+
+It is our shared responsibility to ensure that the UN remains relevant, effective and resolute. That it becomes greater than the sum of its parts.
+
+To show once again that we can turn the page on conflict and chaos and move toward peace and prosperity.
+
+Madam/ Mister President This year also marks 65 years since Secretary–General Dag Hammarskjöld died. His integrity, conviction and commitment to the vision and values of our organisation are still remembered.
+
+Sweden continues to support the UN investigation aimed at clarifying the circumstances surrounding Secretary–General Hammarskjöld’s death.
+
+I would like to conclude with the words of Mr Hammarskjöld: “It is no news to anybody, but we sense it in different degrees, that our world of today is more than ever before one world.
+
+The weakness of one is the weakness of all, and the strength of one – not the military strength, but the real strength, the economic and social strength, the happiness of people – is indirectly the strength of all.”
+
+Thank you.
