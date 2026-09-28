@@ -1,34 +1,22 @@
 # Auto-exportado desde roster UNGA para el monitor de alertas
 # nombre | país | cargo
-Han Zheng | China
-Aren Palik | Micronesia (Federated States of)
-John Briceño | Belize
-Francisco Avelino Vieira de Carvalho | Cabo Verde
-Vasile Tofan | Republic of Moldova
-His Eminence Cardinal Pietro Parolin | Holy See
-Thongsavanh Phomvihane | Lao People’s Democratic Republic
-Sokhonn Prak | Cambodia
-Sergey Lavrov | Russian Federation
-Ma. Theresa Lazaro | Philippines
-Bruno Eduardo Rodríguez Parrilla | Cuba
-Prince 'Abdul Mateen | Brunei Darussalam
-Prince Faisal bin Farhan Al Saud | Saudi Arabia
-Vivian Balakrishnan | Singapore
-Thorgerdur Katrín Gunnarsdóttir | Iceland
-Valdrack Ludwing Jaentschke Whitaker | Nicaragua
-Subrahmanyam Jaishankar | India
-Johann Wadephul | Germany
-Sirodjiddin Muhriddin | Tajikistan
-Luca Beccari | San Marino
-Abdoulkader Houssein Omar | Djibouti
-Maxim Ryzhenkov | Belarus
-Mohamad Haji Hasan | Malaysia
-Sayyid Badr bin Hamad bin Hamood Albusaidi | Oman
-Mohamed Ali Nafti | Tunisia
-Anita Anand | Canada
-Marie-Édith Tassyla-Ye-Doumbeneny | Gabon
-Kamina Johnson Smith | Jamaica
-Ilza Maria dos Santos Amado Vaz | Sao Tome and Principe
-Mulambo Hamakuni Haimbe | Zambia
-Sugiono | Indonesia
-Lejeune Mbella Mbella | Cameroon
+Abdoulaye Diop | Mali | Minister for Foreign Affairs and International Cooperation
+Osman Saleh Mohammed | Eritrea | Minister for Foreign Affairs
+Karamoko Jean Marie Traoré | Burkina Faso | Minister for Foreign Affairs
+Ahmed Attaf | Algeria | Minister of State
+Alexandra Hill Tinoco | El Salvador | Minister for Foreign Affairs
+George Chapatula Chaponda | Malawi | Minister for Foreign Affairs
+Vijitha Herath | Sri Lanka | Minister for Foreign Affairs
+Constant Serges Bounda | Congo | Minister for Foreign Affairs, La Francophonie and Congolese Abroad
+Mohieldin Salim Ahmed Ibrahim | Sudan | Minister for Foreign Affairs
+Khalifa Shaheen Al Marar | United Arab Emirates | Minister of State
+Kim Son Gyong | Democratic People’s Republic of Korea | Vice Minister for Foreign Affairs
+Victoria Louise Hallum | New Zealand | Permanent Representative to the United Nations
+Vepa Hajiyev | Turkmenistan | Permanent Representative to the United Nations
+Walton Alfonso Webson | Antigua and Barbuda | Permanent Representative to the United Nations
+Ingrid Jackson | Grenada | Permanent Representative to the United Nations
+Cecilia Adout Majok Adeng | South Sudan | Permanent Representative to the United Nations
+Christina Markus Lassen | Denmark | Permanent Representative to the United Nations
+Boris Vasir Marchegiani Carrero | Costa Rica | Permanent Representative to the United Nations
+Odo Tevi | Vanuatu | Permanent Representative to the United Nations
+Corinne Amori Brunet | Benin | Minister of Foreign Affairs and the Integration of Afro-descendants

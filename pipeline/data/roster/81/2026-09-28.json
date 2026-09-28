@@ -1,0 +1,407 @@
+{
+  "session": 81,
+  "day": "2026-09-28",
+  "scraped_at": "2026-09-28T13:00:17Z",
+  "speakers": [
+    {
+      "slug": "mali",
+      "ficha_url": "https://gadebate.un.org/en/81/mali",
+      "country": "Mali",
+      "name": "Abdoulaye Diop",
+      "rank": "Minister for Foreign Affairs and International Cooperation",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "eritrea",
+      "ficha_url": "https://gadebate.un.org/en/81/eritrea",
+      "country": "Eritrea",
+      "name": "Osman Saleh Mohammed",
+      "rank": "Minister for Foreign Affairs",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "burkina-faso",
+      "ficha_url": "https://gadebate.un.org/en/81/burkina-faso",
+      "country": "Burkina Faso",
+      "name": "Karamoko Jean Marie Traoré",
+      "rank": "Minister for Foreign Affairs",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "algeria",
+      "ficha_url": "https://gadebate.un.org/en/81/algeria",
+      "country": "Algeria",
+      "name": "Ahmed Attaf",
+      "rank": "Minister of State",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "el-salvador",
+      "ficha_url": "https://gadebate.un.org/en/81/el-salvador",
+      "country": "El Salvador",
+      "name": "Alexandra Hill Tinoco",
+      "rank": "Minister for Foreign Affairs",
+      "speaker_title": "Her Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "malawi",
+      "ficha_url": "https://gadebate.un.org/en/81/malawi",
+      "country": "Malawi",
+      "name": "George Chapatula Chaponda",
+      "rank": "Minister for Foreign Affairs",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "sri-lanka",
+      "ficha_url": "https://gadebate.un.org/en/81/sri-lanka",
+      "country": "Sri Lanka",
+      "name": "Vijitha Herath",
+      "rank": "Minister for Foreign Affairs",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "congo",
+      "ficha_url": "https://gadebate.un.org/en/81/congo",
+      "country": "Congo",
+      "name": "Constant Serges Bounda",
+      "rank": "Minister for Foreign Affairs, La Francophonie and Congolese Abroad",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "sudan",
+      "ficha_url": "https://gadebate.un.org/en/81/sudan",
+      "country": "Sudan",
+      "name": "Mohieldin Salim Ahmed Ibrahim",
+      "rank": "Minister for Foreign Affairs",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "united-arab-emirates",
+      "ficha_url": "https://gadebate.un.org/en/81/united-arab-emirates",
+      "country": "United Arab Emirates",
+      "name": "Khalifa Shaheen Al Marar",
+      "rank": "Minister of State",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "democratic-peoples-republic-korea",
+      "ficha_url": "https://gadebate.un.org/en/81/democratic-peoples-republic-korea",
+      "country": "Democratic People’s Republic of Korea",
+      "name": "Kim Son Gyong",
+      "rank": "Vice Minister for Foreign Affairs",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "new-zealand",
+      "ficha_url": "https://gadebate.un.org/en/81/new-zealand",
+      "country": "New Zealand",
+      "name": "Victoria Louise Hallum",
+      "rank": "Permanent Representative to the United Nations",
+      "speaker_title": "Her Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "turkmenistan",
+      "ficha_url": "https://gadebate.un.org/en/81/turkmenistan",
+      "country": "Turkmenistan",
+      "name": "Vepa Hajiyev",
+      "rank": "Permanent Representative to the United Nations",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "antigua-and-barbuda",
+      "ficha_url": "https://gadebate.un.org/en/81/antigua-and-barbuda",
+      "country": "Antigua and Barbuda",
+      "name": "Walton Alfonso Webson",
+      "rank": "Permanent Representative to the United Nations",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "grenada",
+      "ficha_url": "https://gadebate.un.org/en/81/grenada",
+      "country": "Grenada",
+      "name": "Ingrid Jackson",
+      "rank": "Permanent Representative to the United Nations",
+      "speaker_title": "Her Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "south-sudan",
+      "ficha_url": "https://gadebate.un.org/en/81/south-sudan",
+      "country": "South Sudan",
+      "name": "Cecilia Adout Majok Adeng",
+      "rank": "Permanent Representative to the United Nations",
+      "speaker_title": "Her Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "denmark",
+      "ficha_url": "https://gadebate.un.org/en/81/denmark",
+      "country": "Denmark",
+      "name": "Christina Markus Lassen",
+      "rank": "Permanent Representative to the United Nations",
+      "speaker_title": "Her Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "costa-rica",
+      "ficha_url": "https://gadebate.un.org/en/81/costa-rica",
+      "country": "Costa Rica",
+      "name": "Boris Vasir Marchegiani Carrero",
+      "rank": "Permanent Representative to the United Nations",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "vanuatu",
+      "ficha_url": "https://gadebate.un.org/en/81/vanuatu",
+      "country": "Vanuatu",
+      "name": "Odo Tevi",
+      "rank": "Permanent Representative to the United Nations",
+      "speaker_title": "His Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "slug": "benin",
+      "ficha_url": "https://gadebate.un.org/en/81/benin",
+      "country": "Benin",
+      "name": "Corinne Amori Brunet",
+      "rank": "Minister of Foreign Affairs and the Integration of Afro-descendants",
+      "speaker_title": "Her Excellency",
+      "speech_date": "2026-09-28",
+      "chosen": null,
+      "sources": {
+        "pdf_en": null,
+        "transcript_ai": null,
+        "audio_en": null,
+        "pdf_other": null,
+        "audio_floor": null,
+        "video": null
+      },
+      "error": null,
+      "http_status": 200
+    }
+  ]
+}
