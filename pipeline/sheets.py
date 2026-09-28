@@ -158,6 +158,56 @@ def sheets_unavailable_reason(settings: SheetsSettings | None = None) -> str:
     return ""
 
 
+def _prefer_ipv4() -> None:
+    """Evita hangs de oauth/sheets cuando IPv6 está publicado pero no rutea."""
+    import socket
+
+    if getattr(socket, "_gwl_ipv4_patched", False):
+        return
+    original = socket.getaddrinfo
+
+    def getaddrinfo(host, port, family=0, type=0, proto=0, flags=0):
+        if family == 0:
+            try:
+                return original(host, port, socket.AF_INET, type, proto, flags)
+            except OSError:
+                pass
+        return original(host, port, family, type, proto, flags)
+
+    socket.getaddrinfo = getaddrinfo  # type: ignore[method-assign]
+    socket._gwl_ipv4_patched = True  # type: ignore[attr-defined]
+
+
+def _append_below(
+    worksheet,
+    payload: list[list[str]],
+    *,
+    existing_values: list[list] | None = None,
+) -> None:
+    """Escribe debajo de la última fila ya leída.
+
+    No usa spreadsheets.values.append: con un filtro activo Google toma el
+    rango filtrado como tabla y OVERWRITE pisa filas que quedaron fuera.
+    """
+    if not payload:
+        return
+    values = existing_values
+    if values is None:
+        getter = getattr(worksheet, "get_all_values", None)
+        values = getter() if callable(getter) else []
+    start = len(values) + 1 if values else 1
+    needed = start + len(payload) - 1
+    row_count = getattr(worksheet, "row_count", None)
+    add_rows = getattr(worksheet, "add_rows", None)
+    if isinstance(row_count, int) and needed > row_count and callable(add_rows):
+        add_rows(needed - row_count)
+    worksheet.update(
+        f"A{start}",
+        payload,
+        value_input_option="USER_ENTERED",
+    )
+
+
 def _client(settings: SheetsSettings):
     try:
         import gspread
@@ -177,6 +227,7 @@ def _client(settings: SheetsSettings):
         raise SheetsError(
             "falta GOOGLE_APPLICATION_CREDENTIALS apuntando al JSON de la service account"
         )
+    _prefer_ipv4()
     scopes = ["https://www.googleapis.com/auth/spreadsheets"]
     creds = Credentials.from_service_account_file(str(path), scopes=scopes)
     return gspread.authorize(creds)
@@ -243,11 +294,13 @@ def append_metadata_rows(
     """Append idempotente por ficha_url (o slug+fecha). Devuelve las filas nuevas."""
     cfg = settings or sheets_settings()
     ws = _open_worksheet(cfg, cfg.metadata_tab)
+    values = ws.get_all_values()
     if headers is None or existing is None:
-        headers, existing = read_metadata_records(cfg)
+        headers, existing = _records_from_values(values)
     if not headers:
         headers = list(METADATA_COLUMNS)
         ws.update("A1", [headers])
+        values = [headers]
     needed = {"id_speech", "ficha_url", "source", "original language", "transformation"}
     missing = needed - set(headers)
     if missing:
@@ -271,7 +324,7 @@ def append_metadata_rows(
             seen.add(ficha)
         seen.add(slug_date)
     if payload:
-        ws.append_rows(payload, value_input_option="USER_ENTERED")
+        _append_below(ws, payload, existing_values=values)
     return written
 
 
@@ -348,12 +401,14 @@ def append_analysis_rows(
     """Append idempotente por slug|date|id_speech. Devuelve las filas nuevas."""
     cfg = settings or sheets_settings()
     ws = _open_or_create_worksheet(cfg, cfg.analysis_tab, list(headers or ANALYSIS_COLUMNS))
+    values = ws.get_all_values()
     if headers is None or existing is None:
-        sheet_headers, existing = read_analysis_records(cfg)
+        sheet_headers, existing = _records_from_values(values)
         headers = headers or sheet_headers
     if not headers:
         headers = list(ANALYSIS_COLUMNS)
         ws.update("A1", [headers])
+        values = [headers]
     if "id_speech" not in headers:
         print(
             "sheet: la pestaña Analysis no tiene columna id_speech; "
@@ -383,7 +438,7 @@ def append_analysis_rows(
         written.append(row)
         seen |= aliases
     if payload:
-        ws.append_rows(payload, value_input_option="USER_ENTERED")
+        _append_below(ws, payload, existing_values=values)
     return written
 
 
@@ -433,7 +488,8 @@ def append_coding_rows(
     else:
         cfg = settings or sheets_settings()
         worksheet = _open_or_create_worksheet(cfg, tab, list(default_headers or []))
-    headers, records = _records_from_values(worksheet.get_all_values())
+    values = worksheet.get_all_values()
+    headers, records = _records_from_values(values)
     original_headers = list(headers)
     if not any(h.strip() for h in headers):
         headers = list(default_headers or [])
@@ -442,6 +498,10 @@ def append_coding_rows(
         raise SheetsError(f"pestaña {tab!r} sin encabezado")
     if not dry_run and headers != original_headers:
         worksheet.update("A1", [headers], value_input_option="USER_ENTERED")
+        if values:
+            values[0] = list(headers)
+        else:
+            values = [list(headers)]
     seen = existing_coding_keys(records, key_column)
     written: list[dict[str, str]] = []
     skipped: list[dict[str, str]] = []
@@ -456,6 +516,6 @@ def append_coding_rows(
         written.append(row)
         seen.add(key)
     if payload and not dry_run:
-        worksheet.append_rows(payload, value_input_option="USER_ENTERED")
+        _append_below(worksheet, payload, existing_values=values)
     return written, skipped
 

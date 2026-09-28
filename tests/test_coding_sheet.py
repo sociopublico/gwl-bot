@@ -77,12 +77,17 @@ class FakeWorksheet:
 
     def update(self, rng, data, **kwargs):
         self.updates.append((rng, data, kwargs))
-        if rng == "A1":
-            headers = list(data[0])
+        rows = data if data and isinstance(data[0], (list, tuple)) else [data]
+        rows = [list(row) for row in rows]
+        if rng == "A1" and len(rows) == 1:
             if self._values:
-                self._values[0] = headers
+                self._values[0] = rows[0]
             else:
-                self._values = [headers]
+                self._values = [rows[0]]
+            return
+        self.appends.append(rows)
+        self._values.extend(rows)
+
 
     def append_rows(self, payload, **kwargs):
         self.appends.append([list(row) for row in payload])
@@ -168,6 +173,45 @@ class AppendCodingRowsTest(unittest.TestCase):
         self.assertEqual(payload[0][headers.index("country")], "Angola")
         self.assertEqual(ws._values[1][1], "M_5_gender_equality_position")
         self.assertEqual(ws._values[1][4], "1")
+        self.assertEqual(ws.updates[-1][0], "A3")
+        self.assertEqual(len(ws._values), 3)
+
+    def test_append_writes_after_existing_rows(self) -> None:
+        ws = FakeWorksheet(
+            [
+                list(INDICATORS_SHEET_COLUMNS),
+                ["M_88", "M_88_x", "", "gender_equality_position", "0", "", "", "", ""],
+                ["M_88", "M_88_y", "", "un_reform_position", "0", "", "", "", ""],
+            ]
+        )
+        written, skipped = append_coding_rows(
+            [
+                {
+                    "id_speech": "M_89",
+                    "extract_id": "M_89_gender_equality_position",
+                    "cluster": "Gender and women's leadership",
+                    "indicator_name": "gender_equality_position",
+                    "code": "0",
+                    "option": "No Mention",
+                    "textual_extract": "",
+                    "coder_notes": "",
+                    "date_coded": "2026-09-25",
+                    "date": "2026-09-24",
+                    "country": "Tonga",
+                }
+            ],
+            tab="Indicators",
+            key_column="extract_id",
+            default_headers=list(INDICATORS_SHEET_COLUMNS),
+            settings=_settings(),
+            ws=ws,
+        )
+        self.assertEqual(len(written), 1)
+        self.assertEqual(skipped, [])
+        self.assertEqual(ws._values[1][0], "M_88")
+        self.assertEqual(ws._values[2][0], "M_88")
+        self.assertEqual(ws._values[-1][0], "M_89")
+        self.assertEqual(ws.updates[-1][0], "A4")
 
     def test_dry_run_does_not_write(self) -> None:
         ws = FakeWorksheet([list(EMERGING_SHEET_COLUMNS)])
