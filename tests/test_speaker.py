@@ -96,6 +96,22 @@ class IntroductionRegexTest(unittest.TestCase):
         self.assertIn("Brazil", speaker.title)
         self.assertNotIn("invite", speaker.title.casefold())
 
+    def test_eminence_and_accidency(self) -> None:
+        parolin = extract_introduction_regex(
+            "The assembly will hear an address by his Eminence Cardinal Pietro Parolin, "
+            "Secretary of State of the Holy See."
+        )
+        assert parolin is not None
+        self.assertIn("Parolin", parolin.name)
+        self.assertEqual(parolin.country, "Holy See")
+        beccari = extract_introduction_regex(
+            "I now give the floor to his Accidency, Lucura Bakari, Minister of Foreign Affairs "
+            "of San Marino."
+        )
+        assert beccari is not None
+        self.assertIn("Bakari", beccari.name)
+        self.assertEqual(beccari.country, "San Marino")
+
     def test_ignores_excellency_without_a_person_name(self) -> None:
         speaker = extract_introduction_regex(
             "I give the floor to his excellency and invite him to address the assembly."
@@ -741,6 +757,60 @@ class SpeechEndTest(unittest.TestCase):
         )
         assert speaker is not None
         self.assertEqual(speaker.name, "Carlos Ramero Martinez Alvarado")
+
+    def test_saturday_asr_intros(self) -> None:
+        roster_dir = Path(self._tmp.name) / "sat"
+        roster_dir.mkdir()
+        payload = {
+            "session": 81,
+            "day": "2026-09-26",
+            "speakers": [
+                {
+                    "country": "Holy See",
+                    "name": "His Eminence Cardinal Pietro Parolin",
+                    "rank": "Secretary of State",
+                    "speaker_title": "His Eminence",
+                },
+                {
+                    "country": "Lao People's Democratic Republic",
+                    "name": "Thongsavanh Phomvihane",
+                    "rank": "",
+                    "speaker_title": "",
+                },
+                {"country": "Indonesia", "name": "Sugiono", "rank": "", "speaker_title": ""},
+                {"country": "Zambia", "name": "Mulambo Hamakuni Haimbe", "rank": "", "speaker_title": ""},
+            ],
+        }
+        (roster_dir / "2026-09-26.json").write_text(json.dumps(payload), encoding="utf-8")
+        self.now = datetime(2026, 9, 26, 14, 20, tzinfo=timezone.utc)
+        tracker = SpeakerTracker(
+            _config(speaker_roster_dir=str(roster_dir)),
+            now=lambda: self.now,
+        )
+        self.now += timedelta(seconds=30)
+        tracker.observe(
+            "of the Republic of Moldova. The assembly will hear an address by his Eminence "
+            "Cardinal Pietro Parolin, Secretary of State of the Holy See."
+        )
+        self.now += timedelta(seconds=30)
+        self.assertEqual(tracker.observe("Mr. President, I am honored.").name, "His Eminence Cardinal Pietro Parolin")
+        self.now += timedelta(seconds=1200)
+        tracker.observe(
+            "the Secretary of State of the Holy See. I now give the floor to his excellency, "
+            "Tong Sa Wan, Pong Via, Deputy Prime Minister and Minister of Foreign Affairs "
+            "of the Law, People's Democratic Republic."
+        )
+        self.now += timedelta(seconds=30)
+        self.assertEqual(tracker.observe("Mr. President at the outset.").name, "Thongsavanh Phomvihane")
+        self.now += timedelta(seconds=1200)
+        tracker.observe(
+            "I think the Minister for Foreign Affairs of Zambia. I now invite his Excellency, so Gio"
+        )
+        self.now += timedelta(seconds=30)
+        self.assertEqual(
+            tracker.observe("81 years ago Indonesia and the United Nations were born.").name,
+            "Sugiono",
+        )
 
 
 if __name__ == "__main__":

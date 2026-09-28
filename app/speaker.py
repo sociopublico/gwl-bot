@@ -42,12 +42,13 @@ SPEAKER_MAX_AGE = timedelta(minutes=90)
 _SPEAKER_STATE = "speaker.json"
 ROSTER_CHECK_SECONDS = 60.0
 
-_HONORIFIC = r"(?:his|her)\s+(?:royal\s+)?(?:excellency|majesty|highness)"
+_HONORIFIC = r"(?:his|her)\s+(?:royal\s+)?(?:excellency|accidency|eminence|majesty|highness)"
 
 _CUE_RE = re.compile(
     r"(?:"
     r"i\s+(?:now\s+)?(?:give|call|yield)\s+(?:the\s+)?floor|"
     r"give\s+(?:the\s+)?floor\s+to|"
+    r"i\s+(?:now\s+)?invite\b|"
     r"the\s+assembly\s+will\s+(?:now\s+)?(?:hear|here)|"
     r"we\s+(?:shall|will)\s+now\s+hear|"
     r"the\s+distinguished\s+(?:representative|delegate|ambassador)|"

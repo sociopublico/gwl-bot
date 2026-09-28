@@ -131,6 +131,13 @@ _COUNTRY_ALIASES = {
     "tanzania": "united republic of tanzania",
     "moldova": "republic of moldova",
     "laos": "lao peoples democratic republic",
+    "lao": "lao peoples democratic republic",
+    "law peoples democratic republic": "lao peoples democratic republic",
+    "gabun": "gabon",
+    "aman": "oman",
+    "samarino": "san marino",
+    "ghibuti": "djibouti",
+    "cabovert": "cabo verde",
     "vietnam": "viet nam",
     "viet nam": "viet nam",
     "czechia": "czechia",
@@ -171,9 +178,6 @@ _COUNTRY_ALIASES = {
     "timolleste": "timor leste",
 }
 
-_OF_COUNTRY_RE = re.compile(r"\bof\s+(?:the\s+)?(.+)$", re.I)
-
-
 @dataclass(frozen=True)
 class RosterEntry:
     name: str
@@ -194,8 +198,12 @@ def roster_tokens(name: str) -> list[str]:
 
 
 def country_from_title(title: str) -> str:
-    match = _OF_COUNTRY_RE.search(title.strip().strip(" .,;:"))
-    return match.group(1).strip(" .,;:") if match else ""
+    """País al final del cargo: 'Minister of Foreign Affairs of Gabun' → Gabun."""
+    text = title.strip().strip(" .,;:")
+    matches = list(re.finditer(r"\bof\s+(?:the\s+)?", text, flags=re.I))
+    if not matches:
+        return ""
+    return text[matches[-1].end() :].strip(" .,;:")
 
 
 def _parse_entry(raw: str) -> RosterEntry | None:

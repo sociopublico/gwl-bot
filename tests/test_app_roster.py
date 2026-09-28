@@ -48,9 +48,16 @@ class CountryMatchTest(unittest.TestCase):
     def test_country_from_title(self) -> None:
         self.assertEqual(
             country_from_title("President of the Federative Republic of Brazil"),
-            "Federative Republic of Brazil",
+            "Brazil",
         )
         self.assertEqual(country_from_title("Prime Minister of Canada"), "Canada")
+        self.assertEqual(
+            country_from_title(
+                "Deputy Prime Minister and Minister of Foreign Affairs of the Law, People's Democratic Republic"
+            ),
+            "Law, People's Democratic Republic",
+        )
+        self.assertEqual(country_from_title("Secretary of State of the Holy See"), "Holy See")
 
     def test_brasil_alias_matches_brazil(self) -> None:
         self.assertGreaterEqual(country_score("brasil", "Brazil"), 0.9)
@@ -124,8 +131,13 @@ class CountryAliasTest(unittest.TestCase):
             ("French Republic", "France"),
             ("Argentine Republic", "Argentina"),
             ("Kirgis Republic", "Kyrgyzstan"),
+            ("Iraqi", "Iraq"),
             ("Republic of Maltives", "Maldives"),
             ("Principality of Endora", "Andorra"),
+            ("Gabun", "Gabon"),
+            ("Aman", "Oman"),
+            ("Law, People's Democratic Republic", "Lao People's Democratic Republic"),
+            ("Samarino", "San Marino"),
         ]
         for extracted, canonical in pairs:
             self.assertGreaterEqual(country_score(extracted, canonical), 0.86, extracted)
@@ -169,6 +181,32 @@ class CountryAliasTest(unittest.TestCase):
             assert hit is not None, country
             self.assertEqual(hit[0].name, expected, country)
         self.assertLess(country_score("Marsh Islands", "Solomon Islands"), 0.86)
+
+    def test_garbled_lao_and_gabun_resolve(self) -> None:
+        roster = parse_roster(
+            "Thongsavanh Phomvihane | Lao People's Democratic Republic;"
+            "Marie-Édith Tassyla-Ye-Doumbeneny | Gabon;"
+            "Sayyid Badr bin Hamad bin Hamood Albusaidi | Oman;"
+            "Luca Beccari | San Marino"
+        )
+        cases = [
+            (
+                "Tong Sa Wan Pong Via",
+                "Deputy Prime Minister and Minister of Foreign Affairs of the Law, People's Democratic Republic",
+                "Thongsavanh Phomvihane",
+            ),
+            (
+                "Mary Edith Tassila Yannam-Mubi",
+                "Minister of Foreign Affairs and Cooperation in charge of integration and the diaspora of Gabun",
+                "Marie-Édith Tassyla-Ye-Doumbeneny",
+            ),
+            ("say it better Abu Saadi for", "Minister of Aman", "Sayyid Badr bin Hamad bin Hamood Albusaidi"),
+            ("Lucura Bakari", "Minister of Foreign Affairs of San Marino", "Luca Beccari"),
+        ]
+        for name, title, expected in cases:
+            hit = match_roster(name, roster, 0.62, title=title, country=country_from_title(title))
+            assert hit is not None, name
+            self.assertEqual(hit[0].name, expected, name)
 
     def test_has_country_words(self) -> None:
         self.assertTrue(has_country_words("Council of Ministers of the Lebanese Republic"))
