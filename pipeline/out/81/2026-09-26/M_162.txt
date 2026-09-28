@@ -1,0 +1,223 @@
+---
+session: 81
+slug: germany
+id_speech: M_162
+country: Germany
+speaker: Johann Wadephul
+title: Federal Minister for Foreign Affairs
+speaker_title: His Excellency
+date: 2026-09-26
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/de_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.697
+---
+
+Mr President,
+
+Imagine if nuclear weapons were developed by private companies.
+
+If stockpiles were located on company grounds. And launch codes locked away in a safe in a CEO’s office.
+
+It ́s a disturbing thought.
+
+When a technology has the power to fundamentally change the world, possibly even determine the fate of humanity – we need to ask:
+
+Who controls it?
+
+Who sets the rules?
+
+Who is accountable?
+
+Today humankind faces another technological revolution that raises exactly these questions.
+
+Engineers have developed a technology that does not need to be launched from a rocket or a submarine to change the course of history.
+
+I am, of course, talking about artificial intelligence.
+
+A technology with seemingly unlimited power.
+
+In the wrong hands, it can upend our economies and threaten our livelihoods.
+
+It has the potential to erode trust within our societies by spreading information that appears real but is, in fact, fake.
+
+A.I. can endanger the infrastructure that keeps our societies running.
+
+And ultimately, it can influence decisions that determine global peace and security.
+
+At the same time, artificial intelligence holds extraordinary promise.
+
+It can accelerate scientific discovery.
+
+Improve healthcare and education all over the world.
+
+Provide opportunities for economic development, overcome inequalities and help us address challenges that no country can solve alone.
+
+Just imagine a world, where with the help of A.I. we can prevent famine and cure cancer.
+
+This is precisely what makes AI so powerful – for better or for worse.
+
+But there is a critical tension.
+
+Only two major countries are home to the companies holding the vast majority of all global A.I. patents.
+
+That puts an enormous amount of influence in the hands of a very few.
+
+Such power carries responsibility – not only towards customers, shareholders or governments. But also to humanity.
+
+And whenever power becomes global, responsibility must become global, too.
+
+The United Nations was created precisely for a moment such as this.
+
+When a challenge is too large for any one nation to address alone.
+
+When risks need to be managed to protect people all over the world, and when opportunities need to be exploited in a way that benefits the largest and the smallest, the richest and the poorest member states.
+
+But today, the United Nations itself is under pressure.
+
+There are great powers that believe they fare better if they ignore the rules enshrined in the UN Charter.
+
+The erosion of international law jeopardises the enormous civilisational progress that the United Nations stands for.
+
+The commitment to peace.
+
+The principle of sovereign equality of all states.
+
+The belief in norms and rules.
+
+The conviction of the dignity inherent in every human being.
+
+The erosion of these principles may serve the interests of a few. Who believe themselves powerful enough to survive in a world without norms – or to write their own rules.
+
+For us, for the overwhelming majority of the 193 states represented in this General Assembly, this is harmful.
+
+We know that the people of this world will pay the price if the respect for international law erodes. And if its institutions are under attack.
+
+For some of us, this erosion of the international order is already catastrophic. If it continues, we all stand to lose.
+
+But this pressure on the international order does not come from political actors alone. It also comes from the forces of technological revolution.
+
+This poses a crucial question: how do we enable our international institutions to keep pace with the technologies that are reshaping our world?
+
+Faced with this question, it will not be enough to invoke what we still have – or once had – in the United Nations.
+
+Nor will it help if we ignore its weaknesses.
+
+What we need is honesty, realism and cooperation.
+
+Honesty in our analysis, realism in our ambition and cooperation as our method.
+
+We must acknowledge that many of the beams of this common house cannot carry the burden we put on them. We must decide: which parts of the house do we preserve, and which do we rebuild?
+
+For this endeavor to succeed we need the new Secretary-General to lead a profound process of reform.
+
+Above all, we must close the gap between what we expect from the United Nations and the capabilities we give to the organisation.
+
+First, we need a functioning UN that plays an active role in resolving conflicts – rather than merely managing them.
+
+In times when the Security Council, as the central decision-making body, is paralyzed, this is more difficult than ever.
+
+We need to keep its reform high on our agenda.
+
+Germany stands up for peace and security.
+
+Today, more people than ever are affected by violent conflict. At the same time, for every member state, resources are limited.
+
+Thus, we have to join forces to bring conflicts to an end.
+
+Today, Germany is the largest supporter of Ukraine in its defence against Russian aggression. This aggression has been condemned consistently by an overwhelming majority here in the General Assembly.
+
+Russia’s war targets the lives of millions of innocent people, the existence of the Ukrainian state and culture and the European peace order. It puts vital grain deliveries for millions of people at risk, particularly in Africa, Asia and the Middle East. It shows contempt for the Charter and for the common order on which we stand.
+
+That is why we will continue to urge Russia to finally come to the negotiating table. I call on every member state to join us in convincing Russia that the future is built at the negotiating table, not on dead bodies in cities and villages. The day when negotiations finally begin will be a good day for the United Nations.
+
+Germany is also taking on responsibility for peace and security beyond Europe – for example, in Haiti, where we have significantly increased our contribution to the international mission to combat gang crime.
+
+Also, we shall not forget Sudan. At the Sudan conference in Berlin in April, together with our partners we mobilized more than 1,7 billion Dollars to alleviate the biggest humanitarian catastrophe of our time.
+
+Second, we stand for international cooperation that is peaceful, fair and based on equality.
+
+A new nationalism would be a misguided path. Whatever its prophets may preach, the truth is, that it would make our lives narrower, poorer and less secure.
+
+Instead, global trade relations need to be diversified and deepened – in the framework of a fair trading order.
+
+No country should have to accept raw materials being used to force obedience.
+
+Or supply chains becoming instruments of pressure.
+
+None of us is powerless in the face of this. Where we cooperate, we free ourselves from one-sided dependencies and open up new spaces of freedom.
+
+With our partners in the European Union, we have begun this work through new trade accords, cooperation agreements and partnerships. These partnerships are built on mutual respect, on common rules and a shared respect for international law.
+
+They also take into account the fortunate fact that many countries of the Global South are developing with extraordinary success.
+
+The same principle of partnership and cooperation also applies to technology.
+
+Access to computing power, data, expertise and infrastructure will increasingly shape who can innovate – and who merely has to accept the rules set by others.
+
+Cooperation must therefore create capabilities, not new dependencies.
+
+Third, we want to answer the great global questions of our time together.
+
+No one here – not even the largest among us – can do this alone.
+
+Together with all those who are willing to do so, we will continue our work to address human-made climate change and its devastating effects swiftly and effectively.
+
+We are forced to chart new courses, and we must do it with speed.
+
+But nowhere is the need more pressing than in the area of artificial intelligence. It is our collective responsibility to ensure that this technology serves human dignity.
+
+This is particularly urgent because technologies are already changing the foundations of our societies.
+
+A.I. is not waiting for our institutions to catch up.
+
+Our institutions have to catch up with reality.
+
+At the beginning of my remarks, I asked three questions: who controls new technologies? Who sets the rules? And who is accountable?
+
+We cannot answer them by simply trusting that those with the greatest capabilities will always act in the interest of everyone else.
+
+We need to ensure that technological progress is guided by a framework that we all have a say in shaping.
+
+That means building the capacity to understand and assess increasingly capable A.I. systems.
+
+It means making sure that all regions can participate in shaping the rules.
+
+And it means moving from voluntary commitments towards increasing transparency, as well as developing common standards.
+
+That is why Germany calls on UN member states to work towards common safety requirements for the most capable A.I. models.
+
+Providers should be required to test these models before release and report serious safety failures.
+
+These requirements should be supported by effective national and regional oversight.
+
+The A.I. industry will have to play its role in this and continue to bear a responsibility in shaping the trajectory of this technology.
+
+At the same time, we need to ensure accountability, in particular when global peace and security are potentially affected.
+
+In the course of this week, we have intensified our conversation about these questions.
+
+How we address A.I. together, is one of the clearest tests of whether we have the strength and the will to build a United Nations for today’s world.
+
+The next Secretary-General can count on Germany along this path.
+
+Our history, our geography and our constitution bind us to the UN Charter and to the Universal Declaration of Human Rights. This is at the very core of our statehood.
+
+The technologies may change.
+
+But one principle will remain: power must be bound by responsibility.
+
+And progress must serve human dignity.
+
+The world has long been in a mode of permanent escalation.
+
+And with it, the UN is navigating stormy waters.
+
+We must decide: are we truly willing to let the boat we all share drift toward capsizing, or will we pool our strength and steer it back on course?
+
+The tools are in our hands.
+
+Together, we can push for renewal and build a peaceful future for generations to come.

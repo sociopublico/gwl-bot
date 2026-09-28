@@ -1,0 +1,139 @@
+---
+session: 81
+slug: cabo-verde
+id_speech: M_148
+country: Cabo Verde
+speaker: Francisco Avelino Vieira de Carvalho
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-26
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/cv_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.594
+---
+
+Mr. President of the General Assembly,
+
+Mr. Secretary-General of the United Nations,
+
+Excellencies,
+
+Ladies and Gentlemen,
+
+It is a pleasure to be here, representing Cabo Verde, in this forum where the world comes together to discuss the challenges we share and the future we want to build.
+
+I come from a country made up of ten islands in the Atlantic. A country aware of its vulnerabilities, but one that has learned that the size of a territory must never determine the size of our dreams.
+
+The history of Cabo Verde is also a history of learning. We have learned to confront drought and scarcity, to transform the sea from a barrier into a bridge, but, above all, we have learned that a nation’s greatest wealth lies in its people. We even have a word for this wealth, which is "morabeza", a term that defines the cordiality, determination, and kindness of our people, which the whole world was able to witness a little during this year's Football World Cup.
+
+Amílcar Cabral, one of the great figures of our history, left us a lesson that continues to resonate across generations: “Learn in life, learn from our people, learn from the books and from the experiences of others. Learn always.”
+
+Perhaps this is an ability that the world must rediscover: the ability to learn from history, to learn from one another, and to understand that there can be no lasting development without peace, just as there can be no lasting peace where poverty, exclusion and lack of opportunity persist.
+
+In this spirit, Cabo Verde reaffirms its faith in the United Nations, in dialogue among nations, in cooperation among peoples, and in the primacy of Law over the use of force.
+
+In the face of the wars, inequalities, and crises confronting our world, we reaffirm our unwavering commitment to the Charter of the United Nations, to the sovereignty and territorial integrity of States, to the protection of civilian populations, and to the peaceful resolution of conflicts.
+
+International Law and International Humanitarian Law cannot be applied in a selective manner. They will only be truly strong and fulfill their role when they are respected and upheld by all.
+
+In our region, terrorism, violent extremism and transnational crimes also remind us that peace requires prevention, strong institutions and cooperation.
+
+And requires opportunities.
+
+Africa is the continent with the youngest population in the world. Therefore, investing in our young people, in education, in knowledge, and in the possibility of building a dignified life means also investing in peace.
+
+Excellencies,
+
+Learning also means embracing change.
+
+The world of today is not the world of 1945. The institutions we created to respond to the challenges of that time need to learn with the world that has changed.
+
+Cabo Verde therefore supports a United Nations that is more effective, more transparent, and more representative. The UN80 Initiative presents a n opportunity to modernize th is Organization and strengthen its response capacity.
+
+In this spirit, we also support the reform of the Security Council.
+
+Africa is home to nearly one -quarter of the Member States of this Organization and represents approximately one -fifth of the world’s population, and yet it still lacks the representation it deserves on this Council.
+
+Therefore, we support a more equitable African representation, in accordance with the Ezulwini Consensus and the Sirte Declaration.
+
+A fairer international order also requires fairer and more inclusive institutions.
+
+The election of the next Secretary -General should reflect the same principles: transparency, inclusion, merit and equal opportunities.
+
+Ladies and Gentlemen,
+
+But the United Nations is not just a place where we discuss crises. It is also the space where we build common paths.
+
+The 2030 Agenda, the African Union's Agenda 2063 and the Pact for the Future point us in one direction: sustainable development, centered on the people, capable of transforming global commitments into concrete changes in the lives of populations.
+
+This is also the mission of the new Government of Cabo Verde: to concretely improve the lives of its people.
+
+And we have placed education at the heart of this mission.
+
+Because the school is where a society begins to shape its future. And Education is a powerful development strategy.
+
+We seek to transform knowledge into innovation, decent employment, and opportunities; to strengthen our education and health systems; and to advance progress in digital transformation, gender equality, the energy transition, water security, and the blue economy.
+
+We want to create more opportunities for our young people and build an economy capable of transforming people’s talent into development.
+
+Development is transforming knowledge into opportunity and opportunity into dignity.
+
+Excellencies,
+
+For Cabo Verde and other Small Island States, the climate crisis is not a distant threat; it is a present reality - it’s here: the droughts, desertification, water scarcity, ocean acidification, and rising sea levels.
+
+Just look at what is happening on the island of Sal, where, only two days ago, rising sea waters flooded the avenue in front of the hotels.
+
+It is also a question of justice, because those who have contributed the least to this crisis cannot continue to bear some of its most serious consequences.
+
+Science has shown us the way forward. We must now translate this valuable knowledge into decisions and actions.
+
+Cabo Verde has tried to do its part.
+
+In September 2024, Cabo Verde launched a call for a Global Compact for Climate Mobility, and in June, in Berlin, 57 countries endorsed the Global Consensus on the Principles to Address Climate Mobility.
+
+At the United Nations, Cabo Verde co-facilitated negotiations on the Political Declaration of the Third Conference on the Oceans and the Declaration on Sea Level Rise.
+
+For a country made up of islands, protecting the ocean is not just an environmental policy.
+
+It is protecting the national territory, the economy, the culture, and the future.
+
+In January 2027, Cabo Verde will take over the Presidency of the Alliance of Small Island States (AOSIS). We will take on this responsibility by working for the unity of Small Island States, the implementation of the Antigua and Barbuda Agenda, for fairer financing, for climate adaptation, and for ensuring that the oceans remain at the heart of the global agenda.
+
+And in 2034, we will host the Fifth International Conference on Small Island Developing States, providing an opportunity to share experiences, build common responses, and transform vulnerabilities into opportunities.
+
+Ladies and Gentlemen,
+
+There is also pedagogy in the relationships between Nations.
+
+It begins with the ability to listen.
+
+It entails the humility to recognize that no one country alone has all the answers.
+
+And it makes sense when what we learn together is translated into action.
+
+This, after all, is the essence of multilateralism.
+
+In a time of fragmentation, we need to regain trust. In a time of confrontation, we need to strengthen cooperation. In a time when force so often prevails, we need to reaffirm the Law.
+
+But our history has taught us to engage in dialogue, to build bridges, and to seek consensus.
+
+It also taught us that no country is too small to have a voice and no challenge is too big to tackle when we work together.
+
+The United Nations must continue to be the space for this collective endeavor.
+
+And I will recall what Amílcar Cabral taught us: “Learn always.”
+
+Today, learning also means understanding that educating a child, providing opportunities for young people, protecting the planet, fighting poverty, promoting development, and building peace are not separate missions.
+
+They are, indeed, different ways of caring for the future.
+
+And perhaps this is the greatest lesson that our times require of us: the future is not simply what we receive.
+
+Rather, it is what we are able to teach, learn, and build together.
+
+Thank you for your attention.

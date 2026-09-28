@@ -1,0 +1,201 @@
+---
+session: 81
+slug: singapore
+id_speech: M_158
+country: Singapore
+speaker: Vivian Balakrishnan
+title: Minister for Foreign Affairs
+speaker_title: His Excellency
+date: 2026-09-26
+source: transcript_ai
+source_url: https://gadebate.un.org/en/node/81162/transcript/en/prepare-download
+language: en
+original_language: en
+transformation: none
+via: ai_transcript
+elapsed_s: 0.720
+---
+
+I now give the floor to His Excellency Vivian Balakrishnan, Minister for Foreign Affairs of Singapore.
+Madam president, excellencies, our world is undergoing a profound disruption characterised by great power, contestation, the wars in Ukraine, the Middle East, Africa.
+We're witnessing the rise of trade barriers.
+Supply chain disruptions, worsening climate change, and a new industrial revolution driven by digital technologies, biotechnology and renewable energy.
+
+This means we face both great peril and great promise.
+Yet we are in a more polarised and fractured world, and one that may be unable to protect the global commons at precisely the moment that we need that protection.
+Our inter-state relations are increasingly dictated by raw power, where the outcomes are determined on the basis of size, leverage and coercion.
+And this poses obviously, a clear and present danger for smaller states like Singapore.
+
+But the point I wanted to make is that even the more powerful states would ultimately pay a price, because hard power on its own cannot secure supply chains, protect populations from pandemics, or stabilise a warming planet.
+Even big powers need partners to secure their long term national interests.
+The bilateral and regional arrangements can complement global frameworks, but on their own, they cannot replace shared rules that apply universally.
+A system built on individual coercive bargains would inherently be more volatile and more unstable.
+
+And therefore, our thesis today is that multilateralism offers a different bargain, one that is, in every state's enlightened national interest.
+These shared rules and norms provide predictability.
+They constrain the capricious exercise of power, and they maximize autonomy even when power is unequally distributed.
+Actually the multilateral system today still works more often than the headlines would suggest.
+
+A few examples.
+The World Food Program feeds over 100 million people a year.
+The common ICAO standards enable 100,000 flights to operate safely every day with the ITU, our telecommunications networks and the internet continues to operate safely, smoothly on a planetary scale.
+The question is, therefore not whether we need multilateralism, but how to make it fit for purpose.
+
+And I suggest three priorities.
+First, we all have to consistently comply with international law and the norms of multilateralism.
+Second, we need to reform existing institutions where needed.
+And third, we need to collectively formulate new rules and create new institutions for new technologies.
+
+Let me deal with the first point.
+The consistent compliance with international law.
+Consider Unclose, the UN convention on the law of the sea.
+In fact, UN clauses, one of the great achievements of multilateral law making.
+
+It was concluded under the presidency of Professor Tommy Koh of Singapore, who called it the Constitution for the oceans.
+For over four decades It has set out the legal framework for activities in all our oceans and seas.
+But the current war in the Persian Gulf has put us close to a severe stress test.
+The Strait of Hormuz is closed.
+
+We have to collectively reject this transit passage through straits used for international navigation is a right for all of us.
+It's not a privilege subject to fees and tolls.
+And this is customary international law, which means it is binding on all states whether or not they consider themselves parties to enclose how we deal with the Strait of Hormuz will have implications for navigational rights and freedom around the world.
+At stake is the legal architecture for freedom of navigation and overflight, and we cannot allow any single country to exercise a veto on these navigational rights and freedoms.
+
+Beyond the legal and political implications, the economic impact is also very stark.
+The Strait of Hormuz carried around a fifth of the world's oil supplies, as well as critical supplies for other industries everywhere.
+Its disruption has meant higher energy prices for all of us broken disrupted supply chains and stranded seafarers.
+And this is why shared rules like enclose matter.
+
+Defending them is not just a matter of principle or debate.
+It is in our collective interests.
+The largest economies depend on the open sea lanes as much as the smallest.
+And we in Singapore hold ourselves to the same standard.
+
+The Strait of Singapore is less than two nautical miles at its narrowest and yet nearly a quarter of the world's seaborne trade passes through the Strait of Singapore Singapore, Indonesia and Malaysia.
+The three littoral states of the Straits of Malacca and Singapore have worked with other users of these traits to keep the straits open, secure and accessible to everyone for decades, including through the cooperative mechanism on the safety of navigation and environmental protection in the Straits of Malacca and Singapore.
+Madam president, excellencies, the second point is that we should and must reform existing institutions and processes where necessary.
+In fact, free trade is another success story of the post-war multilateralism.
+
+Lower trade costs in these decades have boosted global real GDP by an estimated 6.8%, and in the case of low income countries, by around 33%.
+Under the GATT and subsequently the WTO, disputes even between unequal powers could be settled by adjudication rather than the exercise of unilateral coercion But we all know the multilateral trading system has frayed.
+This year's WTO conference in Yaoundé could not even reach consensus on several key issues, including the moratorium on the customs duties for electronic transmissions, which lapsed tariffs and supply chain restrictions have also returned as instruments of coercion.
+The consequences of all this cannot be overstated for Singapore.
+
+Trade is three times our GDP.
+For many in this hall, access to markets and technology are absolutely essential for our development.
+When the rules governing trade are eroded, all of us will pay the price.
+I know that consensus amongst 193 states is difficult, but it remains the gold standard.
+
+And I would ask all of you to recollect the BB, NJ agreement which entered into force this year.
+This is clear evidence that even in this time, we can still build common rules for shared challenges.
+And Singapore is proud that our ambassador, Vina Lee, presided over the negotiations that concluded this agreement by consensus.
+Having said that, even when consensus is elusive, we cannot allow collective action to be held hostage or to be paralysed.
+
+We need more flexible coalition of states and partners who are willing and able to move forward, whilst remaining open to others to join when they are ready.
+Such coalitions already serve large and small economies alike The Rcep, the Regional Comprehensive Economic Partnership, is the largest trade agreement in the world.
+The Cptpp, the Comprehensive and Progressive Trans-Pacific partnership now stretches from Asia to Latin America to the United Kingdom, and in July 19th, small and medium sized trading nations of the Future of Investment and Trade Partnership met in Auckland.
+Not to negotiate a grand bargain, but to systematically reduce trade frictions and to strengthen supply chain resilience.
+
+Excellencies, this is not a retreat from multilateralism.
+It is a pragmatic and flexible effort to sustain cooperation when broader agreement is not yet possible, while remaining open for those who are ready to join later on.
+The objective remains the same to preserve the benefits of cooperation, widen participation over time, and ultimately bring these arrangements into the multilateral global architecture.
+Third, we must collectively formulate new rules and be prepared to create new institutions, if necessary, for new technologies.
+
+Artificial intelligence, which we've heard so many times from the podium this week, is arguably the most urgent frontier AI offers with extraordinary potential, but its capability is advancing faster than our appreciation of its risks.
+There are fundamentally three categories of risk.
+First, the loss of control of autonomous systems.
+Second, that rogue actors could use AI to create bioweapons or other weapons of mass destruction or mass disruption.
+
+Third, the economic, the social the political.
+Domestic disruptions are only just emerging.
+But excellencies, the genie is already out of the bottle.
+It is too late to call for a halt, especially given the superpower rivalry and the huge financial incentives for companies who already have frontier models.
+
+But let me offer a metaphor of driving a high performance car to drive a high performance car quickly and safely.
+You need a powerful engine.
+But equally, you need good brakes.
+And especially if you are going to go beyond your neighborhood or cross boundaries, you need effective shared rules, traffic lights, insurance norms of behavior, seat belts.
+
+The engine is innovation.
+Every one of us has to continue to invest in science, the talent, and the infrastructure that will drive AI forward.
+For small states.
+This entails especially developing our people, equipping them with the skills necessary to master and deploy AI quickly, widely, at scale and safely.
+
+The real productivity gains from AI comes not from the IT department, but from our businesses and workers having the skills, the tools and the wherewithal to engineer their work processes.
+Workflow by workflow.
+It is.
+That's where the cutting edge of value creation arises.
+
+But having said that, every powerful engine needs good brakes, safeguards as the capabilities of AI advance, our safeguards must keep pace.
+We need rigorous testing and evaluation before deployment.
+We need clear limits on what autonomous systems can do and mechanisms to intervene when they behave in ways we do not intend.
+And since the risks from AI do not remain confined behind borders, it means we also need rules of the road that will form a shared global understanding of how we will collectively confront this challenge.
+
+Just as all of us instinctively understand traffic lights the same way, whether we're here in New York or in Beijing, Moscow or Singapore.
+Most importantly, human beings must ultimately remain in control and accountable.
+Let me give you an extreme thought experiment.
+Do you want the nuclear button to be in the hands of a human being or an AI?
+
+Think about that.
+The scarce resource today is not legal architecture or technology.
+It is trust.
+Trust that the risks will be disclosed, that testing will be comprehensive and credible, and that cooperation will be inclusive and not be used to secure unilateral advantage.
+
+The technology has already become an arena for strategic competition precisely when international cooperation is most needed.
+Any durable international approach must give all states, all states a meaningful stake.
+Not only those who already have the most advanced models, or the deepest pockets, or the largest set of armaments.
+So the question is how do we build trust?
+
+We begin with the science.
+Even where states have differences on governance, I believe it is possible for us to work together to collectively understand the capabilities and risks of AI models, to develop comparable methods for testing and evaluation, and to report serious incidents quickly across borders.
+We are not starting from zero.
+If you carefully go through what we already have today, the UN's Independent International Scientific Panel on AI already helps to establish a common understanding based on evidence The global dialogue on AI governance can help to translate that common understanding into common objectives, and the Itu's AI for Good Global Commission brings together leaders from government, industry and international institutions to discuss challenges and to come up with practical solutions.
+
+We must urgently establish common rules and safeguards for AI, and we should build on the many ongoing discussions in different formats and groupings And here I want to make a point The UN, the United Nations has a critical role to play in building convergence, because this is the only apex international institution with universal membership.
+We must explore all options, including the idea of a UN framework Convention on AI safeguards.
+We may also need an international institution that can perform for AI some of the functions that currently exist for institutions that perform this.
+This function of setting common technical standards and the examples are the International Telecommunications Union, which provides all the International Atomic Energy Agency, which provides verification.
+
+Ultimately, the global Commons are best protected by collective action agreed through an inclusive process, and Singapore commits to contribute where we can.
+This week we joined the call for greater safety and security of frontier AI models, and I'm glad that this was led by Finland and Norway.
+We will continue to contribute through platforms such as the Digital Pillar for the Forum of Small States, and by making our governance frameworks and testing tools available to all.
+But the work of building trust and laying the ground for global cooperation must begin now.
+
+Ultimately, powerful engines and good breaks and common rules do not stop us or slow us down.
+They give us the assurance and the confidence so that we can move faster and more effectively for the benefit of all our peoples.
+Madam president, excellencies, effective multilateralism requires institutions that can deliver, and that begins with a reform of the UN itself.
+I welcome the progress of the UN initiative.
+
+But reform must be strategic.
+Not not merely.
+Fiscal reform must strengthen the equal standing of all members.
+The goal is not a smaller UN for its own sake, but one that delivers better and more equitably.
+
+In this session, we will appoint the 10th Secretary General of the UN.
+No one today under the age of 80, has lived in a world without the United Nations.
+But the UN has to earn the confidence of successive generations, and it does this through what it delivers, not what it declares on paper.
+The next Secretary general must lead a UN that turns multilateral cooperation into practical results and communicates.
+
+This results in an effective way to all our people.
+Let me at this point, also pay tribute to Secretary General Antonio Guterres.
+He is a good man with the courage of his convictions, and he has ably steered this organization through some very difficult years of global division.
+He has been a consistent voice for the charter, for our climate and oceans, and for the rules that hold the global commons together.
+
+Finally, Madam President, effective multilateralism requires all countries to be prepared to contribute to the institutions that sustain it.
+For Singapore, this begins with international law.
+The rule of law requires institutions to give it effect.
+Currently, the International Court of Justice has its fullest docket in its history, at precisely the moment when the relevance and effectiveness of international law is being questioned.
+
+States continue to bring their most serious disputes before the world's principal judicial organ.
+That's actually a good sign that demonstrates trust in the peaceful settlement of disputes and we must safeguard that trust.
+Singapore has nominated our ambassador for international law, Rina Lee, for election as a judge of the ICJ and as a tiny small state, Singapore has been a beneficiary, has been an active practitioner and a builder, a contributor to international law.
+We now ask for the chance to serve the cause of the rule of law.
+
+Madam president, this is the case for multilateralism It's not some pie in the sky idealism, but a hard headed recognition that cooperation ultimately serves all of us.
+For every state, large or small a world governed by rules is infinitely better than one governed simply by the exercise of hard, crude power.
+In 1945, the founders of the UN hoped that the rules could restrain power.
+If we want to keep that hope alive, we must defend those very same rules that continue to serve us consistently everywhere across the globe.
+
+We have to adapt to a changing world, and we have to build new rules, new institutions and new processes where the challenges demand.
+Thank you all very much.
+I thank the Foreign Minister of Singapore for his presentation.

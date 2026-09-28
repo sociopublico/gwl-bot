@@ -1,0 +1,93 @@
+---
+session: 81
+slug: lao-peoples-democratic-republic
+id_speech: M_151
+country: Lao People’s Democratic Republic
+speaker: Thongsavanh Phomvihane
+title: Deputy Prime Minister
+speaker_title: His Excellency
+date: 2026-09-26
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/la_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.835
+---
+
+Mr. President,
+
+1. At the outset, allow me to express my warmest congratulations to His Excellency Dr. Khalilur Rahman on his election as President of the 81st Session of the United Nations General Assembly. My delegation assures you of our full support and cooperation throughout your Presidency. I also express our deep appreciation to Her Excellency Annalena Baerbock for her dedicated leadership during the 80th Session.
+
+2. The theme for this session, “Restoring Trust, Managing Transformation: A United Nations that Delivers for All,” arrives at a pivotal juncture. For developing and vulnerable countries, a well-resourced and responsive United Nations is an indispensable anchor. Restoring trust in our international system requires us to uphold predictable support, honour commitments, and reaffirm our fidelity to the UN Charter.
+
+3. For the Lao PDR, restoring and deepening trust begins with a renewed commitment to inclusive multilateralism, with the United Nations at its core. When dialogue is guided by mutual respect, transparency, and genuine cooperation, multilateralism yields tangible benefits for all people.
+
+Mr. President,
+
+4. Our world continues to confront severe, multifaceted crises: geopolitical tensions, macroeconomic instability, supply chain disruptions, and accelerating climate emergencies. These headwinds place immense strain on the most vulnerable economies, where rising energy and food prices jeopardize the livelihoods of millions of people in countries in special situations.
+
+5. The ongoing conflicts in the Middle East demonstrate how rapidly confrontation can destabilize global stability. Sustainable peace cannot be forged through force or unilateral action; it requires diplomacy, respect for sovereign equality and territorial integrity, and strict adherence to international law.
+
+6. The question of Palestine remains an enduring test of multilateral credibility. We remain deeply concerned by the humanitarian catastrophe and immense reconstruction requirements in Gaza, as well as mounting challenges in the West Bank. To prevent the twostate solution from slipping beyond reach, the international community must secure a just, comprehensive, and lasting peace, one that fulfils the legitimate rights of the Palestinian people to selfdetermination through an independent State of Palestine with full membership in the United Nations.
+
+7. In the same vein, the Lao PDR reiterates its principled position against Unilateral Coercive Measures. The prolonged economic, commercial, and financial embargo against the Republic of Cuba continues to inflict hardship on its people. We call for the immediate and unconditional lifting of these sanctions, including logistics and energy blockades, and the removal of Cuba from the list of “State Sponsors of Terrorism.” Such steps are essential first humanitarian measures toward restoring trust and reaffirming the primacy of international law.
+
+Mr. President,
+
+8. The gap between commitments and delivery on climate change equally tests the credibility of multilateralism. Although the Lao PDR has contributed only a small share of global greenhouse gas emissions, our people are increasingly affected by floods, droughts and extreme weather conditions.
+
+9. The Lao PDR remains fully committed to the Paris Agreement and its Nationally Determined Contributions. However, climate ambition must be matched by adequate, predictable, and accessible climate finance, technology transfer, and capacity-building to enable vulnerable developing states to adapt, build long-term resilience, and pursue low-carbon growth pathways.
+
+Mr. President,
+
+10. The Lao PDR welcomes the UN80 Initiative to enhance the coherence, transparency, and effectiveness of the UN System.
+
+Systemic reform must ensure a balanced approach across all three pillars of the Organization: peace and security, sustainable development, and human rights.
+
+11. The implementation of the Pact for the Future and the Global Digital Compact must focus on narrowing the digital divide.
+
+Artificial intelligence and digital technologies must serve human development, strengthen local technical capacities, and respect national development priorities.
+
+Mr. President,
+
+12. As an active member of the Association of Southeast Asian Nations (ASEAN), the Lao PDR reaffirms that a united, integrated ASEAN serves as a cornerstone of regional peace and multilateral stability. We remain steadfast in supporting ASEAN centrality within the evolving regional architecture, where ASEAN -led mechanisms foster trust and practical cooperation.
+
+13. This year carries special significance as we begin implementing the ASEAN Community Vision 2045 alongside its Strategic Plans across all three community pillars. It also marks the 50th Anniversary of the Treaty of Amity and Cooperation in Southeast Asia (TAC)—a foundational framework whose core principles of peaceful coexistence and mutual respect remain fully relevant today. ASEAN remains the bedrock of Lao PDR’s regional engagement.
+
+Mr. President,
+
+14. Despite severe external economic shocks and natural disasters, the Lao economy continues its steady recovery through strong national ownership and strategic international partnerships. Guided by our Sovereign and Self-Reliant Economic Policy, the Lao PDR has adopted the 10th National Socio-Economic Development Plan (2026–2030).
+
+15. The 10th NSEDP focuses on six core national outcomes: o First: Executing a sovereign and self-reliant economic policy aiming for steady annual GDP growth of 6% or higher; o Second: Developing high-quality human resources capable of driving technological transition; o Third: Improving living standards, ensuring balanced urbanrural development, and alleviating poverty; o Fourth: Protecting natural resources, building climate resilience, and mitigating disaster risks; o Fifth: Enhancing regional and global economic integration and connectivity; and o Sixth: Strengthening the efficiency and transparency of public administration and governance.
+
+16. Central to this strategy is transforming the Lao PDR from a landlocked country into a land-linked regional gateway. Strategic infrastructure, including the Laos–China Railway, the Laos–Viet Nam Railway project, expanded transit corridors, and access to the sea via Vung Ang International Port are actively driving regional trade and integration. Our long-term vision towards 2055 aims to firmly establish the Lao PDR as an upper-middle-income nation with sustainable, inclusive growth at its core.
+
+Mr. President,
+
+17. This year marks a landmark milestone in our national development. The Lao PDR remains fully committed to its formal graduation from Least Developed Country (LDC) status, in accordance with relevant General Assembly resolutions.
+
+18. As the UN Secretary-General António Guterres rightly stated,
+
+LDC graduation must be “a reward, never a punishment.” To safeguard our hard-won development gains and prevent structural setbacks, we are executing a robust Smooth Transition Strategy (2026–2029). We call on our international partners to provide predictable transition support, extend smooth adjustments regarding International Support Measures (ISMs), and expand concessional financing to build enduring economic resilience.
+
+19. The 2030 Agenda for Sustainable Development remains fully embedded within our national planning. As we prepare to present our Fourth V oluntary National Review (VNR4) at the 2027 HighLevel Political Forum, we remain dedicated to an open, transparent assessment of our progress.
+
+20. For the Lao PDR, the nexus between peace and development is a lived experience. As a country heavily impacted by wartime cluster munitions for over five decades, we have placed unexploded ordnance (UXO) clearance at the heart of our development agenda through the national SDG 18: "Lives Safe from UXO."
+
+Removing UXO is not merely a technical task. It is about restoring fundamental safety, securing agricultural land, and reclaiming development opportunities for our communities.
+
+21. Building on this commitment, the Lao PDR proudly hosted the 3rd Review Conference of the Convention on Cluster Munitions (CCM) early this month in Vientiane under the theme: “Accelerating Progress Towards a World Free from the Threat of Cluster Munitions.” Our Presidency demonstrated that mine action is an indispensable foundation for poverty reduction, human dignity, and sustainable development.
+
+Mr. President,
+
+22. As Secretary-General António Guterres prepares to complete his distinguished tenure at the helm of our Organization, the Government and people of the Lao PDR wish to express our profound appreciation and heartfelt gratitude for his principled leadership, moral clarity, and unwavering dedication to the United Nations. A true and trusted friend of the Lao PDR and fellow peace-loving developing nations across the Global South,
+
+Secretary-General Guterres will be warmly remembered for his tireless advocacy for international financial architecture reform, climate justice, sustainable development financing, and the dignity of countries in special situations. His legacy of solidarity and bold championing of equity will continue to inspire our collective multilateral efforts for years to come.
+
+Mr. President,
+
+23. In conclusion, the Lao PDR firmly believes that the United Nations remains the essential home of global cooperation. No single nation can overcome today's complex global challenges alone. Let us unite our collective strength, renew our trust in multilateralism, and work together to build a peaceful, resilient, and prosperous world where no nation and no person is left behind.
+
+I thank you.

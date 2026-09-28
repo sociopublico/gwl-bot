@@ -1,0 +1,147 @@
+---
+session: 81
+slug: republic-moldova
+id_speech: M_149
+country: Republic of Moldova
+speaker: Vasile Tofan
+title: Prime Minister
+speaker_title: His Excellency
+date: 2026-09-26
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/md_en_0.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.924
+---
+
+Madam Vice President of the General Assembly,
+
+Deputy Secretary General,
+
+Excellencies, Ladies and Gentlemen,
+
+This summer, the Republic of Moldova turned thirty -five. For much of that time, the world described us as a country caught between East and West - a place where others decided. I stand here as the new Prime Minister of a country that has decided.
+
+Small countries do not choose their geography or their size. But small, does not mean powerless. Nations, like people, are shaped by the choices they make - whom they trust, whom they elect, whom they call friends, and how they respond when things turn against them.
+
+For a long time, others made many of those choices for us.
+
+Soviet authorities deported our families to Siberia, forced our Romanian language into another alphabet and told us it had another name. After independence, Moscow used gas and trade restrictions as leverage over our country.
+
+Step by step, we began choosing for ourselves. Romanian is again written in the Latin alphabet and spoken freely.
+
+Governments change peacefully at the ballot box. And when our democracy was threatened, Moldovans have defended it through elections and civic action.
+
+We also reduced Russia's economic leverage on us. We diversified our gas purchases. In just five years, renewables grew from almost nothing to around 30%. Our electricity system is increasingly integrated with Romania and the European grid, and our companies sell on some of the most demanding markets in Europe and the world.
+
+But the Kremlin kept trying. Moldova faced illicit financing, disinformation, cyberattacks and vote buying. Russia spent the equivalent of roughly two percent of our GDP trying to influence last year's election.
+
+Moldovans answered that their home is not for sale.
+
+Each of these choices carried a cost. But each taught us the same lesson: we cannot control everything around us, but what we do still matters.
+
+That is the source of our optimism. Our future remains in our own hands.
+
+And nowhere is that choice clearer today than in our European path.
+
+European integration has become our national project. Moldova has been a candidate country since 2022, accession negotiations are underway, and we are moving quickly. Our ambition is clear - to anchor Moldova firmly in the European family.
+
+For us, joining the European Union is not about replacing one sphere of influence with another. It is the opposite. It is our citizens exercising their right to choose. Choose democracy.
+
+Choose prosperity. Choose peace.
+
+That European choice goes hand in hand with a strong transatlantic partnership. For Moldova, these are not competing directions. The United States has been an important partner in strengthening our security, energy independence and resilience. We want the next chapter of that relationship to be increasingly about trade, investment, technology and building things together.
+
+But membership is not only about what Europe can give Moldova. It is also about what Moldova can bring - a democracy that has learned to resist interference, an emerging economy, a country contributing to stability on Europe's eastern frontier, and a small state willing to experiment, reform and move quickly.
+
+Being small imposes constraints. But it can also be an advantage.
+
+Moldova is not a huge domestic market. We cannot outspend the largest economies. So we have to compete differently - with permits in days rather than months, clear regulation, digital public services and rules that change when they no longer make sense.
+
+Technology is moving faster than regulation almost everywhere, and artificial intelligence is widening that gap. Small countries can have a natural edge here.
+
+We want Moldova to become a place where emerging tech can be tested responsibly through regulatory sandboxes - where regulators learn alongside companies, rules adjust with evidence, and good ideas do not wait years to reach the real economy.
+
+When an entrepreneur arrives with a technology for which the law has not caught up, the answer should not simply be: "There is no rule for this." It should be: "Let us find a safe way to test it."
+
+We may never have the deepest pools of capital or the largest GPU clusters. But we can build better rules and be more agile.
+
+Smallness does not have to mean weakness. Sometimes it means turning faster and delivering when larger countries cannot.
+
+And that leads to a broader point about small nations.
+
+Power has never been equal. It never will be. But inequality of power must never become inequality of sovereignty. Countries are not buffers. Nations are not bargaining chips.
+
+Nowhere is that principle being tested more brutally today than next door to us.
+
+Safety is not abstract for me. Kyiv was home for nearly fifteen years, including on 24 February 2022. That morning, as parents, we struggled to explain to our 3 boys - one, ten and twelve at the time - what war actually meant.
+
+Perhaps nothing captures the normalization of this war better than the arithmetic children have learned.
+
+Think of a typical night. A jet-powered Shahed drone is reported heading toward Kyiv. A twelve-year-old checks the map, knows roughly how fast it is travelling, and does the math in his head — before the approaching drone sends him to the bomb shelter.
+
+Children have become frighteningly good at this - the nightly arithmetic of war.
+
+In Moldova, we cannot begin to compare our suffering with Ukraine's. Yet Russian drones have repeatedly violated our airspace and fallen on our territory. The danger is that the unacceptable starts to feel normal.
+
+For us, too, this is about the safety of our families. We must not grow accustomed to it. Repetition does not make a violation acceptable.
+
+And because these are not abstract questions for Moldovans watching at home, allow me to speak to them directly for a moment.
+
+{In Romanian} Dragi moldoveni,
+
+Știu că mulți dintre voi urmăriți cu neliniște știrile despre războiul de alături, despre dronele rusești care s -au întețit, și vă gândiți deja la iarna care vine. Da, ne așteaptă o iarnă grea. Datoria noastră, a Guvernului, este să ne pregătim și să-i ajutăm mai ales pe cei care au cel mai puțin. Pentru asta muncim și despre asta vorbim cu partenerii noștri aici.
+
+Dar vreau să vă rog un lucru important: să ne ținem grămăjoară.
+
+În momentele grele, asta ne -a ajutat de fiecare dată - să nu ne lăsăm singuri unii pe alții, să ne ajutăm vecinii, părinții, oamenii care o duc cel mai greu. Putem avea păreri diferite, putem vota diferit. E firesc într-o țară în care oamenii gândesc liber. Dar grija pentru cei de lângă noi trebuie să ne unească. Suntem o țară mică. Tocmai de aceea e cu atât mai important să știm că nu suntem singuri și că ne putem sprijini unii pe alții.
+
+__ (Translation in to English: My fellow Moldovans,
+
+I know many of you are anxiously following the news about the war next door and the growing threat from Russian drones, and are already thinking about the winter ahead. Yes, a difficult winter awaits us. Our duty as a government is to prepare and to help those who need it most. That is what we are working on, and that is what we are discussing with our partners here.
+
+But I want to ask something important of you: let us stick together. In difficult times, this is what has always helped us through: being there for one another, helping our neighbours, our parents and those struggling the most. We may hold different views. We may vote differently. That is natural in a country where people think freely. But caring for those around us must unite us. We are a small country. That makes it all the more important to know that we are not alone and that we can count on one another.)
+
+___ That solidarity at home must go hand in hand with clarity about the danger around us.
+
+This is not a tragedy without an author. Russia launched a war of aggression against a sovereign neighbour. It occupied territory and continued to attack Ukrainian cities. Ukraine did not choose this war. Russia did.
+
+We often speak about "war fatigue". The phrase is understandable. Governments have other crises. Families have their own worries. Attention moves on.
+
+But being tired of a war you can switch off is different from being tired because an air -raid wakes your children again tonight - and different still from the exhaustion of Ukrainian soldiers spending another cold night in the mud.
+
+Moldova could not choose that this war began next to us. But we could choose our response.
+
+We welcomed people fleeing the war. We kept transport routes open. We reduced the cost of rail transit for Ukrainian cargo with grain.
+
+These decisions were not always cost-free or politically easy at home. We made them because the way this war ends matters far beyond our region.
+
+If aggression is rewarded, it becomes a precedent - for the aggressor and for everyone watching. Peace must protect sovereignty and create the conditions for lasting security.
+
+The same principle applies within our own borders.
+
+Russian military forces remain, illegally and without our consent, in the Transnistrian region of Moldova. We will continue to seek their unconditional withdrawal and the peaceful reintegration of our country, with full respect for Moldova's sovereignty an d territorial integrity.
+
+We want people on both banks of the Nistru to live together in a peaceful, democratic and prosperous Moldova.
+
+And because we believe small states should help shape the international system, not simply depend on it, Moldova is honored to present its candidacy for the Presidency of the 82nd session of the United Nations General Assembly. We want to contribute to a U N that is more effective, more inclusive and focused on results.
+
+Excellencies,
+
+We live in a world with plenty of reasons for pessimism. Moldova chooses something else.
+
+Not naïve optimism. Not the belief that problems disappear if we refuse to see them. The optimism that comes from knowing that our future is still in our own hands.
+
+For too long, Moldovans were told that our country was too small, too exposed, too divided to choose its own future. We have spent enough time believing that. We know our problems.
+
+But we should also know our strength.
+
+We are a free country. Our people are humble, work hard, and put family first. Our diaspora is spread across the world, but stays close to one another and deeply cares about what happens at home. Only when it comes to vineyards does modesty become a little harder for us - we quietly suspect our wines might just be the best in the world.
+
+We have friends across Europe, across the Atlantic and far beyond. And we finally have a realistic path to build a country our children should not need to leave in search of opportunity.
+
+Moldova may never be a great power. But we have everything it takes to be a great country.
+
+I thank you.

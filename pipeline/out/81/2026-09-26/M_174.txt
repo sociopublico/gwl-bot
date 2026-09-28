@@ -1,0 +1,177 @@
+---
+session: 81
+slug: zambia
+id_speech: M_174
+country: Zambia
+speaker: Mulambo Hamakuni Haimbe
+title: Minister for Foreign Affairs and International Cooperation
+speaker_title: His Excellency
+date: 2026-09-26
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/zm_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.759
+---
+
+Secretary-General,
+
+Excellencies,
+
+Distinguished Heads of State and Government,
+
+Ladies and Gentlemen,
+
+We congratulate you, Mr. President, on your election as the President of the 81st Session of the United Nations General Assembly and pledge our cooperation and support during your tenure. We also commend the Secretary-General for his strong leadership at a challenging time in our multilateral system. Zambia salutes H is Excellency António Guterres for reminding us that the answer to a more divided and multipolar world is not less multilateralism, but a stronger, fairer and more representative United Nations.
+
+The theme of this session, “Restoring Trust, Managing Transformation:
+
+A United Nations That Delivers for All,” is both timely and necessary.
+
+Trust is the foundation on which international cooperation is built upon. Yet today, trust in institutions, trust among nations and, most importantly, trust between the institutions that serve the people, is under strain.
+
+Trust means that the founding principles of the United Nations Charter must be respected.
+
+For Zambia, trust begins with keeping promises.
+
+Trust means that international agreements must be honoured.
+
+Trust means that development commitments must be financed.
+
+Trust means that the voices of developing countries matter, in word and in deed.
+
+Trust means that the global system must not protect the interests of the powerful, at the expense of the vulnerable.
+
+And trust means that when the world agrees on a goal, we must have the commitment to implement it.
+
+The world is undergoing profound transformation. Technology is changing economies and societies. Climate change is reshaping livelihoods.
+
+Geopolitical competition is altering global trade and investment patterns.
+
+Conflicts are causing massive displacements and humanitarian suffering.
+
+And yet, Developing countries continue to confront a financing system that does not adequately reflect and respond to their development needs. The question before us is therefore, not whether transformation will happen, but it is rather how we manage transformation, who benefits from it, and whether our multilateral institutions are capable of delivering meaningful results for ordinary people.
+
+For Zambia, our answer is clear: we must restore trust by achieving results, and we must manage transformation by ensuring that no country and no-one is left behind.
+
+Zambia's Democratic Journey and the 2026 Elections Mr. President,
+
+Article 21 of the Universal Declaration of Human Rights affirms that, “the will of the people shall be the basis of the authority of government,” expressed through periodic and genuine elections.
+
+It is in this spirit that Zambia recently concluded its general elections, through which our people exercised their constitutional right to choose their leaders.
+
+We thank the people of Zambia for their participation in the democratic process and for renewing their confidence in our leadership. We also express our sincere appreciation to the international Election Observation Missions for their invaluable support and contribution to Zambia’s democratic process.
+
+It is important to emphasize that Zambia is not at war. Zambia is a peaceful, stable and sovereign nation, and the peaceful atmosphere that characterized the country before, during and after the elections is a clear reflection of our people’s enduring commitment to peace, democracy, national unity and constitutional governance.
+
+Despite the political differences that naturally accompany a democratic election, Zambia has demonstrated that such differences can and must be managed peacefully and through the established constitutional and legal institutions. Our democratic process should never be mistaken for conflict or instability.
+
+We therefore reaffirm our unwavering commitment to preserving Zambia’s long-standing tradition of peace. We will continue to ensure that political differences are addressed through the due process of the law and will take all necessary measures, within the confines of our Constitution and laws, to prevent political disputes from degenerating into violence, armed mobilization, insurgency or the emergence of militia groups.
+
+In this regard, we extend a sincere invitation to cooperating partners, international development institutions, investors, the private sector and Zambia’s friends around the world to continue working with us in advancing our Grow Zambia Agenda. Zambia needs partnership s, investment s, innovation, technology, skills and sustained development cooperation in order to unlock its full potential.
+
+We encourage our cooperating partners to view Zambia through the lens of the peace and stability that define our country, and to deepen support for programmes that promote inclusive economic growth, job creation, infrastructure development, human capital development, agriculture, energy, health and other priority areas of national development.
+
+Our message is clear: Zambia is at peace, Zambia is open for partnership, and Zambia is ready to grow.
+
+Zambia: A Stable Partner for Investment and Trade Mr. President,
+
+Peace and stability provide the foundation for economic development.
+
+Zambia is positioning itself as an attractive destination for investment and trade, with opportunities in mining, critical minerals, agriculture, agro processing, manufacturing, energy, infrastructure, tourism and digital services.
+
+Our ambition is to move beyond the export of raw materials and primary commodities towards value addition, industriali zation, job creation and technology transfer as key enablers of our economic transformation agenda.
+
+We welcome investment that creates jobs, develops skills and builds sustainable value chains.
+
+Our message to investors is: Come to Zambia. Invest with us. Produce with us. Trade with us. Grow with us. Zambia is open for investment Climate Change and Environmental Resilience; Water and Sanitation Mr. President,
+
+For Zambia, climate change is not an abstract concept. Our people continue to experience the devastating effects of droughts, floods and changing weather patterns, with significant impacts on agriculture, food security, water availability, energy generation and livelihoods.
+
+The effects of activities transcend our borders and yet our people and the coming generations may pay a heavy price. Zambia recogni zes that countries such as ours cannot finance the climate transition alone, nor should they. This is a collective moral responsibility of the international community, especially the highest contributors to carbon emissions. This is to mitigate the effects of climate change and protect lives and livelihoods.
+
+Those who have contributed least to climate change must not be left to bear its greatest costs.
+
+We therefore call for predictable, accessible and affordable climate finance, technology transfer, and greater investment in adaptation and resilience, consistent with the principle of common but differentiated responsibilities and respective capabilities.
+
+For Africa, adaptation is not optional. Our farmers require climate -resilient agriculture; our communities and cities need resilient infrastructure; our energy systems must become more diversified; and our water resources, forests and ecosystems must be protected. Zambia is ready to contribute to global climate solutions, but those that have contributed least to climate change must not bear a disproportionate share of its costs.
+
+Water security is integral to climate resilience and sustainable development.
+
+Zambia therefore attaches great importance to international cooperation on water and has actively participated in the preparatory process for the 2026 United Nations Water Confer ence. Together with Finland, Zambia is co chairing the Interactive Dialogue on Water for Cooperation, focusing on transboundary and international water cooperation, scientific cooperation and inclusive governance.
+
+We remain committed to strengthening water security, climate resilience and sustainable management of natural resources, while working with the international community to ensure that climate and water action delivers tangible benefits for our people and future generations.
+
+Health, Human Capital and Inclusive Development Mr. President,
+
+Africa's youthful population is one of our greatest assets and represents an enormous opportunity for global prosperity. According to demographic forecasts, one in every 4 youths on the glob e will be African, by 2050. We have a wealth of young Africans with the potential to become entrepreneurs, scientists, engineers, farmers, innovators, artists and future leaders.
+
+Our responsibility is to equip them with quality education, relevant skills, access to technology, entrepreneurship opportunities and decent employment, so that they can become active drivers of economic transformation and sustainable development.
+
+We are alive to the fact that we should ensure that we keep this youthful and productive population healthy in order to harness positive dividends.
+
+In the health sector, Zambia has increased domestic budgetary allocations from approximately 7 percent to over 10 percent, enabling the recruitment of health workers, expansion and moderni zation of health infrastructure, and improved availability of essential medical supplies. Recogni zing continued vulnerability to epidemics, Zambia calls for the expedited conclusion of negotiations on the Pathogen Access and Benefit Sharing Annex under the WHO Pandemic Agreement, alongside strengthened access to technology and preparedness capacities to detect and respond to future health threats.
+
+Zambia is further making efforts toward building capacity for local Vaccine Manufacturing.
+
+Mr. President,
+
+In Zambia, we have taken de cisive steps to expand access to education through the enactment of the Free Education Act, and the strengthening of the school feeding programme, ensuring that more children can access education and remain in school without the burden of fees or hunger standing in their way of learning.
+
+Zambia is equally committed to promoting gender equality and economic empowerment of women and girls. We are expanding opportunities in education, skills development, entrepreneurship, financial inclusion and leadership. For the first time in our history, Parliament now provides for proportional representation of women, you ng people and persons with disabilities, reflecting our conviction that their voices and experiences must be heard in shaping the decisions that affect our nation.
+
+We are also strengthening efforts to end child, early and forced marriage by keeping girls in school and addressing the social and economic factors that place them at risk. Zambia has demonstrated that progress is possible, reducing child marriage prevalence from 29% to 23.9% in four years through comprehensive legal reforms, free education, school re -entry policy, multisectoral support systems like the Keeping Girls in School initiatives and targeted economic investments such as our expanded Constituency Development Fund. We need to continue building on these successes.
+
+We therefore invite Member States to unite behind our global and continental commitments to drive domestic action.
+
+By investing in our people, particularly women, girls and young people, we are investing in Zambia's future. When we empower our people, we strengthen our nation; and when we invest in Africa's young people and women, we invest in the prosperity of our continent and the world. Our commitment is to build an inclusive society in which every citizen, regardless of gender, age or disability, has an opportunity to participate fully in our country's economic and social transformation.
+
+Sustainable Development and the 2030 Agenda Mr. President,
+
+The Sustainable Development Goals remain the most comprehensive expression of our shared ambition to eradicate poverty, reduce inequality and build a sustainable future. Yet we must acknowledge that progress is uneven. The world cannot continue to adopt ambitious commitments while developing countries struggle to finance their implementation.
+
+For Zambia, the SDGs must translate into tangible improvements in the lives of our people: a child receiving quality education; a mother accessing safe healthcare; a farmer having reliable water and markets; a young p erson finding decent employment; a family having access to electricity; a community having accessible roads; access to clean water and sanitation; a small business gaining access to finance. That is what development means.
+
+Sustainable Development Finance and Reform of the Global Financial Architecture Mr. President,
+
+Sustainable development cannot be achieved without addressing the persistent financing gap facing developing countries. High borrowing costs, limited fiscal space and heavy debt -servicing obligations continue to constrain countries’ ability to invest in cl imate action, health, education, infrastructure and other development priorities.
+
+We cannot expect countries to deliver more for their people while resources available are increasingly consumed by the cost of debt. This is not sustainable, nor is it compatible with our collective commitment to leav e no one behind.
+
+Zambia has undertaken significant fiscal reforms and made progress in restructuring our debt, to restore macroeconomic stability and create fiscal space. This demonstrates our willingness to make bold decisions when needed. At the same time, we are strengthening domestic resource mobilization by expanding the tax base, modernizing tax administration and combating illicit financial flows. We cannot continue to lose resources essential to Africa’s transformation while being asked to mobili ze greater financing for development. Africa’s resources must work for Africa’s development.
+
+We support enhanced international cooperation on transparency, beneficial ownership, asset recovery and the prevention of illicit financial flows. We equally support stronger international tax cooperation through the UN Framework Convention on International Tax Cooperation, to ensure fairer taxing rights and strengthen domestic resource mobili zation for development.
+
+Zambia therefore calls for greater access to affordable and long -term development finance, increased climate finance—particularly for adaptation and resilience —and innovative financing mechanisms to mobilise private investment for sustainable development.
+
+Africa needs a fairer and more responsive global financial architecture that enables developing countries to finance development as an investment in our shared future.
+
+Multilateralism, Geopolitics, Peace and Security Mr. President,
+
+The United Nations remains indispensable to international peace, security and sustainable development. However, its institutions must evolve to reflect today’s geopolitical, economic and demographic realities. Zambia therefore supports meaningful UN reform, particularly of the Security Council, including permanent African representation in line with the Ezulwini Consensus and Sirte Declaration. We also support reforms to global economic and financial governance, that give developing countries a greater voice in decisions affecting them.
+
+Zambia welcomes the UN80 Initiative as an opportunity to strengthen multilateralism and build a more effective, efficient, equitable and fit -forpurpose United Nations and acknowledge the commendable progress achieved so far.
+
+As efforts are made to attain a more efficient and nimbler United Nations, we must not lose sight of the most important aspect – the effectiveness of the UN in delivering on its mandates. With each crucial question, we must ask ourselves if the reforms will make the world safer and uplift the lives of the most vulnerable in society. We take note of the proposed mergers of some key institutions and emphasize on the importance of protecting their mandates.
+
+We further note the changed landscape for international cooperation that has seen significant declines in official development assistance, which has also affected important UN programmes. We, therefore, call on member states to protect these institutions we trust by ringfencing crucial core funding.
+
+In the face of rising geopolitical tensions and protracted conflicts, we reaffirm our commitment to dialogue, diplomacy and the peaceful resolution of disputes in accordance with the UN Charter and international law. We further support African -led solution s and stronger cooperation between the UN,
+
+African Union and regional organi zations to advance conflict prevention, peacebuilding and collective security.
+
+Conclusion Mr. President,
+
+Zambia remains committed to peace, democracy, multilateralism and sustainable development.
+
+We believe that restoring trust requires delivery; that sustainable development requires genuine international partnership; and that managing transformation requires inclusion.
+
+We call for an equitable global system that provides developing countries with affordable financing and policy space to transform their economies, strengthens climate action through adequate finance, expands opportunities for young people, and reforms inte rnational institutions to reflect today ’s realities.
+
+Let us together strengthen peace through dialogue, respect for human rights, democracy and the rule of law and ensure that the commitments made in this Assembly, translate into tangible improvements in the lives of our people.
+
+Zambia stands ready to work with all nations to restore trust, manage transformation and build a more peaceful, prosperous and equitable world.
+
+I Thank You.

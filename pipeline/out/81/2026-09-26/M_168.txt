@@ -1,0 +1,59 @@
+---
+session: 81
+slug: oman
+id_speech: M_168
+country: Oman
+speaker: Sayyid Badr bin Hamad bin Hamood Albusaidi
+title: Foreign Minister
+speaker_title: His Excellency
+date: 2026-09-26
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/om_en.pdf
+language: en
+original_language: ar
+transformation: none
+via: pypdf
+elapsed_s: 2.279
+---
+
+Your Excellency, President of the 81st Session of the United Nations General Assembly Heads and Members of Delegations,
+
+I would like to extend my sincere congratulations to His Excellency Dr. Khalilur Rahman on his election to preside over this session, wishing him every success in carrying out his duties.
+
+Ladies and Gentlemen Dialogue is the true value capable of reminding us of what unites us, as well as its being the optimal means of overcoming diLerences, building trust and understanding, and resolving issues and crises.
+
+We would like to aLirm here that the Sultanate of Oman will continue its steadfast approach to finding peaceful and consensual solutions to disputes, based on the values and principles that help us achieve our shared goals of securing security and stability for all and advancing economic development projects and prosperity for our peoples.
+
+In this same context, refraining from the use of force and interference in the internal aLairs of states, and being guided instead by the Charter of the United Nations and international law, and respecting the sovereignty and independence of states, can p rovide a sound framework that governs international relations and builds trust and constructive cooperation among states.
+
+Distinguished Heads and Members of Delegations, Honorable Delegates,
+
+Our region witnessed, at the beginning of this year, a war that could have been avoided. Subsequent events have shown that the escalation has extended to threaten the security of the countries of the region, and paralyze navigation and trade through the vital Strait of Hormuz, aLecting energy security, price stability, and confidence in the current international order.
+
+The Sultanate of Oman once again reaLirms its steadfast commitment to continuing its eLorts aimed at safeguarding navigation in the Strait of Hormuz, in accordance with the principles of international law and the United Nations Convention on the Law of the Sea. It also calls upon all parties to cooperate with Oman in these eLorts aimed at observing and respecting the interests of all those who benefit from the transit passages in the Strait of Hormuz. My country also renews its solidarity with all its neighboring countries, including the member states of the Gulf Cooperation Council, in the legitimate measures they take to maintain their security, and protect their sovereignty and safeguard their territorial integrity.
+
+At the same time, we call upon all concerned parties to settle their outstanding disputes, through pursuing a policy of self-restraint and far-sightedness and engaging in dialogue, to reach consensual political solutions and sustainable understandings for the benefit of all.
+
+The Government of the Sultanate of Oman renews its support for finding a political solution to the crisis in Yemen, one that preserves the unity, stability, and territorial integrity of that historic country, meets the aspirations of the brotherly Yemeni people in all their components, and puts Yemen on the path of reconstruction, development, and prosperity.
+
+In this context, we renew our call for all parties to respond and cooperate with one another in order to reach a just settlement to this crisis, one that preserves for the Yemeni people their rights, dignity, independence, and territorial integrity, and their secure relations with neighboring states in the region.
+
+While the Sultanate of Oman reaLirms its firm rejection of the ongoing Israeli attacks, which have aLected numerous Arab states, it also expresses its condemnation of the crimes of the Israeli occupation and its increasing violations against the Palestinian people, which have compounded their suLering in their pursuit of obtaining their legitimate rights and liberating their land in accordance with the borders of June 4, 1967, based on the two-state solution and the relevant United Nations resolutions.
+
+Honorable Delegates,
+
+The Sultanate of Oman launched the Muscat Plan to counter hate speech, genocide, and the crimes of incitement thereto, through an initiative inaugurated by His Excellency the Secretary-General of the United Nations, with broad international participation here at United Nations Headquarters in New York on the eleventh of last June.
+
+Building on this approach, the city of Muscat will host, next November, an event marking the International Day for Tolerance, as part of a path we hope will open horizons for further initiatives and partnerships, in cooperation with the international community and the United Nations.
+
+Ladies and Gentlemen,
+
+The Sultanate of Oman attaches firm importance to sustainable development and its goals, believing that development is indeed an inherent right for all. So, the government of my country continues to implement its development plans and programs within the framework of Oman Vision 2040. It also continues to empower women's active participation and contribution to the development process and decision-making, aLirming that they are part of building and sustaining development process and its sustainability, rather than a separate goal. Therefore, the allocation of eleven permanent and elected seats for women in the Omani Shura Council comes within this framework.
+
+In the environmental field, the Sultanate of Oman continues its eLorts to implement its national strategy towards transition to a low-carbon economy, through a broad package of projects and initiatives in renewable energy, transport, industry, and sustainable cities, to support national eLorts to reach carbon neutrality by 2050.
+
+In conclusion, we renew our thanks and appreciation to His Excellency António Guterres, Secretary-General of the United Nations, for his tireless and courageous eLorts to uphold the word of truth and justice, in accordance with the United Nations Charter and international law.
+
+We would like to aLirm here once again our support and cooperation with the United Nations, in the pursuit of achieving these lofty goals and purposes, to reach a world that is more secure, stable, and prosperous.
+
+Thank you, and peace, mercy, and blessings of God be upon you.

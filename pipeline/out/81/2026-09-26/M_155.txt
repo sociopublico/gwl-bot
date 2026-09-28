@@ -1,0 +1,111 @@
+---
+session: 81
+slug: cuba
+id_speech: M_155
+country: Cuba
+speaker: Bruno Eduardo Rodríguez Parrilla
+title: Minister for Foreign Affairs
+speaker_title: His Excellency
+date: 2026-09-26
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/cu_en.pdf
+language: en
+original_language: es
+transformation: none
+via: pypdf
+elapsed_s: 2.157
+---
+
+Mr. President of the General Assembly; Mr. Secretary General; The advance of expansionism, usurpation, plunder, conquest as well as military and economic aggression s are alarming. The US government aspiration to impose peace through force is unrealizable.
+
+The fundamental pillars of International Law and the United Nations Organization, such as the sovereign equality among States, are under permanent attack.
+
+The genocidal crime of Zionism against the Palestinian people; the pirate attacks against vessels and the extrajudicial executions in the Caribbean Sea and some areas in the Pacific; the military aggression against the Bolivarian Republic of Venezuela and the war against the Islamic Republic of Iran are new expressions of this atrocity.
+
+They are also a reflection of the crisis of identity and relevance imposed on the United Nations Organization, and even on the General Assembly, the most universal, democratic and representative body of the international community.
+
+We are convinced of the need to preserve and strengthen the United Nations, as we make it more democratic and effective; and of placing it closer to the peoples.
+
+As is well known, in Cuba we are facing a multidimensional aggression from the United States government; a permanent, abusive and ruthless hostility that has lasted for almost seven decades already. Since January, 2026, this aggression has strengthened and become crueler and more dangerous, with the imposition of an energy blockade that, by resorting to intimidation and coercion, prevents any country from exporting fuel to Cuba -an equivalent to a naval blockade-, which is classified by International Law as an act of war.
+
+Through the adoption of successive measures, the government of the United States has been applying new prohibitions on all countries with regard to products and services that cannot be exported or transported to Cuba. More than 7 thousand containers remain stranded in different ports; many of them are loaded with foodstuffs, medicines and medical devices and have even been paid for by Cuban private companies.
+
+It is an unusual and unprecedented action. A superpower unilaterally deprives all States of their right to export the commodities that they wish to the country that they wish and continuously and comprehensively violates freedom of trade and navigation.
+
+Added to this is the intimidation of entrepreneurs of different countries so that they abandon, against their will, their investments and businesses in Cuba; the obstacles and tricks to prevent the arrival in Cuba of absolutely legitimate commercial shipments; the pressures to prevent the entry of visitors and tourists; and the efforts aimed at restricting as much as possible Cuba’s legitimate access to financing, technology and markets.
+
+The United States has gone as far as to exert unsuspected pressures on sovereign governments so that they renounce the medical services they requested from us for the benefit of their respective populations and which are offered by Cuban professionals, because the US government is opposed to such cooperation, regardless of the impact and harm this may cause to those populations if they are deprived of free medical care; that is to say, deprived of an elemental human right. On Thursday last, while the General Assembly was in session, the State Department convened a humiliating meeting specifically with the States that are the recipients of this cooperation.
+
+According to the US Secretary of State, the official policy is to shut down every relief valve, block every possible way out and eliminate any form of survival for Cuba.
+
+The impact of such an iron-clad and ruthless siege has a human face.
+
+The economic warfare is aimed against the people. It harms the Cuban people as a whole. It takes a toll on huma n lives. It causes individual and collective pain; it causes anguish. It is not “collateral damage”. It is a policy deliberately designed to wound the deepest sensibilities of Cuban families; disturb their wellbeing and hurt the dignity of the people. It is an act of collective punishment; a crime proscribed by International Humanitarian Law. The obvious short term goal pursued by such policy is to induce a humanitarian crisis in Cuba, which is also a crime.
+
+The government of the United States and the US State Department have been forced to recognize the suffering inflicted on the Cuban people, but they have the impudence and cynicism to insist in putting the blame on the government of Cuba. The executioner blames the victim.
+
+They are following the formula recommended by the State Department since 1960 in the infamous Mallory Memorandum, which established as an official policy, in force up until today, the overthrowing of the Cuban government through the economic suffocation and the extreme suffering of the Cuban people out of material shortages, hunger and desperation.
+
+A few days ago, the President of the United States declared in this room that Cuba was ‘a failed State’. If that were the case, why did they have to impose a fuel blockade? Why did they impose secondary sanctions? Why do they have to threaten, persecute and exert pressures on other States? He also recognized that his government is putting on Cuba the biggest pressure ever applied against any other State. A few months before, he had said that “all that is left is to go in and destroy everything.”
+
+The threat of the use of military force against Cuba persists. This behavior is a violation of International Law and an infringement of the San Francisco Charter.
+
+Should it materialize, it would be a major crime. It would cause the death of Cuban and American youths as well as huge destruction.
+
+Cuba will exercise, with utmost resolve and energy, its legitimate right to defend itself. This aggression is being accompanied by a brutal media and cognitive warfare aimed against the Cuban people, the US citizens and the international public opinion. It is characterized by its gross and brazen attempts to interfere in the internal affairs of Cuba, which is another international crime.
+
+We are often asked what is the US pursuing with such an aggressive behavior, and the question usually surprises us, because the representatives of that government have outrightly declared their purpose to take Cuba, control the country and dominate the economy.
+
+In other words, nullify, through an aggression or economic suffocation, the national so vereignty which several generations of Cuban s have struggled for since the nineteenth century -first to achieve it, and later on, after conquering the full freedom in 1959, to tenaciously defend it against the biggest risks, including that of a holocaust.
+
+The US behavior relies on the fallacy, proclaimed early on this year, that Cuba is an unusual and extraordinary threat to the national security and the foreign policy of the United States -a nonsense shamelessly repeated by that government. In a futile attempt to substantiate such an assertion, the US government inundates its huge communication platforms with false claims using the spokespersons and publications it hires, taking advantage of the increasing control exercised by its government over them. The US President himself repeated it a few days ago in this room.
+
+Any minimally informed observer would understand the unrealistic and evil intention to portray a relatively small and developing nation like Cuba, with a modest economic performance, as a threat to the biggest nuclear, military, technological and econom ic power in the planet.
+
+This Organization and its member States have abundant evidence of the fact that we are a peace -loving country; of the efforts of Cuba in favor of international cooperation, understanding and the peaceful settlement of disputes as well as of the active role that we have played in support of the United Nations. Cuba is not a threat; the blockade is!
+
+We are aware of the immense challenge our country faces in terms of its security, survival, the wellbeing of the people and the destiny of the nation. We are not facing this challenge passively. We are doing it firmly and with dignity. Based on that, we are moving on in a process of changes that would lead to profound transformations of the economic and social model of the country, based on our historical experience.
+
+On July 30 last, during the closing ceremony of the Seventh Session of the National People’s Power Assembly, President Miguel Díaz Canel referred to the origin of the social and economic transformations that the country is introducing. He said, and I quote: “In view of the complex situation I have described, how can we prevail in the construction of socialism? How cou ld we find the material and financial resources needed to preserve the social achievements attained by the Revolution? As it already happened on former occasions, when we were faced with particularly complex situations such as the Special Period -; when, under the guidance, first of Commander in Chief, and later on of Army General Raúl Castro, the economic model was transformed to adapt it to the challenging foreign circumstances demanded by the times, under the leadership of the Party, in a collective and democratic way, in consultation with the people, without compromising the independence, the national sovereignty or the social achievements of the Revolution”, end of quote.
+
+The National People’s Power Assembly has adopted a new program, with new practices, actors and economic concepts. All of that is being done in accordance with the Constitution in force -. which was adopted through a free and universal referendum- and the conception of our socialist State of law and social justice.
+
+As was pointed out by the leader of the Cuban Revolution, Army General Raúl Castro Ruz, the most important thing will be “the appropriate and timely implementation process, with well -defined priorities and the conscious participation of the people.”
+
+This process relies on the strengths that we have built; the potential of our human resources and the determination to respond to the needs of the people with the greatest possible social justice, without ceasing in our efforts to defend, with utmost vigor and resolve, the sovereignty and the right to self-determination.
+
+We have always been and we will continue to be ready to engage in a dialogue with the government of the United States to try to find a solution to bilateral differences, on the basis of responsibility, respect, sovereign equality, the observance of International Law, without any interference in the internal affairs of States and without preconditions.
+
+We know that we count on the support of the international community and the solidarity of millions, among them, an increasing number of US citizens.
+
+That is reflected in the numerous gestures and statements in support of Cuba and against the abusive aggression. It is reflected in the fraternal material assistance received by our people, seeking to mitigate the huge damage caused to the Cuban economy and society.
+
+That spirit of solidarity and empathy is expressed with particular emphasis among Cubans who reside permanently or temporarily outside the national territory and among their descendants, even here in the United States.
+
+Mr. President; We reject the Monroe Doctrine and its Corollaries as much as we refuse every attempt of imperialist militarization, intervention or domination in Latin America and the Caribbean, a region that was proclaimed as a Zone of Peace in 2014 in Havana.
+
+As a Small Island Developing State, we stand in solidarity with our brothers and sisters who share a similar condition and the warning about the worrying and inexorable advance of climate change.
+
+It is necessary to promote a governance that makes a more intensive use of the new ICTs, particularly the disruptive technologies, such as artificial intelligence.
+
+We reject the implementation of unilateral coercive measures. We express our support to and solidarity with the nations which are victim of them.
+
+We ratify our solidarity with the Government of National Reconciliation and Unity of Nicaragua.
+
+We reiterate our support to the inalienable right of the people of Puerto Rico to self-determination and independence.
+
+The sister nations of Africa and the Caribbean deserve a fair and differentiated treatment, as well as the reparations for the horrors of colonialism and the transatlantic slave trade.
+
+We reaffirm our solidarity with the Saharan people and their right to self-determination.
+
+We ratify our support to the “One China” principle.
+
+We strongly believe that the current trend of international relations of disrespect for International Law and the United Nations, the imposition of the unilateral will of the mightiest over other countries by means of intimidation and coercion, is dangerous and unsustainable.
+
+The law of the jungle cannot be the future of humanity.
+
+To prevent those practices, in addition of promoting peace and justice, the preceding generations founded the United Nations and for decades developed and enriched its activity. Let us recover its role today, when we are perhaps in time to do so, before the Organization goes down in history as an unrealized dream of great promises.
+
+In the year of the centennial birthday of Fidel Castro Ruz, the historical leader of the Cuban Revolution, let us be confident, as he was, that if we struggle with resolve, a better world will be possible.
+
+Homeland or Death, We Shall Overcome!

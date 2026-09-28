@@ -1,0 +1,125 @@
+---
+session: 81
+slug: micronesia-federated-states
+id_speech: M_146
+country: Micronesia (Federated States of)
+speaker: Aren Palik
+title: Vice President
+speaker_title: His Excellency
+date: 2026-09-26
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/fm_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 2.256
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Excellencies,
+
+Ladies and Gentlemen.
+
+It is a distinct honor to stand in this historic hall, where so many great leaders have stood before, to deliver my country’s statement to the world. On behalf of Micronesia, I extend my warmest national greeting of Kamorale.
+
+Let me begin by congratulating you, Mr. President, on your election as President of the 81st Session of the United Nations General Assembly.
+
+I also extend Micronesia’s appreciation to Secretary-General António Guterres for your dedicated and steadfast service, principled leadership, and personal commitment to the values of the United Nations. As you conclude your tenure, we honor your advocacy for the most vulnerable, and your tireless efforts in strengthening multilateralism.
+
+Mr. President,
+
+The theme of this 81st session "Restoring trust, managing transformation: A United Nations that delivers for all" speaks directly to our realities on our small islands in Micronesia. We need the benefits of digital innovation, artificial intelligence, energy transition, and institutional reforms.
+
+At the same time, we recognize the challenges of climate change, ocean degradation, pollution, and growing inequality.
+
+Micronesia stands in solidarity with all nations that have endured the recent waves of natural disasters around the world. The loss of lives, displacements, and destructions remind us of our common vulnerability. We extend our deepest condolences to the governments and peoples affected, and we honor the courage of those who chose to help in the face of tragedy.
+
+Mr. President,
+
+Today’s security landscape is shaped not only by conflict but by climate-driven fragility.
+
+Extreme weather events, sea-level rise, and resource degradation are eroding stability across vulnerable regions, especially the Pacific. These pressures intensify humanitarian needs, disrupt food and water systems, and strain governance capacities. For Micronesia, climate impacts are a national security concern.
+
+We underscore the importance of safeguarding maritime security across the Blue Pacific. Illegal, unreported, and unregulated fishing activities, transnational crimes, and environmental degradation threaten not only our economies but the health of our marine environment as well.
+
+We urge the international community to enhance cooperation, share technology, and support capacity-building to ensure that the ocean remains a zone of peace, governed by international law.
+
+Mr. President,
+
+The challenges that impede our sustainable development are increasing. We must respond by implementing science-based emissions reductions, scale up national climate commitments, and accelerate transition to renewable energy. We demand accessible and predictable adaptation grant financing to support investments in resilient infrastructure. We must operationalize the Loss and Damage Fund. Further, we must keep the 1.5°C goal, and sustain methane reductions.
+
+This is not a substitute for long-term decarbonization, but can slow near-term warming, protect vulnerable communities and oceans, and preserve critical time for those on the front lines of the climate crisis.
+
+Micronesia endorses the proposed Fossil Fuel Non-Proliferation Treaty. A just and orderly transition away from fossil fuels is now inseparable from the wider geopolitical and economic realities shaping global energy markets. Instability in the Middle East and volatile fuel prices exposed the vulnerability of SIDS to expensive fuel, unstable supply, and widespread economic fragility.
+
+Shift to renewable energy is an economic necessity. Solar, wind, and ocean-based technologies can reduce dependence on external fuel markets, strengthen energy security, and lower emissions in line with science. The world must accelerate the transition to resilient, affordable, and community-centered renewable energy systems.
+
+Mr. President,
+
+Our people are the most valuable national resource. We remain committed to delivering effective public services and advancing Micronesian priorities for our citizens, wherever they reside. I am pleased to announce the adoption of Micronesia’s National Migration Policy, with the technical support of the International Organization for Migration. Micronesia will strengthen the protection, engagement, and well-being of its citizens, including members of diaspora.
+
+Micronesia also aligns itself with the Global Compact for Safe, Orderly and Regular Migration, and welcomes its comprehensive framework for promoting humane, orderly, and well-managed international migration.
+
+Mr. President,
+
+Our people’s health has been increasingly affected by more frequent tropical storms, heat waves, and changing tidal patterns. We are seeing a rise in illnesses linked to marine life and vectorborne diseases, in particular dengue and Zika. Already, the burden of non-communicable diseases strains our health system, reduces workforce productivity, and diverts limited resources.
+
+We are strengthening our national health capacity, increasing investments in diagnostics and lifesaving medicine, expanding the use of tele-health to access specialist care and medical education, and partnering with neighboring countries to support regular medical exchange programs that augment our treatment capability in- country. These efforts are essential to safeguard our communities as climate impacts intensify.
+
+Mr. President,
+
+The ocean is the heart of Micronesian identity, livelihoods, and future prosperity. It faces mounting pressures from climate change, sea-level rise, pollution, and unsustainable exploitation. Micronesia ask for a collective effort to fortify ocean governance, sustainable fisheries management, and effective conservation of marine biodiversity. Being the first country to sign the BBNJ Agreement, we are among the first movers, comprising six nations to implement the BBNJ. Micronesia is partnering with GIZ and five co-leading States to develop area-based management tools and marine protected area proposals under the BBNJ framework, translating our commitment to conserve 30 percent of the ocean into concrete, durable protections for areas beyond national jurisdiction.
+
+Mr. President,
+
+On deep-sea mining in the international seabed Area, Micronesia employs a precautionary approach. We stress the need to consolidate comprehensive knowledge, data, and science about the marine environment before any decision is taken on proceeding with exploitation.
+
+Additionally, it is crucial that all stakeholders, including adjacent coastal states, Indigenous Peoples, and local communities in the Pacific, are meaningfully consulted prior to such a decision.
+
+Mr. President,
+
+We must address the growing threat of plastic pollution that degrades the Pacific ecosystems and communities. Marine debris, micro plastics, and associated toxic substances are accumulating on our shores.
+
+Our lagoons, for example, in the State of Chuuk where oil leaks from World War II remnants led to the emergency declaration last year, continue to threaten our livelihood.
+
+These impacts impose disproportionate cleanup and economic burdens on small island governments whose waste-management infrastructure is inadequate. Our national efforts must be matched by strengthened international cooperation, including technical assistance, predictable financing, and collective action across the full plastics life cycle, to prevent pollution at its source and protect the Blue Pacific for present and future generations.
+
+Micronesia calls on the international community to match local action with global responsibility: through sustained funding, meaningful technology transfer, stricter upstream controls on plastic production, and an end to waste exporting. Critically, the international community must complete its work on a new treaty to end plastic pollution, including in the marine environment.
+
+Mr. President,
+
+With less than five years to achieve the Sustainable Development Goals, the international community must respond with renewed political resolve, scaled-up financing, and accelerated implementation. The Pacific’s experience underscores this imperative: climate impacts are steadily eroding development gains and placing progress across the Goals further at risk. The recent typhoon and severe flooding in our States, and more frequent king tides affecting our lowlying islands demonstrate that these are no longer isolated events, but recurring pressures that test the resilience of our communities on the front lines of the climate crisis. For us, achieving the SDGs requires accelerated action.
+
+Mr. President,
+
+Our actions on gender equality continues to address barriers to women’s leadership, economic participation, and access to justice, digital safety, and protection from violence—particularly for women and girls in remote and outer island communities. We are mainstreaming gender across state and national planning, strengthening survivor-centered services, expanding women’s economic empowerment and decision-making and engaging in preventing gender-based violence and advancing equality.
+
+Mr. President,
+
+Our youth are taking active roles in community advocacy, climate stewardship, adaptation and mitigation activities, and services across our nation. Building on these achievements, our priorities are clear: strengthening youth voices in decision-making; expanding skills training and pathways to decent work; supporting youth-led climate and community action; addressing substance abuse and mental health; and ensuring that young people have the opportunity to lead, serve, and build the future of our nation.
+
+Mr. President,
+
+We must implement the Multidimensional Vulnerability Index (MVI) into a modern, coherent, and responsive system that moves decisively from concept to practice. Doing so would unlock fair access to concessional financing that reflect structural vulnerabilities faced by small, fragile, and highly exposed economies such SIDS.
+
+Mr. President,
+
+Micronesia reaffirms its strong commitment to the progress of the UN80 reform initiative. In addressing the UN Country Team Reconfiguration, we firmly believe that both the MultiCountry Office and the Resident Coordinator system must remain securely in place. Our distinct geographical landscape features incredibly remote communities. This lived reality is precisely why the UN80 reform initiative matters so deeply to Micronesia. For countries defined by distance, dispersion, and vulnerability, reform cannot be an abstract exercise; it must strengthen the UN’s ability to deliver where the needs are greatest. Our priority is to create a UN architecture that preserves what works, fixes what does not, and ensures that no community, no matter how remote, is left behind.
+
+Mr. President,
+
+Micronesia supports an expanded Council that includes Brazil, Germany, India, and Japan as permanent members, alongside permanent representation for Africa, and a dedicated non‐permanent seat for SIDS, ensuring that those most affected by global decisions are finally present at the table.
+
+Mr. President,
+
+Digital transformation and artificial intelligence offer significant opportunities to improve publicservice delivery, diversify economies, expand market access, and advance climate-resilient development. Although, we are advancing digital connectivity, private-sector development, and trade opportunities, but without adequate investment, capacity-building, and appropriate governance, these technologies may increase inequalities and further heighten exposure to cyber security threats, misinformation, and risks to data privacy. We therefore call upon the international community to strengthen financing for resilient digital infrastructure, with ethical and effective guardrails and governance frameworks.
+
+Mr. President,
+
+The priorities before us mentioned earlier are interconnected tests of whether the United Nations can deliver for all. For Micronesia, success must be measured not by declarations, but by tangible improvements in our people’s lives, security, and dignity. We call for equitable partnership with small island developing States through accessible finance, technology transfer, stronger capacity, and a meaningful voice in global decisions. In the spirit of KAMORALE, let us choose cooperation over division and build a peaceful, just, and sustainable future in which every nation can thrive.
+
+Thank you.

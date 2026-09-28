@@ -1,0 +1,269 @@
+---
+session: 81
+slug: jamaica
+id_speech: M_172
+country: Jamaica
+speaker: Kamina Johnson Smith
+title: Minister for Foreign Affairs and Foreign Trade
+speaker_title: Her Excellency
+date: 2026-09-26
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/jm_en_0.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 2.673
+---
+
+Mr. President,
+
+On behalf of the Government and people of Jamaica, I congratulate you on your election as President of this eightyfirst session of the General Assembly and assure you of Jamaica’s full support.
+
+I also commend your predecessor, Her Excellency Annalena Baerbock, for her stewardship of the Assembly during its historic eightieth session.
+
+And to Secretary -General António Guterres, I convey Jamaica’s profound appreciation for your committed leadership through a decade of extraordinary global uncertainty.
+
+Mr. President,
+
+Your theme for this session could hardly be more timely.
+
+Because today, trust is in short supply.
+
+Wars and conflicts are devastating communities and displacing millions. Geopolitical tensions are deepening.
+
+Climate change is destroying lives, livelihoods and decades of development in a matter of hours. New technologies, including artificial intelligence, offer extraordinary promise, while presenting risks we have not yet fully understood.
+
+And at the very moment when collective action is most needed, confidence in multilateralism itself is being tested.
+
+Jamaica’s position is clear.
+
+The shortcomings of multilateralism cannot be solved by abandoning multilateralism.
+
+For small states like ours, a rules -based international order is not an abstract diplomatic preference. It is fundamental to our sovereignty, our security and our development.
+
+But neither can we safeguard multilateralism simply by defending it.
+
+We must reform it.
+
+We must make it more representative, more accountable, more efficient — and more responsive to the needs and realities of the people it was created to serve.
+
+That is why Jamaica has chosen not merely to call for reform, but to help lead it.
+
+Our Permanent Representative was privileged to co -chair, with New Zealand, the UN80 Initiative’s Informal Ad Hoc Working Group on Mandate Implementation Review. That work culminated in General Assembly Resolution 80/251 — an important framework for improvi ng how UN mandates are created, implemented and reviewed.
+
+Jamaica now continues that work alongside Norway.
+
+Our objective is straightforward: a United Nations that spends less time sustaining process for its own sake, and more time fulfilling its purpose.
+
+That is the multilateralism Jamaica believes in.
+
+Mr. President,
+
+The selection of the next Secretary-General will be one of the most consequential decisions before Member States this year.
+
+Jamaica proudly joins our CARICOM family in supporting the candidacy of Her Excellency Carolyn Rodrigues-Birkett of the Cooperative Republic of Guyana.
+
+Her candidacy also speaks to something larger.
+
+Small states have long served this international system as bridge-builders, consensus-makers and problem-solvers.
+
+We learn very early that influence does not depend only on size or power. It can also come from credibility, dialogue, principle and the capacity to bring people together.
+
+These are the strengths which our multilateral system needs now, more than ever.
+
+Mr. President,
+
+For Jamaica, the consequences of global challenges are not theoretical.
+
+On 28 October last year, Hurricane Melissa struck our island.
+
+In a matter of hours, the most catastrophic hurricane in our modern history inflicted damage and losses estimated at 56.7 per cent of our GDP.
+
+Think about that.
+
+More than half the value of an entire year of national economic output, damaged or lost through a single event.
+
+Jamaica had prepared.
+
+Years of fiscal discipline had allowed us to build buffers. We had put in place disaster -risk financing, including catastrophe insurance and an independently sponsored catastrophe bond.
+
+Those measures gave us immediate liquidity.
+
+But no level of prudent national planning can fully insulate a small developing state from a climate event of that magnitude.
+
+And therein lies the fundamental inequity faced by Small Island Developing States.
+
+We can do everything right. In fact, Jamaica’s reforms balanced economic orthodoxy with innovation and expansion of support for the most vulnerable. And yet one hurricane can still erase decades of progress.
+
+We are deeply grateful to our international partners, our CARICOM family, our Jamaican diaspora and the thousands of individuals and organisations wh ich stood with us in our hour of need.
+
+But Jamaica has not simply resolved to recover.
+
+We have resolved to rebuild better and differently.
+
+Our resilience must not be measured by how much suffering we can withstand. It must be measured by how well we prepare, how quickly we recover, how intelligently we adapt — and whether we emerge stronger.
+
+That is why the Government of Prime Minister Andrew Holness established the National Reconstruction and Resilience Authority — NaRRA.
+
+Its mandate is to drive reconstruction at speed and at scale; to coordinate major infrastructure projects; crowd in investment; and critically, to embed resilience into the Jamaica we are rebuilding.
+
+We are not simply replacing what Melissa destroyed.
+
+We are building the Jamaica that must withstand the storms of tomorrow.
+
+We have also submitted our updated Nationally Determined Contribution, completed our Long -Term Strategy for a low carbon, climate-resilient future, and advanced our National Adaptation Plan.
+
+But national ambition must be matched by international action.
+
+Climate finance must become more accessible, affordable and predictable.
+
+And the international financial architecture must finally recognise what SIDS have long said: income alone does not and cannot measure vulnerability.
+
+A country does not become less vulnerable to hurricanes and other natural disasters because its per-capita income crosses an arbitrary threshold.
+
+We therefore continue to advocate for the use of measures that go beyond GDP, including multidimensional vulnerability indices, in determining access to concessional and development finance.
+
+Mr. President,
+
+Jamaica brings this message to the international community from a position not only of vulnerability, but one of responsibility.
+
+Over the past decade, we have undertaken difficult reforms and made difficult choices.
+
+Our debt, which once stood at more than 140 per cent of GDP, was brought down to 62 per cent before Melissa, with unemployment then at a historic low of 3.4%.
+
+We built macroeconomic stability, strengthened investor confidence and created the fiscal space that ultimately helped us respond to the greatest natural disaster in our modern history. We are proud and heartened that notwithstanding Melissa, Jamaica’s credit ratings have either been stabilized or upgraded and unemployment still stands at a low of 3.7%.
+
+Those gains did not happen by accident.
+
+They required discipline. Partnership. Sacrifice. Consistency.
+
+And long-term planning.
+
+Our experience has taught us that the strongest response to a crisis begins long before the crisis arrives — in the choices we make, the institutions we build, and the buffers we create.
+
+Jamaica will continue to take responsibility for the things within our control.
+
+But domestic responsibility must be matched by international solidarity and cooperation.
+
+Developing countries cannot reasonably be expected to simultaneously finance climate adaptation, modernise infrastructure, strengthen social protection, manage debt, absorb external shocks and achieve the Sustainable Development Goals without an international financial system responsive to their realities.
+
+We do not ask to be relieved of responsibility. We ask for an international system that gives responsible countries the space to succeed.
+
+Mr. President,
+
+That opportunity increasingly depends on technology.
+
+Jamaica sees digital transformation and responsible artificial intelligence as powerful tools. They can enhance productivity, innovation and sustainable development for our people. Indeed, they can be an equalizing force for the world.
+
+We must therefore not allow AI to deepen old inequalities and create an entirely new global divide.
+
+Developing countries require investment in infrastructure, skills and capacity. And all countries require governance frameworks that safeguard privacy and intellectual property, ensure data integrity and promote the ethical and responsible use of emerging technologies, without stifling innovation.
+
+The Pact for the Future, the Global Digital Compact and the ABAS provide important foundations.
+
+Our task now as a global community, is to translate commitments into action.
+
+Mr. President,
+
+Development also requires peace and security.
+
+For Jamaica and our Caribbean region, transnational organised crime remains a serious threat.
+
+Last year, from this podium, Prime Minister Andrew Holness called for a Global War on Gangs — a coordinated international effort capable of matching the reach, financing and sophistication of transnational criminal networks.
+
+Jamaica reiterates that call today.
+
+Illicit firearms do not manufacture themselves in our communities. They cross borders. Criminal money crosses borders. Criminal networks exploit technology and operate across borders.
+
+Our response must therefore also cross borders.
+
+We call for stronger cooperation in firearms tracing and interdiction, intelligence and information -sharing, financial investigations and law -enforcement capacity -building. We also urge major arms -exporting states to strengthen export controls and post-delivery verification.
+
+At home, Jamaica has invested heavily in our security forces, strengthened legislation, enhanced intelligence gathering, oversight and transformed policing.
+
+The results are remarkable by any standard.
+
+In 2025, Jamaica recorded its lowest number of homicides in more than three decades. And in 2026, the Global Peace Index ranked Jamaica the most peaceful country in the Caribbean.
+
+We recognise that there remains work to be done. But the direction is clear.
+
+Our objective is not merely fewer crimes.
+
+It is a durable ecosystem of peace in which every Jamaican can feel safe, raise a family, do business and fulfil his or her potential and retire in paradise.
+
+Mr. President,
+
+Nowhere in our region is the challenge of criminal gangs more devastating than in our sister nation of Haiti.
+
+Jamaica stands firmly with the Haitian people.
+
+We urge sustained international support for the Gang Suppression Force and for the Haitian National Police and armed forces. This support must include the financial, logistical and operational resources necessary to restore security. We further call for the Security Council to renew the mandate of the GSF at this imperfect but particularly critical juncture. We are at a crossroads. We can lose gains, or we can build on progress made.
+
+The international community must send an unequivocal message: armed gangs cannot be allowed to determine Haiti’s future nor that of the region.
+
+Security must create the space for sustained humanitarian relief, developmental and economic progress. But even more foundationally, s ecurity must create the space for political stability, democratic governance and credible elections, led and owned by the Haitian people.
+
+Mr. President,
+
+Jamaica remains deeply concerned by the terrible human suffering caused by armed conflicts across the world.
+
+Wherever conflict occurs, our principles must remain consistent.
+
+International humanitarian law must be respected.
+
+Civilians must be protected.
+
+International law and the Charter of the United Nations must be upheld.
+
+And diplomacy must remain our first and most persistent instrument for resolving disputes.
+
+Respect for international law — including due regard for the decisions of the International Court of Justice — is indispensable to the peaceful international order on which small states depend.
+
+Similarly, with respect to our neighbour Cuba, Jamaica continues to believe in dialogue and constructive engagement.
+
+We encourage domestic reform and greater integration of Cuba into the international economic system, supported by policies that create pathways for progress and eliminating the dire humanitarian crisis, rather than perpetuating isolation under the blockade. The suffering of the Cuban people is of deep concern.
+
+Mr. President,
+
+Jamaica believes that reparatory justice is, at its heart, about truth, acknowledgement, justice, repair, compensation, development and reconciliation. Jamaica not only supported the resolution put forward by Ghana on March 25th of this year, we also delivered to Buckingham Palace, a petition framing critical questions on the matter of reparations. The petition has now been referred to the Judicial Committee of the Privy Council.
+
+Mr. President,
+
+Sixty-four years after Jamaica proudly raised our black, green and gold flag as a politically independent nation, we remain clear-eyed about the world around us.
+
+We know its dangers.
+
+But we also believe deeply in its possibilities.
+
+The United Nations must change if it is to remain credible.
+
+Jamaica supports the revitalisation of this General Assembly, meaningful reform of the Security Council, and greater coherence, efficiency and accountability across the United Nations system.
+
+Reform is not an act of disloyalty to this institution.
+
+Reform is how we preserve it.
+
+Ultimately however, Mr. President, multilateralism must mean something beyond these walls.
+
+For a small state like Jamaica, its value is felt when our people are safer; when opportunity is expanded; when vulnerability does not become a barrier to development; when countries that have acted responsibly are not penalised for shocks they did not create; and when the voice of a small nation carries the same dignity as that of a large one.
+
+That is why Jamaica remains committed to this institution — not because it is perfect, but because we are grateful for what is has achieved, and we believe in what it can become.
+
+Small states can help lead that effort.
+
+Our own journey has taught us that vulnerability need not mean helplessness; that discipline creates resilience; that partnership multiplies possibility; and that even in moments of profound crisis, nations can choose to build forward.
+
+So let us restore trust through what we do.
+
+Let us manage transformation with purpose.
+
+Let us bring the same seriousness to preventing crises that we bring to responding to them.
+
+And let us never lose sight of the simple idea on which this institution was founded: that nations working together, can achieve what none of us can achieve alone.
+
+That is the United Nations Jamaica believes in.
+
+And that is the United Nations we will continue working to reform and renew.
+
+I thank you.

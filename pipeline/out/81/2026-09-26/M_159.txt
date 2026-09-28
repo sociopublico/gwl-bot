@@ -1,0 +1,217 @@
+---
+session: 81
+slug: iceland
+id_speech: M_159
+country: Iceland
+speaker: Thorgerdur Katrín Gunnarsdóttir
+title: Minister for Foreign Affairs
+speaker_title: Her Excellency
+date: 2026-09-26
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/is_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 1.814
+---
+
+Mr. President, Excellencies, dear friends,
+
+The United Nations was born from a harsh lesson of history. The generation of 1945 had learned, at terrible cost, that while states can choose their actions, they cannot control all the consequences they set in motion.
+
+That lesson is painfully relevant today.
+
+We are living through a period of profound uncertainty. Power is shifting.
+
+Conflicts are multiplying. And there is a growing tendency to treat the rules and institutions of the international system as constraints belonging to another age.
+
+But the United Nations was built precisely for times of uncertainty: to bring rules and restraint to an unpredictable world, and to prevent conflict from descending into catastrophe.
+
+The task of our generation is both to preserve the institutions built by those that came before us, and to also remember the hard -earned wisdom on which they rest.
+
+Today, that wisdom – and the United Nations that embodies it – is under enormous pressure.
+
+Mr. President,
+
+This year marks eighty years since Iceland joined the United Nations.
+
+For eight decades, Iceland has held that a small state should enjoy the same protection, rights and voice as a powerful one. That idea matters more today, not less.
+
+Despite its shortcomings, the United Nations has mattered. And it has mattered a lot.
+
+UN peacekeeping and peacebuilding operations have helped prevent and contain conflict around the world. The Universal Declaration of Human Rights transformed our understanding of human dignity.
+
+The Convention on the Law of the Sea became the Constitution of the Ocean, on which countries like mine depend, now strengthened further by the BBNJ Agreement.
+
+The International Court of Justice has helped states settle disputes by peaceful means, through law rather than force.
+
+And the International Criminal Court was created to ensure accountability for the most serious crimes.
+
+The United Nations has advanced gender equality, fought racism and discrimination, delivered humanitarian assistance and helped countries build more peaceful and prosperous societies.
+
+But loyalty to the United Nations cannot mean pretending that everything works perfectly. Bureaucracy can be cumbersome, decisions slow and resources fragmented. The Security Council - entrusted with maintaining international peace and security - has too often been paralysed when action was needed most.
+
+Too often, the veto has become a shield against action rather than a tool for preserving peace. So yes, the United Nations needs reform. And Iceland fully supports the UN80 reform process.
+
+We need a United Nations that uses resources effectively and responds quickly when people need it. United Nations that delivers for all.
+
+The deeper chal lenge, however, is p olitical. The strength of the United Nations depends on our willingness to uphold the principles and wisdom on which they were founded.
+
+Mr. President,
+
+The most basic rules of international relations are being tested. Not because we no longer know them. We do.
+
+But because increasingly, governments apply them selectively. Meaning that international law applies - until it becomes inconvenient.
+
+That court decisions must be respected - unless they challenge our own actions or those of our friends.
+
+That sovereignty is sacred - unless someone else's territory stands in the way of our ambitions.
+
+We cannot build courts, celebrate them when they prosecute our enemies, and undermine them when they turn their attention to our friends.
+
+When grave violations go unanswered, they are more likely to be repeated.
+
+And for small states this is existential, not simply a matter of principle.
+
+Russia's brutal war against Ukraine is a clear example. Russia invaded a sovereign neighbour, seeking to change borders by force and deny another nation the freedom to determine its future. Ukrainians have paid an unimaginable price.
+
+Behind every destroyed home is a family. Behind every casualty is someone who was loved.
+
+Iceland's position remains clear. Ukraine has the right to defend itself, to sovereignty and territorial integrity, and to a just and lasting peace on the basis of international law.
+
+Our support for Ukraine defends a principle on which all our countries’ security depends: That no nation gets to decide the future of another.
+
+This principle must apply everywhere. Including in the Middle East.
+
+In Gaza, we continue to witness repeated violations of the ceasefire and continued suffering among civilians, despite the adoption of the twenty point Comprehensive Peace Plan and Security Council Resolution 2803.
+
+The suffering of Palestinian civilians cannot become background noise.
+
+Children are still being killed. Families are still losing their homes. Parents are still trying to keep their children alive. Again. And again. And again.
+
+We cannot accept Gaza being repeatedly destroyed and rebuilt while the underlying cause remains unresolved.
+
+In the West Bank, illegal settlement activity continues to expand. Palestinian civilians face settler violence, too often enabled by impunity, inflammatory rhetoric and permissive policies.
+
+Earlier this month, Iceland joined eleven other states in addressing restrictions on trade in goods from settlements that are illegal under international law.
+
+Our objective remains clear: A viable Palestinian state alongside Israel, with both peoples able to live in security, dignity and peace.
+
+We have heard the words “moral coward s” from this podium. To me, moral cowards are those leaders around the world who refuse to sit down and negotiate a just and lasting peace. Those who deny access to humanitarian aid for people in desperate need. And moral cowards are those leaders who repeatedly go against and disrespect international law.
+
+Mr. President,
+
+We must not allow the horrors in Ukraine and the Middle East to make other crises invisible.
+
+In Sudan, years of civil war have brought atrocities, mass displacement and grave violations of international humanitarian law. As humanitarian leaders have reminded us, Sudan does not suffer from a lack of analysis. It suffers from a lack of action.
+
+Acts that may constitute war crimes and crimes against humanity cannot be met with indifference. We created the International Criminal Court to ensure accountability for the most serious crimes. Accountability matters. So does adherence to international law beyond the battlefield. To be clear: Iceland stands with the ICC.
+
+Obstruction of lawful international transit through the Straits of Hormuz and Bab el-Mandeb threatens not only countries in the region but global energy markets and food security. Disruption falls hardest on the most vulnerable.
+
+The freedoms codified in the United Nations Convention on the Law of the Sea are not optional. For an island nation dependent on open maritime routes, freedom of navigation is fundamental.
+
+Mr. President,
+
+Seventy-five years after the 1951 Refugee Convention, we should have hoped that the need for it would be diminishing. Instead, humanitarian needs and forced displacement have reached staggering levels.
+
+Conflict, poverty, drought, natural disasters and the growing effects of climate change are pushing millions of people from their homes. And just as needs are increasing, funding is falling.
+
+With development cooperation and humanitarian assistance we are investing in stability, resilience and peace. It is not charity offered when times are good. Cutting ODA is shortsighted and risks ma king instability, displacement and conflict worse. The cost will eventually reach us al l. We must not allow today's crises to push the Sustainable Development Goals aside. Iceland will not.
+
+We also must not forget how much progress has bee n driven by economic freedom. Perhaps humanity‘s greatest gift is our c apacity to create. To imagine something that doesn‘t exist and then bring it into being.
+
+Creativity is universal; w hat differ s is whether soc ieties gi ve it roo m to flourish. Open, free markets have given people the oppo rtunity to create, exchange ideas, take risk s and bui ld bet ter lives for themselves and for others.
+
+Mr. President,
+
+Another battle is taking place over what kind of societies we want to be.
+
+Across the world, authoritarianism and political extremism are gaining ground.
+
+We see attacks on democratic institutions, independent media, science and facts in public debate. Too often, these movements target groups whose rights supposedly matter less.
+
+Women. LGBTQI+ people. Minorities. Migrants. People who look different, love differently or live differently. These are not abstract groups. They are our daughters and sons. Our friends. Our neighbours. Our colleagues.
+
+I am deeply concerned by the growing backlash against gender equality and LGBTQI+ rights - including within my own region, Europe.
+
+We hear that equality has gone too far. That diversity has gone too far. That some people demanding the freedom simply to be themselves somehow threaten the freedom of others.
+
+I reject that completely. Human rights are not a zero -sum game. Giving a woman equal rights does not take rights away from a man. Allowing an LGBTQI+ person to live freely does not make anyone else less free. Quite the opposite.
+
+We should be very careful when governments begin telling us that some people's existence threatens society. History has taught us where that can lead.
+
+And l et me be clear: Iceland will not allow others to define our values or dictate the language we use to defend human rights.
+
+Free societies are strongest when people are allowed to be themselves. But freedom that belongs only to people who fit someone else’s definition of normal is not freedom.
+
+A society that strips people of their dignity will eventually undermine its own democracy.
+
+And nowhere is this backlash more extreme than in Afghanistan, where women and girls have been systematically erased from public life. Girls are denied education, women are denied basic freedoms. For me, this can only be described as gender apartheid.
+
+On the Human Rights Council, we have sought to match words with deeds; from Iran and Afghanistan to accountability for violations in Sudan.
+
+Throughout our Council term, Iceland will emphasize gender equality,
+
+LGBTQI+ rights, the rights of children and young people, and the relationship between human rights and the environment.
+
+Human rights are not for some: They are for all.
+
+Mr. President,
+
+The same commitment to facts and responsibility must guide us on climate change.
+
+Leaders who deny or distort science should explain themselves to island communities watching the sea rise around them. To families losing land and livelihoods to drought and erosion - like in the Sahel.
+
+In Iceland, we can see the changes taking place in our own region, the Arctic.
+
+Rising temperatures and receding ice are already changing ecosystems and the lives of communities across the region.
+
+Climate change is not an ideology. Millions already live with its consequences. We need to address it, not ignore it.
+
+Nor can we ignore another transformation already affecting our societies: artificial intelligence. This revolution is changing how we work, communicate and rec eive in formation. It is also making it easier to p roduce convincing falsehoods and manipulate public debate.
+
+Freedom of speech is a fundamental right we must defend. But that does not require passivity when foreign states or other actors spread falsehoods, manipulate democratic processes or use AI to deceive citizens at unprecedented speed and scale.
+
+Governments, businesses and scientists must cooperate internationally to harness the benefits of AI while confronting its risks.
+
+And we need to move faster. Much faster.
+
+Mr. President,
+
+In difficult times, nostalgia tempts us to imagine that the world used to be simpler and safer. It was not.
+
+The decades after the Cold War saw genocide in Rwanda, horrific wars in the former Yugoslavia and the Congo, the rise of international terrorism and devastating civil wars.
+
+Twenty-five years ago this month, terrorist attacks in the United States changed our world profoundly.
+
+Thirty years ago, the Comprehensive Nuclear -Test-Ban Treaty was established, yet the threat of nuclear proliferation remains with us.
+
+What distinguished some of the past's best moments was our response:
+
+Countries came together, built institutions and negotiated treaties. They created the Human Rights Council, OCHA, ICC, UN Women and the UNFCCC.
+
+They placed Women, Peace and Security on the agenda of the Security Council and recognised sexual violence as a weapon and tactic of war. They adopted the Millennium Development Goals and later the Sustainable Development Goals.
+
+To p ut it sim ply: None of t his happened by itself. It h appened b ecause political leaders consciously chose cooperation over retreat. That choice is before us again.
+
+Mr. President,
+
+The United Nations' next Secretary General must continue reforming this organisation, make difficult choices and direct resources where they make the greatest difference.
+
+That will require courage from her.
+
+And so will the choices made by every Member State represented in this Hall.
+
+We must choose whether to uphold the law when it is inconvenient; whether to defend the rights of people who are not our citizens; and whether to protect and respect a system even when that system does not deliver the outcome we want.
+
+That is the real test of our commitment to multilateralism. Not what we say when the rules favour us, but what we do when they do not.
+
+For Iceland, the choice is clear. We choose international law over selective obedience. Accountability over impunity. Cooperation over isolation. Human dignity over division.
+
+The generation that founded the United Nations had seen first -hand what could happen when restraints on power collapsed. The Charter, international law and the institutions that followed were their answer.
+
+In that sense, the United Nations is a gift from a generation that learned that lesson at an extraordinary cost.
+
+And now we need the courage to remember it.

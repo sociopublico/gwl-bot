@@ -1,0 +1,339 @@
+---
+session: 81
+slug: san-marino
+id_speech: M_164
+country: San Marino
+speaker: Luca Beccari
+title: Minister for Foreign Affairs, Political Affairs, International Economic Cooperation and Digital Transition
+speaker_title: His Excellency
+date: 2026-09-26
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/sm_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 2.877
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Excellencies,
+
+Ladies and Gentlemen,
+
+San Marino is the world’s oldest Republic. For more than seventeen centuries, we have survived not through military power, territorial expansion or economic might, but through dialogue, respect for the law, neutrality, and the conviction that the sovereignty of a small State is no less valuable than that of a great power.
+
+Our history has taught us a simple lesson: when power is not enough to protect you, rules matter. When you cannot impose your will, dialogue matters. And when the world is divided, institutions that bring States together matter.
+
+This is why multilateralism is not an abstract concept for San Marino. It is a fundamental principle of our foreign policy, and, in many ways, a lesson drawn from our own history.
+
+Our commitment to cooperation and shared rules is also reflected in our relationship with the European Union.
+
+The forthcoming signing of the Association Agreement with the European Union on 19 October will mark a milestone for our country.
+
+It represents a historic step towards closer cooperation, shared rules and greater integration with the European Union, while fully preserving our sovereignty, identity and institutional specificities.
+
+For San Marino, this is not simply an agreement about economic relations. It is a long-term choice to deepen our engagement with Europe while preserving the distinctive character of our Republic.
+
+It is a choice that reflects a principle at the heart of our history: cooperation does not diminish sovereignty. For a small State, cooperation, rules and dialogue are precisely what allow sovereignty to be exercised and protected.
+
+Today, that principle is under extraordinary pressure.
+
+Eighty-one years ago, the United Nations was created to save succeeding generations from the scourge of war.
+
+Yet today, conflicts are multiplying. Inequalities are deepening.
+
+Climate disruption is accelerating. Food and water are increasingly being used as instruments of pressure. And the rules that have governed international relations for decades are being challenged.
+
+We are witnessing the use of force against sovereign States. We are witnessing violations of international humanitarian and human rights law.
+
+At such a moment, the answer cannot be less multilateralism.
+
+It must be more.
+
+And it must be a multilateralism that works: one that protects the weak as well as the strong; one that applies the law equally; and one that gives every State, large or small, a meaningful voice.
+
+Before turning to the challenges before us, allow me to congratulate H.E. Dr. Khalilur Rahman on his election as President of the eighty-first session of the General Assembly.
+
+San Marino supports the priorities of your programme and stands ready to cooperate fully with you and with all Member States in the year ahead.
+
+I also wish to express our appreciation to Secretary -General António Guterres for his leadership at a time of profound international uncertainty, and for his continued efforts to strengthen the United Nations and the multilateral system.
+
+Mr. President,
+
+There can be no world in which might makes right.
+
+Sovereignty, territorial integrity, political independence and self determination matter. These principles are not optional and they cannot depend on the size of a country or the power of a government.
+
+There can be no impunity for violations of international law. The law must apply to all.
+
+For San Marino, this is not an abstract principle. For small States, international law is our protection. It is the ultimate equalizer.
+
+A rules-based international order allows every State, large or small, to have an equal voice and equal legal standing.
+
+This is why San Marino strongly supports the Secretary -General’s UN80 initiative.
+
+The United Nations must become more effective, more efficient and more responsive.
+
+And reform must include the Security Council.
+
+The Council must better reflect today’s world. It must be more representative, transparent and accountable.
+
+San Marino is also a member of the Uniting for Consensus group and supports its efforts to promote a comprehensive and balanced reform of the Security Council, based on greater regional representation, equitable geographical distribution and wider access to elected seats.
+
+Reform must strengthen the voice of all Member States, including small States, and it must be achieved through broad consensus.
+
+We support efforts to restrain the use of the veto, including the French-Mexican initiative and the ACT Code of Conduct in situations involving mass atrocities, alongside the General Assembly veto initiative.
+
+We also reaffirm our full support for the International Court of Justice. Its orders and judgments are legally binding. Respect for the Court is respect for the international legal order.
+
+Mr. President,
+
+The next Secretary-General will carry a vital responsibility.
+
+The United Nations must remain relevant and credible. Above all, it must remain capable of protecting people and upholding the Charter.
+
+San Marino stands ready to contribute.
+
+Mr. President,
+
+I now turn to one of the most painful crises of our time.
+
+The situation in the Middle East demands clarity.
+
+San Marino unequivocally condemns terrorism, including the horrific attacks of 7 October 2023.
+
+But we must be equally clear on another point: the Palestinian people have an inalienable right to self -determination and to their own State.
+
+Statehood is not a reward for terrorism. It is a right.
+
+At the same time, nothing can justify the collective punishment of civilians.
+
+The suffering in Gaza cannot become the new normal.
+
+We call for a permanent ceasefire and for full, safe and unhindered humanitarian access. Humanitarian assistance must reach those who need it. Civilian lives must be protected. UNRWA and other humanitarian organizations must be able to operate.
+
+We call for the permanent disarmament of Hamas and other nonState armed groups, and for the withdrawal of Israeli forces from the Gaza Strip.
+
+We support the Palestinian Authority and its reform efforts, including democratic elections.
+
+We urge Israel to release withheld clearance revenues and to facilitate correspondent banking services for the Palestinian Authority.
+
+In the West Bank and East Jerusalem, settlement expansion, settler violence, land appropriation, demolitions and evictions must stop. The situation is rapidly deteriorating amid unprecedented levels of settler violence and settlement expansion, including the unacceptable decision to publish tenders for the E1 settlement project.
+
+These developments undermine the possibility of a viable Palestinian State.
+
+The Status Quo of Jerusalem’s holy sites must be respected. All communities, including Christian communities, must be protected.
+
+Last year, San Marino endorsed the New York Declaration for a two-State solution.
+
+Following a unanimous mandate from our Parliament, the Great and General Council, San Marino recognized Palestine as a sovereign and independent State, within secure and internationally recognized borders and in accordance with relevant United Nations resolutions.
+
+We stand by that decision.
+
+There is no alternative to two States living side by side in peace, security and mutual recognition.
+
+The window for that solution is narrowing. We must act now.
+
+Mr. President,
+
+The consequences of the conflict extend far beyond Gaza and the West Bank.
+
+Escalation across the region threatens international peace and security.
+
+We are deeply concerned by hostilities involving Iran and by threats to maritime security in the Red Sea and the Strait of Hormuz.
+
+Freedom of navigation is essential to global stability. International law, including UNCLOS, must be respected.
+
+In Lebanon, we call for full respect for sovereignty and for the implementation of Security Council resolution 1701. Civilian infrastructure must be protected.
+
+In Syria, we support an inclusive and peaceful political transition that respects sovereignty, protects civilians and strengthens institutions.
+
+Peace cannot be imposed by force. It requires diplomacy and dialogue. And it requires international law.
+
+Mr. President,
+
+Europe is also facing a war that continues to cause immense human suffering.
+
+San Marino condemns Russia’s ongoing aggression against Ukraine.
+
+The bombardment of cities.
+
+The killing of civilians.
+
+Attacks on humanitarian workers.
+
+The unlawful deportation of children.
+
+These are not simply tragedies. They are violations of international law.
+
+No State can be allowed to redraw borders by force.
+
+San Marino therefore reiterates its call for a full, immediate and unconditional ceasefire, leading to a comprehensive, just and lasting peace.
+
+Any peace must respect Ukraine’s sovereignty, independence and territorial integrity within its internationally recognized borders.
+
+Mr. President,
+
+From Ukraine to Gaza, from Sudan to Syria, from the Sahel to Afghanistan, civilians continue to pay the highest price.
+
+Women, Children, Older people. Families forced from their homes.
+
+Hospitals and schools destroyed. Food, water and medicines denied.
+
+International humanitarian law was created precisely for these circumstances.
+
+It does not disappear in times of war. It is not suspended by political convenience. It must be respected.
+
+San Marino strongly condemns the use of explosive weapons in populated areas and calls on all States to implement the Political Declaration on Explosive Weapons in Populated Areas.
+
+Those who deliver humanitarian assistance must also be protected. Aid workers and journalists are not legitimate targets.
+
+San Marino also reaffirms its commitment to the Australia-led Declaration for the Protection of Humanitarian Personnel, and calls on all parties to armed conflict to respect and protect humanitarian personnel and to ensure that assistance can reach those in need.
+
+Impunity cannot become normal.
+
+San Marino therefore reaffirms its commitment to the Geneva Conventions, the Genocide Convention and the Rome Statute.
+
+And we reiterate our unwavering support for the International Criminal Court.
+
+The Court exists because the gravest crimes cannot go unanswered: genocide, war crimes and crimes against humanity.
+
+Accountability is not an obstacle to peace. It is part of lasting peace.
+
+The fight against impunity is also an essential element of the Responsibility to Protect, which must remain a shared responsibility of the international community.
+
+Recent political pressure and coercive measures against the Court, its officials and those who cooperate with it are deeply concerning.
+
+States Parties to the Rome Statute must defend the independence and integrity of the Court.
+
+San Marino also reaffirms its historic commitment to the abolition of the death penalty, which it abolished in 1865. This reflects our enduring conviction that human dignity must be protected even in the face of the gravest crimes.
+
+Justice cannot depend on political power.
+
+Mr. President,
+
+Five years ago, the Taliban seized power in Afghanistan.
+
+Five years is too long for half of a population to be denied its rights.
+
+Afghan women and girls continue to face systematic restrictions on education, employment, movement, public participation and access to justice.
+
+Girls remain excluded from secondary and higher education.
+
+Women are increasingly excluded from public life. This cannot become normal.
+
+San Marino calls for the full restoration of the rights of Afghan women and girls.
+
+Education is a right. Work is a right. Participation in public life is a right. Dignity is a right.
+
+These rights do not disappear because a government chooses to deny them.
+
+The international community must continue to stand with Afghan women and girls.
+
+Humanitarian access must also remain unhindered.
+
+Afghanistan must not be forgotten.
+
+Mr. President,
+
+Children everywhere deserve protection. Children are being killed, maimed, abducted and recruited. They are losing their homes, their schools and their futures.
+
+San Marino remains firmly committed to the Children and Armed Conflict agenda and supports the work of the UN Special Representative for Children and Armed Conflict.
+
+Schools must remain safe places.
+
+We have endorsed the Safe Schools Declaration, the Paris Principles and the Vancouver Principles.
+
+We call on all States to strengthen the protection of children in armed conflict and to ratify the Optional Protocol to the Convention on the Rights of the Child.
+
+Mr. President,
+
+The return of nuclear threats is another source of grave concern.
+
+There can be no acceptable nuclear threat or acceptable use of nuclear weapons.
+
+The modernization and expansion of nuclear arsenals, together with growing military expenditures and the rapid development of artificial intelligence and cyber capabilities, increase the risk of escalation.
+
+The consequences of nuclear use would be catastrophic.
+
+San Marino remains committed to a world free of nuclear weapons.
+
+We support the Treaty on the Non -Proliferation of Nuclear Weapons. We also proudly uphold the Treaty on the Prohibition of Nuclear Weapons, which San Marino has signed and ratified.
+
+Diplomacy must prevail over deterrence through fear.
+
+Mr. President,
+
+Peace and security cannot be separated from development. Nor can development be separated from human rights.
+
+Conflict destroys development gains. Poverty fuels instability.
+
+Climate change increases pressure on food, water and communities.
+
+We must also not overlook the devastating humanitarian and socio-economic situation in Cuba, where prolonged hardship is placing an immense burden on the daily lives of the Cuban people.
+
+We must therefore treat peace, security, human rights and sustainable development as parts of the same agenda.
+
+The SDGs remain our common commitment. The Pact for the Future provides an opportunity to strengthen multilateralism and accelerate implementation of the 2030 Agenda.
+
+But commitments are not enough.
+
+We need implementation, financing and accountability.
+
+We also need a fairer and more inclusive international financial architecture, supported by adequate resources and greater financial stability for the UN itself.
+
+The triple planetary crisis - climate change, biodiversity loss and pollution - is already affecting peace and security.
+
+Environmental degradation fuels food insecurity, water scarcity and displacement.
+
+The Paris Agreement must be fully implemented.
+
+The 1.5-degree goal must remain within reach, the transition must be just and no country should be left behind.
+
+Food security must also remain at the heart of our collective efforts.
+
+Conflict and climate shocks are driving hunger and malnutrition.
+
+San Marino believes that reducing food loss and waste is one practical contribution to a more secure and sustainable food system.
+
+Mr. President,
+
+We are also entering a new technological era.
+
+Artificial intelligence and emerging technologies offer enormous opportunities, but they also create new risks.
+
+Technology must serve humanity. It must not be used to undermine human rights, international peace or international humanitarian law.
+
+The rules must keep pace with innovation.
+
+And where new technologies create new risks, our responsibility is not to look away, but to govern them.
+
+This is why multilateralism matters.
+
+Multilateralism is not an outdated idea. It is the only framework capable of managing an interdependent world.
+
+No country can address today’s challenges alone, protect itself from climate change alone, prevent the proliferation of nuclear weapons alone or regulate global technology alone.
+
+And no country can build lasting peace alone.
+
+We need cooperation and institutions that work. And we need the political courage to uphold the rules we have created together.
+
+Mr. President,
+
+For more than seventeen centuries, San Marino has shown that a small State can preserve its independence through dialogue, respect for the law and engagement with the international community.
+
+This is why San Marino will continue to defend the United Nations Charter, international law, human rights and multilateralism.
+
+At a time when the world is tempted by division, we must choose cooperation. When force challenges law, we must stand firmly by the law.
+
+And when despair is growing, we must choose peace.
+
+San Marino will do its part.
+
+Together, we must ensure that the United Nations remains what it was created to be: a shield for the vulnerable, a forum for dialogue and a guardian of peace, dignity and international law.
+
+Thank you.
