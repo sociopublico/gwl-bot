@@ -1,0 +1,183 @@
+---
+session: 81
+slug: south-sudan
+id_speech: M_192
+country: South Sudan
+speaker: Cecilia Adout Majok Adeng
+title: Permanent Representative to the United Nations
+speaker_title: Her Excellency
+date: 2026-09-28
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/ss_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.549
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Excellencies,
+
+Distinguished Delegates,
+
+I bring you warm greetings and best wishes from His Excellency Salva Kiir Mayardit, President of the Republic of South Sudan, the Government and the people of South Sudan, together with a message of peace, unity, development and an unwavering commitment to international cooperation.
+
+I wish to congratulate you, Mr. President, on your election to preside over the EightyFirst Session of this esteemed Assembly. I also express South Sudan’s appreciation to the Secretary-General, His Excellency António Guterres, for his continued service to the United Nations and commitment to the principles of its Charter.
+
+Mr. President,
+
+The theme of this Session, “Restoring Trust, Managing Transformation: A United Nations that Delivers for All, ” speaks directly to the experience and aspirations of South Sudan. As the world ’s youngest nation and the 193rd Member of the United Nations, South Sudan understands both the promise and the responsibility of multilateralism.
+
+South Sudan also understands that trust is fundamental to peace: trust among citizens; trust between citizens and their institutions; trust among nations; and trust between Member States and the international institutions created to serve them.
+
+South Sudan remains committed to the United Nations and to the purposes and principles of its Charter. We recognize and appreciate the contribution the United Nations has made to South Sudan, from humanitarian assistance and the protection of civilians to peacebuilding, development and institutional support.
+
+However, restoring trust also requires honest reflection. Our experience has shown that international institutions can sometimes be slow to adjust to changing circumstances on the ground. Approaches designed to respond to conflict must be capable of evolvi ng as nations move toward peace, recovery, institution -building and national ownership.
+
+For South Sudan, therefore, restoring trust must mean strengthening partnership between the United Nations and Member States, respecting national ownership, recognizing progress while acknowledging remaining challenges, and ensuring that international engagement ultimately strengthens the capacity of nations to assume responsibility for their own future.
+
+Mr. President,
+
+To understand where South Sudan seeks to go, one must understand where South Sudan has come from. The history of South Sudan did not begin with independence on 9 July 2011. It was shaped by more than half a century of struggle, sacrifice, displacement and an unwavering desire for freedom and self-determination. Dr. John Garang de Mabior summarized the aspirations of that struggle when he spoke of “freedom, liberty, equality, justice, human rights and democracy.” Those aspirations did not end with independence. They remain part of the ongoing work of nation-building.
+
+The Comprehensive Peace Agreement of 2005 provided the political framework that transformed decades of armed struggle into a peaceful exercise of self determination. South Sudan therefore continues to recognize the indispensable contribution of IGAD and our African brothers and sisters, as well as the support of the Troika, the United States, the United Kingdom and Norway and the wider international community.
+
+South Sudan also remembers the extraordinary contribution of churches and faith leaders. During some of the darkest years of conflict, the churches remained with the people. They educated children, assisted displaced communities, mediated disputes and kept alive the belief that reconciliation was possible.
+
+That tradition continued with the historic Ecumenical Pilgrimage of Peace to South Sudan by His Holiness Pope Francis, the Archbishop of Canterbury and the Moderator of the Church of Scotland. Their message reinforced something South Sudan has learned through painful experience: Peace requires political agreements, but lasting peace also requires reconciliation, forgiveness and courage.
+
+Mr. President,
+
+His Excellency President Salva Kiir Mayardit belongs to the generation that carried the struggle for liberation. Following the passing of Dr. John Garang, President Kiir assumed responsibility for safeguarding the Comprehensive Peace Agreement and leading the people of South Sudan toward the referendum on self -determination. In January 2011, the people of South Sudan spoke overwhelmingly through the ballot.
+
+And on 9 July 2011, President Salva Kiir Mayardit stood before the people as the flag of the Republic of South Sudan was raised for the first time.
+
+Fifteen years later, South Sudan has travelled a difficult road. There have been achievements. There have also been setbacks. South Sudan experienced internal conflict shortly after independence. Implementation of the Revitalized Peace Agreement has taken longer than originally anticipated. Economic and humanitarian challenges remain significant. The Government does not deny these realities, but neither should these challenges be allowed to erase the progress made or define permanently the identity of South Sudan.
+
+Throughout the transition, President Kiir has repeatedly made one commitment clear: he will not take South Sudan back to war. This commitment has guided his approach to the peace process and remains fundamental to his vision for the next chapter of South Sudan.
+
+The mission before President Kiir today is therefore different from the mission of the liberation years. The liberation struggle sought to give the people of South Sudan the right to determine their destiny. The responsibility today is to consolidate peace, strengthen institutions and create the conditions through which the people of South Sudan can once again determine their political future through democratic means.
+
+Mr. President,
+
+When the people of South Sudan voted for independence, they were voting for more than the creation of a new State. They were voting for a dream: • They dreamed of peace after generations of war; • They dreamed of schools for their children; • Healthcare for their families; • Roads connecting their communities; • Food security and economic opportunity; • Justice and equality; • Strong national institutions; and • A government whose authority ultimately derives from the will of its people.
+
+The difficulties of the last fifteen years have not extinguished those dreams. They remain alive among the people of South Sudan. And it is precisely for this reason that His Excellency President Salva Kiir Mayardit remains committed to paving the way towards general elections scheduled for December 2026. These elections are intended to mark the conclusion of the transitional period and provide the people of South Sudan the opportunity to democratically choose their leaders.
+
+We recognize that important work still in progress. Electoral institutions require adequate resources. Political dialogue must continue. Security arrangements must advance. Civic and voter education must reach communities. Women and young people must parti cipate meaningfully. Refugees and internally displaced persons must not be left out. And an environment must be created in which political competition can occur peacefully. The Government remains committed to working towards these objectives.
+
+For too long, South Sudan has often been seen internationally through the lens of conflict, humanitarian need and political crisis. President Kiir’s vision is to create the conditions in which the world can once again see the people of South Sudan for who they truly are: a resilient people who struggled for freedom, voted peacefully for independence, and continue to aspire for peace, dignity, democracy and prosperity.
+
+The people of South Sudan must increasingly speak for themselves. And they must speak through the ballot. Our journey therefore continues: • from liberation struggle to the Comprehensive Peace Agreement - to the Referendum - to independence; • from conflict to peace; and now • from transition towards democratic governance.
+
+Mr. President,
+
+The message of President Kiir remains clear: South Sudan must not return to war.
+
+Political disagreement must be addressed through dialogue. Political competition must never again become armed confrontation. The ballot must replace the bullet.
+
+South Sudan recognizes that conducting peaceful elections requires security and strong institutions. The Government bears the primary responsibility for protecting its citizens, maintaining public order and safeguarding the electoral process.
+
+South Sudan therefore continues to call for constructive engagement with the Security Council concerning restrictive measures, including the arms embargo.
+
+South Sudan’ s objective is not militarization. The objective is to develop professional, unified, disciplined and accountable security sectors operating under civilian authority and the rule of law.
+
+South Sudan believes that accountability and national capacity should reinforce one another. We therefore call for the lifting of all restrictive measures. Sanctions must remain instruments for achieving clearly defined objectives; they should not become permanent substitutes for political engagement and institution-building.
+
+Mr. President,
+
+South Sudan remains grateful for the contribution of the United Nations Mission in South Sudan. We recognize the men and women who have served under the United Nations flag, particularly those who have lost their lives in the service of peace. As South Sudan advances its transition, however, international engagement must also evolve.
+
+President Kiir’s vision is not for South Sudan to remain indefinitely dependent upon international peacekeeping. The objective must be a South Sudan capable of sustaining its own peace. South Sudan therefore calls for greater emphasis on peacebuilding, institutional development and continuous capacity building. We are keen on establishing partnership: • Invest in South Sudan’s police and judiciary; • Invest in public administration; • Invest in education and healthcare; • Invest in infrastructure; • Invest in women and young people; and • Invest in the institutions that will sustain peace long after peacekeepers have departed.
+
+The ultimate measure of successful peacekeeping should be the establishment of conditions under which peacekeeping is no longer required. South Sudan therefore seeks a responsible transition from managing crises towards building lasting national capacity.
+
+Mr. President,
+
+Peace cannot be sustained without development. At independence, South Sudan inherited extremely limited infrastructure and institutional capacity. Nation building, state -building and service delivery have therefore had to proceed simultaneously. His Excellency President Salva Kiir Mayardit has placed particular emphasis on agriculture, infrastructure, education, healthcare and economic diversification.
+
+South Sudan possesses millions of hectares of arable land, significant water resources, livestock, fisheries, natural resources and one of the youngest populations in the world. South Sudan therefore seeks to transition progressively from humanitarian dependency to self -reliance and to towards sustainable development and investment.
+
+For a farmer, a road to market is development. For a child, a functioning school is development. For a mother, access to healthcare is development. For a young person, employment is development. And for South Sudan, development is one of the strongest foundations for lasting peace.
+
+We therefore invite international partners and responsible investors to look beyond South Sudan’s current challenges and recognize its potential. Do not ask only what South Sudan needs. Ask what South Sudan can offer.
+
+Mr. President,
+
+South Sudan continues to face severe consequences from climate shocks despite contributing minimally to global emissions. Recurrent floods, drought, displacement and food insecurity are affecting millions of South Sudanese. South Sudan therefore reiterates its call for predictable and accessible climate financing, investment in adaptation, resilient infrastructure, renewable energy, agriculture and technology transfer. Climate justice must be reflected not only in commitments, but in implementation.
+
+Mr. President,
+
+Women and young people remain central to President Kiir’s vision for South Sudan.
+
+The Revitalized Peace Agreement provided for 35 per cent representation of women in public institutions. South Sudan continuous on working to translate that commitment into meaningful participation at all levels.
+
+South Sudan also has an overwhelmingly young population. These young people should not inherit the conflicts of previous generations. They should inherit the opportunities of peace: Education, vocational training, technology, entrepreneurship, agriculture and sports, that is the future they deserve.
+
+Mr. President,
+
+Decades of conflict scattered South Sudanese across the world. But the South Sudanese diaspora should not be viewed only through the history of displacement.
+
+It is also an extraordinary national resource. Our national basketball team, the Bright Stars, demonstrated this before the world.
+
+South Sudanese whose journeys had taken them across different countries and continents came together under one flag. Under the leadership of Luol Deng and the South Sudan Basketball Federation, South Sudan qualified for the FIBA Basketball World Cup and su bsequently for the Olympic Games. They showed the world another image of South Sudan: not conflict; not displacement; but talent, discipline, unity and excellence. This experience offers a model for national development.
+
+South Sudanese doctors abroad can contribute to healthcare. Engineers can contribute to infrastructure. Academics can strengthen education. Entrepreneurs can invest and create employment. Technology professionals can connect South Sudan to the digital economy. And successful South Sudanese around the world can mentor another generation.
+
+To the international community, we need to create strong partnership that would enable our South Sudanese Diaspora to transfer their skills and professional experience; in order to contribute to the ongoing development in the Republic of South Sudan.
+
+To the South Sudanese Diaspora, our message is simple: South Sudan needs you.
+
+Bring your knowledge. Bring your experience. Bring your investment. Bring your networks. Where physical return is not possible, allow your skills and experience to contribute to South Sudan.
+
+The same spirit that brought South Sudanese athletes from around the world together under one flag can help bring South Sudanese expertise together for one national purpose. South Sudan’s greatest resource is ultimately its people, both at home and abroad.
+
+Mr. President,
+
+South Sudan stands in solidarity with the people of Sudan. South Sudan and Sudan share history, families, economic interests and one of the longest borders in the region. South Sudan therefore reiterates and continues to support all efforts leading to the consolidation of peace in Sudan.
+
+South Sudan knows from experience that military confrontation ultimately requires a political solution. Even the longest conflict must eventually reach a negotiated settlement. South Sudan therefore supports regional and international efforts aimed at achieving peace in Sudan. Outstanding matters arising from the Comprehensive Peace Agreement, including border issues and the final status of Abyei, also require continued peaceful engagement between South Sudan and Sudan.
+
+Mr. President,
+
+Restoring trust also requires reform of the institutions of global governance. The composition of the Security Council does not adequately reflect realities of today; Africa with fifty-four Member States remains without permanent representation on the Council.
+
+South Sudan therefore reaffirms its support for the Common African Position reflected in the Ezulwini Consensus and Sirte Declaration. Africa must be appropriately represented in both the permanent and non -permanent categories.
+
+Similarly, developing countries must have a stronger voice in international financial institutions and in decisions concerning development financing, debt, climate and technology. Reform does not weaken multilateralism. Reform strengthens its legitimacy.
+
+Mr. President,
+
+Fifteen years after independence, South Sudan remains a young nation undertaking the difficult work of building a State while consolidating peace and delivering development. The journey has not been easy. But South Sudanese have never been a people defined by easy journeys. The generation of liberation fought for freedom.
+
+The generation of the Comprehensive Peace Agreement secured the pathway to selfdetermination. The people of South Sudan chose independence through the ballot.
+
+And His Excellency President Salva Kiir Mayardit carried the responsibility of leading South Sudan through the Referendum and into statehood.
+
+Today, President Kiir’s vision is directed toward another historic responsibility: to preserve peace, strengthen national institutions and pave the way toward elections through which the people of South Sudan can determine the next chapter of their nation. This is ultimately about completing the promise of independence. A South Sudan at peace with itself. A South Sudan governed through strong institutions. A South Sudan where political competition does not lead to war.
+
+A South Sudan where women participate fully. Where young people have opportunities. Where refugees can return home. Where the diaspora contributes to national development. And where children grow up knowing South Sudan not through memories of war, but through the possibilities of peace.
+
+Dr. John Garang once challenged the people of South Sudan to “unite and dream together.” That dream did not end with independence. It continues. And today, the responsibility of President Salva Kiir Mayardit, his Government, the political leadership and indeed every South Sudanese is to transform that dream into a functioning, peaceful and prosperous Republic.
+
+To our international partners who stood with South Sudan during the struggle for peace, during the Comprehensive Peace Agreement, during the Referendum and at independence, we say: Stand with South Sudan again. But let this next chapter be a partnership that strengthens national ownership. A partnership that builds institutions. A partnership that recognizes progress while helping address remaining challenges. And a partnership that enables South Sudan progressively to stand on its own.
+
+Mr. President,
+
+For South Sudan, restoring trust means delivering on the promise of peace.
+
+Managing transformation means moving from conflict to institutions, from dependency to national capacity, and from transition toward democratic governance.
+
+And a United Nations that delivers for all must ultimately help nations develop the capacity to deliver for their own people.
+
+South Sudan remains committed to the United Nations. South Sudan remains committed to Africa. South Sudan remains committed to peace. And under the leadership of His Excellency President Salva Kiir Mayardit, South Sudan remains committed to the long journe y of transforming the sacrifices of liberation into the peace, dignity, development and democratic future for which the people of South Sudan have waited for generations. That is the promise of independence. That is the responsibility of this generation. And that is the future South Sudan seeks to build.
+
+May the Lord Almighty bless the people of South Sudan.
+
+And may the Lord Almighty bless all nations represented in this Assembly.
+
+I thank you.

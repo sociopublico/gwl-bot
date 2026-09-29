@@ -1,0 +1,103 @@
+---
+session: 81
+slug: malawi
+id_speech: M_182
+country: Malawi
+speaker: George Chapatula Chaponda
+title: Minister for Foreign Affairs
+speaker_title: His Excellency
+date: 2026-09-28
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/mw_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.545
+---
+
+Mr. President; Your Excellencies; Distinguished Delegates,
+
+I have the hono ur and priviledge to deliver this statement on behalf of His Excellency Professor Arthur Pe ter Mutharika, President of the Republic of Malawi, and the people of Malawi.
+
+I congratulate you, Mr. President, and all Vice Presidents, on your election to lead this 81 st Session of the United Nations General Assembly. Malawi pledges its full support to your leadership. We also extend our profound appreciation to the Secretary -General for his unwavering dedication to our shared global values.
+
+Mr. President,
+
+The theme for this session, "Restoring Trust, Managing Tansformation: a United Nations that Delivers for All," strikes at the heart of our current global reality. We live in an era of deep fractures. Trust between nations has eroded. Global systems are failing to manage rapid technological, economic, and environmental shifts equitably. For the United Nations to remain relevant, it must transform into an institution that delivers tangible progress for the most vulnerable, leaving no nation behind. I would, therefore, like to highlight six opportunities for restoring trust, managing transformation and, thereby ensuring a United Nations that delivers for all.
+
+The first opportunity is accelerating sustainable development and economic transformation:
+
+Mr. President, the timeline for the 2030 Agenda for Sustainable Development is rapidly drawing to a close, yet the promises of the Sustainable Development Goals (SDGs) remain dangerously out of reach for millions. For Malawi, the pursuit of wealth creation, self reliance and economic transformation is not merely a political aspiration; it is an urgent survival strategy. Because of this, we have remained steadfast in implementing the SDGs, in alignment with our long-term development vision, the Malawi 2063. On this note, Mr.
+
+President, I am happy to report that Malawi successfully presented our third Voluntary National Review during the 2026 ECOSOC High -Level Political Forum, thereby reaffirming our commitment to the 2030 Agenda for Sustainable Development and the Malawi 2063, as well as our desire to accelerate sustainable development and economic transformation. The review revealed that even though we face numerous structural challenges, we have made some progress on many of the SDGs.
+
+Mr. President, our goal is to systematically transform our economy by modernizing agriculture, expanding mining and accelerating digitalization. However, national efforts alone cannot dismantle the structural barriers built into the global economic architecture.
+
+Developing nations require deliberate, scaled investment in industrialization, sustainable infrastructure and regional valu e chains to transition from primary commodity exporters to diversified, industrialized economies.
+
+In addition, w e cannot achieve sustainable development while drowning in debt. Malawi, therefore, calls for immediate, comprehensive debt relief and restructuring. The current international financial architecture forces developing nations to choose between servicing predatory debts and investing in health, education and climate resilience. This is a moral failure.
+
+Mr. President,
+
+We also call for a massive sc aling-up of concessional development financing. We need targeted investments in our key productive sectors, namely agriculture, industrialization and infrastructure development as follows:(a) Agricultural modernization through mechanization and commercialization to guarantee food security; (b) Building local industry so that we stop exporting raw materials, and create decent jobs for our youth, who make up nearly 40 percent of the Malawi population; and (c) Developing robust transport, energy and digital infrastructure to connect Malawi to regional and global markets.
+
+We, therefore, call upon our international partners to align their support with national blueprints like the Malawi 2063 in order to generate meaningful job creation and shared prosperity.
+
+The second opportunity is strengthening climate action and resilience:
+
+Mr. President, Malawi contributes negligibly to global greenhouse gas emissions, yet we remain on the frontline of the climate crisis. In recent years, devastati ng cyclones, prolonged droughts and increasingly erratic weather patterns have destroyed infrastructure, devastated crops, displ aced thousands of our citizens and inflicted severe damage on our economy. This year, we face the added threat of El Niño -related extreme weather, which risks further undermi ning livelihoods, food security and economic stability.
+
+As such, we are fighting back by embedding climate resilience into our national development planning and strengthening locally driven adaptation measures. However, our efforts are contin ually outpaced by the scale and speed of climate change. Climate shocks repeatedly destroy infrastructure, decimate agricultural production, exacerbate food insecurity, and erode hard-won development gains.
+
+Mr. President,
+
+The global community must therefore move beyond rhetoric and translate commitments into meaningful action. We call for the full and effective operationalization and capitalization of the Loss and Damage Fund. Major historical and current emitters must honour their climatefinance commitments by providing accessible, predictable, grant -based and highly concessional financing, rather than relying on debt -creating instruments that further burden vulnerable countries already struggling to cope with the consequences of a crisis they did little to cause.
+
+Mr. President,
+
+Malawi, therefore, calls for enhanced, predictable and easily accessible climate finance, with greater emphasis on adaptation and disaster -risk reduction. We need sustain able investment in early -warning systems, climate-resilient infrastructure, sustainable land management, climate-smart agriculture and locally led adaptation.
+
+Climate change is an existential threat to Malawi's development and to the hard-won gains we have made.
+
+Mr. President, the third opportunity is to reform global governance and strengthen multilateralism:
+
+The current global challenges underscore a fundamental truth: our multilateral framework is fractured because its foundational architecture is obsolete. The institutions designed in 1945 no longer reflect the geopolitical and economic realities of 2026.
+
+Malawi reaffirms its unwavering commitment to multilateralism, but it must be a multilateralism that is inclusive, fair, and democratic. We call for an urgent comprehensive reform of the United Nations Security Council to correct the historical injustice done to Africa. Africa deserves permanent representation with full veto privileges, as articulated in the Ezulwini Consensus. Furthermore, the international financial architecture, specifically the IMF and t he World Bank, must be radically overhauled. The current system traps developing nations in cycles of unsustainable debt, forcing governments to choose between servicing foreign loans or funding basic education and healthcare for their citizens.
+
+Mr. President, because Malawi strongly believes in multilateralism, we take responsibility when called upon by the international community to participate in causes that further the aims of this organisation.
+
+Malawi remains firmly committed to the rule of law, acco untability and the peaceful resolution of disputes as indispensable foundations of an effective multilateral system. It is in this spirit that Malawi has presented the candidature of Lady Justice Tujilane Chizumila for election as a Judge of the International Criminal Court for the term 2027–2036. Justice Chizumila is a distinguished jurist with extensive judicial and legal experience at the national, regional and international levels, including her service as a Judge of the African Court on Human and Peoples’ Rights. Her candidature reflects Malawi’s commitment to strengthening international justice through experienced, independent and highly qualified judicial leadership.
+
+As States Parties prepare to elect six judges to the International Criminal Court in December 2026, Malawi respectfully seeks the valued support of States Parties for the candidature of Lady Justice Tujilane Chizumila. We are confident that her extensive judicial experience, commitment to the rule of law and demonstrated service to justice and human rights would enable her to make a meaningful contribution to the work of the Court. Malawi looks forward to the support of fellow States Parties for her election and to continuing our collective efforts to strengthen the institutions of international justice.
+
+Mr. President, t he fourth opportunity for restoring trust, managing transformation, and thereby ensuring a United Nations that delivers for all, lies in strengthening global health security. Economic transformation and sustainable develop ment are impossible without a healthy population. The vulnerabilities exposed by recent global pandemics continue to linger, reminding us that global health security is only as strong as its weakest link.
+
+Malawi is making strides toward achieving Universal Health Coverage and strengthening our primary healthcare systems. However, systemic global inequities in healthcar e access, medical manufacturing and vaccine distribution remain glaringly unresolved. True global health security demands decentralized pharm aceutical manufacturing capabilities, unrestricted technology transfers and intellectual property waivers during health emergencies. My delegation appeals to all of us here to finali ze a robust, legally binding Pandemic Treaty tha t guarantees equity, solidarity and immediate resource sharing for the Global South.
+
+We also call for collaboration in efforts to build long -term resilience against pandemics, through investments in our domestic pharmaceutical manufacturing capacity. By producing essential medicines within Africa, the entire world gains through stronger health security and stable supply chains, especially through faster outbreak response.
+
+Mr. President, the fifth opportunity is to promote human rights, peace and international security:
+
+Malawi firmly b elieves that development, peace and human rights are inextricably linked. We remain deeply committed to upholding the constitutional rights of all our citizens, strengthen ing our democratic institutions and maintaining an uncompromising stance again st corruption. Further, we strongly defend the right to development as an inalienable human right. True freedom cannot exist in conditions of extreme poverty and systemic economic exclusion.
+
+On the global stage, we view, with great alarm, the proliferation of violent conflicts, unconstitutional changes of government, geo -political fragmentation and acts of racism, racial discrimination, xenophobia, and related intolerance. Mr. President, the Malawi nation is not standing aloof as all these alarming developm ents occur. Malawi continues to play its part in global peace operations, deploying our brave men and women to U nited Nations peacekeeping missions to safeguard stability on our continent. In this regard, let me reiterate the calls for immediate cessation of hostilities in all active conflict zones worldwide. Global resources currently being funneled into destructive warfare should, instead, be redirected toward s eradicating poverty, building schools and financing sustainable development.
+
+We also reaffirm our solidarity with global efforts to combat racism, racial discrimination, xenophobia and related intolerance.
+
+The last, but not least, opportunity is in advancing economic diplomacy and strategic partnerships:
+
+Mr. President, in alignment with the Malawi 2063, our foreign policy prioritizes robust economic diplomacy. Malawi recognizes that navigating the complexities of the 2020s requires a paradigm shift away from traditional, paternalistic foreign aid, toward genuine reciprocal economic diplomacy. For this reason, we are actively strengthening bilateral and multilateral partnerships to attract foreign direct investment, enhance international trade, and mobilize development assistance. Malawi is open for business.
+
+Further to this, Malawi highly values South -South and triangular cooperation. Collaborative initiatives with fellow developing nations allow us to share cost -effective technologies, best practices, and home grown solutions in climate -smart agriculture, renewable energy, and digital governance. We will continue to deepen these alliances to accelerate our national development priorities.
+
+Mr. President, as we take steps to grasp these opportunities, we must also recognize the emergence of Artificial Intelligence, which presents both opportunities and threats to humanity. Malawi welcomes the transformative potential of AI as an expression of human ingenuity and as an increasingly important tool for accelerating sustainable development. For developing countries, including Malawi, AI offers opportunities to strengthen agricultural productivity and food security, improve healthcare and education, enhance climate resilience and disaster preparedness, expand financial inclusion, and improve the efficiency of public services. Malawi believes, however, that technological advancement must remain human -centred: Artificial Intelligence should complement and enhance human capabilities rather than diminish the indispensable role of people in shaping their own development.
+
+At the same time, Malawi recognises that the rapid expansion of Artificial Intelligence presents significant challenges, particularly for developing economies with fragile labour markets and limited technological infrastructure. Automation could disrupt employment and widen existing inequalities, while unequal access to computing capacity, data, digital infrastructure, skills and financing risks creating a new technological divide between and within countries. Malawi therefore calls upon the United Nations to continue promoting an inclusive, ethic al and development -oriented global framework for AI governance—one that safeguards human dignity and employment, builds the technological capacities of developing countries, facilitates equitable access to AI technologies and ensures that the benefits of innovation contribute directly to the achievement of the Sustainable Development Goals. No country should be left behind in the emerging AI-driven global economy.
+
+Mr. President, in conclusion, restoring trust r equires honesty, accountability and action. Ma naging transformation requires courage, vision and solidarity. The choices we make today will reverberate for generations to come. We can choose to retreat into isolationism and protectionism, or we can choose to summon the political cou rage required to build a fairer, more resilient and inclusive world.
+
+Malawi stands ready to play its part. We are transforming our economy, reforming our institutions and investing in our people. But we cannot do it alone in an unfair global environment. We stand ready to wo rk hand -in-hand with all member states to bridge the divides, restore trust in multilateralism and deliver a sustainable dignified future for all humanity Let this 81 st Session of the General Assembly mark the turning point where the United Nations transition s from a forum of speeches to an engine of delivery. Let us build a United Nations that delivers wealth instead of poverty, resilience instead of vulnerability, and peace instead of conflict. A United Nations that truly delivers for all.
+
+Thank you very much for your attention.

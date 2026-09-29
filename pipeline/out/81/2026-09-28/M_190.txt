@@ -1,0 +1,275 @@
+---
+session: 81
+slug: antigua-and-barbuda
+id_speech: M_190
+country: Antigua and Barbuda
+speaker: Walton Alfonso Webson
+title: Permanent Representative to the United Nations
+speaker_title: His Excellency
+date: 2026-09-28
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/ag_en_0.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.399
+---
+
+Mr President,
+
+Mr Secretary-General,
+
+Distinguished Heads of State and Government,
+
+Excellencies,
+
+Ladies and Gentlemen,
+
+We meet once again at a moment when history asks difficult questions of this institution.
+
+Can multilateralism still protect the weak as well as the strong?
+
+Can international law restrain power, rather than merely record its consequences?
+
+Can development remain a promise for all, rather than a privilege for some?
+
+For Antigua and Barbuda, these are not philosophical questions. For Small Island Developing States, they are questions of survival.
+
+As we begin the eighty-first session of this General Assembly, we stand between two eras: one ending, and another waiting to be shaped.
+
+At the end of this year, His Excellency António Guterres will complete his tenure as Secretary-General.
+
+Antigua and Barbuda places on record its profound appreciation for his service to this Organization and to the international community. For my country, that appreciation is deeply personal.
+
+In 2017, Hurricane Irma devastated Barbuda. The entire population had to be evacuated.
+
+Homes were destroyed. Livelihoods disappeared. An island community was brought to its knees.
+
+Secretary-General Guterres came to Antigua and Barbuda. He saw the devastation. He listened to our people. And he understood what Small Island Developing States have been telling the world for decades: climate change is not waiting for the future. It is already destroying lives, economies and communities.
+
+He continued to stand with SIDS. He returned to Antigua and Barbuda for the Fourth International Conference on Small Island Developing States. He championed vulnerable countries and supported the international effort that brought the Multidimensional Vulnerability Index into being.
+
+Whether confronting climate change, challenging inequality or calling for reform of the international financial system, he was a fearless and principled advocate. He never relented in demanding a fairer world, and he consistently placed the concerns of small island states before the international community.
+
+For that solidarity, we thanked him.
+
+But gratitude for the past must now be matched by courage in shaping the future.
+
+The next Secretary-General will inherit a United Nations confronting wars and conflicts that devastate lives and undermine international stability. Deep geopolitical divisions, financial constraints, the climate emergency and declining trust will test the Organization’s capacity to respond.
+
+Excellencies, the choice before us is about more than selecting an individual. It is about the future direction of this Organization.
+
+That is why Antigua and Barbuda has nominated María Fernanda Espinosa to serve as the next Secretary-General.
+
+We believe she is the right leader for this moment.
+
+After more than eighty years, no woman has ever served as Secretary-General.
+
+The time has come.
+
+Our case for María Fernanda Espinosa rests on more than gender. It rests on competence, experience, independence and leadership. At a time of fragmentation, the United Nations needs a credible bridge-builder capable of restoring confidence in multilateralism.
+
+Antigua and Barbuda believes that María Fernanda Espinosa can provide that leadership.
+
+Mr President,
+
+Multilateralism is under profound strain. Economic uncertainty continues to grow.
+
+Technology is racing ahead of governance.
+
+Artificial intelligence offers extraordinary possibilities, but it also raises profound concerns about who will control its development and share its benefits. Small states must not be left as spectators in this new era.
+
+Nor can we accept an international system in which rules are binding upon the weak but negotiable for the powerful.
+
+International law must apply equally. Sovereignty cannot depend upon power, nor justice upon the identity of one’s friends.
+
+Antigua and Barbuda commands neither a great army nor a large market. International law, cooperation and multilateralism are fundamental to our security and stability.
+
+For us, the United Nations is not optional. It is essential to our survival.
+
+We support a more efficient, coherent and accountable United Nations. But efficiency cannot become another word for retreat.
+
+The UN80 reform process must be judged by whether this Organization serves people better. For SIDS, that means protecting the development pillar, advancing implementation of the Antigua and Barbuda Agenda for SIDS, and bringing effective support closer to those who need it.
+
+Mr President,
+
+Trade disputes, tariffs and economic fragmentation raise the costs of food, transport and development. Too often, small states pay the price for disputes we did not create.
+
+We call upon the major economies to choose dialogue and cooperation.
+
+Fairness must also govern international finance.
+
+A hurricane does not check GDP before destroying a school. A rising sea does not consult income classifications before entering a home or village.
+
+That is why the Multidimensional Vulnerability Index matters. It provides a fairer measure of the structural vulnerabilities that GDP alone cannot capture.
+
+Excellencies,
+
+Nowhere is the urgency greater than in the climate crisis.
+
+For Small Island Developing States, climate change is not a warning about tomorrow. We are experiencing it today. Warmer oceans fuel more destructive hurricanes. Coastlines are retreating. Salt water contaminates freshwater supplies, forcing countries such as mine to rely on increasingly costly means of securing safe water.
+
+The General Assembly’s High-level Meeting on Sea Level Rise placed before the international community fundamental questions of statehood, sovereignty, maritime rights, displacement, culture and identity.
+
+Climate change must never be allowed to erase a nation’s sovereignty, its statehood or the rights of its people.
+
+Antigua and Barbuda and other vulnerable states sought clarity on the obligations of States in relation to climate change. The International Court of Justice has now spoken. Climate obligations are not acts of generosity. They are responsibilities under international law.
+
+For small states, international law is more than a moral aspiration. It is a strategic shield.
+
+For SIDS, climate justice is survival.
+
+Our survival is inseparable from the ocean.
+
+The entry into force of the BBNJ Agreement is therefore an important achievement for multilateralism. But implementation will be the real test.
+
+SIDS must share fairly the benefits arising from marine genetic resources. Capacitybuilding must be meaningful, and marine technology must be accessible.
+
+Mr President,
+
+Climate justice cannot be separated from historical justice.
+
+The Caribbean did not arrive at this moment on equal terms. Centuries of enslavement and colonial extraction transferred wealth from our societies and denied generations the means to build prosperity.
+
+Political independence did not erase that harm.
+
+Today, countries that contributed least to climate change must borrow at high cost to rebuild from disasters driven overwhelmingly by emissions accumulated elsewhere.
+
+That is where climate debt meets historical debt.
+
+Antigua and Barbuda stands firmly with CARICOM and Africa in demanding reparatory justice for people of African descent.
+
+Reparatory justice requires acknowledging responsibility, repairing continuing harm and correcting structures that still reproduce inequality.
+
+Expressions of regret are not enough. Justice requires honest dialogue followed by concrete measures for repair, restitution and development.
+
+Reparatory justice is not a favor. It is a claim grounded in responsibility, equality and human dignity.
+
+Mr President,
+
+Development finds its true meaning in the lives and dignity of people.
+
+Non-communicable diseases cut short too many lives and diminish the quality of life of too many of our citizens. Preventing these diseases, detecting them early and ensuring effective treatment are national development priorities.
+
+Mental health challenges are increasing. Preventable vision impairment denies thousands of our people opportunities to learn, work and live independently.
+
+Antigua and Barbuda will continue to champion mental health, strengthen our universal health programmes to address non-communicable diseases, and place eye health firmly within our development priorities.
+
+This November, Antigua and Barbuda will host a Global Eye Health Summit to move the international community from advocacy to action against the growing burden of preventable sight loss.
+
+We invite Member States and partners to join us and support an Eye Health Compact that expands access, strengthens prevention and treatment, mobilizes finance, and integrates eye health into development.
+
+Excellencies,
+
+Two years ago, the international community gathered in Antigua and Barbuda and adopted the Antigua and Barbuda Agenda for SIDS—ABAS—our ten-year framework for sustainable development and resilience.
+
+Now comes the harder part: implementation.
+
+SIDS need finance, technology, capacity and institutions that recognise vulnerability.
+
+The SIDS Centre of Excellence will help turn ABAS commitments into practical solutions through better data, innovation, investment and support for debt sustainability.
+
+ABAS must move from commitment to implementation—and SIDS must move from vulnerability towards resilience.
+
+International financial architecture must also change.
+
+The Fourth International Conference on Financing for Development in Sevilla placed debt and development finance closer to the center of the international agenda. That progress must now become action.
+
+Small states cannot develop sustainably when they must repeatedly borrow to rebuild.
+
+We cannot fulfil the promise of ABAS while carrying unsustainable debt. Nor can we build resilience when the cost of capital itself penalizes vulnerability.
+
+For too long, the international financial architecture has asked vulnerable countries how much debt they can carry.
+
+It must also ask how much development they can achieve.
+
+How can countries realize their potential when debt service, repeated shocks and high borrowing costs consume the resources needed for schools, hospitals and resilient infrastructure?
+
+Finance must create fiscal space for development.
+
+Vulnerable states need greater access to long-term, affordable and predictable financing, together with debt solutions that respond to their real circumstances.
+
+We call for the launch of the intergovernmental process on debt agreed in Sevilla.
+
+Mr President,
+
+There can be no sustainable development without peace.
+
+But peace begins long before guns fall silent.
+
+It begins when young people see a future; when societies provide food, education, employment and opportunity; and when injustice is addressed before it becomes instability and conflict.
+
+In a fractured world, the United Nations must renew both its operational relevance and its moral clarity.
+
+It must help forge a new compact between developed and developing countries, connect finance to resilience, and support local leadership with global solidarity.
+
+Development is an instrument of peace.
+
+The United Nations must invest as seriously in preventing wars as it does in responding after they begin. Diplomacy, mediation and development must be central to that work.
+
+Throughout every crisis, one principle must remain constant: international law must apply equally to all.
+
+The credibility of the international system depends upon that consistency.
+
+Mr President,
+
+United Nations reform must extend to the Security Council—its composition, its decisions and its capacity to act.
+
+Antigua and Barbuda welcomes the initiative led by France and Mexico calling on permanent members to refrain voluntarily from using the veto in situations involving mass atrocities. We will join the growing number of Member States supporting this call.
+
+The veto must not paralyse the Council or prevent it from fulfilling its responsibility to maintain international peace and security.
+
+Reform must also address representation. Africa’s continued exclusion from permanent membership is an injustice that must be corrected. Africa must have permanent representation of the Council.
+
+Small Island Developing States must also have an assured voice at this table. Antigua and Barbuda calls for a dedicated SIDS seat on a reformed Security Council.
+
+Mr President,
+
+The Council’s credibility depends equally on its response to those who urgently need its support.
+
+The crisis in Haiti is a human tragedy and a challenge to Caribbean stability and democratic progress.
+
+We call on the Security Council to renew the mandate of the Gang Suppression Force and international partners to provide the personnel, equipment and sustained financing needed to make that mandate effective.
+
+Excellencies,
+
+The hardship facing the Cuban people also demands our attention.
+
+Antigua and Barbuda calls on the United States and Cuba to return to the table of diplomacy and work as good neighbors towards resolving their longstanding differences.
+
+The Cuban people must not bear collective punishment for political disagreements. Their well-being must remain central to efforts to find a peaceful and lasting solution.
+
+Across our region, our purpose is clear: to protect human dignity, strengthen stability and ensure that dialogue and cooperation prevail.
+
+Excellencies:
+
+The world is changing—its climate, its technology and its balance of economic power.
+
+This United Nations must change with it.
+
+But its founding principles must endure: the equality of nations, the dignity of peoples, the sovereignty of States and respect for international law.
+
+Mr. President:
+
+Let United Nations reform strengthen multilateralism.
+
+Let international law protect every nation.
+
+Let finance serve development rather than deepen debt.
+
+Let us implement ABAS, protect our ocean and invest in human dignity.
+
+And as this Organization prepares for new leadership, let us choose leadership equal to this moment.
+
+Excellencies,
+
+History will not judge us by the number of resolutions we adopt.
+
+It will judge us by whether we acted when the seas rose, inequality deepened, international law was violated and multilateralism faltered.
+
+Let us enter this new era with courage in our leadership, fairness in our decisions and hope in our common future.
+
+And it is our hope that this United Nations can still fulfil the promise of its Charter.
+
+I thank you.

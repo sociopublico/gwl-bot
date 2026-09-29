@@ -1,0 +1,207 @@
+---
+session: 81
+slug: new-zealand
+id_speech: M_188
+country: New Zealand
+speaker: Victoria Louise Hallum
+title: Permanent Representative to the United Nations
+speaker_title: Her Excellency
+date: 2026-09-28
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/nz_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.715
+---
+
+New Zealand Permanent Mission to the United Nations Te Aka Aorere United Nations General Debate of the Eighty-First Session New Zealand Statement delivered by Permanent Representative, H.E. Ms Victoria Hallum Monday 28 September 2026 President,
+
+Over the past week, we have listened to leaders, ministers and representatives from every region of the world.
+
+They have spoken of different priorities and concerns. Yet they have also revealed how much we have in common. We have been reminded that the biggest challenges we face do not respect national borders. And no country, however large or powerful, can address them alone.
+
+It is clear we live in a more contested, fragmented and volatile world.
+
+The number of active conflicts in the world has almost doubled in the past 20 years. The number of conflict -related deaths has reached levels not seen in decades.
+
+Fundamental norms governing state behaviour are being violated with increasing impunity, contravening the UN Charter and other universally applicable rules of international law.
+
+Core human rights that protect the well-being and dignity of our citizens are increasingly being ignored.
+
+Humanitarian needs are growing faster than our collective ability to meet them.
+
+After decades of progress, hard -won development gains have slowed, and it is clear we will fail to meet most of the Sustainable Development Goals by their 2030 target.
+
+Biodiversity loss and pollution are impacting key natural resources in our oceans.
+
+Natural disasters and the growing impacts of our changing climate are becoming more severe and more visible. In our region, these pressures are already affecting lives, livelihoods and long-term development prospects.
+
+All of this is of grave concern to New Zealand, whose sovereignty, security and prosperity depends on a functioning, inclusive multilateral system, grounded in agreed rules and norms with the UN Charter at its centre.
+
+We regard the UN Charter – with its core principles of sovereign equality of states, territorial integrity, the prohibition of the use of force, and respect for human rights - as irreplaceable.
+
+We continue therefore to invest in the United Nations, and agreed international rules, as an exercise of our sovereignty, because we believe it is essential to our interests, and indeed the interests of all. In the face of rising volatility, we need the UN’s stabilising influence, and global solutions, more than ever.
+
+President,
+
+Over recent years, New Zealand has spoken of the importance of leadership. New Zealand thanks Secretary -General Antonio Guterres for his service over the past ten years.
+
+We thank you for your visits to the Blue Pacific, and for your attention to the unique situation of Pacific Islands countries and other Small Island Developing States.
+
+We thank you also for starting the process of essential reform to put this vital organisation on a stronger and more sustainable footing to deal with the challenges of the next 80 years.
+
+Your assignment has not been easy.
+
+As we prepare to appoint the next Secretary-General to lead the UN into the next phase, we should be clear about what this moment requires.
+
+First and foremost, we call on the new Secretary -General to be a courageous guardian of the UN Charter and to assert the UN’s vital role on peace and security.
+
+The United Nations was created to save succeeding generations from the scourge of war.
+
+It is ultimately the responsibility of Member States to prevent and resolve conflicts. We cannot outsource that responsibility.
+
+But we need a Secretary-General who is active in conflict prevention, mediation and peace-making.
+
+The Secretary-General should never have to seek permission or forgiveness for acting to prevent or resolve conflict.
+
+As a custodian of the UN Charter, you have the right and the obligation to speak up when its core norms are breached.
+
+We expect you to do so in an objective, impartial, and consistent manner. We will support you when you do.
+
+So we ask you to be active in seeking an end to the horrific conflict in Sudan.
+
+You must be bold in pressing for a sustainable and just end to Russia’s illegal invasion of Ukraine. One that is consistent with Ukraine’s sovereignty and territorial integrity and the core principles of the Charter.
+
+You must be determined in your efforts to help alleviate the dire humanitarian situation in Gaza. We ask that you use your influence to progress a fragile ceasefire into a sustainable, durable peace.
+
+And you must be resolute in preserving conditions for a two-state solution. You must take the initiative, despite the challenges and entrenched views, to achieve a just and lasting resolution, where Israel and Palestine can live side -by-side within secure and clearly defined borders.
+
+We urge you to use your good offices to secure a lasting end to hostilities in the Persian Gulf and restore freedom of navigation through the Strait of Hormuz, which is a right guaranteed under international law.
+
+Of course, you cannot do this alone. For our part we, as Member States, must provide you with the tools, the resources, and above all the political support to ensure you can play this role effectively.
+
+Parties to conflicts must engage with you constructively and in good faith; while global and regional partners with influence must provide the necessary incentives for the parties to do so.
+
+The UN Security Council needs to fulfil its responsibilities.
+
+Permanent members, in particular, must act in a manner consistent with their special responsibilities under the Charter.
+
+Too frequently has the veto, or the threat of the veto, been abused to block the Council from fulfilling its responsibilities, to the frustration, and sometimes despair, of the global community.
+
+Inevitably, the costs of this failure are borne by those caught in conflict.
+
+This Assembly also has a legitimate and necessary role to play in maintaining peace and security, and we have been pleased to see it step up on occasions when the Security Council has been stymied from acting.
+
+For our part, New Zealand will continue to press for a more effective, credible, transparent and representative Security Council. As a demonstration of our continued commitment to collective security and the UN Charter, New Zealand is seeking a seat on the UN Security Council for 2039-40.
+
+We ask the next Secretary-General to work with us to preserve the integrity of the global disarmament framework, particularly on weapons of mass destruction. The grave dangers of the deterioration of the global nuclear non -proliferation regime should alarm us all.
+
+New Zealand was deeply disappointed at the failure to reach consensus at this year’s Nuclear Non-Proliferation Treaty Review Conference.
+
+After three consecutive Review Conference failures, we must all do what we can to preserve the health of the NPT and, indeed, strengthen it.
+
+This means tackling persistent violations and cases of non compliance. Iran is not in compliance with its nuclear safeguards obligations. The DPRK’s nuclear weapons and missile programmes continue to threaten its region and beyond.
+
+Halting the NPT’s deterioration also requires concrete action from the Nuclear Weapons States to, at long last, chart a path towards total, verifiable, and irreversible nuclear disarmament.
+
+We also call on you to safeguard the UN Convention on the Law of the Sea, the “constitution for the oceans”, which provides the framework within which all activities o n the oceans and seas must be carried out. Compliance with these universally applicable rules is essential, not only for maintaining peace and security, but also for protecting prosperity and food security, given the oceans' vital role in supporting trade.
+
+Second, we call on the next Secretary-General to provide strong leadership across the UN’s development and human rights pillars.
+
+The authors of the UN Charter understood that peace and security cannot be sustained without creating the conditions for Member States to provide their citizens with prosperity and the full enjoyment of their human rights.
+
+With significant changes in the global development cooperation landscape, we ask you to ensure the UN is clear about where its comparative advantage lies, alongside the role of governments, regional organisations and International Financial Institutions.
+
+Citizens and donors expect the UN to operate as one, with agencies working together, through a strengthened Resident Coordinator system. We will work with you to ensure the UN is more coordinated and focused on strengthening local capacity and partnerships to address a country’s development needs.
+
+The UN development system must remain relevant, responsive and accessible to all Member States based on need, rather than size, income level or location. We welcome progress in advancing the UN’s Multidimensional Vulnerability Index and want to see further work to ensure its practical application across the multilateral development system.
+
+In the face of contracting development finance flows and increasing debt levels, we need to ensure our ambitions are matched by more sustainable and predictable financing. This will inevitably involve moving beyond an exclusive reliance on traditional sources and approaches.
+
+President,
+
+As Pacific Islands Forum leaders recently reaffirmed in Palau, climate change remains the single greatest threat to the livelihoods, security and wellbeing of Pacific peoples.
+
+While New Zealand will play its part, our efforts will mean little in the absence of determined action by the world’s major emitters.
+
+Rising sea levels threaten the continued viability of many communities and pose a threat to low -lying island states, including some of our Pacific neighbours.
+
+The Political Declaration on Sea Level Rise, endorsed this week, is a demonstration of the UN’s ability to address contemporary challenges affecting its members. We particularly welcome the Declaration’s affirmation of the preservation of maritime zones and the presumption of continued statehood, notwithstanding sea-level rise.
+
+We also expect the new Secretary -General to defend international humanitarian law and international human rights law and its institutions.
+
+The promotion and protection of universal and indivisible human rights is fundamental to the world we live in today and to a collective vision of our future. Societies in which citizens can enjoy their universal human rights have a better chance of avoiding the descent into conflict that tragically impacts so many across the world today.
+
+Over the past decade these norms have often been under threat, sometimes through neglect, sometimes through deliberate and sustained attacks.
+
+The rise in attacks on protected individuals, including civilians and humanitarian and medical personnel, needs particular attention.
+
+It is ten years since New Zealand co-led the adoption of Security Council Resolution 2286 on healthcare in armed conflict. Attacks on medical facilities and personnel in violation of international humanitarian law have grown exponentially worse since then.
+
+Few have been held accountable for these flagrant violations of international humanitarian law.
+
+We ask you to help us reverse these trends, by drawing on the UN’s unique legitimacy to call out egregious and systematic violations of these norms, wherever they may occur and whoever may be perpetrating them, and by providing practical guidance and assistance to help Member States meet their obligations.
+
+Third, we ask the new Secretary -General to maintain momentum and ambition on UN reform.
+
+Confidence in this institution depends on its ability to deliver impact. The next Secretary -General must work with Member States to chart an ambitious vision for the next phase of reform, while ensuring implementation of the decisions already taken.
+
+At a time of multiple and overlapping crises and growing constraints, we need a United Nations that is focused on its core tasks, disciplined and accountable. One where every dollar delivers maximum impact.
+
+One that measures success not by the number of mandates it creates or meetings it holds, but by the difference it makes in people's lives.
+
+Meeting this challenge means exercising your powers to achieve the most impact from the resources available.
+
+It means demanding a culture of continuous improvement, one that focuses on effective implementation and results.
+
+It means setting the highest standards for performance within the Secretariat and holding staff accountable for delivering.
+
+In this regard, we ask you to demonstrate independence in your senior appointments. New Zealand has never accepted the right of any country to assert “ownership” of UN positions by virtue of its power and status.
+
+We encourage all Secretary -General candidates to commit publicly to making senior appointments on the basis of merit.
+
+Reform is a joint responsibility. We as Member States must avoid the trap of regarding reform as something that others will deliver for us and instead live up to our own responsibilities for building the organisation we need.
+
+We cannot expect the UN to continue to lurch on, in a state of constant financial crisis. Member States must meet their financial obligations in full, on time, and without conditions, in accordance with their obligations under the Charter.
+
+We need to focus our attention on the issues that really matter, and that can genuinely deliver benefits for our citizens.
+
+Resolution 80/251 equips Member States to tackle the long standing challenge of mandate accumulation and overload. It commits us all to take a more disciplined approach to setting the Organisation's priorities. It provides the framework we need to create a more focused, coherent and impactful UN.
+
+Yet its success will depend on whether we are prepared to act differently. If we aren’t prepared to make the necessary choices, we will be left with an ever -growing set of responsibilities supported by an ever -shrinking pool of resources. That will do nothing to strengthen confidence in the UN's relevance or effectiveness.
+
+Reform begins with us. It requires Member States to make the decisions that only Member States can make.
+
+That is the only way we can truly achieve an organisation that is fit to meet the challenges that lie before us, and that our citizens need and expect.
+
+Finally, we urge the next Secretary-General to ensure that the UN works for all states.
+
+The sovereign equality of states is one of the most central principles of the UN Charter. It must also be central to your approach.
+
+The fundamental premise of the United Nations is that every state, regardless of its size or circumstances, has a stake in shaping our shared future.
+
+We also call on the President of the General Assembly to remain a steadfast champion of the voices, prerogatives, and interests of the entire UN membership across all pillars of its work.
+
+The next Secretary -General's leadership in these areas will be essential. But we must also find it in ourselves to demonstrate leadership.
+
+Ultimately, the health, relevance, and effectiveness of the United Nations depend s primarily on its members, not its Secretary General. As Member States, we must acknowledge our role in the financial and legitimacy crisis facing the UN. We must ask whether we have the collective will to change our behaviour?
+
+Do we have the discipline to focus our attention and resources on the issues that really matter to our citizens, and deliver impact in their lives? Do we have the honesty to admit what is working and what is not?
+
+Do we have the will to invest in the multilateral system, both politically and financially, to enable it to deliver results where we can truly make a difference?
+
+Coupled with the courage to make bold and consequent decisions on UN reform that can deliver a more effective organisation?
+
+Collective action has changed the course of global challenges before.
+
+These achievements were not inevitable. They were the result of political leadership, persistence, and a willingness to work together despite differences to build understanding, and compromise.
+
+The most fundamental step we can all take to revive this organisation is to unequivocally recommit ourselves – both in words and in deeds - to the principles that the Charter requires us to follow in our relations with other states - respect for sovereignty, international law, the pursuit of dialogue and cooperation, and the peaceful settlement of disputes.
+
+At a time when conflict is rising, trust is eroding, and geopolitical competition is intensifying, we should not conclude that multilateralism has failed.
+
+We should conclude that it is needed more than ever.
+
+Thank you.

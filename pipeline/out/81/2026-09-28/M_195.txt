@@ -1,0 +1,523 @@
+---
+session: 81
+slug: vanuatu
+id_speech: M_195
+country: Vanuatu
+speaker: Odo Tevi
+title: Permanent Representative to the United Nations
+speaker_title: His Excellency
+date: 2026-09-28
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/vu_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.718
+---
+
+Mr. President of the General Assembly,
+
+Mr. Secretary-General,
+
+Excellencies,
+
+Distinguished Heads of State and Government,
+
+Ladies and Gentlemen,
+
+I. Introduction Mr. President I have the honour to address this assembly on behalf of the Government and People of the Republic of Vanuatu.
+
+I bring with me the voice of a nation of more than 80 islands of many indigenous communities and languages, and a nation whose identity has been shaped by the ocean, by kastom, by faith, by resilience and, above all, by our commitment to peace.
+
+Mr. Secretary-General,
+
+This session also carries a particular significance for us because it is the final high -level General Assembly of your tenure as Secretary General of the United Nations.
+
+On behalf of the Government and people of Vanuatu, I wish to convey our profound appreciation for your service to the United Nations and your engagement with the people of the Pacific. Your visits to our region reflect an understanding that the concerns of small island development states deserve to be heard at the higher level.
+
+Over the course of your tenure, you have led the United Nations through some of the most tumultuous periods in recent international history. You have stood consistently for multilateralism at a time when multilateralism itself was under enormous pressure. Vanuatu hopes that the next Secretary General will carry forward that same commitment to all member states, large or small.
+
+Mr. President Vanuatu comes to this 81st session of the General Assembly with a simple message:
+
+The world needs the United Nations more than ever, and the United National must deliver for the people who depend on it.
+
+The theme of this session — “Restoring Trust, Managing Transformation: A United Nations That Delivers for All” — therefore comes at an important moment. The 81st session opened against a backdrop of profound geopolitical uncertainty and rapid transformation.
+
+For Vanuatu, developments in international system are never distant or abstract. Their effects reach our villages, our markets, our schools, our hospitals, our oceans and our homes.
+
+ENVIRONMENT Mr. President,
+
+The international political and security environment is becoming increasingly difficult.
+
+We are witnessing geopolitical competition, strategic rivalry, armed conflicts, growing military expenditures, economic fragmentation, technological disruption and a weakening of confidence in multilateral institutions.
+
+The rules that were designed to provide predictability and stability are increasingly being tested.
+
+The prohibition against the use of force is being challenged.
+
+International humanitarian law is being tested.
+
+The peaceful settlement of disputes is being undermined.
+
+And the authority of international institutions is being questioned.
+
+For small States, this is deeply concerning.
+
+Small States do not possess the military, economic or technological capabilities of major powers. We do not have the ability to impose our will through coercion.
+
+Our security depends fundamentally on something else:
+
+International law, multilateral institutions, diplomacy and the equal sovereignty of States.
+
+This is why Vanuatu has a profound interest in the success of the United Nations.
+
+The Charter begins with a commitment to save succeeding generations from the scourge of war and reaffirms the equal rights of nations large and small. It establishes sovereign equality, peaceful settlement of disputes and the prohibition of the threat or use of force as fundamental principles of international relations.
+
+These are not merely legal concepts for Vanuatu.
+
+They are our security architecture.
+
+When international law is respected, a small State has protection.
+
+When the Charter is respected, a small State has a voice.
+
+When disputes are resolved peacefully, a small State does not have to choose between submission and confrontation.
+
+And when sovereignty is respected, independence has meaning.
+
+We therefore cannot accept a world in which international law applies differently according to the size, military strength or economic power of a State.
+
+The Charter must apply equally to all.
+
+Mr. President The security environment is also changing in ways that are particularly important for the Pacific.
+
+The Pacific Islands are increasingly viewed through the lens of strategic competition.
+
+There is growing interest in our maritime spaces, our sea lanes, our resources and our geopolitical location.
+
+We welcome genuine partnerships.
+
+But we also say clearly:
+
+The Pacific must not become an arena for great -power competition at the expense of Pacific priorities.
+
+The security of the Pacific is not simply about military deployments or strategic competition.
+
+For us, security also means: • food security; • energy security; • water security; • health security; • economic security; • cybersecurity; • environmental security; • and the security of our people from the impacts of climate change.
+
+For Vanuatu, a cyclone that destroys a school is a security issue.
+
+A rise in food and energy prices as recently experienced by Middle East conflict is a security issue.
+
+A disrupted shipping route is a security issue.
+
+A cyberattack against critical infrastructure is a security issue.
+
+Sea-Level rise also raises fundamental questions on sovereignty, identity and security. Vanuatu joins its Pacific colleagues in affirming the continuity of statehood and the preservation of maritime zone and sovereign right in the face of sear level rise. The rights and dignity of affected persons must remain at the center of international response.
+
+These are the realities faced by small island development states. We therefore call for a broader understanding of international peace and security — one that reflects the realities of small island developing States, and we hope that these security issues are well understood here at the United Nations.
+
+Mr. President,
+
+What happens here in New York does not remain here in New York.
+
+The decisions taken by major powers affect the smallest economies.
+
+A conflict thousands of kilometres away can increase the price of fuel in Vanuatu.
+
+A disruption in international shipping can increase the price of food in our islands.
+
+A change in global interest rates can increase the cost of borrowing.
+
+A crisis in international development finance can delay a school, a hospital, a road or a climate-resilience project.
+
+And global economic uncertainty can affect tourism, investment, employment and government revenue.
+
+For Vanuatu, therefore, foreign policy and domestic development are inseparable.
+
+Our international diplomacy is ultimately about our people.
+
+It is about whether a child in Tanna can attend school.
+
+Whether a farmer in Malekula can bring produce to market.
+
+Whether a family in Torba has access to reliable electricity.
+
+Whether a community in Penama can recover quickly after a natural disaster.
+
+And whether our young people can find meaningful opportunities at home rather than being forced to leave in search of them.
+
+Mr. President,
+
+This year, as Vanuatu celebrated its 46th Independence Anniversary, we reflected on how far our country has come since 1980.
+
+Our independence was not given to us in a golden plate.
+
+It was achieved through the determination, courage and sacrifice of our people, supported by our brothers and sisters in the Pacific.
+
+At our Independence celebrations, we were reminded once again of the importance of solidarity — including the historic support of Papua New Guinea during our struggle for independence.
+
+Our 46th Independence anniversary was therefore not simply a celebration of the past.
+
+It was a call to build the future.
+
+The message of our national celebration was one of unity, national pride, resilience and determination to build a stronger, more prosperous Vanuatu for future generations.
+
+And this is important in the context of our discussion today.
+
+Vanuatu has experienced cyclones, earthquakes, volcanic eruptions, economic shocks and other disasters.
+
+Yet we continue to stand.
+
+We rebuild.
+
+We adapt.
+
+We move forward.
+
+Resilience is not simply something Vanuatu speaks about. It is something our people practise every day.
+
+But resilience also requires international solidarity.
+
+A small island country cannot finance all of its resilience needs alone.
+
+We cannot rebuild every road, bridge, school and hospital after every disaster from domestic resources alone.
+
+We cannot absorb indefinitely the economic consequences of external shocks.
+
+And we cannot protect our people from a changing climate without meaningful international cooperation.
+
+Therefore, when we speak about climate finance, development finance, disaster resilience and sustainable development, we are not asking merely for charity.
+
+We are asking for partnership, fairness and the fulfilment of international commitments.
+
+That partnership must include predictable and accessible finance for adaption and for addressing loss and damage. Access to such finance must be made easier for the small island state and must respond to the needs of our communities.
+
+We invite partners to support the Pacific Resilience Facility in bringing the necessary resources to support resilience efforts in the Pacific.
+
+At the same time, keeping 1.5 Degree Celsius is vital for Pacific. In light of the International Court’s Advisory Opinion, we urge all members to give effect on their legal obligations through stronger climate actions and international cooperation.
+
+Mr. President,
+
+We are also deeply concerned by the developing strong El Niño event in the Pacific, which threatens to bring more extreme heat, disrupted rainfall, drought and flooding across our region.
+
+For Pacific Island countries, these are not simply meteorological events; they affect food and water security, agriculture, fisheries, health, livelihoods and the resilience of already vulnerable communities.
+
+The international community must act before disaster strikes. We call for stronger regional early -warning systems, pre -positioned humanitarian assistance, rapid access to climate and disaster financing, and greater investment in resilient infrastructure and food and water security.
+
+The Pacific does not ask the world to prevent El Niño; we ask the world to help us prepare for it, withstand its impacts and recover with dignity.
+
+Mr. President,
+
+The Ocean is central to Vanuatu’s identity, culture, food security and prosperity. Protection of it is essential for the future of our people.
+
+Climate change, damage to the ocean and the loss of biodiversity are linked. We must address them together.
+
+Vanuatu welcomes the entry into force of the BBNJ Agreement. It is an important achievement for ocean governance and multilateral cooperation.
+
+For a nation whose identity, culture and prosperity are inseparable from the ocean, the BBNJ Agreement represents an important step towards protecting marine biodiversity beyond national jurisdiction and ensuring that the benefits of our common ocean herit age are shared fairly and sustainably.
+
+Vanuatu stands ready to contribute to its effective implementation and to strengthening international cooperation for the protection of our oceans for generations to come. Since the Agreement entered into force on 17 January 2026, following its ratificatio n by more than sixty States, including Vanuatu and our Pacific neighbours, the international community has moved into a critical implementation phase.
+
+Vanuatu looks forward to that first Conference of the Parties advancing the operationalization of marine protected areas, environmental impact assessments and the fair and equitable sharing of benefits from marine genetic resources, and we call on all States yet to ratify the Agreement to do so without delay.
+
+The Implementation of the BBNJ Agreement must respect sovereign rights and take full account of the special circumstances and capacity constraints of small island developing states. It must enable countries to participate effectively and equally benefit from it.
+
+The hosting of the inaugural Melanesian Ocean Summit in Port Moresby, Papua New Guinea, this year arrives at a critical juncture where, on one hand, we are faced with daily mounting challenges of the detrimental effects of climate change, the alarming degr adation of our marine biodiversity, pervasive marine pollution, and the overexploitation of our vital marine resources. Yet, some of these global issues have already escalated to a level where ensuring sustainability for future generations has become a cri tical concern, highlighting the urgent need for improved management of our ocean resources.
+
+In today's world, science and technology and economic opportunities MUST also work closely with our traditional custodians in our vast coastal area to maintain respect for nature. Our culture and tradition are deeply rooted in the ocean and hence our collective wisdom and collaboration to address the core issues affecting our people's livelihoods today and reshape the future of our ocean and the communities is extremely paramount.
+
+Mr. President,
+
+The world is entering a period of extraordinary transformation.
+
+Artificial intelligence is changing economies and societies.
+
+Digital technologies are changing the way governments operate.
+
+Energy systems are changing.
+
+Global trade is changing.
+
+Demographic patterns are changing.
+
+And climate change is transforming the physical environment in which many of our societies exist.
+
+The question before us is not whether transformation will occur.
+
+It will.
+
+The question is:
+
+Who will shape that transformation, and who will benefit from it?
+
+For Vanuatu, the answer must be clear.
+
+Transformation must not create a new hierarchy between those who possess technology, capital and influence and those who merely experience the consequences.
+
+We need an international system in which developing countries and small States are participants in transformation — not simply consumers of decisions made elsewhere.
+
+Artificial intelligence provides one example.
+
+AI offers enormous opportunities for education, healthcare, public administration, agriculture, climate forecasting and economic development.
+
+But without appropriate governance, it could also deepen existing inequalities.
+
+Small States need access to technology.
+
+We need digital infrastructure.
+
+We need skills and capacity.
+
+We need access to data and computing.
+
+And we need a meaningful voice in establishing the international norms that govern emerging technologies.
+
+The digital future must not become another form of dependency.
+
+Mr. President,
+
+There is a tendency to describe small States primarily in terms of our vulnerabilities.
+
+We are small.
+
+We are geographically dispersed.
+
+We are economically vulnerable.
+
+We have limited institutional capacity.
+
+We depend on international markets.
+
+We depend on development partners.
+
+We depend on international shipping.
+
+We depend on imported fuel, food and manufactured goods.
+
+And, yes, in many respects we are dependent on the international system.
+
+But dependence must not be confused with powerlessness.
+
+Small States can lead.
+
+Indeed, history has shown that some of the most important developments in international law and global governance have emerged because small and vulnerable States refused to remain silent.
+
+Vanuatu is proud of its contribution to the global climate debate.
+
+We are proud of our advocacy for climate justice.
+
+We are proud of our role in advancing the recognition of the legal dimensions of climate change.
+
+And we remain committed to ensuring that the voices of those most vulnerable to climate change are heard in international decision making.
+
+In this vein, the Vanuatu Government whole-heartedly thank all the UN members who have supported us in this journey – especially here at the UN General Assembly and the International Court of Justice.
+
+Our experience demonstrates an important principle:
+
+Influence is not determined solely by population, territory or military power.
+
+Influence can come from ideas.
+
+It can come from moral authority.
+
+It can come from coalition-building.
+
+It can come from persistence.
+
+It can come from international law.
+
+And it can come from the ability to bring different regions and groups together around a common cause.
+
+This is the strength of the General Assembly.
+
+Every Member State has a voice.
+
+Every Member State has a vote.
+
+And every Member State — large or small — has a responsibility to contribute.
+
+The General Assembly is the most representative body of the United Nations, bringing together all 193 Member States on the basis of sovereign equality.
+
+For countries such as Vanuatu, this principle is fundamental.
+
+Mr. President,
+
+The imposition of coercive economic measures, including unilateral sanctions, against developing countries is unfair and unjust. Such measures are in violation with the principles enshrined in the Charter of the United Nations and adversely affects sustainable development outcomes of countries such as Cuba. In this respect, we consistently call for the uplift of the economic embargo on the Republic of Cuba.
+
+Mr. President,
+
+Peace and security cannot be separated from human rights.
+
+Vanuatu remains deeply concerned about reports of serious human rights violations affecting Indigenous Papuans in West Papua. United Nations Special Procedures have also raised concerns regarding Indigenous rights, displacement, cultural rights, environmen tal impacts and the treatment of human rights defenders in Papua.
+
+The call from the Pacific Forum Leaders for the UN Human Rights Commissioner visit to West Papua remains unheeded and needs to be action.
+
+Mr. President,
+
+Vanuatu reaffirms its unwavering support for the decolonisation of Kanaky-New Caledonia, which remains a Non -Self-Governing Territory under the purview of the United Nations. We reiterate the inalienable right of the Indigenous Kanak people to self determination and call for a peaceful, inclusive, transparent and credible process, consistent with the Charter of the United Nations and relevant General Assembly resolutions.
+
+We remain concerned by persistent socio -economic disparities affecting the Kanak people, including inequalities in employment, education, income and access to economic opportunities. These longstanding structural imbalances continue to constrain the full and equitable enjoyment of economic, social and cultural rights by Indigenous Kanaks, notwithstanding the Territory's considerable natural resources and economic potential. Reports from the FLNKS, supported by independent assessments, point to the enduring effects of economic marginalisation and uneven development, which may be understood as forms of structural violence insofar as they limit meaningful participation in, and equitable benefit from, the Territory's development. Addressing these disparities is essential to fostering social cohesion and advancing a just, inclu sive and sustainable decolonisation process.
+
+In this regard, Vanuatu calls for the full implementation of relevant United Nations resolutions on the Question of New Caledonia and encourages continued engagement and constructive dialogue among all stakeholders, including the administering Power and representatives of the Kanak people. We further reaffirm the important role of the Special Committee on Decolonization (C -24) and the Fourth Committee in advancing the realisation of self determination and ensuring that the rights, aspirations and interests of the Kanak people remain at the centre of the decolonisation process.
+
+Mr. President At the end of August, the Vanuatu Government initiated proceedings against France before the International Court of Justice concerning sovereignty over Umaenupne and Umaeneg/Leka islands – or Matthew and Hunter as they are called in English - and the maritime boundaries between Vanuatu and New Caledonia.
+
+These islands are an integral part of Vanuatu’s territory, grounded in customary governance, longstanding historical connection, indigenous ownership and seen as a part of our duty as ancestral custodians to protect and preserve.
+
+We recognize France as a steadfast champion of the international rules-based order and, under the leadership of President Macron, a strong supporter of international judicial institutions. France has stood alongside Vanuatu in advancing global climate acti on, including through its support for our initiative before the International Court of Justice.
+
+We greatly value this partnership and France’s leadership on issues of international importance. It is in that same spirit of mutual respect and commitment to international law that we respectfully invite France to consent to the jurisdiction of the Court Mr. President,
+
+Trust is important for the United Nations credibility.
+
+It cannot be restored through declarations alone.
+
+Trust must be earned through action.
+
+People will trust the United Nations when they see it preventing conflict.
+
+They will trust it when international law is respected.
+
+They will trust it when humanitarian assistance reaches those who need it.
+
+They will trust it when development commitments become real projects.
+
+They will trust it when climate finance reaches vulnerable communities.
+
+They will trust it when small States are heard.
+
+And they will trust it when the international system treats all nations with equal dignity.
+
+For Vanuatu, restoring trust also means restoring confidence in multilateralism itself.
+
+We must resist the temptation to conclude that because the international system is imperfect, it is therefore irrelevant.
+
+The UN80 reforms currently implemented are paramount to rebuild trust again at the UN and therefore needs to be managed diligently.
+
+Vanuatu supports efforts to strengthen the United Nations.
+
+But reform must preserve what is most important: the principle of sovereign equality.
+
+The United Nations cannot become an institution where the voices of the most powerful States dominate while smaller States are expected merely to follow.
+
+Reform must strengthen the General Assembly.
+
+It must make international institutions more accessible to developing countries.
+
+It must address the financing and capacity constraints facing small delegations.
+
+It must strengthen preventive diplomacy.
+
+It must improve the implementation of international decisions.
+
+It must ensure that the development pil lar remains resourced and that implementation on the ground is effective and efficient.
+
+And it must ensure that international law remains central to the international system.
+
+Vanuatu calls for a UN Security Council that is more representative, transparent and accountable, with membership and working methods that reflect today’s realities and give all regions a meaningful voice.
+
+But reform cannot be limited to institutional structures.
+
+The deeper reform we require is political: a renewed commitment by Member States to the principles we have already agreed to.
+
+The Charter does not need to be reinvented.
+
+It needs to be respected.
+
+Mr. President, Excellencies,
+
+For Vanuatu, the United Nations Charter remains our compass.
+
+It tells us that nations are sovereign equals.
+
+It tells us that disputes must be settled peacefully.
+
+It tells us that force must not be used against the territorial integrity or political independence of States.
+
+It tells us that nations must cooperate.
+
+And it reminds us that the ultimate purpose of the international system is not power for its own sake.
+
+It is peace, justice, human dignity, development and cooperation And it is a better future for succeeding generations.
+
+These principles are particularly important to Vanuatu because we know what independence means.
+
+Our independence is not merely the absence of colonial rule.
+
+Independence means the right of our people to determine our future.
+
+It means sovereignty.
+
+It means dignity.
+
+It means equality.
+
+And it means having an equal place in the family of nations.
+
+That is why Vanuatu will continue to defend the multilateral system.
+
+That is why we will continue to defend international law.
+
+And that is why we will continue to speak for the principle that every nation — regardless of size — matters.
+
+Mr. President,
+
+We meet at a difficult moment in international affairs.
+
+There are wars that remain unresolved.
+
+There are communities facing humanitarian catastrophe.
+
+There is growing geopolitical rivalry.
+
+There is economic uncertainty.
+
+There is climate disruption.
+
+There is technological transformation.
+
+And there is declining confidence in international institutions.
+
+Yet I remain convinced that this is precisely the moment when we must choose cooperation over confrontation.
+
+We must choose dialogue over division.
+
+We must choose law over force.
+
+We must choose solidarity over indifference.
+
+And we must choose multilateralism over fragmentation.
+
+Vanuatu comes from a part of the world where our ancestors navigated vast oceans using the stars, the winds, the currents and knowledge passed from generation to generation.
+
+Today, the international community is navigating another uncertain ocean.
+
+We need a compass.
+
+The United Nations Charter is that compass.
+
+It provides the principles by which we can navigate a world of competing interests while preserving our common humanity.
+
+The theme of this 81st session — “Restoring Trust, Managing Transformation: A United Nations That Delivers for All” — reminds us of what is required.
+
+But ultimately, restoring trust will depend not on the words we adopt here, but on the actions, we take when we leave this hall.
+
+Let us therefore build a United Nations that is strong enough to prevent war, fair enough to protect the vulnerable, courageous enough to defend international law, and inclusive enough to give every nation a meaningful voice.
+
+Let us build a United Nations where the concerns of a small island nation in the Pacific and all over the world can stand alongside those of the largest powers of the world.
+
+Let us not allow division to rule our era. Instead, we chose cooperation.
+
+We chose peace.
+
+We chose justice.
+
+We chose solidarity.
+
+And we chose to renew our faith in the idea that together, nations can build a better world.
+
+Vanuatu stands ready to do its part.
+
+Thank you.

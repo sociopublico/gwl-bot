@@ -1,0 +1,205 @@
+---
+session: 81
+slug: president-general-assembly-closing
+id_speech: M_197
+country: President of the General Assembly (closing)
+speaker: Dr. Khalilur Rahman
+title: President of the General Assembly
+speaker_title: His Excellency
+date: 2026-09-28
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/pgaclosing_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.389
+---
+
+Excellencies,
+
+Ladies and gentlemen,
+
+Six days ago, I asked whether we were prepared to confront some hard truths about this Organization.
+
+I called for honesty, realism and pragmatism to guide our discussions.
+
+Over the course of this General Debate, you have answered - mostly in agreement, and sometimes with different perspectives, but always with the conviction that the challenges before us demand action and that the United Nations remains indispensable.
+
+194 delegations spoke at this rostrum, including 113 Heads of State and Government, 1 Crown Prince, 11 Vice-Presidents, 7 Deputy-Prime Ministers, and 48 Ministers. We have also heard from our Secretary-General,
+
+Mr. Antonio Guterres.
+
+Across your statements, one word came before all others: peace.
+
+But peace was spoken of less as a distant aspiration than as an urgent defence—of the UN Charter, international law, and the protection of civilians.
+
+We heard anguish over the continued human suffering in Gaza. Over the plight of the Rohingyas.
+
+And we heard frustration over persistent conflicts across the Middle East, in Ukraine, Sudan and Myanmar. Speakers pointed out that effects of conflicts do not stay where they happen; their impacts reverberate throughout the world.
+
+We heard demands for civilian protection, humanitarian access, accountability, and political solutions grounded in international law and international humanitarian law.
+
+We heard that the maintenance of peace and security, one of the three pillars of the Organization, meant more than containing violence. It requires prevention, mediation and diplomacy; respect for sovereignty and territorial integrity; adherence to international law; and investment in the conditions that sustain peace.
+
+We have heard that this also requires a UN Security Council able and willing to discharge the responsibility entrusted to it.
+
+As I said at the opening of this debate: in the eyes of the world, when the Security Council works, the United Nations works.
+
+Excellencies,
+
+Development, another pillar of the UN, featured prominently throughout this Debate, but the message was clear: time is running out, and promises remain unfulfilled.
+
+We heard that only a few of the Sustainable Development Goals are on track.
+
+We heard that progress has stalled.
+
+And we heard the question that should trouble us all: should we have done much more?
+
+The answer must be yes.
+
+The burden is not shared equally.
+
+Those speaking most urgently about development were often the countries facing the heaviest debt burdens, the narrowest fiscal space, the greatest climate vulnerability and the least voice in the institutions that shape the global economy.
+
+Debt was spoken of most forcefully by those who bear it, not by those with the greatest ability to resolve it.
+
+We have heard that we must honour the Sevilla Commitment, reform the international financial architecture, provide affordable and accessible finance, expand fiscal space, strengthen productive capacities and invest in people.
+
+And we must deliver on the promise of Paris.
+
+Climate disasters are erasing hard-earned development gains and deepening inequality.
+
+For small island developing States, low-lying coastal countries, least developed countries and climate -vulnerable nations, adaptation and resilience are not optional expenditures.
+
+World leaders have pointed out that these are matters of survival.
+
+Excellencies,
+
+Human rights, the third pillar of the Organization, was another clear thread throughout the General Debate. The test of our commitment to human rights is not when they are easy to defend. It is when defending them is difficult.
+
+We see that test wherever civilians are dehumanized; wherever minorities face hatred; wherever migrants and refugees are denied dignity; and wherever women and girls are excluded from education, employment and public life.
+
+It was clear from the debate that gender equality cannot remain peripheral to our agenda. They go to the heart of the principles we have gathered here to uphold and defend.
+
+Excellencies,
+
+The human rights agenda is also moving rapidly into the digital sphere.
+
+Rights must be protected online as they are offline.
+
+Member States were clear: incendiary rhetoric and hate speech – the first steps towards dehumanization and violence – are spreading rapidly and taking root across global societies, with hostile actors using automated tools to falsify narratives.
+
+We must balance robust protection for vulnerable communities, while safeguarding accountability and legitimate expression.
+
+Coordinated interventions by Governments, companies, civil society – indeed all of us – are needed to push back against hate.
+
+Excellencies,
+
+While peace and security, human rights, and sustainable development are perennial concerns in this Hall, artificial intelligence – or Artificial General Intelligence - has moved from the margins of our discussions to the centre.
+
+Four years ago, artificial intelligence was raised in this Hall by only five delegations. This year, 128 delegations addressed it, and this number was more than those who spoke on human rights and climate change.
+
+Leader after leader recognized the extraordinary potential of AI to transform public services, accelerate scientific discovery, advance sustainable development and expand access to knowledge, while pointing out risks arriving from it.
+
+Many framed AI as a question of governance:
+
+Who designs it?
+
+Who benefits?
+
+Who bears the risks?
+
+And who is accountable when harm occurs?
+
+A delegation emphasized a principle that should guide us all: “No machine possesses democratic legitimacy. No algorithm inherits constitutional responsibility.”
+
+That is the right starting point.
+
+AI governance must be human-centred, inclusive and attentive to the needs of developing countries.
+
+It must prevent a new divide in which a small number of countries and companies control the data, computing power and rules that shape everyone’s future.
+
+Member States must remain at the heart of this work-but they cannot act alone.
+
+We must engage industries, scientists, researchers, civil society, academia, young people, the companies building these systems, and the people using them.
+
+Let us carry that ambition into the Global Dialogue on AI Governance in 2027.
+
+Excellencies,
+
+World leaders also spoke clearly about reforming the United Nations.
+
+Reform is not an exercise in rearranging structures or reducing budgets.
+
+Its measure is whether this Organization delivers better, faster and more fairly for the people it serves.
+
+We will build on the UN80 initiative and the mandate implementation review.
+
+But administrative reform cannot substitute for deeper political reform, led by Member States.
+
+Africa’s exclusion from permanent membership is a continuing injustice.
+
+The Common African Position is clear: no reform agenda, including UN80, is complete without addressing this longstanding inequity in the Security Council.
+
+Excellencies,
+
+The appointment of the next Secretary-General also emerged as one of this Assembly’s most consequential responsibilities at a time when the organization is facing complex issues and challenges.
+
+The Charter is clear about the selection process; that the Security Council will recommend, and the General Assembly will appoint the next SecretaryGeneral.
+
+Member States called for a process that is transparent, inclusive and meritbased.
+
+The selection process must strengthen, not diminish, the legitimacy, independence, and moral authority of the office.
+
+Excellencies,
+
+I chose restoring trust as the principal focus of my Presidency. It resonated widely with the speakers during this High-Level Week and the General Debate.
+
+We heard of a crisis of institutional trust.
+
+We were reminded that trust cannot be taken for granted.
+
+And we heard a vigorous defence of multilateralism, but not as an end in itself.
+
+A delegation observed that, the test of multilateralism is not how many resolutions we adopt or how many meetings we hold.
+
+Its test is whether collective action changes realities on the ground.
+
+All this goes to the heart of the theme of our eighty-first session: “Restoring Trust, Managing Transformation: A United Nations That Delivers for All.”
+
+Trust cannot be commanded.
+
+It must be earned, through: consistency between words and deeds; equal application of international law; fulfilment of commitments; genuine representation; transparency; accountability; and results.
+
+Restoring trust therefore means making our institutions worthy of that trust.
+
+Meaningful, and often painful, reforms need to underpin efforts to rebuild trust.
+
+This Hall – where grievances are aired, differences negotiated and agreements forged – is one of humanity’s great achievements.
+
+Dialogue can be difficult. It can be frustrating.
+
+But it is always better than a world in which we stop talking and take up arms.
+
+So, I thank you and your delegations for showing up; for articulating your positions; for listening to others; and for trying, relentlessly, to advance peace, development and human rights.
+
+As we close the General Debate, let us remember that our work does not stop today or with the end of the High-Level Week... this is only the beginning of the session.
+
+The hard work will continue in the Committees, in the major processes underway – from COP31 to the SDG Summit – and it will continue in this Hall, in the Committee rooms, in the lounges and cafeterias, in the corridors of diplomacy.
+
+So, I call on you, in the spirit of restoring trust, to make this session count.
+
+Let us stubbornly refuse to give up on peace.
+
+Let us resolutely commit to delivering sustainable development.
+
+Let us passionately stand behind human rights principles without selectivity.
+
+Let us govern and promote technological transformation in the service of humanity.
+
+Let us pursue reform that is meaningful, representative and fair.
+
+And let us restore trust by re-building our organization that delivers for all.
+
+I thank you.

@@ -1,0 +1,225 @@
+---
+session: 81
+slug: grenada
+id_speech: M_191
+country: Grenada
+speaker: Ingrid Jackson
+title: Permanent Representative to the United Nations
+speaker_title: Her Excellency
+date: 2026-09-28
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/gd_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.374
+---
+
+Mr. President,
+
+Distinguished Heads of State and Government,
+
+Mr. Secretary-General,
+
+Excellencies,
+
+Ladies and Gentlemen,
+
+Let me thank the Government and People of Grenada for this privilege bestowed on me. And thank Grenada’s visionary Prime Minister, Honourable Dickon Mitchell for the trust.
+
+Grenada congratulates you Mr. President as President of the Eighty First Session of the General Assembly, and thank the former President, Annalena Baerbock.
+
+Mr. President,
+
+One year ago, standing at this very podium, the Prime Minister of Grenada addressed this General Assembly not only as our Head of Government, but as a proud son of the Caribbean. He reminded us that our Region continues to literally and figuratively weather storms, yet continues to rise with resilience, dignity and hope.
+
+Today, as I stand before you representing th e people of Grenada, I speak of transformation - Because resilience alone is no longer enough. Our task cannot simply be to survive one crisis after another. We must transform the conditions that make people vulnerable in the first place. We must renew our global systems, strengthen our multilateral partnerships and summon the collective will necessary to build a world worthy of the next generation. And that transformation must begin with people.
+
+Haiti: From Solidarity to Action Mr. President,
+
+Grenada joins CARICOM in calling for the timely renewal of the mandate of the Gang Suppression Force, its full and rapid deployment in close partnership with the Haitian National Police, and the provision of the personnel, financing, equipment and logistic al support necessary for it to fulfil its mandate effectively with appropriate human-rights safeguards. These security efforts are essential to creating the conditions for credible, free, fair and inclusive Haitian -led elections, the strengthening of national institutions and the restoration of constitutional governance.
+
+Haiti is not a failed state. Haiti represents a promise yet to be fulfilled.
+
+It is a promise to the Haitian people that the international community must honour, not with pity - but with purpose; not temporarily - but sustainably. And even as we respond to the security crisis, humanitarian assistance must remain at the centre of our efforts.
+
+Cuba: Partnership Must Prevail Over Isolation Mr. President,
+
+Grenada remains deeply concerned about the continuing hardship endured by the Cuban people. Our humanitarian conscience cannot be indifferent to the circumstances of ordinary households, particularly children, the elderly and other vulnerable persons, whose difficulties deepen with each passing day that the present impasse remains unresolved. We call for constructive engagement that places the well-being of the Cuban people at its centre and opens a path towards meaningful relief, improved living conditions and renewed opportunities.
+
+Mr. President,
+
+As we speak of transforming our multilateral system, we must also ensure that its leadership reflects the diversity, experience and aspirations of the people it serves.
+
+Grenada therefore proudly joins our CARICOM family in giving our unequivocal support to the candidacy of Ambassador Carolyn Rodrigues-Birkett of Guyana for the position of Secretary -General of the United Nations. CARICOM Heads of Government have endorsed her as the region’s candidate, recognising the experience and leadership she brings to this important moment for global multilateralism. Her distinguished service as Guyana’s Foreign Minister and Permanent Representative to the United Nations, has demonstrated a deep commitment to diplomacy, dialogue and international cooperation.
+
+The Caribbean has long demonstrated that size does not determine the strength of our ideas, the quality of our leadership, or the value of our contribution to the international community. We believe, Ambassador Rodrigues -Birkett is eminently qualified to serve the entire United Nations membership. Her election would represent a historic milestone for our Caribbean Region and a powerful affirmation that every region, including Small Island Developing States, can contribute to leadership at the highest levels of our multilateral system.
+
+Restoring Trust Through Transformation Mr. President,
+
+We meet at a time of significant global transformation.
+
+The challenges before us are complex, but they also present an opportunity to renew our commitment to cooperation and create practical solutions that improve the lives of our people.
+
+The theme of this session, “Restoring trust, managing transformation: A United Nations that delivers for all,” challenges us to move beyond declarations toward delivery.
+
+For Grenada, restoring trust means demonstrating through our actions that international cooperation produces results.
+
+It means listening to one another.
+
+It means respecting the voices of small states as much as those of large ones.
+
+It means building genuine partnerships.
+
+And it means ensuring that every country has the opportunity to pursue its legitimate development aspirations.
+
+Grenada approaches this General Assembly in a spirit of partnership, optimism and constructive engagement.
+
+We remain firmly committed to the purposes and principles of the Charter of the United Nations, international law, peaceful dialogue and the peaceful settlement of disputes.
+
+In an increasingly interconnected world, cooperation is not merely desirable.
+
+It is indispensable.
+
+Vision 75: Grenada's Transformation Mr. President,
+
+The transformation we advocate internationally must also take place at home.
+
+Grenada is advancing an ambitious long-term roadmap towards our 75th anniversary of independence.
+
+Anchored in our National Sustainable Development Plan 2020 –2035, Vision 75 charts a transformational course for our Nation, rooted in sustainability, resilience, equity and opportunity.
+
+At the heart of Vision 75 are five strategic pillars:
+
+Education and Skills Training. Healthcare. Agriculture and Food Security.
+
+The Environment and Energy. And Housing.
+
+These are not simply sectors of government policy. They are investments in people.
+
+We are investing in health and wellness, education and skills, food security, renewable energy, digital innovation and environmental sustainability.
+
+We are creating greater opportunities for our young people and preparing them not simply for the jobs that exist today, but for the industries that will define tomorrow.
+
+For Grenada, transformation must always be people-centred.
+
+It means building resilience while creating opportunity.
+
+Expanding our economy while protecting our environment; and,
+
+Embracing technology while safeguarding humanity.
+
+SIDS, Climate and Resilience Mr. President,
+
+As a Small Island Developing State, Grenada understands resilience. But experience has also taught us that resilience cannot begin after disaster strikes.
+
+We must invest before the storm.
+
+Prepare before the emergency.
+
+Build before the damage is done.
+
+And finance resilience before countries are forced to borrow simply to rebuild what they have lost.
+
+This requires greater international cooperation in climate adaptation, disaster preparedness, resilient infrastructure and accessible financing. Small Island Developing States should not be viewed simply as victims of climate change. We are also laboratories of resilience.
+
+From Climate Vulnerability to Opportunity Climate action remains one of the areas in which collective effort can make a profound difference.
+
+Grenada remains committed to strengthening resilience and advancing sustainable and low -carbon development. But ambition without implementation is merely aspiration.
+
+For vulnerable countries, climate commitments must be accompanied by reliable access to the resources required to deliver them. Climate financing must become more accessible, predictable and responsive.
+
+Our objective should not simply be to help vulnerable countries recover from the next disaster.
+
+Our objective must be to transform vulnerability into resilience and resilience into sustainable opportunity.
+
+Financing Development Differently Mr. President,
+
+This transformation must also take place in the international financial system.
+
+Grenada welcomes growing recognition that development and vulnerability cannot be assessed by income alone.
+
+The Multidimensional Vulnerability Index offers an important opportunity to better recognise the structural circumstances of Small Island Developing States.
+
+Our vulnerabilities are shaped by exposure to climate change, natural disasters, external economic shocks and other circumstances that cannot adequately be captured through income per capita.
+
+Grenada therefore encourages Member States, development partners and international financial institutions to advance vulnerability -informed approaches to development financing.
+
+Greater access to concessional financing, climate finance, disaster-risk financing and innovative financial instruments can help countries move from vulnerability to resilience, and from recovery to sustainable growth.
+
+Young People, Technology and AI Mr. President,
+
+At the centre of all of this must be our young people. Their creativity, energy and ideas are among our greatest national and global assets. Our responsibility is to give them the education, skills, technology and opportunities necessary to shape the world they will inherit.
+
+Digital transformation and emerging technologies, particularly artificial intelligence, offer enormous possibilities for education, healthcare, agriculture, public administration and economic development.
+
+But access must be equitable.
+
+The technologies shaping humanity's future must not create another divide between those countries that can afford to innovate and those that cannot.
+
+And access alone will not be enough.
+
+As artificial intelligence becomes increasingly embedded in our economies and societies, we must develop credible AI governance frameworks that encourage innovation while protecting people, privacy, security, democratic values and public trust.
+
+Technology must remain a tool for human development, not a replacement for human responsibility.
+
+We must prepare young people not only to use new technologies, but to question them, govern them, and deploy them ethically.
+
+Global Call to Action Mr. President,
+
+Grenada approaches the future with confidence. We recognise the challenges before us, but we also see enormous possibilities.
+
+Our Vision 75 embodies our determination to build a stronger, healthier, more resilient and more prosperous Grenada. Our commitment to the Sustainable Development Goals reflects our belief in shared global progress.
+
+And our engagement in this United Nations reflects our conviction that partnership remains one of humanity's greatest sources of strength. But partnership must deliver.
+
+So let this Assembly send a clear message:
+
+Let us restore hope in Haiti.
+
+Let us protect children and civilians wherever conflict threatens their future.
+
+Let us choose dialogue over division.
+
+Let us allow cooperation with Cuba and with all nations to be guided by the interests and well-being of people.
+
+Let us ensure that Small Island Developing States have fair access to the financing necessary to build resilience before disaster strikes.
+
+Let us equip our young people to lead the technological transformation rather than become casualties of it.
+
+Let us protect our oceans and our planet.
+
+And let us transform our multilateral institutions so that they deliver not simply promises, but progress.
+
+The measure of this United Nations cannot only be the resolutions we adopt.
+
+It must be the lives we improve.
+
+The children we protect.
+
+The conflicts we help prevent.
+
+The opportunities we create.
+
+And the hope we restore.
+
+Mr. President,
+
+Grenada stands ready to work with all Member States and international partners in advancing a future that is peaceful, resilient, inclusive and sustainable.
+
+One year ago, Grenada came before this Assembly with a message about resilience and education.
+
+Today, we build upon that message.
+
+Resilience gives us the strength to endure. Transformation gives us the power to change. Partnership gives us the ability to do both.
+
+Together, through renewed trust and genuine partnership, we can build a United Nations that delivers.
+
+A United Nations that protects. A United Nations that listens. A United Nations that acts.
+
+And ultimately, a world in which no country, no community and no person is left behind.
+
+May God bless the United Nations.
+
+I thank you, Mr. President.

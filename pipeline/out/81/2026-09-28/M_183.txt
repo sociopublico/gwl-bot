@@ -1,0 +1,179 @@
+---
+session: 81
+slug: sri-lanka
+id_speech: M_183
+country: Sri Lanka
+speaker: Vijitha Herath
+title: Minister for Foreign Affairs
+speaker_title: His Excellency
+date: 2026-09-28
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/lk_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.670
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Excellencies,
+
+Ladies and Gentlemen,
+
+Allow me, at the outset, to congratulate you, Dr. Khalilur Rahman, on your election as President of the Eighty -first session of the General Assembly.
+
+On behalf of the Government of Sri Lanka, I wish you every success and assure you of our fullest support in the discharge of your mandate.
+
+We also convey our deep appreciation to your predecessor, Madam Annalena Baerbock, for her able stewardship of the Eightieth session.
+
+Let me also take this opportunity to acknowledge the leadership of Secretary-General António Guterres as he concludes his term.
+
+Mr. President,
+
+Seminal changes are taking place across the world at a pace faster than many institutions are able to adapt or respond. People across the globe are demanding greater clarity, honesty and action from their leaders and institutions.
+
+The theme of this year’s General Debate — “Restoring trust, managing transformation: a United Nations that delivers for all” — goes to the heart of this challenge.
+
+The erosion of trust is reflected in unresolved conflicts, humanitarian crises that outpace available resources, increasingly frequent climate disasters, widening inequalities, and technological advances that are moving faster than governance. Together, th ese developments have contributed to a growing perception that global institutions are distant from the people they are meant to serve.
+
+Sri Lanka understands this reality deeply. My country has, on many occasions in the past, experienced the consequences of deficits in trust and breaches of the social contract. Two years ago, marking a watershed moment in our history, the people of Sri Lan ka, representing all communities and walks of life, gave a resounding mandate to the Government of President Anura Kumara Dissanayaka to address these challenges and institute meaningful change. Since then, our Government has been working with determination to rebuild trust from the ground up.
+
+We are building trust through action — not rhetoric; through delivery, discipline and the cour age to confront wrongdoing. Sri Lanka, too, is therefore undergoing a historic transformation and rejuvenation.
+
+Despite conflicts in several parts of the world, including in West Asia, and climate calamities, including the cyclone that struck Sri Lanka, my country has restored macroeconomic stability following the economic crisis of
+
+2022. Today, Sri Lanka has been r eclassified by the World Bank as an upper-middle-income economy, and ratings agencies have recognised this positive trajectory.
+
+However, these developments do not fully reflect the vulnerabilities of countries exposed to debt and external shocks. While we work with our global partners to consolidate this hard-won stability, we remain conscious of the critical need to address the hardships faced by vulnerable communities.
+
+Cyclone Ditwah was one of the worst natural disasters in Sri Lanka’s recent history and devastated several parts of our country. The calamity resulted in the loss of hundreds of lives and affected more than two million people. Livelihoods were disrupted and critical infrastructure was destroyed.
+
+Having experienced this tragedy, we understand deeply the challenge posed by the Himalayan floods to the people of Nepal and China. We extend our deepest sympathies to the victims.
+
+These tragic events demonstrate the enormous human and economic costs of climate change. Sadly, its harshest consequences continue to be borne by countries that have contributed least to global emissions.
+
+The call for action on climate impact is not merely immediate. It is overdue. Climate justice must become an urgent reality. For our part, Sri Lanka is on track towards achieving 70 per cent renewable energy by 2030 and carbon neutrality by 2050.
+
+Mr. President,
+
+For three decades, Sri Lanka suffered a protracted conflict that caused enormous loss and suffering to all our communities.
+
+Although the guns fell silent 17 years ago, the deep wounds of that conflict remain, and much remains to be done to heal them. We are determined to prevent a recurrence of such a tragedy and to pursue a path towards national unity and reconciliation. In this regard, our Government is strengthening national institutions to address outstanding issues. Throughout these two years, we have remained firm in our rejection of racism and religious extremism in all its forms and manifestations. We will continue to work tirelessly to build a nation that is more secure, inclusive and united — a nation made stronger by the full richness of its diversity.
+
+Mr. President,
+
+In addition to the consequences of natural calamity, Sri Lanka, like many other countries, is experiencing the severe impact of conflicts in West Asia and elsewhere.
+
+As an island nation situated at the crossroads of the Indian Ocean, and as a country with a large number of migrant workers in West Asia, these developments have direct security, economic and social implications for us.
+
+I am pleased to note that, even during these challenging times, Sri Lanka has continued to uphold its commitments to international law and to ensure sanctity of human life and human dignity.
+
+Mr. President In March this year, amidst a highly volatile geopolitical landscape, Sri Lanka found a ship of a party to a conflict in distress close to our territorial waters with many sailors’ life in peril. We took the difficult path of navigating a wilderness of sensitivities and marshalling our limited national resources to rescue an d look after the wounded and sick. Hard as it was, we went on to rescue hundreds more. We saw human lives in danger, and we acted - founding ourselves on international law and on humanity. While safeguarding our neutrality, we placed humanity above all else. As President Disanayaka has reiterated, “we will never hesitate to protect humanity. If there are actions that must be taken to protect human lives, we will not hesitate to take them under any circumstance”.
+
+This, Mr. President, is the Sri Lanka we wish to bring before the world - a small island nation with a big heart which believes that even in times of conflict and profound division, there remains space for humanity.
+
+And that is also what we wish to see reflected in the world. We need a world where our capacity to uphold humanity grows faster than our capacity to destroy it. That is the transformation we should seek.
+
+It is for these reasons that we are pained by the developments in Gaza and the Occupied Palestinian territories.
+
+Mr. President,
+
+The global security environment has deteriorated significantly in recent years. It is difficult to accept that, in a world with so much wealth and knowledge, vast resources continue to be spent on weapons while children face starvation and are deprived of medicine and education.
+
+Sri Lanka remains deeply concerned by the conflicts in West Asia and by the heavy cost being borne far beyond the region.
+
+International law, including International Humanitarian Law, must be adhered to and respected by all parties. We reaffirm our position that dialogue is the only viable way forward.
+
+Sri Lanka continues to support the inalienable rights of the Palestinian people, including their right to self -determination.
+
+We are among the countries that first recognised Palestine as a distinct State in the 1980s. We stand in solidarity with the international community in calling for an independent and sovereign State of Palestine, existing side by side with Israel, in peace, within the pre-1967 borders.
+
+We welcome the resolution of the Security Council on a ceasefire in Gaza and urge all parties to uphold it. Humanitarian assistance must reach civilians without obstruction. The recovery and reconstruction of Gaza must be an urgent priority.
+
+Mr. President,
+
+Sri Lanka is proud of its longstanding contribution to United Nations peacekeeping, in pursuit of global peace and security, having deployed more than 21,000 personnel on numerous missions since 1957.
+
+Our Blue Helmets, through their dedication and service over many years, have earned the trust of local communities and the commendation of UN field missions.
+
+Today, they continue to serve with distinction in some of the most challenging environments under the UN flag — protecting vulnerable civilians, deterring violence and helping war -torn communities transition from conflict to stability.
+
+Sri Lanka has also long championed multilateral disarmament — from our early call for an Indian Ocean Zone of Peace to our leadership at the 1995 NPT Review and Extension Conference.
+
+At a time of rising geopolitical tensions and rhetoric of nuclear escalation, we remain firmly convinced that the only real guarantee against these weapons is their total and verifiable elimination.
+
+Mr. President,
+
+As we approach 2030, we must deliver on the Sustainable Development Goals, which remain our collective blueprint for sustainable development.
+
+Sri Lanka once again calls for reform of the international financial system and for fairer rules governing debt a nd development finance. We welcomed the Seville Commitment last year, including its call for urgent action to close the four -trillion-dollar financing gap for sustainable development in developing countries. It is now time to translate those commitments into concrete action.
+
+We remain steadfast in recognising poverty and inequality as factors requiring our urgent attention.
+
+Our national budget last year made historic allocations to the healthcare and education sectors. We take pride in our longstanding policy of free and universal healthcare and education, and remain committed to strengthening these important pillars of social justice.
+
+While actively implementing all SDGs without discrimination, we fully subscribe to and proactively engage with SDG 16, which underscores the importance of just and inclusive institutions that build and restore public trust and treat all people equally.
+
+Mr. President,
+
+Sri Lanka has long championed and contributed towards a fair and peaceful order at sea under the United Nations Convention on the Law of the Sea — a legal regime which we have helped shape. We also support the work of the Commission on the Limits of the Continental Shelf. We remain committed to preserving the oceans as a shared space for peaceful and sustainable use, and for international cooperation. Our nation’s prosperity is closely linked to the Indian Ocean.
+
+As a founding Member of the Agreement on Marine Biological Diversity of Areas Beyond National Jurisdiction, the BBNJ Agreement, we reaffirm our commitment to safeguarding the oceans as a common heritage of humankind for present and future generations.
+
+We look forward to the further operationalisation of the Agreement, complementing the processes of the International Seabed Authority.
+
+Mr. President,
+
+One of the key pillars of the decisive mandate given to us by the people of Sri Lanka was to build a transparent and ethical nation. In delivering on this mandate, we have placed good governance, anti -corruption and institutional transparency at the core of a comprehensive national integrity drive that is being vigorously pursued.
+
+We have seen all too clearly how corruption weakens democracy and destroys trust. We continue to enforce the law against corruption without fear or favour, irrespective of a person’s background or social standing.
+
+Investigations and prosecutions continue t o progress without political interference.
+
+Substantial progress has been made in strengthening the independence of institutions responsible for investigating and prosecuting bribery and corruption.
+
+My President, who addressed this Assembly last year, also highlighted how narcotics and related organised crime have become a menace for many countries, as well as our Government’s comprehensive efforts to address this menace.
+
+One year on, our “United as a Nation” Anti-Narcotics National Programme has made significant progress, including through the arrest of key figures in the narcotics supply chain.
+
+Mr. President,
+
+We reiterate our call on the global community to promote meaningful technology transfers, ensure equitable access for developing nations, bridge the digital divide, and build safe, secure and trustworthy systems that leave no one behind.
+
+Sri Lanka is in the process of building a digital future that includes everyone. We have developed national AI ethical guidelines in line with international frameworks.
+
+We must ensure that emerging technologies and artificial intelligence are developed and used responsibly and consistently with international law, including the well-established principles of international humanitarian law.
+
+Their development and use must contribute to international peace and security while advancing humanity's collective interests.
+
+The interests of humanity must always guide the development and use of these technologies.
+
+Mr. President,
+
+For Sri Lanka, the United Nations is an indispensable partner. The UN has stood with us in challenging times and supported our development.
+
+For many of us in the developing world, the United Nations is also an expression of a fundamental promise: that every nation, large or small, has a voice; that every people has a right to dignity and development; and that, in an interdependent world, no country should be left to confront global challenges alone.
+
+For more than eight decades, amidst its flaws and with much room for improvement, the United Nations has given practical meaning to that promise.
+
+However, genuine faith in multilateralism requires the courage to acknowledge where the system has fallen short, the humility to listen to those who feel unheard, and the determination to make our institutions more effective, more representative and more responsive.
+
+In this regard, Sri Lanka supports the UN80 Initiative as an opportunity to renew and strengthen the United Nations and advance meaningful reform.
+
+Mr. President,
+
+Managing transformation cannot mean managing change for some while asking others merely to adapt to its consequences.
+
+The transformation taking place in our world must be inclusive.
+
+It must narrow, rather than deepen, the divides between North and South; between those who shape new technologies and those who merely receive them; and between those who possess resilience and those who are most exposed to global shocks.
+
+My country comes to this Assembly not with the expectation that the United Nations can solve every problem, but with the conviction that there are problems which no country can solve alone.
+
+Our answer must therefore be a renewed faith in multilateralism and a United Nations that listens more closely, represents more fairly and delivers for all.
+
+I thank you, Mr. President.

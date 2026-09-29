@@ -1,0 +1,85 @@
+---
+session: 81
+slug: eritrea
+id_speech: M_178
+country: Eritrea
+speaker: Osman Saleh Mohammed
+title: Minister for Foreign Affairs
+speaker_title: His Excellency
+date: 2026-09-28
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/er_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.591
+---
+
+Your Excellency Dr. Khalilur Rahman, President of the 81st Session of the United Nations General Assembly,
+
+Your Excellency António Guterres, Secretary-General of the United Nations,
+
+Honourable Heads of Delegation, Distinguished Delegates, Ladies and Gentlemen,
+
+I have the honor to present this statement on behalf of my President, His Excellency Isaias Afwerki,
+
+President of the State of Eritrea.
+
+Allow me to join previous speakers to congratulate Your Excellency for your election to the Presidency of the 81st Session of the UN General Assembly.
+
+On this auspicious occasion each year, the crucial questions that crop to mind, and that we ponder about, are the crucial and novel messages that we should focus on.
+
+Should our annual interventions be confined to sheer and rather routine accounts, or balance sheet, of developments that had transpired during that particular year? Should the forum be seen as essentially and solely a congenial Public Relations platform for eloquent speeches and discourses?
+
+Does the annual forum consist of structured agendas that have continuity and coherence?
+
+What is the context?
+
+What is the overarching mission?
+
+And how do we gauge progress?
+
+... etc. etc.
+
+In previous Summits, I have dwelt on the historical backdrop of the establishment of the UN; the popular aspirations of humanity for peace, growth, and prosperity that underpinned the creation of the UN; the economic injustices that prompted those aspirations in the first place; the innate mission of the UN?
+
+... as well as its structure and operational modality as elaborated in the foundational precepts elabored below.
+
+The first and foremost challenges of humanity are to redress economic injustices; create wealth; and more broadly and accurately, ensure fair distribution of wealth and income.
+
+The prevailing injustices stem from the denial of the rights, as well as enabling environment, for humanity to create and accumulate wealth without any encumbrances on the one hand; and, the usurpation of their right and opportunity for rational distribution of whatever nominal wealth they create under suppressive conditions on the other.
+
+This is precisely the reason why the prevailing international order has become and is dubbed as a "zero-sum order".
+
+In the event, the imperative for installing a new world order predicated on justice and rationality and that jettisons the zero-sum system remains humanity's fundamental individual and collective right.
+
+In this respect, the overarching mission of the endeavor/struggle of mankind can be summed up in: • To fairly own their economic resources and the produce of their work, and march on a sustainable path of generational progress and prosperity by accumulating wealth.
+
+• To secure peace and stability in order to guarantee prosperity and economic growth.
+
+• To ensure prevalence of fairness and justice as vital prerequisites for peace and stability.
+
+• To promote mutual respect, complementarity and cohesion/integration so as to bolster widest regional and global peace and stability as well as mutual growth • To establish appropriate legal executive structure and associated mechanisms for the implementation of these fundamental human aspirations.
+
+The substance of the framework briefly described above evidently requires further expansion and elaboration.
+
+It is not otherwise controversial or novel by any metrics.
+
+In this respect, the main tasks of the annual UNGA Summits ought to focus on rigorous assessment of progress in achieving these goals.
+
+Mr. President,
+
+The events that have unfolded since the 80th Summit of the UNGA are important for gleaning appropriate lessons in comparative terms and within the reality of this international organizations.
+
+They cannot otherwise deflect the attention and focus of the peoples of the world from their chore mission and struggle.
+
+As such: • The impacts and ultimate ramifications that may ensue from President Trump's pronounced MAGA Doctrine; as well as the ongoing war in Iran that must be stopped; The Ukraine war, with all its multi-layered ramifications must also be terminated; • Global climate change and the imperative of finding enduring solutions for its control and reversal; • The urgency of reversing the war and related acts of subversion unleashed in order to foment chaos in our broader neighborhood; i.e. the Nile Basin; the Horn of Africa; the Red Sea, the Gulf of Aden and the Gulf States; the need to terminate debilitating interventions under the rubric of "humanitarian assistance";... are some of the trends and developments that warrant attention.
+
+Against this overall backdrop, it must be recognized that the prime victims of the "zero-sum" global order whose hallmarks are plunder, domination and deceit, are the African peoples who continue to seethe under subsistence economy.
+
+This disconcerting reality impels them to naturally stand at the forefront of the struggle for justice and fairness.
+
+In the event, it behooves on them to formulate appropriate strategies for accomplishing their mission; remove stale and obstructive frameworks and mechanisms; and move forward with greater unity and rigour.
+
+I thank you.

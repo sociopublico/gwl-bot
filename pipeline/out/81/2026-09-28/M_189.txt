@@ -1,0 +1,117 @@
+---
+session: 81
+slug: turkmenistan
+id_speech: M_189
+country: Turkmenistan
+speaker: Vepa Hajiyev
+title: Permanent Representative to the United Nations
+speaker_title: His Excellency
+date: 2026-09-28
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/tm_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.324
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Excellencies, Distinguished Delegates, Ladies and Gentlemen,
+
+First of all, I have the honour to convey, on behalf of the President of Turkmenistan, His Excellency Mr. Serdar Berdimuhamedov, greetings and wishes of peace and prosperity to the peoples of your countries.
+
+Allow me to congratulate you, Mr Khalilur Rahman, on your election as President of the eighty -first session of the United Nations General Assembly and to wish you every success in discharging your important responsibilities.
+
+I would also like to express our appreciation to Ms Annalena Baerbock for her leadership of the General Assembly during its previous session.
+
+Distinguished Participants,
+
+The current international environment requires all States to demonstrate a high degree of responsibility, political foresight and readiness for concerted action. Rising conflict potential, the erosion of trust, economic instability, climate risks and the rapid development of new technologies are becoming increasingly intertwined, directly a ffecting the security and well- being of peoples.
+
+In these circumstances, it is particularly important to uphold the common purposes enshrined in the Charter of the United Nations; ensure respect for the sovereignty and territorial integrity of States, their sovereign equality and noninterference in their internal affairs; and strengthen the rule of international law.
+
+Turkmenistan firmly believes that the United Nations must continue to serve as the universal and legitimate foundation of international cooperation and as the principal mechanism for reconciling interests and developing solutions in the areas of peace, security and sustainable development.
+
+It is from this perspective that our country approaches the work of the eighty-first session of the General Assembly.
+
+Ladies and Gentlemen,
+
+Ensuring international peace and security remains a key priority for Turkmenistan. The permanent neutrality of our country, recognized three times by the General Assembly, provides a practical foundation for advancing political and diplomatic methods, preventive diplomacy, mediation and the peaceful settlement of disputes.
+
+We consider it essential to consistently foster a culture of trust and dialogue and to restore the legal and humanistic foundations of international relations.
+
+In this regard, Turkmenistan intends to convene, under the auspices of the United Nations, intergovernmental consultations on the elaboration of a Global Peace Strategy founded on the principles of peace, security and preventive diplomacy.
+
+As a furt her step in this direction, we propose proclaiming a United Nations Decade of Dialogue and Preventive Diplomacy. We believe that such a Decade would lend a systematic character to the efforts of States to prevent conflicts, build trust and establish sustainable channels of political communication.
+
+Turkmenistan will also propose the establishment, within the United Nations, of a Group of Friends of Multilateralism and the Sovereign Equality of States. Its activities could contribute to safeguarding the fundamental principles of the Charter of the United Nations, strengthening dialogue among equals and preventing the emergence of dividing lines in international cooperation.
+
+We attach particular importance to supporting the United Nations Regional Centre for Preventive Diplomacy for Central Asia, headquartered in Ashgabat. The year 2027 will mark the twentieth anniversary of its establishment. We regard this milestone as a unique opportunity to take stock of the Centre's work and identify new avenues for its practical contribution to peace, stability and cooperation in Central Asia.
+
+To this end, during the current session Turkmenistan will submit a further draft General Assembly resolution on the role of the Regional Centre. We trust that the document will reaffirm our shared interest in further strengthening its mandate and operational capacity.
+
+In consistently promoting education and scientific cooperation as important pillars of peacebuilding, Turkmenistan will continue its engagement with the United Nations on the initiative to establish a University of Peace and Neutrality. As a practical first step, we will begin consultations on the establishment of an Academic Centre for Peace, Neutrality and Preventive Diplomacy at the Institute of International Relations of the Ministry of Foreign Affairs of Turkmenistan.
+
+Distinguished Participants,
+
+Digital transformation is becoming an increasingly important factor in sustainability and development. Artificial intelligence offers broad opportunities, while also requiring responsible international governance to prevent its use to the detriment of peace, security and trust.
+
+In this regard, Turkmenistan proposes the development, under the auspices of the United Nations, of an International Code for the Peaceful Use of Artificial Intelligence in International Relations and Diplomacy. To support this work, we propose convening in Ashgabat an international expert dialogue on digital trust and the responsible use of artificial intelligence.
+
+Ladies and Gentlemen,
+
+Peace and development are inextricably linked. For Turkmenistan, a key priority in this area is the development of sustainable, safe and inclusive transport systems.
+
+The proclamation, at the initiative of Turkmenistan, of the United Nations Decade of Sustainable Tra nsport for 2026- 2035 has launched an important mechanism for systematic work, coordinated by the United Nations Department of Economic and Social Affairs, to put into practice the Decade's Implementation Plan. Within the framework of this long-term undertaking, our country will continue its work towards the creation of a Global Atlas of Sustainable Transport Connectivity - a comprehensive analytical and informational tool for assessing progress, identifying infrastructure gaps and coordinating international efforts.
+
+During the eighty -first session, Turkmenistan will actively support the implementation of the Awaza Programme of Action for Landlocked Developing Countries for the Decade 2024 -2034 and the Awaza Political Declaration. In this context, we particularly welcome the election of Turkmenistan as Chair of the Group of Landlocked Developing Countries for 2027- 2028. We regard the confidence placed in us as both a great responsibility and an opportunity to work together with the States of the Group to give fresh impetus to the practical implementation of the Awaza Programme of Action in such priority areas as transport and energy connectivity. We proceed from the need to translate the agreements reached into concrete infrastructure, trade and investment projects.
+
+We propose considering the establishment in Turkmenistan, under the auspices of the United Nations, of an International Centre for Sustainable Trade Logistics and Customs Cooperation. Such a Centre could serve as a practical platform for harmonizing procedures, exchanging best practices, digitalizing transit and expanding developing countries' access to global markets.
+
+Our country also proposes the establishment, under the auspices of the United Nations, of a transregional transport corridor linking South and Central Asia with Europe through the Caspian Sea.
+
+We are confident that its development would help diversify routes, strengthen connectivity, expand trade and promote closer economic ties among the regions.
+
+Excellencies, Distinguished Delegates,
+
+Environmental security, climate change and the sustainable use of energy resources are integral components of common security.
+
+In this area, Turkmenistan will continue to promote multilateral dialogue by proposing the establishment of the Ashgabat Climate Dialogue - an open multilateral platform for regular political and expert engagement, the advancement of practical climate initiatives and the strengthening of international partnerships.
+
+We believe particular attention must be paid to strengthening the climate resilience of regions severely affected by drought and water scarcity. This requires coordinated solutions combining modern technologies, financing, data exchange and regional cooperation.
+
+In pursuance of the General Assembly resolution entitled "Key role of reliable and stable energy connectivity in ensuring sustainable development",
+
+Turkmenistan will continue consultations in preparation for the High -level Forum on Sustainable Energy for All. We view the Forum as an effective platform for developing practical approaches to ensuring a reliable, affordable and sustainable energy supply.
+
+In the socioeconomic sphere, Turkmenistan will continue its active and responsible work as a member of the United Nations Economic and Social Council for the period 2026- 2028, as well as its constructive engagement in the work of the Council's subsidiary bodies.
+
+Ladies and Gentlemen,
+
+Turkmenistan attaches great importance to the humanitarian dimension of international cooperation. Lasting peace is impossible without the f ull participation of women and young people, the preservation of human dignity, mutual respect and equal opportunities.
+
+Our country will continue to advance the Women and Peace and Security agenda, including by developing the Central Asian Women's Dialogue and expanding its cooperation with the United Nations Peacebuilding Commission and UN-Women.
+
+At the same time, we will support the activities of the Central Asian Youth Dialogue and promote the broader and more meaningful participation of young people in international and regional peace initiatives in accordance with the Youth and Peace and Security agenda.
+
+Distinguished Participants,
+
+Turkmenistan regards the strengthening of international law as an essential condition for a just and sustainable international order. We welcome the consensus adoption of the General Assembly resolution initiated by our country proclaiming 2028 the International Year of Law.
+
+As part of the preparatory process, we propose convening in Turkmenistan in 2027 an International Forum devoted to the interrelationship between international law, disarmament, neutrality, preventive diplomacy and sustainable development. We believe that the Forum will help strengthen respect for the Charter of the United Nations, enhance the role of legal mechanisms and engage the younger generation in the study and development of international law.
+
+Mr. President,
+
+All initiatives of Turkmenistan are united by a common purpose: to strengthen peace and trust, advance cooperation among equals and create the conditions for a dignified future for present and succeeding generations.
+
+We stand ready to work with all Member States, the United Nations Secretariat and international partners towards the practical implementation of the proposals outlined above.
+
+We are co nfident that, with political will, mutual respect and commitment to dialogue, the international community can overcome existing differences and achieve tangible progress towards the purposes of the United Nations.
+
+Turkmenistan will continue to firmly uphold the principles of permanent neutrality, good-neighbourliness, peacefulness and constructive engagement, contributing to the strengthening of the central role of the United Nations in international affairs.
+
+Thank you for your attention.

@@ -1,0 +1,83 @@
+---
+session: 81
+slug: united-arab-emirates
+id_speech: M_186
+country: United Arab Emirates
+speaker: Khalifa Shaheen Al Marar
+title: Minister of State
+speaker_title: His Excellency
+date: 2026-09-28
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/ae_en.pdf
+language: en
+original_language: ar
+transformation: none
+via: pypdf
+elapsed_s: 0.649
+---
+
+Mr. President,
+
+Our region and the world are undergoing a period of rapid transformation, marked by intensifying challenges and divisions.
+
+Amid all this, the United Arab Emirates stands tall — guided by a clear vision and unwavering determination to transform challenges into opportunities, turn ambitions into achievements, and open new horizons for peace, development, and prosperity for our people, the peoples of the region, and the world.
+
+This stems from our principled approach rooted in de escalation, bridge -building, the promotion of diplomacy and dialogue, the peaceful settlement of disputes, and the rejection of the unlawful use or threat of force, as well as coercion. This approach is grounded in full respect for the sovereignty of States, good -neighborly relations, international law, and the Charter of the United Nations.
+
+These values have long underpinned our domestic and foreign policies:
+
+As Iran continues its occupation of the three Emirati islands — Greater Tunb, Lesser Tunb, and Abu Musa — which we reject, the United Arab Emirates has consistently called for a peaceful settlement of this conflict, whether through direct negotiations or by recourse to the International Court of Justice.
+
+Amid growing threats to navigation in our region and beyond, my country has continued to emphasize the principles of freedom of navigation and the right of transit passage. We stress the need to secure and protect the safe flow of supply chains, trade, and energy in accordance with international law, including the law of the sea, and the principle of state sovereignty, recognizing these as pillars of food security, development, and prosperity of nations.
+
+The United Arab Emirates has continued to support every sincere effort to achieve peace, particularly in Yemen,
+
+Libya, the Sahel, the Democratic Republic of the Congo,
+
+Myanmar, Haiti, and elsewhere.
+
+We have also supported efforts to reach a sustainable political solution to the Question of the Moroccan Sahara, based on the Moroccan Autonomy Initiative, while affirming the Kingdom of Morocco’s sovereignty over this territory.
+
+Furthermore, we have advocated for a comprehensive, just, and lasting peace in Ukraine, in accordance with international law and the principles of the UN Charter — including respect for sovereignty, independence, and territorial integrity. We have remained steadfast in our role as a trusted international mediator, successfully conducting twenty-six mediation s that facilitated the exchange of nearly eight thousand prisoners between Ukraine and the Russian Federation, ensuring their safe return to their homelands and families.
+
+The UAE has also stood ready to support nations undergoing positive transformations — such as Syria and Lebanon — as they move toward s a secure and stable future.
+
+Regarding Sudan, my country has underscored the imperative of ending the humanitarian catastrophe, securing a permanent and unconditional ceasefire that would bring an end to the civil war. This includes launching a comprehensive and credible political process, led by civilians, which would culminate in the formation of a civil government independent of both parties to the conflict and of extremist groups. It is crucial to ensure that neither side of the conflict has a role in the new civilian government.
+
+The future of Sudan must be decided solely by the Sudanese people, and the international community must press the leaders of Port Sudan authorities and those of Rapid Support Forces, as parties to the conflict, to engage seriously with international initiatives.
+
+As for Gaza, the UAE was among the first to support the framework established by the international community to end th e horrific war. We have stressed the need to fully implement the comprehensive plan to end the conflict in Gaza — and the associated roadmap — including Israel’s withdrawal from the Gaza Strip, the disarmament of Hamas, and the advancement of a serious political horizon leading to a just and lasting settlement of the Palestinian Question based on the two -state solution. This entails the establishment of an independent, sovereign Palestinian state living side-by-side with Israel in peace and security.
+
+We also underscore the importance of ensuring the unification of Gaza and the West Bank under a Palestinian authority that, once reformed, will be capable to fulfill its responsibilities and ensure that arms remain solely under its control.
+
+We further underscore the urgent need to halt Israel's dangerous escalation in the West Bank and its settlement activities — which are accompanied by the rise of settler violence, terrorism, and the siege of Palestinian villages, as well as the ongoing violations in East Jerusalem and at holy sites and the attempts to impose new historical and legal realities on the ground. My country condemns all such actions in the strongest terms.
+
+For decades, the UAE's commitment to the Palestinian people has remained unwavering. Today, that commitment continues through our role as the largest provider of humanitarian aid to Gaza, along with our humanitarian and development projects in the West Bank.
+
+This role reflects the core values of our foreign policy, which is driven by the spirit of giving through effective international partnerships while reconfirming the principles of international humanitarian law and the protection of civilians.
+
+Across all these issues, the importance of developing and reforming regional and international multilateral institutions — foremost among them the United Nations, including the Security Council — remains paramount to strengthening their capacity to fulfill the responsibilities they have been entrusted. As the United Nations prepares to transition to new leadership, we look forward to the next Secretary-General using his or her good offices to activate preventive and mediation mechanisms before the first signs of crises emerge, rather than merely reacting once they have erupted. Crises must be addressed at their roots, not simply managed.
+
+Mr. President,
+
+My country has refused to let the crises surrounding us undermine the world -leading achievements we have built over decades. On the contrary, we have pressed ahead with progress across every sector — for this nation was forged not in the absence of challenges, but in defiance of them.
+
+The peoples of our region aspire to stability and prosperity in an environment defined by cooperation, moderation, and tolerance — not by violence, hatred, extremism, or terrorism.
+
+The UAE model has demonstrated its resilience and its capacity to deliver tangible results by investing in the key pillars of national strength, foremost among them strategic independence, industrial capabilities, advanced defense systems, and world-class infrastructure and logistics. This is complemented by the empowerment of human capital, the cultivation of a knowledge -and innovation -based economy, and the harnessing of the opportunities offered by the Comprehensive Economic Partnership Agreements (CEPAs) concluded with thirty -eight nations —among other frameworks—to diversify markets and supply chains and broaden horizons for trade and investment.
+
+We will continue to cement the UAE's role as a global hub connecting markets and capital, opening ever -broader horizons for growth. This is the promise the UAE makes to its people and to all who call it home — and it is the bedrock of our international partnerships, particularly with the nations of the Global South and Africa, which have matured into an enduring strategic cooperation rooted in mutual respect and shared interests.
+
+The UAE continues to expand its investments in artificial intelligence, emerging technologies, healthcare, and education. We are also strengthening our position as a trusted and responsible leader in the energy sector — balancing the needs of today with bold investment in the solutions of tomorrow and driving the historic commitments of the 'UAE Consensus' toward long -term collective action.
+
+This year, the UAE is preparing to co-host with Senegal the UN Water Conference, recognizing the importance of concerted, coordinated international action in confronting the challenges of water, climate, and food security. We are confident the conference will mark a vital milestone in advancing real, practical solutions for water security. We invite you to participate in the Conference and look forward to welcoming you in Abu Dhabi.
+
+These efforts embody our firm commitment to turning the challenge of water scarcity into an opportunity for innovation and joint international action, including through the Mohamed bin Zayed Water Initiative, which harnesses innovation, partnership, and investment to deliver lasting, sustainable solutions for present and future generations.
+
+Two days ago, Abu Dhabi also hosted the opening of the 15th UN Congress on Crime Prevention and Criminal Justice, highlighting the need to keep pace with rapid technological advancement and to protect societies from the impacts of crime, violence, and exploitation.
+
+At the same time, we are investing in the values of tolerance, peaceful coexistence, and inclusion through partnerships that bring together diverse nationalities and faiths. We are building a society in which women participate fully, equally, and meaningfully, and in which young people are genuine partners in shaping their future.
+
+In conclusion, Mr. President, my country will remain committed to the path of moderation, the rejection of violence and extremism, and the investment in people and in the vast potential with which our region is so richly endowed. We extend our hands to our partners in the region and across the world to build rather than to destroy, and to unite rather than to divide.
+
+Thank you, Mr. President.

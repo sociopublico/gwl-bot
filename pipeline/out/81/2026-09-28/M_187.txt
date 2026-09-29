@@ -1,0 +1,131 @@
+---
+session: 81
+slug: democratic-peoples-republic-korea
+id_speech: M_187
+country: Democratic People’s Republic of Korea
+speaker: Kim Son Gyong
+title: Vice Minister for Foreign Affairs
+speaker_title: His Excellency
+date: 2026-09-28
+source: pdf_en
+source_url: https://gadebate.un.org/sites/default/files/gastatements/81/kp_en.pdf
+language: en
+original_language: en
+transformation: none
+via: pypdf
+elapsed_s: 0.288
+---
+
+Mr. President,
+
+Mr. Secretary-General,
+
+Distinguished delegates,
+
+Allow me, first of all, to extend my congratulations to you, Mr. Khalilur Rahman, on your election as the President of the 81st session of the UN General Assembly. I am confident that your able stewardship will lead this session to an excellent outcome.
+
+Mr. President,
+
+Last year we meaningfully celebrated the 80th founding anniversary of the United Nations.
+
+As we marked the watershed in UN history reviewing its past eighty years and looking ahead into the future, mankind ardently desired and aspired to put an immediate end to the current chaos of international relations and regain peace and stability.
+
+Unfortunately, however, what the world witnessed every day for the last one year was a harsh reality rampant with unprecedented mutual distrust and confrontation, infringement on sovereignty, and military conflict s that led to extreme unrest and disorder globally.
+
+The new year started with the most despicable, world startling act of state -sponsored terrorism, followed by worldwide outbreaks of other appalling incidents and events which anyone with common sense and knowledge can hardly imagine. Crises causing insecurity and instability increased further with wars and bloody conflicts.
+
+The effects of disaster -prone abnormal climate ga ve rise to a succession of extreme high temperature, droughts, heavy rains and floods in many countries and regions, seriously threatening the survival of mankind. This, coupled with the spread of communicable diseases and hike in oil prices, worsened the socio-economic crisis.
+
+Humanity desires that the United Nations should fulfill its mission and responsibility as an organization established to save succeeding generations from the scourge of war.
+
+Regrettably, however, the Organization still fails to reco ver from functional paralysis owing to the high -handedness and unilateralism of a handful of countries pursuing only chauvinistic interests.
+
+All the crises the international community is faced with point to one clear fact – that infringement on sovereignty, threat to security interests, and denial of right to development of other countries are bound to breed regional instability and crisis and lead to aggression and war.
+
+In order to overcome all the existing crises and challenges and promote peace, security and sustainable development, all member states should seek appropriate solutions to problems while strictly complying with the intrinsic purposes and principles of the UN Charter and giving priority to unity and cooperation among nations.
+
+Mr. President,
+
+The historic 9 th Congress of the Workers’ Party of Korea was held with splendor in February this year in Pyongyang, the capital city of the Democratic People’s Republic of Korea. The Congress reviewed with pride the achievements made over the past five years and set out new innovative goals for overall development in the next stage.
+
+During the last five years, the existence and development of humankind were severely constrained by the global pandemic, abnormal weather conditions, geopolitical confrontation and the entailing economic crisis. They were harsh times for our State, too.
+
+Yet, we have thoroughly and consistently maintained the characteristic principle and approach of self-reliance. Our resilience grew stronger. We overcame all difficulties an d challenges before us and ultimately made remarkable advances by leaps and bounds.
+
+The five -year plan for the development of the national economy was successfully accomplished. The economic foundation for production boost was reinforced. Numerous monumental projects were compl eted. Policies for the people that our government invariably pursues are implemented at a higher level. We are seeing the upward trend of comprehensive development conducive to simultaneous and balanced growth in all sectors, fields and regions of the country.
+
+As the first -hand witnesses of the above realities, all our citizens have become all the more confident that the path we have trodden is the most accurate path and that self reliance and self-sustenance of our choice are the surest shortcut to prosperity.
+
+Under the unique leadership of Comrade Kim Jong Un, President of the State Affairs of the Democratic People’s Republic of Korea, our people have now confidently embarked on new massive projects aimed at building on the successe s in pioneering an era of comprehensive development and leading it to new heights.
+
+The path ahead of us is laden with numerous challenges and difficulties presented by inhumane acts of certain forces that disfavor the DPRK’s very existence, let alone her development. Yet we will surely attain all that we plan to, relying entirely on our own efforts, regardless of changes in the situation.
+
+This is the confidence that every Korean is assured of.
+
+Mr. President,
+
+The sovereignty, security interests and terri torial integrity of sovereign states are ruthlessly trampled upon and the international law and order feebly collapse due to the unilateral high -handedness and tyranny of a hegemonic state. Such a grim reality of international relations teaches us a serious lesson.
+
+A lesson that fair advocacy and earnest desire for compliance with the law and order alone can hardly defend anything.
+
+Like in other parts of the world, a serious landscape of confrontation between justice and injustice and between hegemonic forces and independence forces is being witnessed in Northeast Asia this year.
+
+The Korean peninsula and its vicinity, in particular, are faced with an extreme instability and further aggravated tension on a level different from that of last year due to the persistent hostility towards the DPRK and ever -increasing military confrontation of the U.S. and its followers.
+
+The U.S.-Japan-ROK military alliance, unmistakably aimed at the DPRK, is being evolved by the United States into a more offensive and aggressiv e military bloc with a nuclear element. The U.S. is conspiring with its allies to systematically amend and update the anti -DPRK nuclear war scenarios and to stead ily cultivate and master their performance capability through prov ocative war rehearsals of all hues and military build-up.
+
+This year alone, the U.S. staged a series of bilateral and multilateral military exercises including "Freedom Shield" and "Freedom Edge ", simulating a real war scenario. It didn’t even bother to cover up its dangerous attempt at military confrontation against the DPRK.
+
+The U.S. has approved and is encouraging Seoul’s ambition to possess nuclear powered submarines, while relocating and deploying different military hardware including the latest missiles and drones on the Korean peninsula and in its vicinity. The current military inclination is further aggravating the already vulnerable security landscape in the region.
+
+On the other hand, Japan, an A -class war criminal that inflicted untold sufferings and disasters upon mankind in the last century, is taking advantage of the present international turbulence. It accelerates its attempts at rearmament with an unprecedented commitment including the revision of the Peace Constitution, abandonment of “exclusive defence”, reformation of the military structure and arms build -up. Such actions are casting war clouds over the entire region.
+
+Under the signboard of “counterattack capability”, Japan has buckled down to the development and possession of long -range attack weapons that put neig hbouring countries within a striking range. Its ambition run counter to its obligations as a defeated nation; they are in shameless disregard of the UN Charter and pose a grave challenge to global peace.
+
+The global military and political conte xt is worsening day by day and the unlimited abuse of power has become a commonplace. Under such circumstances, the risky military threat of the U.S., Japan and the ROK go beyond precedent and continue to break the worst records in their scale, intensity, nature and t he dangers, creating security instability on the Korean peninsula on a level different from previous years.
+
+Nevertheless, no physical conflict has occurred on and around the Korean peninsula, a hot spot of the world, and the security index is being maintained at a higher level than any other part of the globe. We owe it to the fact that the DPRK has a war deterrent in place powerful enough to break anyone’s will to start a war of aggression against the DPRK and that we are thoroughly containing and managin g the hostile forces’ intention to use force.
+
+Thus the regional balance of power maintained by the DPRK’s self-defensive capabilities effectively curbs the risk of an armed conflict.
+
+No one can deny such an obvious fact. It further highlights the immutable truth that a just power means the national sovereignty and prestige and a fundamental guarantee of peace and stability.
+
+The Head of State of the Democratic People’s Republic of Korea stated that our national sovereignty and security have firmly been en sured by virtue of great strength so far and will invariably be so in the years ahead.
+
+The DPRK’s nuclear deterrent is the absolute might and irresistible force designed, from A to Z, to safeguard the sovereignty, security and peace against aggression and threat from outside.
+
+I would like to reiterate the official position of the DPRK government: the status of the Democratic People’s Republic of Korea as a nuclear weapons state, that has been uncompromisingly and permanently fixed both physically and legally with absolutely no turning back, can never be reversed in any circumstances or by any means, no matter how hard and loudly the hostile forces may deny in chorus with all sorts of rhetoric.
+
+The DPRK will continue to strictly control and manage every external threat by dint of her supremacy in overwhelming strength and be all the more faithful and committed to our mission as a responsible nuclear weapons state to firmly defend national sovereignty and fundamental interests and to guarantee peace and sec urity of the region and beyond.
+
+Mr. President,
+
+Large-scale natural calamities claimed tens of thousands of lives in different parts of the world this year. The international community came to realize once again that climate change is a pressing issue that calls for a joint action.
+
+AI and other new cutting -edge technology are transforming every domain of human life, offering great opportunities. But at the same time, they also carry risks of being misused for sinister purposes.
+
+Highly volatile present er a urgently calls for strengthened UN capable of handling challenges and crisis facing humanity in conformity with the common interests of mankind.
+
+The most pressing issue to be addressed is none other than building the UN into a UN for all, faithful to the purposes and principles enshrined in the Charter and fully guaranteed of impartiality and objectivity in the face of the arbitrary practices of the anti-peace forces that are abusing the UN as a tool for implementing their hegemonic strategy.
+
+The United Nations should no longer be misused for the sinister political purposes of specific forces. The United Nations should firmly secure its authority and future by promoting equality and cooperation among sovereign states.
+
+It’s about time the UN undertook a reform.
+
+Not the reform centered on specific countries but the one aimed at democratization of the United Nations in the true sense of the word so that the organization would represent the views and interests of the entire membership evenly and equally.
+
+Gone are the days when a n individual member state unilaterally imposed its will on the rest of the world and dominated the international political arena. Instead, multilateralism and multipolarization have emerged as an irresistible aspiration and trend of the times based on justice and equity.
+
+The DPRK will always be with the anti -imperialist, independent countries aspiring after the building of a just and peaceful world and is committed to undertaking the historic mission of leading the movement for globa l independence under the uplifted banner of independence.
+
+Mr. President,
+
+This year marks the 35th year of the DPRK’s entry into the UN.
+
+The DPRK joined the UN out of the desire to defend peace and security of the region and the world and to achieve common prosperity of mankind together with the entire UN membership. To this end, we have remained faithful to the purposes and principles of the UN Charter.
+
+As a UN member state, the DPRK government maintains its invariable stand to actively work towards the establishment of genuine international justice and a new fair international order in compliance with the UN Charter and international law.
+
+In particular, I affirm that the DPRK government led by the present Head of State of the Democratic People’s Republic of Korea will direct positive efforts to promote international justice, co -prosperity, and peace and security of the region and beyond while firmly defending her national sovereignty, security interests, and the right to development.
+
+Thank you.
